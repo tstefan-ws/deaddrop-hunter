@@ -6,7 +6,7 @@ and let GitHub Pages host the dashboard (path B with `--push`).
 | | A. GitHub Pages + Actions | B. WSL / Linux self-hosted | C. Docker |
 |---|---|---|---|
 | Cost | free (public repo) | free | free |
-| Runs hunts | GitHub Actions, every 6 h | cron or systemd timer | container loop, every 6 h |
+| Runs hunts | GitHub Actions, every 3 h | cron or systemd timer | container loop, every 3 h |
 | Dashboard | `https://tstefan-ws.github.io/deaddrop-hunter/` | `http://localhost:8080` (or Pages via `--push`) | `http://localhost:8080` |
 | Keys | Actions secrets | `.env` | `.env` |
 
@@ -80,7 +80,7 @@ finishes, the URL is shown on the deploy job and under *Settings -> Pages*:
 
 **<https://tstefan-ws.github.io/deaddrop-hunter/>** - API: `.../feeds/api/v1/index.json`.
 
-From then on `hunt.yml` runs every 6 hours (`17 */6 * * *` UTC). Changes to `web/`,
+From then on `hunt.yml` runs every 3 hours (`17 */3 * * *` UTC). Changes to `web/`,
 `scripts/build_site.py` or the exporters on `main` redeploy the site via `deploy-pages.yml`.
 
 ### Troubleshooting
@@ -170,8 +170,8 @@ crontab -e
 ```
 
 ```cron
-# every 6 hours at minute 17
-17 */6 * * * cd $HOME/deaddrop-hunter && scripts/run_hunt.sh >> logs/hunt.log 2>&1
+# every 3 hours at minute 17
+17 */3 * * * cd $HOME/deaddrop-hunter && scripts/run_hunt.sh >> logs/hunt.log 2>&1
 ```
 
 To start cron automatically without systemd, add to `/etc/wsl.conf`:
@@ -206,10 +206,10 @@ EOF
 
 cat > ~/.config/systemd/user/deaddrop-hunter.timer <<'EOF'
 [Unit]
-Description=Run deaddrop-hunter every 6 hours
+Description=Run deaddrop-hunter every 3 hours
 
 [Timer]
-OnCalendar=*-*-* 00/6:17:00
+OnCalendar=*-*-* 00/3:17:00
 Persistent=true
 RandomizedDelaySec=300
 

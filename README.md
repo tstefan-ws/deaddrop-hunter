@@ -10,7 +10,7 @@
 deaddrop-hunter sweeps public chains for the fingerprints of blockchain dead drops (event
 topics, function selectors, known operator wallets), decodes the values stored in them,
 extracts IOCs, clusters contracts by operator, and publishes everything as JSON, STIX 2.1,
-a MISP feed, CSV/TXT blocklists, a static public API and a dashboard, refreshed every 6 hours
+a MISP feed, CSV/TXT blocklists, a static public API and a dashboard, refreshed every 3 hours
 by GitHub Actions.
 
 **Live dashboard:** <https://tstefan-ws.github.io/deaddrop-hunter/> ·
@@ -130,7 +130,7 @@ Full guide: **[docs/deploy.md](docs/deploy.md)** (GitHub Pages, WSL self-hosted,
 2. *Settings -> Pages -> Source: GitHub Actions*; *Settings -> Actions -> General -> Workflow
    permissions: Read and write*.
 3. *Actions -> hunt -> Run workflow*. The dashboard appears at
-   <https://tstefan-ws.github.io/deaddrop-hunter/> and refreshes every 6 hours.
+   <https://tstefan-ws.github.io/deaddrop-hunter/> and refreshes every 3 hours.
 
 **WSL (Ubuntu) quick start:**
 ```bash
@@ -196,7 +196,7 @@ curl -s $B/changes.json | jq '.data[:5]'
 curl -s $B/contracts/polygon/0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc.json | jq '.data'
 ```
 
-- **Update cadence:** every 6 hours (scheduled hunt), plus on every dashboard deploy.
+- **Update cadence:** every 3 hours (scheduled hunt), plus on every dashboard deploy.
 - **License:** data is **CC0-1.0, TLP:CLEAR**; code is MIT. Provided as is, without warranty.
 - **Fair use:** it is static and cache-friendly (served by GitHub's CDN). Poll at most every
   hour, use `If-None-Match`/`If-Modified-Since`, and check `index.json` sha256 before downloading
