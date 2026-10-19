@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T12:56:02Z",
+  "generated_at": "2026-10-19T19:24:09Z",
   "tool_version": "0.1.0",
   "cursors": [
     {
       "chain": "aptos",
       "hunt_id": "nonevm",
-      "updated_at": "2026-10-19T12:23:11Z",
+      "updated_at": "2026-10-19T19:24:11Z",
       "accounts": {
         "0xbe037400670fbf1c32364f762975908dc43eeb38759263e7dfcdabc76380811e": {
           "next_seq": 22,
@@ -34,62 +34,62 @@
       "chain": "arbitrum",
       "hunt_id": "dataupdated-string-string",
       "from_block": 485166416,
-      "to_block": 516283695,
-      "updated_at": "2026-10-19T12:23:09Z"
+      "to_block": 516377323,
+      "updated_at": "2026-10-19T19:24:09Z"
     },
     {
       "chain": "avalanche",
       "hunt_id": "dataupdated-string-string",
       "from_block": 94076725,
-      "to_block": 97967725,
-      "updated_at": "2026-10-19T12:23:09Z"
+      "to_block": 97995246,
+      "updated_at": "2026-10-19T19:24:09Z"
     },
     {
       "chain": "base",
       "hunt_id": "dataupdated-string-string",
       "from_block": 48921842,
-      "to_block": 52811621,
-      "updated_at": "2026-10-19T12:23:09Z"
+      "to_block": 52824251,
+      "updated_at": "2026-10-19T19:24:09Z"
     },
     {
       "chain": "ethereum",
       "hunt_id": "dataupdated-string-string",
       "from_block": 25578292,
-      "to_block": 26226589,
-      "updated_at": "2026-10-19T12:23:09Z"
+      "to_block": 26228690,
+      "updated_at": "2026-10-19T19:24:09Z"
     },
     {
       "chain": "optimism",
       "hunt_id": "dataupdated-string-string",
       "from_block": 154517125,
-      "to_block": 158406906,
-      "updated_at": "2026-10-19T12:23:09Z"
+      "to_block": 158419535,
+      "updated_at": "2026-10-19T19:24:09Z"
     },
     {
       "chain": "polygon",
       "hunt_id": "dataupdated-string-string",
       "from_block": 92096196,
-      "to_block": 95804829,
-      "updated_at": "2026-10-19T12:23:09Z"
+      "to_block": 95821669,
+      "updated_at": "2026-10-19T19:24:09Z"
     },
     {
       "chain": "polygon",
       "hunt_id": "selector-68446ead",
       "from_block": 94569512,
-      "to_block": 95804829,
-      "updated_at": "2026-10-19T12:23:09Z"
+      "to_block": 95821669,
+      "updated_at": "2026-10-19T19:24:09Z"
     },
     {
       "chain": "polygon",
       "hunt_id": "watch-wallet",
       "from_block": 75232416,
-      "to_block": 95804829,
-      "updated_at": "2026-10-19T12:23:09Z"
+      "to_block": 95821669,
+      "updated_at": "2026-10-19T19:24:09Z"
     },
     {
       "chain": "solana",
       "hunt_id": "nonevm",
-      "updated_at": "2026-10-19T12:23:13Z",
+      "updated_at": "2026-10-19T19:24:13Z",
       "accounts": {
         "28PKnu7RzizxBzFPoLp69HLXp9bJL3JFtT2s5QzHsEA2": {
           "last_signature": "3css4USgxvV2v1sHsSbkmUcaxHbva8hSsYXVvzaHRBVkYL9DsHYBB89Q8yVFgKWWeyXjuHoKSYHtjdAgmtmRgyiA",
@@ -112,7 +112,7 @@
     {
       "chain": "tron",
       "hunt_id": "nonevm",
-      "updated_at": "2026-10-19T12:23:18Z",
+      "updated_at": "2026-10-19T19:24:18Z",
       "accounts": {
         "TMfKQEd7TJJa5xNZJZ2Lep838vrzrs7mAP": {
           "last_timestamp": 1782182145000,
