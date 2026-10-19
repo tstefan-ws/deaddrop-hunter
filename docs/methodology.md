@@ -147,6 +147,16 @@ once and judges it on shape alone: a selector from a confirmed family, or a smal
 an owner accessor (`bytecode.Shape`). Survivors are asked what they hold with `eth_call`, and
 the answer goes through the usual decoders.
 
+A contract that exposes no reader is not finished with. Storage is public whether or not a
+function returns it, so the opening slots are read directly: a Solidity string of 31 bytes or
+less sits inside its slot, and a longer one keeps its length there and its bytes at a hashed
+location, which we follow. Failing that, the code itself is checked: some operators store the
+payload as a throwaway contract's bytecode, because code is cheaper to read than storage.
+Measured on 2026-10-19, this turned 7 of 10 silent candidates into read values, including the
+encrypted one and several the operator had evidently used as rehearsals (`test`, `127.0.0.1`).
+`deaddrop-hunter probe` re-reads anything on file that has never given up a value; such an
+event carries a `probe:` id instead of a transaction hash, because no transaction produced it.
+
 Shape alone never convicts. A contract that answers with a decodable value becomes a finding
 like any other; one that matches the shape and stays silent is recorded with
 `evidence: candidate` and scored accordingly. The known misses are honest ones: an encrypted

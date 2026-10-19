@@ -25,10 +25,20 @@ Cost is dominated by the block fetch, so the caller clamps the range (hunts.toml
 
 from __future__ import annotations
 
+import hashlib
 import logging
 from concurrent.futures import ThreadPoolExecutor
 
-from ..bytecode import SETTERS, created_address, probe_selectors, shape_of
+from ..bytecode import (
+    SETTERS,
+    code_as_text,
+    created_address,
+    long_string_base,
+    probe_selectors,
+    shape_of,
+    slot_long_string_len,
+    slot_short_string,
+)
 from ..classify import extract_iocs, is_dual_use, parse_json
 from ..config import Chain
 from ..decoders import AbiError, abi_decode, decode_input_strings, is_printable, raw_text
@@ -47,6 +57,9 @@ MAX_VALUE_LEN = 64 * 1024
 # up after a gap, while staying a polite guest on a free public endpoint.
 BLOCK_WORKERS = 6
 CHUNK = 60
+# Storage is public whether or not a function exposes it. Solidity lays contract variables
+# out from slot 0, so the first handful of slots is where a small contract keeps its string.
+STORAGE_SLOTS = 8
 # An update carries a string argument, so the calldata is at least a selector plus three
 # words, and a sane upper bound keeps a blob of compiled code from being decoded as text.
 MIN_CALL_LEN = 10 + 192
@@ -87,6 +100,82 @@ def _read_value(ctx: HuntContext, chain: Chain, address: str, sel: str) -> bytes
     return value
 
 
+def _code_text(code: str) -> bytes | None:
+    """The payload stored as the contract's own code rather than inside it."""
+    text = code_as_text(code)
+    return text.encode() if text else None
+
+
+def read_storage_text(ctx: HuntContext, chain: Chain, address: str,
+                      slots: int = STORAGE_SLOTS) -> bytes | None:
+    """Read the opening storage slots and return the first readable string.
+
+    A dead drop that exposes no getter still has to keep the value somewhere, and storage is
+    public: anyone can read any slot. Short strings sit inline in their slot; longer ones
+    keep their length there and their bytes at a hashed location, which we follow.
+    """
+    rpc = ctx.rpc(chain)
+    first = rpc.chain.rpcs[:1] or None
+    for slot in range(slots):
+        try:
+            word = bytes.fromhex((rpc.get_storage_at(address, slot, endpoints=first) or "0x")[2:])
+        except (RpcError, ValueError):
+            return None                  # endpoint will not serve storage: give up quietly
+        if len(word) != 32 or not any(word):
+            continue
+        short = slot_short_string(word)
+        if short and len(short) >= MIN_VALUE_LEN:
+            return short.encode()
+        length = slot_long_string_len(word)
+        if not length:
+            continue
+        base = long_string_base(slot)
+        out = bytearray()
+        for i in range((min(length, MAX_VALUE_LEN) + 31) // 32):
+            try:
+                chunk = rpc.get_storage_at(address, hex(base + i), endpoints=first)
+            except RpcError:
+                break
+            out += bytes.fromhex((chunk or "0x")[2:].rjust(64, "0"))
+        text = bytes(out[:length])
+        if len(text) >= MIN_VALUE_LEN:
+            return text
+    return None
+
+
+def probe_contract(ctx: HuntContext, chain: Chain, address: str, *, hunt_id: str = HUNT_ID,
+                   block: int = 0, ts: str | None = None, tx_hash: str | None = None,
+                   sender: str | None = None, now: str | None = None) -> dict | None:
+    """Ask one contract what it holds: reader first, then storage, then its own code.
+
+    Returns an event, or None when nothing readable is there. Used both on a fresh creation
+    and to re-read contracts already on file that have never given up a value.
+    """
+    try:
+        code = ctx.rpc(chain).get_code(address)
+    except RpcError as e:
+        log.warning("%s: eth_getCode %s failed: %s", chain.key, address, e)
+        return None
+    shape = shape_of(code)
+    if not shape.is_contract:
+        return None
+    selector = None
+    value = None
+    for sel in probe_selectors(shape):
+        value = _read_value(ctx, chain, address, sel)
+        if value is not None:
+            selector = sel
+            break
+    if value is None:
+        value = read_storage_text(ctx, chain, address) or _code_text(code)
+    if value is None:
+        return None
+    return make_event(chain=chain.key, block=block, timestamp=ts or now, tx_hash=tx_hash or
+                      f"probe:{hashlib.sha256((chain.key + address).encode()).hexdigest()[:16]}",
+                      contract=address, sender=sender, selector=selector, hunt_id=hunt_id,
+                      old=None, new=value)
+
+
 def inspect_creation(ctx: HuntContext, chain: Chain, *, block: int, ts: str | None, tx_hash: str,
                      deployer: str, nonce: int) -> dict | None:
     """One creation -> an event, or None when the contract is not drop-shaped."""
@@ -107,8 +196,15 @@ def inspect_creation(ctx: HuntContext, chain: Chain, *, block: int, ts: str | No
         return make_event(chain=chain.key, block=block, timestamp=ts, tx_hash=tx_hash,
                           contract=address, sender=deployer, selector=sel, hunt_id=HUNT_ID,
                           old=None, new=value)
-    # Shape matches, nothing readable: an encrypted payload, data kept in storage, or an
-    # ordinary owned contract. Recorded as a candidate rather than thrown away.
+    # No reader answered. Two places left where the value can still be sitting in the open.
+    value = read_storage_text(ctx, chain, address) or _code_text(code)
+    if value is not None:
+        log.info("%s: %s gave up %d bytes without a reader", chain.key, address, len(value))
+        return make_event(chain=chain.key, block=block, timestamp=ts, tx_hash=tx_hash,
+                          contract=address, sender=deployer, selector=None, hunt_id=HUNT_ID,
+                          old=None, new=value)
+    # Shape matches, nothing readable anywhere: an encrypted payload, or an ordinary owned
+    # contract. Recorded as a candidate rather than thrown away.
     log.info("%s: %s matches the shape but answered nothing (code %dB, hash %s)",
              chain.key, address, shape.size, shape.code_hash)
     return make_event(chain=chain.key, block=block, timestamp=ts, tx_hash=tx_hash,

@@ -204,7 +204,9 @@ class Dataset:
 
     def explorer_tx_url(self, chain: str, tx_hash: str) -> str | None:
         base = self.explorers.get(chain)
-        if not base:
+        # A value read straight out of storage has no transaction behind it and carries a
+        # "probe:" id instead; linking that to an explorer would invent a page that is not there.
+        if not base or not tx_hash or tx_hash.startswith("probe:"):
             return None
         kind = self.chain_types.get(chain, chain)
         return base + TX_PATHS.get(kind, DEFAULT_TX_PATH).format(h=tx_hash)

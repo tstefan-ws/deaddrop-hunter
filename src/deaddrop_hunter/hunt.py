@@ -250,6 +250,50 @@ def _nonevm_cursor(chain_key: str, cur: dict, now: str) -> dict:
     return out
 
 
+def run_probe(config: Config, data_dir: Path, ctx: HuntContext | None = None,
+              now: str | None = None, chains: list[str] | None = None) -> HuntReport:
+    """Ask every contract we have never decoded a value from what it is holding.
+
+    Reader, then storage slots, then the code itself. Values read this way have no
+    transaction behind them, so the event carries a ``probe:`` id rather than pretending to
+    one; re-probing an unchanged value adds nothing, while a changed one lands as a rotation.
+    """
+    from .collectors.block_watch import HUNT_ID as BLOCK_HUNT
+    from .collectors.block_watch import probe_contract
+
+    now = now or now_iso()
+    ctx = ctx or make_context(config)
+    data = load_data(data_dir)
+    report = HuntReport()
+    decoded = {(e["chain"], e["contract"]) for e in data["events"]
+               if e.get("new_decoded") is not None or e.get("old_decoded") is not None}
+    targets = [c for c in data["contracts"]
+               if (c["chain"], c["address"]) not in decoded
+               and (chains is None or c["chain"] in chains)
+               and (config.chains.get(c["chain"]) or Chain(key="")).is_evm]
+    new_events: list[dict] = []
+    for c in targets:
+        chain = config.chains[c["chain"]]
+        label = f"{c['chain']}/probe {c['address'][:12]}…"
+        try:
+            ev = probe_contract(ctx, chain, c["address"], hunt_id=BLOCK_HUNT, now=now)
+        except (RpcError, OSError) as e:
+            report.failed.append(f"{label} ({e})")
+            continue
+        if ev is None:
+            report.skipped.append(f"{label} (nothing readable)")
+            continue
+        new_events.append(ev)
+        report.ran.append(f"{label} ({len(ev['new_raw'] or '')} chars)")
+    merged, added = merge_events(data["events"], new_events)
+    report.added = added
+    built = build(merged, config, data["meta"].get("cursors", []), now=now,
+                  existing_iocs=data["iocs"], previous=data)
+    report.paths = write_data(data_dir, built)
+    report.counts = built["meta"]["counts"]
+    return report
+
+
 def run_rebuild(config: Config, data_dir: Path, now: str | None = None) -> dict:
     data = load_data(data_dir)
     built = build(data["events"], config, data["meta"].get("cursors", []), now=now or now_iso(),

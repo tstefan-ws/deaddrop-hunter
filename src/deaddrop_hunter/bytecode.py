@@ -82,6 +82,24 @@ def selectors(code: str | bytes) -> tuple[str, ...]:
     return tuple(sorted({"0x" + m.group(1) for m in _PUSH4.finditer(b.hex())}))
 
 
+def code_as_text(code: str | bytes, min_len: int = 16) -> str | None:
+    """Some operators store the payload as a contract's code rather than inside it, because
+    code is cheaper to read. Returns the text when the code is text rather than instructions."""
+    b = normalize(code)
+    if len(b) < min_len:
+        return None
+    body = b[1:] if b[:1] == b"\x00" else b          # data contracts often lead with a STOP
+    printable = sum(1 for c in body if 32 <= c < 127 or c in (9, 10, 13))
+    if printable / len(body) < 0.9:
+        return None
+    try:
+        text = body.decode("utf-8", "ignore").strip("\x00").strip()
+    except UnicodeDecodeError:
+        return None
+    return text if len(text) >= min_len and text.isprintable() else None
+
+
+
 @dataclass(frozen=True)
 class Shape:
     """What the code alone says about a contract."""
@@ -92,6 +110,8 @@ class Shape:
     getters: tuple[str, ...] = field(default=())
     setters: tuple[str, ...] = field(default=())
     admins: tuple[str, ...] = field(default=())
+    # The code is readable text rather than instructions: the payload is the contract.
+    is_data: bool = False
 
     @property
     def is_contract(self) -> bool:
@@ -113,7 +133,7 @@ class Shape:
         """
         if not self.is_contract:
             return False
-        if self.known_family:
+        if self.known_family or self.is_data:
             return True
         return bool(self.admins) and self.size <= MAX_CANDIDATE_SIZE
 
@@ -133,6 +153,7 @@ def shape_of(code: str | bytes) -> Shape:
         getters=tuple(s for s in sels if s in GETTERS),
         setters=tuple(s for s in sels if s in SETTERS),
         admins=tuple(s for s in sels if s in ADMINS),
+        is_data=code_as_text(code) is not None,
     ) if b is not None else Shape(0, code_hash(b""))
 
 
@@ -149,6 +170,36 @@ def probe_selectors(shape: Shape, limit: int = 6) -> tuple[str, ...]:
             continue
         out.append(s)
     return tuple(out[:limit])
+
+
+# A Solidity string of 31 bytes or less lives inside its slot, with the length in the last
+# byte as 2*len; a longer one keeps 2*len+1 there and the bytes at keccak(slot), word by word.
+def slot_short_string(word: bytes) -> str | None:
+    """Text stored inline in a slot, or None when the slot holds something else."""
+    if len(word) != 32 or word[31] & 1:
+        return None
+    length = word[31] >> 1
+    if not 1 <= length <= 31:
+        return None
+    raw = word[:length]
+    try:
+        text = raw.decode("utf-8")
+    except UnicodeDecodeError:
+        return None
+    return text if text.isprintable() else None
+
+
+def slot_long_string_len(word: bytes) -> int | None:
+    """Length of a string whose bytes live at keccak(slot), or None."""
+    if len(word) != 32 or not word[31] & 1:
+        return None
+    length = (int.from_bytes(word, "big") - 1) // 2
+    return length if 32 <= length <= 64 * 1024 else None
+
+
+def long_string_base(slot: int) -> int:
+    """Where the bytes of a long string in `slot` actually start."""
+    return int.from_bytes(keccak256(slot.to_bytes(32, "big")), "big")
 
 
 def _rlp_len(prefix: int, n: int) -> bytes:

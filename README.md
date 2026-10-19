@@ -100,7 +100,8 @@ python scripts/build_site.py --out site
 python -m http.server -d site 8080            # open http://localhost:8080
 ```
 
-Other commands: `deaddrop-hunter rebuild` (re-derive contracts/IOCs/clusters from
+Other commands: `deaddrop-hunter probe` (re-read contracts no value has ever been decoded
+from: reader, then storage slots, then the code itself), `deaddrop-hunter rebuild` (re-derive contracts/IOCs/clusters from
 `data/events.json` after changing decoders or classifiers), `deaddrop-hunter --help`.
 With `make`: `make install`, `make all`, `make serve`.
 

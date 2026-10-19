@@ -59,6 +59,25 @@ def cmd_hunt(args: argparse.Namespace) -> int:
     return 1 if rep.failed and not rep.ran else 0
 
 
+def cmd_probe(args: argparse.Namespace) -> int:
+    from .config import load_config
+    from .hunt import run_probe
+
+    cfg = load_config(args.config)
+    data_dir = Path(args.data or cfg.data_dir)
+    rep = run_probe(cfg, data_dir, chains=_csv(args.chains))
+    for line in rep.ran:
+        print(f"read     {line}")
+    for line in rep.skipped:
+        print(f"silent   {line}")
+    for line in rep.failed:
+        print(f"FAILED   {line}")
+    c = rep.counts
+    print(f"new values: {rep.added}; totals: {c['events']} events, {c['contracts']} contracts, "
+          f"{c['iocs']} iocs -> {data_dir}")
+    return 0
+
+
 def cmd_rebuild(args: argparse.Namespace) -> int:
     from .config import load_config
     from .hunt import run_rebuild
@@ -150,6 +169,13 @@ def build_parser() -> argparse.ArgumentParser:
     h.add_argument("--days", type=int, help="lookback window in days (default: settings.default_lookback_days)")
     h.add_argument("--hunts", help="comma-separated hunt ids (use 'watch-wallet' for wallet watching)")
     h.set_defaults(func=cmd_hunt)
+
+    pr = sub.add_parser("probe", help="re-read contracts no value has ever been decoded from "
+                                      "(reader, then storage slots, then the code itself)")
+    pr.add_argument("--config", default=DEFAULT_CONFIG)
+    pr.add_argument("--data", default=None)
+    pr.add_argument("--chains", default=None, help="comma-separated chain keys (default: all EVM)")
+    pr.set_defaults(func=cmd_probe)
 
     r = sub.add_parser("rebuild", help="recompute derived files from events.json (no network)")
     r.add_argument("--config", default=DEFAULT_CONFIG)

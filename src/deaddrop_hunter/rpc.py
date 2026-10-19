@@ -22,6 +22,7 @@ READ_ONLY_METHODS = frozenset({
     "eth_getTransactionReceipt",
     "eth_getBlockByNumber",
     "eth_getCode",
+    "eth_getStorageAt",
     "eth_call",
     "eth_chainId",
 })
@@ -169,6 +170,13 @@ class RpcClient:
 
     def get_code(self, address: str) -> str:
         return self.call("eth_getCode", [address, "latest"])
+
+    def get_storage_at(self, address: str, slot: int | str, block: str = "latest",
+                       endpoints: Sequence[RpcEndpoint] | None = None) -> str:
+        """Read one storage slot. Contract storage is public even when no function exposes
+        it, which is how a dead drop with no reader still gives up its value."""
+        key = slot if isinstance(slot, str) else hex(slot)
+        return self.call("eth_getStorageAt", [address, key, block], endpoints=endpoints)
 
     def get_logs_sweep(
         self,

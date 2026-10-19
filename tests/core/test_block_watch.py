@@ -247,3 +247,63 @@ def test_a_long_json_config_is_still_a_finding():
     cfg = '{"algo":"rx/0","pool":"45.141.233.19:3333","pass":"x","note":"' + "y" * 300 + '"}'
     ev = block_watch.call_event(chain, _tx("deadbeef", cfg), block=7, ts=None)
     assert ev is not None and "45.141.233.19" in ev["new_decoded"]
+
+
+# ---------------------------------------------------------------------------------------
+# values that no reader exposes: storage slots and code-as-data
+# ---------------------------------------------------------------------------------------
+
+def _slot_word(text: str) -> str:
+    raw = text.encode()
+    assert len(raw) <= 31
+    return "0x" + (raw + b"\x00" * (31 - len(raw)) + bytes([len(raw) * 2])).hex()
+
+
+class StorageChain(FakeChain):
+    """A contract that exposes no working reader but keeps a string in slot 2."""
+
+    def __init__(self, code: str, slot_values: dict[int, str]):
+        super().__init__(code, None)
+        self.slots = slot_values
+
+    def __call__(self, method, url, body, headers, timeout):
+        import json as _json
+        req = _json.loads(body)
+        if req["method"] == "eth_getStorageAt":
+            slot = int(req["params"][1], 16)
+            res = self.slots.get(slot, "0x" + "00" * 32)
+            return 200, _json.dumps({"jsonrpc": "2.0", "id": req["id"], "result": res}).encode()
+        return super().__call__(method, url, body, headers, timeout)
+
+
+def test_storage_gives_up_a_value_no_function_exposes():
+    """Seven of our ten silent candidates turned out to be holding their value here."""
+    sim = StorageChain(_code(ADMIN, "0badf00d"), {2: _slot_word("http://198.51.100.4/x")})
+    ctx, chain = _ctx(sim)
+    assert block_watch.read_storage_text(ctx, chain, "0x" + "ee" * 20) == b"http://198.51.100.4/x"
+
+    (ev,) = block_watch.collect(ctx, chain, 100, 100)
+    assert ev["new_decoded"] == "http://198.51.100.4/x"
+    assert ev["selector"] is None          # nothing answered; the value came from storage
+
+
+def test_a_contract_whose_code_is_the_payload():
+    """Storing the text as the contract's own code is cheaper to read than storage."""
+    payload = "0x00" + b"http://203.0.113.11/beacon".hex()
+    sim = FakeChain(payload, None)
+    ctx, chain = _ctx(sim)
+    (ev,) = block_watch.collect(ctx, chain, 100, 100)
+    assert ev["new_decoded"] == "http://203.0.113.11/beacon"
+
+
+def test_probe_events_do_not_claim_a_transaction():
+    """A value read from storage has no transaction behind it, and must not invent one."""
+    from deaddrop_hunter.exporters._common import Dataset
+
+    sim = StorageChain(_code(ADMIN, "0badf00d"), {0: _slot_word("http://198.51.100.4/x")})
+    ctx, chain = _ctx(sim)
+    ev = block_watch.probe_contract(ctx, chain, "0x" + "ee" * 20, now="2026-10-19T21:00:00Z")
+    assert ev["tx_hash"].startswith("probe:")
+    ds = Dataset(meta={}, contracts=[], wallets=[], events=[], iocs=[], clusters=[],
+                 explorers={"polygon": "https://polygonscan.com"})
+    assert ds.explorer_tx_url("polygon", ev["tx_hash"]) is None
