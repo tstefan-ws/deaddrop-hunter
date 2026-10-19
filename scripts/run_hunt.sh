@@ -75,6 +75,18 @@ if [ "$PUSH" -eq 1 ]; then
   if git diff --cached --quiet; then
     log "no data changes to push"
   else
+    # Cursors in meta.json move every cycle, so committing whatever changed would write a
+    # commit every few minutes. Findings go out at once; a cursor-only heartbeat waits until
+    # the last one is an hour old. Same rule as the hunt workflow.
+    if git diff --cached --quiet -- data/ ':(exclude)data/meta.json'; then
+      last=$(git log -1 --format=%ct -- data/meta.json 2>/dev/null || echo 0)
+      if [ $(( $(date -u +%s) - ${last:-0} )) -lt 3300 ]; then
+        log "cursors only, last heartbeat < 55 min ago: not committing"
+        git reset -q
+        log "done"
+        exit 0
+      fi
+    fi
     git commit -m "data: hunt $(date -u +%Y-%m-%dT%H:%M:%SZ)"
     branch="$(git rev-parse --abbrev-ref HEAD)"
     git pull --rebase origin "$branch"
