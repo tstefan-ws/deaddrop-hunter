@@ -66,6 +66,7 @@ data has no "old value"), and `decoder` may also be `memo`.
   "first_seen": "2026-08-01T10:00:00Z",
   "last_seen": "2026-10-18T09:12:44Z",
   "status": "active",
+  "code_hash": "62d0c35063de139e",
   "discovered_at": "2026-10-19T20:00:00Z",
   "new": false,
   "evidence": "decoded",
@@ -75,6 +76,11 @@ data has no "old value"), and `decoder` may also be `memo`.
 }
 ```
 `status`: `active` if updated in the last 30 days, else `dormant`.
+`code_hash`: short hash of the runtime bytecode with the compiler's trailing metadata
+stripped, so two deployments of one source match. Contracts sharing it were built from the
+same template, which links a redeploy across a fresh wallet, another chain or a renamed
+event. It is a relation, not a merge: an off-the-shelf kit can be used by unrelated people,
+so clusters are still formed only by shared operator wallets.
 `discovered_at`: when the entry first appeared in *our* data, which is not when it appeared
 on-chain: a contract deployed in March but found today is new to the reader, not to the chain.
 `new`: `discovered_at` falls inside `settings.new_window_hours` (default 24), so a reader can

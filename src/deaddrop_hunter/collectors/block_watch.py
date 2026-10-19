@@ -143,6 +143,16 @@ def read_storage_text(ctx: HuntContext, chain: Chain, address: str,
     return None
 
 
+def contract_blueprint(ctx: HuntContext, chain: Chain, address: str) -> str | None:
+    """The template a contract was built from, even when it gives up nothing else."""
+    try:
+        code = ctx.rpc(chain).get_code(address)
+    except RpcError:
+        return None
+    shape = shape_of(code)
+    return shape.code_hash if shape.is_contract else None
+
+
 def probe_contract(ctx: HuntContext, chain: Chain, address: str, *, hunt_id: str = HUNT_ID,
                    block: int = 0, ts: str | None = None, tx_hash: str | None = None,
                    sender: str | None = None, now: str | None = None) -> dict | None:
@@ -170,10 +180,12 @@ def probe_contract(ctx: HuntContext, chain: Chain, address: str, *, hunt_id: str
         value = read_storage_text(ctx, chain, address) or _code_text(code)
     if value is None:
         return None
-    return make_event(chain=chain.key, block=block, timestamp=ts or now, tx_hash=tx_hash or
-                      f"probe:{hashlib.sha256((chain.key + address).encode()).hexdigest()[:16]}",
-                      contract=address, sender=sender, selector=selector, hunt_id=hunt_id,
-                      old=None, new=value)
+    ev = make_event(chain=chain.key, block=block, timestamp=ts or now, tx_hash=tx_hash or
+                    f"probe:{hashlib.sha256((chain.key + address).encode()).hexdigest()[:16]}",
+                    contract=address, sender=sender, selector=selector, hunt_id=hunt_id,
+                    old=None, new=value)
+    ev["code_hash"] = shape.code_hash          # the template this was built from
+    return ev
 
 
 def inspect_creation(ctx: HuntContext, chain: Chain, *, block: int, ts: str | None, tx_hash: str,
@@ -193,23 +205,29 @@ def inspect_creation(ctx: HuntContext, chain: Chain, *, block: int, ts: str | No
         if value is None:
             continue
         log.info("%s: %s answered %s with %d bytes", chain.key, address, sel, len(value))
-        return make_event(chain=chain.key, block=block, timestamp=ts, tx_hash=tx_hash,
-                          contract=address, sender=deployer, selector=sel, hunt_id=HUNT_ID,
-                          old=None, new=value)
+        ev = make_event(chain=chain.key, block=block, timestamp=ts, tx_hash=tx_hash,
+                        contract=address, sender=deployer, selector=sel, hunt_id=HUNT_ID,
+                        old=None, new=value)
+        ev["code_hash"] = shape.code_hash
+        return ev
     # No reader answered. Two places left where the value can still be sitting in the open.
     value = read_storage_text(ctx, chain, address) or _code_text(code)
     if value is not None:
         log.info("%s: %s gave up %d bytes without a reader", chain.key, address, len(value))
-        return make_event(chain=chain.key, block=block, timestamp=ts, tx_hash=tx_hash,
-                          contract=address, sender=deployer, selector=None, hunt_id=HUNT_ID,
-                          old=None, new=value)
+        ev = make_event(chain=chain.key, block=block, timestamp=ts, tx_hash=tx_hash,
+                        contract=address, sender=deployer, selector=None, hunt_id=HUNT_ID,
+                        old=None, new=value)
+        ev["code_hash"] = shape.code_hash
+        return ev
     # Shape matches, nothing readable anywhere: an encrypted payload, or an ordinary owned
     # contract. Recorded as a candidate rather than thrown away.
     log.info("%s: %s matches the shape but answered nothing (code %dB, hash %s)",
              chain.key, address, shape.size, shape.code_hash)
-    return make_event(chain=chain.key, block=block, timestamp=ts, tx_hash=tx_hash,
-                      contract=address, sender=deployer, selector=None, hunt_id=HUNT_ID,
-                      old=None, new=None)
+    ev = make_event(chain=chain.key, block=block, timestamp=ts, tx_hash=tx_hash,
+                    contract=address, sender=deployer, selector=None, hunt_id=HUNT_ID,
+                    old=None, new=None)
+    ev["code_hash"] = shape.code_hash
+    return ev
 
 
 def _blocks(rpc, numbers: list[int]) -> list[tuple[int, dict | None]]:

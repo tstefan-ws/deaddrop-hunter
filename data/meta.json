@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T21:12:07Z",
+  "generated_at": "2026-10-19T21:16:33Z",
   "new_window_hours": 72,
   "tool_version": "0.1.0",
   "cursors": [
@@ -179,7 +179,7 @@
   "counts": {
     "contracts": 38,
     "wallets": 29,
-    "events": 940,
+    "events": 952,
     "iocs": 545,
     "clusters": 19
   }

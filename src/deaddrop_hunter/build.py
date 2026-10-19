@@ -349,6 +349,10 @@ def build(
             "first_seen": info["first_seen"],
             "last_seen": info["last_seen"],
             "status": "active" if (info["last_seen"] or "") >= active_cutoff else "dormant",
+            # The template this was compiled from. Survives a fresh wallet, a different
+            # chain and a renamed event, which is what makes it worth keeping.
+            "code_hash": next((e["code_hash"] for e in reversed(info["events"]) if e.get("code_hash")),
+                              (prev_contracts.get((chain, addr)) or {}).get("code_hash")),
             "discovered_at": (_c_disc := discovered(prev_contracts.get((chain, addr)), info["first_seen"])),
             "new": is_new(_c_disc),
             "evidence": "decoded" if has_decoded(info) else "candidate",

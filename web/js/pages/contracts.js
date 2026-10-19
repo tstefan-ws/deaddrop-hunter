@@ -48,6 +48,9 @@ export function renderContracts(ctx) {
       { key: 'status', label: 'Status', sort: (c) => c.status, render: (c) => h('span', { class: 'pills' }, statusPill(c.status), newPill(c.new, c.discovered_at), evidencePill(c.evidence)) },
       { key: 'cluster', label: 'Cluster', sort: (c) => c.cluster_id, render: (c) => clusterPill(d, c.cluster_id) },
       { key: 'op', label: 'Operator', sort: (c) => c.operator_wallets[0] || '', render: (c) => (c.operator_wallets.length ? [walletLink(d, c.chain, c.operator_wallets[0]), c.operator_wallets.length > 1 ? ` +${c.operator_wallets.length - 1}` : ''] : h('span', { class: 'faint' }, '—')) },
+      { key: 'blueprint', label: 'Blueprint', sort: (c) => c.code_hash || '', render: (c) => (c.code_hash
+        ? h('span', { class: 'mono', title: 'Contracts built from the same source share this' }, sanitize(c.code_hash).slice(0, 8))
+        : h('span', { class: 'faint' }, '—')) },
       { key: 'updates', label: 'Updates', num: true, sort: (c) => c.update_count, render: (c) => fmtNum(c.update_count) },
       { key: 'last', label: 'Last seen', sort: (c) => ts(c.last_seen) || 0, render: (c) => timeEl(c.last_seen) },
     ],
@@ -152,6 +155,14 @@ export function renderContract(ctx, chain, address) {
         ['chain', chainLabel(chain)],
         ['family', familyTag(c.family)],
         ['status', h('span', { class: 'pills' }, statusPill(c.status), evidencePill(c.evidence))],
+        ['blueprint', c.code_hash ? (() => {
+          // Contracts compiled from one source are byte-identical, so a shared blueprint
+          // links a redeploy to its family across wallets, chains and renamed events.
+          const kin = d.contracts.filter((x) => x.code_hash === c.code_hash && x.address !== c.address);
+          return h('span', null, h('span', { class: 'mono' }, sanitize(c.code_hash)),
+            kin.length ? h('span', { class: 'faint' }, ` · shared with ${kin.length} other contract${kin.length > 1 ? 's' : ''}: `) : null,
+            ...kin.slice(0, 6).flatMap((x, i) => [i ? ', ' : '', contractLink(x.chain, x.address)]));
+        })() : null],
         ['decoder', h('span', { class: 'mono' }, sanitize(c.decoder))],
         ['selectors', c.selectors.length ? h('span', { class: 'mono' }, c.selectors.map(sanitize).join(', ')) : null],
         ['hunts', c.hunt_ids.length ? h('span', { class: 'mono' }, c.hunt_ids.map(sanitize).join(', ')) : null],

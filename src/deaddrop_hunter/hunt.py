@@ -259,7 +259,7 @@ def run_probe(config: Config, data_dir: Path, ctx: HuntContext | None = None,
     one; re-probing an unchanged value adds nothing, while a changed one lands as a rotation.
     """
     from .collectors.block_watch import HUNT_ID as BLOCK_HUNT
-    from .collectors.block_watch import probe_contract
+    from .collectors.block_watch import contract_blueprint, probe_contract
 
     now = now or now_iso()
     ctx = ctx or make_context(config)
@@ -267,11 +267,14 @@ def run_probe(config: Config, data_dir: Path, ctx: HuntContext | None = None,
     report = HuntReport()
     decoded = {(e["chain"], e["contract"]) for e in data["events"]
                if e.get("new_decoded") is not None or e.get("old_decoded") is not None}
+    # Worth a look if we have never decoded a value from it, or if we do not yet know which
+    # template it was built from: the blueprint is what links a redeploy to its family.
     targets = [c for c in data["contracts"]
-               if (c["chain"], c["address"]) not in decoded
+               if ((c["chain"], c["address"]) not in decoded or not c.get("code_hash"))
                and (chains is None or c["chain"] in chains)
                and (config.chains.get(c["chain"]) or Chain(key="")).is_evm]
     new_events: list[dict] = []
+    code_hashes: dict[tuple[str, str], str | None] = {}
     for c in targets:
         chain = config.chains[c["chain"]]
         label = f"{c['chain']}/probe {c['address'][:12]}…"
@@ -281,12 +284,23 @@ def run_probe(config: Config, data_dir: Path, ctx: HuntContext | None = None,
             report.failed.append(f"{label} ({e})")
             continue
         if ev is None:
+            # Nothing to read, but the code still names the template it came from.
+            code_hashes[(c["chain"], c["address"])] = contract_blueprint(ctx, chain, c["address"])
             report.skipped.append(f"{label} (nothing readable)")
+            continue
+        if ev.get("new_raw") is None and (c["chain"], c["address"]) in decoded:
+            # Nothing new to say about the value; keep the blueprint and move on.
+            code_hashes[(c["chain"], c["address"])] = ev.get("code_hash")
+            report.ran.append(f"{label} (blueprint {ev.get('code_hash')})")
             continue
         new_events.append(ev)
         report.ran.append(f"{label} ({len(ev['new_raw'] or '')} chars)")
     merged, added = merge_events(data["events"], new_events)
     report.added = added
+    for c in data["contracts"]:                      # carry blueprints learned without a value
+        h = code_hashes.get((c["chain"], c["address"]))
+        if h:
+            c["code_hash"] = h
     built = build(merged, config, data["meta"].get("cursors", []), now=now,
                   existing_iocs=data["iocs"], previous=data)
     report.paths = write_data(data_dir, built)

@@ -22,7 +22,7 @@
     ],
     "ioc_count": 36,
     "first_seen": "2026-03-13T19:09:35Z",
-    "last_seen": "2026-10-19T21:09:35Z",
+    "last_seen": "2026-10-19T21:12:56Z",
     "discovered_at": "2026-03-13T19:09:35Z",
     "new": false
   },
@@ -45,7 +45,7 @@
     ],
     "ioc_count": 11,
     "first_seen": "2026-03-13T17:23:13Z",
-    "last_seen": "2026-10-19T21:09:35Z",
+    "last_seen": "2026-10-19T21:12:56Z",
     "discovered_at": "2026-03-13T17:23:13Z",
     "new": false
   },
@@ -94,7 +94,7 @@
     ],
     "ioc_count": 245,
     "first_seen": "2026-03-11T18:54:01Z",
-    "last_seen": "2026-10-19T21:09:35Z",
+    "last_seen": "2026-10-19T21:12:56Z",
     "discovered_at": "2026-10-19T20:00:00Z",
     "new": true
   },
@@ -151,7 +151,7 @@
     ],
     "ioc_count": 4,
     "first_seen": "2026-10-19T20:32:54Z",
-    "last_seen": "2026-10-19T20:32:54Z",
+    "last_seen": "2026-10-19T21:12:56Z",
     "discovered_at": "2026-10-19T20:38:48Z",
     "new": true
   },
@@ -208,7 +208,7 @@
     ],
     "ioc_count": 4,
     "first_seen": "2026-08-16T13:16:12Z",
-    "last_seen": "2026-08-16T13:16:12Z",
+    "last_seen": "2026-10-19T21:12:56Z",
     "discovered_at": "2026-10-19T20:00:00Z",
     "new": true
   },
@@ -285,7 +285,7 @@
     ],
     "ioc_count": 46,
     "first_seen": "2025-11-15T21:29:25Z",
-    "last_seen": "2026-10-19T21:09:35Z",
+    "last_seen": "2026-10-19T21:12:56Z",
     "discovered_at": "2025-11-15T21:29:25Z",
     "new": false
   },

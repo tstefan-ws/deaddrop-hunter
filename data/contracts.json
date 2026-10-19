@@ -16,6 +16,7 @@
     "first_seen": "2025-11-19T14:03:38Z",
     "last_seen": "2026-10-07T16:23:43Z",
     "status": "active",
+    "code_hash": null,
     "discovered_at": "2025-11-19T14:03:38Z",
     "new": false,
     "evidence": "decoded",
@@ -42,6 +43,7 @@
     "first_seen": "2025-06-13T05:54:24Z",
     "last_seen": "2026-06-25T06:41:38Z",
     "status": "dormant",
+    "code_hash": null,
     "discovered_at": "2025-06-13T05:54:24Z",
     "new": false,
     "evidence": "decoded",
@@ -68,6 +70,7 @@
     "first_seen": "2025-11-14T13:49:45Z",
     "last_seen": "2026-10-07T16:09:12Z",
     "status": "active",
+    "code_hash": null,
     "discovered_at": "2025-11-14T13:49:45Z",
     "new": false,
     "evidence": "decoded",
@@ -94,6 +97,7 @@
     "first_seen": "2025-06-13T05:12:56Z",
     "last_seen": "2026-06-23T02:35:39Z",
     "status": "dormant",
+    "code_hash": null,
     "discovered_at": "2025-06-13T05:12:56Z",
     "new": false,
     "evidence": "decoded",
@@ -120,6 +124,7 @@
     "first_seen": "2026-10-19T20:59:55Z",
     "last_seen": "2026-10-19T21:09:35Z",
     "status": "active",
+    "code_hash": null,
     "discovered_at": "2026-10-19T21:00:26Z",
     "new": true,
     "evidence": "decoded",
@@ -135,6 +140,7 @@
     "cluster_id": "c-34c15320",
     "family": "c2-url",
     "hunt_ids": [
+      "block-watch",
       "urlupdated-string-string",
       "watch-wallet"
     ],
@@ -142,13 +148,15 @@
       "0x34c15320d6e8f59f1b66f6c191aaa7f87b894b66"
     ],
     "selectors": [
+      "0x38bcdc1c",
       "0x77343408"
     ],
     "decoder": "plain",
-    "update_count": 262,
+    "update_count": 263,
     "first_seen": "2026-03-11T19:48:41Z",
-    "last_seen": "2026-10-18T12:53:47Z",
+    "last_seen": "2026-10-19T21:12:56Z",
     "status": "active",
+    "code_hash": "81c7a1f8c37e5f26",
     "discovered_at": "2026-10-19T20:00:00Z",
     "new": true,
     "evidence": "decoded",
@@ -180,6 +188,7 @@
     "first_seen": "2026-05-27T10:52:46Z",
     "last_seen": "2026-10-19T21:09:35Z",
     "status": "active",
+    "code_hash": null,
     "discovered_at": "2026-05-27T10:52:46Z",
     "new": false,
     "evidence": "decoded",
@@ -195,6 +204,7 @@
     "cluster_id": "c-24d512cc",
     "family": "xmrig-stealth",
     "hunt_ids": [
+      "block-watch",
       "dataupdated-string-string",
       "watch-wallet"
     ],
@@ -202,13 +212,15 @@
       "0x24d512cc549aaa8a0828f3336b88c55bad43c847"
     ],
     "selectors": [
+      "0x3bc5de30",
       "0x68446ead"
     ],
     "decoder": "xor-1byte:0x5a",
-    "update_count": 24,
+    "update_count": 25,
     "first_seen": "2026-03-13T17:23:13Z",
-    "last_seen": "2026-09-14T00:11:39Z",
-    "status": "dormant",
+    "last_seen": "2026-10-19T21:12:56Z",
+    "status": "active",
+    "code_hash": "62d0c35063de139e",
     "discovered_at": "2026-03-13T17:23:13Z",
     "new": false,
     "evidence": "decoded",
@@ -226,6 +238,7 @@
     "cluster_id": "c-19532c0f",
     "family": "xmrig-stealth",
     "hunt_ids": [
+      "block-watch",
       "dataupdated-string-string",
       "watch-wallet"
     ],
@@ -233,14 +246,16 @@
       "0x19532c0fbaf0fb8c1d0f3fac0b704bf2f4645539"
     ],
     "selectors": [
+      "0x3bc5de30",
       "0x68446ead",
       "0xcef6d209"
     ],
     "decoder": "xor-1byte:0x5a",
-    "update_count": 29,
+    "update_count": 30,
     "first_seen": "2026-05-27T10:50:49Z",
-    "last_seen": "2026-10-16T07:48:03Z",
+    "last_seen": "2026-10-19T21:12:56Z",
     "status": "active",
+    "code_hash": "69faa8bd5b6a70c6",
     "discovered_at": "2026-05-27T10:50:49Z",
     "new": false,
     "evidence": "decoded",
@@ -258,6 +273,7 @@
     "cluster_id": "c-de275ad3",
     "family": "c2-url",
     "hunt_ids": [
+      "block-watch",
       "dataupdated-string-string",
       "watch-wallet"
     ],
@@ -265,14 +281,16 @@
       "0xde275ad38c3352a7cb6b0d3efcbf45900c9716f2"
     ],
     "selectors": [
+      "0x3bc5de30",
       "0x68446ead",
       "0xcef6d209"
     ],
     "decoder": "plain",
-    "update_count": 24,
+    "update_count": 25,
     "first_seen": "2025-11-15T22:00:51Z",
-    "last_seen": "2026-10-13T09:33:17Z",
+    "last_seen": "2026-10-19T21:12:56Z",
     "status": "active",
+    "code_hash": "a947cb0255ea0ae7",
     "discovered_at": "2025-11-15T22:00:51Z",
     "new": false,
     "evidence": "decoded",
@@ -304,6 +322,7 @@
     "first_seen": "2026-06-18T09:50:25Z",
     "last_seen": "2026-10-19T21:09:35Z",
     "status": "active",
+    "code_hash": null,
     "discovered_at": "2026-06-18T09:50:25Z",
     "new": false,
     "evidence": "decoded",
@@ -334,6 +353,7 @@
     "first_seen": "2026-04-09T16:17:37Z",
     "last_seen": "2026-10-19T21:09:35Z",
     "status": "active",
+    "code_hash": null,
     "discovered_at": "2026-04-09T16:17:37Z",
     "new": false,
     "evidence": "candidate",
@@ -349,6 +369,7 @@
     "cluster_id": "c-19532c0f",
     "family": "xmrig-stealth",
     "hunt_ids": [
+      "block-watch",
       "dataupdated-string-string",
       "watch-wallet"
     ],
@@ -356,14 +377,16 @@
       "0x19532c0fbaf0fb8c1d0f3fac0b704bf2f4645539"
     ],
     "selectors": [
+      "0x3bc5de30",
       "0x68446ead",
       "0xcef6d209"
     ],
     "decoder": "xor-1byte:0x5a",
-    "update_count": 42,
+    "update_count": 43,
     "first_seen": "2026-03-15T13:09:09Z",
-    "last_seen": "2026-10-16T07:52:45Z",
+    "last_seen": "2026-10-19T21:12:56Z",
     "status": "active",
+    "code_hash": "62d0c35063de139e",
     "discovered_at": "2026-03-15T13:09:09Z",
     "new": false,
     "evidence": "decoded",
@@ -381,6 +404,7 @@
     "cluster_id": "c-19532c0f",
     "family": "xmrig-stealth",
     "hunt_ids": [
+      "block-watch",
       "dataupdated-string-string",
       "watch-wallet"
     ],
@@ -388,14 +412,16 @@
       "0x19532c0fbaf0fb8c1d0f3fac0b704bf2f4645539"
     ],
     "selectors": [
+      "0x3bc5de30",
       "0x68446ead",
       "0xcef6d209"
     ],
     "decoder": "xor-1byte:0x5a",
-    "update_count": 84,
+    "update_count": 85,
     "first_seen": "2026-03-13T19:09:35Z",
-    "last_seen": "2026-10-16T07:49:12Z",
+    "last_seen": "2026-10-19T21:12:56Z",
     "status": "active",
+    "code_hash": "62d0c35063de139e",
     "discovered_at": "2026-03-13T19:09:35Z",
     "new": false,
     "evidence": "decoded",
@@ -413,19 +439,22 @@
     "cluster_id": "c-34c15320",
     "family": "unknown",
     "hunt_ids": [
+      "block-watch",
       "watch-wallet"
     ],
     "operator_wallets": [
       "0x34c15320d6e8f59f1b66f6c191aaa7f87b894b66"
     ],
     "selectors": [
+      "0x37548408",
       "0x7d0c8f7a"
     ],
     "decoder": "undecoded",
-    "update_count": 9,
+    "update_count": 10,
     "first_seen": "2026-10-14T09:13:08Z",
-    "last_seen": "2026-10-18T12:53:53Z",
+    "last_seen": "2026-10-19T21:12:56Z",
     "status": "active",
+    "code_hash": "f6a218e3ddf7072f",
     "discovered_at": "2026-10-14T09:13:08Z",
     "new": false,
     "evidence": "decoded",
@@ -452,6 +481,7 @@
     "first_seen": "2026-10-19T20:25:53Z",
     "last_seen": "2026-10-19T20:25:53Z",
     "status": "active",
+    "code_hash": "a510a23a9df65e8f",
     "discovered_at": "2026-10-19T20:38:48Z",
     "new": true,
     "evidence": "candidate",
@@ -476,10 +506,11 @@
       "0xb68d1809"
     ],
     "decoder": "plain",
-    "update_count": 1,
+    "update_count": 2,
     "first_seen": "2026-08-16T13:16:12Z",
-    "last_seen": "2026-08-16T13:16:12Z",
-    "status": "dormant",
+    "last_seen": "2026-10-19T21:12:56Z",
+    "status": "active",
+    "code_hash": "20a0696fa16cc1ba",
     "discovered_at": "2026-10-19T20:00:00Z",
     "new": true,
     "evidence": "decoded",
@@ -508,6 +539,7 @@
     "first_seen": "2026-03-11T18:54:01Z",
     "last_seen": "2026-03-11T18:54:01Z",
     "status": "dormant",
+    "code_hash": "62b875e91a94eff6",
     "discovered_at": "2026-03-11T18:54:01Z",
     "new": false,
     "evidence": "candidate",
@@ -534,6 +566,7 @@
     "first_seen": "2026-10-19T20:26:32Z",
     "last_seen": "2026-10-19T20:26:32Z",
     "status": "active",
+    "code_hash": "467ab5f6d09eb9ac",
     "discovered_at": "2026-10-19T20:38:48Z",
     "new": true,
     "evidence": "candidate",
@@ -558,10 +591,11 @@
       "0x55f804b3"
     ],
     "decoder": "plain",
-    "update_count": 1,
+    "update_count": 2,
     "first_seen": "2026-10-19T20:32:54Z",
-    "last_seen": "2026-10-19T20:32:54Z",
+    "last_seen": "2026-10-19T21:12:56Z",
     "status": "active",
+    "code_hash": "b5ff55f9bb2bfc52",
     "discovered_at": "2026-10-19T20:38:48Z",
     "new": true,
     "evidence": "decoded",
@@ -592,6 +626,7 @@
     "first_seen": "2026-04-14T13:38:11Z",
     "last_seen": "2026-04-14T14:02:51Z",
     "status": "dormant",
+    "code_hash": "69faa8bd5b6a70c6",
     "discovered_at": "2026-04-14T13:38:11Z",
     "new": false,
     "evidence": "decoded",
@@ -624,6 +659,7 @@
     "first_seen": "2026-06-28T08:43:22Z",
     "last_seen": "2026-10-19T21:09:35Z",
     "status": "active",
+    "code_hash": null,
     "discovered_at": "2026-06-28T08:43:22Z",
     "new": false,
     "evidence": "decoded",
@@ -639,6 +675,7 @@
     "cluster_id": "c-19532c0f",
     "family": "xmrig-stealth",
     "hunt_ids": [
+      "block-watch",
       "dataupdated-string-string",
       "watch-wallet"
     ],
@@ -646,14 +683,16 @@
       "0x19532c0fbaf0fb8c1d0f3fac0b704bf2f4645539"
     ],
     "selectors": [
+      "0x3bc5de30",
       "0x68446ead",
       "0xcef6d209"
     ],
     "decoder": "xor-1byte:0x5a",
-    "update_count": 29,
+    "update_count": 30,
     "first_seen": "2026-04-14T14:21:53Z",
-    "last_seen": "2026-10-16T07:51:21Z",
+    "last_seen": "2026-10-19T21:12:56Z",
     "status": "active",
+    "code_hash": "69faa8bd5b6a70c6",
     "discovered_at": "2026-04-14T14:21:53Z",
     "new": false,
     "evidence": "decoded",
@@ -671,19 +710,22 @@
     "cluster_id": "c-24d512cc",
     "family": "xmrig-stealth",
     "hunt_ids": [
+      "block-watch",
       "watch-wallet"
     ],
     "operator_wallets": [
       "0x24d512cc549aaa8a0828f3336b88c55bad43c847"
     ],
     "selectors": [
+      "0x3bc5de30",
       "0x68446ead"
     ],
     "decoder": "xor-1byte:0x5a",
-    "update_count": 2,
+    "update_count": 3,
     "first_seen": "2026-03-13T18:27:37Z",
-    "last_seen": "2026-03-13T18:29:03Z",
-    "status": "dormant",
+    "last_seen": "2026-10-19T21:12:56Z",
+    "status": "active",
+    "code_hash": "62d0c35063de139e",
     "discovered_at": "2026-03-13T18:27:37Z",
     "new": false,
     "evidence": "decoded",
@@ -717,6 +759,7 @@
     "first_seen": "2026-06-25T16:19:28Z",
     "last_seen": "2026-10-19T21:09:35Z",
     "status": "active",
+    "code_hash": null,
     "discovered_at": "2026-06-25T16:19:28Z",
     "new": false,
     "evidence": "candidate",
@@ -745,6 +788,7 @@
     "first_seen": "2026-04-14T13:23:19Z",
     "last_seen": "2026-04-14T13:46:19Z",
     "status": "dormant",
+    "code_hash": "69faa8bd5b6a70c6",
     "discovered_at": "2026-04-14T13:23:19Z",
     "new": false,
     "evidence": "decoded",
@@ -777,6 +821,7 @@
     "first_seen": "2025-11-15T21:29:25Z",
     "last_seen": "2026-10-19T21:09:35Z",
     "status": "active",
+    "code_hash": null,
     "discovered_at": "2025-11-15T21:29:25Z",
     "new": false,
     "evidence": "decoded",
@@ -805,6 +850,7 @@
     "first_seen": "2026-04-15T10:15:02Z",
     "last_seen": "2026-04-27T09:28:54Z",
     "status": "dormant",
+    "code_hash": "69faa8bd5b6a70c6",
     "discovered_at": "2026-04-15T10:15:02Z",
     "new": false,
     "evidence": "decoded",
@@ -822,19 +868,22 @@
     "cluster_id": "c-19532c0f",
     "family": "xmrig-stealth",
     "hunt_ids": [
+      "block-watch",
       "watch-wallet"
     ],
     "operator_wallets": [
       "0x19532c0fbaf0fb8c1d0f3fac0b704bf2f4645539"
     ],
     "selectors": [
+      "0x3bc5de30",
       "0x68446ead"
     ],
     "decoder": "xor-1byte:0x5a",
-    "update_count": 2,
+    "update_count": 3,
     "first_seen": "2026-04-14T14:05:05Z",
-    "last_seen": "2026-04-14T14:24:19Z",
-    "status": "dormant",
+    "last_seen": "2026-10-19T21:12:56Z",
+    "status": "active",
+    "code_hash": "69faa8bd5b6a70c6",
     "discovered_at": "2026-04-14T14:05:05Z",
     "new": false,
     "evidence": "decoded",
@@ -864,6 +913,7 @@
     "first_seen": "2025-10-15T14:03:31Z",
     "last_seen": "2026-05-29T17:17:04Z",
     "status": "dormant",
+    "code_hash": null,
     "discovered_at": "2025-10-15T14:03:31Z",
     "new": false,
     "evidence": "decoded",
@@ -891,6 +941,7 @@
     "first_seen": "2025-12-24T15:34:49Z",
     "last_seen": "2026-05-29T17:19:20Z",
     "status": "dormant",
+    "code_hash": null,
     "discovered_at": "2025-12-24T15:34:49Z",
     "new": false,
     "evidence": "decoded",
@@ -919,6 +970,7 @@
     "first_seen": "2025-11-27T12:03:07Z",
     "last_seen": "2026-05-29T19:43:04Z",
     "status": "dormant",
+    "code_hash": null,
     "discovered_at": "2025-11-27T12:03:07Z",
     "new": false,
     "evidence": "decoded",
@@ -946,6 +998,7 @@
     "first_seen": "2025-09-25T09:59:37Z",
     "last_seen": "2026-09-06T09:45:09Z",
     "status": "dormant",
+    "code_hash": null,
     "discovered_at": "2025-09-25T09:59:37Z",
     "new": false,
     "evidence": "decoded",
@@ -972,6 +1025,7 @@
     "first_seen": "2025-11-14T13:50:45Z",
     "last_seen": "2026-10-07T16:09:18Z",
     "status": "active",
+    "code_hash": null,
     "discovered_at": "2025-11-14T13:50:45Z",
     "new": false,
     "evidence": "decoded",
@@ -998,6 +1052,7 @@
     "first_seen": "2025-11-19T14:03:54Z",
     "last_seen": "2026-10-07T16:23:48Z",
     "status": "active",
+    "code_hash": null,
     "discovered_at": "2025-11-19T14:03:54Z",
     "new": false,
     "evidence": "decoded",
@@ -1024,6 +1079,7 @@
     "first_seen": "2025-06-12T16:50:42Z",
     "last_seen": "2026-01-27T15:13:12Z",
     "status": "dormant",
+    "code_hash": null,
     "discovered_at": "2025-06-12T16:50:42Z",
     "new": false,
     "evidence": "decoded",
@@ -1050,6 +1106,7 @@
     "first_seen": "2025-06-06T14:45:09Z",
     "last_seen": "2026-06-23T02:35:45Z",
     "status": "dormant",
+    "code_hash": null,
     "discovered_at": "2025-06-06T14:45:09Z",
     "new": false,
     "evidence": "decoded",
@@ -1076,6 +1133,7 @@
     "first_seen": "2025-06-13T05:50:06Z",
     "last_seen": "2026-06-20T13:37:54Z",
     "status": "dormant",
+    "code_hash": null,
     "discovered_at": "2025-06-13T05:50:06Z",
     "new": false,
     "evidence": "decoded",
