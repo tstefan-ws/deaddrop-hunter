@@ -76,21 +76,6 @@
   },
   {
     "chain": "bsc",
-    "address": "0x1fc224401bb8c8e5ee228b6fd81695796dd1744c",
-    "role": "operator",
-    "label": "Operator (auto-detected)",
-    "cluster_id": "c-1fc22440",
-    "contracts": [
-      "0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
-    ],
-    "tx_count": 3,
-    "first_seen": "2026-10-19T22:17:33Z",
-    "last_seen": "2026-10-19T22:17:46Z",
-    "watched": false,
-    "funded_by": []
-  },
-  {
-    "chain": "bsc",
     "address": "0x7c51d83f019eddad0fba6c3334485911b24fb50c",
     "role": "deployer",
     "label": "Deployer (auto-detected)",
@@ -101,22 +86,6 @@
     "tx_count": 1,
     "first_seen": "2026-10-19T20:59:55Z",
     "last_seen": "2026-10-19T20:59:55Z",
-    "watched": false,
-    "funded_by": []
-  },
-  {
-    "chain": "bsc",
-    "address": "0xce236cd5a198e7bc919f901037be175296a36422",
-    "role": "deployer",
-    "label": "Deployer (auto-detected)",
-    "cluster_id": "c-ce236cd5",
-    "contracts": [
-      "0x3d0e15cc31a9019453e8ec45081cb51461fa69ce",
-      "0xb4e1d5b9326e876a4b5a6886570f8c28099f9d75"
-    ],
-    "tx_count": 2,
-    "first_seen": "2026-10-19T21:56:55Z",
-    "last_seen": "2026-10-19T21:57:04Z",
     "watched": false,
     "funded_by": []
   },

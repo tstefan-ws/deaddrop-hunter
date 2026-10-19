@@ -19,6 +19,7 @@ from deaddrop_hunter.rpc import RpcClient
 GET_URL = "38bcdc1c"      # getURL()
 SET_URL = "77343408"      # setURL(string)
 ADMIN = "f851a440"        # admin()
+ADMIN_OWNER = "8da5cb5b"  # owner()
 TRANSFER = "a9059cbb"     # transfer(address,uint256)
 
 DEPLOYER = "0x34c15320d6e8f59f1b66f6c191aaa7f87b894b66"
@@ -71,6 +72,11 @@ def test_shape_filter_keeps_drops_and_drops_ordinary_contracts():
 
     token = shape_of(_code(TRANSFER, "70a08231", "18160ddd"))
     assert not token.dead_drop_like                       # no owner accessor
+
+    # Reported as a false positive on BSC: a small owned contract that moves value. A dead
+    # drop stores a string for anyone to read; it does not transfer anything.
+    owned_token = shape_of(_code(ADMIN_OWNER, TRANSFER, "23b872dd", "fc0c546a"))
+    assert owned_token.token_like and not owned_token.dead_drop_like
 
     big = shape_of(_code(ADMIN, size=9000))
     assert not big.dead_drop_like                         # routers and proxies are large
@@ -324,3 +330,26 @@ def test_an_opaque_value_is_still_kept():
     sim = StorageChain(_code(ADMIN, "0badf00d"), {0: "0x" + "9f" * 31 + hex(31 * 2)[2:].rjust(2, "0")})
     ctx, chain = _ctx(sim)
     assert len(block_watch.collect(ctx, chain, 100, 100)) == 1
+
+
+def test_a_write_to_something_that_is_not_drop_shaped_is_dropped():
+    """An AI-agent metadata contract on BSC wrote three metadata links in one cycle. The
+    text filters cannot tell those from a rotation; the target's own code can."""
+    sim = FakeChain(_code(TRANSFER, "70a08231"), None)      # target is a token, not a drop
+    ctx, chain = _ctx(sim)
+    blk = {"timestamp": hex(1_792_000_000),
+           "transactions": [{"hash": "0x" + "55" * 32, "from": STRANGER, "to": DROP,
+                             "nonce": "0x1", "input": _call_input("deadbeef",
+                                                                  "https://metadata.example/agents/1061804")}]}
+    assert block_watch._from_block(ctx, chain, 7, None, blk) == []
+
+
+def test_a_known_setter_is_kept_even_if_the_target_says_nothing():
+    """A confirmed family stays visible behind a proxy whose own code reveals nothing."""
+    sim = FakeChain("0x", None)                              # target has no code at all
+    ctx, chain = _ctx(sim)
+    blk = {"timestamp": hex(1_792_000_000),
+           "transactions": [{"hash": "0x" + "66" * 32, "from": STRANGER, "to": DROP,
+                             "nonce": "0x1", "input": _call_input(SET_URL, "https://evil.test/c2")}]}
+    (ev,) = block_watch._from_block(ctx, chain, 7, None, blk)
+    assert ev["new_decoded"] == "https://evil.test/c2"

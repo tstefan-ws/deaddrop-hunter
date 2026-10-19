@@ -35,6 +35,18 @@ NEVER_PROBE = {
     "0x18160ddd": "totalSupply()",
     "0x70a08231": "balanceOf(address)",
 }
+# Moving value is not what a dead drop does: it stores a string and lets anyone read it. A
+# contract that implements token transfer is a token, a vault, a presale or a bot, however
+# small it is and whoever owns it. Reported as a false positive on BSC 2026-10-19
+# (0xce236cd5's two contracts, both owner() + transfer + transferFrom).
+TOKEN_LIKE = {
+    "0xa9059cbb": "transfer(address,uint256)",
+    "0x23b872dd": "transferFrom(address,address,uint256)",
+    "0x095ea7b3": "approve(address,uint256)",
+    "0x42842e0e": "safeTransferFrom(address,address,uint256)",
+    "0xa22cb465": "setApprovalForAll(address,bool)",
+    "0xfc0c546a": "token()",
+}
 # Owner/admin accessors. Present in every confirmed drop so far and cheap to test for,
 # but far too common on their own: proxies and ordinary owned contracts expose them too.
 ADMINS = {
@@ -110,6 +122,7 @@ class Shape:
     getters: tuple[str, ...] = field(default=())
     setters: tuple[str, ...] = field(default=())
     admins: tuple[str, ...] = field(default=())
+    token_like: tuple[str, ...] = field(default=())
     # The code is readable text rather than instructions: the payload is the contract.
     is_data: bool = False
 
@@ -135,6 +148,8 @@ class Shape:
             return False
         if self.known_family or self.is_data:
             return True
+        if self.token_like:
+            return False                 # it moves value; that is a different kind of thing
         return bool(self.admins) and self.size <= MAX_CANDIDATE_SIZE
 
 
@@ -153,6 +168,7 @@ def shape_of(code: str | bytes) -> Shape:
         getters=tuple(s for s in sels if s in GETTERS),
         setters=tuple(s for s in sels if s in SETTERS),
         admins=tuple(s for s in sels if s in ADMINS),
+        token_like=tuple(s for s in sels if s in TOKEN_LIKE),
         is_data=code_as_text(code) is not None,
     ) if b is not None else Shape(0, code_hash(b""))
 

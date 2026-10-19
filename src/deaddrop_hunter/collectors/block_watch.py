@@ -215,9 +215,12 @@ def probe_contract(ctx: HuntContext, chain: Chain, address: str, *, hunt_id: str
 
 
 def inspect_creation(ctx: HuntContext, chain: Chain, *, block: int, ts: str | None, tx_hash: str,
-                     deployer: str, nonce: int) -> dict | None:
+                     deployer: str, nonce: int,
+                     ignored: frozenset[str] | set[str] = frozenset()) -> dict | None:
     """One creation -> an event, or None when the contract is not drop-shaped."""
     address = created_address(deployer, nonce)
+    if address in ignored:
+        return None
     try:
         code = ctx.rpc(chain).get_code(address)
     except RpcError as e:
@@ -278,6 +281,7 @@ def collect(ctx: HuntContext, chain: Chain, from_block: int, to_block: int) -> l
     ignored = {a for c, a in ctx.config.ignore_contracts if c == chain.key}
     out: list[dict] = []
     creations = 0
+    shapes: dict[str, bool] = {}         # one code fetch per target per run
     numbers = list(range(from_block, to_block + 1))
     chunks = [numbers[i:i + CHUNK] for i in range(0, len(numbers), CHUNK)]
     for chunk in chunks:
@@ -287,7 +291,7 @@ def collect(ctx: HuntContext, chain: Chain, from_block: int, to_block: int) -> l
             ts_int = int(blk["timestamp"], 16)
             rpc.remember_timestamp(number, ts_int)
             ts = iso(ts_int)
-            out.extend(_from_block(ctx, chain, number, ts, blk, ignored))
+            out.extend(_from_block(ctx, chain, number, ts, blk, ignored, shapes))
             creations += sum(1 for t in (blk.get("transactions") or []) if not t.get("to"))
     log.info("%s block-watch: blocks %d-%d, %d creations, %d findings",
              chain.key, from_block, to_block, creations, len(out))
@@ -330,13 +334,34 @@ def call_event(chain: Chain, t: dict, *, block: int, ts: str | None,
                       hunt_id=HUNT_ID, old=None, new=value)
 
 
+def _target_is_drop_shaped(ctx: HuntContext, chain: Chain, address: str,
+                           cache: dict[str, bool]) -> bool:
+    """Is the thing being written to shaped like a dead drop at all?
+
+    The text filters alone let through anything that writes a URL, and plenty of ordinary
+    services do: an AI-agent metadata contract on BSC wrote three metadata links in one
+    cycle. Checking the target's code costs one request per candidate write and settles it.
+    A write using a setter we have already confirmed skips this, so a known family stays
+    visible even behind a proxy whose own code says nothing.
+    """
+    if address not in cache:
+        try:
+            cache[address] = shape_of(ctx.rpc(chain).get_code(address)).dead_drop_like
+        except RpcError:
+            cache[address] = False
+    return cache[address]
+
+
 def _from_block(ctx: HuntContext, chain: Chain, number: int, ts: str | None, blk: dict,
-                ignored: frozenset[str] | set[str] = frozenset()) -> list[dict]:
+                ignored: frozenset[str] | set[str] = frozenset(),
+                shapes: dict[str, bool] | None = None) -> list[dict]:
     found: list[dict] = []
+    shapes = {} if shapes is None else shapes
     for t in blk.get("transactions") or []:
         if t.get("to"):
             ev = call_event(chain, t, block=number, ts=ts, ignored=ignored)
-            if ev is not None:
+            if ev is not None and (ev["selector"] in SETTERS
+                                   or _target_is_drop_shaped(ctx, chain, ev["contract"], shapes)):
                 found.append(ev)
             continue                     # a call, not a creation
         try:
@@ -344,7 +369,8 @@ def _from_block(ctx: HuntContext, chain: Chain, number: int, ts: str | None, blk
         except (KeyError, TypeError, ValueError):
             continue
         ev = inspect_creation(ctx, chain, block=number, ts=ts, tx_hash=t["hash"],
-                              deployer=(t.get("from") or "").lower(), nonce=nonce)
+                              deployer=(t.get("from") or "").lower(), nonce=nonce,
+                              ignored=ignored)
         if ev is not None:
             found.append(ev)
     return found
