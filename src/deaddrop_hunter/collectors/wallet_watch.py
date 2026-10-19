@@ -3,6 +3,10 @@
 * contract creations -> event for the new contract (selector null, values null): a candidate
 * calls whose input ABI-decodes as ``(string)`` -> event with the decoded value
 * calls with other input to contracts not yet known -> candidate event (values null)
+
+Calls to contracts listed under ``ignore_contracts`` in the config are dropped: shared public
+infrastructure an operator happens to use (MetaMask's DelegationManager, routers, proxies) is not
+a dead drop, and recording it as a candidate contract links unrelated operators into one cluster.
 """
 
 from __future__ import annotations
@@ -19,7 +23,8 @@ log = logging.getLogger(__name__)
 HUNT_ID = "watch-wallet"
 
 
-def tx_events(chain: Chain, wallet: str, t: dict, known: set[str]) -> list[dict]:
+def tx_events(chain: Chain, wallet: str, t: dict, known: set[str],
+              ignored: set[str] | frozenset[str] = frozenset()) -> list[dict]:
     if str(t.get("isError", "0")) != "0" or (t.get("from") or "").lower() != wallet:
         return []
     block = int(t["blockNumber"])
@@ -27,6 +32,8 @@ def tx_events(chain: Chain, wallet: str, t: dict, known: set[str]) -> list[dict]
     to = (t.get("to") or "").lower()
     inp = t.get("input") or "0x"
     created = (t.get("contractAddress") or "").lower()
+    if to and to in ignored:
+        return []
     if not to and created:
         return [make_event(chain=chain.key, block=block, timestamp=ts, tx_hash=t["hash"], contract=created,
                            sender=wallet, selector=None, hunt_id=HUNT_ID, old=None, new=None)]
@@ -49,10 +56,11 @@ def collect(ctx: HuntContext, chain: Chain, wallets: list[WatchWallet], from_blo
             to_block: int) -> list[dict]:
     es = ctx.etherscan_factory(chain)  # raises ProviderUnavailable without a key
     known = ctx.known_contracts.get(chain.key, set())
+    ignored = {a for c, a in ctx.config.ignore_contracts if c == chain.key}
     out: list[dict] = []
     for w in wallets:
         txs = es.txlist(w.address, from_block, to_block)
         log.info("%s watch %s: %d txs", chain.key, w.address, len(txs))
         for t in txs:
-            out.extend(tx_events(chain, w.address, t, known))
+            out.extend(tx_events(chain, w.address, t, known, ignored))
     return out

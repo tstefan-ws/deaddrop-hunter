@@ -70,9 +70,12 @@ First sweep, **2026-10-19, Polygon** (`DataUpdated(string,string)` topic + updat
   Decoded: pool `78.40.198[.]61` (earlier `xmr-eu1.nanopool[.]org`), stealth mode that pauses
   mining while `Taskmgr.exe` / `SystemInformer.exe` run.
 - **XMRig config, hashvault pool** - operator `0x24d512cc549aaa8a0828f3336b88c55bad43c847`.
-- **C2 URL rotation** - contract `0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc` (selector
-  `0xcef6d209`, operator `0xde275ad38c3352a7cb6b0d3efcbf45900c9716f2`) rotating C2 from
-  `185.10.68[.]110` to `144.31.108[.]193`.
+- **C2 URL rotation** - contract `0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc`, operator
+  `0xde275ad38c3352a7cb6b0d3efcbf45900c9716f2`, rotating C2 through `194.48.248[.]94` ->
+  `185.10.68[.]110` -> `144.31.108[.]193`. The operator routes part of these updates through
+  MetaMask's public DelegationManager (`0xdb9b1e94...`), so the tx input carries that contract's
+  `redeemDelegations` selector `0xcef6d209` rather than a selector of their own. That selector is
+  **not** a malware fingerprint, and the DelegationManager is ignored when clustering.
 
 The dashboard always shows the current state; this table is a snapshot.
 

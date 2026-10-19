@@ -109,7 +109,7 @@ Each finding is expanded:
 | Pivot | How | What it found on 2026-10-19 |
 |---|---|---|
 | **Operator wallet** | `tx.from` of each update (`eth_getTransactionByHash`) | 3 operator wallets; one runs 4 contracts |
-| **Setter selector** | first 4 bytes of the update tx input | `0x68446ead` (XMRig config contracts), `0xcef6d209` (C2 URL rotation) |
+| **Setter selector** | first 4 bytes of the update tx input | `0x68446ead` (XMRig config contracts). Not every input prefix is a setter: the C2-URL operator routes updates through MetaMask's public DelegationManager, whose `redeemDelegations` selector `0xcef6d209` then appears in the input |
 | **Wallet history** | explorer `txlist` of the operator (`watch_wallets`) | contract creations and updates that emit no event |
 | **Funding source** | first incoming tx of the operator wallet | often an exchange hot wallet or a bridge; sometimes a shared funder linking clusters |
 | **Bytecode similarity** | `keccak(eth_getCode(addr))`, or compare after stripping the metadata hash | identical setter/getter templates across contracts and chains |
@@ -117,6 +117,13 @@ Each finding is expanded:
 
 Contracts are clustered by shared operator wallet (union-find); `cluster_id` is
 `c-` + first 8 hex chars of the lowest operator address.
+
+Shared public infrastructure breaks that assumption: when several unrelated operators call the
+same verified public contract, wallet watching records it as a candidate dead drop and union-find
+merges their clusters. Such contracts are listed under `[[ignore_contracts]]` in
+`config/hunts.toml` and dropped by the wallet-watch collector. The first entry is MetaMask's
+DelegationManager `0xdb9b1e94b5b69df7e401ddbede43491141047db3` on Polygon, which three of the
+watched operators use.
 
 ## 7. Validation
 

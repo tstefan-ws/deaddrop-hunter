@@ -134,13 +134,18 @@ abi = ["string"]
 chains = ["polygon"]
 note = "Update function used by the stealth-XMRig config contracts (cluster found 2026-10-19)."
 
-[[hunts]]
-id = "selector-cef6d209"
-kind = "selector"
-selector = "0xcef6d209"
-abi = ["string"]
-chains = ["polygon"]
-note = "Update function of C2-URL rotation contract 0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc."
+# Removed 2026-10-19: hunt "selector-cef6d209". 0xcef6d209 is not a malware selector, it is
+# redeemDelegations(bytes[],bytes32[],bytes[]) of MetaMask's public DelegationManager (verify with
+# deaddrop_hunter.keccak.selector). The C2-URL operator routes its updates through that contract, so
+# the selector shows up in their tx input - but a chain-wide sweep for it flags every legitimate
+# delegation user. Hunt the dead-drop contract's own setter (0x68446ead) or its event topic instead.
+
+# Contracts that must never be treated as dead drops, even when a watched operator calls them:
+# shared public infrastructure produces false operator-to-operator cluster links.
+[[ignore_contracts]]
+chain = "polygon"
+address = "0xdb9b1e94b5b69df7e401ddbede43491141047db3"
+reason = "MetaMask DelegationManager (verified, public; used by many unrelated wallets)"
 
 # Operator wallets to watch continuously. New contracts or updates from these
 # wallets are flagged in the dashboard.

@@ -3,14 +3,18 @@ import sys
 import types
 
 from deaddrop_hunter.cli import main
-from deaddrop_hunter.config import parse_config
+from deaddrop_hunter.collectors.wallet_watch import tx_events
+from deaddrop_hunter.config import load_config, parse_config
 from deaddrop_hunter.hunt import make_context, plan_ranges, run_hunt
+from deaddrop_hunter.keccak import selector as keccak_selector
 from deaddrop_hunter.providers import ProviderUnavailable
 from deaddrop_hunter.rpc import RpcClient
 
 from .fixtures_util import load_fixture
 
 TOPIC = "0xee986145c636aca5c6c0b4ce0e9d371e77ab30b3e28fe5c3a8d977f05fc8cf24"
+# MetaMask's verified public DelegationManager on Polygon: shared infrastructure, not a dead drop.
+DELEGATION_MANAGER = "0xdb9b1e94b5b69df7e401ddbede43491141047db3"
 OPS = {
     "0x774e03243db1b1c7c972b7f5a9f21b7be23e00a719582b5afdf8b1dea062c53d": "0x19532c0fbaf0fb8c1d0f3fac0b704bf2f4645539",
     "0x08233ee528890aec38ef97810e7074d5ebe1b87c72995fd8758c652231bcd53f": "0xde275ad38c3352a7cb6b0d3efcbf45900c9716f2",
@@ -144,3 +148,29 @@ def test_rebuild_and_export_cli(tmp_path, monkeypatch, capsys):
 
     monkeypatch.setitem(sys.modules, "deaddrop_hunter.exporters", None)
     assert main(["export", "--data", str(tmp_path), "--out", str(tmp_path / "feeds")]) == 2
+
+
+def test_delegation_manager_is_not_a_dead_drop():
+    """A watched operator calling MetaMask's DelegationManager must not create a candidate
+    contract: three unrelated Polygon operators use it, and union-find would merge their
+    clusters into one false cluster."""
+    assert keccak_selector("redeemDelegations(bytes[],bytes32[],bytes[])") == "0xcef6d209"
+    chain = _cfg().chains["polygon"]
+    wallet = "0x19532c0fbaf0fb8c1d0f3fac0b704bf2f4645539"
+    tx = {"blockNumber": "95800000", "timeStamp": "1760000000", "hash": "0x" + "ab" * 32,
+          "from": wallet, "to": DELEGATION_MANAGER, "input": "0xcef6d209" + "00" * 64,
+          "isError": "0", "contractAddress": ""}
+
+    (candidate,) = tx_events(chain, wallet, tx, known=set())
+    assert candidate["contract"] == DELEGATION_MANAGER
+    assert candidate["selector"] == "0xcef6d209"
+
+    assert tx_events(chain, wallet, tx, known=set(), ignored={DELEGATION_MANAGER}) == []
+
+
+def test_shipped_config_ignores_delegation_manager():
+    cfg = load_config("config/hunts.toml", env={})
+    assert ("polygon", DELEGATION_MANAGER) in cfg.ignore_contracts
+    # 0xcef6d209 is redeemDelegations, so a chain-wide sweep for it flags legitimate users.
+    assert not [h for h in cfg.hunts if h.id == "selector-cef6d209"]
+    assert not [h for h in cfg.hunts if h.selector == "0xcef6d209"]

@@ -73,6 +73,10 @@ class Config:
     chains: dict[str, Chain] = field(default_factory=dict)
     hunts: list[Hunt] = field(default_factory=list)
     watch_wallets: list[WatchWallet] = field(default_factory=list)
+    # (chain, address) pairs that are never dead drops: shared public contracts a watched
+    # operator happens to call (e.g. MetaMask's DelegationManager). Recording them as
+    # candidate contracts links unrelated operators into one cluster.
+    ignore_contracts: frozenset[tuple[str, str]] = frozenset()
 
     def watched(self) -> dict[tuple[str, str], WatchWallet]:
         return {(w.chain, w.address): w for w in self.watch_wallets}
@@ -159,12 +163,16 @@ def parse_config(raw: dict, env: Mapping[str, str] | None = None) -> Config:
         WatchWallet(chain=w["chain"], address=norm_address(w["address"]), label=w.get("label", ""))
         for w in raw.get("watch_wallets", [])
     ]
+    ignored = frozenset(
+        (i["chain"], norm_address(i["address"])) for i in raw.get("ignore_contracts", [])
+    )
     return Config(
         default_lookback_days=int(settings.get("default_lookback_days", 90)),
         data_dir=settings.get("data_dir", "data"),
         chains=chains,
         hunts=hunts,
         watch_wallets=wallets,
+        ignore_contracts=ignored,
     )
 
 
