@@ -67,6 +67,7 @@ flowchart LR
 | `hunt.py` | Orchestration: plan block ranges from cursors, run collectors, merge new events, rebuild |
 | `exporters/` | STIX 2.1, MISP feed, CSV/TXT, static JSON API + Atom, `feeds/index.json` |
 | `scripts/build_site.py` | Copies `web/` (minus `sample-data/`) and `data/` into `site/`, keeps `site/feeds/`, writes `.nojekyll` |
+| `web/css/app.css` | The whole design system: one crimson chrome hue meaning "live", a separate link blue, and six cluster hues for identity only. Light is the bare `:root` set, dark is redefined under the OS media query and `[data-theme=dark]` |
 
 Key design rules:
 

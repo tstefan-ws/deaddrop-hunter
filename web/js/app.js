@@ -2,7 +2,7 @@
 import { h, mount } from './dom.js';
 import { loadData } from './data.js';
 import { prefs, watchlist, onWatchChange } from './store.js';
-import { fmtDate, RE_CHAIN, chainLabel, sanitize, normId } from './fmt.js';
+import { fmtDate, relTime, ts, RE_CHAIN, chainLabel, sanitize, normId } from './fmt.js';
 import { renderOverview } from './pages/overview.js';
 import { renderContracts, renderContract } from './pages/contracts.js';
 import { renderWallets, renderWallet } from './pages/wallets.js';
@@ -90,7 +90,7 @@ function render() {
     page = h('div', { class: 'panel' }, h('h1', null, 'Something went wrong rendering this page'), h('pre', { class: 'value' }, sanitize(String(err && err.stack ? err.stack : err))));
   }
   mount(main, page);
-  document.querySelectorAll('.tabs a').forEach((a) => {
+  document.querySelectorAll('.nav a[data-route]').forEach((a) => {
     if (a.dataset.route === navKey) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
   });
   const h1 = main.querySelector('h1');
@@ -132,6 +132,14 @@ document.getElementById('search-form').addEventListener('submit', (ev) => {
   window.location.hash = `#/search?q=${enc(q)}`;
 });
 
+document.addEventListener('keydown', (ev) => {
+  if (ev.key !== '/' || ev.ctrlKey || ev.metaKey || ev.altKey) return;
+  const el = document.activeElement;
+  if (el && (el.tagName === 'INPUT' || el.tagName === 'SELECT' || el.tagName === 'TEXTAREA' || el.isContentEditable)) return;
+  ev.preventDefault();
+  document.getElementById('search-input').focus();
+});
+
 // ---- boot -------------------------------------------------------------------
 function setupChrome(d) {
   const banner = document.getElementById('banner');
@@ -146,6 +154,16 @@ function setupChrome(d) {
   for (const c of d.chains) sel.append(h('option', { value: c }, chainLabel(c)));
   sel.value = d.chains.includes(prefs.chain) ? prefs.chain : '';
   sel.addEventListener('change', () => { prefs.chain = sel.value; render(); });
+  const last = d.meta.cursors.reduce((m, c) => (c.updated_at > m ? c.updated_at : m), d.meta.generated_at || '');
+  const chip = document.getElementById('data-chip');
+  const chipText = document.getElementById('data-chip-text');
+  if (chip && chipText && last) {
+    chipText.textContent = `Last hunt ${relTime(last)}`;
+    chip.title = `Last hunt ${fmtDate(last)}`;
+    const age = Date.now() - ts(last);
+    chip.classList.toggle('stale', Number.isFinite(age) && age > 24 * 3600 * 1000);
+    chip.hidden = false;
+  }
   const foot = document.getElementById('footer-meta');
   foot.textContent = `Data generated at ${fmtDate(d.meta.generated_at)} · deaddrop-hunter ${sanitize(d.meta.tool_version || '?')} · schema v${d.meta.schema_version ?? '?'}${d.sample ? ' · sample data' : ''}`;
 }

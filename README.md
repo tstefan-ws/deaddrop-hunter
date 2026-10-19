@@ -226,7 +226,8 @@ deaddrop-hunter/
 │   ├── nonevm/                Tron, Solana (memo), Aptos account watches
 │   └── exporters/             STIX, MISP, CSV/TXT, static API + Atom
 ├── data/                      results (JSON, committed by CI)
-├── web/                       static dashboard (vanilla JS)
+├── web/                       static dashboard (vanilla JS, no build step)
+│   └── fonts/                 self-hosted Archivo + DM Mono (OFL-1.1); CSP allows no remote fonts
 ├── scripts/                   build_site.py, run_hunt.sh, bootstrap_wsl.sh
 ├── rules/                     sigma/, yara/, suricata/
 ├── connectors/opencti/        OpenCTI external-import connector

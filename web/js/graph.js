@@ -1,4 +1,7 @@
 // Cluster network graph: wallet -> contract -> IOC, small deterministic force layout in SVG.
+// Each node is an icon badge (see the g-* symbols in index.html) rather than a bare circle:
+// the glyph says what kind of thing it is, the colour says which, and a dashed ring marks
+// anything still live (an active contract, a current IOC).
 import { h, s } from './dom.js';
 import { defangIoc, shortHex, iocRaw } from './fmt.js';
 import { key } from './data.js';
@@ -26,7 +29,7 @@ export function buildClusterGraph(d, cluster) {
   for (const c of contracts) {
     addNode(`c:${c.address}`, {
       kind: 'contract', label: shortHex(c.address), title: `contract ${c.address} (${c.update_count} updates)`,
-      href: `#/contracts/${enc(c.chain)}/${enc(c.address)}`,
+      href: `#/contracts/${enc(c.chain)}/${enc(c.address)}`, live: c.status === 'active',
     });
     c.operator_wallets.forEach((w) => addEdge(`w:${w}`, `c:${c.address}`));
   }
@@ -45,6 +48,7 @@ export function buildClusterGraph(d, cluster) {
       label: isWallet ? shortHex(i.value, 6, 4) : (i.port !== null && i.type !== 'url' ? `${disp}:${i.port}` : disp).slice(0, 34),
       title: `${i.type} ${disp}${i.port !== null && i.type !== 'url' ? `:${i.port}` : ''}${i.current ? ' (current)' : ''}`,
       href: isWallet && d.walletByKey.has(wk) ? `#/wallets/${enc(wk.split(':')[0])}/${enc(i.value)}` : `#/iocs?q=${enc(i.value)}`,
+      live: !!i.current,
     });
     i.contracts.forEach((c) => addEdge(`c:${c}`, id));
   }
@@ -97,6 +101,18 @@ function layout(nodes, edges) {
   }
 }
 
+const RADIUS = { wallet: 14, funder: 12, contract: 13, ioc: 11, payout: 11 };
+
+/** The kind's glyph, knocked out of the badge (symbols live in index.html). */
+function nodeIcon(kind, r) {
+  const size = r * 1.15;
+  return s('use', { class: 'node-icon', href: `#g-${kind}`, x: -size / 2, y: -size / 2, width: size, height: size });
+}
+
+function legendChip(kind, cls) {
+  return h('span', { class: `lg ${cls}` }, s('svg', { viewBox: '0 0 24 24', 'aria-hidden': 'true' }, s('use', { href: `#g-${kind}` })));
+}
+
 export function clusterGraph(d, cluster) {
   const { nodes, edges } = buildClusterGraph(d, cluster);
   const fig = h('figure', { class: 'chart-fig' });
@@ -116,17 +132,21 @@ export function clusterGraph(d, cluster) {
   const gEdges = s('g');
   for (const [a, b] of edges) {
     const A = pos.get(a); const B = pos.get(b);
-    gEdges.append(s('line', { class: 'edge', x1: A.x.toFixed(1), y1: A.y.toFixed(1), x2: B.x.toFixed(1), y2: B.y.toFixed(1) }));
+    gEdges.append(s('line', { class: A.live && B.live ? 'edge edge-live' : 'edge', x1: A.x.toFixed(1), y1: A.y.toFixed(1), x2: B.x.toFixed(1), y2: B.y.toFixed(1) }));
   }
   svg.append(gEdges);
   const order = { wallet: 0, funder: 1, contract: 2, payout: 3, ioc: 4 };
   for (const n of nodes.slice().sort((a, b) => order[a.kind] - order[b.kind])) {
-    const g = s('g', { class: 'node', tabindex: '0', role: 'link', 'aria-label': n.title, transform: `translate(${n.x.toFixed(1)} ${n.y.toFixed(1)})` });
-    const r = n.kind === 'wallet' ? 11 : n.kind === 'contract' ? 9 : 7;
-    if (n.kind === 'contract') g.append(s('rect', { class: 'n-contract', x: -r, y: -r, width: r * 2, height: r * 2, rx: 2 }));
-    else g.append(s('circle', { class: `n-${n.kind}`, r }));
-    g.append(s('title', null, n.title));
-    g.append(s('text', { y: r + 12, 'text-anchor': 'middle' }, n.label));
+    const g = s('g', { class: 'node', tabindex: '0', role: 'link', 'aria-label': `${n.title}${n.live ? ' (live)' : ''}`, transform: `translate(${n.x.toFixed(1)} ${n.y.toFixed(1)})` });
+    const r = RADIUS[n.kind] || 11;
+    if (n.live) {
+      const o = r + 4;
+      g.append(s('rect', { class: 'live-ring', x: -o, y: -o, width: o * 2, height: o * 2, rx: (r * 0.55 + 4).toFixed(1) }));
+    }
+    g.append(s('rect', { class: `badge-bg n-${n.kind}`, x: -r, y: -r, width: r * 2, height: r * 2, rx: (r * 0.55).toFixed(1) }));
+    g.append(nodeIcon(n.kind, r));
+    g.append(s('title', null, `${n.title}${n.live ? ' — live' : ''}`));
+    g.append(s('text', { y: r + 13, 'text-anchor': 'middle' }, n.label));
     const go = () => { window.location.hash = n.href; };
     g.addEventListener('click', go);
     g.addEventListener('keydown', (ev) => { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); go(); } });
@@ -134,9 +154,11 @@ export function clusterGraph(d, cluster) {
   }
   fig.append(h('div', { class: 'graph-wrap' }, svg));
   fig.append(h('div', { class: 'legend' },
-    h('span', null, h('span', { class: 'lg lg-wallet' }), 'operator / funder wallet'),
-    h('span', null, h('span', { class: 'lg lg-contract' }), 'contract'),
-    h('span', null, h('span', { class: 'lg lg-ioc' }), 'network IOC'),
-    h('span', null, h('span', { class: 'lg lg-payout' }), 'payout wallet')));
+    h('span', null, legendChip('wallet', 'lg-wallet'), 'operator wallet'),
+    h('span', null, legendChip('funder', 'lg-wallet'), 'funder'),
+    h('span', null, legendChip('contract', 'lg-contract'), 'contract'),
+    h('span', null, legendChip('ioc', 'lg-ioc'), 'network IOC'),
+    h('span', null, legendChip('payout', 'lg-payout'), 'payout wallet'),
+    h('span', { class: 'faint' }, 'dashed ring = still live')));
   return fig;
 }

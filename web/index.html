@@ -9,53 +9,91 @@
   <meta name="description" content="deaddrop-hunter: tracking EtherHiding smart contracts, operator wallets, IOCs and clusters.">
   <title>deaddrop-hunter</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="./fonts/archivo-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./fonts/dm-mono-400-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="./css/app.css">
   <link rel="alternate" type="application/atom+xml" title="deaddrop-hunter rotations" href="./feeds/atom.xml">
   <script type="module" src="./js/app.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <div id="banner" class="banner" hidden></div>
-  <header class="topbar">
-    <div class="topbar-row">
-      <a class="brand" href="#/" aria-label="deaddrop-hunter overview">
-        <span class="brand-mark" aria-hidden="true">&#9638;</span>
-        <span class="brand-name">deaddrop<span class="brand-sep">//</span>hunter</span>
-      </a>
-      <form id="search-form" class="search" role="search">
-        <label for="search-input" class="visually-hidden">Search contract, wallet, IOC or tx</label>
-        <input id="search-input" type="search" placeholder="Search contract, wallet, IOC, tx…" autocomplete="off" spellcheck="false">
-      </form>
-      <div class="topbar-tools">
-        <label for="chain-filter" class="visually-hidden">Chain filter</label>
-        <select id="chain-filter" class="chain-filter">
-          <option value="">All chains</option>
-        </select>
-        <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle colour theme" title="Toggle colour theme">
-          <span class="theme-icon" aria-hidden="true"></span>
-        </button>
-      </div>
-    </div>
-    <nav class="tabs" aria-label="Primary">
-      <a href="#/" data-route="overview">Overview</a>
-      <a href="#/contracts" data-route="contracts">Contracts</a>
-      <a href="#/wallets" data-route="wallets">Wallets</a>
-      <a href="#/iocs" data-route="iocs">IOCs</a>
-      <a href="#/clusters" data-route="clusters">Clusters</a>
-      <a href="#/watchlist" data-route="watchlist">Watchlist <span id="watch-badge" class="badge" hidden></span></a>
-      <a href="#/feeds" data-route="feeds">Feeds</a>
-      <a href="#/about" data-route="about">About</a>
+
+  <aside class="rail">
+    <a class="brand" href="#/" aria-label="deaddrop-hunter overview">
+      <span class="brand-mark" aria-hidden="true">
+        <svg class="ic" viewBox="0 0 24 24"><path d="M12 2.5 20 6v6c0 4.6-3.3 8.3-8 9.5-4.7-1.2-8-4.9-8-9.5V6z"/><path d="M12 9.5v5M9.5 12h5"/></svg>
+      </span>
+      <span class="brand-name">deaddrop<span class="brand-sep">//</span>hunter</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <p class="nav-group">Hunt</p>
+      <a href="#/" data-route="overview"><svg class="ic nav-ic" aria-hidden="true"><use href="#i-overview"></use></svg><span>Overview</span></a>
+      <a href="#/contracts" data-route="contracts"><svg class="ic nav-ic" aria-hidden="true"><use href="#i-contracts"></use></svg><span>Contracts</span></a>
+      <a href="#/wallets" data-route="wallets"><svg class="ic nav-ic" aria-hidden="true"><use href="#i-wallets"></use></svg><span>Wallets</span></a>
+      <a href="#/clusters" data-route="clusters"><svg class="ic nav-ic" aria-hidden="true"><use href="#i-clusters"></use></svg><span>Clusters</span></a>
+      <p class="nav-group">Intel</p>
+      <a href="#/iocs" data-route="iocs"><svg class="ic nav-ic" aria-hidden="true"><use href="#i-iocs"></use></svg><span>IOCs</span></a>
+      <a href="#/watchlist" data-route="watchlist"><svg class="ic nav-ic" aria-hidden="true"><use href="#i-watchlist"></use></svg><span>Watchlist</span><span id="watch-badge" class="badge" hidden></span></a>
+      <a href="#/feeds" data-route="feeds"><svg class="ic nav-ic" aria-hidden="true"><use href="#i-feeds"></use></svg><span>Feeds</span></a>
+      <a href="#/about" data-route="about"><svg class="ic nav-ic" aria-hidden="true"><use href="#i-about"></use></svg><span>Method</span></a>
     </nav>
-  </header>
-  <main id="main" class="main" tabindex="-1">
-    <p class="loading">Loading data…</p>
-  </main>
-  <footer class="footer">
-    <span id="footer-meta">—</span>
-    <span class="footer-tlp">TLP:CLEAR · Do not visit IOCs · Data may contain false positives ·
-      <a href="https://github.com/tstefan-ws/deaddrop-hunter" target="_blank" rel="noopener noreferrer">GitHub</a> ·
-      <a href="https://github.com/tstefan-ws/deaddrop-hunter/issues/new/choose" target="_blank" rel="noopener noreferrer">Report an issue</a></span>
-  </footer>
+    <p class="rail-foot">
+      TLP:CLEAR · CC0-1.0<br>
+      <a href="https://github.com/tstefan-ws/deaddrop-hunter" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </p>
+  </aside>
+
+  <div class="shell">
+    <div id="banner" class="banner" hidden></div>
+    <header class="topbar">
+      <div class="topbar-row">
+        <form id="search-form" class="search" role="search">
+          <label for="search-input" class="visually-hidden">Search contract, wallet, IOC or tx</label>
+          <input id="search-input" type="search" placeholder="Search contract, wallet, IOC, tx…  (press /)" autocomplete="off" spellcheck="false">
+        </form>
+        <div class="topbar-tools">
+          <span id="data-chip" class="statuschip" hidden><span class="dot" aria-hidden="true"></span><span id="data-chip-text"></span></span>
+          <label for="chain-filter" class="visually-hidden">Chain filter</label>
+          <select id="chain-filter" class="chain-filter">
+            <option value="">All chains</option>
+          </select>
+          <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle colour theme" title="Toggle colour theme">
+            <svg class="ic icon-moon" aria-hidden="true" viewBox="0 0 24 24"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z"/></svg>
+            <svg class="ic icon-sun" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.6M12 19.4V22M2 12h2.6M19.4 12H22M4.9 4.9l1.9 1.9M17.2 17.2l1.9 1.9M19.1 4.9l-1.9 1.9M6.8 17.2l-1.9 1.9"/></svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main id="main" class="main" tabindex="-1">
+      <p class="loading">Loading data…</p>
+    </main>
+    <footer class="footer">
+      <span id="footer-meta">—</span>
+      <span class="footer-tlp">TLP:CLEAR · Do not visit IOCs · Data may contain false positives ·
+        <a href="https://github.com/tstefan-ws/deaddrop-hunter" target="_blank" rel="noopener noreferrer">GitHub</a> ·
+        <a href="https://github.com/tstefan-ws/deaddrop-hunter/issues/new/choose" target="_blank" rel="noopener noreferrer">Report an issue</a></span>
+    </footer>
+  </div>
+
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="i-overview" viewBox="0 0 24 24"><rect x="3" y="3" width="7.5" height="7.5"/><rect x="13.5" y="3" width="7.5" height="7.5"/><rect x="3" y="13.5" width="7.5" height="7.5"/><rect x="13.5" y="13.5" width="7.5" height="7.5"/></symbol>
+      <symbol id="i-contracts" viewBox="0 0 24 24"><path d="M6 2.5h8l4 4v15H6z"/><path d="M14 2.5v4h4"/><path d="M9 12h6M9 16h6"/></symbol>
+      <symbol id="i-wallets" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18"/><circle cx="17" cy="14.5" r="1.1"/></symbol>
+      <symbol id="i-clusters" viewBox="0 0 24 24"><circle cx="12" cy="4.5" r="2.2"/><circle cx="5" cy="19" r="2.2"/><circle cx="19" cy="19" r="2.2"/><path d="M12 6.7v4.8M11 12.6 6.2 17M13 12.6 17.8 17"/></symbol>
+      <symbol id="i-iocs" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3"/></symbol>
+      <symbol id="i-watchlist" viewBox="0 0 24 24"><path d="m12 3.5 2.7 5.5 6 .9-4.35 4.25L17.4 20 12 17.2 6.6 20l1.05-5.85L3.3 9.9l6-.9z"/></symbol>
+      <symbol id="i-feeds" viewBox="0 0 24 24"><path d="M4.5 11a8.5 8.5 0 0 1 8.5 8.5"/><path d="M4.5 4.5A15 15 0 0 1 19.5 19.5"/><circle cx="5" cy="19" r="1.4"/></symbol>
+      <symbol id="i-about" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5.5"/><circle cx="12" cy="7.8" r=".9"/></symbol>
+      <!-- cluster-graph node icons -->
+      <symbol id="g-wallet" viewBox="0 0 24 24"><path d="M3 7.5a2 2 0 0 1 2-2h11v3"/><rect x="3" y="7.5" width="18" height="12" rx="2"/><circle cx="16.5" cy="13.5" r="1.4"/></symbol>
+      <symbol id="g-funder" viewBox="0 0 24 24"><path d="M12 3.5v17"/><path d="M16 7.5c0-2-1.8-3-4-3s-4 .9-4 2.8c0 4.3 8 2 8 6.4 0 2-1.9 2.9-4 2.9s-4-1-4-3"/></symbol>
+      <symbol id="g-contract" viewBox="0 0 24 24"><path d="M5.5 3h8l5 5v13h-13z"/><path d="M13.5 3v5h5"/><path d="m9.5 12.5-2 2 2 2M14.5 12.5l2 2-2 2"/></symbol>
+      <symbol id="g-ioc" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17"/><path d="M12 3.5c2.4 2.4 3.6 5.3 3.6 8.5s-1.2 6.1-3.6 8.5c-2.4-2.4-3.6-5.3-3.6-8.5S9.6 5.9 12 3.5z"/></symbol>
+      <symbol id="g-payout" viewBox="0 0 24 24"><ellipse cx="12" cy="6.5" rx="7" ry="3"/><path d="M5 6.5v5c0 1.7 3.1 3 7 3s7-1.3 7-3v-5"/><path d="M5 11.5v5c0 1.7 3.1 3 7 3s7-1.3 7-3v-5"/></symbol>
+    </defs>
+  </svg>
 </body>
 </html>
