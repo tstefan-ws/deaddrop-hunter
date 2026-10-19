@@ -5,7 +5,10 @@ name: hunt
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # every 15 minutes (GitHub queues cron, so expect drift)
+    # Hourly, because each run then watches its own hour: the job loops internally instead
+    # of relying on GitHub firing on time. Measured 2026-10-19: a */15 schedule produced one
+    # run in six hours, which left ~6% of blocks read.
+    - cron: "7 * * * *"
   workflow_dispatch:
     inputs:
       chains:
@@ -22,6 +25,16 @@ on:
         description: "Comma-separated hunt ids (empty = all)"
         required: false
         default: ""
+        type: string
+      loop_minutes:
+        description: "Keep hunting for this many minutes (0 = a single pass)"
+        required: false
+        default: "45"
+        type: string
+      gap_seconds:
+        description: "Seconds between cycles inside a run"
+        required: false
+        default: "300"
         type: string
 
 # Never run two hunts at once: they would race on data/ and the git push.
@@ -70,6 +83,8 @@ jobs:
           INPUT_CHAINS: ${{ inputs.chains }}
           INPUT_DAYS: ${{ inputs.days }}
           INPUT_HUNTS: ${{ inputs.hunts }}
+          LOOP_MINUTES: ${{ inputs.loop_minutes || '45' }}
+          GAP_SECONDS: ${{ inputs.gap_seconds || '300' }}
         run: |
           # Drop empty variables so the CLI sees "unset" rather than "".
           for v in ETHERSCAN_API_KEY DUNE_API_KEY TRONGRID_API_KEY DDH_RPC_BSC DDH_RPC_BSC_TESTNET DDH_RPC_SOLANA VT_API_KEY; do
@@ -79,8 +94,23 @@ jobs:
           if [ -n "$INPUT_CHAINS" ]; then args+=(--chains "$INPUT_CHAINS"); fi
           if [ -n "$INPUT_DAYS" ];   then args+=(--days "$INPUT_DAYS"); fi
           if [ -n "$INPUT_HUNTS" ];  then args+=(--hunts "$INPUT_HUNTS"); fi
-          echo "deaddrop-hunter hunt ${args[*]}"
-          deaddrop-hunter hunt "${args[@]}"
+          # One run covers its whole hour. The block watcher reads a fixed window of blocks
+          # per cycle, so cycling every few minutes is what keeps it level with the chain;
+          # waiting for the next scheduled run would leave gaps nothing ever reads.
+          deadline=$(( SECONDS + 60 * ${LOOP_MINUTES:-45} ))
+          cycle=0
+          while :; do
+            cycle=$((cycle + 1))
+            echo "::group::cycle $cycle  deaddrop-hunter hunt ${args[*]}"
+            # A cycle can fail on a rate-limited endpoint; the next one resumes from the
+            # stored position, so a failure must not end the run.
+            deaddrop-hunter hunt "${args[@]}" || echo "::warning::cycle $cycle failed"
+            echo "::endgroup::"
+            [ "${LOOP_MINUTES:-45}" -gt 0 ] || break
+            [ "$SECONDS" -lt "$deadline" ] || break
+            sleep "${GAP_SECONDS:-300}"
+          done
+          echo "ran $cycle cycle(s)"
 
       - name: Commit data changes
         id: commit

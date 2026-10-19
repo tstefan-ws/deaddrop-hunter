@@ -80,7 +80,22 @@ finishes, the URL is shown on the deploy job and under *Settings -> Pages*:
 
 **<https://tstefan-ws.github.io/deaddrop-hunter/>** - API: `.../feeds/api/v1/index.json`.
 
-From then on `hunt.yml` runs every 15 minutes (`*/15 * * * *` UTC). Changes to `web/`,
+From then on `hunt.yml` starts hourly (`7 * * * *` UTC) and each run keeps hunting for 45
+minutes, cycling every 5 minutes, so one run covers its own hour rather than depending on
+GitHub firing on time. That matters: measured on 2026-10-19, a workflow set to every 15
+minutes produced a single run in six hours. Override with the `loop_minutes` and
+`gap_seconds` inputs; `loop_minutes: 0` does a single pass.
+
+For gapless coverage, run the watcher on a machine that stays on:
+
+```bash
+scripts/watch.sh --interval 300 --push --no-site     # a cycle every 5 minutes, pushes data
+```
+
+It loads `.env`, holds a lock so cycles never overlap, survives a failed cycle, and stops
+cleanly on Ctrl-C. Pair it with the systemd unit below, or just leave it in a terminal.
+
+Changes to `web/`,
 `scripts/build_site.py` or the exporters on `main` redeploy the site via `deploy-pages.yml`.
 
 ### Troubleshooting
