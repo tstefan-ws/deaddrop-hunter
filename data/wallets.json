@@ -106,6 +106,22 @@
     "funded_by": []
   },
   {
+    "chain": "bsc",
+    "address": "0xed507dcf11c2db07741544afa3e88a4c6e02063b",
+    "role": "deployer",
+    "label": "Deployer (auto-detected)",
+    "cluster_id": "c-ed507dcf",
+    "contracts": [
+      "0x589ee8073fdedde662df9f0dbcbd2f5084013d28",
+      "0x968c0da0a153bdecea6bfb3c4f50c2da6fc8fb5c"
+    ],
+    "tx_count": 2,
+    "first_seen": "2026-10-19T22:08:38Z",
+    "last_seen": "2026-10-19T22:08:46Z",
+    "watched": false,
+    "funded_by": []
+  },
+  {
     "chain": "monero",
     "address": "41utukrFopWVqtr29E9koxcxPpWKRX1U3BzjT9AKsTvJL1GyYNeAfU19GHyzVVj33YeGNpKZs6dAzKtWUWXfN72h43Wg6Br",
     "role": "payout",
@@ -267,6 +283,22 @@
     "tx_count": 1,
     "first_seen": "2026-10-19T20:26:32Z",
     "last_seen": "2026-10-19T20:26:32Z",
+    "watched": false,
+    "funded_by": []
+  },
+  {
+    "chain": "polygon",
+    "address": "0x877b2bf2181a0161b224ff41e5e59c5ce9bdbe3c",
+    "role": "deployer",
+    "label": "Deployer (auto-detected)",
+    "cluster_id": "c-877b2bf2",
+    "contracts": [
+      "0x9cc2ea9b701ca4b721ab0aa7b70cee5498bb482a",
+      "0xdcfa9e096dffd18c87ff480e992a3d5ac4459e35"
+    ],
+    "tx_count": 2,
+    "first_seen": "2026-10-19T22:11:45Z",
+    "last_seen": "2026-10-19T22:11:46Z",
     "watched": false,
     "funded_by": []
   },

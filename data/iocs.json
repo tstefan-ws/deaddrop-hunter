@@ -5010,6 +5010,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x589ee8073fdedde662df9f0dbcbd2f5084013d28",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-ed507dcf",
+    "chain": "bsc",
+    "contracts": [
+      "0x589ee8073fdedde662df9f0dbcbd2f5084013d28"
+    ],
+    "first_seen": "2026-10-19T22:08:46Z",
+    "last_seen": "2026-10-19T22:08:46Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-19T22:12:47Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x63b758a262924e4f446ee9552daa558ccff60509",
     "port": null,
     "family": "unknown",
@@ -5103,6 +5123,46 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-19T21:00:26Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x968c0da0a153bdecea6bfb3c4f50c2da6fc8fb5c",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-ed507dcf",
+    "chain": "bsc",
+    "contracts": [
+      "0x968c0da0a153bdecea6bfb3c4f50c2da6fc8fb5c"
+    ],
+    "first_seen": "2026-10-19T22:08:38Z",
+    "last_seen": "2026-10-19T22:08:38Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-19T22:12:47Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x9cc2ea9b701ca4b721ab0aa7b70cee5498bb482a",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-877b2bf2",
+    "chain": "polygon",
+    "contracts": [
+      "0x9cc2ea9b701ca4b721ab0aa7b70cee5498bb482a"
+    ],
+    "first_seen": "2026-10-19T22:11:46Z",
+    "last_seen": "2026-10-19T22:11:46Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-19T22:12:47Z",
     "new": true,
     "confidence": 55,
     "dual_use": false,
@@ -5245,6 +5305,26 @@
     "discovered_at": "2025-11-15T21:29:25Z",
     "new": false,
     "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0xdcfa9e096dffd18c87ff480e992a3d5ac4459e35",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-877b2bf2",
+    "chain": "polygon",
+    "contracts": [
+      "0xdcfa9e096dffd18c87ff480e992a3d5ac4459e35"
+    ],
+    "first_seen": "2026-10-19T22:11:45Z",
+    "last_seen": "2026-10-19T22:11:45Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-19T22:12:47Z",
+    "new": true,
+    "confidence": 55,
     "dual_use": false,
     "enrichment": {}
   },
@@ -5445,6 +5525,27 @@
   },
   {
     "type": "evm-wallet",
+    "value": "0x877b2bf2181a0161b224ff41e5e59c5ce9bdbe3c",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-877b2bf2",
+    "chain": "polygon",
+    "contracts": [
+      "0x9cc2ea9b701ca4b721ab0aa7b70cee5498bb482a",
+      "0xdcfa9e096dffd18c87ff480e992a3d5ac4459e35"
+    ],
+    "first_seen": "2026-10-19T22:11:45Z",
+    "last_seen": "2026-10-19T22:11:46Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-10-19T22:12:47Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
     "value": "0x9bae539ae82e0dd1743d134a0f6d546bed721245",
     "port": null,
     "family": "c2-url",
@@ -5522,6 +5623,27 @@
     "discovered_at": "2025-11-15T21:29:25Z",
     "new": false,
     "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0xed507dcf11c2db07741544afa3e88a4c6e02063b",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-ed507dcf",
+    "chain": "bsc",
+    "contracts": [
+      "0x589ee8073fdedde662df9f0dbcbd2f5084013d28",
+      "0x968c0da0a153bdecea6bfb3c4f50c2da6fc8fb5c"
+    ],
+    "first_seen": "2026-10-19T22:08:38Z",
+    "last_seen": "2026-10-19T22:08:46Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-10-19T22:12:47Z",
+    "new": true,
+    "confidence": 55,
     "dual_use": false,
     "enrichment": {}
   },
