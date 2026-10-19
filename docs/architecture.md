@@ -86,7 +86,7 @@ Key design rules:
 ```mermaid
 sequenceDiagram
     autonumber
-    participant S as schedule (every 3 h) / manual
+    participant S as schedule (every 15 min) / manual
     participant H as hunt.yml: hunt job
     participant G as git (main)
     participant D as deploy-pages.yml (reusable)

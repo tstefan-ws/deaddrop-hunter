@@ -5,7 +5,7 @@ name: hunt
 
 on:
   schedule:
-    - cron: "17 */3 * * *"   # every 3 hours, off the top of the hour
+    - cron: "*/15 * * * *"   # every 15 minutes (GitHub queues cron, so expect drift)
   workflow_dispatch:
     inputs:
       chains:
@@ -93,6 +93,19 @@ jobs:
             echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
+          # Cursors in meta.json move on every run, so at this cadence a plain "commit when
+          # anything changed" writes ~96 empty commits a day. Findings are committed at once;
+          # a cursor-only heartbeat waits until the last one is an hour old.
+          if git diff --cached --quiet -- data/ ':(exclude)data/meta.json'; then
+            last=$(git log -1 --format=%ct -- data/meta.json 2>/dev/null || echo 0)
+            if [ $(( $(date -u +%s) - ${last:-0} )) -lt 3300 ]; then
+              echo "Cursors only, last heartbeat < 55 min ago: not committing."
+              git reset -q
+              echo "changed=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            echo "Cursors only, but the last heartbeat is stale: committing."
+          fi
           git commit -m "data: hunt $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           # Retry the push in case someone pushed to the branch meanwhile.
           for i in 1 2 3; do
@@ -108,9 +121,10 @@ jobs:
 
   deploy:
     needs: hunt
-    # Deploy even when nothing changed (keeps the site fresh after web/ edits),
-    # but only from the default branch.
-    if: ${{ !cancelled() && (github.event_name == 'schedule' || github.ref_name == github.event.repository.default_branch) }}
+    # Only when the hunt actually committed something: at a 15-minute cadence an
+    # unconditional deploy would rebuild the site 96 times a day for nothing. Dashboard
+    # changes deploy through deploy-pages.yml's own push trigger on web/**.
+    if: ${{ !cancelled() && needs.hunt.outputs.changed == 'true' && (github.event_name == 'schedule' || github.ref_name == github.event.repository.default_branch) }}
     permissions:
       contents: read
       pages: write
