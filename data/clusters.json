@@ -7,16 +7,21 @@
       "polygon"
     ],
     "contracts": [
+      "0x141564eecbc8046f9c15d6ce903a660afff5d43d",
       "0x17fff8d3f56574a85840d12af91b9d8f4178f85b",
       "0x2fbd66fe245052d265ca0eda7d01d35b2d8b9feb",
       "0x439fbf20c9ddd49ec7b2e8cb52804f48f6e913e4",
-      "0xa210e19de57555face122be5cdc57cc0636ddb1c"
+      "0x87db000f084f4a91f1aa6e00823f350e81316ef4",
+      "0xa210e19de57555face122be5cdc57cc0636ddb1c",
+      "0xaa74f3f5f08c793a844e58dea1fa5ede97802004",
+      "0xe4aa6fc8f6d92f8c26158cfadeae55bae80c816f",
+      "0xe6093262d241f0692a8094529d4bd4e7d540322d"
     ],
     "wallets": [
       "0x19532c0fbaf0fb8c1d0f3fac0b704bf2f4645539"
     ],
-    "ioc_count": 19,
-    "first_seen": "2026-09-06T22:04:52Z",
+    "ioc_count": 36,
+    "first_seen": "2026-03-13T19:09:35Z",
     "last_seen": "2026-10-16T07:52:45Z"
   },
   {
@@ -27,13 +32,17 @@
       "polygon"
     ],
     "contracts": [
-      "0x1712eee3c3237f64ba22b806ff70fe7b035a6bdb"
+      "0x1712eee3c3237f64ba22b806ff70fe7b035a6bdb",
+      "0x24d83e15fbc61085f422708cf42cbd9b323e5365",
+      "0x9ee7260312506462dde73379def547d55e7cee0f",
+      "0xa557a70b85f74920792173fdad8402c3bfbd4919",
+      "0xa9c28c5b780c2bc1dd49ddb3ffbdc580a5e6f6e6"
     ],
     "wallets": [
       "0x24d512cc549aaa8a0828f3336b88c55bad43c847"
     ],
-    "ioc_count": 4,
-    "first_seen": "2026-09-14T00:11:39Z",
+    "ioc_count": 11,
+    "first_seen": "2026-03-13T17:23:13Z",
     "last_seen": "2026-09-14T00:11:39Z"
   },
   {
@@ -137,13 +146,14 @@
       "polygon"
     ],
     "contracts": [
-      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc",
+      "0xc224c02cc0c5b5bf83538b3db0b6f5b10a2bf6d2"
     ],
     "wallets": [
       "0xde275ad38c3352a7cb6b0d3efcbf45900c9716f2"
     ],
-    "ioc_count": 8,
-    "first_seen": "2026-09-17T19:33:16Z",
+    "ioc_count": 46,
+    "first_seen": "2025-11-15T21:29:25Z",
     "last_seen": "2026-10-13T09:33:17Z"
   },
   {

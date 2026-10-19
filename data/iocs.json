@@ -1,6 +1,42 @@
 [
   {
     "type": "domain",
+    "value": "apap.app",
+    "port": null,
+    "family": "xmrig-stealth",
+    "cluster_id": "c-19532c0f",
+    "chain": "polygon",
+    "contracts": [
+      "0x2fbd66fe245052d265ca0eda7d01d35b2d8b9feb",
+      "0x439fbf20c9ddd49ec7b2e8cb52804f48f6e913e4"
+    ],
+    "first_seen": "2026-03-15T13:11:35Z",
+    "last_seen": "2026-03-19T12:30:53Z",
+    "times_seen": 34,
+    "current": false,
+    "confidence": 50,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "de.monero.herominers.com",
+    "port": 1111,
+    "family": "xmrig-stealth",
+    "cluster_id": "c-24d512cc",
+    "chain": "polygon",
+    "contracts": [
+      "0x1712eee3c3237f64ba22b806ff70fe7b035a6bdb",
+      "0xa557a70b85f74920792173fdad8402c3bfbd4919"
+    ],
+    "first_seen": "2026-03-13T18:29:03Z",
+    "last_seen": "2026-03-14T03:44:17Z",
+    "times_seen": 2,
+    "current": true,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "pool.hashvault.pro",
     "port": 443,
     "family": "xmrig-stealth",
@@ -9,11 +45,46 @@
     "contracts": [
       "0x1712eee3c3237f64ba22b806ff70fe7b035a6bdb"
     ],
-    "first_seen": "2026-09-14T00:11:39Z",
+    "first_seen": "2026-03-13T17:57:49Z",
     "last_seen": "2026-09-14T00:11:39Z",
-    "times_seen": 1,
+    "times_seen": 17,
     "current": true,
     "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "ru.monero.herominers.com",
+    "port": 1111,
+    "family": "xmrig-stealth",
+    "cluster_id": "c-24d512cc",
+    "chain": "polygon",
+    "contracts": [
+      "0x1712eee3c3237f64ba22b806ff70fe7b035a6bdb"
+    ],
+    "first_seen": "2026-03-26T08:49:43Z",
+    "last_seen": "2026-03-26T08:49:43Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "site.com",
+    "port": null,
+    "family": "xmrig-stealth",
+    "cluster_id": "c-19532c0f",
+    "chain": "polygon",
+    "contracts": [
+      "0x1712eee3c3237f64ba22b806ff70fe7b035a6bdb",
+      "0x439fbf20c9ddd49ec7b2e8cb52804f48f6e913e4"
+    ],
+    "first_seen": "2026-03-15T23:04:41Z",
+    "last_seen": "2026-03-16T01:59:25Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
     "enrichment": {}
   },
   {
@@ -29,11 +100,65 @@
       "0x439fbf20c9ddd49ec7b2e8cb52804f48f6e913e4",
       "0xa210e19de57555face122be5cdc57cc0636ddb1c"
     ],
-    "first_seen": "2026-09-08T09:35:39Z",
+    "first_seen": "2026-03-26T08:54:35Z",
     "last_seen": "2026-10-13T12:13:49Z",
-    "times_seen": 11,
+    "times_seen": 13,
     "current": false,
     "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "xororand.ru",
+    "port": null,
+    "family": "xmrig-stealth",
+    "cluster_id": "c-19532c0f",
+    "chain": "polygon",
+    "contracts": [
+      "0xaa74f3f5f08c793a844e58dea1fa5ede97802004"
+    ],
+    "first_seen": "2026-04-14T13:29:43Z",
+    "last_seen": "2026-04-14T13:29:43Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 70,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "xororand.ru",
+    "port": 8080,
+    "family": "xmrig-stealth",
+    "cluster_id": "c-19532c0f",
+    "chain": "polygon",
+    "contracts": [
+      "0x87db000f084f4a91f1aa6e00823f350e81316ef4",
+      "0xa210e19de57555face122be5cdc57cc0636ddb1c",
+      "0xaa74f3f5f08c793a844e58dea1fa5ede97802004",
+      "0xe6093262d241f0692a8094529d4bd4e7d540322d"
+    ],
+    "first_seen": "2026-04-14T13:31:09Z",
+    "last_seen": "2026-04-14T21:08:36Z",
+    "times_seen": 6,
+    "current": true,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x141564eecbc8046f9c15d6ce903a660afff5d43d",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-19532c0f",
+    "chain": "polygon",
+    "contracts": [
+      "0x141564eecbc8046f9c15d6ce903a660afff5d43d"
+    ],
+    "first_seen": "2026-05-27T10:52:46Z",
+    "last_seen": "2026-05-27T10:52:46Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 90,
     "enrichment": {}
   },
   {
@@ -46,9 +171,9 @@
     "contracts": [
       "0x1712eee3c3237f64ba22b806ff70fe7b035a6bdb"
     ],
-    "first_seen": "2026-09-14T00:11:39Z",
+    "first_seen": "2026-03-13T17:23:13Z",
     "last_seen": "2026-09-14T00:11:39Z",
-    "times_seen": 1,
+    "times_seen": 24,
     "current": false,
     "confidence": 90,
     "enrichment": {}
@@ -63,9 +188,9 @@
     "contracts": [
       "0x17fff8d3f56574a85840d12af91b9d8f4178f85b"
     ],
-    "first_seen": "2026-09-08T19:38:51Z",
+    "first_seen": "2026-05-27T10:50:49Z",
     "last_seen": "2026-10-16T07:48:03Z",
-    "times_seen": 21,
+    "times_seen": 29,
     "current": true,
     "confidence": 90,
     "enrichment": {}
@@ -80,10 +205,27 @@
     "contracts": [
       "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
     ],
-    "first_seen": "2026-09-17T19:33:16Z",
+    "first_seen": "2025-11-15T22:00:51Z",
     "last_seen": "2026-10-13T09:33:17Z",
-    "times_seen": 3,
+    "times_seen": 24,
     "current": true,
+    "confidence": 90,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x24d83e15fbc61085f422708cf42cbd9b323e5365",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-24d512cc",
+    "chain": "polygon",
+    "contracts": [
+      "0x24d83e15fbc61085f422708cf42cbd9b323e5365"
+    ],
+    "first_seen": "2026-06-18T09:50:25Z",
+    "last_seen": "2026-06-18T09:50:25Z",
+    "times_seen": 1,
+    "current": false,
     "confidence": 90,
     "enrichment": {}
   },
@@ -97,9 +239,9 @@
     "contracts": [
       "0x2fbd66fe245052d265ca0eda7d01d35b2d8b9feb"
     ],
-    "first_seen": "2026-09-06T22:23:01Z",
+    "first_seen": "2026-03-15T13:09:09Z",
     "last_seen": "2026-10-16T07:52:45Z",
-    "times_seen": 20,
+    "times_seen": 42,
     "current": true,
     "confidence": 90,
     "enrichment": {}
@@ -114,10 +256,44 @@
     "contracts": [
       "0x439fbf20c9ddd49ec7b2e8cb52804f48f6e913e4"
     ],
-    "first_seen": "2026-09-06T22:04:52Z",
+    "first_seen": "2026-03-13T19:09:35Z",
     "last_seen": "2026-10-16T07:49:12Z",
-    "times_seen": 19,
+    "times_seen": 84,
     "current": true,
+    "confidence": 90,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x87db000f084f4a91f1aa6e00823f350e81316ef4",
+    "port": null,
+    "family": "xmrig-stealth",
+    "cluster_id": "c-19532c0f",
+    "chain": "polygon",
+    "contracts": [
+      "0x87db000f084f4a91f1aa6e00823f350e81316ef4"
+    ],
+    "first_seen": "2026-04-14T13:38:11Z",
+    "last_seen": "2026-04-14T14:02:51Z",
+    "times_seen": 3,
+    "current": false,
+    "confidence": 90,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x9ee7260312506462dde73379def547d55e7cee0f",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-24d512cc",
+    "chain": "polygon",
+    "contracts": [
+      "0x9ee7260312506462dde73379def547d55e7cee0f"
+    ],
+    "first_seen": "2026-06-28T08:43:22Z",
+    "last_seen": "2026-06-28T09:02:17Z",
+    "times_seen": 2,
+    "current": false,
     "confidence": 90,
     "enrichment": {}
   },
@@ -131,10 +307,112 @@
     "contracts": [
       "0xa210e19de57555face122be5cdc57cc0636ddb1c"
     ],
-    "first_seen": "2026-09-08T09:35:39Z",
+    "first_seen": "2026-04-14T14:21:53Z",
     "last_seen": "2026-10-16T07:51:21Z",
-    "times_seen": 7,
+    "times_seen": 29,
     "current": true,
+    "confidence": 90,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0xa557a70b85f74920792173fdad8402c3bfbd4919",
+    "port": null,
+    "family": "xmrig-stealth",
+    "cluster_id": "c-24d512cc",
+    "chain": "polygon",
+    "contracts": [
+      "0xa557a70b85f74920792173fdad8402c3bfbd4919"
+    ],
+    "first_seen": "2026-03-13T18:27:37Z",
+    "last_seen": "2026-03-13T18:29:03Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 90,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0xa9c28c5b780c2bc1dd49ddb3ffbdc580a5e6f6e6",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-24d512cc",
+    "chain": "polygon",
+    "contracts": [
+      "0xa9c28c5b780c2bc1dd49ddb3ffbdc580a5e6f6e6"
+    ],
+    "first_seen": "2026-06-25T16:19:28Z",
+    "last_seen": "2026-08-30T14:49:24Z",
+    "times_seen": 11,
+    "current": false,
+    "confidence": 90,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0xaa74f3f5f08c793a844e58dea1fa5ede97802004",
+    "port": null,
+    "family": "xmrig-stealth",
+    "cluster_id": "c-19532c0f",
+    "chain": "polygon",
+    "contracts": [
+      "0xaa74f3f5f08c793a844e58dea1fa5ede97802004"
+    ],
+    "first_seen": "2026-04-14T13:23:19Z",
+    "last_seen": "2026-04-14T13:46:19Z",
+    "times_seen": 4,
+    "current": false,
+    "confidence": 90,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0xc224c02cc0c5b5bf83538b3db0b6f5b10a2bf6d2",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0xc224c02cc0c5b5bf83538b3db0b6f5b10a2bf6d2"
+    ],
+    "first_seen": "2025-11-15T21:29:25Z",
+    "last_seen": "2025-11-15T21:38:01Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 90,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0xe4aa6fc8f6d92f8c26158cfadeae55bae80c816f",
+    "port": null,
+    "family": "xmrig-stealth",
+    "cluster_id": "c-19532c0f",
+    "chain": "polygon",
+    "contracts": [
+      "0xe4aa6fc8f6d92f8c26158cfadeae55bae80c816f"
+    ],
+    "first_seen": "2026-04-15T10:15:02Z",
+    "last_seen": "2026-04-27T09:28:54Z",
+    "times_seen": 3,
+    "current": false,
+    "confidence": 90,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0xe6093262d241f0692a8094529d4bd4e7d540322d",
+    "port": null,
+    "family": "xmrig-stealth",
+    "cluster_id": "c-19532c0f",
+    "chain": "polygon",
+    "contracts": [
+      "0xe6093262d241f0692a8094529d4bd4e7d540322d"
+    ],
+    "first_seen": "2026-04-14T14:05:05Z",
+    "last_seen": "2026-04-14T14:24:19Z",
+    "times_seen": 2,
+    "current": false,
     "confidence": 90,
     "enrichment": {}
   },
@@ -146,14 +424,19 @@
     "cluster_id": "c-19532c0f",
     "chain": "polygon",
     "contracts": [
+      "0x141564eecbc8046f9c15d6ce903a660afff5d43d",
       "0x17fff8d3f56574a85840d12af91b9d8f4178f85b",
       "0x2fbd66fe245052d265ca0eda7d01d35b2d8b9feb",
       "0x439fbf20c9ddd49ec7b2e8cb52804f48f6e913e4",
-      "0xa210e19de57555face122be5cdc57cc0636ddb1c"
+      "0x87db000f084f4a91f1aa6e00823f350e81316ef4",
+      "0xa210e19de57555face122be5cdc57cc0636ddb1c",
+      "0xaa74f3f5f08c793a844e58dea1fa5ede97802004",
+      "0xe4aa6fc8f6d92f8c26158cfadeae55bae80c816f",
+      "0xe6093262d241f0692a8094529d4bd4e7d540322d"
     ],
-    "first_seen": "2026-09-06T22:04:52Z",
+    "first_seen": "2026-03-13T19:09:35Z",
     "last_seen": "2026-10-16T07:52:45Z",
-    "times_seen": 67,
+    "times_seen": 197,
     "current": true,
     "confidence": 85,
     "enrichment": {}
@@ -166,11 +449,15 @@
     "cluster_id": "c-24d512cc",
     "chain": "polygon",
     "contracts": [
-      "0x1712eee3c3237f64ba22b806ff70fe7b035a6bdb"
+      "0x1712eee3c3237f64ba22b806ff70fe7b035a6bdb",
+      "0x24d83e15fbc61085f422708cf42cbd9b323e5365",
+      "0x9ee7260312506462dde73379def547d55e7cee0f",
+      "0xa557a70b85f74920792173fdad8402c3bfbd4919",
+      "0xa9c28c5b780c2bc1dd49ddb3ffbdc580a5e6f6e6"
     ],
-    "first_seen": "2026-09-14T00:11:39Z",
+    "first_seen": "2026-03-13T17:23:13Z",
     "last_seen": "2026-09-14T00:11:39Z",
-    "times_seen": 1,
+    "times_seen": 40,
     "current": false,
     "confidence": 85,
     "enrichment": {}
@@ -183,11 +470,12 @@
     "cluster_id": "c-de275ad3",
     "chain": "polygon",
     "contracts": [
-      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc",
+      "0xc224c02cc0c5b5bf83538b3db0b6f5b10a2bf6d2"
     ],
-    "first_seen": "2026-09-17T19:33:16Z",
+    "first_seen": "2025-11-15T21:29:25Z",
     "last_seen": "2026-10-13T09:33:17Z",
-    "times_seen": 3,
+    "times_seen": 26,
     "current": true,
     "confidence": 85,
     "enrichment": {}
@@ -224,6 +512,24 @@
     "times_seen": 2,
     "current": false,
     "confidence": 70,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "109.107.167.184",
+    "port": 27033,
+    "family": "xmrig-stealth",
+    "cluster_id": "c-19532c0f",
+    "chain": "polygon",
+    "contracts": [
+      "0x439fbf20c9ddd49ec7b2e8cb52804f48f6e913e4",
+      "0xe4aa6fc8f6d92f8c26158cfadeae55bae80c816f"
+    ],
+    "first_seen": "2026-04-15T05:44:28Z",
+    "last_seen": "2026-05-25T18:53:18Z",
+    "times_seen": 9,
+    "current": false,
+    "confidence": 85,
     "enrichment": {}
   },
   {
@@ -265,6 +571,25 @@
   },
   {
     "type": "ipv4",
+    "value": "144.124.224.120",
+    "port": 27031,
+    "family": "xmrig-stealth",
+    "cluster_id": "c-19532c0f",
+    "chain": "polygon",
+    "contracts": [
+      "0x17fff8d3f56574a85840d12af91b9d8f4178f85b",
+      "0x2fbd66fe245052d265ca0eda7d01d35b2d8b9feb",
+      "0x439fbf20c9ddd49ec7b2e8cb52804f48f6e913e4"
+    ],
+    "first_seen": "2026-05-27T10:58:11Z",
+    "last_seen": "2026-07-30T08:44:27Z",
+    "times_seen": 19,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
     "value": "144.31.108.193",
     "port": null,
     "family": "c2-url",
@@ -277,6 +602,74 @@
     "last_seen": "2026-10-13T09:33:17Z",
     "times_seen": 2,
     "current": true,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "144.31.219.15",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-01-01T17:17:43Z",
+    "last_seen": "2026-01-01T17:17:43Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "144.31.57.65",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-04-05T11:07:17Z",
+    "last_seen": "2026-04-05T11:07:17Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "144.31.57.67",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-05-14T08:55:52Z",
+    "last_seen": "2026-05-14T08:55:52Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "151.243.113.70",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2025-12-27T21:28:31Z",
+    "last_seen": "2025-12-27T21:28:31Z",
+    "times_seen": 1,
+    "current": false,
     "confidence": 85,
     "enrichment": {}
   },
@@ -318,6 +711,40 @@
   },
   {
     "type": "ipv4",
+    "value": "185.10.68.98",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-06-21T07:01:41Z",
+    "last_seen": "2026-06-21T07:01:41Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "193.233.138.30",
+    "port": 8080,
+    "family": "xmrig-stealth",
+    "cluster_id": "c-19532c0f",
+    "chain": "polygon",
+    "contracts": [
+      "0xa210e19de57555face122be5cdc57cc0636ddb1c"
+    ],
+    "first_seen": "2026-04-14T14:41:07Z",
+    "last_seen": "2026-05-09T21:57:18Z",
+    "times_seen": 4,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
     "value": "194.48.248.94",
     "port": null,
     "family": "c2-url",
@@ -326,9 +753,9 @@
     "contracts": [
       "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
     ],
-    "first_seen": "2026-09-17T19:33:16Z",
+    "first_seen": "2026-08-11T08:06:16Z",
     "last_seen": "2026-09-17T19:33:16Z",
-    "times_seen": 1,
+    "times_seen": 2,
     "current": false,
     "confidence": 85,
     "enrichment": {}
@@ -433,6 +860,126 @@
     "times_seen": 1,
     "current": false,
     "confidence": 60,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "212.34.142.111",
+    "port": null,
+    "family": "xmrig-stealth",
+    "cluster_id": "c-19532c0f",
+    "chain": "polygon",
+    "contracts": [
+      "0x439fbf20c9ddd49ec7b2e8cb52804f48f6e913e4"
+    ],
+    "first_seen": "2026-03-17T13:53:59Z",
+    "last_seen": "2026-03-17T13:53:59Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 60,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "212.34.142.111",
+    "port": 8080,
+    "family": "xmrig-stealth",
+    "cluster_id": "c-19532c0f",
+    "chain": "polygon",
+    "contracts": [
+      "0xa210e19de57555face122be5cdc57cc0636ddb1c"
+    ],
+    "first_seen": "2026-04-14T14:34:53Z",
+    "last_seen": "2026-04-14T14:34:53Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "212.34.142.111",
+    "port": 27032,
+    "family": "xmrig-stealth",
+    "cluster_id": "c-19532c0f",
+    "chain": "polygon",
+    "contracts": [
+      "0x439fbf20c9ddd49ec7b2e8cb52804f48f6e913e4",
+      "0xa210e19de57555face122be5cdc57cc0636ddb1c"
+    ],
+    "first_seen": "2026-03-13T19:29:37Z",
+    "last_seen": "2026-04-14T14:35:31Z",
+    "times_seen": 48,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "213.176.72.204",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-01-26T07:11:28Z",
+    "last_seen": "2026-01-26T07:11:28Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "213.176.73.132",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-04-15T18:50:02Z",
+    "last_seen": "2026-04-15T18:50:02Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "213.176.73.139",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-06-04T13:44:03Z",
+    "last_seen": "2026-06-04T13:44:03Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "217.119.129.76",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-03-19T11:11:05Z",
+    "last_seen": "2026-03-19T11:11:05Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
     "enrichment": {}
   },
   {
@@ -1059,6 +1606,23 @@
   {
     "type": "ipv4",
     "value": "5.101.86.83",
+    "port": null,
+    "family": "xmrig-stealth",
+    "cluster_id": "c-19532c0f",
+    "chain": "polygon",
+    "contracts": [
+      "0x2fbd66fe245052d265ca0eda7d01d35b2d8b9feb"
+    ],
+    "first_seen": "2026-07-29T06:59:36Z",
+    "last_seen": "2026-07-29T06:59:36Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "5.101.86.83",
     "port": 23145,
     "family": "xmrig-stealth",
     "cluster_id": "c-19532c0f",
@@ -1066,9 +1630,9 @@
     "contracts": [
       "0x2fbd66fe245052d265ca0eda7d01d35b2d8b9feb"
     ],
-    "first_seen": "2026-09-06T22:23:01Z",
+    "first_seen": "2026-03-26T15:51:31Z",
     "last_seen": "2026-09-06T22:23:01Z",
-    "times_seen": 1,
+    "times_seen": 7,
     "current": false,
     "confidence": 85,
     "enrichment": {}
@@ -1147,6 +1711,23 @@
   },
   {
     "type": "ipv4",
+    "value": "78.40.209.225",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2025-12-22T12:08:53Z",
+    "last_seen": "2025-12-22T12:08:53Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
     "value": "83.171.224.127",
     "port": 443,
     "family": "xmrig-stealth",
@@ -1155,8 +1736,59 @@
     "contracts": [
       "0xa210e19de57555face122be5cdc57cc0636ddb1c"
     ],
-    "first_seen": "2026-09-08T09:35:39Z",
+    "first_seen": "2026-05-14T20:09:06Z",
     "last_seen": "2026-09-08T09:35:39Z",
+    "times_seen": 10,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "83.97.20.150",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-07-13T18:59:01Z",
+    "last_seen": "2026-07-13T18:59:01Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "84.21.189.135",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2025-12-11T19:24:17Z",
+    "last_seen": "2025-12-11T19:24:17Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "85.137.52.21",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-06-04T22:00:34Z",
+    "last_seen": "2026-06-04T22:00:34Z",
     "times_seen": 1,
     "current": false,
     "confidence": 85,
@@ -1193,9 +1825,9 @@
       "0x2fbd66fe245052d265ca0eda7d01d35b2d8b9feb",
       "0x439fbf20c9ddd49ec7b2e8cb52804f48f6e913e4"
     ],
-    "first_seen": "2026-09-06T22:04:52Z",
+    "first_seen": "2026-08-05T14:18:11Z",
     "last_seen": "2026-09-08T19:41:58Z",
-    "times_seen": 5,
+    "times_seen": 7,
     "current": false,
     "confidence": 85,
     "enrichment": {}
@@ -1215,6 +1847,74 @@
     "first_seen": "2026-09-20T06:13:25Z",
     "last_seen": "2026-09-20T18:15:13Z",
     "times_seen": 6,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "89.169.12.140",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-05-03T15:48:58Z",
+    "last_seen": "2026-05-03T15:48:58Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "89.169.12.149",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-04-22T13:39:02Z",
+    "last_seen": "2026-04-22T13:39:02Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "89.169.12.160",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-02-08T20:22:31Z",
+    "last_seen": "2026-02-08T20:22:31Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "89.169.12.241",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-02-27T19:47:29Z",
+    "last_seen": "2026-02-27T19:47:29Z",
+    "times_seen": 1,
     "current": false,
     "confidence": 85,
     "enrichment": {}
@@ -1272,6 +1972,23 @@
     "first_seen": "2026-09-24T02:28:55Z",
     "last_seen": "2026-09-24T14:46:14Z",
     "times_seen": 6,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "93.123.39.74",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2025-11-16T11:37:19Z",
+    "last_seen": "2025-11-16T11:37:19Z",
+    "times_seen": 1,
     "current": false,
     "confidence": 85,
     "enrichment": {}
@@ -1376,6 +2093,23 @@
     "times_seen": 2,
     "current": false,
     "confidence": 75,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "http://127.0.0.1",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2025-11-16T08:45:37Z",
+    "last_seen": "2025-11-16T08:45:37Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
     "enrichment": {}
   },
   {
@@ -1516,6 +2250,74 @@
   },
   {
     "type": "url",
+    "value": "http://144.31.219.15",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-01-01T17:17:43Z",
+    "last_seen": "2026-01-01T17:17:43Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "http://144.31.57.65",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-04-05T11:07:17Z",
+    "last_seen": "2026-04-05T11:07:17Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "http://144.31.57.67",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-05-14T08:55:52Z",
+    "last_seen": "2026-05-14T08:55:52Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "http://151.243.113.70",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2025-12-27T21:28:31Z",
+    "last_seen": "2025-12-27T21:28:31Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
     "value": "http://162.33.177.177/Kj3aLD8YuWSE12b1s7Vznw%3D%3D",
     "port": null,
     "family": "unknown",
@@ -1585,6 +2387,23 @@
   },
   {
     "type": "url",
+    "value": "http://185.10.68.98",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-06-21T07:01:41Z",
+    "last_seen": "2026-06-21T07:01:41Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
     "value": "http://194.48.248.94",
     "port": null,
     "family": "c2-url",
@@ -1593,9 +2412,9 @@
     "contracts": [
       "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
     ],
-    "first_seen": "2026-09-17T19:33:16Z",
+    "first_seen": "2026-08-11T08:06:16Z",
     "last_seen": "2026-09-17T19:33:16Z",
-    "times_seen": 1,
+    "times_seen": 2,
     "current": false,
     "confidence": 85,
     "enrichment": {}
@@ -1785,6 +2604,74 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "http://213.176.72.204",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-01-26T07:11:28Z",
+    "last_seen": "2026-01-26T07:11:28Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "http://213.176.73.132",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-04-15T18:50:02Z",
+    "last_seen": "2026-04-15T18:50:02Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "http://213.176.73.139",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-06-04T13:44:03Z",
+    "last_seen": "2026-06-04T13:44:03Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "http://217.119.129.76",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-03-19T11:11:05Z",
+    "last_seen": "2026-03-19T11:11:05Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
     "enrichment": {}
   },
   {
@@ -3800,6 +4687,179 @@
     "enrichment": {}
   },
   {
+    "type": "url",
+    "value": "http://78.40.209.225",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2025-12-22T12:08:53Z",
+    "last_seen": "2025-12-22T12:08:53Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "http://83.97.20.150",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-07-13T18:59:01Z",
+    "last_seen": "2026-07-13T18:59:01Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "http://84.21.189.135",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2025-12-11T19:24:17Z",
+    "last_seen": "2025-12-11T19:24:17Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "http://85.137.52.21",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-06-04T22:00:34Z",
+    "last_seen": "2026-06-04T22:00:34Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "http://89.169.12.140",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-05-03T15:48:58Z",
+    "last_seen": "2026-05-03T15:48:58Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "http://89.169.12.149",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-04-22T13:39:02Z",
+    "last_seen": "2026-04-22T13:39:02Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "http://89.169.12.160",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-02-08T20:22:31Z",
+    "last_seen": "2026-02-08T20:22:31Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "http://89.169.12.241",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-02-27T19:47:29Z",
+    "last_seen": "2026-02-27T19:47:29Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "http://93.123.39.74",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2025-11-16T11:37:19Z",
+    "last_seen": "2025-11-16T11:37:19Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "http://xororand.ru",
+    "port": null,
+    "family": "xmrig-stealth",
+    "cluster_id": "c-19532c0f",
+    "chain": "polygon",
+    "contracts": [
+      "0x87db000f084f4a91f1aa6e00823f350e81316ef4",
+      "0xa210e19de57555face122be5cdc57cc0636ddb1c",
+      "0xaa74f3f5f08c793a844e58dea1fa5ede97802004",
+      "0xe6093262d241f0692a8094529d4bd4e7d540322d"
+    ],
+    "first_seen": "2026-04-14T13:29:43Z",
+    "last_seen": "2026-04-14T14:30:05Z",
+    "times_seen": 5,
+    "current": true,
+    "confidence": 75,
+    "enrichment": {}
+  },
+  {
     "type": "xmr-wallet",
     "value": "41utukrFopWVqtr29E9koxcxPpWKRX1U3BzjT9AKsTvJL1GyYNeAfU19GHyzVVj33YeGNpKZs6dAzKtWUWXfN72h43Wg6Br",
     "port": null,
@@ -3827,9 +4887,9 @@
     "contracts": [
       "0x1712eee3c3237f64ba22b806ff70fe7b035a6bdb"
     ],
-    "first_seen": "2026-09-14T00:11:39Z",
+    "first_seen": "2026-03-13T17:57:49Z",
     "last_seen": "2026-09-14T00:11:39Z",
-    "times_seen": 1,
+    "times_seen": 19,
     "current": true,
     "confidence": 90,
     "enrichment": {}
@@ -3848,6 +4908,24 @@
     "last_seen": "2026-10-13T12:13:49Z",
     "times_seen": 2,
     "current": false,
+    "confidence": 90,
+    "enrichment": {}
+  },
+  {
+    "type": "xmr-wallet",
+    "value": "47P2TfYubQP8KgBNDxDDRUTnbTTZyqduYcBmMMb4vfxtYfXUNPs6X5Z1VSMDCiN1wD2U95ZbF6Ca6YmLzzDvCKLFLEFDHji",
+    "port": null,
+    "family": "xmrig-stealth",
+    "cluster_id": "c-24d512cc",
+    "chain": "polygon",
+    "contracts": [
+      "0x1712eee3c3237f64ba22b806ff70fe7b035a6bdb",
+      "0xa557a70b85f74920792173fdad8402c3bfbd4919"
+    ],
+    "first_seen": "2026-03-13T18:29:03Z",
+    "last_seen": "2026-03-14T03:44:17Z",
+    "times_seen": 2,
+    "current": true,
     "confidence": 90,
     "enrichment": {}
   }

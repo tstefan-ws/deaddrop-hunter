@@ -84,8 +84,8 @@
     "contracts": [
       "0x1712eee3c3237f64ba22b806ff70fe7b035a6bdb"
     ],
-    "tx_count": 1,
-    "first_seen": "2026-09-14T00:11:39Z",
+    "tx_count": 19,
+    "first_seen": "2026-03-13T17:57:49Z",
     "last_seen": "2026-09-14T00:11:39Z",
     "watched": false,
     "funded_by": []
@@ -106,19 +106,40 @@
     "funded_by": []
   },
   {
+    "chain": "monero",
+    "address": "47P2TfYubQP8KgBNDxDDRUTnbTTZyqduYcBmMMb4vfxtYfXUNPs6X5Z1VSMDCiN1wD2U95ZbF6Ca6YmLzzDvCKLFLEFDHji",
+    "role": "payout",
+    "label": "Payout wallet found in decoded config",
+    "cluster_id": "c-24d512cc",
+    "contracts": [
+      "0x1712eee3c3237f64ba22b806ff70fe7b035a6bdb",
+      "0xa557a70b85f74920792173fdad8402c3bfbd4919"
+    ],
+    "tx_count": 2,
+    "first_seen": "2026-03-13T18:29:03Z",
+    "last_seen": "2026-03-14T03:44:17Z",
+    "watched": false,
+    "funded_by": []
+  },
+  {
     "chain": "polygon",
     "address": "0x19532c0fbaf0fb8c1d0f3fac0b704bf2f4645539",
     "role": "operator",
     "label": "Operator: stealth-XMRig cluster (4 contracts)",
     "cluster_id": "c-19532c0f",
     "contracts": [
+      "0x141564eecbc8046f9c15d6ce903a660afff5d43d",
       "0x17fff8d3f56574a85840d12af91b9d8f4178f85b",
       "0x2fbd66fe245052d265ca0eda7d01d35b2d8b9feb",
       "0x439fbf20c9ddd49ec7b2e8cb52804f48f6e913e4",
-      "0xa210e19de57555face122be5cdc57cc0636ddb1c"
+      "0x87db000f084f4a91f1aa6e00823f350e81316ef4",
+      "0xa210e19de57555face122be5cdc57cc0636ddb1c",
+      "0xaa74f3f5f08c793a844e58dea1fa5ede97802004",
+      "0xe4aa6fc8f6d92f8c26158cfadeae55bae80c816f",
+      "0xe6093262d241f0692a8094529d4bd4e7d540322d"
     ],
-    "tx_count": 67,
-    "first_seen": "2026-09-06T22:04:52Z",
+    "tx_count": 197,
+    "first_seen": "2026-03-13T19:09:35Z",
     "last_seen": "2026-10-16T07:52:45Z",
     "watched": true,
     "funded_by": []
@@ -130,10 +151,14 @@
     "label": "Operator: XMRig config, hashvault pool",
     "cluster_id": "c-24d512cc",
     "contracts": [
-      "0x1712eee3c3237f64ba22b806ff70fe7b035a6bdb"
+      "0x1712eee3c3237f64ba22b806ff70fe7b035a6bdb",
+      "0x24d83e15fbc61085f422708cf42cbd9b323e5365",
+      "0x9ee7260312506462dde73379def547d55e7cee0f",
+      "0xa557a70b85f74920792173fdad8402c3bfbd4919",
+      "0xa9c28c5b780c2bc1dd49ddb3ffbdc580a5e6f6e6"
     ],
-    "tx_count": 1,
-    "first_seen": "2026-09-14T00:11:39Z",
+    "tx_count": 40,
+    "first_seen": "2026-03-13T17:23:13Z",
     "last_seen": "2026-09-14T00:11:39Z",
     "watched": true,
     "funded_by": []
@@ -145,10 +170,11 @@
     "label": "Operator: C2 URL rotation",
     "cluster_id": "c-de275ad3",
     "contracts": [
-      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc",
+      "0xc224c02cc0c5b5bf83538b3db0b6f5b10a2bf6d2"
     ],
-    "tx_count": 3,
-    "first_seen": "2026-09-17T19:33:16Z",
+    "tx_count": 26,
+    "first_seen": "2025-11-15T21:29:25Z",
     "last_seen": "2026-10-13T09:33:17Z",
     "watched": true,
     "funded_by": []

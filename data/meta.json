@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T11:23:31Z",
+  "generated_at": "2026-10-19T12:02:36Z",
   "tool_version": "0.1.0",
   "cursors": [
     {
@@ -69,8 +69,22 @@
       "chain": "polygon",
       "hunt_id": "dataupdated-string-string",
       "from_block": 92096196,
-      "to_block": 95802444,
-      "updated_at": "2026-10-19T11:23:31Z"
+      "to_block": 95803797,
+      "updated_at": "2026-10-19T11:57:30Z"
+    },
+    {
+      "chain": "polygon",
+      "hunt_id": "selector-68446ead",
+      "from_block": 94569512,
+      "to_block": 95803797,
+      "updated_at": "2026-10-19T11:57:30Z"
+    },
+    {
+      "chain": "polygon",
+      "hunt_id": "watch-wallet",
+      "from_block": 75232416,
+      "to_block": 95803844,
+      "updated_at": "2026-10-19T11:58:40Z"
     },
     {
       "chain": "solana",
@@ -134,10 +148,10 @@
     }
   ],
   "counts": {
-    "contracts": 19,
-    "wallets": 21,
-    "events": 459,
-    "iocs": 224,
+    "contracts": 29,
+    "wallets": 22,
+    "events": 651,
+    "iocs": 286,
     "clusters": 13
   }
 }
