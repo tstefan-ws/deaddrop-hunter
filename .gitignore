@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Generated site (built in CI from web/ + data/ + exported feeds)
+site/
+
+# Secrets and local overrides - never commit API keys
+.env
+.env.*
+!.env.example
+*.local.toml
+config/local*.toml
+
+# Raw caches / scratch output from local hunts
+.cache/
+cache/
+*.log
+logs/
+*.tmp
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Node (dashboard tooling, if any)
+node_modules/
+
+# Never commit live malware samples
+samples/
+*.vir
+*.malware

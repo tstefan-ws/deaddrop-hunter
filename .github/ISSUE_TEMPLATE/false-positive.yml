@@ -1,0 +1,36 @@
+name: False positive
+description: A contract, wallet, IOC or detection rule flagged something legitimate.
+title: "[fp] <what>"
+labels: ["false-positive", "triage"]
+body:
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where is the false positive?
+      options:
+        - Dashboard / data (contract, wallet, IOC)
+        - Public API / exported feed (STIX, MISP, CSV, TXT)
+        - Sigma rule
+        - YARA rule
+        - Suricata rule
+    validations:
+      required: true
+  - type: input
+    id: item
+    attributes:
+      label: Item
+      description: Address, IOC value (defanged), or rule id / name.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it benign?
+      description: Ownership, project documentation, explorer label, verified source code, etc. Links welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested fix
+      description: Allow-list entry, classifier change, rule filter...

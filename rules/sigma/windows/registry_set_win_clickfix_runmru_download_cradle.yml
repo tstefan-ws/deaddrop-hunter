@@ -1,0 +1,49 @@
+title: ClickFix - RunMRU Entry With Script Engine And URL
+id: 16e0d414-e1b7-4605-887e-6b3007b5460f
+status: experimental
+description: |
+    Detects a new entry in the Explorer RunMRU key (commands typed into the Win+R "Run" dialog)
+    that launches a script engine or downloader together with a URL. This is the artifact left by
+    "ClickFix" / fake-CAPTCHA lures, where the victim is tricked into pasting a command such as
+    "powershell -w h -c iex(irm hxxps://...)" or "mshta hxxps://...". ClearFake (UNC5142) serves
+    these lures from compromised websites whose injected loader is fetched from a BNB Smart Chain
+    contract (EtherHiding).
+references:
+    - https://cloud.google.com/blog/topics/threat-intelligence/unc5142-etherhiding-distribute-malware
+    - https://attack.mitre.org/techniques/T1204/004/
+    - https://www.linkedin.com/pulse/hunting-etherhiding-from-one-cluster-ecosystem-alex-necula-r7l8e/
+author: deaddrop-hunter contributors
+date: 2026-10-19
+tags:
+    - attack.execution
+    - attack.t1204.004
+    - attack.t1059.001
+    - attack.stealth
+    - attack.t1218.005
+logsource:
+    product: windows
+    category: registry_set
+detection:
+    selection_key:
+        TargetObject|contains: '\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU\'
+    selection_engine:
+        Details|contains:
+            - 'powershell'
+            - 'pwsh'
+            - 'mshta'
+            - 'curl'
+            - 'cmd'
+            - 'wscript'
+            - 'cscript'
+            - 'rundll32'
+            - 'msiexec'
+            - 'certutil'
+            - 'bitsadmin'
+    selection_url:
+        Details|contains: 'http'
+    filter_main_mrulist:
+        TargetObject|endswith: '\MRUList'
+    condition: all of selection_* and not 1 of filter_main_*
+falsepositives:
+    - Administrators or power users who paste installer or troubleshooting one-liners into the Run dialog
+level: high

@@ -1,0 +1,244 @@
+[
+  {
+    "type": "domain",
+    "value": "dead-drop-fixture.example",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": null,
+    "chain": "bsc",
+    "contracts": [
+      "0xfeed000000000000000000000000000000000004"
+    ],
+    "first_seen": "2026-09-01T00:00:00Z",
+    "last_seen": "2026-09-02T00:00:00Z",
+    "times_seen": 2,
+    "current": true,
+    "confidence": 30,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "pool.hashvault.pro",
+    "port": 443,
+    "family": "xmrig",
+    "cluster_id": "c-24d512cc",
+    "chain": "polygon",
+    "contracts": [
+      "0xfeed000000000000000000000000000000000003"
+    ],
+    "first_seen": "2026-09-20T06:00:00Z",
+    "last_seen": "2026-10-15T06:00:00Z",
+    "times_seen": 4,
+    "current": true,
+    "confidence": 50,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "xmr-eu1.nanopool.org",
+    "port": 10343,
+    "family": "xmrig-stealth",
+    "cluster_id": "c-19532c0f",
+    "chain": "polygon",
+    "contracts": [
+      "0x17fff8d3f56574a85840d12af91b9d8f4178f85b",
+      "0xfeed000000000000000000000000000000000001"
+    ],
+    "first_seen": "2026-08-01T10:00:00Z",
+    "last_seen": "2026-10-17T22:00:00Z",
+    "times_seen": 12,
+    "current": true,
+    "confidence": 50,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-07-10T08:00:00Z",
+    "last_seen": "2026-10-12T17:30:00Z",
+    "times_seen": 9,
+    "current": true,
+    "confidence": 90,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "144.31.108.193",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-10-12T17:30:00Z",
+    "last_seen": "2026-10-12T17:30:00Z",
+    "times_seen": 1,
+    "current": true,
+    "confidence": 75,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "185.10.68.110",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-07-10T08:00:00Z",
+    "last_seen": "2026-10-12T17:30:00Z",
+    "times_seen": 8,
+    "current": false,
+    "confidence": 60,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "203.0.113.50",
+    "port": 80,
+    "family": "glassworm",
+    "cluster_id": "c-GwrmFixt",
+    "chain": "solana",
+    "contracts": [
+      "GwrmFixtureDeadDrop1111111111111111111111111"
+    ],
+    "first_seen": "2026-10-01T03:00:00Z",
+    "last_seen": "2026-10-16T03:00:00Z",
+    "times_seen": 6,
+    "current": true,
+    "confidence": 80,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "78.40.198.61",
+    "port": 31270,
+    "family": "xmrig-stealth",
+    "cluster_id": "c-19532c0f",
+    "chain": "polygon",
+    "contracts": [
+      "0x17fff8d3f56574a85840d12af91b9d8f4178f85b",
+      "0x2fbd66fe245052d265ca0eda7d01d35b2d8b9feb",
+      "0xfeed000000000000000000000000000000000001",
+      "0xfeed000000000000000000000000000000000002"
+    ],
+    "first_seen": "2026-08-01T10:00:00Z",
+    "last_seen": "2026-10-18T09:12:44Z",
+    "times_seen": 40,
+    "current": true,
+    "confidence": 70,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv6",
+    "value": "2001:db8::10",
+    "port": 8443,
+    "family": "unknown",
+    "cluster_id": null,
+    "chain": "bsc",
+    "contracts": [
+      "0xfeed000000000000000000000000000000000004"
+    ],
+    "first_seen": "2026-09-01T00:00:00Z",
+    "last_seen": "2026-09-02T00:00:00Z",
+    "times_seen": 2,
+    "current": true,
+    "confidence": 30,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "http://185.10.68.110/api/",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-07-10T08:00:00Z",
+    "last_seen": "2026-10-12T17:30:00Z",
+    "times_seen": 8,
+    "current": false,
+    "confidence": 70,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "http://203.0.113.50/wall",
+    "port": null,
+    "family": "glassworm",
+    "cluster_id": "c-GwrmFixt",
+    "chain": "solana",
+    "contracts": [
+      "GwrmFixtureDeadDrop1111111111111111111111111"
+    ],
+    "first_seen": "2026-10-01T03:00:00Z",
+    "last_seen": "2026-10-16T03:00:00Z",
+    "times_seen": 6,
+    "current": true,
+    "confidence": 85,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "http://dead-drop-fixture.example/it's?a=1\\b",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": null,
+    "chain": "bsc",
+    "contracts": [
+      "0xfeed000000000000000000000000000000000004"
+    ],
+    "first_seen": "2026-09-01T00:00:00Z",
+    "last_seen": "2026-09-02T00:00:00Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 20,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://144.31.108.193/gate.php",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-10-12T17:30:00Z",
+    "last_seen": "2026-10-12T17:30:00Z",
+    "times_seen": 1,
+    "current": true,
+    "confidence": 80,
+    "enrichment": {}
+  },
+  {
+    "type": "xmr-wallet",
+    "value": "49FixtureWa11et11111111111111111111111111111111111111111111111111111111111111111111111111111111",
+    "port": null,
+    "family": "xmrig",
+    "cluster_id": "c-24d512cc",
+    "chain": "polygon",
+    "contracts": [
+      "0xfeed000000000000000000000000000000000003"
+    ],
+    "first_seen": "2026-09-20T06:00:00Z",
+    "last_seen": "2026-10-15T06:00:00Z",
+    "times_seen": 4,
+    "current": true,
+    "confidence": 80,
+    "enrichment": {}
+  }
+]

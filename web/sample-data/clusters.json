@@ -1,0 +1,74 @@
+[
+  {
+    "id": "c-19532c0f",
+    "name": "Stealth XMRig config cluster",
+    "family": "xmrig-stealth",
+    "chains": [
+      "polygon"
+    ],
+    "contracts": [
+      "0x17fff8d3f56574a85840d12af91b9d8f4178f85b",
+      "0x2fbd66fe245052d265ca0eda7d01d35b2d8b9feb",
+      "0x439fbf20c9ddd49ec7b2e8cb52804f48f6e913e4",
+      "0xa210e19de57555face122be5cdc57cc0636ddb1c"
+    ],
+    "wallets": [
+      "0x19532c0fbaf0fb8c1d0f3fac0b704bf2f4645539",
+      "0xc3dd9238820205a2d1b5c356bb7940b49c900c5d"
+    ],
+    "ioc_count": 11,
+    "first_seen": "2026-08-01T10:00:00Z",
+    "last_seen": "2026-10-18T09:12:44Z"
+  },
+  {
+    "id": "c-24d512cc",
+    "name": "XMRig config, hashvault pool",
+    "family": "xmrig",
+    "chains": [
+      "polygon"
+    ],
+    "contracts": [
+      "0x1712eee3c3237f64ba22b806ff70fe7b035a6bdb"
+    ],
+    "wallets": [
+      "0x24d512cc549aaa8a0828f3336b88c55bad43c847"
+    ],
+    "ioc_count": 4,
+    "first_seen": "2026-08-14T13:22:05Z",
+    "last_seen": "2026-08-14T13:22:05Z"
+  },
+  {
+    "id": "c-de275ad3",
+    "name": "C2 URL rotation",
+    "family": "c2-url-rotation",
+    "chains": [
+      "polygon"
+    ],
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "wallets": [
+      "0xde275ad38c3352a7cb6b0d3efcbf45900c9716f2"
+    ],
+    "ioc_count": 6,
+    "first_seen": "2026-08-20T19:02:11Z",
+    "last_seen": "2026-10-14T23:15:08Z"
+  },
+  {
+    "id": "c-6rtPGAzH",
+    "name": "SAMPLE Solana memo C2 (illustrative, not a real finding)",
+    "family": "memo-c2",
+    "chains": [
+      "solana"
+    ],
+    "contracts": [
+      "ZrUEcMtntzFFuPSoJ9XKzG5YbDmZa4rphN7Hz6Q3CUSR"
+    ],
+    "wallets": [
+      "6rtPGAzHakGv34rBYVXnL2nU1niwpEAxnv7JAZSVygy3"
+    ],
+    "ioc_count": 5,
+    "first_seen": "2026-09-03T02:14:09Z",
+    "last_seen": "2026-10-17T22:58:00Z"
+  }
+]

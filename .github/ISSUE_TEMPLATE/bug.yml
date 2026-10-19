@@ -1,0 +1,48 @@
+name: Bug
+description: Something in the hunter, exporters, dashboard, scripts or workflows is broken.
+title: "[bug] <short description>"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Security vulnerabilities go through private reporting (see SECURITY.md), not here. Please redact API keys and private RPC URLs from logs.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        deaddrop-hunter hunt --chains polygon --days 2
+        ...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Output / logs (keys redacted)
+      render: text
+  - type: input
+    id: version
+    attributes:
+      label: Version / commit
+      placeholder: "0.1.0 or commit SHA"
+  - type: dropdown
+    id: env
+    attributes:
+      label: Environment
+      options:
+        - GitHub Actions
+        - WSL (Ubuntu)
+        - Linux
+        - macOS
+        - Windows (native)
+        - Docker
+  - type: input
+    id: python
+    attributes:
+      label: Python version

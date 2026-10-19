@@ -1,0 +1,128 @@
+[
+  {
+    "chain": "monero",
+    "address": "41utukrFopWVqtr29E9koxcxPpWKRX1U3BzjT9AKsTvJL1GyYNeAfU19GHyzVVj33YeGNpKZs6dAzKtWUWXfN72h43Wg6Br",
+    "role": "payout",
+    "label": "Payout wallet from decoded config",
+    "cluster_id": "c-19532c0f",
+    "contracts": [
+      "0x17fff8d3f56574a85840d12af91b9d8f4178f85b",
+      "0x2fbd66fe245052d265ca0eda7d01d35b2d8b9feb",
+      "0xa210e19de57555face122be5cdc57cc0636ddb1c"
+    ],
+    "tx_count": 0,
+    "first_seen": "2026-08-01T10:00:00Z",
+    "last_seen": "2026-09-07T22:40:56Z",
+    "watched": false,
+    "funded_by": []
+  },
+  {
+    "chain": "monero",
+    "address": "43AdDUhyRVwXm7JiSbHw2zemwUgV4dn4g1GuQEAaQSAMPLExxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxSAMPLE",
+    "role": "payout",
+    "label": "Payout wallet from decoded config",
+    "cluster_id": "c-24d512cc",
+    "contracts": [
+      "0x1712eee3c3237f64ba22b806ff70fe7b035a6bdb"
+    ],
+    "tx_count": 0,
+    "first_seen": "2026-08-14T13:22:05Z",
+    "last_seen": "2026-08-14T13:22:05Z",
+    "watched": false,
+    "funded_by": []
+  },
+  {
+    "chain": "monero",
+    "address": "48SAMPLEWa11etNotRea1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxSAMPLE",
+    "role": "payout",
+    "label": "Payout wallet from decoded config",
+    "cluster_id": "c-19532c0f",
+    "contracts": [
+      "0x2fbd66fe245052d265ca0eda7d01d35b2d8b9feb",
+      "0x439fbf20c9ddd49ec7b2e8cb52804f48f6e913e4"
+    ],
+    "tx_count": 0,
+    "first_seen": "2026-08-03T07:30:00Z",
+    "last_seen": "2026-09-07T00:46:04Z",
+    "watched": false,
+    "funded_by": []
+  },
+  {
+    "chain": "polygon",
+    "address": "0x19532c0fbaf0fb8c1d0f3fac0b704bf2f4645539",
+    "role": "operator",
+    "label": "Operator: stealth-XMRig cluster (4 contracts)",
+    "cluster_id": "c-19532c0f",
+    "contracts": [
+      "0x17fff8d3f56574a85840d12af91b9d8f4178f85b",
+      "0x2fbd66fe245052d265ca0eda7d01d35b2d8b9feb",
+      "0x439fbf20c9ddd49ec7b2e8cb52804f48f6e913e4",
+      "0xa210e19de57555face122be5cdc57cc0636ddb1c"
+    ],
+    "tx_count": 70,
+    "first_seen": "2026-08-01T10:00:00Z",
+    "last_seen": "2026-10-18T09:12:44Z",
+    "watched": true,
+    "funded_by": [
+      "0xc3dd9238820205a2d1b5c356bb7940b49c900c5d"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x24d512cc549aaa8a0828f3336b88c55bad43c847",
+    "role": "operator",
+    "label": "Operator: XMRig config, hashvault pool",
+    "cluster_id": "c-24d512cc",
+    "contracts": [
+      "0x1712eee3c3237f64ba22b806ff70fe7b035a6bdb"
+    ],
+    "tx_count": 2,
+    "first_seen": "2026-08-14T13:22:05Z",
+    "last_seen": "2026-08-14T13:22:05Z",
+    "watched": true,
+    "funded_by": []
+  },
+  {
+    "chain": "polygon",
+    "address": "0xc3dd9238820205a2d1b5c356bb7940b49c900c5d",
+    "role": "funder",
+    "label": "SAMPLE funder (illustrative, not a real finding)",
+    "cluster_id": "c-19532c0f",
+    "contracts": [],
+    "tx_count": 3,
+    "first_seen": "2026-07-29T08:00:00Z",
+    "last_seen": "2026-09-02T11:30:00Z",
+    "watched": false,
+    "funded_by": []
+  },
+  {
+    "chain": "polygon",
+    "address": "0xde275ad38c3352a7cb6b0d3efcbf45900c9716f2",
+    "role": "operator",
+    "label": "Operator: C2 URL rotation",
+    "cluster_id": "c-de275ad3",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "tx_count": 4,
+    "first_seen": "2026-08-20T19:02:11Z",
+    "last_seen": "2026-10-14T23:15:08Z",
+    "watched": true,
+    "funded_by": []
+  },
+  {
+    "chain": "solana",
+    "address": "6rtPGAzHakGv34rBYVXnL2nU1niwpEAxnv7JAZSVygy3",
+    "role": "operator",
+    "label": "SAMPLE: Solana memo C2 operator (illustrative)",
+    "cluster_id": "c-6rtPGAzH",
+    "contracts": [
+      "ZrUEcMtntzFFuPSoJ9XKzG5YbDmZa4rphN7Hz6Q3CUSR"
+    ],
+    "tx_count": 5,
+    "first_seen": "2026-09-03T02:14:09Z",
+    "last_seen": "2026-10-17T22:58:00Z",
+    "watched": false,
+    "funded_by": []
+  }
+]

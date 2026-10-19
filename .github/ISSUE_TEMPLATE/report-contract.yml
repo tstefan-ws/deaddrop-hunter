@@ -1,0 +1,76 @@
+name: Report a suspicious contract/wallet
+description: Submit a smart contract, account or operator wallet that looks like a blockchain dead drop (TLP:CLEAR only).
+title: "[report] <chain> <address>"
+labels: ["report", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! Please share **TLP:CLEAR** information only, **defang** URLs/domains/IPs in text
+        (`hxxps://evil[.]example`, `1.2.3[.]4`), and **never attach live malware** (hashes and
+        public sandbox links are fine). Do not include victim personal data.
+  - type: dropdown
+    id: chain
+    attributes:
+      label: Chain
+      options:
+        - polygon
+        - ethereum
+        - bsc
+        - bsc_testnet
+        - arbitrum
+        - optimism
+        - base
+        - avalanche
+        - tron
+        - solana
+        - aptos
+        - other
+    validations:
+      required: true
+  - type: input
+    id: address
+    attributes:
+      label: Address
+      description: Contract / account / wallet address in the chain's native format.
+      placeholder: "0x..."
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is it?
+      options:
+        - Contract storing C2/config
+        - Operator wallet (sends updates)
+        - Deployer / funder wallet
+        - Account carrying data in transactions (memo / tx data)
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Transactions, decoded values (defanged), event topic / function selector, decoding method, related samples (hashes).
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: Where did you find it? (sandbox report, blog post, own research...) Public links only.
+  - type: input
+    id: family
+    attributes:
+      label: Malware family (if known)
+      placeholder: "e.g. ClearFake, AMOS, XMRig loader"
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmation
+      options:
+        - label: This information is TLP:CLEAR and I am allowed to share it publicly.
+          required: true
+        - label: IOCs in this issue are defanged and no live malware is attached.
+          required: true

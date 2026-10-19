@@ -1,0 +1,234 @@
+[
+  {
+    "id": "c-19532c0f",
+    "name": "Stealth XMRig config cluster (c-19532c0f)",
+    "family": "xmrig-stealth",
+    "chains": [
+      "polygon"
+    ],
+    "contracts": [
+      "0x17fff8d3f56574a85840d12af91b9d8f4178f85b",
+      "0x2fbd66fe245052d265ca0eda7d01d35b2d8b9feb",
+      "0x439fbf20c9ddd49ec7b2e8cb52804f48f6e913e4",
+      "0xa210e19de57555face122be5cdc57cc0636ddb1c"
+    ],
+    "wallets": [
+      "0x19532c0fbaf0fb8c1d0f3fac0b704bf2f4645539"
+    ],
+    "ioc_count": 19,
+    "first_seen": "2026-09-06T22:04:52Z",
+    "last_seen": "2026-10-16T07:52:45Z"
+  },
+  {
+    "id": "c-24d512cc",
+    "name": "Stealth XMRig config cluster (c-24d512cc)",
+    "family": "xmrig-stealth",
+    "chains": [
+      "polygon"
+    ],
+    "contracts": [
+      "0x1712eee3c3237f64ba22b806ff70fe7b035a6bdb"
+    ],
+    "wallets": [
+      "0x24d512cc549aaa8a0828f3336b88c55bad43c847"
+    ],
+    "ioc_count": 4,
+    "first_seen": "2026-09-14T00:11:39Z",
+    "last_seen": "2026-09-14T00:11:39Z"
+  },
+  {
+    "id": "c-28pknu7r",
+    "name": "Unclassified dead-drop cluster (c-28pknu7r)",
+    "family": "unknown",
+    "chains": [
+      "solana"
+    ],
+    "contracts": [
+      "28PKnu7RzizxBzFPoLp69HLXp9bJL3JFtT2s5QzHsEA2",
+      "6YGcuyFRJKZtcaYCCFba9fScNUvPkGXodXE1mJiSzqDJ",
+      "BjVeAjPrSKFiingBn4vZvghsGj9KCE8AJVtbc9S8o8SC",
+      "DSRUBTziADDHSik7WQvSMjvwCHFsbsThrbbjWMoJPUiW"
+    ],
+    "wallets": [
+      "28PKnu7RzizxBzFPoLp69HLXp9bJL3JFtT2s5QzHsEA2",
+      "5m49aU7pMecF7WWHi2n2aL7UaAjVCn2mYBnTVMUpHNMQ",
+      "6M5EoVypN95Yy7Bcxp1Jip8eeY2WFKFcF2JbXgF9bmyQ",
+      "6YGcuyFRJKZtcaYCCFba9fScNUvPkGXodXE1mJiSzqDJ",
+      "BjVeAjPrSKFiingBn4vZvghsGj9KCE8AJVtbc9S8o8SC",
+      "DSRUBTziADDHSik7WQvSMjvwCHFsbsThrbbjWMoJPUiW"
+    ],
+    "ioc_count": 193,
+    "first_seen": "2025-09-25T09:59:37Z",
+    "last_seen": "2026-09-06T09:45:09Z"
+  },
+  {
+    "id": "c-3d2075f9",
+    "name": "Unclassified dead-drop cluster (c-3d2075f9)",
+    "family": "unknown",
+    "chains": [
+      "aptos"
+    ],
+    "contracts": [
+      "0x3d2075f97b7b1e3234bd653779d21c605d7d8c6ec9c98d983880be5c7f4f9471"
+    ],
+    "wallets": [
+      "0x3d2075f97b7b1e3234bd653779d21c605d7d8c6ec9c98d983880be5c7f4f9471"
+    ],
+    "ioc_count": 0,
+    "first_seen": "2025-11-19T14:03:38Z",
+    "last_seen": "2026-10-07T16:23:43Z"
+  },
+  {
+    "id": "c-3f0e5781",
+    "name": "Unclassified dead-drop cluster (c-3f0e5781)",
+    "family": "unknown",
+    "chains": [
+      "aptos"
+    ],
+    "contracts": [
+      "0x3f0e5781d0855fb460661ac63257376db1941b2bb522499e4757ecb3ebd5dce3"
+    ],
+    "wallets": [
+      "0x3f0e5781d0855fb460661ac63257376db1941b2bb522499e4757ecb3ebd5dce3"
+    ],
+    "ioc_count": 0,
+    "first_seen": "2025-06-13T05:54:24Z",
+    "last_seen": "2026-06-25T06:41:38Z"
+  },
+  {
+    "id": "c-9d202c82",
+    "name": "Unclassified dead-drop cluster (c-9d202c82)",
+    "family": "unknown",
+    "chains": [
+      "aptos"
+    ],
+    "contracts": [
+      "0x9d202c824402ca89e9aaccd2390b6f8b332ae743caa1469c695feb2781d56519"
+    ],
+    "wallets": [
+      "0x9d202c824402ca89e9aaccd2390b6f8b332ae743caa1469c695feb2781d56519"
+    ],
+    "ioc_count": 0,
+    "first_seen": "2025-11-14T13:49:45Z",
+    "last_seen": "2026-10-07T16:09:12Z"
+  },
+  {
+    "id": "c-be037400",
+    "name": "Unclassified dead-drop cluster (c-be037400)",
+    "family": "unknown",
+    "chains": [
+      "aptos"
+    ],
+    "contracts": [
+      "0xbe037400670fbf1c32364f762975908dc43eeb38759263e7dfcdabc76380811e"
+    ],
+    "wallets": [
+      "0xbe037400670fbf1c32364f762975908dc43eeb38759263e7dfcdabc76380811e"
+    ],
+    "ioc_count": 0,
+    "first_seen": "2025-06-13T05:12:56Z",
+    "last_seen": "2026-06-23T02:35:39Z"
+  },
+  {
+    "id": "c-de275ad3",
+    "name": "C2 URL rotation cluster",
+    "family": "c2-url",
+    "chains": [
+      "polygon"
+    ],
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "wallets": [
+      "0xde275ad38c3352a7cb6b0d3efcbf45900c9716f2"
+    ],
+    "ioc_count": 8,
+    "first_seen": "2026-09-17T19:33:16Z",
+    "last_seen": "2026-10-13T09:33:17Z"
+  },
+  {
+    "id": "c-tcqf6zka",
+    "name": "Unclassified dead-drop cluster (c-tcqf6zka)",
+    "family": "unknown",
+    "chains": [
+      "tron"
+    ],
+    "contracts": [
+      "TCqf6ZkaQD84vYsC2cuu1jRwB6JveTaRrF"
+    ],
+    "wallets": [
+      "TCqf6ZkaQD84vYsC2cuu1jRwB6JveTaRrF"
+    ],
+    "ioc_count": 0,
+    "first_seen": "2025-11-14T13:50:45Z",
+    "last_seen": "2026-10-07T16:09:18Z"
+  },
+  {
+    "id": "c-tfmryb9m",
+    "name": "Unclassified dead-drop cluster (c-tfmryb9m)",
+    "family": "unknown",
+    "chains": [
+      "tron"
+    ],
+    "contracts": [
+      "TFMryB9m6d4kBMRjEVyFRbqKSV1cV2NcpH"
+    ],
+    "wallets": [
+      "TFMryB9m6d4kBMRjEVyFRbqKSV1cV2NcpH"
+    ],
+    "ioc_count": 0,
+    "first_seen": "2025-11-19T14:03:54Z",
+    "last_seen": "2026-10-07T16:23:48Z"
+  },
+  {
+    "id": "c-tlmj13vl",
+    "name": "Unclassified dead-drop cluster (c-tlmj13vl)",
+    "family": "unknown",
+    "chains": [
+      "tron"
+    ],
+    "contracts": [
+      "TLmj13VL4p6NQ7jpxz8d9uYY6FUKCYatSe"
+    ],
+    "wallets": [
+      "TLmj13VL4p6NQ7jpxz8d9uYY6FUKCYatSe"
+    ],
+    "ioc_count": 0,
+    "first_seen": "2025-06-12T16:50:42Z",
+    "last_seen": "2026-01-27T15:13:12Z"
+  },
+  {
+    "id": "c-tmfkqed7",
+    "name": "Unclassified dead-drop cluster (c-tmfkqed7)",
+    "family": "unknown",
+    "chains": [
+      "tron"
+    ],
+    "contracts": [
+      "TMfKQEd7TJJa5xNZJZ2Lep838vrzrs7mAP"
+    ],
+    "wallets": [
+      "TMfKQEd7TJJa5xNZJZ2Lep838vrzrs7mAP"
+    ],
+    "ioc_count": 0,
+    "first_seen": "2025-06-06T14:45:09Z",
+    "last_seen": "2026-06-23T02:35:45Z"
+  },
+  {
+    "id": "c-txfxhuet",
+    "name": "Unclassified dead-drop cluster (c-txfxhuet)",
+    "family": "unknown",
+    "chains": [
+      "tron"
+    ],
+    "contracts": [
+      "TXfxHUet9pJVU1BgVkBAbrES4YUc1nGzcG"
+    ],
+    "wallets": [
+      "TXfxHUet9pJVU1BgVkBAbrES4YUc1nGzcG"
+    ],
+    "ioc_count": 0,
+    "first_seen": "2025-06-13T05:50:06Z",
+    "last_seen": "2026-06-20T13:37:54Z"
+  }
+]

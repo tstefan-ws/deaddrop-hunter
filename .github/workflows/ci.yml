@@ -1,0 +1,169 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "data/**"          # automated hunt commits are validated by the json job on PRs only
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  python:
+    name: python ${{ matrix.python-version }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+          cache-dependency-path: pyproject.toml
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+      - name: Ruff
+        run: ruff check src tests
+      - name: Pytest
+        run: pytest -q
+      - name: CLI smoke test
+        run: |
+          deaddrop-hunter --help
+          python scripts/build_site.py --help
+
+  web-and-data:
+    name: dashboard JS + data JSON
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - name: node --check web/**/*.js
+        run: |
+          node --version
+          status=0
+          while IFS= read -r -d '' f; do
+            if ! node --check "$f"; then echo "::error file=$f::syntax error"; status=1; fi
+          done < <(find web -name '*.js' -not -path '*/node_modules/*' -print0)
+          exit $status
+      - name: Validate JSON (data/, web/sample-data/, site feeds index if any)
+        run: |
+          python - <<'PY'
+          import json, pathlib, sys
+          bad = 0
+          files = sorted(pathlib.Path("data").glob("*.json")) + sorted(pathlib.Path("web/sample-data").glob("*.json"))
+          for p in files:
+              try:
+                  json.loads(p.read_text(encoding="utf-8"))
+                  print(f"ok   {p}")
+              except Exception as e:  # noqa: BLE001
+                  print(f"::error file={p}::invalid JSON: {e}")
+                  bad += 1
+          print(f"{len(files)} file(s) checked, {bad} invalid")
+          sys.exit(1 if bad else 0)
+          PY
+      - name: Site build smoke test
+        run: |
+          python scripts/build_site.py --out "$RUNNER_TEMP/site" --web web --data data
+          test -f "$RUNNER_TEMP/site/index.html"
+          test -f "$RUNNER_TEMP/site/.nojekyll"
+          test ! -e "$RUNNER_TEMP/site/sample-data"
+
+  rules:
+    name: detection rules
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Install validators
+        run: |
+          python -m pip install --upgrade pip
+          pip install sigma-cli pysigma yara-python yara-x
+      - name: Sigma check
+        run: sigma check --fail-on-error rules/sigma
+      - name: YARA compile (libyara via yara-python, and YARA-X)
+        run: |
+          python - <<'PY'
+          import pathlib, sys
+          import yara, yara_x
+          files = sorted(pathlib.Path("rules/yara").rglob("*.yar")) + sorted(pathlib.Path("rules/yara").rglob("*.yara"))
+          if not files:
+              sys.exit("no YARA rules found")
+          failed = 0
+          for f in files:
+              src = f.read_text(encoding="utf-8")
+              try:
+                  yara.compile(source=src)
+                  yara_x.compile(src)
+                  print(f"ok   {f}")
+              except Exception as e:  # noqa: BLE001
+                  print(f"::error file={f}::{e}")
+                  failed += 1
+          # Positive control: the on-chain XOR(0x5a) config prefix must hit.
+          rules = yara.compile(filepaths={str(f): str(f) for f in files})
+          sample = bytes(b ^ 0x5a for b in b'{"algo":"rx/0","stealth-targets":["Taskmgr.exe"],"idle-wait":5}')
+          hits = {m.rule for m in rules.match(data=sample)}
+          print("hits on XOR sample:", sorted(hits))
+          if "XMRig_Stealth_Config_XOR5A_OnChain" not in hits:
+              print("::error::positive control failed")
+              failed += 1
+          sys.exit(1 if failed else 0)
+          PY
+      - name: Install Suricata
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq suricata
+          suricata --build-info | head -n 3
+      - name: Suricata rule test (suricata -T)
+        run: |
+          mkdir -p "$RUNNER_TEMP/suri"
+          sudo suricata -T -c /etc/suricata/suricata.yaml \
+            -S rules/suricata/deaddrop-hunter.rules \
+            -l "$RUNNER_TEMP/suri" -v
+      - name: Check Suricata SID range and uniqueness
+        run: |
+          python - <<'PY'
+          import re, sys, pathlib
+          sids = []
+          for f in pathlib.Path("rules/suricata").glob("*.rules"):
+              for line in f.read_text(encoding="utf-8").splitlines():
+                  if line.strip() and not line.lstrip().startswith("#"):
+                      m = re.search(r"\bsid:(\d+);", line)
+                      if not m:
+                          sys.exit(f"rule without sid in {f}: {line[:80]}")
+                      sids.append(int(m.group(1)))
+          dup = {s for s in sids if sids.count(s) > 1}
+          out = [s for s in sids if not 9100000 <= s <= 9100999]
+          print(f"{len(sids)} rules; duplicates={sorted(dup)}; out_of_range={out}")
+          sys.exit(1 if dup or out else 0)
+          PY
+
+  shell:
+    name: shell scripts
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+      - name: bash -n and shellcheck
+        run: |
+          shopt -s nullglob
+          files=(scripts/*.sh)
+          if [ ${#files[@]} -eq 0 ]; then echo "no shell scripts"; exit 0; fi
+          for f in "${files[@]}"; do bash -n "$f"; done
+          shellcheck --version
+          shellcheck -S warning "${files[@]}"

@@ -1,0 +1,80 @@
+[
+  {
+    "chain": "monero",
+    "address": "49FixtureWa11et11111111111111111111111111111111111111111111111111111111111111111111111111111111",
+    "role": "payout",
+    "label": "XMR payout wallet (hashvault cluster)",
+    "cluster_id": "c-24d512cc",
+    "contracts": [
+      "0xfeed000000000000000000000000000000000003"
+    ],
+    "tx_count": 0,
+    "first_seen": "2026-09-20T06:00:00Z",
+    "last_seen": "2026-10-15T06:00:00Z",
+    "watched": false,
+    "funded_by": []
+  },
+  {
+    "chain": "polygon",
+    "address": "0x19532c0fbaf0fb8c1d0f3fac0b704bf2f4645539",
+    "role": "operator",
+    "label": "Operator: stealth-XMRig cluster (4 contracts)",
+    "cluster_id": "c-19532c0f",
+    "contracts": [
+      "0x17fff8d3f56574a85840d12af91b9d8f4178f85b",
+      "0x2fbd66fe245052d265ca0eda7d01d35b2d8b9feb",
+      "0xfeed000000000000000000000000000000000001",
+      "0xfeed000000000000000000000000000000000002"
+    ],
+    "tx_count": 67,
+    "first_seen": "2026-08-01T10:00:00Z",
+    "last_seen": "2026-10-18T09:12:44Z",
+    "watched": true,
+    "funded_by": []
+  },
+  {
+    "chain": "polygon",
+    "address": "0x24d512cc549aaa8a0828f3336b88c55bad43c847",
+    "role": "operator",
+    "label": "Operator: XMRig config, hashvault pool",
+    "cluster_id": "c-24d512cc",
+    "contracts": [
+      "0xfeed000000000000000000000000000000000003"
+    ],
+    "tx_count": 5,
+    "first_seen": "2026-09-20T06:00:00Z",
+    "last_seen": "2026-10-15T06:00:00Z",
+    "watched": true,
+    "funded_by": []
+  },
+  {
+    "chain": "polygon",
+    "address": "0xde275ad38c3352a7cb6b0d3efcbf45900c9716f2",
+    "role": "operator",
+    "label": "Operator: C2 URL rotation",
+    "cluster_id": "c-de275ad3",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "tx_count": 10,
+    "first_seen": "2026-07-10T08:00:00Z",
+    "last_seen": "2026-10-12T17:30:00Z",
+    "watched": true,
+    "funded_by": []
+  },
+  {
+    "chain": "solana",
+    "address": "GwrmFixtureWa11et11111111111111111111111111",
+    "role": "operator",
+    "label": "Operator: Solana memo C2 (fixture)",
+    "cluster_id": "c-GwrmFixt",
+    "contracts": [
+      "GwrmFixtureDeadDrop1111111111111111111111111"
+    ],
+    "tx_count": 6,
+    "first_seen": "2026-10-01T03:00:00Z",
+    "last_seen": "2026-10-16T03:00:00Z",
+    "watched": true,
+    "funded_by": []
+  }
+]

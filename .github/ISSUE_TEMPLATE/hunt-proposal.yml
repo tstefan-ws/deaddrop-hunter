@@ -1,0 +1,51 @@
+name: New hunt / fingerprint proposal
+description: Propose a new event signature, function selector, operator wallet, chain or decoder.
+title: "[hunt] <short description>"
+labels: ["hunt-proposal"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      options:
+        - event (topic0)
+        - selector (4-byte)
+        - wallet / account watch
+        - new chain
+        - decoder / family classifier
+        - other
+    validations:
+      required: true
+  - type: input
+    id: fingerprint
+    attributes:
+      label: Fingerprint
+      description: Event signature + topic0, selector, or address.
+      placeholder: "DataUpdated(string,string) 0xee98...cf24"
+    validations:
+      required: true
+  - type: input
+    id: chains
+    attributes:
+      label: Chains
+      placeholder: "polygon, bsc"
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale and examples
+      description: Example transactions/contracts (defanged values), expected decoder, known families. See docs/adding-a-hunt.md.
+    validations:
+      required: true
+  - type: textarea
+    id: noise
+    attributes:
+      label: Expected noise
+      description: How common is this fingerprint in legitimate contracts? Any measurement (e.g. log count per 100k blocks)?
+  - type: checkboxes
+    id: pr
+    attributes:
+      label: Contribution
+      options:
+        - label: I can open a PR for this (config/hunts.toml + tests).

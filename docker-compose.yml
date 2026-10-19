@@ -1,0 +1,26 @@
+# docker compose up -d --build
+# Dashboard: http://localhost:8080   (from Windows too, when running in WSL)
+# Logs:      docker compose logs -f hunter
+services:
+  hunter:
+    build: .
+    image: deaddrop-hunter:local
+    restart: unless-stopped
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      HUNT_INTERVAL_SECONDS: "21600"   # 6 hours
+    volumes:
+      - ./data:/app/data
+      - ./site:/app/site
+
+  web:
+    image: nginx:1.27-alpine
+    restart: unless-stopped
+    depends_on:
+      - hunter
+    ports:
+      - "127.0.0.1:8080:80"
+    volumes:
+      - ./site:/usr/share/nginx/html:ro

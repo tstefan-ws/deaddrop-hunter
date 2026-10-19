@@ -1,0 +1,7 @@
+# pycti MUST match your OpenCTI platform version (major.minor).
+# 6.9.29 = latest pycti for OpenCTI 6.9.x. For another 6.x platform use the same
+# major.minor (e.g. pycti==6.8.17 for OpenCTI 6.8). OpenCTI 7 uses calendar versions
+# (e.g. pycti==7.261016.0).
+pycti==6.9.29
+requests>=2.31,<3
+PyYAML>=6.0,<7

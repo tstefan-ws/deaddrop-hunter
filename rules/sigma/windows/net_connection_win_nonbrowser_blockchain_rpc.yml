@@ -1,0 +1,86 @@
+title: Non-Browser Process Network Connection To Public Blockchain RPC Endpoint
+id: 8d53a9af-4199-4a1c-921b-1f0eb7ebd397
+status: experimental
+description: |
+    Detects an outbound connection from a scripting engine, LOLBin or command-line downloader to
+    a public blockchain JSON-RPC endpoint (EtherHiding dead-drop resolver). Requires a telemetry
+    source that records the destination hostname (e.g. Sysmon EID 3 DestinationHostname, EDR).
+references:
+    - https://www.linkedin.com/pulse/hunting-etherhiding-from-one-cluster-ecosystem-alex-necula-r7l8e/
+    - https://cloud.google.com/blog/topics/threat-intelligence/dprk-adopts-etherhiding
+    - https://attack.mitre.org/techniques/T1102/001/
+author: deaddrop-hunter contributors
+date: 2026-10-19
+tags:
+    - attack.command-and-control
+    - attack.t1102.001
+    - attack.t1071.001
+logsource:
+    product: windows
+    category: network_connection
+detection:
+    selection_host:
+        DestinationHostname:
+        - 'polygon-rpc.com'
+        - '*.polygon-rpc.com'
+        - 'rpc-mainnet.matic.network'
+        - 'rpc-mainnet.maticvigil.com'
+        - 'polygon-mainnet.public.blastapi.io'
+        - 'rpc-amoy.polygon.technology'
+        - '*.gateway.tenderly.co'
+        - '*.publicnode.com'
+        - '*.drpc.org'
+        - 'rpc.ankr.com'
+        - '1rpc.io'
+        - '*.quiknode.pro'
+        - '*.llamarpc.com'
+        - 'cloudflare-eth.com'
+        - '*.infura.io'
+        - '*.g.alchemy.com'
+        - '*.nodereal.io'
+        - '*.blastapi.io'
+        - 'rpc.flashbots.net'
+        - '*.blockpi.network'
+        - 'bsc-dataseed*.binance.org'
+        - 'bsc-dataseed*.bnbchain.org'
+        - 'bsc-dataseed*.defibit.io'
+        - 'bsc-dataseed*.ninicoin.io'
+        - 'data-seed-prebsc-*.bnbchain.org'
+        - 'data-seed-prebsc-*.binance.org'
+        - 'bsc-testnet.bnbchain.org'
+        - 'bsc.drpc.org'
+        - 'api.trongrid.io'
+        - 'api.shasta.trongrid.io'
+        - 'api.mainnet-beta.solana.com'
+        - 'fullnode.mainnet.aptoslabs.com'
+        - 'mainnet.base.org'
+        - 'api.avax.network'
+    selection_img:
+        Image|endswith:
+        - '\curl.exe'
+        - '\wget.exe'
+        - '\powershell.exe'
+        - '\pwsh.exe'
+        - '\powershell_ise.exe'
+        - '\mshta.exe'
+        - '\wscript.exe'
+        - '\cscript.exe'
+        - '\rundll32.exe'
+        - '\regsvr32.exe'
+        - '\python.exe'
+        - '\pythonw.exe'
+        - '\node.exe'
+        - '\bash.exe'
+        - '\sh.exe'
+        - '\cmd.exe'
+        - '\certutil.exe'
+        - '\bitsadmin.exe'
+        - '\msiexec.exe'
+    selection_dir:
+        Initiated: 'true'
+    condition: all of selection_*
+falsepositives:
+    - Developers and CI jobs using curl, node, python or PowerShell against public RPC endpoints
+    - Crypto wallets, trading bots and dApp tooling implemented as scripts
+    - Blockchain monitoring / threat-hunting tools (including deaddrop-hunter itself)
+level: medium

@@ -1,0 +1,202 @@
+[
+  {
+    "chain": "bsc",
+    "address": "0xfeed000000000000000000000000000000000004",
+    "cluster_id": null,
+    "family": "unknown",
+    "hunt_ids": [
+      "dataupdated-string-string"
+    ],
+    "operator_wallets": [],
+    "selectors": [
+      "0xee986145"
+    ],
+    "decoder": "undecoded",
+    "update_count": 2,
+    "first_seen": "2026-09-01T00:00:00Z",
+    "last_seen": "2026-09-02T00:00:00Z",
+    "status": "dormant",
+    "latest_value_raw": "00",
+    "latest_value_decoded": null,
+    "tags": []
+  },
+  {
+    "chain": "polygon",
+    "address": "0x17fff8d3f56574a85840d12af91b9d8f4178f85b",
+    "cluster_id": "c-19532c0f",
+    "family": "xmrig-stealth",
+    "hunt_ids": [
+      "dataupdated-string-string",
+      "selector-68446ead"
+    ],
+    "operator_wallets": [
+      "0x19532c0fbaf0fb8c1d0f3fac0b704bf2f4645539"
+    ],
+    "selectors": [
+      "0x68446ead"
+    ],
+    "decoder": "xor-1byte:0x5a",
+    "update_count": 21,
+    "first_seen": "2026-08-01T10:00:00Z",
+    "last_seen": "2026-10-18T09:12:44Z",
+    "status": "active",
+    "latest_value_raw": "00",
+    "latest_value_decoded": "{\"algo\": \"rx/0\", \"pool\": \"78.40.198.61\", \"port\": 31270}",
+    "tags": [
+      "config-on-chain",
+      "xmrig"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc",
+    "cluster_id": "c-de275ad3",
+    "family": "c2-url",
+    "hunt_ids": [
+      "selector-cef6d209"
+    ],
+    "operator_wallets": [
+      "0xde275ad38c3352a7cb6b0d3efcbf45900c9716f2"
+    ],
+    "selectors": [
+      "0xcef6d209"
+    ],
+    "decoder": "plain",
+    "update_count": 9,
+    "first_seen": "2026-07-10T08:00:00Z",
+    "last_seen": "2026-10-12T17:30:00Z",
+    "status": "active",
+    "latest_value_raw": "00",
+    "latest_value_decoded": "https://144.31.108.193/gate.php",
+    "tags": [
+      "c2-rotation"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x2fbd66fe245052d265ca0eda7d01d35b2d8b9feb",
+    "cluster_id": "c-19532c0f",
+    "family": "xmrig-stealth",
+    "hunt_ids": [
+      "selector-68446ead"
+    ],
+    "operator_wallets": [
+      "0x19532c0fbaf0fb8c1d0f3fac0b704bf2f4645539"
+    ],
+    "selectors": [
+      "0x68446ead"
+    ],
+    "decoder": "xor-1byte:0x5a",
+    "update_count": 18,
+    "first_seen": "2026-08-03T11:00:00Z",
+    "last_seen": "2026-10-18T09:12:44Z",
+    "status": "active",
+    "latest_value_raw": "00",
+    "latest_value_decoded": "{\"algo\": \"rx/0\", \"pool\": \"78.40.198.61\", \"port\": 31270}",
+    "tags": [
+      "config-on-chain",
+      "xmrig"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0xfeed000000000000000000000000000000000001",
+    "cluster_id": "c-19532c0f",
+    "family": "xmrig-stealth",
+    "hunt_ids": [
+      "selector-68446ead"
+    ],
+    "operator_wallets": [
+      "0x19532c0fbaf0fb8c1d0f3fac0b704bf2f4645539"
+    ],
+    "selectors": [
+      "0x68446ead"
+    ],
+    "decoder": "xor-1byte:0x5a",
+    "update_count": 15,
+    "first_seen": "2026-08-05T09:00:00Z",
+    "last_seen": "2026-10-17T22:00:00Z",
+    "status": "active",
+    "latest_value_raw": "00",
+    "latest_value_decoded": "{\"algo\": \"rx/0\", \"pool\": \"78.40.198.61\", \"port\": 31270}",
+    "tags": [
+      "config-on-chain",
+      "xmrig"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0xfeed000000000000000000000000000000000002",
+    "cluster_id": "c-19532c0f",
+    "family": "xmrig-stealth",
+    "hunt_ids": [
+      "selector-68446ead"
+    ],
+    "operator_wallets": [
+      "0x19532c0fbaf0fb8c1d0f3fac0b704bf2f4645539"
+    ],
+    "selectors": [
+      "0x68446ead"
+    ],
+    "decoder": "xor-1byte:0x5a",
+    "update_count": 9,
+    "first_seen": "2026-08-09T12:00:00Z",
+    "last_seen": "2026-09-10T12:00:00Z",
+    "status": "dormant",
+    "latest_value_raw": "00",
+    "latest_value_decoded": "{\"algo\": \"rx/0\", \"pool\": \"78.40.198.61\", \"port\": 31270}",
+    "tags": [
+      "config-on-chain",
+      "xmrig"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0xfeed000000000000000000000000000000000003",
+    "cluster_id": "c-24d512cc",
+    "family": "xmrig",
+    "hunt_ids": [
+      "dataupdated-string-string"
+    ],
+    "operator_wallets": [
+      "0x24d512cc549aaa8a0828f3336b88c55bad43c847"
+    ],
+    "selectors": [
+      "0xee986145"
+    ],
+    "decoder": "plain",
+    "update_count": 4,
+    "first_seen": "2026-09-20T06:00:00Z",
+    "last_seen": "2026-10-15T06:00:00Z",
+    "status": "active",
+    "latest_value_raw": "00",
+    "latest_value_decoded": "{\"url\": \"pool.hashvault.pro:443\", \"user\": \"49FixtureWa11et11111111111111111111111111111111111111111111111111111111111111111111111111111111\"}",
+    "tags": [
+      "xmrig"
+    ]
+  },
+  {
+    "chain": "solana",
+    "address": "GwrmFixtureDeadDrop1111111111111111111111111",
+    "cluster_id": "c-GwrmFixt",
+    "family": "glassworm",
+    "hunt_ids": [
+      "watch:GwrmFixtureDeadDrop1111111111111111111111111"
+    ],
+    "operator_wallets": [
+      "GwrmFixtureWa11et11111111111111111111111111"
+    ],
+    "selectors": [],
+    "decoder": "base64",
+    "update_count": 6,
+    "first_seen": "2026-10-01T03:00:00Z",
+    "last_seen": "2026-10-16T03:00:00Z",
+    "status": "active",
+    "latest_value_raw": "00",
+    "latest_value_decoded": "http://203.0.113.50/wall",
+    "tags": [
+      "memo",
+      "c2-rotation"
+    ]
+  }
+]

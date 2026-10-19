@@ -1,0 +1,39 @@
+title: macOS TCC Database Reset Via Tccutil
+id: f345fbb8-fe7a-4993-be10-95f65a68791c
+status: experimental
+description: |
+    Detects "tccutil reset All" (or a reset of a sensitive TCC service). Stealers delivered through
+    macOS ClickFix chains reset Transparency, Consent and Control decisions so that the next
+    privacy prompt (Full Disk Access, Accessibility, Automation of Finder/System Events) is
+    shown again and can be socially engineered, or to clear traces of earlier grants.
+references:
+    - https://www.linkedin.com/pulse/hunting-etherhiding-from-one-cluster-ecosystem-alex-necula-r7l8e/
+    - https://attack.mitre.org/techniques/T1548/006/
+    - https://ss64.com/mac/tccutil.html
+author: deaddrop-hunter contributors
+date: 2026-10-19
+tags:
+    - attack.privilege-escalation
+    - attack.t1548.006
+    - attack.defense-impairment
+    - attack.t1685
+logsource:
+    product: macos
+    category: process_creation
+detection:
+    selection_img:
+        Image|endswith: '/tccutil'
+    selection_reset:
+        CommandLine|contains: 'reset'
+    selection_service:
+        CommandLine|contains:
+            - ' All'
+            - 'SystemPolicyAllFiles'
+            - 'Accessibility'
+            - 'AppleEvents'
+            - 'ScreenCapture'
+    condition: all of selection_*
+falsepositives:
+    - IT support or MDM scripts troubleshooting privacy permissions
+    - Developers resetting TCC state while testing their own apps (usually with a bundle id)
+level: high

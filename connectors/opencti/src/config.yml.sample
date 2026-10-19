@@ -1,0 +1,18 @@
+opencti:
+  url: 'http://localhost:8080'
+  token: 'ChangeMe'
+
+connector:
+  id: 'ChangeMe'                     # a fresh UUIDv4
+  type: 'EXTERNAL_IMPORT'
+  name: 'deaddrop-hunter'
+  scope: 'identity,marking-definition,malware,infrastructure,indicator,report,relationship,ipv4-addr,ipv6-addr,domain-name,url,cryptocurrency-wallet'
+  log_level: 'info'
+  duration_period: 'PT6H'            # ISO-8601 interval between runs
+
+deaddrop:
+  bundle_url: 'https://tstefan-ws.github.io/deaddrop-hunter/feeds/stix/deaddrop-hunter.bundle.json'
+  timeout: 60                        # HTTP timeout, seconds
+  verify_ssl: true
+  only_current: false                # true = skip indicators no longer served on-chain
+  force_reimport: false              # true = ignore ETag / sha256 and resend every run

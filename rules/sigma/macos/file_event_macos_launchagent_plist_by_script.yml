@@ -1,0 +1,44 @@
+title: macOS LaunchAgent Plist Written By Script Interpreter Or Downloader
+id: 3ad44f66-8a4f-4bee-bc41-b2ae262d2beb
+status: experimental
+description: |
+    Detects a property list being created in a LaunchAgents directory by osascript, a shell, curl
+    or a script interpreter. macOS ClickFix chains (e.g. AMOS-style stealers whose next stage is
+    resolved from Polygon smart contracts) persist this way. Legitimate software normally writes
+    LaunchAgents from its own installer or signed binary, not from osascript/curl/bash.
+references:
+    - https://www.linkedin.com/pulse/hunting-etherhiding-from-one-cluster-ecosystem-alex-necula-r7l8e/
+    - https://attack.mitre.org/techniques/T1543/001/
+author: deaddrop-hunter contributors
+date: 2026-10-19
+tags:
+    - attack.persistence
+    - attack.privilege-escalation
+    - attack.t1543.001
+logsource:
+    product: macos
+    category: file_event
+detection:
+    selection_path:
+        TargetFilename|contains: '/Library/LaunchAgents/'
+        TargetFilename|endswith: '.plist'
+    selection_img:
+        Image|endswith:
+            - '/osascript'
+            - '/curl'
+            - '/bash'
+            - '/sh'
+            - '/zsh'
+            - '/python'
+            - '/python3'
+            - '/perl'
+            - '/node'
+            - '/cp'
+            - '/mv'
+            - '/tee'
+            - '/ditto'
+    condition: all of selection_*
+falsepositives:
+    - Homebrew services, dotfile managers and developer setup scripts creating user LaunchAgents
+    - MDM or configuration-management scripts (Jamf, Munki, Kandji) deploying agents via shell
+level: medium

@@ -1,0 +1,21 @@
+# Normalize line endings; shell scripts must stay LF so they run in WSL/Linux/Docker
+* text=auto
+*.sh text eol=lf
+Makefile text eol=lf
+Dockerfile text eol=lf
+*.py text eol=lf
+*.toml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.rules text eol=lf
+*.yar text eol=lf
+.env.example text eol=lf
+
+# Generated data: diff as text, but keep GitHub language stats clean
+data/*.json linguist-generated=true
+web/sample-data/*.json linguist-generated=true
+
+*.png binary
+*.ico binary
+*.woff2 binary

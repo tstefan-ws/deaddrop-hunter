@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="deaddrop-hunter: tracking EtherHiding smart contracts, operator wallets, IOCs and clusters.">
+  <title>deaddrop-hunter</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./css/app.css">
+  <link rel="alternate" type="application/atom+xml" title="deaddrop-hunter rotations" href="./feeds/atom.xml">
+  <script type="module" src="./js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div id="banner" class="banner" hidden></div>
+  <header class="topbar">
+    <div class="topbar-row">
+      <a class="brand" href="#/" aria-label="deaddrop-hunter overview">
+        <span class="brand-mark" aria-hidden="true">&#9638;</span>
+        <span class="brand-name">deaddrop<span class="brand-sep">//</span>hunter</span>
+      </a>
+      <form id="search-form" class="search" role="search">
+        <label for="search-input" class="visually-hidden">Search contract, wallet, IOC or tx</label>
+        <input id="search-input" type="search" placeholder="Search contract, wallet, IOC, tx…" autocomplete="off" spellcheck="false">
+      </form>
+      <div class="topbar-tools">
+        <label for="chain-filter" class="visually-hidden">Chain filter</label>
+        <select id="chain-filter" class="chain-filter">
+          <option value="">All chains</option>
+        </select>
+        <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle colour theme" title="Toggle colour theme">
+          <span class="theme-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+    <nav class="tabs" aria-label="Primary">
+      <a href="#/" data-route="overview">Overview</a>
+      <a href="#/contracts" data-route="contracts">Contracts</a>
+      <a href="#/wallets" data-route="wallets">Wallets</a>
+      <a href="#/iocs" data-route="iocs">IOCs</a>
+      <a href="#/clusters" data-route="clusters">Clusters</a>
+      <a href="#/watchlist" data-route="watchlist">Watchlist <span id="watch-badge" class="badge" hidden></span></a>
+      <a href="#/feeds" data-route="feeds">Feeds</a>
+      <a href="#/about" data-route="about">About</a>
+    </nav>
+  </header>
+  <main id="main" class="main" tabindex="-1">
+    <p class="loading">Loading data…</p>
+  </main>
+  <footer class="footer">
+    <span id="footer-meta">—</span>
+    <span class="footer-tlp">TLP:CLEAR · Do not visit IOCs · Data may contain false positives ·
+      <a href="https://github.com/tstefan-ws/deaddrop-hunter" target="_blank" rel="noopener noreferrer">GitHub</a> ·
+      <a href="https://github.com/tstefan-ws/deaddrop-hunter/issues/new/choose" target="_blank" rel="noopener noreferrer">Report an issue</a></span>
+  </footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

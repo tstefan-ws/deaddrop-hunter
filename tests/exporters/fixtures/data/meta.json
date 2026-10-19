@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-19T12:00:00Z",
+  "tool_version": "0.1.0",
+  "cursors": [
+    {
+      "chain": "polygon",
+      "hunt_id": "dataupdated-string-string",
+      "from_block": 92107923,
+      "to_block": 95797923,
+      "updated_at": "2026-10-19T12:00:00Z"
+    }
+  ],
+  "counts": {
+    "contracts": 8,
+    "wallets": 5,
+    "events": 3,
+    "iocs": 14,
+    "clusters": 4
+  }
+}

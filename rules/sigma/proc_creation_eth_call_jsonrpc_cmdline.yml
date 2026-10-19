@@ -1,0 +1,66 @@
+title: Command Line Contains Ethereum JSON-RPC eth_call Request
+id: 5e828ebc-a109-4d5f-80c9-92c0de6f4dc8
+status: experimental
+description: |
+    Detects curl, PowerShell, a shell or a script interpreter launched with an inline Ethereum
+    JSON-RPC "eth_call" request body (method eth_call plus 0x-prefixed contract address and
+    calldata). EtherHiding loaders read their current C2/config from a smart contract this way;
+    the calldata starts with the 4-byte selector of the contract's getter function. Generic
+    process_creation rule; applies to Windows, macOS and Linux.
+references:
+    - https://www.linkedin.com/pulse/hunting-etherhiding-from-one-cluster-ecosystem-alex-necula-r7l8e/
+    - https://cloud.google.com/blog/topics/threat-intelligence/dprk-adopts-etherhiding
+    - https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_call
+    - https://attack.mitre.org/techniques/T1102/001/
+author: deaddrop-hunter contributors
+date: 2026-10-19
+tags:
+    - attack.command-and-control
+    - attack.t1102.001
+    - attack.execution
+    - attack.t1059
+logsource:
+    category: process_creation
+detection:
+    selection_img:
+        - Image|endswith:
+              - '\curl.exe'
+              - '\powershell.exe'
+              - '\pwsh.exe'
+              - '\mshta.exe'
+              - '\wscript.exe'
+              - '\cscript.exe'
+              - '\cmd.exe'
+              - '\node.exe'
+              - '\python.exe'
+              - '/curl'
+              - '/wget'
+              - '/osascript'
+              - '/bash'
+              - '/sh'
+              - '/zsh'
+              - '/node'
+              - '/python3'
+              - '/pwsh'
+        - OriginalFileName:
+              - 'curl.exe'
+              - 'PowerShell.EXE'
+              - 'pwsh.dll'
+              - 'MSHTA.EXE'
+    selection_rpc:
+        CommandLine|contains|all:
+            - 'eth_call'
+            - '0x'
+    selection_shape:
+        CommandLine|contains:
+            - 'jsonrpc'
+            - '"data"'
+            - "'data'"
+            - 'data:'
+            - 'data='
+            - '"to"'
+    condition: all of selection_*
+falsepositives:
+    - Blockchain developers testing contracts with curl or scripts
+    - Monitoring scripts polling contract state
+level: high

@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-19T12:00:00Z",
+  "tool_version": "0.1.0-sample",
+  "cursors": [
+    {
+      "chain": "polygon",
+      "hunt_id": "dataupdated-string-string",
+      "from_block": 92107923,
+      "to_block": 95797923,
+      "updated_at": "2026-10-19T12:00:00Z"
+    },
+    {
+      "chain": "polygon",
+      "hunt_id": "selector-68446ead",
+      "from_block": 92107923,
+      "to_block": 95797923,
+      "updated_at": "2026-10-19T12:00:00Z"
+    },
+    {
+      "chain": "polygon",
+      "hunt_id": "selector-cef6d209",
+      "from_block": 92107923,
+      "to_block": 95797923,
+      "updated_at": "2026-10-19T12:00:00Z"
+    },
+    {
+      "chain": "ethereum",
+      "hunt_id": "dataupdated-string-string",
+      "from_block": 23380000,
+      "to_block": 24027000,
+      "updated_at": "2026-10-19T12:00:00Z"
+    },
+    {
+      "chain": "solana",
+      "hunt_id": "memo-sweep",
+      "from_block": 447000000,
+      "to_block": 458900000,
+      "updated_at": "2026-10-19T12:00:00Z"
+    },
+    {
+      "chain": "bsc",
+      "hunt_id": "dataupdated-string-string",
+      "from_block": 62100000,
+      "to_block": 72468000,
+      "updated_at": "2026-10-19T12:00:00Z"
+    }
+  ],
+  "counts": {
+    "contracts": 7,
+    "wallets": 8,
+    "events": 75,
+    "iocs": 26,
+    "clusters": 4
+  }
+}

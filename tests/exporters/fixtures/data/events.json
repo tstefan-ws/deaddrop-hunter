@@ -1,0 +1,47 @@
+[
+  {
+    "chain": "solana",
+    "block": 371234567,
+    "timestamp": "2026-10-16T03:00:00Z",
+    "tx_hash": "5KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK",
+    "contract": "GwrmFixtureDeadDrop1111111111111111111111111",
+    "from": "GwrmFixtureWa11et11111111111111111111111111",
+    "selector": null,
+    "hunt_id": "watch:GwrmFixtureDeadDrop1111111111111111111111111",
+    "old_raw": null,
+    "new_raw": "aHR0cDovLzIwMy4wLjExMy41MC93YWxs",
+    "old_decoded": null,
+    "new_decoded": "http://203.0.113.50/wall",
+    "decoder": "base64"
+  },
+  {
+    "chain": "polygon",
+    "block": 95621219,
+    "timestamp": "2026-10-18T09:12:44Z",
+    "tx_hash": "0xabababababababababababababababababababababababababababababababab",
+    "contract": "0x2fbd66fe245052d265ca0eda7d01d35b2d8b9feb",
+    "from": "0x19532c0fbaf0fb8c1d0f3fac0b704bf2f4645539",
+    "selector": "0x68446ead",
+    "hunt_id": "selector-68446ead",
+    "old_raw": "00",
+    "new_raw": "01",
+    "old_decoded": "{\"algo\": \"rx/0\", \"pool\": \"78.40.198.61\", \"port\": 31270}",
+    "new_decoded": "{\"algo\": \"rx/0\", \"pool\": \"78.40.198.61\", \"port\": 31270}",
+    "decoder": "xor-1byte:0x5a"
+  },
+  {
+    "chain": "polygon",
+    "block": 95000000,
+    "timestamp": "2026-10-12T17:30:00Z",
+    "tx_hash": "0xcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+    "contract": "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc",
+    "from": null,
+    "selector": null,
+    "hunt_id": "selector-cef6d209",
+    "old_raw": "00",
+    "new_raw": "01",
+    "old_decoded": "http://185.10.68.110/api/",
+    "new_decoded": "https://144.31.108.193/gate.php",
+    "decoder": "plain"
+  }
+]

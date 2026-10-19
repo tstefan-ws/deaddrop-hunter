@@ -1,0 +1,22 @@
+# Add this service to your OpenCTI docker-compose stack (same network as `opencti`).
+services:
+  connector-deaddrop-hunter:
+    build: .
+    image: deaddrop-hunter/opencti-connector:latest
+    environment:
+      - OPENCTI_URL=http://opencti:8080
+      - OPENCTI_TOKEN=${OPENCTI_ADMIN_TOKEN}       # better: a dedicated connector user token
+      - CONNECTOR_ID=${CONNECTOR_DEADDROP_HUNTER_ID}  # a fresh UUIDv4
+      - CONNECTOR_NAME=deaddrop-hunter
+      - CONNECTOR_SCOPE=identity,marking-definition,malware,infrastructure,indicator,report,relationship,ipv4-addr,ipv6-addr,domain-name,url,cryptocurrency-wallet
+      - CONNECTOR_LOG_LEVEL=info
+      - CONNECTOR_DURATION_PERIOD=PT6H
+      - DEADDROP_BUNDLE_URL=https://tstefan-ws.github.io/deaddrop-hunter/feeds/stix/deaddrop-hunter.bundle.json
+      - DEADDROP_TIMEOUT=60
+      - DEADDROP_VERIFY_SSL=true
+      - DEADDROP_ONLY_CURRENT=false
+      - DEADDROP_FORCE_REIMPORT=false
+    restart: always
+    # depends_on:
+    #   opencti:
+    #     condition: service_healthy

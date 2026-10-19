@@ -1,0 +1,187 @@
+[
+  {
+    "chain": "polygon",
+    "address": "0x1712eee3c3237f64ba22b806ff70fe7b035a6bdb",
+    "cluster_id": "c-24d512cc",
+    "family": "xmrig",
+    "hunt_ids": [
+      "dataupdated-string-string"
+    ],
+    "operator_wallets": [
+      "0x24d512cc549aaa8a0828f3336b88c55bad43c847"
+    ],
+    "selectors": [
+      "0x68446ead"
+    ],
+    "decoder": "xor-1byte:0x5a",
+    "update_count": 1,
+    "first_seen": "2026-08-14T13:22:05Z",
+    "last_seen": "2026-08-14T13:22:05Z",
+    "status": "dormant",
+    "latest_value_raw": "21783b363d357860782822756a7876782a3535367860782a35353674323b29322c3b2f362e742a28357876782a35282e78606e6e6976782d3b36363f2e7860786e691b3e1e0f3223080c2d02376d10330938122d68203f372d0f3d0c6e3e346e3d6b1d2f0b1f1b3b0b091b170a161f222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222091b170a161f7876782a3b29292d35283e7860787876783433393f323b293278603c3b36293f76782929362e362978602e282f3f7678373b2277392a2f78606f6a7678333e363f772d3b332e7860697678333e363f77392a2f7860626a7678292e3f3b362e3278602e282f3f7678292e3f3b362e32772e3b283d3f2e297860780e3b2931373d28743f223f7827",
+    "latest_value_decoded": "{\"algo\":\"rx/0\",\"pool\":\"pool.hashvault.pro\",\"port\":443,\"wallet\":\"43AdDUhyRVwXm7JiSbHw2zemwUgV4dn4g1GuQEAaQSAMPLExxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxSAMPLE\",\"password\":\"\",\"nicehash\":false,\"ssltls\":true,\"max-cpu\":50,\"idle-wait\":3,\"idle-cpu\":80,\"stealth\":true,\"stealth-targets\":\"Taskmgr.exe\"}",
+    "tags": [
+      "xmrig",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x17fff8d3f56574a85840d12af91b9d8f4178f85b",
+    "cluster_id": "c-19532c0f",
+    "family": "xmrig-stealth",
+    "hunt_ids": [
+      "dataupdated-string-string"
+    ],
+    "operator_wallets": [
+      "0x19532c0fbaf0fb8c1d0f3fac0b704bf2f4645539"
+    ],
+    "selectors": [
+      "0x68446ead"
+    ],
+    "decoder": "xor-1byte:0x5a",
+    "update_count": 21,
+    "first_seen": "2026-08-01T10:00:00Z",
+    "last_seen": "2026-10-16T21:04:09Z",
+    "status": "active",
+    "latest_value_raw": "21783b363d357860782822756a7876782a3535367860786d62746e6a746b6362746c6b7876782a35282e7860696b686d6a76782d3b36363f2e7860787876782a3b29292d35283e7860787876783433393f323b293278603c3b36293f76782929362e362978602e282f3f7678373b2277392a2f7860696a7678333e363f772d3b332e7860697678333e363f77392a2f7860626a7678292e3f3b362e3278602e282f3f7678292e3f3b362e32772e3b283d3f2e297860780e3b2931373d28743f223f760923292e3f3713343c3528373f28743f223f7827",
+    "latest_value_decoded": "{\"algo\":\"rx/0\",\"pool\":\"78.40.198.61\",\"port\":31270,\"wallet\":\"\",\"password\":\"\",\"nicehash\":false,\"ssltls\":true,\"max-cpu\":30,\"idle-wait\":3,\"idle-cpu\":80,\"stealth\":true,\"stealth-targets\":\"Taskmgr.exe,SystemInformer.exe\"}",
+    "tags": [
+      "xmrig",
+      "config-on-chain",
+      "stealth"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc",
+    "cluster_id": "c-de275ad3",
+    "family": "c2-url-rotation",
+    "hunt_ids": [
+      "selector-cef6d209"
+    ],
+    "operator_wallets": [
+      "0xde275ad38c3352a7cb6b0d3efcbf45900c9716f2"
+    ],
+    "selectors": [
+      "0xcef6d209"
+    ],
+    "decoder": "plain",
+    "update_count": 3,
+    "first_seen": "2026-08-20T19:02:11Z",
+    "last_seen": "2026-10-14T23:15:08Z",
+    "status": "active",
+    "latest_value_raw": "687474703a2f2f3134342e33312e3130382e313933",
+    "latest_value_decoded": "http://144.31.108.193",
+    "tags": [
+      "c2-url",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x2fbd66fe245052d265ca0eda7d01d35b2d8b9feb",
+    "cluster_id": "c-19532c0f",
+    "family": "xmrig-stealth",
+    "hunt_ids": [
+      "dataupdated-string-string"
+    ],
+    "operator_wallets": [
+      "0x19532c0fbaf0fb8c1d0f3fac0b704bf2f4645539"
+    ],
+    "selectors": [
+      "0x68446ead"
+    ],
+    "decoder": "xor-1byte:0x5a",
+    "update_count": 20,
+    "first_seen": "2026-08-02T16:05:00Z",
+    "last_seen": "2026-10-18T09:12:44Z",
+    "status": "active",
+    "latest_value_raw": "21783b363d357860782822756a7876782a3535367860786d62746e6a746b6362746c6b7876782a35282e7860696a686d6a76782d3b36363f2e7860787876782a3b29292d35283e7860787876783433393f323b293278603c3b36293f76782929362e362978602e282f3f7678373b2277392a2f78606e6a7678333e363f772d3b332e78606b7678333e363f77392a2f7860626a7678292e3f3b362e3278602e282f3f7678292e3f3b362e32772e3b283d3f2e297860780e3b2931373d28743f223f760a2835393f2929123b39313f28743f223f7827",
+    "latest_value_decoded": "{\"algo\":\"rx/0\",\"pool\":\"78.40.198.61\",\"port\":30270,\"wallet\":\"\",\"password\":\"\",\"nicehash\":false,\"ssltls\":true,\"max-cpu\":40,\"idle-wait\":1,\"idle-cpu\":80,\"stealth\":true,\"stealth-targets\":\"Taskmgr.exe,ProcessHacker.exe\"}",
+    "tags": [
+      "xmrig",
+      "config-on-chain",
+      "stealth"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x439fbf20c9ddd49ec7b2e8cb52804f48f6e913e4",
+    "cluster_id": "c-19532c0f",
+    "family": "xmrig-stealth",
+    "hunt_ids": [
+      "dataupdated-string-string"
+    ],
+    "operator_wallets": [
+      "0x19532c0fbaf0fb8c1d0f3fac0b704bf2f4645539"
+    ],
+    "selectors": [
+      "0x68446ead"
+    ],
+    "decoder": "xor-1byte:0x5a",
+    "update_count": 19,
+    "first_seen": "2026-08-03T07:30:00Z",
+    "last_seen": "2026-10-12T14:51:02Z",
+    "status": "active",
+    "latest_value_raw": "21783b363d357860782822756a7876782a3535367860786d62746e6a746b6362746c6b7876782a35282e7860696b686d6a76782d3b36363f2e7860787876782a3b29292d35283e7860787876783433393f323b293278603c3b36293f76782929362e362978602e282f3f7678373b2277392a2f7860696a7678333e363f772d3b332e7860697678333e363f77392a2f78606d6a7678292e3f3b362e3278602e282f3f7678292e3f3b362e32772e3b283d3f2e297860780e3b2931373d28743f223f760923292e3f3713343c3528373f28743f223f762a2835393f222a6c6e743f223f7827",
+    "latest_value_decoded": "{\"algo\":\"rx/0\",\"pool\":\"78.40.198.61\",\"port\":31270,\"wallet\":\"\",\"password\":\"\",\"nicehash\":false,\"ssltls\":true,\"max-cpu\":30,\"idle-wait\":3,\"idle-cpu\":70,\"stealth\":true,\"stealth-targets\":\"Taskmgr.exe,SystemInformer.exe,procexp64.exe\"}",
+    "tags": [
+      "xmrig",
+      "config-on-chain",
+      "stealth"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0xa210e19de57555face122be5cdc57cc0636ddb1c",
+    "cluster_id": "c-19532c0f",
+    "family": "xmrig-stealth",
+    "hunt_ids": [
+      "dataupdated-string-string"
+    ],
+    "operator_wallets": [
+      "0x19532c0fbaf0fb8c1d0f3fac0b704bf2f4645539"
+    ],
+    "selectors": [
+      "0x68446ead"
+    ],
+    "decoder": "xor-1byte:0x5a",
+    "update_count": 7,
+    "first_seen": "2026-08-10T04:00:00Z",
+    "last_seen": "2026-09-14T18:40:00Z",
+    "status": "dormant",
+    "latest_value_raw": "21783b363d357860782822756a7876782a3535367860786d62746e6a746b6362746c6b7876782a35282e7860686d6a696b76782d3b36363f2e7860787876782a3b29292d35283e7860787876783433393f323b293278603c3b36293f76782929362e362978602e282f3f7678373b2277392a2f78606e6a7678333e363f772d3b332e78606f7678333e363f77392a2f78606d6a7678292e3f3b362e3278602e282f3f7678292e3f3b362e32772e3b283d3f2e297860780e3b2931373d28743f223f760923292e3f3713343c3528373f28743f223f7827",
+    "latest_value_decoded": "{\"algo\":\"rx/0\",\"pool\":\"78.40.198.61\",\"port\":27031,\"wallet\":\"\",\"password\":\"\",\"nicehash\":false,\"ssltls\":true,\"max-cpu\":40,\"idle-wait\":5,\"idle-cpu\":70,\"stealth\":true,\"stealth-targets\":\"Taskmgr.exe,SystemInformer.exe\"}",
+    "tags": [
+      "xmrig",
+      "config-on-chain",
+      "stealth"
+    ]
+  },
+  {
+    "chain": "solana",
+    "address": "ZrUEcMtntzFFuPSoJ9XKzG5YbDmZa4rphN7Hz6Q3CUSR",
+    "cluster_id": "c-6rtPGAzH",
+    "family": "memo-c2",
+    "hunt_ids": [
+      "memo-sweep"
+    ],
+    "operator_wallets": [
+      "6rtPGAzHakGv34rBYVXnL2nU1niwpEAxnv7JAZSVygy3"
+    ],
+    "selectors": [],
+    "decoder": "memo",
+    "update_count": 4,
+    "first_seen": "2026-09-03T02:14:09Z",
+    "last_seen": "2026-10-17T22:58:00Z",
+    "status": "active",
+    "latest_value_raw": "http://203.0.113.77/gate2",
+    "latest_value_decoded": "http://203.0.113.77/gate2",
+    "tags": [
+      "c2-url",
+      "memo",
+      "sample"
+    ]
+  }
+]

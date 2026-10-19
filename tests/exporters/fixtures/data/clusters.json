@@ -1,0 +1,73 @@
+[
+  {
+    "id": "c-19532c0f",
+    "name": "Stealth XMRig config cluster",
+    "family": "xmrig-stealth",
+    "chains": [
+      "polygon"
+    ],
+    "contracts": [
+      "0x17fff8d3f56574a85840d12af91b9d8f4178f85b",
+      "0x2fbd66fe245052d265ca0eda7d01d35b2d8b9feb",
+      "0xfeed000000000000000000000000000000000001",
+      "0xfeed000000000000000000000000000000000002"
+    ],
+    "wallets": [
+      "0x19532c0fbaf0fb8c1d0f3fac0b704bf2f4645539"
+    ],
+    "ioc_count": 2,
+    "first_seen": "2026-08-01T10:00:00Z",
+    "last_seen": "2026-10-18T09:12:44Z"
+  },
+  {
+    "id": "c-24d512cc",
+    "name": "XMRig config, hashvault pool",
+    "family": "xmrig",
+    "chains": [
+      "polygon"
+    ],
+    "contracts": [
+      "0xfeed000000000000000000000000000000000003"
+    ],
+    "wallets": [
+      "0x24d512cc549aaa8a0828f3336b88c55bad43c847"
+    ],
+    "ioc_count": 2,
+    "first_seen": "2026-09-20T06:00:00Z",
+    "last_seen": "2026-10-15T06:00:00Z"
+  },
+  {
+    "id": "c-GwrmFixt",
+    "name": "Solana memo C2 (GlassWorm-style)",
+    "family": "glassworm",
+    "chains": [
+      "solana"
+    ],
+    "contracts": [
+      "GwrmFixtureDeadDrop1111111111111111111111111"
+    ],
+    "wallets": [
+      "GwrmFixtureWa11et11111111111111111111111111"
+    ],
+    "ioc_count": 2,
+    "first_seen": "2026-10-01T03:00:00Z",
+    "last_seen": "2026-10-16T03:00:00Z"
+  },
+  {
+    "id": "c-de275ad3",
+    "name": "C2 URL rotation cluster",
+    "family": "c2-url",
+    "chains": [
+      "polygon"
+    ],
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "wallets": [
+      "0xde275ad38c3352a7cb6b0d3efcbf45900c9716f2"
+    ],
+    "ioc_count": 5,
+    "first_seen": "2026-07-10T08:00:00Z",
+    "last_seen": "2026-10-12T17:30:00Z"
+  }
+]

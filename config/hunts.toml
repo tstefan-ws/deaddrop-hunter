@@ -1,0 +1,256 @@
+# deaddrop-hunter configuration.
+# Everything here is read-only hunting: the tool only calls eth_blockNumber, eth_getLogs,
+# eth_getTransactionByHash, eth_getBlockByNumber, eth_getCode and eth_call. It never signs or sends.
+
+[settings]
+default_lookback_days = 90
+# Data directory committed to git and read by the web UI.
+data_dir = "data"
+
+# ---------------------------------------------------------------------------
+# Chains. RPC endpoints are tried in order. `max_log_span` is the biggest block
+# range the endpoint accepts for an address-less eth_getLogs (topic-only sweep);
+# 0 means the endpoint refuses topic-only sweeps (use an indexed provider instead).
+# Values below were measured on 2026-10-19.
+# ---------------------------------------------------------------------------
+[chains.polygon]
+chain_id = 137
+block_time_s = 2.1
+explorer = "https://polygonscan.com"
+rpcs = [
+  { url = "https://polygon.gateway.tenderly.co", max_log_span = 400000 },
+  { url = "https://rpc-mainnet.matic.quiknode.pro", max_log_span = 10000 },
+  { url = "https://polygon-bor-rpc.publicnode.com", max_log_span = 0 },
+]
+
+[chains.ethereum]
+chain_id = 1
+block_time_s = 12
+explorer = "https://etherscan.io"
+rpcs = [
+  { url = "https://mainnet.gateway.tenderly.co", max_log_span = 400000 },
+  { url = "https://ethereum-rpc.publicnode.com", max_log_span = 0 },
+]
+
+[chains.arbitrum]
+chain_id = 42161
+block_time_s = 0.25
+explorer = "https://arbiscan.io"
+rpcs = [{ url = "https://arbitrum.gateway.tenderly.co", max_log_span = 400000 }]
+
+[chains.optimism]
+chain_id = 10
+block_time_s = 2
+explorer = "https://optimistic.etherscan.io"
+rpcs = [{ url = "https://optimism.gateway.tenderly.co", max_log_span = 400000 }]
+
+[chains.base]
+chain_id = 8453
+block_time_s = 2
+explorer = "https://basescan.org"
+rpcs = [
+  { url = "https://base.gateway.tenderly.co", max_log_span = 1000 },
+  { url = "https://base-rpc.publicnode.com", max_log_span = 0 },
+]
+
+[chains.avalanche]
+chain_id = 43114
+block_time_s = 2
+explorer = "https://snowtrace.io"
+rpcs = [
+  { url = "https://avalanche.gateway.tenderly.co", max_log_span = 400000 },
+  { url = "https://api.avax.network/ext/bc/C/rpc", max_log_span = 0 },
+]
+
+# Any chain's RPC list can be overridden/extended with env DDH_RPC_<CHAIN> (e.g.
+# DDH_RPC_BSC="https://bsc-mainnet.nodereal.io/v1/<key>|50000") — a free-key RPC
+# from NodeReal/Chainstack/Ankr; "|N" sets max_log_span.
+
+[chains.bsc]
+chain_id = 56
+block_time_s = 0.75
+explorer = "https://bscscan.com"
+# Measured 2026-10-19: every free public BSC node refuses or rate-limits topic-only
+# sweeps, and the Etherscan V2 FREE plan does not cover BSC ("Free API access is not
+# supported for this chain"). Sweeps therefore go through Dune (env DUNE_API_KEY,
+# table bnb.logs) or a free-key RPC via DDH_RPC_BSC. RPCs below serve eth_call / tx lookups.
+rpcs = [
+  { url = "https://bsc-rpc.publicnode.com", max_log_span = 0 },
+  { url = "https://bsc-dataseed.binance.org", max_log_span = 0 },
+]
+indexed_provider = "dune"
+dune_chain = "bnb"
+
+[chains.bsc_testnet]
+chain_id = 97
+block_time_s = 3
+explorer = "https://testnet.bscscan.com"
+rpcs = [{ url = "https://bsc-testnet-rpc.publicnode.com", max_log_span = 0 }]
+# No free indexed source known; requires DDH_RPC_BSC_TESTNET with a key.
+indexed_provider = "none"
+
+# ---------------------------------------------------------------------------
+# Non-EVM chains. No contract events to sweep: these are hunted by watching known
+# actor accounts and decoding data hidden in transactions (Tron tx data/memos and
+# contract calls, Solana Memo-program instructions as used by GlassWorm, Aptos
+# transaction payload arguments / account resources). Addresses are chain-native.
+# ---------------------------------------------------------------------------
+[chains.tron]
+type = "tron"
+explorer = "https://tronscan.org/#"
+api = "https://api.trongrid.io"   # env TRONGRID_API_KEY optional (higher rate limit)
+
+[chains.solana]
+type = "solana"
+explorer = "https://solscan.io"
+api = "https://api.mainnet-beta.solana.com"   # env DDH_RPC_SOLANA to override (Helius etc.)
+
+[chains.aptos]
+type = "aptos"
+explorer = "https://explorer.aptoslabs.com"
+api = "https://fullnode.mainnet.aptoslabs.com/v1"
+
+# ---------------------------------------------------------------------------
+# Hunts. Each hunt is a fingerprint swept across the listed chains.
+# kind = "event"    -> topic0 sweep with eth_getLogs (or indexed provider)
+# kind = "selector" -> transactions whose input starts with the 4-byte selector
+#                      (needs an indexed provider; RPC cannot search tx input)
+# kind = "wallet"   -> every transaction sent by a known operator wallet
+# ---------------------------------------------------------------------------
+[[hunts]]
+id = "dataupdated-string-string"
+kind = "event"
+signature = "DataUpdated(string,string)"
+topic0 = "0xee986145c636aca5c6c0b4ce0e9d371e77ab30b3e28fe5c3a8d977f05fc8cf24"
+abi = ["string", "string"]  # old value, new value
+chains = ["polygon", "ethereum", "arbitrum", "optimism", "base", "avalanche", "bsc", "bsc_testnet"]
+reference = "https://www.linkedin.com/pulse/hunting-etherhiding-from-one-cluster-ecosystem-alex-necula-r7l8e/"
+
+[[hunts]]
+id = "selector-68446ead"
+kind = "selector"
+selector = "0x68446ead"
+abi = ["string"]
+chains = ["polygon"]
+note = "Update function used by the stealth-XMRig config contracts (cluster found 2026-10-19)."
+
+[[hunts]]
+id = "selector-cef6d209"
+kind = "selector"
+selector = "0xcef6d209"
+abi = ["string"]
+chains = ["polygon"]
+note = "Update function of C2-URL rotation contract 0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc."
+
+# Operator wallets to watch continuously. New contracts or updates from these
+# wallets are flagged in the dashboard.
+[[watch_wallets]]
+chain = "polygon"
+address = "0x19532c0fbaf0fb8c1d0f3fac0b704bf2f4645539"
+label = "Operator: stealth-XMRig cluster (4 contracts)"
+
+[[watch_wallets]]
+chain = "polygon"
+address = "0x24d512cc549aaa8a0828f3336b88c55bad43c847"
+label = "Operator: XMRig config, hashvault pool"
+
+[[watch_wallets]]
+chain = "polygon"
+address = "0xde275ad38c3352a7cb6b0d3efcbf45900c9716f2"
+label = "Operator: C2 URL rotation"
+
+# ===========================================================================
+# Non-EVM seed watch accounts (publicly reported actor dead drops; each has a
+# `source`). Data they publish is hostile: never fetch anything decoded.
+# ===========================================================================
+# ---------------------------------------------------------------------------
+# Solana - GlassWorm (VS Code / Open VSX extension worm). C2 pointers published as SPL Memo
+# transactions, e.g. {"link":"<base64 URL>"}.
+# ---------------------------------------------------------------------------
+[[watch_wallets]]
+chain = "solana"
+address = "28PKnu7RzizxBzFPoLp69HLXp9bJL3JFtT2s5QzHsEA2"
+label = "GlassWorm C2 dead drop (Solana memo), original Oct-2025 wave"
+source = "https://www.truesec.com/hub/blog/glassworm-self-propagating-vscode-extension"
+
+[[watch_wallets]]
+chain = "solana"
+address = "BjVeAjPrSKFiingBn4vZvghsGj9KCE8AJVtbc9S8o8SC"
+label = "GlassWorm stage-1 Unicode loader C2 dead drop (Solana memo)"
+source = "https://www.aikido.dev/blog/glassworm-chrome-extension-rat"
+
+[[watch_wallets]]
+chain = "solana"
+address = "6YGcuyFRJKZtcaYCCFba9fScNUvPkGXodXE1mJiSzqDJ"
+label = "GlassWorm obfuscated preinstall loader C2 dead drop (Solana memo)"
+source = "https://www.aikido.dev/blog/glassworm-chrome-extension-rat"
+
+[[watch_wallets]]
+chain = "solana"
+address = "DSRUBTziADDHSik7WQvSMjvwCHFsbsThrbbjWMoJPUiW"
+label = "GlassWorm Chrome-extension RAT C2 dead drop (Solana memo)"
+source = "https://www.aikido.dev/blog/glassworm-chrome-extension-rat"
+
+# ---------------------------------------------------------------------------
+# Tron - DPRK-linked Cross-Chain TxDataHiding (XCTDH, DEV#POPPER / OmniStealer). The latest tx sent
+# by the account carries raw_data.data = hex(reversed BSC tx hash); the BSC tx holds the encrypted
+# payload. Aptos accounts below are the fallback index.
+# ---------------------------------------------------------------------------
+[[watch_wallets]]
+chain = "tron"
+address = "TMfKQEd7TJJa5xNZJZ2Lep838vrzrs7mAP"
+label = "XCTDH (DPRK) pointer index, payload 1 (Tron memo -> BSC tx)"
+source = "https://ransom-isac.org/blog/cross-chain-txdatahiding-crypto-heist/"
+
+[[watch_wallets]]
+chain = "tron"
+address = "TXfxHUet9pJVU1BgVkBAbrES4YUc1nGzcG"
+label = "XCTDH (DPRK) pointer index, payload 2 (Tron memo -> BSC tx)"
+source = "https://ransom-isac.org/blog/cross-chain-txdatahiding-crypto-heist/"
+
+[[watch_wallets]]
+chain = "tron"
+address = "TCqf6ZkaQD84vYsC2cuu1jRwB6JveTaRrF"
+label = "XCTDH (DPRK) pointer index, chain 1 (/init)"
+source = "https://ransom-isac.org/blog/xctdh-adopts-hash-hiding/"
+
+[[watch_wallets]]
+chain = "tron"
+address = "TFMryB9m6d4kBMRjEVyFRbqKSV1cV2NcpH"
+label = "XCTDH (DPRK) pointer index, chain 2 (/$/boot)"
+source = "https://ransom-isac.org/blog/xctdh-adopts-hash-hiding/"
+
+[[watch_wallets]]
+chain = "tron"
+address = "TLmj13VL4p6NQ7jpxz8d9uYY6FUKCYatSe"
+label = "XCTDH (DPRK) fee payer with many cross-chain pointers"
+source = "https://ransom-isac.org/blog/cross-chain-txdatahiding-crypto-heist-part-4/"
+
+# ---------------------------------------------------------------------------
+# Aptos - XCTDH fallback index: zero-value 0x1::aptos_account::transfer whose "recipient" argument
+# is the BSC tx hash. History is older than the public fullnode's pruning window -> the collector
+# falls back to the archival endpoint.
+# ---------------------------------------------------------------------------
+[[watch_wallets]]
+chain = "aptos"
+address = "0xbe037400670fbf1c32364f762975908dc43eeb38759263e7dfcdabc76380811e"
+label = "XCTDH (DPRK) Aptos fallback index, payload 1"
+source = "https://ransom-isac.org/blog/cross-chain-txdatahiding-crypto-heist/"
+
+[[watch_wallets]]
+chain = "aptos"
+address = "0x3f0e5781d0855fb460661ac63257376db1941b2bb522499e4757ecb3ebd5dce3"
+label = "XCTDH (DPRK) Aptos fallback index, payload 2"
+source = "https://ransom-isac.org/blog/cross-chain-txdatahiding-crypto-heist/"
+
+[[watch_wallets]]
+chain = "aptos"
+address = "0x9d202c824402ca89e9aaccd2390b6f8b332ae743caa1469c695feb2781d56519"
+label = "XCTDH (DPRK) Aptos fallback index, chain 1 (/init)"
+source = "https://ransom-isac.org/blog/xctdh-adopts-hash-hiding/"
+
+[[watch_wallets]]
+chain = "aptos"
+address = "0x3d2075f97b7b1e3234bd653779d21c605d7d8c6ec9c98d983880be5c7f4f9471"
+label = "XCTDH (DPRK) Aptos fallback index, chain 2 (/$/boot)"
+source = "https://ransom-isac.org/blog/xctdh-adopts-hash-hiding/"
