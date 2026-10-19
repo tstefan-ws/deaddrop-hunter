@@ -61,6 +61,21 @@
   },
   {
     "chain": "bsc",
+    "address": "0x06b09f6008780771980bfe7d4bb821f5f1aa60a3",
+    "role": "deployer",
+    "label": "Deployer (auto-detected)",
+    "cluster_id": "c-06b09f60",
+    "contracts": [
+      "0x8054dfeec2d63aced3833819aa27397c8441455e"
+    ],
+    "tx_count": 1,
+    "first_seen": "2026-10-19T22:02:19Z",
+    "last_seen": "2026-10-19T22:02:19Z",
+    "watched": false,
+    "funded_by": []
+  },
+  {
+    "chain": "bsc",
     "address": "0x7c51d83f019eddad0fba6c3334485911b24fb50c",
     "role": "deployer",
     "label": "Deployer (auto-detected)",
@@ -87,6 +102,21 @@
     "tx_count": 2,
     "first_seen": "2026-10-19T21:56:55Z",
     "last_seen": "2026-10-19T21:57:04Z",
+    "watched": false,
+    "funded_by": []
+  },
+  {
+    "chain": "bsc",
+    "address": "0xec89d32c53ab7449408f37740085a83e16b01b20",
+    "role": "operator",
+    "label": "Operator (auto-detected)",
+    "cluster_id": "c-ec89d32c",
+    "contracts": [
+      "0x5c67ff34a88541558d08a07cac2aed282f6e4a0e"
+    ],
+    "tx_count": 1,
+    "first_seen": "2026-10-19T22:02:41Z",
+    "last_seen": "2026-10-19T22:02:41Z",
     "watched": false,
     "funded_by": []
   },
@@ -244,6 +274,21 @@
   },
   {
     "chain": "polygon",
+    "address": "0x42b3cc05c2201d5e5988189fe1b7ff980b557592",
+    "role": "operator",
+    "label": "Operator (auto-detected)",
+    "cluster_id": "c-42b3cc05",
+    "contracts": [
+      "0xda116a26d227e694335fee131e212da50f069f1e"
+    ],
+    "tx_count": 1,
+    "first_seen": "2026-10-19T22:02:30Z",
+    "last_seen": "2026-10-19T22:02:30Z",
+    "watched": false,
+    "funded_by": []
+  },
+  {
+    "chain": "polygon",
     "address": "0x504efa6320d3c8f66840b65fbf05a930e258292d",
     "role": "operator",
     "label": "Operator (auto-detected)",
@@ -344,6 +389,21 @@
     "first_seen": "2025-11-15T21:29:25Z",
     "last_seen": "2026-10-13T09:33:17Z",
     "watched": true,
+    "funded_by": []
+  },
+  {
+    "chain": "polygon",
+    "address": "0xea806abd32248926743db722b2cf2ef9bc7dd634",
+    "role": "operator",
+    "label": "Operator (auto-detected)",
+    "cluster_id": "c-ea806abd",
+    "contracts": [
+      "0xd6011cd6194af1bd877dec0b9d9614273ebad5a3"
+    ],
+    "tx_count": 1,
+    "first_seen": "2026-10-19T21:58:28Z",
+    "last_seen": "2026-10-19T21:58:28Z",
+    "watched": false,
     "funded_by": []
   },
   {

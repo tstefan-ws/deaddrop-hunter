@@ -136,6 +136,60 @@
   },
   {
     "chain": "bsc",
+    "address": "0x5c67ff34a88541558d08a07cac2aed282f6e4a0e",
+    "cluster_id": "c-ec89d32c",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xec89d32c53ab7449408f37740085a83e16b01b20"
+    ],
+    "selectors": [],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-19T22:02:41Z",
+    "last_seen": "2026-10-19T22:02:41Z",
+    "status": "active",
+    "code_hash": "70f4aaae64fefd5a",
+    "discovered_at": "2026-10-19T22:05:20Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "Huge Success",
+    "latest_value_decoded": "Huge Success",
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
+    "address": "0x8054dfeec2d63aced3833819aa27397c8441455e",
+    "cluster_id": "c-06b09f60",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x06b09f6008780771980bfe7d4bb821f5f1aa60a3"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-10-19T22:02:19Z",
+    "last_seen": "2026-10-19T22:02:19Z",
+    "status": "active",
+    "code_hash": "6664b2318afa63a5",
+    "discovered_at": "2026-10-19T22:05:20Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": null,
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
     "address": "0x8a495ef944a8862c08985a2ad57cdb99d1ee5363",
     "cluster_id": "c-7c51d83f",
     "family": "unknown",
@@ -966,6 +1020,64 @@
     "evidence": "decoded",
     "latest_value_raw": "{\"nodeId\":\"7141abd779ea507beef53a6881a1b24a0270aa1b\",\"type\":\"nodejs\",\"websocket\":{\"host\":\"29908d69-4786-4a9c-8bb4-557aad70e7ed.streamr-nodes.xyz\",\"port\":32200,\"tls\":true},\"region\":8500}",
     "latest_value_decoded": "{\"nodeId\":\"7141abd779ea507beef53a6881a1b24a0270aa1b\",\"type\":\"nodejs\",\"websocket\":{\"host\":\"29908d69-4786-4a9c-8bb4-557aad70e7ed.streamr-nodes.xyz\",\"port\":32200,\"tls\":true},\"region\":8500}",
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0xd6011cd6194af1bd877dec0b9d9614273ebad5a3",
+    "cluster_id": "c-ea806abd",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xea806abd32248926743db722b2cf2ef9bc7dd634"
+    ],
+    "selectors": [
+      "0x0fd6ff49"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-19T21:58:28Z",
+    "last_seen": "2026-10-19T21:58:28Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-19T22:05:20Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "{\"nodeId\":\"896005ead51acfcfb8151a9e9d0953b3a92a381c\",\"type\":\"nodejs\",\"websocket\":{\"host\":\"9586bc38-0a0a-4d0d-a10a-674ee43b5060.streamr-nodes.xyz\",\"port\":32202,\"tls\":true},\"region\":8500}",
+    "latest_value_decoded": "{\"nodeId\":\"896005ead51acfcfb8151a9e9d0953b3a92a381c\",\"type\":\"nodejs\",\"websocket\":{\"host\":\"9586bc38-0a0a-4d0d-a10a-674ee43b5060.streamr-nodes.xyz\",\"port\":32202,\"tls\":true},\"region\":8500}",
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0xda116a26d227e694335fee131e212da50f069f1e",
+    "cluster_id": "c-42b3cc05",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x42b3cc05c2201d5e5988189fe1b7ff980b557592"
+    ],
+    "selectors": [
+      "0x0fd6ff49"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-19T22:02:30Z",
+    "last_seen": "2026-10-19T22:02:30Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-19T22:05:20Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "{\"nodeId\":\"3fa5706b9eafa6fd8c675359ba9e543ab33a071b\",\"type\":\"nodejs\",\"websocket\":{\"host\":\"9a82d5f2-c802-495b-8149-676f02ff37bf.streamr-nodes.xyz\",\"port\":32200,\"tls\":true},\"region\":6500}",
+    "latest_value_decoded": "{\"nodeId\":\"3fa5706b9eafa6fd8c675359ba9e543ab33a071b\",\"type\":\"nodejs\",\"websocket\":{\"host\":\"9a82d5f2-c802-495b-8149-676f02ff37bf.streamr-nodes.xyz\",\"port\":32200,\"tls\":true},\"region\":6500}",
     "tags": [
       "config-on-chain"
     ]

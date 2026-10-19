@@ -1,5 +1,24 @@
 [
   {
+    "id": "c-06b09f60",
+    "name": "Unclassified dead-drop cluster (c-06b09f60)",
+    "family": "unknown",
+    "chains": [
+      "bsc"
+    ],
+    "contracts": [
+      "0x8054dfeec2d63aced3833819aa27397c8441455e"
+    ],
+    "wallets": [
+      "0x06b09f6008780771980bfe7d4bb821f5f1aa60a3"
+    ],
+    "ioc_count": 2,
+    "first_seen": "2026-10-19T22:02:19Z",
+    "last_seen": "2026-10-19T22:02:19Z",
+    "discovered_at": "2026-10-19T22:05:20Z",
+    "new": true
+  },
+  {
     "id": "c-19532c0f",
     "name": "Stealth XMRig config cluster (c-19532c0f)",
     "family": "xmrig-stealth",
@@ -173,6 +192,25 @@
     "last_seen": "2026-06-25T06:41:38Z",
     "discovered_at": "2025-06-13T05:54:24Z",
     "new": false
+  },
+  {
+    "id": "c-42b3cc05",
+    "name": "Unclassified dead-drop cluster (c-42b3cc05)",
+    "family": "unknown",
+    "chains": [
+      "polygon"
+    ],
+    "contracts": [
+      "0xda116a26d227e694335fee131e212da50f069f1e"
+    ],
+    "wallets": [
+      "0x42b3cc05c2201d5e5988189fe1b7ff980b557592"
+    ],
+    "ioc_count": 3,
+    "first_seen": "2026-10-19T22:02:30Z",
+    "last_seen": "2026-10-19T22:02:30Z",
+    "discovered_at": "2026-10-19T22:05:20Z",
+    "new": true
   },
   {
     "id": "c-504efa63",
@@ -365,6 +403,44 @@
     "last_seen": "2026-10-19T21:12:56Z",
     "discovered_at": "2025-11-15T21:29:25Z",
     "new": false
+  },
+  {
+    "id": "c-ea806abd",
+    "name": "Unclassified dead-drop cluster (c-ea806abd)",
+    "family": "unknown",
+    "chains": [
+      "polygon"
+    ],
+    "contracts": [
+      "0xd6011cd6194af1bd877dec0b9d9614273ebad5a3"
+    ],
+    "wallets": [
+      "0xea806abd32248926743db722b2cf2ef9bc7dd634"
+    ],
+    "ioc_count": 3,
+    "first_seen": "2026-10-19T21:58:28Z",
+    "last_seen": "2026-10-19T21:58:28Z",
+    "discovered_at": "2026-10-19T22:05:20Z",
+    "new": true
+  },
+  {
+    "id": "c-ec89d32c",
+    "name": "Unclassified dead-drop cluster (c-ec89d32c)",
+    "family": "unknown",
+    "chains": [
+      "bsc"
+    ],
+    "contracts": [
+      "0x5c67ff34a88541558d08a07cac2aed282f6e4a0e"
+    ],
+    "wallets": [
+      "0xec89d32c53ab7449408f37740085a83e16b01b20"
+    ],
+    "ioc_count": 2,
+    "first_seen": "2026-10-19T22:02:41Z",
+    "last_seen": "2026-10-19T22:02:41Z",
+    "discovered_at": "2026-10-19T22:05:20Z",
+    "new": true
   },
   {
     "id": "c-tcqf6zka",
