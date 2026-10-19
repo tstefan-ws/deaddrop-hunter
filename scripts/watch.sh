@@ -18,7 +18,7 @@
 set -uo pipefail
 
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-cd "$REPO_DIR"
+cd "$REPO_DIR" || exit 1
 
 INTERVAL=300
 ARGS=()
