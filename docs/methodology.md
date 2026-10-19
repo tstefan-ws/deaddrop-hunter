@@ -125,6 +125,34 @@ merges their clusters. Such contracts are listed under `[[ignore_contracts]]` in
 DelegationManager `0xdb9b1e94b5b69df7e401ddbede43491141047db3` on Polygon, which three of the
 watched operators use.
 
+## 6a. Discovery without a fingerprint
+
+Every other hunt needs something known in advance: an event name, a selector, an operator
+wallet, somebody's report. `birth-watch` needs none of them, and exists because a crew that
+renames its event walks straight past a topic sweep (measured on 2026-10-19: a live resolver
+emitted 85 `URLUpdated` events inside a Polygon range we had already swept).
+
+It rests on one asymmetry. A dead drop must answer anonymous readers, because the infected
+machines calling it carry no credentials, and the operator cannot add authentication without
+breaking their own malware. So every dead drop, whoever wrote it, must:
+
+1. exist, which means a creation transaction nobody can hide;
+2. expose a public reader that returns text;
+3. restrict writing to one address;
+4. hold a value that decodes to somewhere a victim connects.
+
+The collector reads the blocks in its range, derives each new contract's address from the
+deployer and nonce (`keccak(rlp([sender, nonce]))[12:]`, no receipt lookup), fetches the code
+once and judges it on shape alone: a selector from a confirmed family, or a small contract with
+an owner accessor (`bytecode.Shape`). Survivors are asked what they hold with `eth_call`, and
+the answer goes through the usual decoders.
+
+Shape alone never convicts. A contract that answers with a decodable value becomes a finding
+like any other; one that matches the shape and stays silent is recorded with
+`evidence: candidate` and scored accordingly. The known misses are honest ones: an encrypted
+payload, a value kept in a storage slot rather than behind a reader, or a drop that is deployed
+and never updated.
+
 ## 6b. What the data claims, and what it does not
 
 Three honesty markers keep a lead from reading like a finding:

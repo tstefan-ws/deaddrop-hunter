@@ -57,6 +57,9 @@ class Hunt:
     abi: tuple[str, ...] = ("string",)
     reference: str | None = None
     note: str | None = None
+    # Birth hunts read every block in the range, so a run is capped to this many blocks
+    # and catches up over successive runs rather than claiming blocks it never read.
+    max_blocks: int = 0
 
 
 @dataclass(frozen=True)
@@ -158,6 +161,7 @@ def parse_config(raw: dict, env: Mapping[str, str] | None = None) -> Config:
             abi=tuple(h.get("abi", ["string"])),
             reference=h.get("reference"),
             note=h.get("note"),
+            max_blocks=int(h.get("max_blocks", 0)),
         ))
     wallets = [
         WatchWallet(chain=w["chain"], address=norm_address(w["address"]), label=w.get("label", ""))

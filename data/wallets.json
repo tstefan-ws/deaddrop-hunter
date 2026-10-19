@@ -196,6 +196,36 @@
   },
   {
     "chain": "polygon",
+    "address": "0x9bae539ae82e0dd1743d134a0f6d546bed721245",
+    "role": "operator",
+    "label": "Operator (auto-detected)",
+    "cluster_id": "c-9bae539a",
+    "contracts": [
+      "0x51d85b90e76c83cb2207e4ad2b8f69a02bd58309"
+    ],
+    "tx_count": 1,
+    "first_seen": "2026-08-16T13:16:12Z",
+    "last_seen": "2026-08-16T13:16:12Z",
+    "watched": false,
+    "funded_by": []
+  },
+  {
+    "chain": "polygon",
+    "address": "0xa82c7acf60ab7d8a409f82168f67394520b5d2c7",
+    "role": "operator",
+    "label": "Operator (auto-detected)",
+    "cluster_id": "c-a82c7acf",
+    "contracts": [
+      "0xaeb4017bc95ee3109225b4a6a32e0c0018073682"
+    ],
+    "tx_count": 1,
+    "first_seen": "2026-08-16T13:19:54Z",
+    "last_seen": "2026-08-16T13:19:54Z",
+    "watched": false,
+    "funded_by": []
+  },
+  {
+    "chain": "polygon",
     "address": "0xde275ad38c3352a7cb6b0d3efcbf45900c9716f2",
     "role": "operator",
     "label": "Operator: C2 URL rotation",

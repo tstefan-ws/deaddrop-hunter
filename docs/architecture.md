@@ -66,6 +66,8 @@ flowchart LR
 | `store.py` | Deterministic JSON I/O (sorted, 2-space indent) and cursors in `meta.json` |
 | `hunt.py` | Orchestration: plan block ranges from cursors, run collectors, merge new events, rebuild |
 | `exporters/` | STIX 2.1, MISP feed, CSV/TXT, static JSON API + Atom, `feeds/index.json` |
+| `src/deaddrop_hunter/bytecode.py` | Pure EVM primitives: strip solc metadata, blueprint hash, selector extraction, `Shape` (is this drop-shaped?), and `created_address(sender, nonce)` |
+| `src/deaddrop_hunter/collectors/birth_watch.py` | Reads new contract creations, keeps the drop-shaped ones and asks them what they hold. The only hunt that needs no fingerprint |
 | `scripts/build_site.py` | Copies `web/` (minus `sample-data/`) and `data/` into `site/`, keeps `site/feeds/`, writes `.nojekyll` |
 | `web/css/app.css` | The whole design system: one crimson chrome hue meaning "live", a separate link blue, and six cluster hues for identity only. Light is the bare `:root` set, dark is redefined under the OS media query and `[data-theme=dark]` |
 

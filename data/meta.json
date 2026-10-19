@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T19:33:14Z",
+  "generated_at": "2026-10-19T20:05:55Z",
   "tool_version": "0.1.0",
   "cursors": [
     {
@@ -64,6 +64,13 @@
       "from_block": 154517125,
       "to_block": 158419535,
       "updated_at": "2026-10-19T19:24:09Z"
+    },
+    {
+      "chain": "polygon",
+      "hunt_id": "birth-watch",
+      "from_block": 92120478,
+      "to_block": 92121077,
+      "updated_at": "2026-10-19T20:05:55Z"
     },
     {
       "chain": "polygon",
@@ -162,10 +169,10 @@
     }
   ],
   "counts": {
-    "contracts": 33,
-    "wallets": 24,
-    "events": 928,
-    "iocs": 531,
-    "clusters": 14
+    "contracts": 35,
+    "wallets": 26,
+    "events": 930,
+    "iocs": 537,
+    "clusters": 16
   }
 }

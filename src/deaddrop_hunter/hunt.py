@@ -7,7 +7,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 from .build import build
-from .collectors import HuntContext, event_sweep, selector_sweep, wallet_watch
+from .collectors import HuntContext, birth_watch, event_sweep, selector_sweep, wallet_watch
 from .config import NONEVM_TYPES, Chain, Config
 from .providers import ProviderUnavailable
 from .providers.dune import Dune
@@ -152,6 +152,12 @@ def run_hunt(
         start = max(0, head - int(lookback * 86400 / chain.block_time_s))
         cursor = cursors.get((chain_key, hunt_id))
         ranges = plan_ranges(cursor, head, start, explicit_days=days is not None)
+        if hunt is not None and hunt.kind == "birth" and hunt.max_blocks and ranges:
+            # Reading every block is the expensive part, so take a contiguous bite from the
+            # oldest unscanned block forward. The cursor then never covers a block we skipped;
+            # if the watcher falls behind, to_block visibly lags the head until it catches up.
+            lo, hi = ranges[0]
+            ranges = [(lo, min(hi, lo + hunt.max_blocks - 1))]
         if not ranges:
             report.ran.append(f"{label} (up to date)")
             continue
@@ -165,6 +171,8 @@ def run_hunt(
                     got += event_sweep.collect(ctx, hunt, chain, lo, hi)
                 elif hunt.kind == "selector":
                     got += selector_sweep.collect(ctx, hunt, chain, lo, hi, lookback)
+                elif hunt.kind == "birth":
+                    got += birth_watch.collect(ctx, chain, lo, hi)
                 else:
                     raise ProviderUnavailable(f"unknown hunt kind {hunt.kind!r}")
         except ProviderUnavailable as e:

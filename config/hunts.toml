@@ -126,6 +126,23 @@ abi = ["string", "string"]  # old value, new value
 chains = ["polygon", "ethereum", "arbitrum", "optimism", "base", "avalanche", "bsc", "bsc_testnet"]
 reference = "https://www.linkedin.com/pulse/hunting-etherhiding-from-one-cluster-ecosystem-alex-necula-r7l8e/"
 
+# Needs no fingerprint at all: reads new contract creations, keeps the drop-shaped ones
+# (bytecode.Shape) and asks them what they hold. max_blocks caps how many blocks one run
+# reads; the cursor only ever covers blocks actually read, so a run that falls behind
+# catches up over the following runs instead of skipping ahead.
+[[hunts]]
+id = "birth-watch"
+kind = "birth"
+chains = ["polygon"]
+max_blocks = 600
+note = """Polygon makes ~2,057 contracts a day and the shape filter discards nearly all of them
+before any call is made, so the cost is reading the blocks: ~216 KB each, ~0.22 s each at six
+concurrent requests. 600 blocks per run keeps pace with Polygon's ~428 blocks per 15 minutes and
+leaves room to catch up, at ~130 MB per run. Reading one chain end to end is ~9 GB a day, which
+is a lot to take from a free public endpoint: move this to a keyed RPC or an always-on machine
+before enabling more chains, or source the daily contract list from a chain warehouse instead.
+Set chains = [] to park it."""
+
 [[hunts]]
 id = "urlupdated-string-string"
 kind = "event"

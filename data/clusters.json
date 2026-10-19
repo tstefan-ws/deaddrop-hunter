@@ -125,6 +125,23 @@
     "last_seen": "2026-06-25T06:41:38Z"
   },
   {
+    "id": "c-9bae539a",
+    "name": "C2 URL rotation cluster (c-9bae539a)",
+    "family": "c2-url",
+    "chains": [
+      "polygon"
+    ],
+    "contracts": [
+      "0x51d85b90e76c83cb2207e4ad2b8f69a02bd58309"
+    ],
+    "wallets": [
+      "0x9bae539ae82e0dd1743d134a0f6d546bed721245"
+    ],
+    "ioc_count": 4,
+    "first_seen": "2026-08-16T13:16:12Z",
+    "last_seen": "2026-08-16T13:16:12Z"
+  },
+  {
     "id": "c-9d202c82",
     "name": "Unclassified dead-drop cluster (c-9d202c82)",
     "family": "unknown",
@@ -140,6 +157,23 @@
     "ioc_count": 0,
     "first_seen": "2025-11-14T13:49:45Z",
     "last_seen": "2026-10-07T16:09:12Z"
+  },
+  {
+    "id": "c-a82c7acf",
+    "name": "Unclassified dead-drop cluster (c-a82c7acf)",
+    "family": "unknown",
+    "chains": [
+      "polygon"
+    ],
+    "contracts": [
+      "0xaeb4017bc95ee3109225b4a6a32e0c0018073682"
+    ],
+    "wallets": [
+      "0xa82c7acf60ab7d8a409f82168f67394520b5d2c7"
+    ],
+    "ioc_count": 2,
+    "first_seen": "2026-08-16T13:19:54Z",
+    "last_seen": "2026-08-16T13:19:54Z"
   },
   {
     "id": "c-be037400",
