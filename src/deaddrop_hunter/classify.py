@@ -188,6 +188,9 @@ DUAL_USE_DOMAINS = (
     # the occasional payload links. Reported, never blocked.
     "ipfs.io", "filebase.io", "pinata.cloud", "nftstorage.link", "arweave.net", "w3s.link",
     "dweb.link", "cf-ipfs.com", "infura-ipfs.io", "fleek.co",
+    # Decentralised network node registries announce their own endpoints on-chain, by the
+    # thousand. Real hosts, published deliberately, nothing to act on.
+    "streamr-nodes.xyz", "streamr.network", "pokt.network", "lavanet.xyz", "drpc.org",
 )
 
 

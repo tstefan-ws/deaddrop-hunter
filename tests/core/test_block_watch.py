@@ -307,3 +307,20 @@ def test_probe_events_do_not_claim_a_transaction():
     ds = Dataset(meta={}, contracts=[], wallets=[], events=[], iocs=[], clusters=[],
                  explorers={"polygon": "https://polygonscan.com"})
     assert ds.explorer_tx_url("polygon", ev["tx_hash"]) is None
+
+
+def test_a_new_contract_holding_a_plain_label_is_not_recorded():
+    """The watcher's first live hour turned up a contract holding "Steve Garrison" and two
+    holding decentralised-network node registrations. Readable text with nothing to act on
+    is not a lead, so it is dropped rather than filed as a candidate."""
+    sim = StorageChain(_code(ADMIN, "0badf00d"), {0: _slot_word("Steve Garrison")})
+    ctx, chain = _ctx(sim)
+    assert block_watch.collect(ctx, chain, 100, 100) == []
+
+
+def test_an_opaque_value_is_still_kept():
+    """An encrypted payload is exactly what we are looking for, so anything that will not
+    decode to text stays, as 0xa9c28c5b's 520 bytes of binary did."""
+    sim = StorageChain(_code(ADMIN, "0badf00d"), {0: "0x" + "9f" * 31 + hex(31 * 2)[2:].rjust(2, "0")})
+    ctx, chain = _ctx(sim)
+    assert len(block_watch.collect(ctx, chain, 100, 100)) == 1

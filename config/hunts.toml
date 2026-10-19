@@ -151,7 +151,7 @@ reference = "https://www.linkedin.com/pulse/hunting-etherhiding-from-one-cluster
 id = "block-watch"
 kind = "block"
 chains = ["polygon", "bsc"]
-max_blocks = 600
+max_blocks = 1200
 note = """Polygon makes ~2,057 contracts a day and the shape filter discards nearly all of them
 before any call is made, so the cost is reading the blocks: ~216 KB each, ~0.22 s each at six
 concurrent requests. 600 blocks per run keeps pace with Polygon's ~428 blocks per 15 minutes and

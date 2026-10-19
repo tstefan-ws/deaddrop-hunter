@@ -412,33 +412,6 @@
   },
   {
     "chain": "polygon",
-    "address": "0x21300142041dbcba4045e75451dbac558195b8c1",
-    "cluster_id": "c-1b2ff207",
-    "family": "unknown",
-    "hunt_ids": [
-      "block-watch"
-    ],
-    "operator_wallets": [
-      "0x1b2ff207841c881febe3ed1c77e82f2ce52bd255"
-    ],
-    "selectors": [],
-    "decoder": "plain",
-    "update_count": 1,
-    "first_seen": "2026-10-19T21:58:04Z",
-    "last_seen": "2026-10-19T21:58:04Z",
-    "status": "active",
-    "code_hash": "047a8e30e9d350b2",
-    "discovered_at": "2026-10-19T21:57:42Z",
-    "new": true,
-    "evidence": "decoded",
-    "latest_value_raw": "Steve Garrison",
-    "latest_value_decoded": "Steve Garrison",
-    "tags": [
-      "config-on-chain"
-    ]
-  },
-  {
-    "chain": "polygon",
     "address": "0x24d83e15fbc61085f422708cf42cbd9b323e5365",
     "cluster_id": "c-24d512cc",
     "family": "unknown",
@@ -530,35 +503,6 @@
     "tags": [
       "xmrig",
       "cryptominer",
-      "config-on-chain"
-    ]
-  },
-  {
-    "chain": "polygon",
-    "address": "0x3987483c634c836bd2f663d40f1f51b7605611ee",
-    "cluster_id": "c-983ad81e",
-    "family": "unknown",
-    "hunt_ids": [
-      "block-watch"
-    ],
-    "operator_wallets": [
-      "0x983ad81e084234abafdb667400e39119c3312595"
-    ],
-    "selectors": [
-      "0x0fd6ff49"
-    ],
-    "decoder": "plain",
-    "update_count": 1,
-    "first_seen": "2026-10-19T21:50:09Z",
-    "last_seen": "2026-10-19T21:50:09Z",
-    "status": "active",
-    "code_hash": null,
-    "discovered_at": "2026-10-19T21:57:42Z",
-    "new": true,
-    "evidence": "decoded",
-    "latest_value_raw": "{\"nodeId\":\"9ac1e4fb2e6ba3084425ece622eba104c0ee071c\",\"type\":\"nodejs\",\"websocket\":{\"host\":\"4333e789-3762-4055-9498-9df443e0db6f.streamr-nodes.xyz\",\"port\":32200,\"tls\":true},\"region\":400}",
-    "latest_value_decoded": "{\"nodeId\":\"9ac1e4fb2e6ba3084425ece622eba104c0ee071c\",\"type\":\"nodejs\",\"websocket\":{\"host\":\"4333e789-3762-4055-9498-9df443e0db6f.streamr-nodes.xyz\",\"port\":32200,\"tls\":true},\"region\":400}",
-    "tags": [
       "config-on-chain"
     ]
   },
@@ -991,93 +935,6 @@
     "evidence": "decoded",
     "latest_value_raw": null,
     "latest_value_decoded": null,
-    "tags": [
-      "config-on-chain"
-    ]
-  },
-  {
-    "chain": "polygon",
-    "address": "0xc40db52deb3c9ca993d2492b0f7e9147fed40a7e",
-    "cluster_id": "c-3cc323e3",
-    "family": "unknown",
-    "hunt_ids": [
-      "block-watch"
-    ],
-    "operator_wallets": [
-      "0x3cc323e31677162be0c3011ea25542242b492f29"
-    ],
-    "selectors": [
-      "0x0fd6ff49"
-    ],
-    "decoder": "plain",
-    "update_count": 1,
-    "first_seen": "2026-10-19T21:51:27Z",
-    "last_seen": "2026-10-19T21:51:27Z",
-    "status": "active",
-    "code_hash": null,
-    "discovered_at": "2026-10-19T21:57:42Z",
-    "new": true,
-    "evidence": "decoded",
-    "latest_value_raw": "{\"nodeId\":\"7141abd779ea507beef53a6881a1b24a0270aa1b\",\"type\":\"nodejs\",\"websocket\":{\"host\":\"29908d69-4786-4a9c-8bb4-557aad70e7ed.streamr-nodes.xyz\",\"port\":32200,\"tls\":true},\"region\":8500}",
-    "latest_value_decoded": "{\"nodeId\":\"7141abd779ea507beef53a6881a1b24a0270aa1b\",\"type\":\"nodejs\",\"websocket\":{\"host\":\"29908d69-4786-4a9c-8bb4-557aad70e7ed.streamr-nodes.xyz\",\"port\":32200,\"tls\":true},\"region\":8500}",
-    "tags": [
-      "config-on-chain"
-    ]
-  },
-  {
-    "chain": "polygon",
-    "address": "0xd6011cd6194af1bd877dec0b9d9614273ebad5a3",
-    "cluster_id": "c-ea806abd",
-    "family": "unknown",
-    "hunt_ids": [
-      "block-watch"
-    ],
-    "operator_wallets": [
-      "0xea806abd32248926743db722b2cf2ef9bc7dd634"
-    ],
-    "selectors": [
-      "0x0fd6ff49"
-    ],
-    "decoder": "plain",
-    "update_count": 1,
-    "first_seen": "2026-10-19T21:58:28Z",
-    "last_seen": "2026-10-19T21:58:28Z",
-    "status": "active",
-    "code_hash": null,
-    "discovered_at": "2026-10-19T22:05:20Z",
-    "new": true,
-    "evidence": "decoded",
-    "latest_value_raw": "{\"nodeId\":\"896005ead51acfcfb8151a9e9d0953b3a92a381c\",\"type\":\"nodejs\",\"websocket\":{\"host\":\"9586bc38-0a0a-4d0d-a10a-674ee43b5060.streamr-nodes.xyz\",\"port\":32202,\"tls\":true},\"region\":8500}",
-    "latest_value_decoded": "{\"nodeId\":\"896005ead51acfcfb8151a9e9d0953b3a92a381c\",\"type\":\"nodejs\",\"websocket\":{\"host\":\"9586bc38-0a0a-4d0d-a10a-674ee43b5060.streamr-nodes.xyz\",\"port\":32202,\"tls\":true},\"region\":8500}",
-    "tags": [
-      "config-on-chain"
-    ]
-  },
-  {
-    "chain": "polygon",
-    "address": "0xda116a26d227e694335fee131e212da50f069f1e",
-    "cluster_id": "c-42b3cc05",
-    "family": "unknown",
-    "hunt_ids": [
-      "block-watch"
-    ],
-    "operator_wallets": [
-      "0x42b3cc05c2201d5e5988189fe1b7ff980b557592"
-    ],
-    "selectors": [
-      "0x0fd6ff49"
-    ],
-    "decoder": "plain",
-    "update_count": 1,
-    "first_seen": "2026-10-19T22:02:30Z",
-    "last_seen": "2026-10-19T22:02:30Z",
-    "status": "active",
-    "code_hash": null,
-    "discovered_at": "2026-10-19T22:05:20Z",
-    "new": true,
-    "evidence": "decoded",
-    "latest_value_raw": "{\"nodeId\":\"3fa5706b9eafa6fd8c675359ba9e543ab33a071b\",\"type\":\"nodejs\",\"websocket\":{\"host\":\"9a82d5f2-c802-495b-8149-676f02ff37bf.streamr-nodes.xyz\",\"port\":32200,\"tls\":true},\"region\":6500}",
-    "latest_value_decoded": "{\"nodeId\":\"3fa5706b9eafa6fd8c675359ba9e543ab33a071b\",\"type\":\"nodejs\",\"websocket\":{\"host\":\"9a82d5f2-c802-495b-8149-676f02ff37bf.streamr-nodes.xyz\",\"port\":32200,\"tls\":true},\"region\":6500}",
     "tags": [
       "config-on-chain"
     ]

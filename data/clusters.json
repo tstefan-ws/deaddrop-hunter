@@ -46,25 +46,6 @@
     "new": false
   },
   {
-    "id": "c-1b2ff207",
-    "name": "Unclassified dead-drop cluster (c-1b2ff207)",
-    "family": "unknown",
-    "chains": [
-      "polygon"
-    ],
-    "contracts": [
-      "0x21300142041dbcba4045e75451dbac558195b8c1"
-    ],
-    "wallets": [
-      "0x1b2ff207841c881febe3ed1c77e82f2ce52bd255"
-    ],
-    "ioc_count": 2,
-    "first_seen": "2026-10-19T21:58:04Z",
-    "last_seen": "2026-10-19T21:58:04Z",
-    "discovered_at": "2026-10-19T21:57:42Z",
-    "new": true
-  },
-  {
     "id": "c-24d512cc",
     "name": "Stealth XMRig config cluster (c-24d512cc)",
     "family": "xmrig-stealth",
@@ -137,25 +118,6 @@
     "new": true
   },
   {
-    "id": "c-3cc323e3",
-    "name": "Unclassified dead-drop cluster (c-3cc323e3)",
-    "family": "unknown",
-    "chains": [
-      "polygon"
-    ],
-    "contracts": [
-      "0xc40db52deb3c9ca993d2492b0f7e9147fed40a7e"
-    ],
-    "wallets": [
-      "0x3cc323e31677162be0c3011ea25542242b492f29"
-    ],
-    "ioc_count": 3,
-    "first_seen": "2026-10-19T21:51:27Z",
-    "last_seen": "2026-10-19T21:51:27Z",
-    "discovered_at": "2026-10-19T21:57:42Z",
-    "new": true
-  },
-  {
     "id": "c-3d2075f9",
     "name": "Unclassified dead-drop cluster (c-3d2075f9)",
     "family": "unknown",
@@ -192,25 +154,6 @@
     "last_seen": "2026-06-25T06:41:38Z",
     "discovered_at": "2025-06-13T05:54:24Z",
     "new": false
-  },
-  {
-    "id": "c-42b3cc05",
-    "name": "Unclassified dead-drop cluster (c-42b3cc05)",
-    "family": "unknown",
-    "chains": [
-      "polygon"
-    ],
-    "contracts": [
-      "0xda116a26d227e694335fee131e212da50f069f1e"
-    ],
-    "wallets": [
-      "0x42b3cc05c2201d5e5988189fe1b7ff980b557592"
-    ],
-    "ioc_count": 3,
-    "first_seen": "2026-10-19T22:02:30Z",
-    "last_seen": "2026-10-19T22:02:30Z",
-    "discovered_at": "2026-10-19T22:05:20Z",
-    "new": true
   },
   {
     "id": "c-504efa63",
@@ -267,25 +210,6 @@
     "first_seen": "2026-10-19T20:26:32Z",
     "last_seen": "2026-10-19T20:26:32Z",
     "discovered_at": "2026-10-19T20:38:48Z",
-    "new": true
-  },
-  {
-    "id": "c-983ad81e",
-    "name": "Unclassified dead-drop cluster (c-983ad81e)",
-    "family": "unknown",
-    "chains": [
-      "polygon"
-    ],
-    "contracts": [
-      "0x3987483c634c836bd2f663d40f1f51b7605611ee"
-    ],
-    "wallets": [
-      "0x983ad81e084234abafdb667400e39119c3312595"
-    ],
-    "ioc_count": 3,
-    "first_seen": "2026-10-19T21:50:09Z",
-    "last_seen": "2026-10-19T21:50:09Z",
-    "discovered_at": "2026-10-19T21:57:42Z",
     "new": true
   },
   {
@@ -403,25 +327,6 @@
     "last_seen": "2026-10-19T21:12:56Z",
     "discovered_at": "2025-11-15T21:29:25Z",
     "new": false
-  },
-  {
-    "id": "c-ea806abd",
-    "name": "Unclassified dead-drop cluster (c-ea806abd)",
-    "family": "unknown",
-    "chains": [
-      "polygon"
-    ],
-    "contracts": [
-      "0xd6011cd6194af1bd877dec0b9d9614273ebad5a3"
-    ],
-    "wallets": [
-      "0xea806abd32248926743db722b2cf2ef9bc7dd634"
-    ],
-    "ioc_count": 3,
-    "first_seen": "2026-10-19T21:58:28Z",
-    "last_seen": "2026-10-19T21:58:28Z",
-    "discovered_at": "2026-10-19T22:05:20Z",
-    "new": true
   },
   {
     "id": "c-ec89d32c",

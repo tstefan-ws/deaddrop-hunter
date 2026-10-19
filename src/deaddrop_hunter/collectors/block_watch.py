@@ -41,7 +41,14 @@ from ..bytecode import (
 )
 from ..classify import extract_iocs, is_dual_use, parse_json
 from ..config import Chain
-from ..decoders import AbiError, abi_decode, decode_input_strings, is_printable, raw_text
+from ..decoders import (
+    AbiError,
+    abi_decode,
+    decode_input_strings,
+    decode_value,
+    is_printable,
+    raw_text,
+)
 from ..rpc import RpcError
 from ..store import iso, make_event
 from . import HuntContext
@@ -98,6 +105,25 @@ def _read_value(ctx: HuntContext, chain: Chain, address: str, sel: str) -> bytes
     if not value or not (MIN_VALUE_LEN <= len(value) <= MAX_VALUE_LEN):
         return None
     return value
+
+
+def _worth_keeping(value: bytes, shape) -> bool:
+    """Whether a value read from a brand-new contract is worth recording.
+
+    Plenty of small owned contracts hold a name, a label, a note. Readable text with nothing
+    a defender could act on is not a lead, unless the contract is built from a template we
+    have already confirmed. Anything that will not decode to text stays: an opaque payload is
+    exactly what an encrypted dead drop looks like.
+    """
+    if shape.known_family:
+        return True
+    text, _decoder = decode_value(value)
+    if not text or not is_printable(text):
+        return True                      # binary or encoded: keep, it may be a payload
+    if len(text) > MAX_PROSE_LEN and parse_json(text) is None:
+        return False
+    return any(i.type in NETWORK_IOCS and not is_dual_use(i.type, i.value)
+               for i in extract_iocs(text))
 
 
 def _code_text(code: str) -> bytes | None:
@@ -204,6 +230,8 @@ def inspect_creation(ctx: HuntContext, chain: Chain, *, block: int, ts: str | No
         value = _read_value(ctx, chain, address, sel)
         if value is None:
             continue
+        if not _worth_keeping(value, shape):
+            return None
         log.info("%s: %s answered %s with %d bytes", chain.key, address, sel, len(value))
         ev = make_event(chain=chain.key, block=block, timestamp=ts, tx_hash=tx_hash,
                         contract=address, sender=deployer, selector=sel, hunt_id=HUNT_ID,
@@ -212,6 +240,8 @@ def inspect_creation(ctx: HuntContext, chain: Chain, *, block: int, ts: str | No
         return ev
     # No reader answered. Two places left where the value can still be sitting in the open.
     value = read_storage_text(ctx, chain, address) or _code_text(code)
+    if value is not None and not _worth_keeping(value, shape):
+        return None
     if value is not None:
         log.info("%s: %s gave up %d bytes without a reader", chain.key, address, len(value))
         ev = make_event(chain=chain.key, block=block, timestamp=ts, tx_hash=tx_hash,
