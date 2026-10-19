@@ -4244,6 +4244,26 @@
   },
   {
     "type": "domain",
+    "value": "staining-shush-concept.ngrok-free.dev",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x6f57fc0f9b24599894b046471e3291dd8c1a61c9"
+    ],
+    "first_seen": "2026-10-19T20:32:54Z",
+    "last_seen": "2026-10-19T20:32:54Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-19T20:38:48Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "superboomer.world",
     "port": null,
     "family": "c2-url",
@@ -4910,6 +4930,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x4cf741b6b8327a5af21f746811a26e0dea9f589f",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-d52573f6",
+    "chain": "polygon",
+    "contracts": [
+      "0x4cf741b6b8327a5af21f746811a26e0dea9f589f"
+    ],
+    "first_seen": "2026-10-19T20:25:53Z",
+    "last_seen": "2026-10-19T20:25:53Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-19T20:38:48Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x51d85b90e76c83cb2207e4ad2b8f69a02bd58309",
     "port": null,
     "family": "c2-url",
@@ -4945,6 +4985,46 @@
     "discovered_at": "2026-03-11T18:54:01Z",
     "new": false,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x63b758a262924e4f446ee9552daa558ccff60509",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-85b34173",
+    "chain": "polygon",
+    "contracts": [
+      "0x63b758a262924e4f446ee9552daa558ccff60509"
+    ],
+    "first_seen": "2026-10-19T20:26:32Z",
+    "last_seen": "2026-10-19T20:26:32Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-19T20:38:48Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x6f57fc0f9b24599894b046471e3291dd8c1a61c9",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x6f57fc0f9b24599894b046471e3291dd8c1a61c9"
+    ],
+    "first_seen": "2026-10-19T20:32:54Z",
+    "last_seen": "2026-10-19T20:32:54Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-19T20:38:48Z",
+    "new": true,
+    "confidence": 90,
     "dual_use": false,
     "enrichment": {}
   },
@@ -5205,6 +5285,46 @@
   },
   {
     "type": "evm-wallet",
+    "value": "0x504efa6320d3c8f66840b65fbf05a930e258292d",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x6f57fc0f9b24599894b046471e3291dd8c1a61c9"
+    ],
+    "first_seen": "2026-10-19T20:32:54Z",
+    "last_seen": "2026-10-19T20:32:54Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-19T20:38:48Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0x85b341739e57ef21631976138c4416baa54bb0aa",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-85b34173",
+    "chain": "polygon",
+    "contracts": [
+      "0x63b758a262924e4f446ee9552daa558ccff60509"
+    ],
+    "first_seen": "2026-10-19T20:26:32Z",
+    "last_seen": "2026-10-19T20:26:32Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-19T20:38:48Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
     "value": "0x9bae539ae82e0dd1743d134a0f6d546bed721245",
     "port": null,
     "family": "c2-url",
@@ -5220,6 +5340,26 @@
     "discovered_at": "2026-10-19T20:00:00Z",
     "new": true,
     "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0xd52573f6d4f68d8e7f8fe2ed50a1023c5f6fe82a",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-d52573f6",
+    "chain": "polygon",
+    "contracts": [
+      "0x4cf741b6b8327a5af21f746811a26e0dea9f589f"
+    ],
+    "first_seen": "2026-10-19T20:25:53Z",
+    "last_seen": "2026-10-19T20:25:53Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-19T20:38:48Z",
+    "new": true,
+    "confidence": 55,
     "dual_use": false,
     "enrichment": {}
   },
@@ -10663,6 +10803,26 @@
     "times_seen": 2,
     "current": true,
     "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://staining-shush-concept.ngrok-free.dev/",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x6f57fc0f9b24599894b046471e3291dd8c1a61c9"
+    ],
+    "first_seen": "2026-10-19T20:32:54Z",
+    "last_seen": "2026-10-19T20:32:54Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-19T20:38:48Z",
     "new": true,
     "confidence": 85,
     "dual_use": false,

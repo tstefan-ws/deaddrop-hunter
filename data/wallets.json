@@ -183,6 +183,21 @@
   },
   {
     "chain": "polygon",
+    "address": "0x504efa6320d3c8f66840b65fbf05a930e258292d",
+    "role": "operator",
+    "label": "Operator (auto-detected)",
+    "cluster_id": "c-504efa63",
+    "contracts": [
+      "0x6f57fc0f9b24599894b046471e3291dd8c1a61c9"
+    ],
+    "tx_count": 1,
+    "first_seen": "2026-10-19T20:32:54Z",
+    "last_seen": "2026-10-19T20:32:54Z",
+    "watched": false,
+    "funded_by": []
+  },
+  {
+    "chain": "polygon",
     "address": "0x6fcaca5958193e48da350f568c28f034a9632454",
     "role": "operator",
     "label": "Funder of the URL-resolver operator",
@@ -192,6 +207,21 @@
     "first_seen": null,
     "last_seen": null,
     "watched": true,
+    "funded_by": []
+  },
+  {
+    "chain": "polygon",
+    "address": "0x85b341739e57ef21631976138c4416baa54bb0aa",
+    "role": "deployer",
+    "label": "Deployer (auto-detected)",
+    "cluster_id": "c-85b34173",
+    "contracts": [
+      "0x63b758a262924e4f446ee9552daa558ccff60509"
+    ],
+    "tx_count": 1,
+    "first_seen": "2026-10-19T20:26:32Z",
+    "last_seen": "2026-10-19T20:26:32Z",
+    "watched": false,
     "funded_by": []
   },
   {
@@ -206,6 +236,21 @@
     "tx_count": 1,
     "first_seen": "2026-08-16T13:16:12Z",
     "last_seen": "2026-08-16T13:16:12Z",
+    "watched": false,
+    "funded_by": []
+  },
+  {
+    "chain": "polygon",
+    "address": "0xd52573f6d4f68d8e7f8fe2ed50a1023c5f6fe82a",
+    "role": "deployer",
+    "label": "Deployer (auto-detected)",
+    "cluster_id": "c-d52573f6",
+    "contracts": [
+      "0x4cf741b6b8327a5af21f746811a26e0dea9f589f"
+    ],
+    "tx_count": 1,
+    "first_seen": "2026-10-19T20:25:53Z",
+    "last_seen": "2026-10-19T20:25:53Z",
     "watched": false,
     "funded_by": []
   },

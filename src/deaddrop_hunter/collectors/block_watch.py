@@ -29,7 +29,7 @@ import logging
 from concurrent.futures import ThreadPoolExecutor
 
 from ..bytecode import SETTERS, created_address, probe_selectors, shape_of
-from ..classify import extract_iocs, is_dual_use
+from ..classify import extract_iocs, is_dual_use, parse_json
 from ..config import Chain
 from ..decoders import AbiError, abi_decode, decode_input_strings, is_printable, raw_text
 from ..rpc import RpcError
@@ -55,6 +55,11 @@ MAX_CALL_LEN = 10 + 2 * MAX_VALUE_LEN
 # almost any calldata decodes to something containing one, which is how a multicall and two
 # ordinary setters ended up in the data on the first live run.
 NETWORK_IOCS = ("url", "domain", "ipv4", "ipv6")
+# A dead drop stores a pointer or a config, not prose. Confirmed values run to a median of 25
+# characters, and the long ones are JSON mining configs. Free text with a link buried in it is
+# something else: the first live run at the head caught a prediction market writing an 810
+# character question. Long values are still accepted when they parse as JSON.
+MAX_PROSE_LEN = 256
 
 
 def _read_value(ctx: HuntContext, chain: Chain, address: str, sel: str) -> bytes | None:
@@ -170,6 +175,8 @@ def call_event(chain: Chain, t: dict, *, block: int, ts: str | None,
         text = raw_text(value)
         if not text or not is_printable(text):
             return None                  # arbitrary calldata that happens to decode
+        if len(text) > MAX_PROSE_LEN and parse_json(text) is None:
+            return None                  # prose that happens to mention a link
         useful = [i for i in extract_iocs(text)
                   if i.type in NETWORK_IOCS and not is_dual_use(i.type, i.value)]
         if not useful:

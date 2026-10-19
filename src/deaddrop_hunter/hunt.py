@@ -152,12 +152,20 @@ def run_hunt(
         start = max(0, head - int(lookback * 86400 / chain.block_time_s))
         cursor = cursors.get((chain_key, hunt_id))
         ranges = plan_ranges(cursor, head, start, explicit_days=days is not None)
-        if hunt is not None and hunt.kind == "block" and hunt.max_blocks and ranges:
-            # Reading every block is the expensive part, so take a contiguous bite from the
-            # oldest unscanned block forward. The cursor then never covers a block we skipped;
-            # if the watcher falls behind, to_block visibly lags the head until it catches up.
-            lo, hi = ranges[0]
-            ranges = [(lo, min(hi, lo + hunt.max_blocks - 1))]
+        if hunt is not None and hunt.kind == "block" and hunt.max_blocks:
+            # A watcher watches the present. Reading every block is the expensive part, so each
+            # run takes the newest max_blocks window: it continues from the cursor when that is
+            # still inside the window, and otherwise starts at the head rather than crawling
+            # from the lookback start, which would leave it months behind forever. Blocks
+            # between a late run and the one before it are reported, not silently claimed.
+            lo = max(0, head - hunt.max_blocks + 1)
+            if cursor and cursor["to_block"] + 1 <= lo:
+                missed = lo - cursor["to_block"] - 1
+                log.warning("%s: %d blocks passed unread since the last run", label, missed)
+                report.skipped.append(f"{label} (gap of {missed} blocks)")
+            elif cursor:
+                lo = cursor["to_block"] + 1
+            ranges = [(lo, head)] if lo <= head else []
         if not ranges:
             report.ran.append(f"{label} (up to date)")
             continue
@@ -188,9 +196,13 @@ def run_hunt(
         new_events += got
         lo_all = min(r[0] for r in ranges)
         hi_all = max(r[1] for r in ranges)
-        if cursor:
+        if cursor and not (hunt is not None and hunt.kind == "block"):
             lo_all = min(lo_all, cursor["from_block"])
             hi_all = max(hi_all, cursor["to_block"])
+        elif cursor:
+            # A block hunt's cursor is the window it last read, not a claim over everything
+            # since the beginning: merging would pretend the skipped months were scanned.
+            lo_all = min(lo_all, cursor["to_block"] + 1) if cursor["to_block"] + 1 <= lo_all else lo_all
         cursors[(chain_key, hunt_id)] = {
             "chain": chain_key, "hunt_id": hunt_id, "from_block": lo_all, "to_block": hi_all,
             "updated_at": now,

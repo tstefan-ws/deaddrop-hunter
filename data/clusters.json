@@ -137,6 +137,44 @@
     "new": false
   },
   {
+    "id": "c-504efa63",
+    "name": "C2 URL rotation cluster (c-504efa63)",
+    "family": "c2-url",
+    "chains": [
+      "polygon"
+    ],
+    "contracts": [
+      "0x6f57fc0f9b24599894b046471e3291dd8c1a61c9"
+    ],
+    "wallets": [
+      "0x504efa6320d3c8f66840b65fbf05a930e258292d"
+    ],
+    "ioc_count": 4,
+    "first_seen": "2026-10-19T20:32:54Z",
+    "last_seen": "2026-10-19T20:32:54Z",
+    "discovered_at": "2026-10-19T20:38:48Z",
+    "new": true
+  },
+  {
+    "id": "c-85b34173",
+    "name": "Unclassified dead-drop cluster (c-85b34173)",
+    "family": "unknown",
+    "chains": [
+      "polygon"
+    ],
+    "contracts": [
+      "0x63b758a262924e4f446ee9552daa558ccff60509"
+    ],
+    "wallets": [
+      "0x85b341739e57ef21631976138c4416baa54bb0aa"
+    ],
+    "ioc_count": 2,
+    "first_seen": "2026-10-19T20:26:32Z",
+    "last_seen": "2026-10-19T20:26:32Z",
+    "discovered_at": "2026-10-19T20:38:48Z",
+    "new": true
+  },
+  {
     "id": "c-9bae539a",
     "name": "C2 URL rotation cluster (c-9bae539a)",
     "family": "c2-url",
@@ -192,6 +230,25 @@
     "last_seen": "2026-06-23T02:35:39Z",
     "discovered_at": "2025-06-13T05:12:56Z",
     "new": false
+  },
+  {
+    "id": "c-d52573f6",
+    "name": "Unclassified dead-drop cluster (c-d52573f6)",
+    "family": "unknown",
+    "chains": [
+      "polygon"
+    ],
+    "contracts": [
+      "0x4cf741b6b8327a5af21f746811a26e0dea9f589f"
+    ],
+    "wallets": [
+      "0xd52573f6d4f68d8e7f8fe2ed50a1023c5f6fe82a"
+    ],
+    "ioc_count": 2,
+    "first_seen": "2026-10-19T20:25:53Z",
+    "last_seen": "2026-10-19T20:25:53Z",
+    "discovered_at": "2026-10-19T20:38:48Z",
+    "new": true
   },
   {
     "id": "c-de275ad3",

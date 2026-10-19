@@ -403,6 +403,32 @@
   },
   {
     "chain": "polygon",
+    "address": "0x4cf741b6b8327a5af21f746811a26e0dea9f589f",
+    "cluster_id": "c-d52573f6",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xd52573f6d4f68d8e7f8fe2ed50a1023c5f6fe82a"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-10-19T20:25:53Z",
+    "last_seen": "2026-10-19T20:25:53Z",
+    "status": "active",
+    "discovered_at": "2026-10-19T20:38:48Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": null,
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x51d85b90e76c83cb2207e4ad2b8f69a02bd58309",
     "cluster_id": "c-9bae539a",
     "family": "c2-url",
@@ -454,6 +480,62 @@
     "latest_value_raw": null,
     "latest_value_decoded": null,
     "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x63b758a262924e4f446ee9552daa558ccff60509",
+    "cluster_id": "c-85b34173",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x85b341739e57ef21631976138c4416baa54bb0aa"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-10-19T20:26:32Z",
+    "last_seen": "2026-10-19T20:26:32Z",
+    "status": "active",
+    "discovered_at": "2026-10-19T20:38:48Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": null,
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x6f57fc0f9b24599894b046471e3291dd8c1a61c9",
+    "cluster_id": "c-504efa63",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x504efa6320d3c8f66840b65fbf05a930e258292d"
+    ],
+    "selectors": [
+      "0x55f804b3"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-19T20:32:54Z",
+    "last_seen": "2026-10-19T20:32:54Z",
+    "status": "active",
+    "discovered_at": "2026-10-19T20:38:48Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://staining-shush-concept.ngrok-free.dev/",
+    "latest_value_decoded": "https://staining-shush-concept.ngrok-free.dev/",
+    "tags": [
+      "c2",
+      "url-rotation",
       "config-on-chain"
     ]
   },

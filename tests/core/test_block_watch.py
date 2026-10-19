@@ -229,3 +229,21 @@ def test_a_bare_storage_gateway_link_is_not_a_finding():
     assert block_watch.call_event(
         chain, _tx("a2119377", "https://ipfs.filebase.io/ipfs/QmWXU35vsTmzxyrT3nbe7T3nAoYQ"),
         block=7, ts=None) is None
+
+
+def test_prose_with_a_link_in_it_is_not_a_finding():
+    """A prediction market wrote an 810-character question containing a link. Dead drops
+    store pointers and configs: median confirmed value is 25 characters."""
+    chain = _ctx(FakeChain("0x", None))[1]
+    prose = ("q: title: Bitcoin Up or Down - October 20 description: This market will resolve "
+             "according to https://example-oracle.test/feed and other sources. " + "detail. " * 40)
+    assert len(prose) > 256
+    assert block_watch.call_event(chain, _tx("f4fa9d4a", prose), block=7, ts=None) is None
+
+
+def test_a_long_json_config_is_still_a_finding():
+    """The mining family stores JSON that runs to thousands of characters."""
+    chain = _ctx(FakeChain("0x", None))[1]
+    cfg = '{"algo":"rx/0","pool":"45.141.233.19:3333","pass":"x","note":"' + "y" * 300 + '"}'
+    ev = block_watch.call_event(chain, _tx("deadbeef", cfg), block=7, ts=None)
+    assert ev is not None and "45.141.233.19" in ev["new_decoded"]
