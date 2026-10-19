@@ -69,3 +69,16 @@ def test_md5_is_not_btc():
 def test_unknown_family():
     assert classify("just some text").family == "unknown"
     assert classify(None).family == "unknown"
+
+
+def test_dual_use_pools_are_flagged_but_not_benign():
+    """Public pools are real config values, so they stay IOCs; they are only marked dual-use."""
+    from deaddrop_hunter.classify import is_benign_domain, is_dual_use
+
+    assert is_dual_use("domain", "pool.hashvault.pro")
+    assert is_dual_use("domain", "de.monero.herominers.com")
+    assert is_dual_use("url", "stratum+tcp://xmr-eu1.nanopool.org:10343/x")
+    assert not is_dual_use("domain", "xororand.ru")
+    assert not is_dual_use("ipv4", "78.40.198.61")
+    # dual-use is not the same as benign: these are still reported as indicators
+    assert not is_benign_domain("pool.hashvault.pro")

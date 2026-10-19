@@ -177,6 +177,35 @@ def valid_domain(d: str) -> bool:
     return not is_benign_domain(d)
 
 
+# Public mining pools and other shared services that really do appear in these configs. They say
+# something true about the campaign, but thousands of legitimate miners use them too: reported
+# with ``dual_use`` set so consumers can keep them out of automated blocking.
+DUAL_USE_DOMAINS = (
+    "nanopool.org", "hashvault.pro", "herominers.com", "supportxmr.com", "moneroocean.stream",
+    "minexmr.com", "2miners.com", "c3pool.com", "xmrpool.eu", "unmineable.com", "f2pool.com",
+    "poolin.com", "zergpool.com", "gntl.co.uk", "monero.hashvault.pro", "skypool.org",
+)
+
+
+def url_host(value: str) -> str:
+    """Host of a URL-ish string, without scheme, credentials, port or path."""
+    s = value.split("://", 1)[-1]
+    s = s.split("/", 1)[0].split("?", 1)[0]
+    s = s.rsplit("@", 1)[-1]
+    if s.startswith("["):                       # [ipv6]:port
+        return s[1:].split("]", 1)[0].lower()
+    return s.split(":", 1)[0].strip(".").lower()
+
+
+def is_dual_use(ioc_type: str, value: str) -> bool:
+    """True for indicators that are real but shared with legitimate users (public pools)."""
+    if ioc_type not in ("domain", "url"):
+        return False
+    host = value.lower() if ioc_type == "domain" else url_host(value)
+    host = host.split(":", 1)[0].strip(".")
+    return any(host == d or host.endswith("." + d) for d in DUAL_USE_DOMAINS)
+
+
 def is_benign_domain(d: str) -> bool:
     d = d.lower().rstrip(".")
     return any(d == b or d.endswith("." + b) for b in BENIGN_DOMAINS)

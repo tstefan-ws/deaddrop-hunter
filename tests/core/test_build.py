@@ -114,3 +114,33 @@ def test_nonevm_addresses_not_lowercased_or_evm_typed():
     assert out["contracts"][0]["address"] == tron
     assert out["contracts"][0]["cluster_id"] == "c-toperato"
     assert not any(i["type"].startswith("evm-") for i in out["iocs"])
+
+
+def test_candidate_contract_scores_below_a_decoded_one():
+    """A contract a watched operator merely called, with nothing ever decoded from it, is a
+    candidate: reported, but never at the confidence of a decoded dead drop."""
+    from deaddrop_hunter.build import CANDIDATE_CONF, build
+    from deaddrop_hunter.config import parse_config
+
+    cfg = parse_config({"chains": {"polygon": {"chain_id": 137, "rpcs": []}}})
+    op = "0x19532c0fbaf0fb8c1d0f3fac0b704bf2f4645539"
+    decoded_c = "0x2fbd66fe245052d265ca0eda7d01d35b2d8b9feb"
+    candidate_c = "0xa9c28c5b780c2bc1dd49ddb3ffbdc580a5e6f6e6"
+    ev = [
+        {"chain": "polygon", "block": 95621219, "timestamp": "2026-10-16T07:52:45Z",
+         "tx_hash": "0x" + "11" * 32, "contract": decoded_c, "from": op, "selector": "0x68446ead",
+         "hunt_id": "dataupdated-string-string", "old_raw": None, "new_raw": "0x00",
+         "old_decoded": None, "new_decoded": "http://185.10.68.110", "decoder": "plain"},
+        {"chain": "polygon", "block": 95621300, "timestamp": "2026-10-16T08:00:00Z",
+         "tx_hash": "0x" + "22" * 32, "contract": candidate_c, "from": op, "selector": "0xabcdef01",
+         "hunt_id": "watch-wallet", "old_raw": None, "new_raw": None,
+         "old_decoded": None, "new_decoded": None, "decoder": "undecoded"},
+    ]
+    out = build(ev, cfg, [], now="2026-10-19T12:00:00Z")
+    by_addr = {c["address"]: c for c in out["contracts"]}
+    assert by_addr[decoded_c]["evidence"] == "decoded"
+    assert by_addr[candidate_c]["evidence"] == "candidate"
+
+    conf = {(i["type"], i["value"]): i["confidence"] for i in out["iocs"]}
+    assert conf[("evm-contract", decoded_c)] == 90
+    assert conf[("evm-contract", candidate_c)] == CANDIDATE_CONF

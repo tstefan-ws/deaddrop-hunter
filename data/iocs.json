@@ -15,6 +15,7 @@
     "times_seen": 34,
     "current": false,
     "confidence": 50,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -33,6 +34,7 @@
     "times_seen": 2,
     "current": true,
     "confidence": 85,
+    "dual_use": true,
     "enrichment": {}
   },
   {
@@ -50,6 +52,7 @@
     "times_seen": 17,
     "current": true,
     "confidence": 85,
+    "dual_use": true,
     "enrichment": {}
   },
   {
@@ -67,6 +70,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": true,
     "enrichment": {}
   },
   {
@@ -85,6 +89,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 50,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -105,6 +110,7 @@
     "times_seen": 13,
     "current": false,
     "confidence": 85,
+    "dual_use": true,
     "enrichment": {}
   },
   {
@@ -122,6 +128,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -142,6 +149,7 @@
     "times_seen": 6,
     "current": true,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -158,7 +166,8 @@
     "last_seen": "2026-05-27T10:52:46Z",
     "times_seen": 1,
     "current": false,
-    "confidence": 90,
+    "confidence": 55,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -176,6 +185,7 @@
     "times_seen": 24,
     "current": false,
     "confidence": 90,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -193,6 +203,7 @@
     "times_seen": 29,
     "current": true,
     "confidence": 90,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -210,6 +221,7 @@
     "times_seen": 24,
     "current": true,
     "confidence": 90,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -226,7 +238,8 @@
     "last_seen": "2026-06-18T09:50:25Z",
     "times_seen": 1,
     "current": false,
-    "confidence": 90,
+    "confidence": 55,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -244,6 +257,7 @@
     "times_seen": 42,
     "current": true,
     "confidence": 90,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -261,6 +275,7 @@
     "times_seen": 84,
     "current": true,
     "confidence": 90,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -278,6 +293,7 @@
     "times_seen": 3,
     "current": false,
     "confidence": 90,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -294,7 +310,8 @@
     "last_seen": "2026-06-28T09:02:17Z",
     "times_seen": 2,
     "current": false,
-    "confidence": 90,
+    "confidence": 55,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -312,6 +329,7 @@
     "times_seen": 29,
     "current": true,
     "confidence": 90,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -329,6 +347,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 90,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -345,7 +364,8 @@
     "last_seen": "2026-08-30T14:49:24Z",
     "times_seen": 11,
     "current": false,
-    "confidence": 90,
+    "confidence": 55,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -363,6 +383,7 @@
     "times_seen": 4,
     "current": false,
     "confidence": 90,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -379,7 +400,8 @@
     "last_seen": "2025-11-15T21:38:01Z",
     "times_seen": 2,
     "current": false,
-    "confidence": 90,
+    "confidence": 55,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -397,6 +419,7 @@
     "times_seen": 3,
     "current": false,
     "confidence": 90,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -414,6 +437,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 90,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -439,6 +463,7 @@
     "times_seen": 197,
     "current": true,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -460,6 +485,7 @@
     "times_seen": 40,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -478,6 +504,7 @@
     "times_seen": 26,
     "current": true,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -495,6 +522,7 @@
     "times_seen": 6,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -512,6 +540,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -530,6 +559,7 @@
     "times_seen": 9,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -547,6 +577,7 @@
     "times_seen": 3,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -567,6 +598,7 @@
     "times_seen": 15,
     "current": true,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -586,6 +618,7 @@
     "times_seen": 19,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -603,6 +636,7 @@
     "times_seen": 2,
     "current": true,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -620,6 +654,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -637,6 +672,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -654,6 +690,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -671,6 +708,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -690,6 +728,7 @@
     "times_seen": 4,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -707,6 +746,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -724,6 +764,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -741,6 +782,7 @@
     "times_seen": 4,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -758,6 +800,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -775,6 +818,7 @@
     "times_seen": 4,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -792,6 +836,7 @@
     "times_seen": 3,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -809,6 +854,7 @@
     "times_seen": 3,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -826,6 +872,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 60,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -843,6 +890,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -860,6 +908,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 60,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -877,6 +926,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 60,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -894,6 +944,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -912,6 +963,7 @@
     "times_seen": 48,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -929,6 +981,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -946,6 +999,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -963,6 +1017,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -980,6 +1035,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -997,6 +1053,7 @@
     "times_seen": 3,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1014,6 +1071,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1031,6 +1089,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 60,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1048,6 +1107,7 @@
     "times_seen": 9,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1065,6 +1125,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1083,6 +1144,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1100,6 +1162,7 @@
     "times_seen": 5,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1118,6 +1181,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1136,6 +1200,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 60,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1153,6 +1218,7 @@
     "times_seen": 3,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1170,6 +1236,7 @@
     "times_seen": 10,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1187,6 +1254,7 @@
     "times_seen": 4,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1204,6 +1272,7 @@
     "times_seen": 4,
     "current": false,
     "confidence": 60,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1221,6 +1290,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1238,6 +1308,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 60,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1255,6 +1326,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1272,6 +1344,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 60,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1289,6 +1362,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1306,6 +1380,7 @@
     "times_seen": 7,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1324,6 +1399,7 @@
     "times_seen": 14,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1341,6 +1417,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1358,6 +1435,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 60,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1375,6 +1453,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1394,6 +1473,7 @@
     "times_seen": 3,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1411,6 +1491,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 60,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1428,6 +1509,7 @@
     "times_seen": 16,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1446,6 +1528,7 @@
     "times_seen": 12,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1463,6 +1546,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1482,6 +1566,7 @@
     "times_seen": 21,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1499,6 +1584,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1516,6 +1602,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1533,6 +1620,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1550,6 +1638,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1567,6 +1656,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1584,6 +1674,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1601,6 +1692,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 60,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1618,6 +1710,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1635,6 +1728,7 @@
     "times_seen": 7,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1652,6 +1746,7 @@
     "times_seen": 9,
     "current": false,
     "confidence": 70,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1671,6 +1766,7 @@
     "times_seen": 6,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1688,6 +1784,7 @@
     "times_seen": 2,
     "current": true,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1707,6 +1804,7 @@
     "times_seen": 39,
     "current": true,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1724,6 +1822,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1741,6 +1840,7 @@
     "times_seen": 10,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1758,6 +1858,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1775,6 +1876,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1792,6 +1894,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1811,6 +1914,7 @@
     "times_seen": 9,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1830,6 +1934,7 @@
     "times_seen": 7,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1849,6 +1954,7 @@
     "times_seen": 6,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1866,6 +1972,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1883,6 +1990,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1900,6 +2008,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1917,6 +2026,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1936,6 +2046,7 @@
     "times_seen": 6,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1955,6 +2066,7 @@
     "times_seen": 15,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1974,6 +2086,7 @@
     "times_seen": 6,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -1991,6 +2104,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2008,6 +2122,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2025,6 +2140,7 @@
     "times_seen": 3,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2042,6 +2158,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2059,6 +2176,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2076,6 +2194,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2093,6 +2212,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2110,6 +2230,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2127,6 +2248,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2144,6 +2266,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2161,6 +2284,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2178,6 +2302,7 @@
     "times_seen": 4,
     "current": true,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2195,6 +2320,7 @@
     "times_seen": 3,
     "current": true,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2212,6 +2338,7 @@
     "times_seen": 3,
     "current": true,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2229,6 +2356,7 @@
     "times_seen": 5,
     "current": true,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2246,6 +2374,7 @@
     "times_seen": 2,
     "current": true,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2263,6 +2392,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2280,6 +2410,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2297,6 +2428,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2314,6 +2446,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2331,6 +2464,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2349,6 +2483,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2366,6 +2501,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2383,6 +2519,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2400,6 +2537,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2417,6 +2555,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2434,6 +2573,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2451,6 +2591,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2468,6 +2609,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2485,6 +2627,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2502,6 +2645,7 @@
     "times_seen": 3,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2519,6 +2663,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2536,6 +2681,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2553,6 +2699,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2570,6 +2717,7 @@
     "times_seen": 3,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2587,6 +2735,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2604,6 +2753,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2621,6 +2771,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2638,6 +2789,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2655,6 +2807,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2672,6 +2825,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2689,6 +2843,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2706,6 +2861,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2723,6 +2879,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2740,6 +2897,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2757,6 +2915,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2774,6 +2933,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2791,6 +2951,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2808,6 +2969,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2825,6 +2987,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2842,6 +3005,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2859,6 +3023,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2876,6 +3041,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2893,6 +3059,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2910,6 +3077,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2927,6 +3095,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2945,6 +3114,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2963,6 +3133,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2980,6 +3151,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -2997,6 +3169,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3014,6 +3187,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3031,6 +3205,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3049,6 +3224,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3066,6 +3242,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3083,6 +3260,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3100,6 +3278,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3117,6 +3296,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3134,6 +3314,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3151,6 +3332,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3168,6 +3350,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3185,6 +3368,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3202,6 +3386,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3219,6 +3404,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3236,6 +3422,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3253,6 +3440,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3270,6 +3458,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3287,6 +3476,7 @@
     "times_seen": 4,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3304,6 +3494,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3321,6 +3512,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3338,6 +3530,7 @@
     "times_seen": 7,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3355,6 +3548,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3372,6 +3566,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3389,6 +3584,7 @@
     "times_seen": 7,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3406,6 +3602,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3423,6 +3620,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3440,6 +3638,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3457,6 +3656,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3475,6 +3675,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3492,6 +3693,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3509,6 +3711,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3526,6 +3729,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3543,6 +3747,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3560,6 +3765,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3577,6 +3783,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3594,6 +3801,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3611,6 +3819,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3628,6 +3837,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3645,6 +3855,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3662,6 +3873,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3679,6 +3891,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3696,6 +3909,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3713,6 +3927,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3730,6 +3945,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3747,6 +3963,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3764,6 +3981,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3781,6 +3999,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3798,6 +4017,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3815,6 +4035,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3832,6 +4053,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3849,6 +4071,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3866,6 +4089,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3883,6 +4107,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3900,6 +4125,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3917,6 +4143,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3934,6 +4161,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3951,6 +4179,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3968,6 +4197,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -3985,6 +4215,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4002,6 +4233,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4020,6 +4252,7 @@
     "times_seen": 6,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4037,6 +4270,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4054,6 +4288,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4071,6 +4306,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4088,6 +4324,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4105,6 +4342,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4122,6 +4360,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4139,6 +4378,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4156,6 +4396,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4173,6 +4414,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4190,6 +4432,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4207,6 +4450,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4224,6 +4468,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4241,6 +4486,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4258,6 +4504,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4275,6 +4522,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4293,6 +4541,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4310,6 +4559,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4327,6 +4577,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4344,6 +4595,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4361,6 +4613,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4378,6 +4631,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4395,6 +4649,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4412,6 +4667,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4429,6 +4685,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4446,6 +4703,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4463,6 +4721,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4480,6 +4739,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4497,6 +4757,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4514,6 +4775,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4531,6 +4793,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4548,6 +4811,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4565,6 +4829,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4582,6 +4847,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4599,6 +4865,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4616,6 +4883,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4633,6 +4901,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4650,6 +4919,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4667,6 +4937,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4684,6 +4955,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4701,6 +4973,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4718,6 +4991,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4735,6 +5009,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4752,6 +5027,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4769,6 +5045,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4786,6 +5063,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4803,6 +5081,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4820,6 +5099,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4837,6 +5117,7 @@
     "times_seen": 1,
     "current": false,
     "confidence": 85,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4857,6 +5138,7 @@
     "times_seen": 5,
     "current": true,
     "confidence": 75,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4875,6 +5157,7 @@
     "times_seen": 4,
     "current": false,
     "confidence": 90,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4892,6 +5175,7 @@
     "times_seen": 19,
     "current": true,
     "confidence": 90,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4909,6 +5193,7 @@
     "times_seen": 2,
     "current": false,
     "confidence": 90,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -4927,6 +5212,7 @@
     "times_seen": 2,
     "current": true,
     "confidence": 90,
+    "dual_use": false,
     "enrichment": {}
   }
 ]

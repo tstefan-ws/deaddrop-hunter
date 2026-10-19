@@ -400,6 +400,9 @@ a.stat:has(.stat-value.accent), .stat:has(.stat-value.accent) {
 .pill-dormant::before { content: ""; width: 5px; height: 5px; border-radius: 50%; border: 1px solid currentColor; }
 .pill-watched { border-color: color-mix(in srgb, var(--accent) 50%, transparent); color: var(--accent); }
 .pill-new { background: var(--accent); color: #fff; border-color: var(--accent); }
+/* Evidence and caveat pills: weaker claims wear quieter colours than live state. */
+.pill-candidate { border-style: dashed; color: var(--faint); }
+.pill-dual { border-color: color-mix(in srgb, var(--warn) 55%, transparent); color: var(--warn); }
 .pill-cluster { text-decoration: none; color: var(--muted); }
 .pill-cluster:hover { color: var(--text); border-color: var(--border-strong); }
 .pills { display: flex; flex-wrap: wrap; gap: 6px; }

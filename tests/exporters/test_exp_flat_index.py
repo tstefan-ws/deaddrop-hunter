@@ -90,7 +90,7 @@ def test_csv(exported, fixture_data):
     rows = list(csv.DictReader(io.StringIO((out / "csv" / "iocs.csv").read_text(encoding="utf-8"))))
     assert list(rows[0].keys()) == [
         "type", "value", "port", "family", "cluster_id", "chain",
-        "first_seen", "last_seen", "current", "confidence", "contracts",
+        "first_seen", "last_seen", "current", "confidence", "dual_use", "contracts",
     ]
     assert len(rows) == len(fixture_data["iocs"])
     ip = next(r for r in rows if r["value"] == "78.40.198.61")
@@ -150,3 +150,24 @@ def test_explorer_urls_from_project_config(data_dir):
     assert ds.explorer_url("polygon", "0x1") == "https://polygonscan.com/address/0x1"
     assert ds.explorer_url("tron", "T1") == "https://tronscan.org/#/address/T1"
     assert ds.explorer_tx_url("aptos", "0x2") == "https://explorer.aptoslabs.com/txn/0x2?network=mainnet"
+
+
+def test_dual_use_is_withheld_from_blocklists(tmp_path, data_dir):
+    """Public pools stay in the CSV feed and out of domains.txt, with the count declared."""
+    src = tmp_path / "data"
+    shutil.copytree(data_dir, src)
+    iocs = json.loads((src / "iocs.json").read_text())
+    pools = [i for i in iocs if i["type"] == "domain" and "nanopool.org" in i["value"]]
+    assert pools, "fixture should contain a public pool domain"
+    for i in iocs:
+        i["dual_use"] = i in pools
+        if i in pools:
+            i["current"] = True
+    (src / "iocs.json").write_text(json.dumps(iocs))
+
+    out = tmp_path / "feeds"
+    run_exports(src, out, ["csv", "txt"])
+    domains = (out / "txt" / "domains.txt").read_text()
+    assert "nanopool.org" not in domains
+    assert f"# dual-use entries withheld (see csv/iocs.csv): {len(pools)}" in domains
+    assert "nanopool.org" in (out / "csv" / "iocs.csv").read_text()

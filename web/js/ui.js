@@ -35,6 +35,18 @@ export function statusPill(status) {
   return h('span', { class: `pill pill-${status === 'active' ? 'active' : 'dormant'}` }, status === 'active' ? 'active' : 'dormant');
 }
 
+/** A contract nobody has decoded a value from yet: a watched operator touched it, nothing more. */
+export function evidencePill(evidence) {
+  if (evidence !== 'candidate') return null;
+  return h('span', { class: 'pill pill-candidate', title: 'Candidate: a watched operator deployed or called this contract, but no value has been decoded from it yet' }, 'candidate');
+}
+
+/** Real indicator, shared with legitimate users (public mining pools and the like). */
+export function dualUsePill(on) {
+  if (!on) return null;
+  return h('span', { class: 'pill pill-dual', title: 'Dual-use: a shared public service. Real, but withheld from the plain-text blocklists because blocking it hits legitimate users.' }, 'dual-use');
+}
+
 export function watchedPill() {
   return h('span', { class: 'pill pill-watched', title: 'Watched operator wallet (configured in hunts.toml)' }, '◉ watched');
 }

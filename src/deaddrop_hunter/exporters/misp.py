@@ -118,13 +118,16 @@ class _EventBuilder:
             f"times_seen={ioc.get('times_seen', 0)}; confidence={ioc.get('confidence', 0)}"
         )
         tags = [_tag(f'{PROJECT_NAME}:current="{"true" if ioc.get("current") else "false"}"')]
+        dual_use = bool(ioc.get("dual_use"))
+        if dual_use:
+            tags.append(_tag(f'{PROJECT_NAME}:dual-use="true"'))
         self.attributes[auuid] = {
             "uuid": auuid,
             "type": mtype,
             "category": "Network activity",
             "value": value,
-            "to_ids": True,
-            "comment": comment,
+            "to_ids": not dual_use,   # shared infrastructure: context, not a detection rule
+            "comment": comment + ("; dual-use: shared public service, do not block blindly" if dual_use else ""),
             "timestamp": str(epoch(last, self.gen)),
             "first_seen": _misp_dt(first, self.gen),
             "last_seen": _misp_dt(last, self.gen),

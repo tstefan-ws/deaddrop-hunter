@@ -125,6 +125,19 @@ merges their clusters. Such contracts are listed under `[[ignore_contracts]]` in
 DelegationManager `0xdb9b1e94b5b69df7e401ddbede43491141047db3` on Polygon, which three of the
 watched operators use.
 
+## 6b. What the data claims, and what it does not
+
+Three honesty markers keep a lead from reading like a finding:
+
+- **`evidence: candidate`** on a contract means a watched operator deployed or called it and
+  nothing has been decoded from it. It may be the operator's next dead drop or an unrelated
+  contract they touched. Treat it as a lead and verify before acting.
+- **`dual_use: true`** on an indicator means the value is genuinely in the config but is shared
+  public infrastructure, such as a mining pool. Blocking it causes collateral damage, so it is
+  published as context and withheld from the blocklists.
+- **`confidence`** follows the evidence, not the type: 90 for a decoded dead drop, 85 for its
+  operator wallet, 55 for a candidate account.
+
 ## 7. Validation
 
 On-chain data proves *that* something is stored, not *what* it is. Before publishing a cluster

@@ -6,7 +6,8 @@ import { activityChart } from '../charts.js';
 import { diffValues, diffBlock, diffSummary, pretty } from '../diff.js';
 import { watchlist } from '../store.js';
 import {
-  pageHead, panel, kv, statusPill, clusterPill, contractLink, walletLink, txLink, starButton, familyTag, notFound,
+  pageHead, panel, kv, statusPill, evidencePill, clusterPill, contractLink, walletLink, txLink, starButton,
+  familyTag, notFound,
 } from '../ui.js';
 
 /** Keep list filters in the URL without triggering a re-render. */
@@ -43,7 +44,7 @@ export function renderContracts(ctx) {
       { key: 'chain', label: 'Chain', sort: (c) => c.chain, render: (c) => chainLabel(c.chain) },
       { key: 'addr', label: 'Contract', sort: (c) => c.address, render: (c) => contractLink(c.chain, c.address) },
       { key: 'family', label: 'Family', sort: (c) => c.family, render: (c) => familyTag(c.family) },
-      { key: 'status', label: 'Status', sort: (c) => c.status, render: (c) => statusPill(c.status) },
+      { key: 'status', label: 'Status', sort: (c) => c.status, render: (c) => h('span', { class: 'pills' }, statusPill(c.status), evidencePill(c.evidence)) },
       { key: 'cluster', label: 'Cluster', sort: (c) => c.cluster_id, render: (c) => clusterPill(d, c.cluster_id) },
       { key: 'op', label: 'Operator', sort: (c) => c.operator_wallets[0] || '', render: (c) => (c.operator_wallets.length ? [walletLink(d, c.chain, c.operator_wallets[0]), c.operator_wallets.length > 1 ? ` +${c.operator_wallets.length - 1}` : ''] : h('span', { class: 'faint' }, '—')) },
       { key: 'updates', label: 'Updates', num: true, sort: (c) => c.update_count, render: (c) => fmtNum(c.update_count) },
@@ -133,7 +134,7 @@ export function renderContract(ctx, chain, address) {
     pageHead({
       crumbs: [['Contracts', '#/contracts'], [chainLabel(chain)]],
       title: sanitize(address), titleClass: 'mono wrap-any',
-      sub: [statusPill(c.status), ' ', clusterPill(d, c.cluster_id), ' ', h('span', { class: 'mono' }, sanitize(c.family)), ` · ${c.update_count} updates · last `, timeEl(c.last_seen)],
+      sub: [statusPill(c.status), ' ', evidencePill(c.evidence), evidencePill(c.evidence) ? ' ' : null, clusterPill(d, c.cluster_id), ' ', h('span', { class: 'mono' }, sanitize(c.family)), ` · ${c.update_count} updates · last `, timeEl(c.last_seen)],
       actions: [
         starButton(d, 'contract', chain, address, ctx.rerender),
         // static JSON API file (published by the exporter; not present in sample mode)
@@ -146,7 +147,7 @@ export function renderContract(ctx, chain, address) {
       panel('Details', kv([
         ['chain', chainLabel(chain)],
         ['family', familyTag(c.family)],
-        ['status', statusPill(c.status)],
+        ['status', h('span', { class: 'pills' }, statusPill(c.status), evidencePill(c.evidence))],
         ['decoder', h('span', { class: 'mono' }, sanitize(c.decoder))],
         ['selectors', c.selectors.length ? h('span', { class: 'mono' }, c.selectors.map(sanitize).join(', ')) : null],
         ['hunts', c.hunt_ids.length ? h('span', { class: 'mono' }, c.hunt_ids.map(sanitize).join(', ')) : null],

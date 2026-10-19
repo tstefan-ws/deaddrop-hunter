@@ -293,7 +293,8 @@ class _Builder:
                 f"Cluster: {cid or 'none'}. Seen {ioc.get('times_seen', 0)} times; "
                 f"currently {'served' if ioc.get('current') else 'no longer served'} by the contract."
             )
-            labels = sorted({x for x in (family, ioc.get("chain"), PROJECT_NAME) if x})
+            labels = sorted({x for x in (family, ioc.get("chain"), PROJECT_NAME,
+                                         "dual-use" if ioc.get("dual_use") else None) if x})
             props = {
                 "name": host_with_port(ioc),
                 "description": desc,

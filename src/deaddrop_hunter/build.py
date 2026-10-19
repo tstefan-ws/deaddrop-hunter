@@ -11,7 +11,7 @@ from collections.abc import Iterable
 from datetime import timedelta
 
 from . import __version__
-from .classify import FAMILY_BY_SLUG, UNKNOWN, Ioc, classify, extract_iocs
+from .classify import FAMILY_BY_SLUG, UNKNOWN, Ioc, classify, extract_iocs, is_dual_use
 from .config import Config
 from .decoders import decode_value, raw_bytes
 from .store import parse_iso
@@ -135,6 +135,11 @@ def normalize_event(e: dict) -> dict:
 # ---------------------------------------------------------------------------------------------
 # build
 # ---------------------------------------------------------------------------------------------
+# Confidence for an account we have only circumstantial evidence for (a watched operator called
+# it, but no value was ever decoded from it).
+CANDIDATE_CONF = 55
+
+
 def build(
     events: list[dict],
     config: Config,
@@ -241,14 +246,22 @@ def build(
             if ioc.type == "evm-wallet" and ioc.value in known_contracts:
                 current_keys.add(("evm-contract", ioc.value, -1))
 
-    # Contracts and operator wallets are IOCs themselves.
+    # Contracts and operator wallets are IOCs themselves. A contract we have never decoded a
+    # value from is only a candidate: a watched operator touched it, nothing more. It is still
+    # reported, at a confidence that says so, so it never looks as solid as a decoded dead drop.
+    def has_decoded(info: dict) -> bool:
+        return any(e.get("new_decoded") is not None or e.get("old_decoded") is not None
+                   for e in info["events"])
+
+    decoded_operators = {w for info in contract_info.values() if has_decoded(info)
+                         for w in info["operators"]}
     for (chain, addr), info in contract_info.items():
         cid = contract_cluster(chain, addr)
         fam = info["family"].family
         active = (info["last_seen"] or "") >= active_cutoff
         if not is_evm_address(addr):
             continue  # schema IOC types only cover EVM accounts; non-EVM accounts stay in contracts/wallets
-        cioc = Ioc("evm-contract", addr, None, 90)
+        cioc = Ioc("evm-contract", addr, None, 90 if has_decoded(info) else CANDIDATE_CONF)
         for e in info["events"]:
             touch(cioc, chain, addr, e.get("timestamp"), (e["chain"], e["tx_hash"], e["contract"],
                                                            e.get("new_raw") or ""), fam, cid)
@@ -257,7 +270,7 @@ def build(
         for w in info["operators"]:
             if not is_evm_address(w):
                 continue
-            wioc = Ioc("evm-wallet", w, None, 85)
+            wioc = Ioc("evm-wallet", w, None, 85 if w in decoded_operators else CANDIDATE_CONF)
             for e in info["events"]:
                 if e.get("from") == w:
                     touch(wioc, chain, addr, e.get("timestamp"),
@@ -291,6 +304,7 @@ def build(
             "times_seen": len(a["events"]),
             "current": key in current_keys,
             "confidence": a["conf"],
+            "dual_use": is_dual_use(ioc.type, ioc.value),
             "enrichment": enrichment_by_key.get(key, {}),
         })
 
@@ -314,6 +328,7 @@ def build(
             "first_seen": info["first_seen"],
             "last_seen": info["last_seen"],
             "status": "active" if (info["last_seen"] or "") >= active_cutoff else "dormant",
+            "evidence": "decoded" if has_decoded(info) else "candidate",
             "latest_value_raw": latest.get("new_raw"),
             "latest_value_decoded": latest.get("new_decoded"),
             "tags": list(fam.tags),

@@ -66,12 +66,17 @@ data has no "old value"), and `decoder` may also be `memo`.
   "first_seen": "2026-08-01T10:00:00Z",
   "last_seen": "2026-10-18T09:12:44Z",
   "status": "active",
+  "evidence": "decoded",
   "latest_value_raw": "21783b36...",
   "latest_value_decoded": "{\"algo\":\"rx/0\",\"pool\":\"78.40.198.61\",...}",
   "tags": ["xmrig", "config-on-chain"]
 }
 ```
 `status`: `active` if updated in the last 30 days, else `dormant`.
+`evidence`: `decoded` when at least one value has been decoded from this contract,
+`candidate` when a watched operator only deployed or called it and nothing has been
+decoded yet. Candidates are reported at a lower IOC confidence (55) and marked in the
+dashboard; they are leads, not confirmed dead drops.
 `family`: free text slug from classification rules; `unknown` if none matched.
 `decoder`: `plain`, `xor-1byte:0xNN`, `base64`, `hex-utf8`, `memo`, `undecoded`, or a
 `+reverse` variant (`plain+reverse`, `hex-utf8+reverse`) when the decoded value is stored
@@ -131,12 +136,18 @@ wallet found inside a decoded config — `chain` is then e.g. `monero`).
   "times_seen": 40,
   "current": true,
   "confidence": 70,
+  "dual_use": false,
   "enrichment": {}
 }
 ```
 `type`: `ipv4`, `ipv6`, `domain`, `url`, `xmr-wallet`, `btc-wallet`, `evm-contract`,
 `evm-wallet`. One entry per (type, value, port). `current` = appears in the latest
-value of at least one contract. `enrichment` is keyed by source
+value of at least one contract. `dual_use` = a real indicator that is also a shared
+public service (a mining pool, say): kept in the JSON, CSV, STIX and MISP feeds, where
+MISP marks it `to_ids: false`, and withheld from the plain-text blocklists because
+blocking it would hit legitimate users. `confidence` reflects the evidence: 90 for a
+contract we decoded a value from, 85 for its operator wallet, 55 for a candidate
+account seen only through a watched operator's transaction. `enrichment` is keyed by source
 (`virustotal`, `threatfox`, `urlscan`, ...) and is optional.
 
 ## clusters.json — array of

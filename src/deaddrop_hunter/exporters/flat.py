@@ -10,10 +10,10 @@ from ._common import LICENSE_NOTE, PROJECT_NAME, Dataset, ioc_sort_key, write_by
 
 IOC_COLUMNS = [
     "type", "value", "port", "family", "cluster_id", "chain",
-    "first_seen", "last_seen", "current", "confidence", "contracts",
+    "first_seen", "last_seen", "current", "confidence", "dual_use", "contracts",
 ]
 CONTRACT_COLUMNS = [
-    "chain", "address", "cluster_id", "family", "status", "decoder", "update_count",
+    "chain", "address", "cluster_id", "family", "status", "evidence", "decoder", "update_count",
     "first_seen", "last_seen", "operator_wallets", "hunt_ids", "explorer_url",
 ]
 WALLET_COLUMNS = [
@@ -73,13 +73,18 @@ def export_txt(ds: Dataset, out_dir: Path) -> list[tuple[Path, str]]:
     txt_dir = out_dir / "txt"
     written = []
     for name, (ioc_type, label) in TXT_LISTS.items():
-        values = sorted({i["value"] for i in ds.iocs if i.get("type") == ioc_type and i.get("current")})
+        rows = [i for i in ds.iocs if i.get("type") == ioc_type and i.get("current")]
+        # Dual-use entries (public mining pools and the like) are real, but blocking them hits
+        # legitimate users. They stay in the JSON/CSV/STIX feeds and out of the blocklists.
+        values = sorted({i["value"] for i in rows if not i.get("dual_use")})
+        withheld = len({i["value"] for i in rows if i.get("dual_use")})
         header = [
             f"# {PROJECT_NAME} blocklist: {label} currently served by on-chain dead drops",
             f"# generated_at: {ds.generated_at}",
             f"# entries: {len(values)}",
+            f"# dual-use entries withheld (see csv/iocs.csv): {withheld}",
             f"# {LICENSE_NOTE}",
-            "# Review before blocking: shared hosting / mining pools may cause collateral blocking.",
+            "# Review before blocking: shared hosting may still cause collateral blocking.",
         ]
         data = "\n".join([*header, *values]) + "\n"
         written.append((write_bytes(txt_dir / name, data.encode("utf-8")),

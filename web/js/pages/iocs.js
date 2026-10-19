@@ -1,7 +1,7 @@
 import { h, copyText, downloadBlob } from '../dom.js';
 import { sanitize, timeEl, chainLabel, fmtNum, iocDisplay, iocRaw, ts, fmtDate, str } from '../fmt.js';
 import { sortableTable } from '../table.js';
-import { pageHead, clusterPill, contractLink } from '../ui.js';
+import { pageHead, clusterPill, contractLink, dualUsePill } from '../ui.js';
 import { selectFilter, syncQuery } from './contracts.js';
 
 // CSV cell: quote, and neutralise spreadsheet formula injection (values are attacker-controlled).
@@ -24,7 +24,7 @@ export function renderIocs(ctx) {
       { key: 'type', label: 'Type', sort: (i) => i.type, render: (i) => h('span', { class: 'mono' }, sanitize(i.type)) },
       // Copy actions live in the value cell: one column fewer to scroll past.
       { key: 'value', label: 'Value (defanged)', sort: (i) => i.value, cls: 'wrap', render: (i) => h('div', { class: 'ioc-cell' },
-        h('span', { class: 'ioc' }, iocDisplay(i)),
+        h('span', { class: 'ioc' }, iocDisplay(i), dualUsePill(i.dual_use) ? ' ' : null, dualUsePill(i.dual_use)),
         h('span', { class: 'btn-row' },
           h('button', { type: 'button', class: 'btn btn-sm', title: 'Copy defanged value', 'aria-label': `Copy defanged ${i.type}`, onclick: () => copyText(iocDisplay(i), 'defanged') }, 'copy'),
           h('button', { type: 'button', class: 'btn btn-sm btn-ghost', title: 'Copy raw (live) value: handle with care', 'aria-label': `Copy raw ${i.type}`, onclick: () => copyText(iocRaw(i), 'raw value') }, 'raw'))) },
