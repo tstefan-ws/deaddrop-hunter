@@ -20,6 +20,7 @@ class HuntContext:
     etherscan_factory: Callable[[Chain], object]  # may raise ProviderUnavailable
     dune_factory: Callable[[], object]  # may raise ProviderUnavailable
     known_contracts: dict[str, set[str]] = field(default_factory=dict)  # chain -> addresses
+    known_wallets: dict[str, set[str]] = field(default_factory=dict)    # chain -> addresses
     _rpcs: dict[str, RpcClient] = field(default_factory=dict)
     _tx_cache: dict[tuple[str, str], dict | None] = field(default_factory=dict)
 

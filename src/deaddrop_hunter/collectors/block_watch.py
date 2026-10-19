@@ -252,8 +252,14 @@ def inspect_creation(ctx: HuntContext, chain: Chain, *, block: int, ts: str | No
                         old=None, new=value)
         ev["code_hash"] = shape.code_hash
         return ev
-    # Shape matches, nothing readable anywhere: an encrypted payload, or an ordinary owned
-    # contract. Recorded as a candidate rather than thrown away.
+    # Nothing readable anywhere. That is either an encrypted payload or, far more often, an
+    # ordinary owned contract: 9 of the first 11 the watcher filed were the latter. So a
+    # silent contract is only kept when something else already points at it - a selector from
+    # a confirmed family, a template we have seen before, or a deployer we are watching.
+    known_deployer = deployer in ctx.known_wallets.get(chain.key, set())
+    if not (shape.known_family or known_deployer):
+        log.debug("%s: %s is silent and unconnected; not filed", chain.key, address)
+        return None
     log.info("%s: %s matches the shape but answered nothing (code %dB, hash %s)",
              chain.key, address, shape.size, shape.code_hash)
     ev = make_event(chain=chain.key, block=block, timestamp=ts, tx_hash=tx_hash,

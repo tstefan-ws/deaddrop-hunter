@@ -76,7 +76,11 @@ def run_hunt(
     }
     for e in existing_events:
         ctx.known_contracts.setdefault(e["chain"], set()).add(e["contract"])
+        if e.get("from"):
+            ctx.known_wallets.setdefault(e["chain"], set()).add(e["from"])
 
+    for w in config.watch_wallets:                      # watched operators count as known
+        ctx.known_wallets.setdefault(w.chain, set()).add(w.address)
     lookback = days if days is not None else config.default_lookback_days
     report = HuntReport()
     new_events: list[dict] = []

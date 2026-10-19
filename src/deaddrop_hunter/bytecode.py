@@ -150,12 +150,18 @@ class Shape:
             return True
         if self.token_like:
             return False                 # it moves value; that is a different kind of thing
-        return bool(self.admins) and self.size <= MAX_CANDIDATE_SIZE
+        return (bool(self.admins) and self.size <= MAX_CANDIDATE_SIZE
+                and len(self.selectors) <= MAX_CANDIDATE_SELECTORS)
 
 
 # Both confirmed templates are ~2.4-3.2 kB. Real dead drops stay small because they do
 # one thing; the cap keeps routers, tokens and proxies with huge dispatchers out.
 MAX_CANDIDATE_SIZE = 6144
+# Measured 2026-10-20 over everything on file: 14 confirmed drops expose 9-17 functions, and
+# every ordinary contract the watcher had filed by mistake exposed 18-57. A drop does one
+# thing, so the function count separates them better than size does. Headroom above the
+# observed maximum, and only for contracts with no confirmed selector of their own.
+MAX_CANDIDATE_SELECTORS = 20
 
 
 def shape_of(code: str | bytes) -> Shape:

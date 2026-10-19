@@ -145,12 +145,23 @@ def test_a_new_contract_that_answers_becomes_a_finding():
     assert ev["timestamp"] == "2026-10-14T17:46:40Z"
 
 
-def test_a_silent_contract_of_the_right_shape_is_only_a_candidate():
+def test_a_silent_contract_is_filed_only_when_something_points_at_it():
+    """9 of the first 11 contracts the watcher filed were silent and unconnected: ordinary
+    owned contracts. Silence alone is not evidence, so a deployer we already watch (or a
+    confirmed selector) is what makes one worth keeping."""
     sim = FakeChain(_code(ADMIN, "0badf00d"), None)
+
     ctx, chain = _ctx(sim)
+    assert block_watch.collect(ctx, chain, 100, 100) == []      # stranger: not filed
+
+    ctx, chain = _ctx(sim)
+    ctx.known_wallets["polygon"] = {DEPLOYER}
     (ev,) = block_watch.collect(ctx, chain, 100, 100)
-    assert ev["new_decoded"] is None and ev["new_raw"] is None
-    assert ev["selector"] is None          # nothing answered; build() scores it as a candidate
+    assert ev["new_decoded"] is None and ev["selector"] is None  # candidate, nothing claimed
+
+    sim2 = FakeChain(_code(SET_URL, ADMIN), None)                # confirmed family selector
+    ctx, chain = _ctx(sim2)
+    assert len(block_watch.collect(ctx, chain, 100, 100)) == 1
 
 
 def test_an_ordinary_contract_is_ignored_without_any_call():
@@ -324,12 +335,21 @@ def test_a_new_contract_holding_a_plain_label_is_not_recorded():
     assert block_watch.collect(ctx, chain, 100, 100) == []
 
 
-def test_an_opaque_value_is_still_kept():
+def test_an_opaque_payload_in_storage_is_still_kept():
     """An encrypted payload is exactly what we are looking for, so anything that will not
-    decode to text stays, as 0xa9c28c5b's 520 bytes of binary did."""
-    sim = StorageChain(_code(ADMIN, "0badf00d"), {0: "0x" + "9f" * 31 + hex(31 * 2)[2:].rjust(2, "0")})
+    decode to text stays. 0xa9c28c5b holds 520 bytes of binary this way: a long string keeps
+    its length in the slot and its bytes at a hashed location."""
+    from deaddrop_hunter.bytecode import long_string_base
+
+    length = 64
+    base = long_string_base(0)
+    slots = {0: "0x" + (length * 2 + 1).to_bytes(32, "big").hex()}
+    slots[base] = "0x" + "9f3c" * 16
+    slots[base + 1] = "0x" + "c47a" * 16
+    sim = StorageChain(_code(ADMIN, "0badf00d"), slots)
     ctx, chain = _ctx(sim)
-    assert len(block_watch.collect(ctx, chain, 100, 100)) == 1
+    (ev,) = block_watch.collect(ctx, chain, 100, 100)
+    assert ev["new_decoded"] is None or not ev["new_decoded"].isprintable() or ev["new_raw"]
 
 
 def test_a_write_to_something_that_is_not_drop_shaped_is_dropped():
