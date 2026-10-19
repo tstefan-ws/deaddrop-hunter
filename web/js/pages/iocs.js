@@ -22,10 +22,12 @@ export function renderIocs(ctx) {
     sort: { key: 'last', dir: 'desc' },
     columns: [
       { key: 'type', label: 'Type', sort: (i) => i.type, render: (i) => h('span', { class: 'mono' }, sanitize(i.type)) },
-      { key: 'value', label: 'Value (defanged)', sort: (i) => i.value, cls: 'wrap', render: (i) => h('span', { class: 'ioc' }, iocDisplay(i)) },
-      { key: 'copy', label: 'Copy', render: (i) => h('span', { class: 'btn-row' },
-        h('button', { type: 'button', class: 'btn btn-sm', title: 'Copy defanged value', 'aria-label': `Copy defanged ${i.type}`, onclick: () => copyText(iocDisplay(i), 'defanged') }, 'copy'),
-        h('button', { type: 'button', class: 'btn btn-sm btn-ghost', title: 'Copy raw (live) value: handle with care', 'aria-label': `Copy raw ${i.type}`, onclick: () => copyText(iocRaw(i), 'raw value') }, 'raw')) },
+      // Copy actions live in the value cell: one column fewer to scroll past.
+      { key: 'value', label: 'Value (defanged)', sort: (i) => i.value, cls: 'wrap', render: (i) => h('div', { class: 'ioc-cell' },
+        h('span', { class: 'ioc' }, iocDisplay(i)),
+        h('span', { class: 'btn-row' },
+          h('button', { type: 'button', class: 'btn btn-sm', title: 'Copy defanged value', 'aria-label': `Copy defanged ${i.type}`, onclick: () => copyText(iocDisplay(i), 'defanged') }, 'copy'),
+          h('button', { type: 'button', class: 'btn btn-sm btn-ghost', title: 'Copy raw (live) value: handle with care', 'aria-label': `Copy raw ${i.type}`, onclick: () => copyText(iocRaw(i), 'raw value') }, 'raw'))) },
       { key: 'port', label: 'Port', num: true, sort: (i) => i.port, render: (i) => (i.port === null ? '' : String(i.port)) },
       { key: 'current', label: 'Current', sort: (i) => (i.current ? 1 : 0), render: (i) => (i.current ? h('span', { class: 'pill pill-active' }, 'current') : h('span', { class: 'pill' }, 'historic')) },
       { key: 'family', label: 'Family', sort: (i) => i.family, render: (i) => h('span', { class: 'mono' }, sanitize(i.family)) },

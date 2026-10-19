@@ -330,7 +330,7 @@ select, .input {
   margin-left: auto; min-width: 17px; padding: 2px 5px; border-radius: 3px; background: var(--accent); color: #fff;
   font: 500 0.62rem/1.25 var(--font-mono); text-align: center;
 }
-.main { flex: 1; width: 100%; max-width: 1360px; padding: 18px 18px 40px; outline: none; min-width: 0; }
+.main { flex: 1; width: 100%; padding: 18px 18px 40px; outline: none; min-width: 0; }
 .loading { color: var(--muted); font-family: var(--font-mono); }
 .footer {
   border-top: 1px solid var(--border); padding: 12px 18px; color: var(--muted);
@@ -432,8 +432,10 @@ a.stat:has(.stat-value.accent), .stat:has(.stat-value.accent) {
 /* tables */
 .table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 7px; background: var(--surface); max-width: 100%; }
 table { border-collapse: collapse; width: 100%; font-size: 0.78rem; }
-th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--border); vertical-align: top; white-space: nowrap; }
-td.wrap { white-space: normal; min-width: 220px; overflow-wrap: anywhere; }
+th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--border); vertical-align: top; white-space: nowrap; }
+td.wrap { white-space: normal; min-width: 200px; overflow-wrap: anywhere; }
+/* Long identifiers get as much room as the viewport allows before wrapping. */
+td.wrap .ioc, td.wrap .addr { overflow-wrap: anywhere; }
 tbody tr:last-child td { border-bottom: 0; }
 tbody tr:hover { background: var(--surface-2); }
 tr.is-watched td:first-child { box-shadow: inset 2px 0 0 var(--accent); }
@@ -517,7 +519,11 @@ details.raw pre { max-height: 160px; }
 .graph { display: block; margin: 0 auto; max-width: none; }
 .graph .edge { stroke: var(--border-strong); stroke-width: 1.2; }
 .graph .edge-live { stroke: color-mix(in srgb, var(--accent) 55%, transparent); stroke-width: 1.6; }
-.graph .node { cursor: pointer; }
+.graph .node { cursor: grab; touch-action: none; }
+.graph .node.dragging { cursor: grabbing; }
+.graph.is-dragging .node:not(.dragging) { opacity: 0.75; }
+.graph-hint { font: 400 0.7rem/1.5 var(--font-mono); color: var(--faint); margin: 8px 0 0; }
+.graph-hint button { margin-left: 8px; }
 .graph .node .badge-bg { stroke: var(--bg); stroke-width: 2; }
 .graph .node:hover .badge-bg, .graph .node:focus .badge-bg { stroke: var(--text); }
 .graph .node:focus { outline: none; }
@@ -591,3 +597,7 @@ a.card:hover { border-color: var(--border-strong); }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
 td .btn-row { flex-wrap: nowrap; }
+/* IOC value cell: the value, with its copy actions tucked beside it. */
+.ioc-cell { display: flex; align-items: baseline; gap: 10px; justify-content: space-between; }
+.ioc-cell .ioc { min-width: 0; }
+.ioc-cell .btn-row { flex: 0 0 auto; }

@@ -130,11 +130,34 @@ export function clusterGraph(d, cluster) {
   });
   const pos = new Map(nodes.map((n) => [n.id, n]));
   const gEdges = s('g');
+  const links = new Map();   // node id -> [{line, end}] so a dragged node drags its edges along
   for (const [a, b] of edges) {
     const A = pos.get(a); const B = pos.get(b);
-    gEdges.append(s('line', { class: A.live && B.live ? 'edge edge-live' : 'edge', x1: A.x.toFixed(1), y1: A.y.toFixed(1), x2: B.x.toFixed(1), y2: B.y.toFixed(1) }));
+    const line = s('line', { class: A.live && B.live ? 'edge edge-live' : 'edge', x1: A.x.toFixed(1), y1: A.y.toFixed(1), x2: B.x.toFixed(1), y2: B.y.toFixed(1) });
+    gEdges.append(line);
+    if (!links.has(a)) links.set(a, []);
+    if (!links.has(b)) links.set(b, []);
+    links.get(a).push({ line, end: '1' });
+    links.get(b).push({ line, end: '2' });
   }
   svg.append(gEdges);
+
+  const home = new Map(nodes.map((n) => [n.id, { x: n.x, y: n.y }]));
+  const groups = new Map();
+  // viewBox units per CSS pixel, so a drag follows the pointer at any zoom
+  const unitsPerPx = () => {
+    const r = svg.getBoundingClientRect();
+    return r.width ? w / r.width : 1;
+  };
+  function placeNode(n, x, y) {
+    n.x = x; n.y = y;
+    const g = groups.get(n.id);
+    if (g) g.setAttribute('transform', `translate(${x.toFixed(1)} ${y.toFixed(1)})`);
+    for (const { line, end } of links.get(n.id) || []) {
+      line.setAttribute(`x${end}`, x.toFixed(1));
+      line.setAttribute(`y${end}`, y.toFixed(1));
+    }
+  }
   const order = { wallet: 0, funder: 1, contract: 2, payout: 3, ioc: 4 };
   for (const n of nodes.slice().sort((a, b) => order[a.kind] - order[b.kind])) {
     const g = s('g', { class: 'node', tabindex: '0', role: 'link', 'aria-label': `${n.title}${n.live ? ' (live)' : ''}`, transform: `translate(${n.x.toFixed(1)} ${n.y.toFixed(1)})` });
@@ -148,11 +171,62 @@ export function clusterGraph(d, cluster) {
     g.append(s('title', null, `${n.title}${n.live ? ' — live' : ''}`));
     g.append(s('text', { y: r + 13, 'text-anchor': 'middle' }, n.label));
     const go = () => { window.location.hash = n.href; };
-    g.addEventListener('click', go);
-    g.addEventListener('keydown', (ev) => { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); go(); } });
+
+    // Drag to rearrange. A press that never moves is still a click, so opening a
+    // node keeps working; arrow keys nudge it for anyone not using a pointer.
+    let drag = null;
+    let dragged = false;
+    g.addEventListener('pointerdown', (ev) => {
+      if (ev.button !== 0) return;
+      ev.preventDefault();
+      g.setPointerCapture(ev.pointerId);
+      drag = { id: ev.pointerId, sx: ev.clientX, sy: ev.clientY, ox: n.x, oy: n.y, moved: false };
+      g.classList.add('dragging');
+      svg.classList.add('is-dragging');
+    });
+    g.addEventListener('pointermove', (ev) => {
+      if (!drag || ev.pointerId !== drag.id) return;
+      const k = unitsPerPx();
+      const dx = (ev.clientX - drag.sx) * k;
+      const dy = (ev.clientY - drag.sy) * k;
+      if (!drag.moved && Math.hypot(dx, dy) < 3 * k) return;
+      drag.moved = true;
+      placeNode(n, drag.ox + dx, drag.oy + dy);
+    });
+    const endDrag = (ev) => {
+      if (!drag || ev.pointerId !== drag.id) return;
+      dragged = drag.moved;
+      drag = null;
+      g.classList.remove('dragging');
+      svg.classList.remove('is-dragging');
+      if (g.hasPointerCapture(ev.pointerId)) g.releasePointerCapture(ev.pointerId);
+    };
+    g.addEventListener('pointerup', endDrag);
+    g.addEventListener('pointercancel', endDrag);
+    g.addEventListener('click', (ev) => {
+      if (dragged) { dragged = false; ev.preventDefault(); return; }
+      go();
+    });
+    g.addEventListener('keydown', (ev) => {
+      if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); go(); return; }
+      const step = ev.shiftKey ? 20 : 6;
+      const by = { ArrowLeft: [-step, 0], ArrowRight: [step, 0], ArrowUp: [0, -step], ArrowDown: [0, step] }[ev.key];
+      if (!by) return;
+      ev.preventDefault();
+      placeNode(n, n.x + by[0], n.y + by[1]);
+    });
+    groups.set(n.id, g);
     svg.append(g);
   }
   fig.append(h('div', { class: 'graph-wrap' }, svg));
+  const reset = h('button', { class: 'btn btn-sm', type: 'button' }, 'Reset layout');
+  reset.addEventListener('click', () => {
+    for (const n of nodes) {
+      const p0 = home.get(n.id);
+      if (p0) placeNode(n, p0.x, p0.y);
+    }
+  });
+  fig.append(h('p', { class: 'graph-hint' }, 'Drag a node to rearrange; arrow keys nudge the focused node.', reset));
   fig.append(h('div', { class: 'legend' },
     h('span', null, legendChip('wallet', 'lg-wallet'), 'operator wallet'),
     h('span', null, legendChip('funder', 'lg-wallet'), 'funder'),
