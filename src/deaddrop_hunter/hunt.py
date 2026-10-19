@@ -169,12 +169,14 @@ def run_hunt(
         if not ranges:
             report.ran.append(f"{label} (up to date)")
             continue
+        # Per-wallet low-water marks, so adding a wallet backfills just that wallet.
+        wallet_seen: dict[str, int] = dict((cursor or {}).get("wallets") or {})
         got: list[dict] = []
         try:
             for lo, hi in ranges:
                 if hunt is None:
                     ws = [w for w in config.watch_wallets if w.chain == chain_key]
-                    got += wallet_watch.collect(ctx, chain, ws, lo, hi)
+                    got += wallet_watch.collect(ctx, chain, ws, lo, hi, wallet_seen)
                 elif hunt.kind == "event":
                     got += event_sweep.collect(ctx, hunt, chain, lo, hi)
                 elif hunt.kind == "selector":
@@ -206,6 +208,7 @@ def run_hunt(
         cursors[(chain_key, hunt_id)] = {
             "chain": chain_key, "hunt_id": hunt_id, "from_block": lo_all, "to_block": hi_all,
             "updated_at": now,
+            **({"wallets": wallet_seen} if wallet_seen else {}),
         }
         report.ran.append(f"{label} ({len(got)} events, blocks {ranges})")
 

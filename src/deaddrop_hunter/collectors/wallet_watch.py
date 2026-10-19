@@ -53,14 +53,31 @@ def tx_events(chain: Chain, wallet: str, t: dict, known: set[str],
 
 
 def collect(ctx: HuntContext, chain: Chain, wallets: list[WatchWallet], from_block: int,
-            to_block: int) -> list[dict]:
+            to_block: int, seen: dict[str, int] | None = None) -> list[dict]:
+    """Every transaction these wallets sent in the range.
+
+    ``seen`` maps wallet -> lowest block already scanned for it, and is updated in place. The
+    chain-wide cursor cannot answer "have we scanned *this* wallet", so without it a wallet
+    added to the config today would silently never have its earlier activity fetched: the
+    cursor already claims those blocks on behalf of the wallets that were there before. A
+    wallet we have not seen is therefore read from its first transaction, which costs one
+    paginated query.
+    """
     es = ctx.etherscan_factory(chain)  # raises ProviderUnavailable without a key
     known = ctx.known_contracts.get(chain.key, set())
     ignored = {a for c, a in ctx.config.ignore_contracts if c == chain.key}
+    seen = {} if seen is None else seen
     out: list[dict] = []
     for w in wallets:
-        txs = es.txlist(w.address, from_block, to_block)
-        log.info("%s watch %s: %d txs", chain.key, w.address, len(txs))
+        start = from_block
+        if w.address not in seen:
+            log.info("%s watch %s: new wallet, reading its whole history", chain.key, w.address)
+            start = 0
+        elif seen[w.address] < from_block:
+            start = seen[w.address]
+        txs = es.txlist(w.address, start, to_block)
+        log.info("%s watch %s: %d txs from block %d", chain.key, w.address, len(txs), start)
         for t in txs:
             out.extend(tx_events(chain, w.address, t, known, ignored))
+        seen[w.address] = min(seen.get(w.address, start), start)
     return out

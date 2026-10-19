@@ -174,3 +174,32 @@ def test_shipped_config_ignores_delegation_manager():
     # 0xcef6d209 is redeemDelegations, so a chain-wide sweep for it flags legitimate users.
     assert not [h for h in cfg.hunts if h.id == "selector-cef6d209"]
     assert not [h for h in cfg.hunts if h.selector == "0xcef6d209"]
+
+
+def test_a_newly_watched_wallet_is_read_from_its_first_transaction():
+    """The chain-wide cursor cannot say whether *this* wallet was scanned, so a wallet added
+    today would otherwise never have its earlier activity fetched: the cursor already claims
+    those blocks on behalf of the wallets that were there before."""
+    from deaddrop_hunter.collectors import wallet_watch
+    from deaddrop_hunter.config import WatchWallet
+
+    calls = []
+
+    class FakeEs:
+        def txlist(self, address, from_block, to_block):
+            calls.append((address, from_block, to_block))
+            return []
+
+    cfg = _cfg()
+    ctx = make_context(cfg, rpc_factory=lambda c: None, etherscan_factory=lambda c: FakeEs(),
+                       dune_factory=lambda: None)
+    chain = cfg.chains["polygon"]
+    old = WatchWallet(chain="polygon", address="0x" + "11" * 20, label="known")
+    new = WatchWallet(chain="polygon", address="0x" + "22" * 20, label="just added")
+    seen = {old.address: 1_000}
+
+    wallet_watch.collect(ctx, chain, [old, new], 5_000, 6_000, seen)
+    by_addr = {a: (lo, hi) for a, lo, hi in calls}
+    assert by_addr[old.address] == (1_000, 6_000)   # continues from where it got to
+    assert by_addr[new.address] == (0, 6_000)       # read from the beginning, once
+    assert seen[new.address] == 0                   # and not read from zero again next time
