@@ -12,7 +12,7 @@ import { renderWatchlist, newSince } from './pages/watchlist.js';
 import { renderFeeds } from './pages/feeds.js';
 import { renderAbout } from './pages/about.js';
 import { renderSearch } from './pages/search.js';
-import { notFound } from './ui.js';
+import { notFound, scanHealth } from './ui.js';
 
 const root = document.documentElement;
 const main = document.getElementById('main');
@@ -158,10 +158,18 @@ function setupChrome(d) {
   const chip = document.getElementById('data-chip');
   const chipText = document.getElementById('data-chip-text');
   if (chip && chipText && last) {
-    chipText.textContent = `Last hunt ${relTime(last)}`;
-    chip.title = `Last hunt ${fmtDate(last)}`;
-    const age = Date.now() - ts(last);
-    chip.classList.toggle('stale', Number.isFinite(age) && age > 24 * 3600 * 1000);
+    // Say whether scanning is still happening, not just when it last did: a reader cannot
+    // tell a quiet chain from a stopped watcher without this.
+    const health = d.meta.cursors.map((c) => scanHealth(c, d.meta)).filter(Boolean);
+    const state = health.some((x) => x.state === 'stopped') ? 'stopped'
+      : health.some((x) => x.state === 'late') ? 'late' : 'live';
+    const dueIn = health.length ? Math.min(...health.map((x) => x.dueIn)) : 0;
+    const due = state === 'stopped' ? 'scanning stopped'
+      : dueIn > 0 ? `next in ${Math.max(1, Math.round(dueIn / 60000))}m`
+      : `due ${Math.round(-dueIn / 60000)}m ago`;
+    chipText.textContent = `Scan ${state} · ${relTime(last)} · ${due}`;
+    chip.title = `Last scan ${fmtDate(last)}; expected every ${d.meta.scan_interval_minutes || 60} minutes`;
+    chip.classList.toggle('stale', state !== 'live');
     chip.hidden = false;
   }
   const foot = document.getElementById('footer-meta');

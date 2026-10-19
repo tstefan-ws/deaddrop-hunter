@@ -116,3 +116,22 @@ export function notFound(what, detail) {
     pageHead({ title: `${what} not found`, sub: detail ? `No entry for ${sanitize(detail)} in the current dataset.` : null }),
     h('p', null, h('a', { href: '#/' }, '← Back to overview')));
 }
+
+/**
+ * Scan health for one cursor: how long ago it ran, how far behind the chain it is, and
+ * whether that is within the cadence the config declares. Returns null when the cursor
+ * predates head_block, so an old dataset shows nothing rather than something wrong.
+ */
+export function scanHealth(cursor, meta, nowMs = Date.now()) {
+  const interval = (meta.scan_interval_minutes || 60) * 60000;
+  const ranMs = Date.parse(cursor.updated_at || '');
+  if (!Number.isFinite(ranMs)) return null;
+  const age = nowMs - ranMs;
+  const behind = Number.isFinite(cursor.head_block) && Number.isFinite(cursor.to_block)
+    ? Math.max(0, cursor.head_block - cursor.to_block) : null;
+  // Live while inside two cadences; late past that; stopped once nothing has run for an hour
+  // beyond the cadence, which is when a reader should stop trusting the freshness.
+  const state = age > Math.max(interval * 6, 3600000) ? 'stopped'
+    : age > interval * 2 ? 'late' : 'live';
+  return { state, age, behind, dueIn: interval - age, ranMs };
+}

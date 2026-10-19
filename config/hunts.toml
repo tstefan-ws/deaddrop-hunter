@@ -11,6 +11,9 @@ default_lookback_days = 3
 # Anything that entered our data inside this window is flagged "new" (contracts, indicators
 # and clusters). Three days, to match the hunting window above.
 new_window_hours = 72
+# How often a scan is expected. The dashboard compares the last run against this to show
+# whether scanning is live, late or stopped; it does not drive anything.
+scan_interval_minutes = 10
 # Data directory committed to git and read by the web UI.
 data_dir = "data"
 

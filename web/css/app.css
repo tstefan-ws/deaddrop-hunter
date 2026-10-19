@@ -326,6 +326,7 @@ select, .input {
 }
 .statuschip .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--add); flex: 0 0 auto; }
 .statuschip.stale .dot { background: var(--warn); }
+.statuschip.stale { border-color: color-mix(in srgb, var(--warn) 45%, var(--border)); }
 .badge {
   margin-left: auto; min-width: 17px; padding: 2px 5px; border-radius: 3px; background: var(--accent); color: #fff;
   font: 500 0.62rem/1.25 var(--font-mono); text-align: center;

@@ -5010,26 +5010,6 @@
   },
   {
     "type": "evm-contract",
-    "value": "0x5c67ff34a88541558d08a07cac2aed282f6e4a0e",
-    "port": null,
-    "family": "unknown",
-    "cluster_id": "c-ec89d32c",
-    "chain": "bsc",
-    "contracts": [
-      "0x5c67ff34a88541558d08a07cac2aed282f6e4a0e"
-    ],
-    "first_seen": "2026-10-19T22:02:41Z",
-    "last_seen": "2026-10-19T22:02:41Z",
-    "times_seen": 1,
-    "current": true,
-    "discovered_at": "2026-10-19T22:05:20Z",
-    "new": true,
-    "confidence": 90,
-    "dual_use": false,
-    "enrichment": {}
-  },
-  {
-    "type": "evm-contract",
     "value": "0x63b758a262924e4f446ee9552daa558ccff60509",
     "port": null,
     "family": "unknown",
@@ -5059,8 +5039,8 @@
       "0x6f57fc0f9b24599894b046471e3291dd8c1a61c9"
     ],
     "first_seen": "2026-10-19T20:32:54Z",
-    "last_seen": "2026-10-19T21:12:56Z",
-    "times_seen": 2,
+    "last_seen": "2026-10-19T20:32:54Z",
+    "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-19T20:38:48Z",
     "new": true,
@@ -5119,12 +5099,12 @@
       "0x8a495ef944a8862c08985a2ad57cdb99d1ee5363"
     ],
     "first_seen": "2026-10-19T20:59:55Z",
-    "last_seen": "2026-10-19T21:09:35Z",
-    "times_seen": 2,
+    "last_seen": "2026-10-19T20:59:55Z",
+    "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-19T21:00:26Z",
     "new": true,
-    "confidence": 90,
+    "confidence": 55,
     "dual_use": false,
     "enrichment": {}
   },
@@ -5439,7 +5419,7 @@
     "current": true,
     "discovered_at": "2026-10-19T21:00:26Z",
     "new": true,
-    "confidence": 85,
+    "confidence": 55,
     "dual_use": false,
     "enrichment": {}
   },
@@ -5541,26 +5521,6 @@
     "current": true,
     "discovered_at": "2025-11-15T21:29:25Z",
     "new": false,
-    "confidence": 85,
-    "dual_use": false,
-    "enrichment": {}
-  },
-  {
-    "type": "evm-wallet",
-    "value": "0xec89d32c53ab7449408f37740085a83e16b01b20",
-    "port": null,
-    "family": "unknown",
-    "cluster_id": "c-ec89d32c",
-    "chain": "bsc",
-    "contracts": [
-      "0x5c67ff34a88541558d08a07cac2aed282f6e4a0e"
-    ],
-    "first_seen": "2026-10-19T22:02:41Z",
-    "last_seen": "2026-10-19T22:02:41Z",
-    "times_seen": 1,
-    "current": true,
-    "discovered_at": "2026-10-19T22:05:20Z",
-    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}

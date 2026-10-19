@@ -457,6 +457,7 @@ def build(
         "schema_version": SCHEMA_VERSION,
         "generated_at": now,
         "new_window_hours": config.new_window_hours,
+        "scan_interval_minutes": config.scan_interval_minutes,
         "tool_version": __version__,
         "cursors": cursors_out,
         "counts": {

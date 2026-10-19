@@ -3,7 +3,7 @@ import { fmtNum, shortHex, timeEl, relTime, chainLabel, sanitize, blockWord, exp
 import { key } from '../data.js';
 import { activityChart } from '../charts.js';
 import { diffValues, diffSummary } from '../diff.js';
-import { pageHead, panel, clusterPill, contractLink, clusterHref, statusPill } from '../ui.js';
+import { pageHead, panel, clusterPill, contractLink, clusterHref, statusPill, scanHealth } from '../ui.js';
 
 function stat(label, value, note, href, accent) {
   const inner = [h('div', { class: 'stat-label' }, label), h('div', { class: `stat-value${accent ? ' accent' : ''}` }, value), note ? h('div', { class: 'stat-note' }, note) : null];
@@ -58,6 +58,28 @@ export function renderOverview(ctx) {
     cur.hunts.push(c.hunt_id);
     byChain.set(c.chain, cur);
   }
+  // --- scan status: is this data still being refreshed, and how far behind is it? -------
+  const health = d.meta.cursors.map((c) => [c, scanHealth(c, d.meta)]).filter(([, h]) => h);
+  const worst = health.reduce((w, [, h]) => (h.state === 'stopped' ? 'stopped'
+    : h.state === 'late' && w !== 'stopped' ? 'late' : w), 'live');
+  const soonest = health.reduce((m, [, h]) => Math.min(m, h.dueIn), Infinity);
+  const scanPanel = health.length ? h('div', { class: 'table-wrap', tabindex: '0', role: 'region', 'aria-label': 'Scan status' },
+    h('table', null,
+      h('thead', null, h('tr', null, ['Scan', 'Chain', 'State', 'Last run', 'Blocks behind'].map((x) => h('th', { scope: 'col' }, x)))),
+      h('tbody', null, health
+        .sort((a, b) => (a[1].ranMs < b[1].ranMs ? 1 : -1))
+        .map(([c, hh]) => h('tr', null,
+          h('td', { class: 'mono' }, sanitize(c.hunt_id)),
+          h('td', null, chainLabel(c.chain)),
+          h('td', null, h('span', { class: `pill pill-${hh.state === 'live' ? 'active' : 'dormant'}` }, hh.state)),
+          h('td', null, timeEl(c.updated_at), ' ', h('span', { class: 'faint' }, relTime(c.updated_at))),
+          h('td', { class: 'num' }, hh.behind === null ? '—' : fmtNum(hh.behind)))))))
+    : h('p', { class: 'empty' }, 'No scan cursors yet.');
+
+  const dueText = worst === 'stopped' ? 'scanning has stopped'
+    : soonest > 0 ? `next scan due in ${Math.max(1, Math.round(soonest / 60000))} min`
+    : `next scan overdue by ${Math.round(-soonest / 60000)} min`;
+
   const coverage = byChain.size ? h('div', { class: 'table-wrap', tabindex: '0', role: 'region', 'aria-label': 'Scanned ranges per chain' },
     h('table', null,
       h('thead', null, h('tr', null, ['Chain', 'Scanned range', 'Hunts', 'Last run'].map((t) => h('th', { scope: 'col' }, t)))),
@@ -95,6 +117,7 @@ export function renderOverview(ctx) {
       panel('Latest rotations', rotationFeed(d, events, 8), h('a', { href: '#/contracts' }, 'all contracts →'))),
     h('div', { class: 'grid grid-2 section' },
       panel('Top clusters', topList, h('a', { href: '#/clusters' }, 'all clusters →')),
-      panel('Hunt coverage', coverage)),
+      panel(`Scan status · ${sanitize(dueText)}`, scanPanel)),
+    h('div', { class: 'grid section' }, panel('Hunt coverage', coverage)),
     h('p', { class: 'faint section' }, 'Recent contracts: ', ...contracts.slice().sort((a, b) => (b.last_seen > a.last_seen ? 1 : -1)).slice(0, 4).flatMap((c, i) => [i ? ', ' : '', contractLink(c.chain, c.address)])));
 }

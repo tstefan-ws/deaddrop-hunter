@@ -1,7 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T22:09:48Z",
+  "generated_at": "2026-10-19T22:12:16Z",
   "new_window_hours": 72,
+  "scan_interval_minutes": 10,
   "tool_version": "0.1.0",
   "cursors": [
     {
@@ -154,8 +155,9 @@
       "chain": "polygon",
       "hunt_id": "urlupdated-string-string",
       "from_block": 90884549,
-      "to_block": 95828117,
-      "updated_at": "2026-10-19T22:05:20Z"
+      "to_block": 95828385,
+      "updated_at": "2026-10-19T22:12:16Z",
+      "head_block": 95828385
     },
     {
       "chain": "polygon",
@@ -233,10 +235,10 @@
     }
   ],
   "counts": {
-    "contracts": 42,
-    "wallets": 32,
-    "events": 956,
-    "iocs": 552,
-    "clusters": 22
+    "contracts": 41,
+    "wallets": 31,
+    "events": 953,
+    "iocs": 550,
+    "clusters": 21
   }
 }

@@ -76,6 +76,9 @@ class Config:
     # A contract, indicator or cluster first seen inside this window is flagged "new", so a
     # reader can tell what appeared since yesterday from what has been on file for months.
     new_window_hours: int = 24
+    # How often a scan is expected to run. Nothing enforces it: it is what the dashboard
+    # compares the last run against to say whether scanning is live, late or stopped.
+    scan_interval_minutes: int = 60
     chains: dict[str, Chain] = field(default_factory=dict)
     hunts: list[Hunt] = field(default_factory=list)
     watch_wallets: list[WatchWallet] = field(default_factory=list)
@@ -177,6 +180,7 @@ def parse_config(raw: dict, env: Mapping[str, str] | None = None) -> Config:
         default_lookback_days=int(settings.get("default_lookback_days", 90)),
         data_dir=settings.get("data_dir", "data"),
         new_window_hours=int(settings.get("new_window_hours", 24)),
+        scan_interval_minutes=int(settings.get("scan_interval_minutes", 60)),
         chains=chains,
         hunts=hunts,
         watch_wallets=wallets,

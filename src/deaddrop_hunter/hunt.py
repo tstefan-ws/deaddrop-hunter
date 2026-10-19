@@ -208,6 +208,9 @@ def run_hunt(
         cursors[(chain_key, hunt_id)] = {
             "chain": chain_key, "hunt_id": hunt_id, "from_block": lo_all, "to_block": hi_all,
             "updated_at": now,
+            # The chain's head when we looked. Without it nothing downstream can say whether
+            # a scan is level with the chain or hours behind it.
+            "head_block": head,
             **({"wallets": wallet_seen} if wallet_seen else {}),
         }
         report.ran.append(f"{label} ({len(got)} events, blocks {ranges})")

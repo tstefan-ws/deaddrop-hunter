@@ -1,22 +1,6 @@
 [
   {
     "chain": "bsc",
-    "block": 128630785,
-    "timestamp": "2026-10-19T22:02:41Z",
-    "tx_hash": "0xdf7733e75473dfe82ef4de1561b5cddb53fe203c1be1446b565378333feb2583",
-    "contract": "0x5c67ff34a88541558d08a07cac2aed282f6e4a0e",
-    "from": "0xec89d32c53ab7449408f37740085a83e16b01b20",
-    "selector": null,
-    "hunt_id": "block-watch",
-    "old_raw": null,
-    "new_raw": "Huge Success",
-    "old_decoded": null,
-    "new_decoded": "Huge Success",
-    "decoder": "plain",
-    "code_hash": "70f4aaae64fefd5a"
-  },
-  {
-    "chain": "bsc",
     "block": 128630736,
     "timestamp": "2026-10-19T22:02:19Z",
     "tx_hash": "0x331917cf3ca36220ca87a3cbbbce025c28f500e2523b92fc08bd08587960a99e",
@@ -110,22 +94,6 @@
     "new_decoded": null,
     "decoder": "undecoded",
     "code_hash": "f6a218e3ddf7072f"
-  },
-  {
-    "chain": "polygon",
-    "block": 0,
-    "timestamp": "2026-10-19T21:12:56Z",
-    "tx_hash": "probe:d84ca1d2d943b327",
-    "contract": "0x6f57fc0f9b24599894b046471e3291dd8c1a61c9",
-    "from": null,
-    "selector": null,
-    "hunt_id": "block-watch",
-    "old_raw": null,
-    "new_raw": "SSRFProbe3",
-    "old_decoded": null,
-    "new_decoded": "SSRFProbe3",
-    "decoder": "plain",
-    "code_hash": "b5ff55f9bb2bfc52"
   },
   {
     "chain": "polygon",
@@ -343,21 +311,6 @@
     "new_raw": "test",
     "old_decoded": null,
     "new_decoded": "test",
-    "decoder": "plain"
-  },
-  {
-    "chain": "bsc",
-    "block": 0,
-    "timestamp": "2026-10-19T21:09:35Z",
-    "tx_hash": "probe:310ecb2b47c3dc77",
-    "contract": "0x8a495ef944a8862c08985a2ad57cdb99d1ee5363",
-    "from": null,
-    "selector": null,
-    "hunt_id": "block-watch",
-    "old_raw": null,
-    "new_raw": "Rich Binance",
-    "old_decoded": null,
-    "new_decoded": "Rich Binance",
     "decoder": "plain"
   },
   {

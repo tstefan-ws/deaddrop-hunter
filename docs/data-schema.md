@@ -165,6 +165,11 @@ contract we decoded a value from, 85 for its operator wallet, 55 for a candidate
 account seen only through a watched operator's transaction. `enrichment` is keyed by source
 (`virustotal`, `threatfox`, `urlscan`, ...) and is optional.
 
+`meta.scan_interval_minutes`: how often a scan is expected. Each cursor records the chain's
+`head_block` at the moment it ran, so a reader can tell whether a scan is level with the
+chain or hours behind it, and whether scanning is still happening at all. The dashboard shows
+both on the overview and in the top bar.
+
 ## clusters.json — array of
 ```json
 {
