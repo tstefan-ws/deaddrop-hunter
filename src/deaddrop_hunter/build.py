@@ -146,11 +146,30 @@ def build(
     cursors: list[dict] | None = None,
     now: str = "1970-01-01T00:00:00Z",
     existing_iocs: list[dict] | None = None,
+    previous: dict | None = None,
 ) -> dict:
     events = [normalize_event(e) for e in events]
     now_dt = parse_iso(now)
     assert now_dt is not None
     active_cutoff = (now_dt - timedelta(days=ACTIVE_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    new_cutoff = (now_dt - timedelta(hours=max(0, config.new_window_hours))).strftime("%Y-%m-%dT%H:%M:%SZ")
+    prev = previous or {}
+    prev_contracts = {(c.get("chain"), c.get("address")): c for c in prev.get("contracts") or []}
+    prev_clusters = {c.get("id"): c for c in prev.get("clusters") or []}
+    prev_iocs = {(i.get("type"), i.get("value"), i.get("port") if i.get("port") is not None else -1): i
+                 for i in (existing_iocs if existing_iocs is not None else prev.get("iocs") or [])}
+
+    def discovered(old: dict | None, fallback: str | None = None) -> str:
+        """When this entry first entered our data, which is not when it appeared on-chain:
+        a contract deployed in March but found today is new to the reader, not to the chain."""
+        if old and old.get("discovered_at"):
+            return old["discovered_at"]
+        if old:                       # on file already, from before this field existed
+            return old.get("first_seen") or fallback or now
+        return now
+
+    def is_new(discovered_at: str | None) -> bool:
+        return bool(discovered_at) and discovered_at >= new_cutoff
     watched = config.watched()
 
     ioc_cache: dict[str, list[Ioc]] = {}
@@ -303,6 +322,8 @@ def build(
             "last_seen": _max_ts(a["ts"]),
             "times_seen": len(a["events"]),
             "current": key in current_keys,
+            "discovered_at": (_i_disc := discovered(prev_iocs.get(key), _min_ts(a["ts"]))),
+            "new": is_new(_i_disc),
             "confidence": a["conf"],
             "dual_use": is_dual_use(ioc.type, ioc.value),
             "enrichment": enrichment_by_key.get(key, {}),
@@ -328,6 +349,8 @@ def build(
             "first_seen": info["first_seen"],
             "last_seen": info["last_seen"],
             "status": "active" if (info["last_seen"] or "") >= active_cutoff else "dormant",
+            "discovered_at": (_c_disc := discovered(prev_contracts.get((chain, addr)), info["first_seen"])),
+            "new": is_new(_c_disc),
             "evidence": "decoded" if has_decoded(info) else "candidate",
             "latest_value_raw": latest.get("new_raw"),
             "latest_value_decoded": latest.get("new_decoded"),
@@ -420,6 +443,8 @@ def build(
             "ioc_count": ioc_counts.get(cid, 0),
             "first_seen": _min_ts(cl["ts"]),
             "last_seen": _max_ts(cl["ts"]),
+            "discovered_at": (_cl_disc := discovered(prev_clusters.get(cid), _min_ts(cl["ts"]))),
+            "new": is_new(_cl_disc),
         })
 
     events_out = sorted(events, key=_event_sort_key, reverse=True)
@@ -427,6 +452,7 @@ def build(
     meta = {
         "schema_version": SCHEMA_VERSION,
         "generated_at": now,
+        "new_window_hours": config.new_window_hours,
         "tool_version": __version__,
         "cursors": cursors_out,
         "counts": {

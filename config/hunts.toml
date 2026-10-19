@@ -4,6 +4,9 @@
 
 [settings]
 default_lookback_days = 90
+# Anything that entered our data inside this window is flagged "new" (contracts, indicators
+# and clusters), so a reader can see what arrived since yesterday.
+new_window_hours = 24
 # Data directory committed to git and read by the web UI.
 data_dir = "data"
 
@@ -126,13 +129,16 @@ abi = ["string", "string"]  # old value, new value
 chains = ["polygon", "ethereum", "arbitrum", "optimism", "base", "avalanche", "bsc", "bsc_testnet"]
 reference = "https://www.linkedin.com/pulse/hunting-etherhiding-from-one-cluster-ecosystem-alex-necula-r7l8e/"
 
-# Needs no fingerprint at all: reads new contract creations, keeps the drop-shaped ones
-# (bytecode.Shape) and asks them what they hold. max_blocks caps how many blocks one run
-# reads; the cursor only ever covers blocks actually read, so a run that falls behind
-# catches up over the following runs instead of skipping ahead.
+# Needs no fingerprint and no wallet list. Reads each block once and looks at it two ways:
+# new contracts (keep the drop-shaped ones, ask them what they hold) and the transactions
+# themselves (a known setter, or any call whose text argument yields an indicator). The
+# second half is a chain-wide "who is updating a dead drop right now" search over wallets
+# nobody has reported, which otherwise needs a paid data warehouse. max_blocks caps how many
+# blocks one run reads; the cursor only ever covers blocks actually read, so a run that falls
+# behind catches up over the following runs instead of skipping ahead.
 [[hunts]]
-id = "birth-watch"
-kind = "birth"
+id = "block-watch"
+kind = "block"
 chains = ["polygon"]
 max_blocks = 600
 note = """Polygon makes ~2,057 contracts a day and the shape filter discards nearly all of them

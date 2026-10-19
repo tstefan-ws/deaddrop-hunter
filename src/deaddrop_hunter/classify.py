@@ -184,6 +184,10 @@ DUAL_USE_DOMAINS = (
     "nanopool.org", "hashvault.pro", "herominers.com", "supportxmr.com", "moneroocean.stream",
     "minexmr.com", "2miners.com", "c3pool.com", "xmrpool.eu", "unmineable.com", "f2pool.com",
     "poolin.com", "zergpool.com", "gntl.co.uk", "monero.hashvault.pro", "skypool.org",
+    # Content-addressed storage gateways: NFT metadata lives here by the million, and so do
+    # the occasional payload links. Reported, never blocked.
+    "ipfs.io", "filebase.io", "pinata.cloud", "nftstorage.link", "arweave.net", "w3s.link",
+    "dweb.link", "cf-ipfs.com", "infura-ipfs.io", "fleek.co",
 )
 
 

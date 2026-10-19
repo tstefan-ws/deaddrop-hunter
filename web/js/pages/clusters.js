@@ -3,9 +3,7 @@ import { sanitize, timeEl, chainLabel, fmtNum, iocDisplay, ts } from '../fmt.js'
 import { sortableTable } from '../table.js';
 import { activityChart } from '../charts.js';
 import { clusterGraph } from '../graph.js';
-import {
-  pageHead, panel, kv, statusPill, clusterPill, contractLink, walletLink, notFound, clusterHref, watchedPill,
-} from '../ui.js';
+import { pageHead, panel, kv, statusPill, clusterPill, contractLink, walletLink, notFound, clusterHref, watchedPill, newPill } from '../ui.js';
 import { slotClass } from '../data.js';
 
 function clusterEvents(d, cl) {
@@ -23,7 +21,9 @@ export function renderClusters(ctx) {
     return h('a', { class: 'card', href: clusterHref(c.id) },
       h('div', { class: 'card-head' },
         h('span', { class: 'id' }, h('span', { class: `swatch ${slotClass(d, c.id, 'sw')}` }), ' ', sanitize(c.id)),
-        cs.some((x) => x.status === 'active') ? statusPill('active') : statusPill('dormant')),
+        h('span', { class: 'pills' },
+          newPill(c.new, c.discovered_at),
+          cs.some((x) => x.status === 'active') ? statusPill('active') : statusPill('dormant'))),
       h('h3', { class: 'wrap-any' }, sanitize(c.name || c.id)),
       h('div', { class: 'card-stats' },
         h('span', null, h('b', null, fmtNum(c.contracts.length)), ' contracts'),
@@ -54,7 +54,7 @@ export function renderCluster(ctx, id) {
     columns: [
       { key: 'addr', label: 'Contract', sort: (c) => c.address, render: (c) => contractLink(c.chain, c.address) },
       { key: 'chain', label: 'Chain', sort: (c) => c.chain, render: (c) => chainLabel(c.chain) },
-      { key: 'status', label: 'Status', sort: (c) => c.status, render: (c) => statusPill(c.status) },
+      { key: 'status', label: 'Status', sort: (c) => c.status, render: (c) => h('span', { class: 'pills' }, statusPill(c.status), newPill(c.new, c.discovered_at)) },
       { key: 'updates', label: 'Updates', num: true, sort: (c) => c.update_count, render: (c) => fmtNum(c.update_count) },
       { key: 'last', label: 'Last seen', sort: (c) => ts(c.last_seen) || 0, render: (c) => timeEl(c.last_seen) },
     ],

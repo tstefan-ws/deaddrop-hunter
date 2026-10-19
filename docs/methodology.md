@@ -128,7 +128,7 @@ watched operators use.
 ## 6a. Discovery without a fingerprint
 
 Every other hunt needs something known in advance: an event name, a selector, an operator
-wallet, somebody's report. `birth-watch` needs none of them, and exists because a crew that
+wallet, somebody's report. `block-watch` needs none of them, and exists because a crew that
 renames its event walks straight past a topic sweep (measured on 2026-10-19: a live resolver
 emitted 85 `URLUpdated` events inside a Polygon range we had already swept).
 

@@ -22,7 +22,9 @@
     ],
     "ioc_count": 36,
     "first_seen": "2026-03-13T19:09:35Z",
-    "last_seen": "2026-10-16T07:52:45Z"
+    "last_seen": "2026-10-16T07:52:45Z",
+    "discovered_at": "2026-03-13T19:09:35Z",
+    "new": false
   },
   {
     "id": "c-24d512cc",
@@ -43,7 +45,9 @@
     ],
     "ioc_count": 11,
     "first_seen": "2026-03-13T17:23:13Z",
-    "last_seen": "2026-09-14T00:11:39Z"
+    "last_seen": "2026-09-14T00:11:39Z",
+    "discovered_at": "2026-03-13T17:23:13Z",
+    "new": false
   },
   {
     "id": "c-28pknu7r",
@@ -68,7 +72,9 @@
     ],
     "ioc_count": 193,
     "first_seen": "2025-09-25T09:59:37Z",
-    "last_seen": "2026-09-06T09:45:09Z"
+    "last_seen": "2026-09-06T09:45:09Z",
+    "discovered_at": "2025-09-25T09:59:37Z",
+    "new": false
   },
   {
     "id": "c-34c15320",
@@ -88,7 +94,9 @@
     ],
     "ioc_count": 245,
     "first_seen": "2026-03-11T18:54:01Z",
-    "last_seen": "2026-10-18T12:53:53Z"
+    "last_seen": "2026-10-18T12:53:53Z",
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true
   },
   {
     "id": "c-3d2075f9",
@@ -105,7 +113,9 @@
     ],
     "ioc_count": 0,
     "first_seen": "2025-11-19T14:03:38Z",
-    "last_seen": "2026-10-07T16:23:43Z"
+    "last_seen": "2026-10-07T16:23:43Z",
+    "discovered_at": "2025-11-19T14:03:38Z",
+    "new": false
   },
   {
     "id": "c-3f0e5781",
@@ -122,7 +132,9 @@
     ],
     "ioc_count": 0,
     "first_seen": "2025-06-13T05:54:24Z",
-    "last_seen": "2026-06-25T06:41:38Z"
+    "last_seen": "2026-06-25T06:41:38Z",
+    "discovered_at": "2025-06-13T05:54:24Z",
+    "new": false
   },
   {
     "id": "c-9bae539a",
@@ -139,7 +151,9 @@
     ],
     "ioc_count": 4,
     "first_seen": "2026-08-16T13:16:12Z",
-    "last_seen": "2026-08-16T13:16:12Z"
+    "last_seen": "2026-08-16T13:16:12Z",
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true
   },
   {
     "id": "c-9d202c82",
@@ -156,24 +170,9 @@
     ],
     "ioc_count": 0,
     "first_seen": "2025-11-14T13:49:45Z",
-    "last_seen": "2026-10-07T16:09:12Z"
-  },
-  {
-    "id": "c-a82c7acf",
-    "name": "Unclassified dead-drop cluster (c-a82c7acf)",
-    "family": "unknown",
-    "chains": [
-      "polygon"
-    ],
-    "contracts": [
-      "0xaeb4017bc95ee3109225b4a6a32e0c0018073682"
-    ],
-    "wallets": [
-      "0xa82c7acf60ab7d8a409f82168f67394520b5d2c7"
-    ],
-    "ioc_count": 2,
-    "first_seen": "2026-08-16T13:19:54Z",
-    "last_seen": "2026-08-16T13:19:54Z"
+    "last_seen": "2026-10-07T16:09:12Z",
+    "discovered_at": "2025-11-14T13:49:45Z",
+    "new": false
   },
   {
     "id": "c-be037400",
@@ -190,7 +189,9 @@
     ],
     "ioc_count": 0,
     "first_seen": "2025-06-13T05:12:56Z",
-    "last_seen": "2026-06-23T02:35:39Z"
+    "last_seen": "2026-06-23T02:35:39Z",
+    "discovered_at": "2025-06-13T05:12:56Z",
+    "new": false
   },
   {
     "id": "c-de275ad3",
@@ -208,7 +209,9 @@
     ],
     "ioc_count": 46,
     "first_seen": "2025-11-15T21:29:25Z",
-    "last_seen": "2026-10-13T09:33:17Z"
+    "last_seen": "2026-10-13T09:33:17Z",
+    "discovered_at": "2025-11-15T21:29:25Z",
+    "new": false
   },
   {
     "id": "c-tcqf6zka",
@@ -225,7 +228,9 @@
     ],
     "ioc_count": 0,
     "first_seen": "2025-11-14T13:50:45Z",
-    "last_seen": "2026-10-07T16:09:18Z"
+    "last_seen": "2026-10-07T16:09:18Z",
+    "discovered_at": "2025-11-14T13:50:45Z",
+    "new": false
   },
   {
     "id": "c-tfmryb9m",
@@ -242,7 +247,9 @@
     ],
     "ioc_count": 0,
     "first_seen": "2025-11-19T14:03:54Z",
-    "last_seen": "2026-10-07T16:23:48Z"
+    "last_seen": "2026-10-07T16:23:48Z",
+    "discovered_at": "2025-11-19T14:03:54Z",
+    "new": false
   },
   {
     "id": "c-tlmj13vl",
@@ -259,7 +266,9 @@
     ],
     "ioc_count": 0,
     "first_seen": "2025-06-12T16:50:42Z",
-    "last_seen": "2026-01-27T15:13:12Z"
+    "last_seen": "2026-01-27T15:13:12Z",
+    "discovered_at": "2025-06-12T16:50:42Z",
+    "new": false
   },
   {
     "id": "c-tmfkqed7",
@@ -276,7 +285,9 @@
     ],
     "ioc_count": 0,
     "first_seen": "2025-06-06T14:45:09Z",
-    "last_seen": "2026-06-23T02:35:45Z"
+    "last_seen": "2026-06-23T02:35:45Z",
+    "discovered_at": "2025-06-06T14:45:09Z",
+    "new": false
   },
   {
     "id": "c-txfxhuet",
@@ -293,6 +304,8 @@
     ],
     "ioc_count": 0,
     "first_seen": "2025-06-13T05:50:06Z",
-    "last_seen": "2026-06-20T13:37:54Z"
+    "last_seen": "2026-06-20T13:37:54Z",
+    "discovered_at": "2025-06-13T05:50:06Z",
+    "new": false
   }
 ]

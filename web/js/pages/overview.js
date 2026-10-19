@@ -42,7 +42,10 @@ export function renderOverview(ctx) {
     stat('Active', fmtNum(active.length), 'updated < 30 days', '#/contracts?status=active', true),
     stat('Operator wallets', fmtNum(operators.length), `${wallets.filter((w) => w.watched).length} watched`, '#/wallets'),
     stat('Current IOCs', fmtNum(iocs.filter((i) => i.current).length), `${fmtNum(iocs.length)} total`, '#/iocs?current=1'),
-    stat('Clusters', fmtNum(clusters.length), null, '#/clusters'));
+    stat('Clusters', fmtNum(clusters.length), null, '#/clusters'),
+    stat('New', fmtNum(contracts.filter((c) => c.new).length),
+      `contracts in ${d.meta.new_window_hours || 24}h · ${fmtNum(iocs.filter((i) => i.new).length)} IOCs`,
+      '#/contracts?new=1', contracts.some((c) => c.new)));
 
   // hunt coverage per chain
   const cursors = d.meta.cursors.filter((c) => !ctx.chain || c.chain === ctx.chain);

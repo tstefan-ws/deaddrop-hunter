@@ -13,6 +13,8 @@
     "last_seen": "2026-08-12T13:33:21Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -31,6 +33,8 @@
     "last_seen": "2026-05-08T01:57:21Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -49,6 +53,8 @@
     "last_seen": "2026-07-08T19:39:02Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -67,6 +73,8 @@
     "last_seen": "2026-03-30T13:03:16Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -85,6 +93,8 @@
     "last_seen": "2026-05-29T10:53:12Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -103,6 +113,8 @@
     "last_seen": "2026-05-08T11:32:12Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -121,6 +133,8 @@
     "last_seen": "2026-09-26T00:57:29Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -139,6 +153,8 @@
     "last_seen": "2026-04-09T04:42:11Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -157,6 +173,8 @@
     "last_seen": "2026-04-11T01:19:17Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -176,6 +194,8 @@
     "last_seen": "2026-03-19T12:30:53Z",
     "times_seen": 34,
     "current": false,
+    "discovered_at": "2026-03-15T13:11:35Z",
+    "new": false,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -194,6 +214,8 @@
     "last_seen": "2026-06-05T16:43:37Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -212,6 +234,8 @@
     "last_seen": "2026-07-16T13:24:37Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -230,6 +254,8 @@
     "last_seen": "2026-08-17T01:56:36Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -248,6 +274,8 @@
     "last_seen": "2026-07-17T05:02:18Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -266,6 +294,8 @@
     "last_seen": "2026-05-13T16:40:53Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -284,6 +314,8 @@
     "last_seen": "2026-06-23T20:24:53Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -302,6 +334,8 @@
     "last_seen": "2026-09-25T05:09:57Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -320,6 +354,8 @@
     "last_seen": "2026-08-28T11:08:46Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -338,6 +374,8 @@
     "last_seen": "2026-05-30T12:19:39Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -356,6 +394,8 @@
     "last_seen": "2026-10-10T17:02:48Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -374,6 +414,8 @@
     "last_seen": "2026-08-11T12:10:30Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -392,6 +434,8 @@
     "last_seen": "2026-04-08T13:19:23Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -410,6 +454,8 @@
     "last_seen": "2026-08-12T14:08:54Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -428,6 +474,8 @@
     "last_seen": "2026-06-27T08:47:35Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -446,6 +494,8 @@
     "last_seen": "2026-04-16T06:03:56Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -464,6 +514,8 @@
     "last_seen": "2026-03-30T18:44:13Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -482,6 +534,8 @@
     "last_seen": "2026-04-03T18:00:15Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -500,6 +554,8 @@
     "last_seen": "2026-04-04T17:48:45Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -518,6 +574,8 @@
     "last_seen": "2026-05-21T07:06:24Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -536,6 +594,8 @@
     "last_seen": "2026-08-16T20:28:42Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -554,6 +614,8 @@
     "last_seen": "2026-08-07T09:11:28Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -572,6 +634,8 @@
     "last_seen": "2026-06-17T23:57:56Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -590,6 +654,8 @@
     "last_seen": "2026-04-07T13:13:55Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -608,6 +674,8 @@
     "last_seen": "2026-08-06T09:54:38Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -626,6 +694,8 @@
     "last_seen": "2026-04-17T12:42:10Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -644,6 +714,8 @@
     "last_seen": "2026-08-12T20:56:10Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -662,6 +734,8 @@
     "last_seen": "2026-05-05T11:20:42Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -680,6 +754,8 @@
     "last_seen": "2026-08-18T11:20:46Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -698,6 +774,8 @@
     "last_seen": "2026-08-17T18:36:28Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -716,6 +794,8 @@
     "last_seen": "2026-08-11T22:45:33Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -734,6 +814,8 @@
     "last_seen": "2026-05-16T04:39:00Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -752,6 +834,8 @@
     "last_seen": "2026-07-11T12:54:37Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -770,6 +854,8 @@
     "last_seen": "2026-10-12T15:09:03Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -788,6 +874,8 @@
     "last_seen": "2026-08-22T11:42:42Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -806,6 +894,8 @@
     "last_seen": "2026-08-16T13:16:12Z",
     "times_seen": 1,
     "current": true,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -824,6 +914,8 @@
     "last_seen": "2026-07-28T17:49:05Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -842,6 +934,8 @@
     "last_seen": "2026-06-08T16:44:01Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -860,6 +954,8 @@
     "last_seen": "2026-06-17T07:45:20Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -878,6 +974,8 @@
     "last_seen": "2026-05-08T07:35:59Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -896,6 +994,8 @@
     "last_seen": "2026-03-11T19:49:17Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -914,6 +1014,8 @@
     "last_seen": "2026-09-07T11:35:10Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -932,6 +1034,8 @@
     "last_seen": "2026-07-28T17:39:43Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -950,6 +1054,8 @@
     "last_seen": "2026-05-25T20:39:40Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -968,6 +1074,8 @@
     "last_seen": "2026-05-08T03:40:00Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -986,6 +1094,8 @@
     "last_seen": "2026-06-03T00:27:22Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1004,6 +1114,8 @@
     "last_seen": "2026-09-25T14:34:47Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1022,6 +1134,8 @@
     "last_seen": "2026-08-24T15:09:55Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1040,6 +1154,8 @@
     "last_seen": "2026-08-21T22:22:55Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1059,6 +1175,8 @@
     "last_seen": "2026-03-14T03:44:17Z",
     "times_seen": 2,
     "current": true,
+    "discovered_at": "2026-03-13T18:29:03Z",
+    "new": false,
     "confidence": 85,
     "dual_use": true,
     "enrichment": {}
@@ -1077,6 +1195,8 @@
     "last_seen": "2026-09-27T20:03:26Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1095,6 +1215,8 @@
     "last_seen": "2026-04-06T14:05:51Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1113,6 +1235,8 @@
     "last_seen": "2026-03-31T17:33:19Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1131,6 +1255,8 @@
     "last_seen": "2026-08-25T09:17:46Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1149,6 +1275,8 @@
     "last_seen": "2026-08-26T05:44:19Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1167,6 +1295,8 @@
     "last_seen": "2026-09-23T13:49:32Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1185,6 +1315,8 @@
     "last_seen": "2026-08-22T00:16:16Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1203,6 +1335,8 @@
     "last_seen": "2026-08-22T11:42:28Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1221,6 +1355,8 @@
     "last_seen": "2026-09-26T00:57:21Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1239,6 +1375,8 @@
     "last_seen": "2026-08-24T01:17:51Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1257,6 +1395,8 @@
     "last_seen": "2026-09-01T13:48:34Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1275,6 +1415,8 @@
     "last_seen": "2026-09-24T14:39:23Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1293,6 +1435,8 @@
     "last_seen": "2026-04-10T09:14:39Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1311,6 +1455,8 @@
     "last_seen": "2026-04-27T21:22:22Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1329,6 +1475,8 @@
     "last_seen": "2026-04-23T21:26:00Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1347,6 +1495,8 @@
     "last_seen": "2026-08-25T14:06:42Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1365,6 +1515,8 @@
     "last_seen": "2026-08-30T05:24:45Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1383,6 +1535,8 @@
     "last_seen": "2026-07-02T10:24:07Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1401,6 +1555,8 @@
     "last_seen": "2026-09-27T00:26:44Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1419,6 +1575,8 @@
     "last_seen": "2026-09-21T17:01:27Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1437,6 +1595,8 @@
     "last_seen": "2026-10-07T10:17:30Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1455,6 +1615,8 @@
     "last_seen": "2026-05-28T16:03:19Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1473,6 +1635,8 @@
     "last_seen": "2026-09-03T06:59:19Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1491,6 +1655,8 @@
     "last_seen": "2026-05-13T03:08:50Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1509,6 +1675,8 @@
     "last_seen": "2026-04-06T13:48:05Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1527,6 +1695,8 @@
     "last_seen": "2026-09-04T13:42:36Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1545,6 +1715,8 @@
     "last_seen": "2026-03-30T14:41:21Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1563,6 +1735,8 @@
     "last_seen": "2026-04-02T09:34:01Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1581,6 +1755,8 @@
     "last_seen": "2026-05-10T08:36:23Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1599,6 +1775,8 @@
     "last_seen": "2026-10-04T09:27:04Z",
     "times_seen": 3,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1617,6 +1795,8 @@
     "last_seen": "2026-10-18T12:53:23Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -1635,6 +1815,8 @@
     "last_seen": "2026-08-23T02:37:21Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1653,6 +1835,8 @@
     "last_seen": "2026-08-24T12:57:18Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1671,6 +1855,8 @@
     "last_seen": "2026-06-18T20:06:05Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1689,6 +1875,8 @@
     "last_seen": "2026-06-13T15:39:48Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1707,6 +1895,8 @@
     "last_seen": "2026-08-21T08:39:07Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1725,6 +1915,8 @@
     "last_seen": "2026-08-25T06:35:52Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1743,6 +1935,8 @@
     "last_seen": "2026-09-13T16:19:46Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1761,6 +1955,8 @@
     "last_seen": "2026-10-08T06:51:22Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1779,6 +1975,8 @@
     "last_seen": "2026-04-27T14:48:10Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1797,6 +1995,8 @@
     "last_seen": "2026-10-02T05:39:18Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1815,6 +2015,8 @@
     "last_seen": "2026-07-29T04:35:44Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1833,6 +2035,8 @@
     "last_seen": "2026-07-11T15:06:52Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1851,6 +2055,8 @@
     "last_seen": "2026-08-19T15:37:55Z",
     "times_seen": 4,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1869,6 +2075,8 @@
     "last_seen": "2026-07-07T10:18:38Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1887,6 +2095,8 @@
     "last_seen": "2026-10-11T17:38:12Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1905,6 +2115,8 @@
     "last_seen": "2026-08-26T19:48:52Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1923,6 +2135,8 @@
     "last_seen": "2026-07-24T00:27:36Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1941,6 +2155,8 @@
     "last_seen": "2026-07-22T21:57:12Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1959,6 +2175,8 @@
     "last_seen": "2026-04-06T13:48:53Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1977,6 +2195,8 @@
     "last_seen": "2026-05-25T12:46:47Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -1995,6 +2215,8 @@
     "last_seen": "2026-10-07T03:46:26Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2013,6 +2235,8 @@
     "last_seen": "2026-05-26T20:32:02Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2031,6 +2255,8 @@
     "last_seen": "2026-06-08T15:38:30Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2049,6 +2275,8 @@
     "last_seen": "2026-08-17T16:16:30Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2067,6 +2295,8 @@
     "last_seen": "2026-08-06T19:49:50Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2085,6 +2315,8 @@
     "last_seen": "2026-08-31T12:40:21Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2103,6 +2335,8 @@
     "last_seen": "2026-10-14T07:39:56Z",
     "times_seen": 4,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2121,6 +2355,8 @@
     "last_seen": "2026-09-30T22:17:57Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2139,6 +2375,8 @@
     "last_seen": "2026-08-16T14:58:43Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2157,6 +2395,8 @@
     "last_seen": "2026-09-10T14:02:13Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2175,6 +2415,8 @@
     "last_seen": "2026-07-21T23:19:13Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2193,6 +2435,8 @@
     "last_seen": "2026-08-09T10:07:49Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2211,6 +2455,8 @@
     "last_seen": "2026-08-02T12:45:51Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2229,6 +2475,8 @@
     "last_seen": "2026-08-12T10:34:42Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2247,6 +2495,8 @@
     "last_seen": "2026-07-15T07:34:41Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2265,6 +2515,8 @@
     "last_seen": "2026-06-18T19:44:52Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2283,6 +2535,8 @@
     "last_seen": "2026-05-01T01:07:12Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2301,6 +2555,8 @@
     "last_seen": "2026-07-10T15:51:13Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2319,6 +2575,8 @@
     "last_seen": "2026-06-13T16:13:39Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2337,6 +2595,8 @@
     "last_seen": "2026-05-17T16:30:08Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2355,6 +2615,8 @@
     "last_seen": "2026-07-13T22:11:53Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2373,6 +2635,8 @@
     "last_seen": "2026-07-21T06:46:10Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2391,6 +2655,8 @@
     "last_seen": "2026-07-19T08:06:58Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2409,6 +2675,8 @@
     "last_seen": "2026-05-07T17:41:31Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2427,6 +2695,8 @@
     "last_seen": "2026-08-22T00:17:34Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2445,6 +2715,8 @@
     "last_seen": "2026-06-30T13:11:47Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2463,6 +2735,8 @@
     "last_seen": "2026-05-28T22:41:00Z",
     "times_seen": 3,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2481,6 +2755,8 @@
     "last_seen": "2026-07-05T18:12:05Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2499,6 +2775,8 @@
     "last_seen": "2026-07-01T14:09:19Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2517,6 +2795,8 @@
     "last_seen": "2026-04-01T13:44:41Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2535,6 +2815,8 @@
     "last_seen": "2026-06-02T04:42:32Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2553,6 +2835,8 @@
     "last_seen": "2026-06-22T08:42:43Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2571,6 +2855,8 @@
     "last_seen": "2026-06-07T16:32:55Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2589,6 +2875,8 @@
     "last_seen": "2026-03-29T01:52:52Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2607,6 +2895,8 @@
     "last_seen": "2026-03-23T10:21:59Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -2625,6 +2915,8 @@
     "last_seen": "2026-05-04T23:07:46Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2643,6 +2935,8 @@
     "last_seen": "2026-03-23T13:14:39Z",
     "times_seen": 3,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -2661,6 +2955,8 @@
     "last_seen": "2026-05-11T10:36:56Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2679,6 +2975,8 @@
     "last_seen": "2026-06-11T20:04:28Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2697,6 +2995,8 @@
     "last_seen": "2026-05-06T15:40:00Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2715,6 +3015,8 @@
     "last_seen": "2026-06-01T07:40:00Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2733,6 +3035,8 @@
     "last_seen": "2026-09-02T12:33:42Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2751,6 +3055,8 @@
     "last_seen": "2026-08-16T23:52:36Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2769,6 +3075,8 @@
     "last_seen": "2026-05-31T07:00:03Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2787,6 +3095,8 @@
     "last_seen": "2026-08-11T15:29:58Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2805,6 +3115,8 @@
     "last_seen": "2026-09-17T04:11:36Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2823,6 +3135,8 @@
     "last_seen": "2026-03-30T00:24:02Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -2841,6 +3155,8 @@
     "last_seen": "2026-04-17T13:07:18Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2859,6 +3175,8 @@
     "last_seen": "2026-03-23T11:36:01Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -2877,6 +3195,8 @@
     "last_seen": "2026-03-23T11:33:53Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -2895,6 +3215,8 @@
     "last_seen": "2026-06-10T03:54:45Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2913,6 +3235,8 @@
     "last_seen": "2026-04-03T03:43:55Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2931,6 +3255,8 @@
     "last_seen": "2026-03-18T21:51:45Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -2949,6 +3275,8 @@
     "last_seen": "2026-03-13T17:27:15Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -2967,6 +3295,8 @@
     "last_seen": "2026-04-18T06:44:36Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -2985,6 +3315,8 @@
     "last_seen": "2026-06-09T11:25:34Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3003,6 +3335,8 @@
     "last_seen": "2026-10-06T06:54:33Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3021,6 +3355,8 @@
     "last_seen": "2026-10-14T07:21:34Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3039,6 +3375,8 @@
     "last_seen": "2026-08-25T03:51:28Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3057,6 +3395,8 @@
     "last_seen": "2026-06-05T14:16:27Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3075,6 +3415,8 @@
     "last_seen": "2026-08-21T05:12:07Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3093,6 +3435,8 @@
     "last_seen": "2026-08-27T19:50:37Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3111,6 +3455,8 @@
     "last_seen": "2026-06-09T16:46:01Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3129,6 +3475,8 @@
     "last_seen": "2026-09-24T06:53:39Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3147,6 +3495,8 @@
     "last_seen": "2026-06-04T19:03:01Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3165,6 +3515,8 @@
     "last_seen": "2026-04-22T08:30:16Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3183,6 +3535,8 @@
     "last_seen": "2026-08-17T18:32:36Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3201,6 +3555,8 @@
     "last_seen": "2026-07-03T08:17:26Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3219,6 +3575,8 @@
     "last_seen": "2026-07-26T13:41:06Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3237,6 +3595,8 @@
     "last_seen": "2026-05-12T07:43:07Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3255,6 +3615,8 @@
     "last_seen": "2026-09-14T00:11:39Z",
     "times_seen": 17,
     "current": true,
+    "discovered_at": "2026-03-13T17:57:49Z",
+    "new": false,
     "confidence": 85,
     "dual_use": true,
     "enrichment": {}
@@ -3273,6 +3635,8 @@
     "last_seen": "2026-07-24T00:41:31Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3291,6 +3655,8 @@
     "last_seen": "2026-08-18T23:36:27Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3309,6 +3675,8 @@
     "last_seen": "2026-06-05T01:00:48Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3327,6 +3695,8 @@
     "last_seen": "2026-03-29T01:52:42Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3345,6 +3715,8 @@
     "last_seen": "2026-03-28T02:45:41Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3363,6 +3735,8 @@
     "last_seen": "2026-03-26T14:26:11Z",
     "times_seen": 3,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3381,6 +3755,8 @@
     "last_seen": "2026-03-25T14:05:49Z",
     "times_seen": 3,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3399,6 +3775,8 @@
     "last_seen": "2026-04-23T18:08:00Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3417,6 +3795,8 @@
     "last_seen": "2026-05-27T11:19:39Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3435,6 +3815,8 @@
     "last_seen": "2026-09-01T13:49:31Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3453,6 +3835,8 @@
     "last_seen": "2026-05-10T08:36:45Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3471,6 +3855,8 @@
     "last_seen": "2026-09-14T15:16:55Z",
     "times_seen": 4,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3489,6 +3875,8 @@
     "last_seen": "2026-03-26T08:49:43Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-03-26T08:49:43Z",
+    "new": false,
     "confidence": 85,
     "dual_use": true,
     "enrichment": {}
@@ -3507,6 +3895,8 @@
     "last_seen": "2026-09-07T11:36:13Z",
     "times_seen": 4,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3525,6 +3915,8 @@
     "last_seen": "2026-09-09T07:44:28Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3543,6 +3935,8 @@
     "last_seen": "2026-08-16T11:58:40Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3561,6 +3955,8 @@
     "last_seen": "2026-04-29T21:29:08Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3579,6 +3975,8 @@
     "last_seen": "2026-05-02T02:00:34Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3597,6 +3995,8 @@
     "last_seen": "2026-08-26T07:02:27Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3615,6 +4015,8 @@
     "last_seen": "2026-04-17T12:57:22Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3633,6 +4035,8 @@
     "last_seen": "2026-08-14T07:46:34Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3652,6 +4056,8 @@
     "last_seen": "2026-03-16T01:59:25Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-03-15T23:04:41Z",
+    "new": false,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3670,6 +4076,8 @@
     "last_seen": "2026-03-21T00:02:31Z",
     "times_seen": 4,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -3688,6 +4096,8 @@
     "last_seen": "2026-10-09T18:28:40Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3706,6 +4116,8 @@
     "last_seen": "2026-10-18T12:53:47Z",
     "times_seen": 2,
     "current": true,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -3724,6 +4136,8 @@
     "last_seen": "2026-06-13T15:41:57Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3742,6 +4156,8 @@
     "last_seen": "2026-05-20T06:44:27Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3760,6 +4176,8 @@
     "last_seen": "2026-06-15T19:27:16Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3778,6 +4196,8 @@
     "last_seen": "2026-03-29T11:14:36Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3796,6 +4216,8 @@
     "last_seen": "2026-08-24T08:03:12Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3814,6 +4236,8 @@
     "last_seen": "2026-05-17T07:18:28Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3832,6 +4256,8 @@
     "last_seen": "2026-06-23T20:25:13Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3850,6 +4276,8 @@
     "last_seen": "2026-05-08T03:42:30Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3868,6 +4296,8 @@
     "last_seen": "2026-06-25T14:58:19Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3886,6 +4316,8 @@
     "last_seen": "2026-08-08T13:56:09Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3904,6 +4336,8 @@
     "last_seen": "2026-06-11T04:41:25Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3922,6 +4356,8 @@
     "last_seen": "2026-08-19T12:59:24Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3940,6 +4376,8 @@
     "last_seen": "2026-08-20T01:05:27Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3958,6 +4396,8 @@
     "last_seen": "2026-08-10T09:28:03Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3976,6 +4416,8 @@
     "last_seen": "2026-08-21T02:41:01Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3994,6 +4436,8 @@
     "last_seen": "2026-08-10T11:04:46Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -4012,6 +4456,8 @@
     "last_seen": "2026-09-25T14:35:54Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -4030,6 +4476,8 @@
     "last_seen": "2026-03-16T08:39:03Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -4048,6 +4496,8 @@
     "last_seen": "2026-05-07T12:17:17Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -4066,6 +4516,8 @@
     "last_seen": "2026-10-06T13:26:25Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -4084,6 +4536,8 @@
     "last_seen": "2026-09-06T19:19:55Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -4105,6 +4559,8 @@
     "last_seen": "2026-10-13T12:13:49Z",
     "times_seen": 13,
     "current": false,
+    "discovered_at": "2026-03-26T08:54:35Z",
+    "new": false,
     "confidence": 85,
     "dual_use": true,
     "enrichment": {}
@@ -4123,6 +4579,8 @@
     "last_seen": "2026-04-14T13:29:43Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-14T13:29:43Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -4144,6 +4602,8 @@
     "last_seen": "2026-04-14T21:08:36Z",
     "times_seen": 6,
     "current": true,
+    "discovered_at": "2026-04-14T13:31:09Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -4162,6 +4622,8 @@
     "last_seen": "2026-10-15T09:42:37Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -4180,6 +4642,8 @@
     "last_seen": "2026-05-04T19:16:58Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -4198,6 +4662,8 @@
     "last_seen": "2026-08-20T13:47:34Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -4216,6 +4682,8 @@
     "last_seen": "2026-08-20T23:22:40Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -4234,6 +4702,8 @@
     "last_seen": "2026-06-30T15:29:29Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -4252,6 +4722,8 @@
     "last_seen": "2026-10-18T12:53:47Z",
     "times_seen": 262,
     "current": true,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -4270,6 +4742,8 @@
     "last_seen": "2026-05-27T10:52:46Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-05-27T10:52:46Z",
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -4288,6 +4762,8 @@
     "last_seen": "2026-09-14T00:11:39Z",
     "times_seen": 24,
     "current": false,
+    "discovered_at": "2026-03-13T17:23:13Z",
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -4306,6 +4782,8 @@
     "last_seen": "2026-10-16T07:48:03Z",
     "times_seen": 29,
     "current": true,
+    "discovered_at": "2026-05-27T10:50:49Z",
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -4324,6 +4802,8 @@
     "last_seen": "2026-10-13T09:33:17Z",
     "times_seen": 24,
     "current": true,
+    "discovered_at": "2025-11-15T22:00:51Z",
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -4342,6 +4822,8 @@
     "last_seen": "2026-06-18T09:50:25Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-06-18T09:50:25Z",
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -4360,6 +4842,8 @@
     "last_seen": "2026-04-11T17:52:37Z",
     "times_seen": 5,
     "current": false,
+    "discovered_at": "2026-04-09T16:17:37Z",
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -4378,6 +4862,8 @@
     "last_seen": "2026-10-16T07:52:45Z",
     "times_seen": 42,
     "current": true,
+    "discovered_at": "2026-03-15T13:09:09Z",
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -4396,6 +4882,8 @@
     "last_seen": "2026-10-16T07:49:12Z",
     "times_seen": 84,
     "current": true,
+    "discovered_at": "2026-03-13T19:09:35Z",
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -4414,6 +4902,8 @@
     "last_seen": "2026-10-18T12:53:53Z",
     "times_seen": 9,
     "current": true,
+    "discovered_at": "2026-10-14T09:13:08Z",
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -4432,6 +4922,8 @@
     "last_seen": "2026-08-16T13:16:12Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -4450,6 +4942,8 @@
     "last_seen": "2026-03-11T18:54:01Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-03-11T18:54:01Z",
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -4468,6 +4962,8 @@
     "last_seen": "2026-04-14T14:02:51Z",
     "times_seen": 3,
     "current": false,
+    "discovered_at": "2026-04-14T13:38:11Z",
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -4486,6 +4982,8 @@
     "last_seen": "2026-06-28T09:02:17Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-06-28T08:43:22Z",
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -4504,6 +5002,8 @@
     "last_seen": "2026-10-16T07:51:21Z",
     "times_seen": 29,
     "current": true,
+    "discovered_at": "2026-04-14T14:21:53Z",
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -4522,6 +5022,8 @@
     "last_seen": "2026-03-13T18:29:03Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-03-13T18:27:37Z",
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -4540,6 +5042,8 @@
     "last_seen": "2026-08-30T14:49:24Z",
     "times_seen": 11,
     "current": false,
+    "discovered_at": "2026-06-25T16:19:28Z",
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -4558,24 +5062,8 @@
     "last_seen": "2026-04-14T13:46:19Z",
     "times_seen": 4,
     "current": false,
-    "confidence": 90,
-    "dual_use": false,
-    "enrichment": {}
-  },
-  {
-    "type": "evm-contract",
-    "value": "0xaeb4017bc95ee3109225b4a6a32e0c0018073682",
-    "port": null,
-    "family": "unknown",
-    "cluster_id": "c-a82c7acf",
-    "chain": "polygon",
-    "contracts": [
-      "0xaeb4017bc95ee3109225b4a6a32e0c0018073682"
-    ],
-    "first_seen": "2026-08-16T13:19:54Z",
-    "last_seen": "2026-08-16T13:19:54Z",
-    "times_seen": 1,
-    "current": false,
+    "discovered_at": "2026-04-14T13:23:19Z",
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -4594,6 +5082,8 @@
     "last_seen": "2025-11-15T21:38:01Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2025-11-15T21:29:25Z",
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -4612,6 +5102,8 @@
     "last_seen": "2026-04-27T09:28:54Z",
     "times_seen": 3,
     "current": false,
+    "discovered_at": "2026-04-15T10:15:02Z",
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -4630,6 +5122,8 @@
     "last_seen": "2026-04-14T14:24:19Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-04-14T14:05:05Z",
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -4656,6 +5150,8 @@
     "last_seen": "2026-10-16T07:52:45Z",
     "times_seen": 197,
     "current": true,
+    "discovered_at": "2026-03-13T19:09:35Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -4678,6 +5174,8 @@
     "last_seen": "2026-09-14T00:11:39Z",
     "times_seen": 40,
     "current": false,
+    "discovered_at": "2026-03-13T17:23:13Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -4699,6 +5197,8 @@
     "last_seen": "2026-10-18T12:53:53Z",
     "times_seen": 277,
     "current": true,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -4717,24 +5217,8 @@
     "last_seen": "2026-08-16T13:16:12Z",
     "times_seen": 1,
     "current": false,
-    "confidence": 85,
-    "dual_use": false,
-    "enrichment": {}
-  },
-  {
-    "type": "evm-wallet",
-    "value": "0xa82c7acf60ab7d8a409f82168f67394520b5d2c7",
-    "port": null,
-    "family": "unknown",
-    "cluster_id": "c-a82c7acf",
-    "chain": "polygon",
-    "contracts": [
-      "0xaeb4017bc95ee3109225b4a6a32e0c0018073682"
-    ],
-    "first_seen": "2026-08-16T13:19:54Z",
-    "last_seen": "2026-08-16T13:19:54Z",
-    "times_seen": 1,
-    "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -4754,6 +5238,8 @@
     "last_seen": "2026-10-13T09:33:17Z",
     "times_seen": 26,
     "current": true,
+    "discovered_at": "2025-11-15T21:29:25Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -4772,6 +5258,8 @@
     "last_seen": "2026-01-05T11:44:34Z",
     "times_seen": 6,
     "current": false,
+    "discovered_at": "2025-12-08T11:46:29Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -4790,6 +5278,8 @@
     "last_seen": "2025-09-25T10:38:35Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2025-09-25T09:59:37Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -4809,6 +5299,8 @@
     "last_seen": "2026-05-25T18:53:18Z",
     "times_seen": 9,
     "current": false,
+    "discovered_at": "2026-04-15T05:44:28Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -4827,6 +5319,8 @@
     "last_seen": "2026-01-29T19:57:31Z",
     "times_seen": 3,
     "current": false,
+    "discovered_at": "2026-01-22T14:30:42Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -4848,6 +5342,8 @@
     "last_seen": "2026-09-06T09:45:09Z",
     "times_seen": 15,
     "current": true,
+    "discovered_at": "2026-05-26T14:01:02Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -4868,6 +5364,8 @@
     "last_seen": "2026-07-30T08:44:27Z",
     "times_seen": 19,
     "current": false,
+    "discovered_at": "2026-05-27T10:58:11Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -4886,6 +5384,8 @@
     "last_seen": "2026-10-13T09:33:17Z",
     "times_seen": 2,
     "current": true,
+    "discovered_at": "2026-10-13T09:33:04Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -4904,6 +5404,8 @@
     "last_seen": "2026-01-01T17:17:43Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-01-01T17:17:43Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -4922,6 +5424,8 @@
     "last_seen": "2026-04-05T11:07:17Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-05T11:07:17Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -4940,6 +5444,8 @@
     "last_seen": "2026-05-14T08:55:52Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-05-14T08:55:52Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -4958,6 +5464,8 @@
     "last_seen": "2025-12-27T21:28:31Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-27T21:28:31Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -4978,6 +5486,8 @@
     "last_seen": "2026-05-29T17:18:18Z",
     "times_seen": 4,
     "current": false,
+    "discovered_at": "2026-05-29T17:15:57Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -4996,6 +5506,8 @@
     "last_seen": "2026-10-13T09:33:04Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-09-17T19:33:16Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -5014,6 +5526,8 @@
     "last_seen": "2026-06-21T07:01:41Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-06-21T07:01:41Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -5032,6 +5546,8 @@
     "last_seen": "2026-05-09T21:57:18Z",
     "times_seen": 4,
     "current": false,
+    "discovered_at": "2026-04-14T14:41:07Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -5050,6 +5566,8 @@
     "last_seen": "2026-09-17T19:33:16Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-08-11T08:06:16Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -5068,6 +5586,8 @@
     "last_seen": "2026-02-11T09:56:57Z",
     "times_seen": 4,
     "current": false,
+    "discovered_at": "2026-02-09T21:02:46Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5086,6 +5606,8 @@
     "last_seen": "2025-11-06T09:39:05Z",
     "times_seen": 3,
     "current": false,
+    "discovered_at": "2025-10-23T10:31:38Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5104,6 +5626,8 @@
     "last_seen": "2025-10-30T09:49:38Z",
     "times_seen": 3,
     "current": false,
+    "discovered_at": "2025-10-23T11:14:47Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5122,6 +5646,8 @@
     "last_seen": "2026-09-06T09:44:00Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-09-06T09:44:00Z",
+    "new": false,
     "confidence": 60,
     "dual_use": false,
     "enrichment": {}
@@ -5140,6 +5666,8 @@
     "last_seen": "2026-04-30T16:16:30Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-30T16:16:30Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5158,6 +5686,8 @@
     "last_seen": "2026-04-30T16:16:30Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-30T16:16:30Z",
+    "new": false,
     "confidence": 60,
     "dual_use": false,
     "enrichment": {}
@@ -5176,6 +5706,8 @@
     "last_seen": "2026-03-17T13:53:59Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-03-17T13:53:59Z",
+    "new": false,
     "confidence": 60,
     "dual_use": false,
     "enrichment": {}
@@ -5194,6 +5726,8 @@
     "last_seen": "2026-04-14T14:34:53Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-14T14:34:53Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -5213,6 +5747,8 @@
     "last_seen": "2026-04-14T14:35:31Z",
     "times_seen": 48,
     "current": false,
+    "discovered_at": "2026-03-13T19:29:37Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -5231,6 +5767,8 @@
     "last_seen": "2026-01-26T07:11:28Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-01-26T07:11:28Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -5249,6 +5787,8 @@
     "last_seen": "2026-04-15T18:50:02Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-15T18:50:02Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -5267,6 +5807,8 @@
     "last_seen": "2026-06-04T13:44:03Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-06-04T13:44:03Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -5285,6 +5827,8 @@
     "last_seen": "2026-03-19T11:11:05Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-03-19T11:11:05Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -5303,6 +5847,8 @@
     "last_seen": "2026-03-15T16:46:07Z",
     "times_seen": 3,
     "current": false,
+    "discovered_at": "2026-03-13T10:24:08Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5321,6 +5867,8 @@
     "last_seen": "2026-03-25T19:07:24Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-03-13T10:26:31Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5339,6 +5887,8 @@
     "last_seen": "2026-03-25T19:07:24Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-03-13T10:26:31Z",
+    "new": false,
     "confidence": 60,
     "dual_use": false,
     "enrichment": {}
@@ -5357,6 +5907,8 @@
     "last_seen": "2026-02-09T14:26:44Z",
     "times_seen": 9,
     "current": false,
+    "discovered_at": "2026-01-22T14:10:07Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5375,6 +5927,8 @@
     "last_seen": "2026-01-29T12:42:22Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-01-29T12:42:22Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5394,6 +5948,8 @@
     "last_seen": "2025-12-04T18:16:05Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2025-11-27T12:03:07Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5412,6 +5968,8 @@
     "last_seen": "2026-03-10T12:36:57Z",
     "times_seen": 5,
     "current": false,
+    "discovered_at": "2026-02-25T17:15:42Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5431,6 +5989,8 @@
     "last_seen": "2026-02-25T21:31:40Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-02-25T17:47:25Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5450,6 +6010,8 @@
     "last_seen": "2026-02-25T21:31:40Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-02-25T17:47:25Z",
+    "new": false,
     "confidence": 60,
     "dual_use": false,
     "enrichment": {}
@@ -5468,6 +6030,8 @@
     "last_seen": "2025-12-04T18:17:35Z",
     "times_seen": 3,
     "current": false,
+    "discovered_at": "2025-11-14T18:16:11Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5486,6 +6050,8 @@
     "last_seen": "2026-04-22T10:09:54Z",
     "times_seen": 10,
     "current": false,
+    "discovered_at": "2026-03-24T15:44:52Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5504,6 +6070,8 @@
     "last_seen": "2026-04-09T18:51:20Z",
     "times_seen": 4,
     "current": false,
+    "discovered_at": "2026-03-25T19:09:22Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5522,6 +6090,8 @@
     "last_seen": "2026-04-09T18:51:20Z",
     "times_seen": 4,
     "current": false,
+    "discovered_at": "2026-03-25T19:09:22Z",
+    "new": false,
     "confidence": 60,
     "dual_use": false,
     "enrichment": {}
@@ -5540,6 +6110,8 @@
     "last_seen": "2026-05-14T19:44:08Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-05-14T19:44:08Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5558,6 +6130,8 @@
     "last_seen": "2026-05-14T19:44:08Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-05-14T19:44:08Z",
+    "new": false,
     "confidence": 60,
     "dual_use": false,
     "enrichment": {}
@@ -5576,6 +6150,8 @@
     "last_seen": "2026-05-14T19:53:44Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-05-14T19:53:44Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5594,6 +6170,8 @@
     "last_seen": "2026-05-14T19:53:44Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-05-14T19:53:44Z",
+    "new": false,
     "confidence": 60,
     "dual_use": false,
     "enrichment": {}
@@ -5612,6 +6190,8 @@
     "last_seen": "2025-10-21T22:43:42Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2025-10-15T14:03:31Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5630,6 +6210,8 @@
     "last_seen": "2025-10-21T04:56:12Z",
     "times_seen": 7,
     "current": false,
+    "discovered_at": "2025-10-01T11:43:43Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5649,6 +6231,8 @@
     "last_seen": "2026-04-22T10:05:45Z",
     "times_seen": 14,
     "current": false,
+    "discovered_at": "2026-03-09T08:26:13Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5667,6 +6251,8 @@
     "last_seen": "2026-04-23T12:23:41Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-23T12:23:41Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5685,6 +6271,8 @@
     "last_seen": "2026-04-23T12:23:41Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-23T12:23:41Z",
+    "new": false,
     "confidence": 60,
     "dual_use": false,
     "enrichment": {}
@@ -5703,6 +6291,8 @@
     "last_seen": "2026-04-24T16:11:04Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-24T16:11:04Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5723,6 +6313,8 @@
     "last_seen": "2026-05-28T09:20:10Z",
     "times_seen": 3,
     "current": false,
+    "discovered_at": "2026-05-28T09:17:34Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5741,6 +6333,8 @@
     "last_seen": "2026-06-26T13:17:53Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-06-26T13:17:53Z",
+    "new": false,
     "confidence": 60,
     "dual_use": false,
     "enrichment": {}
@@ -5759,6 +6353,8 @@
     "last_seen": "2026-04-22T10:10:39Z",
     "times_seen": 16,
     "current": false,
+    "discovered_at": "2026-03-02T14:17:44Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5778,6 +6374,8 @@
     "last_seen": "2026-02-14T16:05:55Z",
     "times_seen": 12,
     "current": false,
+    "discovered_at": "2026-02-09T20:51:40Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5796,6 +6394,8 @@
     "last_seen": "2026-02-10T11:01:41Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-02-10T11:01:41Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5816,6 +6416,8 @@
     "last_seen": "2026-01-12T20:37:01Z",
     "times_seen": 21,
     "current": false,
+    "discovered_at": "2025-12-06T14:52:14Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5834,6 +6436,8 @@
     "last_seen": "2025-12-12T16:51:38Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-12T16:51:38Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5852,6 +6456,8 @@
     "last_seen": "2026-03-13T09:25:22Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-03-13T09:25:22Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5870,6 +6476,8 @@
     "last_seen": "2025-11-12T16:13:05Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-11-12T16:13:05Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5888,6 +6496,8 @@
     "last_seen": "2025-11-12T14:35:43Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-11-12T14:35:43Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5906,6 +6516,8 @@
     "last_seen": "2026-04-24T16:09:21Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-24T16:09:21Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5924,6 +6536,8 @@
     "last_seen": "2026-04-24T17:29:32Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-24T17:29:32Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -5942,6 +6556,8 @@
     "last_seen": "2026-04-24T17:29:32Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-24T17:29:32Z",
+    "new": false,
     "confidence": 60,
     "dual_use": false,
     "enrichment": {}
@@ -5960,6 +6576,8 @@
     "last_seen": "2026-07-29T06:59:36Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-07-29T06:59:36Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -5978,6 +6596,8 @@
     "last_seen": "2026-09-06T22:23:01Z",
     "times_seen": 7,
     "current": false,
+    "discovered_at": "2026-03-26T15:51:31Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -5996,6 +6616,8 @@
     "last_seen": "2026-01-13T19:39:30Z",
     "times_seen": 9,
     "current": false,
+    "discovered_at": "2025-12-24T15:34:49Z",
+    "new": false,
     "confidence": 70,
     "dual_use": false,
     "enrichment": {}
@@ -6016,6 +6638,8 @@
     "last_seen": "2026-10-09T10:41:31Z",
     "times_seen": 6,
     "current": false,
+    "discovered_at": "2026-10-09T10:01:36Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6034,6 +6658,8 @@
     "last_seen": "2026-10-16T07:51:21Z",
     "times_seen": 2,
     "current": true,
+    "discovered_at": "2026-10-13T12:13:49Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6054,6 +6680,8 @@
     "last_seen": "2026-10-16T07:52:45Z",
     "times_seen": 39,
     "current": true,
+    "discovered_at": "2026-09-20T18:12:39Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6072,6 +6700,8 @@
     "last_seen": "2025-12-22T12:08:53Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-22T12:08:53Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6090,6 +6720,8 @@
     "last_seen": "2026-09-08T09:35:39Z",
     "times_seen": 10,
     "current": false,
+    "discovered_at": "2026-05-14T20:09:06Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6108,6 +6740,8 @@
     "last_seen": "2026-07-13T18:59:01Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-07-13T18:59:01Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6126,6 +6760,8 @@
     "last_seen": "2025-12-11T19:24:17Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-11T19:24:17Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6144,6 +6780,8 @@
     "last_seen": "2026-06-04T22:00:34Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-06-04T22:00:34Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6164,6 +6802,8 @@
     "last_seen": "2026-09-10T09:39:12Z",
     "times_seen": 9,
     "current": false,
+    "discovered_at": "2026-09-08T19:38:51Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6184,6 +6824,8 @@
     "last_seen": "2026-09-08T19:41:58Z",
     "times_seen": 7,
     "current": false,
+    "discovered_at": "2026-08-05T14:18:11Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6204,6 +6846,8 @@
     "last_seen": "2026-09-20T18:15:13Z",
     "times_seen": 6,
     "current": false,
+    "discovered_at": "2026-09-20T06:13:25Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6222,6 +6866,8 @@
     "last_seen": "2026-05-03T15:48:58Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-05-03T15:48:58Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6240,6 +6886,8 @@
     "last_seen": "2026-04-22T13:39:02Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-22T13:39:02Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6258,6 +6906,8 @@
     "last_seen": "2026-02-08T20:22:31Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-02-08T20:22:31Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6276,6 +6926,8 @@
     "last_seen": "2026-02-27T19:47:29Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-02-27T19:47:29Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6296,6 +6948,8 @@
     "last_seen": "2026-09-11T11:57:03Z",
     "times_seen": 6,
     "current": false,
+    "discovered_at": "2026-09-10T09:37:30Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6316,6 +6970,8 @@
     "last_seen": "2026-09-22T05:35:58Z",
     "times_seen": 15,
     "current": false,
+    "discovered_at": "2026-09-11T11:54:55Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6336,6 +6992,8 @@
     "last_seen": "2026-09-24T14:46:14Z",
     "times_seen": 6,
     "current": false,
+    "discovered_at": "2026-09-24T02:28:55Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6354,6 +7012,8 @@
     "last_seen": "2025-11-16T11:37:19Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-11-16T11:37:19Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6372,6 +7032,8 @@
     "last_seen": "2026-01-05T11:44:34Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-01-05T11:44:34Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -6390,6 +7052,8 @@
     "last_seen": "2025-12-08T12:52:34Z",
     "times_seen": 3,
     "current": false,
+    "discovered_at": "2025-12-08T12:42:08Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -6408,6 +7072,8 @@
     "last_seen": "2025-12-20T20:28:53Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-20T20:28:53Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -6426,6 +7092,8 @@
     "last_seen": "2025-12-08T11:46:29Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-08T11:46:29Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -6444,6 +7112,8 @@
     "last_seen": "2025-09-25T10:38:35Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2025-09-25T09:59:37Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -6462,6 +7132,8 @@
     "last_seen": "2025-09-25T10:38:35Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2025-09-25T09:59:37Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -6480,6 +7152,8 @@
     "last_seen": "2025-11-16T08:45:37Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-11-16T08:45:37Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6498,6 +7172,8 @@
     "last_seen": "2026-01-29T19:57:31Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-01-29T19:57:31Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -6516,6 +7192,8 @@
     "last_seen": "2026-01-22T14:30:42Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-01-22T14:30:42Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -6534,6 +7212,8 @@
     "last_seen": "2026-01-24T16:21:06Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-01-24T16:21:06Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -6552,6 +7232,8 @@
     "last_seen": "2026-05-29T17:17:04Z",
     "times_seen": 4,
     "current": true,
+    "discovered_at": "2026-05-26T14:01:02Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -6570,6 +7252,8 @@
     "last_seen": "2026-09-06T09:45:09Z",
     "times_seen": 3,
     "current": true,
+    "discovered_at": "2026-05-26T14:01:27Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -6588,6 +7272,8 @@
     "last_seen": "2026-05-29T17:19:20Z",
     "times_seen": 3,
     "current": true,
+    "discovered_at": "2026-05-26T14:01:23Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -6606,6 +7292,8 @@
     "last_seen": "2026-05-29T19:43:04Z",
     "times_seen": 5,
     "current": true,
+    "discovered_at": "2026-05-26T14:01:07Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -6624,6 +7312,8 @@
     "last_seen": "2026-10-13T09:33:17Z",
     "times_seen": 2,
     "current": true,
+    "discovered_at": "2026-10-13T09:33:04Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6642,6 +7332,8 @@
     "last_seen": "2026-01-01T17:17:43Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-01-01T17:17:43Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6660,6 +7352,8 @@
     "last_seen": "2026-04-05T11:07:17Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-05T11:07:17Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6678,6 +7372,8 @@
     "last_seen": "2026-05-14T08:55:52Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-05-14T08:55:52Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6696,6 +7392,8 @@
     "last_seen": "2025-12-27T21:28:31Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-27T21:28:31Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6714,6 +7412,8 @@
     "last_seen": "2026-05-29T17:15:57Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-05-29T17:15:57Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -6733,6 +7433,8 @@
     "last_seen": "2026-05-29T17:18:18Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-05-29T17:16:34Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -6751,6 +7453,8 @@
     "last_seen": "2026-05-29T17:17:41Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-05-29T17:17:41Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -6769,6 +7473,8 @@
     "last_seen": "2026-10-13T09:33:04Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-09-17T19:33:16Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6787,6 +7493,8 @@
     "last_seen": "2026-06-21T07:01:41Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-06-21T07:01:41Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6805,6 +7513,8 @@
     "last_seen": "2026-09-17T19:33:16Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-08-11T08:06:16Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6823,6 +7533,8 @@
     "last_seen": "2026-02-10T22:55:01Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-02-10T22:55:01Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -6841,6 +7553,8 @@
     "last_seen": "2026-02-09T21:19:43Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-02-09T21:19:43Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -6859,6 +7573,8 @@
     "last_seen": "2026-02-09T21:02:46Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-02-09T21:02:46Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -6877,6 +7593,8 @@
     "last_seen": "2026-02-11T09:56:57Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-02-11T09:56:57Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -6895,6 +7613,8 @@
     "last_seen": "2025-10-30T09:49:38Z",
     "times_seen": 3,
     "current": false,
+    "discovered_at": "2025-10-23T11:14:47Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -6913,6 +7633,8 @@
     "last_seen": "2025-10-23T10:31:38Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-10-23T10:31:38Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -6931,6 +7653,8 @@
     "last_seen": "2025-10-27T14:47:02Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-10-27T14:47:02Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -6949,6 +7673,8 @@
     "last_seen": "2025-11-06T09:39:05Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-11-06T09:39:05Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -6967,6 +7693,8 @@
     "last_seen": "2025-10-30T09:49:38Z",
     "times_seen": 3,
     "current": false,
+    "discovered_at": "2025-10-23T11:14:47Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -6985,6 +7713,8 @@
     "last_seen": "2026-09-06T09:44:00Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-09-06T09:44:00Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7003,6 +7733,8 @@
     "last_seen": "2026-04-30T16:16:30Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-30T16:16:30Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7021,6 +7753,8 @@
     "last_seen": "2026-01-26T07:11:28Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-01-26T07:11:28Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -7039,6 +7773,8 @@
     "last_seen": "2026-04-15T18:50:02Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-15T18:50:02Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -7057,6 +7793,8 @@
     "last_seen": "2026-06-04T13:44:03Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-06-04T13:44:03Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -7075,6 +7813,8 @@
     "last_seen": "2026-03-19T11:11:05Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-03-19T11:11:05Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -7093,6 +7833,8 @@
     "last_seen": "2026-03-13T10:26:31Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-03-13T10:26:31Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7111,6 +7853,8 @@
     "last_seen": "2026-03-15T16:46:07Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-03-15T16:46:07Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7129,6 +7873,8 @@
     "last_seen": "2026-03-13T12:57:05Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-03-13T12:57:05Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7147,6 +7893,8 @@
     "last_seen": "2026-03-13T10:24:08Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-03-13T10:24:08Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7165,6 +7913,8 @@
     "last_seen": "2026-03-25T19:07:24Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-03-13T10:26:31Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7183,6 +7933,8 @@
     "last_seen": "2026-01-29T12:42:22Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-01-29T12:42:22Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7201,6 +7953,8 @@
     "last_seen": "2026-01-24T15:42:33Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-01-24T15:42:33Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7219,6 +7973,8 @@
     "last_seen": "2026-01-29T14:09:06Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-01-29T14:09:06Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7237,6 +7993,8 @@
     "last_seen": "2026-01-28T16:18:04Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-01-28T16:18:04Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7255,6 +8013,8 @@
     "last_seen": "2026-02-09T14:23:51Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-02-09T14:10:07Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7273,6 +8033,8 @@
     "last_seen": "2026-01-28T14:04:34Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-01-28T14:04:34Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7291,6 +8053,8 @@
     "last_seen": "2026-02-09T14:26:44Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-02-09T14:26:44Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7309,6 +8073,8 @@
     "last_seen": "2026-01-22T14:10:07Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-01-22T14:10:07Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7327,6 +8093,8 @@
     "last_seen": "2026-01-22T14:26:25Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-01-22T14:26:25Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7345,6 +8113,8 @@
     "last_seen": "2026-01-29T12:42:22Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-01-29T12:42:22Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7364,6 +8134,8 @@
     "last_seen": "2025-12-04T18:16:05Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2025-11-27T12:03:07Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7383,6 +8155,8 @@
     "last_seen": "2026-02-25T21:31:40Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-02-25T17:47:25Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7401,6 +8175,8 @@
     "last_seen": "2026-02-25T21:32:09Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-02-25T21:32:09Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7419,6 +8195,8 @@
     "last_seen": "2026-02-25T17:15:42Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-02-25T17:15:42Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7437,6 +8215,8 @@
     "last_seen": "2026-03-07T12:35:08Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-02-28T13:32:53Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7455,6 +8235,8 @@
     "last_seen": "2026-03-10T12:36:57Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-03-10T12:36:57Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7474,6 +8256,8 @@
     "last_seen": "2026-02-25T21:31:40Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-02-25T17:47:25Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7492,6 +8276,8 @@
     "last_seen": "2025-11-14T18:16:11Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-11-14T18:16:11Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7510,6 +8296,8 @@
     "last_seen": "2025-12-04T18:17:35Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-04T18:17:35Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7528,6 +8316,8 @@
     "last_seen": "2025-11-22T19:42:27Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-11-22T19:42:27Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7546,6 +8336,8 @@
     "last_seen": "2026-04-22T10:09:54Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-22T10:09:54Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7564,6 +8356,8 @@
     "last_seen": "2026-04-03T16:04:58Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-03T16:04:58Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7582,6 +8376,8 @@
     "last_seen": "2026-04-15T10:14:08Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-15T10:14:08Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7600,6 +8396,8 @@
     "last_seen": "2026-03-24T15:44:52Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-03-24T15:44:52Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7618,6 +8416,8 @@
     "last_seen": "2026-04-08T15:40:31Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-08T15:40:31Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7636,6 +8436,8 @@
     "last_seen": "2026-03-26T17:10:50Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-03-26T17:10:50Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7654,6 +8456,8 @@
     "last_seen": "2026-04-05T21:13:14Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-05T21:13:14Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7672,6 +8476,8 @@
     "last_seen": "2026-04-06T13:42:00Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-06T13:42:00Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7690,6 +8496,8 @@
     "last_seen": "2026-03-26T06:53:46Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-03-26T06:53:46Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7708,6 +8516,8 @@
     "last_seen": "2026-04-09T11:03:39Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-09T11:03:39Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7726,6 +8536,8 @@
     "last_seen": "2026-04-09T18:51:20Z",
     "times_seen": 4,
     "current": false,
+    "discovered_at": "2026-03-25T19:09:22Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7744,6 +8556,8 @@
     "last_seen": "2026-05-14T19:53:44Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-05-14T19:53:44Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7762,6 +8576,8 @@
     "last_seen": "2026-05-14T19:44:08Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-05-14T19:44:08Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7780,6 +8596,8 @@
     "last_seen": "2025-10-21T04:56:12Z",
     "times_seen": 7,
     "current": false,
+    "discovered_at": "2025-10-01T11:43:43Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7798,6 +8616,8 @@
     "last_seen": "2025-10-21T22:43:42Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-10-21T22:43:42Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7816,6 +8636,8 @@
     "last_seen": "2025-10-15T14:03:31Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-10-15T14:03:31Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7834,6 +8656,8 @@
     "last_seen": "2025-10-21T04:56:12Z",
     "times_seen": 7,
     "current": false,
+    "discovered_at": "2025-10-01T11:43:43Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7852,6 +8676,8 @@
     "last_seen": "2026-03-09T08:26:13Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-03-09T08:26:13Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7870,6 +8696,8 @@
     "last_seen": "2026-03-11T13:13:36Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-03-11T13:12:43Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7888,6 +8716,8 @@
     "last_seen": "2026-04-09T11:02:48Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-09T11:02:48Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7906,6 +8736,8 @@
     "last_seen": "2026-03-16T11:42:45Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-03-16T11:42:45Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7925,6 +8757,8 @@
     "last_seen": "2026-04-03T16:06:03Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-04-03T16:05:30Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7943,6 +8777,8 @@
     "last_seen": "2026-04-05T21:14:12Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-05T21:14:12Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7961,6 +8797,8 @@
     "last_seen": "2026-04-08T15:41:31Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-08T15:41:31Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7979,6 +8817,8 @@
     "last_seen": "2026-04-06T13:42:51Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-06T13:42:51Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -7997,6 +8837,8 @@
     "last_seen": "2026-04-15T10:13:26Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-15T10:13:26Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8015,6 +8857,8 @@
     "last_seen": "2026-04-22T10:05:45Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-22T10:05:45Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8033,6 +8877,8 @@
     "last_seen": "2026-03-26T17:16:01Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-03-26T17:16:01Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8051,6 +8897,8 @@
     "last_seen": "2026-03-11T14:27:29Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-03-11T14:27:29Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8069,6 +8917,8 @@
     "last_seen": "2026-04-23T12:23:41Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-23T12:23:41Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8087,6 +8937,8 @@
     "last_seen": "2026-04-24T16:11:04Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-24T16:11:04Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8105,6 +8957,8 @@
     "last_seen": "2026-05-28T09:17:34Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-05-28T09:17:34Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8123,6 +8977,8 @@
     "last_seen": "2026-05-28T09:18:17Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-05-28T09:18:17Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8141,6 +8997,8 @@
     "last_seen": "2026-05-28T09:20:10Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-05-28T09:20:10Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8159,6 +9017,8 @@
     "last_seen": "2026-06-26T13:17:53Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-06-26T13:17:53Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8177,6 +9037,8 @@
     "last_seen": "2026-04-08T15:42:07Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-04-08T15:42:02Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8195,6 +9057,8 @@
     "last_seen": "2026-03-16T11:45:31Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-03-16T11:45:31Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8213,6 +9077,8 @@
     "last_seen": "2026-03-03T12:20:46Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-03-03T12:20:46Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8231,6 +9097,8 @@
     "last_seen": "2026-04-09T11:04:09Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-09T11:04:09Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8249,6 +9117,8 @@
     "last_seen": "2026-04-11T09:35:48Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-11T09:35:48Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8267,6 +9137,8 @@
     "last_seen": "2026-04-22T10:10:39Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-04-22T10:06:37Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8285,6 +9157,8 @@
     "last_seen": "2026-04-05T19:41:14Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-05T19:41:14Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8303,6 +9177,8 @@
     "last_seen": "2026-03-13T14:54:10Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-03-13T14:54:10Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8321,6 +9197,8 @@
     "last_seen": "2026-03-26T17:14:32Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-03-26T17:14:32Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8339,6 +9217,8 @@
     "last_seen": "2026-04-06T13:43:45Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-06T13:43:45Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8357,6 +9237,8 @@
     "last_seen": "2026-04-05T20:17:06Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-05T20:17:06Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8375,6 +9257,8 @@
     "last_seen": "2026-03-02T14:17:44Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-03-02T14:17:44Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8393,6 +9277,8 @@
     "last_seen": "2026-03-26T07:01:47Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-03-26T07:01:47Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8411,6 +9297,8 @@
     "last_seen": "2026-04-10T17:35:42Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-10T17:35:42Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8429,6 +9317,8 @@
     "last_seen": "2026-02-10T11:01:41Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-02-10T11:01:41Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8447,6 +9337,8 @@
     "last_seen": "2026-02-11T09:36:33Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-02-11T09:36:33Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8465,6 +9357,8 @@
     "last_seen": "2026-02-09T20:51:40Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-02-09T20:51:40Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8483,6 +9377,8 @@
     "last_seen": "2026-02-10T10:55:56Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-02-10T10:55:56Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8502,6 +9398,8 @@
     "last_seen": "2026-02-10T22:49:20Z",
     "times_seen": 6,
     "current": false,
+    "discovered_at": "2026-02-10T18:55:51Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8520,6 +9418,8 @@
     "last_seen": "2026-02-10T23:24:12Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-02-10T23:24:12Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8538,6 +9438,8 @@
     "last_seen": "2026-02-14T16:05:55Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-02-14T16:05:55Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8556,6 +9458,8 @@
     "last_seen": "2026-02-09T21:16:58Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-02-09T21:16:58Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8574,6 +9478,8 @@
     "last_seen": "2026-02-10T11:01:41Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-02-10T11:01:41Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8592,6 +9498,8 @@
     "last_seen": "2025-12-12T16:51:38Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-12T16:51:38Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8610,6 +9518,8 @@
     "last_seen": "2025-12-20T17:20:42Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-20T17:20:42Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8628,6 +9538,8 @@
     "last_seen": "2025-12-20T12:00:45Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-20T12:00:45Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8646,6 +9558,8 @@
     "last_seen": "2026-01-05T11:31:48Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-01-05T11:31:48Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8664,6 +9578,8 @@
     "last_seen": "2025-12-21T12:17:25Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-21T12:17:25Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8682,6 +9598,8 @@
     "last_seen": "2025-12-20T09:28:19Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-20T09:28:19Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8700,6 +9618,8 @@
     "last_seen": "2025-12-21T17:23:03Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-21T17:23:03Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8718,6 +9638,8 @@
     "last_seen": "2025-12-21T17:09:39Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-21T17:09:39Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8736,6 +9658,8 @@
     "last_seen": "2025-12-20T19:11:36Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-20T19:11:36Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8754,6 +9678,8 @@
     "last_seen": "2025-12-21T17:47:34Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-21T17:47:34Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8772,6 +9698,8 @@
     "last_seen": "2025-12-20T19:05:35Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-20T19:05:35Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8791,6 +9719,8 @@
     "last_seen": "2025-12-08T12:26:52Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2025-12-06T14:52:14Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8809,6 +9739,8 @@
     "last_seen": "2026-01-12T17:35:40Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-01-12T17:35:40Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8827,6 +9759,8 @@
     "last_seen": "2025-12-20T16:08:30Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-20T16:08:30Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8845,6 +9779,8 @@
     "last_seen": "2025-12-21T18:04:09Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-21T18:04:09Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8863,6 +9799,8 @@
     "last_seen": "2025-12-21T17:52:03Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-21T17:52:03Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8881,6 +9819,8 @@
     "last_seen": "2025-12-17T15:36:48Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2025-12-17T15:36:27Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8899,6 +9839,8 @@
     "last_seen": "2025-12-20T10:38:07Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-20T10:38:07Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8917,6 +9859,8 @@
     "last_seen": "2025-12-20T16:45:49Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-20T16:45:49Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8935,6 +9879,8 @@
     "last_seen": "2026-01-12T20:37:01Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-01-12T20:37:01Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8953,6 +9899,8 @@
     "last_seen": "2025-12-12T16:51:38Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-12T16:51:38Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8971,6 +9919,8 @@
     "last_seen": "2026-03-13T09:25:22Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-03-13T09:25:22Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -8989,6 +9939,8 @@
     "last_seen": "2025-11-12T14:35:43Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-11-12T14:35:43Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -9007,6 +9959,8 @@
     "last_seen": "2025-11-12T16:13:05Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-11-12T16:13:05Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -9025,6 +9979,8 @@
     "last_seen": "2025-11-12T14:35:43Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-11-12T14:35:43Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -9043,6 +9999,8 @@
     "last_seen": "2026-04-24T16:09:21Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-24T16:09:21Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -9061,6 +10019,8 @@
     "last_seen": "2026-04-24T17:29:32Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-24T17:29:32Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -9079,6 +10039,8 @@
     "last_seen": "2025-12-24T16:46:32Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-24T16:46:32Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -9097,6 +10059,8 @@
     "last_seen": "2025-12-24T16:11:54Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2025-12-24T15:34:49Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -9115,6 +10079,8 @@
     "last_seen": "2026-01-12T08:31:53Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-01-12T08:31:53Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -9133,6 +10099,8 @@
     "last_seen": "2026-01-07T14:01:33Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-01-07T14:01:33Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -9151,6 +10119,8 @@
     "last_seen": "2026-01-12T08:03:00Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-01-12T08:03:00Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -9169,6 +10139,8 @@
     "last_seen": "2025-12-24T16:34:15Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-24T16:34:15Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -9187,6 +10159,8 @@
     "last_seen": "2026-01-12T09:43:46Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-01-12T09:43:46Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -9205,6 +10179,8 @@
     "last_seen": "2026-01-13T19:39:30Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-01-13T19:39:30Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -9223,6 +10199,8 @@
     "last_seen": "2025-12-22T12:08:53Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-22T12:08:53Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -9241,6 +10219,8 @@
     "last_seen": "2026-07-13T18:59:01Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-07-13T18:59:01Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -9259,6 +10239,8 @@
     "last_seen": "2025-12-11T19:24:17Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-12-11T19:24:17Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -9277,6 +10259,8 @@
     "last_seen": "2026-06-04T22:00:34Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-06-04T22:00:34Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -9295,6 +10279,8 @@
     "last_seen": "2026-05-03T15:48:58Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-05-03T15:48:58Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -9313,6 +10299,8 @@
     "last_seen": "2026-04-22T13:39:02Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-04-22T13:39:02Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -9331,6 +10319,8 @@
     "last_seen": "2026-02-08T20:22:31Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-02-08T20:22:31Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -9349,6 +10339,8 @@
     "last_seen": "2026-02-27T19:47:29Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-02-27T19:47:29Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -9367,6 +10359,8 @@
     "last_seen": "2025-11-16T11:37:19Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2025-11-16T11:37:19Z",
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -9388,6 +10382,8 @@
     "last_seen": "2026-04-14T14:30:05Z",
     "times_seen": 5,
     "current": true,
+    "discovered_at": "2026-04-14T13:29:43Z",
+    "new": false,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}
@@ -9406,6 +10402,8 @@
     "last_seen": "2026-08-16T13:16:12Z",
     "times_seen": 1,
     "current": true,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -9424,6 +10422,8 @@
     "last_seen": "2026-03-11T19:49:17Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -9442,6 +10442,8 @@
     "last_seen": "2026-10-18T12:53:23Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -9460,6 +10462,8 @@
     "last_seen": "2026-03-23T10:21:47Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -9478,6 +10482,8 @@
     "last_seen": "2026-03-23T10:21:59Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -9496,6 +10502,8 @@
     "last_seen": "2026-03-23T13:02:01Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -9514,6 +10522,8 @@
     "last_seen": "2026-03-30T00:24:02Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -9532,6 +10542,8 @@
     "last_seen": "2026-03-23T11:36:01Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -9550,6 +10562,8 @@
     "last_seen": "2026-03-23T11:33:53Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -9568,6 +10582,8 @@
     "last_seen": "2026-03-18T21:51:45Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -9586,6 +10602,8 @@
     "last_seen": "2026-03-13T17:27:15Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -9604,6 +10622,8 @@
     "last_seen": "2026-03-21T00:01:05Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -9622,6 +10642,8 @@
     "last_seen": "2026-03-21T00:02:31Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -9640,6 +10662,8 @@
     "last_seen": "2026-10-18T12:53:47Z",
     "times_seen": 2,
     "current": true,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -9658,6 +10682,8 @@
     "last_seen": "2026-03-16T08:39:03Z",
     "times_seen": 1,
     "current": false,
+    "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -9677,6 +10703,8 @@
     "last_seen": "2026-10-09T10:01:36Z",
     "times_seen": 4,
     "current": false,
+    "discovered_at": "2026-10-08T18:59:00Z",
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -9695,6 +10723,8 @@
     "last_seen": "2026-09-14T00:11:39Z",
     "times_seen": 19,
     "current": true,
+    "discovered_at": "2026-03-13T17:57:49Z",
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -9713,6 +10743,8 @@
     "last_seen": "2026-10-13T12:13:49Z",
     "times_seen": 2,
     "current": false,
+    "discovered_at": "2026-10-11T21:34:53Z",
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -9732,6 +10764,8 @@
     "last_seen": "2026-03-14T03:44:17Z",
     "times_seen": 2,
     "current": true,
+    "discovered_at": "2026-03-13T18:29:03Z",
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}

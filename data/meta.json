@@ -1,6 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T20:05:55Z",
+  "generated_at": "2026-10-19T20:25:10Z",
+  "new_window_hours": 24,
   "tool_version": "0.1.0",
   "cursors": [
     {
@@ -67,10 +68,10 @@
     },
     {
       "chain": "polygon",
-      "hunt_id": "birth-watch",
-      "from_block": 92120478,
-      "to_block": 92121077,
-      "updated_at": "2026-10-19T20:05:55Z"
+      "hunt_id": "block-watch",
+      "from_block": 92121078,
+      "to_block": 92122277,
+      "updated_at": "2026-10-19T20:25:10Z"
     },
     {
       "chain": "polygon",
@@ -169,10 +170,10 @@
     }
   ],
   "counts": {
-    "contracts": 35,
-    "wallets": 26,
-    "events": 930,
-    "iocs": 537,
-    "clusters": 16
+    "contracts": 34,
+    "wallets": 25,
+    "events": 929,
+    "iocs": 535,
+    "clusters": 15
   }
 }

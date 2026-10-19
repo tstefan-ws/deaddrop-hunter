@@ -1,22 +1,26 @@
-"""Birth watch: catch dead drops as they are deployed, with no fingerprint to match.
+"""Block watch: read the chain itself, with no fingerprint and no wallet to start from.
 
 Every other hunt needs something known in advance - an event name, a selector, an operator
-wallet, somebody's report. This one needs nothing. A contract cannot be created without a
-transaction, and a dead drop cannot refuse to answer a reader, because the infected machines
-calling it carry no credentials. So:
+wallet, somebody's report. This one needs nothing, and it watches *everyone*: any wallet on
+the chain, not only the ones already on our list.
 
-1. read the blocks in the range and pick out contract creations;
-2. derive the new address from the deployer and its nonce (no receipt lookup needed);
-3. fetch the code once and judge it on shape alone - a confirmed family's selector, or a
-   small contract with an owner accessor (see bytecode.Shape);
-4. ask the survivors what they hold with eth_call, and decode the answer.
+Each block in the range is fetched once, with its transactions, and read two ways.
 
-A contract that answers with something decodable becomes an event with a value, exactly like
-one caught through its event log. One that matches the shape but stays silent is recorded as
-a candidate, which the rest of the pipeline already scores lower than a decoded drop.
+**Births.** A contract cannot be created without a transaction. The new address is derived
+from deployer and nonce (no receipt lookup), the code is fetched once and judged on shape
+alone - a confirmed family's selector, or a small contract with an owner accessor (see
+bytecode.Shape) - and survivors are asked what they hold with ``eth_call``. A dead drop has
+to answer, because the infected machines calling it carry no credentials.
 
-Cost is dominated by step 1: every block in the range is fetched with its transactions. The
-caller clamps the range (hunts.toml ``max_blocks``) so a run never runs away.
+**Actions.** Every transaction that calls a contract is checked against the write side of the
+technique: a known setter such as ``setURL(string)``, or - for operators who renamed theirs -
+any call whose arguments decode to text that yields an actual indicator. This is the
+chain-wide "who is updating a dead drop right now" search that otherwise needs a paid data
+warehouse, and it sees unknown wallets, which the wallet watch by definition cannot.
+
+Shape and action only ever produce candidates; a decoded indicator is what makes a finding.
+Cost is dominated by the block fetch, so the caller clamps the range (hunts.toml
+``max_blocks``) and a run never runs away.
 """
 
 from __future__ import annotations
@@ -24,16 +28,17 @@ from __future__ import annotations
 import logging
 from concurrent.futures import ThreadPoolExecutor
 
-from ..bytecode import created_address, probe_selectors, shape_of
+from ..bytecode import SETTERS, created_address, probe_selectors, shape_of
+from ..classify import extract_iocs, is_dual_use
 from ..config import Chain
-from ..decoders import AbiError, abi_decode
+from ..decoders import AbiError, abi_decode, decode_input_strings, is_printable, raw_text
 from ..rpc import RpcError
 from ..store import iso, make_event
 from . import HuntContext
 
 log = logging.getLogger(__name__)
 
-HUNT_ID = "birth-watch"
+HUNT_ID = "block-watch"
 MIN_VALUE_LEN = 4        # shorter answers carry no indicator worth keeping
 MAX_VALUE_LEN = 64 * 1024
 # A block with its transactions is ~216 KB on Polygon and each request opens its own
@@ -42,6 +47,14 @@ MAX_VALUE_LEN = 64 * 1024
 # up after a gap, while staying a polite guest on a free public endpoint.
 BLOCK_WORKERS = 6
 CHUNK = 60
+# An update carries a string argument, so the calldata is at least a selector plus three
+# words, and a sane upper bound keeps a blob of compiled code from being decoded as text.
+MIN_CALL_LEN = 10 + 192
+MAX_CALL_LEN = 10 + 2 * MAX_VALUE_LEN
+# Indicator types that mean "a victim connects here". An EVM address on its own does not:
+# almost any calldata decodes to something containing one, which is how a multicall and two
+# ordinary setters ended up in the data on the first live run.
+NETWORK_IOCS = ("url", "domain", "ipv4", "ipv6")
 
 
 def _read_value(ctx: HuntContext, chain: Chain, address: str, sel: str) -> bytes | None:
@@ -113,6 +126,7 @@ def _blocks(rpc, numbers: list[int]) -> list[tuple[int, dict | None]]:
 
 def collect(ctx: HuntContext, chain: Chain, from_block: int, to_block: int) -> list[dict]:
     rpc = ctx.rpc(chain)
+    ignored = {a for c, a in ctx.config.ignore_contracts if c == chain.key}
     out: list[dict] = []
     creations = 0
     numbers = list(range(from_block, to_block + 1))
@@ -124,17 +138,55 @@ def collect(ctx: HuntContext, chain: Chain, from_block: int, to_block: int) -> l
             ts_int = int(blk["timestamp"], 16)
             rpc.remember_timestamp(number, ts_int)
             ts = iso(ts_int)
-            out.extend(_from_block(ctx, chain, number, ts, blk))
+            out.extend(_from_block(ctx, chain, number, ts, blk, ignored))
             creations += sum(1 for t in (blk.get("transactions") or []) if not t.get("to"))
-    log.info("%s birth-watch: blocks %d-%d, %d creations, %d drop-shaped",
+    log.info("%s block-watch: blocks %d-%d, %d creations, %d findings",
              chain.key, from_block, to_block, creations, len(out))
     return out
 
 
-def _from_block(ctx: HuntContext, chain: Chain, number: int, ts: str | None, blk: dict) -> list[dict]:
+def call_event(chain: Chain, t: dict, *, block: int, ts: str | None,
+               ignored: frozenset[str] | set[str] = frozenset()) -> dict | None:
+    """A transaction that writes text to a contract, from any wallet on the chain.
+
+    Two ways in: the call uses a setter we have already confirmed, or it decodes to text that
+    carries an indicator. The second arm is what catches an operator who renamed their setter,
+    and the indicator requirement is what keeps ordinary contracts that store a name or a note
+    out of the data.
+    """
+    to = (t.get("to") or "").lower()
+    inp = t.get("input") or "0x"
+    if not to or to in ignored or not (MIN_CALL_LEN <= len(inp) <= MAX_CALL_LEN):
+        return None
+    sel = inp[:10].lower()
+    try:
+        _sel, strings = decode_input_strings(inp, ["string"])
+    except AbiError:
+        return None
+    if not strings:
+        return None
+    value = strings[0]
+    if sel not in SETTERS:
+        text = raw_text(value)
+        if not text or not is_printable(text):
+            return None                  # arbitrary calldata that happens to decode
+        useful = [i for i in extract_iocs(text)
+                  if i.type in NETWORK_IOCS and not is_dual_use(i.type, i.value)]
+        if not useful:
+            return None                  # text, but nothing a defender could act on
+    return make_event(chain=chain.key, block=block, timestamp=ts, tx_hash=t["hash"],
+                      contract=to, sender=(t.get("from") or "").lower(), selector=sel,
+                      hunt_id=HUNT_ID, old=None, new=value)
+
+
+def _from_block(ctx: HuntContext, chain: Chain, number: int, ts: str | None, blk: dict,
+                ignored: frozenset[str] | set[str] = frozenset()) -> list[dict]:
     found: list[dict] = []
     for t in blk.get("transactions") or []:
         if t.get("to"):
+            ev = call_event(chain, t, block=number, ts=ts, ignored=ignored)
+            if ev is not None:
+                found.append(ev)
             continue                     # a call, not a creation
         try:
             nonce = int(t["nonce"], 16)

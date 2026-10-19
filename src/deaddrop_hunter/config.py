@@ -57,7 +57,7 @@ class Hunt:
     abi: tuple[str, ...] = ("string",)
     reference: str | None = None
     note: str | None = None
-    # Birth hunts read every block in the range, so a run is capped to this many blocks
+    # Block hunts read every block in the range, so a run is capped to this many blocks
     # and catches up over successive runs rather than claiming blocks it never read.
     max_blocks: int = 0
 
@@ -73,6 +73,9 @@ class WatchWallet:
 class Config:
     default_lookback_days: int = 90
     data_dir: str = "data"
+    # A contract, indicator or cluster first seen inside this window is flagged "new", so a
+    # reader can tell what appeared since yesterday from what has been on file for months.
+    new_window_hours: int = 24
     chains: dict[str, Chain] = field(default_factory=dict)
     hunts: list[Hunt] = field(default_factory=list)
     watch_wallets: list[WatchWallet] = field(default_factory=list)
@@ -173,6 +176,7 @@ def parse_config(raw: dict, env: Mapping[str, str] | None = None) -> Config:
     return Config(
         default_lookback_days=int(settings.get("default_lookback_days", 90)),
         data_dir=settings.get("data_dir", "data"),
+        new_window_hours=int(settings.get("new_window_hours", 24)),
         chains=chains,
         hunts=hunts,
         watch_wallets=wallets,

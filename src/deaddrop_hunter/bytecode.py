@@ -26,6 +26,15 @@ SETTERS = {
     "0x77343408": "setURL(string)",
     "0x68446ead": "update(string)",
 }
+# Standard token metadata and bookkeeping. Readable by anyone and harmless, so probing them
+# only ever produces noise: name() is what reported a contract storing "Digital Pay".
+NEVER_PROBE = {
+    "0x06fdde03": "name()",
+    "0x95d89b41": "symbol()",
+    "0x313ce567": "decimals()",
+    "0x18160ddd": "totalSupply()",
+    "0x70a08231": "balanceOf(address)",
+}
 # Owner/admin accessors. Present in every confirmed drop so far and cheap to test for,
 # but far too common on their own: proxies and ordinary owned contracts expose them too.
 ADMINS = {
@@ -136,7 +145,7 @@ def probe_selectors(shape: Shape, limit: int = 6) -> tuple[str, ...]:
     for s in shape.selectors:
         if len(out) >= limit:
             break
-        if s in out or s in SETTERS or s in ADMINS:
+        if s in out or s in SETTERS or s in ADMINS or s in NEVER_PROBE:
             continue
         out.append(s)
     return tuple(out[:limit])

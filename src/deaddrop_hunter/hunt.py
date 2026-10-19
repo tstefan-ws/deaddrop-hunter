@@ -7,7 +7,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 from .build import build
-from .collectors import HuntContext, birth_watch, event_sweep, selector_sweep, wallet_watch
+from .collectors import HuntContext, block_watch, event_sweep, selector_sweep, wallet_watch
 from .config import NONEVM_TYPES, Chain, Config
 from .providers import ProviderUnavailable
 from .providers.dune import Dune
@@ -152,7 +152,7 @@ def run_hunt(
         start = max(0, head - int(lookback * 86400 / chain.block_time_s))
         cursor = cursors.get((chain_key, hunt_id))
         ranges = plan_ranges(cursor, head, start, explicit_days=days is not None)
-        if hunt is not None and hunt.kind == "birth" and hunt.max_blocks and ranges:
+        if hunt is not None and hunt.kind == "block" and hunt.max_blocks and ranges:
             # Reading every block is the expensive part, so take a contiguous bite from the
             # oldest unscanned block forward. The cursor then never covers a block we skipped;
             # if the watcher falls behind, to_block visibly lags the head until it catches up.
@@ -171,8 +171,8 @@ def run_hunt(
                     got += event_sweep.collect(ctx, hunt, chain, lo, hi)
                 elif hunt.kind == "selector":
                     got += selector_sweep.collect(ctx, hunt, chain, lo, hi, lookback)
-                elif hunt.kind == "birth":
-                    got += birth_watch.collect(ctx, chain, lo, hi)
+                elif hunt.kind == "block":
+                    got += block_watch.collect(ctx, chain, lo, hi)
                 else:
                     raise ProviderUnavailable(f"unknown hunt kind {hunt.kind!r}")
         except ProviderUnavailable as e:
@@ -199,7 +199,8 @@ def run_hunt(
 
     merged, added = merge_events(existing_events, new_events)
     report.added = added
-    built = build(merged, config, list(cursors.values()), now=now, existing_iocs=data["iocs"])
+    built = build(merged, config, list(cursors.values()), now=now, existing_iocs=data["iocs"],
+                  previous=data)
     report.paths = write_data(data_dir, built)
     report.counts = built["meta"]["counts"]
     return report
@@ -240,6 +241,6 @@ def _nonevm_cursor(chain_key: str, cur: dict, now: str) -> dict:
 def run_rebuild(config: Config, data_dir: Path, now: str | None = None) -> dict:
     data = load_data(data_dir)
     built = build(data["events"], config, data["meta"].get("cursors", []), now=now or now_iso(),
-                  existing_iocs=data["iocs"])
+                  existing_iocs=data["iocs"], previous=data)
     write_data(data_dir, built)
     return built["meta"]["counts"]

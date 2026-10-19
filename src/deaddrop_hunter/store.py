@@ -110,6 +110,9 @@ def load_data(data_dir: Path) -> dict:
         "events": read_json(data_dir / "events.json", []),
         "iocs": read_json(data_dir / "iocs.json", []),
         "contracts": read_json(data_dir / "contracts.json", []),
+        # Needed so a rebuild keeps each entry's discovery stamp instead of re-dating it.
+        "clusters": read_json(data_dir / "clusters.json", []),
+        "wallets": read_json(data_dir / "wallets.json", []),
     }
 
 

@@ -66,6 +66,8 @@ data has no "old value"), and `decoder` may also be `memo`.
   "first_seen": "2026-08-01T10:00:00Z",
   "last_seen": "2026-10-18T09:12:44Z",
   "status": "active",
+  "discovered_at": "2026-10-19T20:00:00Z",
+  "new": false,
   "evidence": "decoded",
   "latest_value_raw": "21783b36...",
   "latest_value_decoded": "{\"algo\":\"rx/0\",\"pool\":\"78.40.198.61\",...}",
@@ -73,6 +75,11 @@ data has no "old value"), and `decoder` may also be `memo`.
 }
 ```
 `status`: `active` if updated in the last 30 days, else `dormant`.
+`discovered_at`: when the entry first appeared in *our* data, which is not when it appeared
+on-chain: a contract deployed in March but found today is new to the reader, not to the chain.
+`new`: `discovered_at` falls inside `settings.new_window_hours` (default 24), so a reader can
+tell at a glance what arrived since yesterday. Contracts, indicators and clusters all carry
+both fields.
 `evidence`: `decoded` when at least one value has been decoded from this contract,
 `candidate` when a watched operator only deployed or called it and nothing has been
 decoded yet. Candidates are reported at a lower IOC confidence (55) and marked in the
@@ -135,6 +142,8 @@ wallet found inside a decoded config — `chain` is then e.g. `monero`).
   "last_seen": "2026-10-18T09:12:44Z",
   "times_seen": 40,
   "current": true,
+  "discovered_at": "2026-10-19T20:00:00Z",
+  "new": false,
   "confidence": 70,
   "dual_use": false,
   "enrichment": {}

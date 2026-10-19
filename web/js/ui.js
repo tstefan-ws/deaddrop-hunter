@@ -41,6 +41,12 @@ export function evidencePill(evidence) {
   return h('span', { class: 'pill pill-candidate', title: 'Candidate: a watched operator deployed or called this contract, but no value has been decoded from it yet' }, 'candidate');
 }
 
+/** Entered our data inside the new-window (see meta.new_window_hours), not newly deployed. */
+export function newPill(isNew, discoveredAt) {
+  if (!isNew) return null;
+  return h('span', { class: 'pill pill-new', title: discoveredAt ? `First seen by this hunter at ${sanitize(discoveredAt)}` : null }, 'new');
+}
+
 /** Real indicator, shared with legitimate users (public mining pools and the like). */
 export function dualUsePill(on) {
   if (!on) return null;
