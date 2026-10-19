@@ -2843,6 +2843,26 @@
   },
   {
     "type": "domain",
+    "value": "metadata.evoevo.ai",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-1fc22440",
+    "chain": "bsc",
+    "contracts": [
+      "0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+    ],
+    "first_seen": "2026-10-19T22:17:33Z",
+    "last_seen": "2026-10-19T22:17:46Z",
+    "times_seen": 3,
+    "current": true,
+    "discovered_at": "2026-10-19T22:17:50Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "mexicodreams.bond",
     "port": null,
     "family": "c2-url",
@@ -4830,6 +4850,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x240932f53cb6d516feb7585f301c869a3e0f620b",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-3ba8e449",
+    "chain": "polygon",
+    "contracts": [
+      "0x240932f53cb6d516feb7585f301c869a3e0f620b"
+    ],
+    "first_seen": "2026-10-19T22:15:59Z",
+    "last_seen": "2026-10-19T22:15:59Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-19T22:17:50Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x24d83e15fbc61085f422708cf42cbd9b323e5365",
     "port": null,
     "family": "unknown",
@@ -5063,6 +5103,26 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-19T20:38:48Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x8004a169fb4a3325136eb29fa0ceb6d2e539a432",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-1fc22440",
+    "chain": "bsc",
+    "contracts": [
+      "0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+    ],
+    "first_seen": "2026-10-19T22:17:33Z",
+    "last_seen": "2026-10-19T22:17:46Z",
+    "times_seen": 3,
+    "current": true,
+    "discovered_at": "2026-10-19T22:17:50Z",
     "new": true,
     "confidence": 90,
     "dual_use": false,
@@ -5418,6 +5478,26 @@
   },
   {
     "type": "evm-wallet",
+    "value": "0x1fc224401bb8c8e5ee228b6fd81695796dd1744c",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-1fc22440",
+    "chain": "bsc",
+    "contracts": [
+      "0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+    ],
+    "first_seen": "2026-10-19T22:17:33Z",
+    "last_seen": "2026-10-19T22:17:46Z",
+    "times_seen": 3,
+    "current": true,
+    "discovered_at": "2026-10-19T22:17:50Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
     "value": "0x24d512cc549aaa8a0828f3336b88c55bad43c847",
     "port": null,
     "family": "xmrig-stealth",
@@ -5460,6 +5540,26 @@
     "discovered_at": "2026-10-19T20:00:00Z",
     "new": true,
     "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0x3ba8e449b74c55c9da98c088ee2f7970e4b20477",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-3ba8e449",
+    "chain": "polygon",
+    "contracts": [
+      "0x240932f53cb6d516feb7585f301c869a3e0f620b"
+    ],
+    "first_seen": "2026-10-19T22:15:59Z",
+    "last_seen": "2026-10-19T22:15:59Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-19T22:17:50Z",
+    "new": true,
+    "confidence": 55,
     "dual_use": false,
     "enrichment": {}
   },
@@ -10846,6 +10946,66 @@
     "times_seen": 2,
     "current": false,
     "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://metadata.evoevo.ai/agents/1061803",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-1fc22440",
+    "chain": "bsc",
+    "contracts": [
+      "0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+    ],
+    "first_seen": "2026-10-19T22:17:40Z",
+    "last_seen": "2026-10-19T22:17:40Z",
+    "times_seen": 1,
+    "current": false,
+    "discovered_at": "2026-10-19T22:17:50Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://metadata.evoevo.ai/agents/1061804",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-1fc22440",
+    "chain": "bsc",
+    "contracts": [
+      "0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+    ],
+    "first_seen": "2026-10-19T22:17:33Z",
+    "last_seen": "2026-10-19T22:17:33Z",
+    "times_seen": 1,
+    "current": false,
+    "discovered_at": "2026-10-19T22:17:50Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://metadata.evoevo.ai/agents/974820",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-1fc22440",
+    "chain": "bsc",
+    "contracts": [
+      "0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+    ],
+    "first_seen": "2026-10-19T22:17:46Z",
+    "last_seen": "2026-10-19T22:17:46Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-19T22:17:50Z",
     "new": true,
     "confidence": 85,
     "dual_use": false,

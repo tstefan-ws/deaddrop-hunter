@@ -163,6 +163,37 @@
   },
   {
     "chain": "bsc",
+    "address": "0x8004a169fb4a3325136eb29fa0ceb6d2e539a432",
+    "cluster_id": "c-1fc22440",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x1fc224401bb8c8e5ee228b6fd81695796dd1744c"
+    ],
+    "selectors": [
+      "0x8ea42286"
+    ],
+    "decoder": "plain",
+    "update_count": 3,
+    "first_seen": "2026-10-19T22:17:33Z",
+    "last_seen": "2026-10-19T22:17:46Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-19T22:17:50Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://metadata.evoevo.ai/agents/974820",
+    "latest_value_decoded": "https://metadata.evoevo.ai/agents/974820",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
     "address": "0x8054dfeec2d63aced3833819aa27397c8441455e",
     "cluster_id": "c-06b09f60",
     "family": "unknown",
@@ -434,6 +465,33 @@
     "tags": [
       "c2",
       "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x240932f53cb6d516feb7585f301c869a3e0f620b",
+    "cluster_id": "c-3ba8e449",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x3ba8e449b74c55c9da98c088ee2f7970e4b20477"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-10-19T22:15:59Z",
+    "last_seen": "2026-10-19T22:15:59Z",
+    "status": "active",
+    "code_hash": "08d20d11e282b790",
+    "discovered_at": "2026-10-19T22:17:50Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": null,
+    "latest_value_decoded": null,
+    "tags": [
       "config-on-chain"
     ]
   },

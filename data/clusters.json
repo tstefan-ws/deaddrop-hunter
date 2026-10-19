@@ -46,6 +46,25 @@
     "new": false
   },
   {
+    "id": "c-1fc22440",
+    "name": "C2 URL rotation cluster (c-1fc22440)",
+    "family": "c2-url",
+    "chains": [
+      "bsc"
+    ],
+    "contracts": [
+      "0x8004a169fb4a3325136eb29fa0ceb6d2e539a432"
+    ],
+    "wallets": [
+      "0x1fc224401bb8c8e5ee228b6fd81695796dd1744c"
+    ],
+    "ioc_count": 6,
+    "first_seen": "2026-10-19T22:17:33Z",
+    "last_seen": "2026-10-19T22:17:46Z",
+    "discovered_at": "2026-10-19T22:17:50Z",
+    "new": true
+  },
+  {
     "id": "c-24d512cc",
     "name": "Stealth XMRig config cluster (c-24d512cc)",
     "family": "xmrig-stealth",
@@ -115,6 +134,25 @@
     "first_seen": "2026-03-11T18:54:01Z",
     "last_seen": "2026-10-19T21:12:56Z",
     "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true
+  },
+  {
+    "id": "c-3ba8e449",
+    "name": "Unclassified dead-drop cluster (c-3ba8e449)",
+    "family": "unknown",
+    "chains": [
+      "polygon"
+    ],
+    "contracts": [
+      "0x240932f53cb6d516feb7585f301c869a3e0f620b"
+    ],
+    "wallets": [
+      "0x3ba8e449b74c55c9da98c088ee2f7970e4b20477"
+    ],
+    "ioc_count": 2,
+    "first_seen": "2026-10-19T22:15:59Z",
+    "last_seen": "2026-10-19T22:15:59Z",
+    "discovered_at": "2026-10-19T22:17:50Z",
     "new": true
   },
   {
