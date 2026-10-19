@@ -13,6 +13,10 @@ on:
       - "scripts/build_site.py"
       - "src/deaddrop_hunter/exporters/**"
       - ".github/workflows/deploy-pages.yml"
+  # A hunt run lasts hours and pushes its findings as it goes, so the site cannot wait for
+  # the run to end to be rebuilt. This publishes whatever is in the repo, once an hour.
+  schedule:
+    - cron: "41 * * * *"
   workflow_dispatch:
   workflow_call:
     inputs:

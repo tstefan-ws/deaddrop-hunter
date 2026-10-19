@@ -5,9 +5,11 @@ name: hunt
 
 on:
   schedule:
-    # Hourly, because each run then watches its own hour: the job loops internally instead
-    # of relying on GitHub firing on time. Measured 2026-10-19: a */15 schedule produced one
-    # run in six hours, which left ~6% of blocks read.
+    # Hourly, but a run lasts 5.5 hours: GitHub's job limit is 6. The concurrency group below
+    # keeps exactly one running, so the hourly trigger is really "restart within the hour if
+    # the chain ever breaks" rather than "start another one". Measured 2026-10-19: a */15
+    # schedule produced one run in six hours, so relying on the trigger alone reads ~6% of
+    # blocks; relying on a long run instead makes a dropped trigger cost minutes, not hours.
     - cron: "7 * * * *"
   workflow_dispatch:
     inputs:
@@ -29,7 +31,7 @@ on:
       loop_minutes:
         description: "Keep hunting for this many minutes (0 = a single pass)"
         required: false
-        default: "45"
+        default: "330"
         type: string
       gap_seconds:
         description: "Seconds between cycles inside a run"
@@ -48,7 +50,7 @@ permissions:
 jobs:
   hunt:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 350
     permissions:
       contents: write
     outputs:
@@ -83,8 +85,9 @@ jobs:
           INPUT_CHAINS: ${{ inputs.chains }}
           INPUT_DAYS: ${{ inputs.days }}
           INPUT_HUNTS: ${{ inputs.hunts }}
-          LOOP_MINUTES: ${{ inputs.loop_minutes || '45' }}
+          LOOP_MINUTES: ${{ inputs.loop_minutes || '330' }}
           GAP_SECONDS: ${{ inputs.gap_seconds || '300' }}
+        id: commit
         run: |
           # Drop empty variables so the CLI sees "unset" rather than "".
           for v in ETHERSCAN_API_KEY DUNE_API_KEY TRONGRID_API_KEY DDH_RPC_BSC DDH_RPC_BSC_TESTNET DDH_RPC_SOLANA VT_API_KEY; do
@@ -97,7 +100,35 @@ jobs:
           # One run covers its whole hour. The block watcher reads a fixed window of blocks
           # per cycle, so cycling every few minutes is what keeps it level with the chain;
           # waiting for the next scheduled run would leave gaps nothing ever reads.
-          deadline=$(( SECONDS + 60 * ${LOOP_MINUTES:-45} ))
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          committed=0
+          # A run lasts hours, so findings are pushed as they are found rather than at the
+          # end. Cursors move every cycle, so a cursor-only change waits until the last
+          # heartbeat is an hour old; anything else goes out immediately.
+          publish_data() {
+            git add -A data/
+            if git diff --cached --quiet; then return 0; fi
+            if git diff --cached --quiet -- data/ ':(exclude)data/meta.json'; then
+              last=$(git log -1 --format=%ct -- data/meta.json 2>/dev/null || echo 0)
+              if [ $(( $(date -u +%s) - ${last:-0} )) -lt 3300 ]; then
+                git reset -q
+                return 0
+              fi
+            fi
+            git commit -q -m "data: hunt $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            for i in 1 2 3; do
+              if git push -q origin "HEAD:${GITHUB_REF_NAME}"; then
+                committed=$((committed + 1))
+                echo "cycle $1: pushed"
+                return 0
+              fi
+              echo "cycle $1: push rejected, rebasing (attempt $i)"
+              git pull -q --rebase origin "${GITHUB_REF_NAME}" || true
+            done
+            echo "::warning::cycle $1: could not push"
+          }
+          deadline=$(( SECONDS + 60 * ${LOOP_MINUTES:-330} ))
           cycle=0
           while :; do
             cycle=$((cycle + 1))
@@ -106,48 +137,14 @@ jobs:
             # stored position, so a failure must not end the run.
             deaddrop-hunter hunt "${args[@]}" || echo "::warning::cycle $cycle failed"
             echo "::endgroup::"
-            [ "${LOOP_MINUTES:-45}" -gt 0 ] || break
+            publish_data "$cycle"
+            [ "${LOOP_MINUTES:-330}" -gt 0 ] || break
             [ "$SECONDS" -lt "$deadline" ] || break
             sleep "${GAP_SECONDS:-300}"
           done
-          echo "ran $cycle cycle(s)"
+          echo "ran $cycle cycle(s); committed $committed time(s)"
+          echo "changed=$([ "$committed" -gt 0 ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
 
-      - name: Commit data changes
-        id: commit
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A data/
-          if git diff --cached --quiet; then
-            echo "No data changes."
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-          # Cursors in meta.json move on every run, so at this cadence a plain "commit when
-          # anything changed" writes ~96 empty commits a day. Findings are committed at once;
-          # a cursor-only heartbeat waits until the last one is an hour old.
-          if git diff --cached --quiet -- data/ ':(exclude)data/meta.json'; then
-            last=$(git log -1 --format=%ct -- data/meta.json 2>/dev/null || echo 0)
-            if [ $(( $(date -u +%s) - ${last:-0} )) -lt 3300 ]; then
-              echo "Cursors only, last heartbeat < 55 min ago: not committing."
-              git reset -q
-              echo "changed=false" >> "$GITHUB_OUTPUT"
-              exit 0
-            fi
-            echo "Cursors only, but the last heartbeat is stale: committing."
-          fi
-          git commit -m "data: hunt $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-          # Retry the push in case someone pushed to the branch meanwhile.
-          for i in 1 2 3; do
-            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
-              echo "changed=true" >> "$GITHUB_OUTPUT"
-              exit 0
-            fi
-            echo "push rejected, rebasing (attempt $i)"
-            git pull --rebase origin "${GITHUB_REF_NAME}"
-          done
-          echo "::error::could not push data commit"
-          exit 1
 
   deploy:
     needs: hunt
