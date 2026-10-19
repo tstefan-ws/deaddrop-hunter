@@ -97,6 +97,35 @@
   },
   {
     "chain": "polygon",
+    "address": "0x08207b087f61d7e95e441e15fd6d40befd6ed308",
+    "cluster_id": "c-34c15320",
+    "family": "c2-url",
+    "hunt_ids": [
+      "urlupdated-string-string",
+      "watch-wallet"
+    ],
+    "operator_wallets": [
+      "0x34c15320d6e8f59f1b66f6c191aaa7f87b894b66"
+    ],
+    "selectors": [
+      "0x77343408"
+    ],
+    "decoder": "plain",
+    "update_count": 262,
+    "first_seen": "2026-03-11T19:48:41Z",
+    "last_seen": "2026-10-18T12:53:47Z",
+    "status": "active",
+    "evidence": "decoded",
+    "latest_value_raw": "https://sky.dolcefantasia.us",
+    "latest_value_decoded": "https://sky.dolcefantasia.us",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x141564eecbc8046f9c15d6ce903a660afff5d43d",
     "cluster_id": "c-19532c0f",
     "family": "unknown",
@@ -234,6 +263,32 @@
   },
   {
     "chain": "polygon",
+    "address": "0x2b2e30da517b22a20eb367a36b9ca725cf93e9e5",
+    "cluster_id": "c-34c15320",
+    "family": "unknown",
+    "hunt_ids": [
+      "watch-wallet"
+    ],
+    "operator_wallets": [
+      "0x34c15320d6e8f59f1b66f6c191aaa7f87b894b66"
+    ],
+    "selectors": [
+      "0xd11db010"
+    ],
+    "decoder": "undecoded",
+    "update_count": 5,
+    "first_seen": "2026-04-09T16:17:37Z",
+    "last_seen": "2026-04-11T17:52:37Z",
+    "status": "dormant",
+    "evidence": "candidate",
+    "latest_value_raw": "2a397dfc1acc1a888eb19137b5ddc34912dda143c401d038cbac21999c6f2a18a072ae831179d32eb218f198eb3c7dd40d212e571791f2c55d04b8ec9a8beca7b1c853c1bbd91ff4d20592c57d863f1a82c1a787ddbbcc80674ac01663a0424d70dd594cb425d0ab8084f6fd60eb38a848ae937b47d005fd470351dc0e190a09",
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x2fbd66fe245052d265ca0eda7d01d35b2d8b9feb",
     "cluster_id": "c-19532c0f",
     "family": "xmrig-stealth",
@@ -289,6 +344,56 @@
     "tags": [
       "xmrig",
       "cryptominer",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x4af8048edfe4523953e9907528bf5cef7fa8db09",
+    "cluster_id": "c-34c15320",
+    "family": "unknown",
+    "hunt_ids": [
+      "watch-wallet"
+    ],
+    "operator_wallets": [
+      "0x34c15320d6e8f59f1b66f6c191aaa7f87b894b66"
+    ],
+    "selectors": [
+      "0x7d0c8f7a"
+    ],
+    "decoder": "undecoded",
+    "update_count": 9,
+    "first_seen": "2026-10-14T09:13:08Z",
+    "last_seen": "2026-10-18T12:53:53Z",
+    "status": "active",
+    "evidence": "decoded",
+    "latest_value_raw": "0x0000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000000000000000000000000000000000000000000030000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000003000000000000000000000000000000000000000000000000000000000000006000",
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x56384ef15734cce9026d9e75ac3be616513fe2ae",
+    "cluster_id": "c-34c15320",
+    "family": "unknown",
+    "hunt_ids": [
+      "watch-wallet"
+    ],
+    "operator_wallets": [
+      "0x34c15320d6e8f59f1b66f6c191aaa7f87b894b66"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-03-11T18:54:01Z",
+    "last_seen": "2026-03-11T18:54:01Z",
+    "status": "dormant",
+    "evidence": "candidate",
+    "latest_value_raw": null,
+    "latest_value_decoded": null,
+    "tags": [
       "config-on-chain"
     ]
   },

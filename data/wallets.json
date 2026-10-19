@@ -165,6 +165,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0x34c15320d6e8f59f1b66f6c191aaa7f87b894b66",
+    "role": "operator",
+    "label": "Operator: URL resolver (ClearFake-style TDS rotation, 190+ domain updates)",
+    "cluster_id": "c-34c15320",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308",
+      "0x2b2e30da517b22a20eb367a36b9ca725cf93e9e5",
+      "0x4af8048edfe4523953e9907528bf5cef7fa8db09",
+      "0x56384ef15734cce9026d9e75ac3be616513fe2ae"
+    ],
+    "tx_count": 277,
+    "first_seen": "2026-03-11T18:54:01Z",
+    "last_seen": "2026-10-18T12:53:53Z",
+    "watched": true,
+    "funded_by": []
+  },
+  {
+    "chain": "polygon",
+    "address": "0x6fcaca5958193e48da350f568c28f034a9632454",
+    "role": "operator",
+    "label": "Funder of the URL-resolver operator",
+    "cluster_id": null,
+    "contracts": [],
+    "tx_count": 0,
+    "first_seen": null,
+    "last_seen": null,
+    "watched": true,
+    "funded_by": []
+  },
+  {
+    "chain": "polygon",
     "address": "0xde275ad38c3352a7cb6b0d3efcbf45900c9716f2",
     "role": "operator",
     "label": "Operator: C2 URL rotation",

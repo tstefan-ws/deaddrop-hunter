@@ -1,6 +1,168 @@
 [
   {
     "type": "domain",
+    "value": "aaa.akoraofficial.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-12T10:34:42Z",
+    "last_seen": "2026-08-12T13:33:21Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "abrikos.xyz",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-07T15:37:18Z",
+    "last_seen": "2026-05-08T01:57:21Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "abrmot.pro",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-07-08T19:39:02Z",
+    "last_seen": "2026-07-08T19:39:02Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "allplanetssame.cfd",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-30T13:03:16Z",
+    "last_seen": "2026-03-30T13:03:16Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "amalgama.lat",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-29T10:53:12Z",
+    "last_seen": "2026-05-29T10:53:12Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "anakondabob.club",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-08T11:32:12Z",
+    "last_seen": "2026-05-08T11:32:12Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "ant.bergamonerazzurra.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-09-26T00:57:21Z",
+    "last_seen": "2026-09-26T00:57:29Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "antongandon.club",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-04-09T04:42:11Z",
+    "last_seen": "2026-04-09T04:42:11Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "ap7.supportly.au",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-04-11T01:19:17Z",
+    "last_seen": "2026-04-11T01:19:17Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "apap.app",
     "port": null,
     "family": "xmrig-stealth",
@@ -13,6 +175,852 @@
     "first_seen": "2026-03-15T13:11:35Z",
     "last_seen": "2026-03-19T12:30:53Z",
     "times_seen": 34,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "arigatodomen.sbs",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-05T16:43:37Z",
+    "last_seen": "2026-06-05T16:43:37Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "babelo.pro",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-07-16T13:24:37Z",
+    "last_seen": "2026-07-16T13:24:37Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "babmalo.pro",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-16T23:52:36Z",
+    "last_seen": "2026-08-17T01:56:36Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "baboke.pro",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-07-17T05:02:18Z",
+    "last_seen": "2026-07-17T05:02:18Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "babybon.cfd",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-13T16:40:53Z",
+    "last_seen": "2026-05-13T16:40:53Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "barmaleieba.lol",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-23T20:24:53Z",
+    "last_seen": "2026-06-23T20:24:53Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "barn.blinqueofficial.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-09-24T14:39:23Z",
+    "last_seen": "2026-09-25T05:09:57Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "bean.369bbqsifangonline.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-27T19:50:37Z",
+    "last_seen": "2026-08-28T11:08:46Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "bearman.bond",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-30T12:19:39Z",
+    "last_seen": "2026-05-30T12:19:39Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "bed.camp-cantina.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-10-09T18:28:40Z",
+    "last_seen": "2026-10-10T17:02:48Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "belorks.xyz",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-10T11:04:46Z",
+    "last_seen": "2026-08-11T12:10:30Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "bestwebchlen.cyou",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-04-08T13:19:23Z",
+    "last_seen": "2026-04-08T13:19:23Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "bib.adkfarmerdan.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-12T13:33:21Z",
+    "last_seen": "2026-08-12T14:08:54Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "bibliorock.lol",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-27T08:47:35Z",
+    "last_seen": "2026-06-27T08:47:35Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "bigbadwolf.click",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-04-16T06:03:56Z",
+    "last_seen": "2026-04-16T06:03:56Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "bigboysclub.cyou",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-30T18:44:13Z",
+    "last_seen": "2026-03-30T18:44:13Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "biggestchlen.lol",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-04-03T18:00:15Z",
+    "last_seen": "2026-04-03T18:00:15Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "biggestchlen.xyz",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-04-04T17:48:45Z",
+    "last_seen": "2026-04-04T17:48:45Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "biletors.cfd",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-21T07:06:24Z",
+    "last_seen": "2026-05-21T07:06:24Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "bimba.anix-to.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-16T14:58:43Z",
+    "last_seen": "2026-08-16T20:28:42Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "bimbalok.pro",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-06T19:49:50Z",
+    "last_seen": "2026-08-07T09:11:28Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "birdybird.rest",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-17T23:57:56Z",
+    "last_seen": "2026-06-17T23:57:56Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "blatnoitovar.xyz",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-04-07T13:13:55Z",
+    "last_seen": "2026-04-07T13:13:55Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "blazerpro.pro",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-02T12:45:51Z",
+    "last_seen": "2026-08-06T09:54:38Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "blobtop.sbs",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-04-17T12:42:10Z",
+    "last_seen": "2026-04-17T12:42:10Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "bob.adkfarmerdan.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-12T14:08:54Z",
+    "last_seen": "2026-08-12T20:56:10Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "bobik.cfd",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-05T11:20:42Z",
+    "last_seen": "2026-05-05T11:20:42Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "bolerkas.sbs",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-17T18:36:28Z",
+    "last_seen": "2026-08-18T11:20:46Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "bolerkas.shop",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-17T18:32:36Z",
+    "last_seen": "2026-08-17T18:36:28Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "brusketaa.lol",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-11T15:29:58Z",
+    "last_seen": "2026-08-11T22:45:33Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "bulletpop.cyou",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-16T04:38:30Z",
+    "last_seen": "2026-05-16T04:39:00Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "cal.magicalegyptwomen.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-07-11T12:54:37Z",
+    "last_seen": "2026-07-11T12:54:37Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "cap.camp-cantina.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-10-11T17:38:12Z",
+    "last_seen": "2026-10-12T15:09:03Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "cat.jumpskyhigh.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-22T11:42:28Z",
+    "last_seen": "2026-08-22T11:42:42Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "cheloks.pro",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-07-28T17:39:43Z",
+    "last_seen": "2026-07-28T17:49:05Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "chinabowl.club",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-08T16:44:01Z",
+    "last_seen": "2026-06-08T16:44:01Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "chinarice.asia",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-17T07:45:20Z",
+    "last_seen": "2026-06-17T07:45:20Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "chubrik.sbs",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-08T07:35:59Z",
+    "last_seen": "2026-05-08T07:35:59Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "cloudflare-check.cfd",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-11T19:49:17Z",
+    "last_seen": "2026-03-11T19:49:17Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "coal.albaikmenuonline.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-09-06T19:19:55Z",
+    "last_seen": "2026-09-07T11:35:10Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "comb.betyek.store",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-07-26T13:41:06Z",
+    "last_seen": "2026-07-28T17:39:43Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "comicstar.lat",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-25T20:39:40Z",
+    "last_seen": "2026-05-25T20:39:40Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "corppop.shop",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-08T03:40:00Z",
+    "last_seen": "2026-05-08T03:40:00Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "cosmostars.shop",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-03T00:27:22Z",
+    "last_seen": "2026-06-03T00:27:22Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "cup.blinqueofficial.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-09-25T05:09:57Z",
+    "last_seen": "2026-09-25T14:34:47Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "cup.yourbodybydesign.me",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-24T12:57:18Z",
+    "last_seen": "2026-08-24T15:09:55Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "dad.adkfarmerdan.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-21T08:39:07Z",
+    "last_seen": "2026-08-21T22:22:55Z",
+    "times_seen": 2,
     "current": false,
     "confidence": 50,
     "dual_use": false,
@@ -39,6 +1047,2184 @@
   },
   {
     "type": "domain",
+    "value": "deer.albaikmenuonline.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-09-27T00:26:44Z",
+    "last_seen": "2026-09-27T20:03:26Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "denegnet.click",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-04-06T14:05:51Z",
+    "last_seen": "2026-04-06T14:05:51Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "diddyparty.click",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-31T17:33:19Z",
+    "last_seen": "2026-03-31T17:33:19Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "dock.yourbodybydesign.me",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-25T06:35:52Z",
+    "last_seen": "2026-08-25T09:17:46Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "dome.369bbqsifangonline.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-25T14:06:42Z",
+    "last_seen": "2026-08-26T05:44:19Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "dome.beatdropkec.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-09-21T17:01:27Z",
+    "last_seen": "2026-09-23T13:49:32Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "drum.jumpskyhigh.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-21T22:22:55Z",
+    "last_seen": "2026-08-22T00:16:16Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "drum.poconodessertco.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-22T00:17:34Z",
+    "last_seen": "2026-08-22T11:42:28Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "duck.bergamonerazzurra.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-09-25T14:35:54Z",
+    "last_seen": "2026-09-26T00:57:21Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "duke.poconodessertco.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-23T02:37:21Z",
+    "last_seen": "2026-08-24T01:17:51Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "earl.afghankabobgrill.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-31T12:40:21Z",
+    "last_seen": "2026-09-01T13:48:34Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "earl.blinqueofficial.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-09-24T06:53:39Z",
+    "last_seen": "2026-09-24T14:39:23Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "etokrol.lol",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-04-10T09:14:39Z",
+    "last_seen": "2026-04-10T09:14:39Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "etomoe.cfd",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-04-27T21:22:22Z",
+    "last_seen": "2026-04-27T21:22:22Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "etomoidomen.cfd",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-04-23T21:26:00Z",
+    "last_seen": "2026-04-23T21:26:00Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "fan.369bbqsifangonline.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-25T09:17:46Z",
+    "last_seen": "2026-08-25T14:06:42Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "fan.afghankabobgrill.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-28T11:08:46Z",
+    "last_seen": "2026-08-30T05:24:45Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "fesold.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-07-02T10:24:07Z",
+    "last_seen": "2026-07-02T10:24:07Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "fish.alexiagavela.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-09-26T00:57:29Z",
+    "last_seen": "2026-09-27T00:26:44Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "fog.beatdropkec.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-09-17T04:11:36Z",
+    "last_seen": "2026-09-21T17:01:27Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "fog.blacklabelfremont.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-10-07T03:46:26Z",
+    "last_seen": "2026-10-07T10:17:30Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "ganiballektor.cfd",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-28T08:31:39Z",
+    "last_seen": "2026-05-28T16:03:19Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "gate.albaikmenuonline.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-09-02T12:33:42Z",
+    "last_seen": "2026-09-03T06:59:19Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "gdedengikarlos.cfd",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-13T03:08:50Z",
+    "last_seen": "2026-05-13T03:08:50Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "gdelogi.lol",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-04-06T13:48:05Z",
+    "last_seen": "2026-04-06T13:48:05Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "gold.albaikmenuonline.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-09-03T06:59:19Z",
+    "last_seen": "2026-09-04T13:42:36Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "gooddogshop.click",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-30T14:41:21Z",
+    "last_seen": "2026-03-30T14:41:21Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "goodgoodmoon.bond",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-04-02T09:34:01Z",
+    "last_seen": "2026-04-02T09:34:01Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "govnol.lat",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-10T08:36:23Z",
+    "last_seen": "2026-05-10T08:36:23Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "gray.bowlinggreenwinnelsonco.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-10-02T05:39:18Z",
+    "last_seen": "2026-10-04T09:27:04Z",
+    "times_seen": 3,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "hail.cocova.co",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-10-15T09:42:37Z",
+    "last_seen": "2026-10-18T12:53:23Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "harp.poconodessertco.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-22T11:42:42Z",
+    "last_seen": "2026-08-23T02:37:21Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "hen.yourbodybydesign.me",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-24T08:03:12Z",
+    "last_seen": "2026-08-24T12:57:18Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "holopebamiy.bond",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-18T20:06:05Z",
+    "last_seen": "2026-06-18T20:06:05Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "honeymoonshop.asia",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-13T15:39:48Z",
+    "last_seen": "2026-06-13T15:39:48Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "hulywali.space",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-21T05:12:07Z",
+    "last_seen": "2026-08-21T08:39:07Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "hut.yourbodybydesign.me",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-25T03:51:28Z",
+    "last_seen": "2026-08-25T06:35:52Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "iron.betweenthebunz.co",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-09-10T14:02:13Z",
+    "last_seen": "2026-09-13T16:19:46Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "iron.blacklabelfremont.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-10-07T10:17:30Z",
+    "last_seen": "2026-10-08T06:51:22Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "ivangay.bond",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-04-27T14:48:10Z",
+    "last_seen": "2026-04-27T14:48:10Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "jet.bowlinggreenwinnelsonco.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-09-30T22:17:57Z",
+    "last_seen": "2026-10-02T05:39:18Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "kal.zeuss4d.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-07-28T17:49:05Z",
+    "last_seen": "2026-07-29T04:35:44Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "kaleda.pro",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-07-11T15:06:52Z",
+    "last_seen": "2026-07-11T15:06:52Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "kalekos.world",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-18T23:36:27Z",
+    "last_seen": "2026-08-19T15:37:55Z",
+    "times_seen": 4,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "kaloed.pro",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-07-07T10:18:38Z",
+    "last_seen": "2026-07-07T10:18:38Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "kelp.camp-cantina.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-10-10T17:02:48Z",
+    "last_seen": "2026-10-11T17:38:12Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "king.369bbqsifangonline.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-26T07:02:27Z",
+    "last_seen": "2026-08-26T19:48:52Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "kinikar.pro",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-07-24T00:27:36Z",
+    "last_seen": "2026-07-24T00:27:36Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "krabochel.pro",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-07-22T21:57:12Z",
+    "last_seen": "2026-07-22T21:57:12Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "krempie.xyz",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-04-05T12:53:31Z",
+    "last_seen": "2026-04-06T13:48:53Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "krolikrojer.lat",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-25T12:46:47Z",
+    "last_seen": "2026-05-25T12:46:47Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "leaf.cafemartinezsa.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-10-06T13:26:25Z",
+    "last_seen": "2026-10-07T03:46:26Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "lenders.digital",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-26T20:32:02Z",
+    "last_seen": "2026-05-26T20:32:02Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "lizablud.shop",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-07T16:19:52Z",
+    "last_seen": "2026-06-08T15:38:30Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "loepaord.xyz",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-17T01:56:36Z",
+    "last_seen": "2026-08-17T16:16:30Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "loerpos.pro",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-06T09:54:38Z",
+    "last_seen": "2026-08-06T19:49:50Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "log.afghankabobgrill.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-30T05:24:45Z",
+    "last_seen": "2026-08-31T12:40:21Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "luck.blacklabelfremont.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-10-08T06:51:22Z",
+    "last_seen": "2026-10-14T07:39:56Z",
+    "times_seen": 4,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "lute.bowlinggreenwinnelsonco.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-09-27T20:03:26Z",
+    "last_seen": "2026-09-30T22:17:57Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "luzer.anix-to.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-16T11:58:40Z",
+    "last_seen": "2026-08-16T14:58:43Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "lynx.betweenthebunz.co",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-09-09T07:44:28Z",
+    "last_seen": "2026-09-10T14:02:13Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "malekos.pro",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-07-21T23:19:13Z",
+    "last_seen": "2026-07-21T23:19:13Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "malekras.pro",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-08T13:56:09Z",
+    "last_seen": "2026-08-09T10:07:49Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "maletoks.pro",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-07-29T04:35:44Z",
+    "last_seen": "2026-08-02T12:45:51Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "maletosr.world",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-11T22:45:33Z",
+    "last_seen": "2026-08-12T10:34:42Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "maloke.pro",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-07-15T07:34:41Z",
+    "last_seen": "2026-07-15T07:34:41Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "mamamiadomio.cfd",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-18T19:44:52Z",
+    "last_seen": "2026-06-18T19:44:52Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "mambet.lol",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-01T01:07:12Z",
+    "last_seen": "2026-05-01T01:07:12Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "mamkor.pro",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-07-10T15:51:13Z",
+    "last_seen": "2026-07-10T15:51:13Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "mampodik.asia",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-13T16:13:39Z",
+    "last_seen": "2026-06-13T16:13:39Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "marinaradom.cfd",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-17T16:30:08Z",
+    "last_seen": "2026-05-17T16:30:08Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "marjdl.pro",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-07-13T22:11:53Z",
+    "last_seen": "2026-07-13T22:11:53Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "markdl.pro",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-07-21T06:46:10Z",
+    "last_seen": "2026-07-21T06:46:10Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "markol.pro",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-07-19T08:06:58Z",
+    "last_seen": "2026-07-19T08:06:58Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "marmelad.lat",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-07T17:41:31Z",
+    "last_seen": "2026-05-07T17:41:31Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "mast.jumpskyhigh.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-22T00:16:16Z",
+    "last_seen": "2026-08-22T00:17:34Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "mebanebols.trade",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-30T13:11:47Z",
+    "last_seen": "2026-06-30T13:11:47Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "megamegalodon.click",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-28T16:02:46Z",
+    "last_seen": "2026-05-28T22:41:00Z",
+    "times_seen": 3,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "mekasa.pro",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-07-05T18:12:05Z",
+    "last_seen": "2026-07-05T18:12:05Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "merabs.pro",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-07-01T14:09:19Z",
+    "last_seen": "2026-07-01T14:09:19Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "merengagoi.bond",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-04-01T13:44:41Z",
+    "last_seen": "2026-04-01T13:44:41Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "merindashop.cyou",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-02T04:42:32Z",
+    "last_seen": "2026-06-02T04:42:32Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "merkantalolol.asia",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-22T08:42:43Z",
+    "last_seen": "2026-06-22T08:42:43Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "mexicodreams.bond",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-06T16:43:42Z",
+    "last_seen": "2026-06-07T16:32:55Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "microblob.bond",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-25T05:13:07Z",
+    "last_seen": "2026-03-29T01:52:52Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "microblogver.bond",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-23T10:21:47Z",
+    "last_seen": "2026-03-23T10:21:59Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "microchlen.lat",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-04T23:07:46Z",
+    "last_seen": "2026-05-04T23:07:46Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "microloh.bond",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-23T13:02:01Z",
+    "last_seen": "2026-03-23T13:14:39Z",
+    "times_seen": 3,
+    "current": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "milksos.cfd",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-11T10:36:56Z",
+    "last_seen": "2026-05-11T10:36:56Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "misterslivker.asia",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-11T20:04:28Z",
+    "last_seen": "2026-06-11T20:04:28Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "mnepohui.sbs",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-06T15:40:00Z",
+    "last_seen": "2026-05-06T15:40:00Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "mob.lanjut.in",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-01T07:40:00Z",
+    "last_seen": "2026-06-01T07:40:00Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "mole.albaikmenuonline.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-09-01T20:32:03Z",
+    "last_seen": "2026-09-02T12:33:42Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "moleroos.pro",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-16T20:28:42Z",
+    "last_seen": "2026-08-16T23:52:36Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "moll.lanjut.in",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-31T07:00:03Z",
+    "last_seen": "2026-05-31T07:00:03Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "moniskk.live",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-11T12:10:30Z",
+    "last_seen": "2026-08-11T15:29:58Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "moth.betweenthebunz.co",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-09-14T15:16:55Z",
+    "last_seen": "2026-09-17T04:11:36Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "mybiggestjoy.bond",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-30T00:24:02Z",
+    "last_seen": "2026-03-30T00:24:02Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "myblobtop.site",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-04-17T13:07:18Z",
+    "last_seen": "2026-04-17T13:07:18Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "mygoodblog.bond",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-23T11:36:01Z",
+    "last_seen": "2026-03-23T11:36:01Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "mygoodblog.cfd",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-23T11:33:53Z",
+    "last_seen": "2026-03-23T11:33:53Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "mylovedomen.asia",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-10T03:54:45Z",
+    "last_seen": "2026-06-10T03:54:45Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "mymicroblog.lat",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-04-03T03:43:55Z",
+    "last_seen": "2026-04-03T03:43:55Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "myverifhouse.sbs",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-18T21:51:45Z",
+    "last_seen": "2026-03-18T21:51:45Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "myverifyblog.sbs",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-13T17:27:15Z",
+    "last_seen": "2026-03-13T17:27:15Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "nenadopapa.cfd",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-04-18T06:44:36Z",
+    "last_seen": "2026-04-18T06:44:36Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "nihaoclub.asia",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-09T11:25:34Z",
+    "last_seen": "2026-06-09T11:25:34Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "noon.cafemartinezsa.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-10-04T09:27:04Z",
+    "last_seen": "2026-10-06T06:54:33Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "palm.blueridgekcmo.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-10-12T15:09:03Z",
+    "last_seen": "2026-10-14T07:21:34Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "palm.yourbodybydesign.me",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-24T15:09:55Z",
+    "last_seen": "2026-08-25T03:51:28Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "peachbro.bond",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-05T14:16:27Z",
+    "last_seen": "2026-06-05T14:16:27Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "pidorsas.site",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-21T02:41:01Z",
+    "last_seen": "2026-08-21T05:12:07Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "pig.369bbqsifangonline.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-26T19:48:52Z",
+    "last_seen": "2026-08-27T19:50:37Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "pilotkadomen.club",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-09T16:46:01Z",
+    "last_seen": "2026-06-09T16:46:01Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "pine.beatdropkec.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-09-23T13:49:32Z",
+    "last_seen": "2026-09-24T06:53:39Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "pinokros.xyz",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-04T19:03:01Z",
+    "last_seen": "2026-06-04T19:03:01Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "pohuimne.lol",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-04-22T08:30:16Z",
+    "last_seen": "2026-04-22T08:30:16Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "pokarse.online",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-17T16:16:30Z",
+    "last_seen": "2026-08-17T18:32:36Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "pokese.pro",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-07-03T08:17:26Z",
+    "last_seen": "2026-07-03T08:17:26Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "pol.1000boger.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-07-25T06:14:54Z",
+    "last_seen": "2026-07-26T13:41:06Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "ponikas.cyou",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-12T07:43:07Z",
+    "last_seen": "2026-05-12T07:43:07Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "pool.hashvault.pro",
     "port": 443,
     "family": "xmrig-stealth",
@@ -53,6 +3239,222 @@
     "current": true,
     "confidence": 85,
     "dual_use": true,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "popelkar.pro",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-07-24T00:41:31Z",
+    "last_seen": "2026-07-24T00:41:31Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "popkas.bond",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-18T11:20:46Z",
+    "last_seen": "2026-08-18T23:36:27Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "pringlesbob.cfd",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-05T01:00:48Z",
+    "last_seen": "2026-06-05T01:00:48Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "productionmaza.bond",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-25T05:11:09Z",
+    "last_seen": "2026-03-29T01:52:42Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "productionmaza.cfd",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-25T05:09:09Z",
+    "last_seen": "2026-03-28T02:45:41Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "productionmaza.cyou",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-25T05:07:09Z",
+    "last_seen": "2026-03-26T14:26:11Z",
+    "times_seen": 3,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "productionmaza.sbs",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-24T23:47:05Z",
+    "last_seen": "2026-03-25T14:05:49Z",
+    "times_seen": 3,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "prokladka.lol",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-04-23T18:08:00Z",
+    "last_seen": "2026-04-23T18:08:00Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "pusanik.shop",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-27T11:19:39Z",
+    "last_seen": "2026-05-27T11:19:39Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "rain.afghankabobgrill.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-09-01T13:48:34Z",
+    "last_seen": "2026-09-01T13:49:31Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "robodomain.sbs",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-10T08:36:45Z",
+    "last_seen": "2026-05-10T08:36:45Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "rock.betweenthebunz.co",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-09-07T11:36:13Z",
+    "last_seen": "2026-09-14T15:16:55Z",
+    "times_seen": 4,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
     "enrichment": {}
   },
   {
@@ -75,6 +3477,150 @@
   },
   {
     "type": "domain",
+    "value": "rug.albaikmenuonline.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-09-01T13:49:31Z",
+    "last_seen": "2026-09-07T11:36:13Z",
+    "times_seen": 4,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "rug.betweenthebunz.co",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-09-08T09:19:58Z",
+    "last_seen": "2026-09-09T07:44:28Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "salfetka.anix-to.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-16T01:50:54Z",
+    "last_seen": "2026-08-16T11:58:40Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "sandman.bond",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-04-29T21:29:08Z",
+    "last_seen": "2026-04-29T21:29:08Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "sandman.lat",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-02T02:00:34Z",
+    "last_seen": "2026-05-02T02:00:34Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "seal.369bbqsifangonline.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-26T05:44:19Z",
+    "last_seen": "2026-08-26T07:02:27Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "sirata.asia",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-04-17T12:57:22Z",
+    "last_seen": "2026-04-17T12:57:22Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "sis.adkfarmerdan.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-12T20:56:10Z",
+    "last_seen": "2026-08-14T07:46:34Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "site.com",
     "port": null,
     "family": "xmrig-stealth",
@@ -86,6 +3632,438 @@
     ],
     "first_seen": "2026-03-15T23:04:41Z",
     "last_seen": "2026-03-16T01:59:25Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "sitepromclop.click",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-20T23:26:19Z",
+    "last_seen": "2026-03-21T00:02:31Z",
+    "times_seen": 4,
+    "current": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "ski.blacklabelfremont.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-10-09T05:37:32Z",
+    "last_seen": "2026-10-09T18:28:40Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "sky.dolcefantasia.us",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-10-18T12:53:23Z",
+    "last_seen": "2026-10-18T12:53:47Z",
+    "times_seen": 2,
+    "current": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "slivkishow.asia",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-12T14:18:28Z",
+    "last_seen": "2026-06-13T15:41:57Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "smackit.lat",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-20T06:44:27Z",
+    "last_seen": "2026-05-20T06:44:27Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "smenapodik.bond",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-15T19:27:16Z",
+    "last_seen": "2026-06-15T19:27:16Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "smesharik.bond",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-29T11:14:36Z",
+    "last_seen": "2026-03-29T11:14:36Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "soul.poconodessertco.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-24T01:17:51Z",
+    "last_seen": "2026-08-24T08:03:12Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "spartanec.lat",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-17T07:18:28Z",
+    "last_seen": "2026-05-17T07:18:28Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "superboomer.world",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-23T20:25:13Z",
+    "last_seen": "2026-06-23T20:25:13Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "superpooper.click",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-08T03:42:30Z",
+    "last_seen": "2026-05-08T03:42:30Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "superstarlog.click",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-25T14:58:19Z",
+    "last_seen": "2026-06-25T14:58:19Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "telemetras.pro",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-07T16:27:52Z",
+    "last_seen": "2026-08-08T13:56:09Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "thisismine.asia",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-11T04:41:25Z",
+    "last_seen": "2026-06-11T04:41:25Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "valeroks.click",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-18T23:40:09Z",
+    "last_seen": "2026-08-19T12:59:24Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "valokse.lol",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-19T15:37:55Z",
+    "last_seen": "2026-08-20T01:05:27Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "veralok.click",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-09T10:07:49Z",
+    "last_seen": "2026-08-10T09:28:03Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "verokase.xyz",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-20T23:22:40Z",
+    "last_seen": "2026-08-21T02:41:01Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "volrko.pro",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-10T09:28:03Z",
+    "last_seen": "2026-08-10T11:04:46Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "wasp.blinqueofficial.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-09-25T14:34:47Z",
+    "last_seen": "2026-09-25T14:35:54Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "webanalytics-cdn.cfd",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-16T08:39:03Z",
+    "last_seen": "2026-03-16T08:39:03Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "whynotebanarot.xyz",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-07T12:17:17Z",
+    "last_seen": "2026-05-07T12:17:17Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "wind.cafemartinezsa.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-10-06T06:54:33Z",
+    "last_seen": "2026-10-06T13:26:25Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "wolf.albaikmenuonline.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-09-04T13:42:36Z",
+    "last_seen": "2026-09-06T19:19:55Z",
     "times_seen": 2,
     "current": false,
     "confidence": 50,
@@ -149,6 +4127,114 @@
     "times_seen": 6,
     "current": true,
     "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "year.calvinpreschooloffice.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-10-14T07:39:56Z",
+    "last_seen": "2026-10-15T09:42:37Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "yoshicity.xyz",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-05-04T19:16:58Z",
+    "last_seen": "2026-05-04T19:16:58Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "zaerkos.rest",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-20T01:05:27Z",
+    "last_seen": "2026-08-20T13:47:34Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "zaeroks.website",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-08-20T13:47:34Z",
+    "last_seen": "2026-08-20T23:22:40Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "zaserz.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-06-30T15:29:29Z",
+    "last_seen": "2026-06-30T15:29:29Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x08207b087f61d7e95e441e15fd6d40befd6ed308",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-11T19:48:41Z",
+    "last_seen": "2026-10-18T12:53:47Z",
+    "times_seen": 262,
+    "current": true,
+    "confidence": 90,
     "dual_use": false,
     "enrichment": {}
   },
@@ -244,6 +4330,24 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x2b2e30da517b22a20eb367a36b9ca725cf93e9e5",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x2b2e30da517b22a20eb367a36b9ca725cf93e9e5"
+    ],
+    "first_seen": "2026-04-09T16:17:37Z",
+    "last_seen": "2026-04-11T17:52:37Z",
+    "times_seen": 5,
+    "current": false,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x2fbd66fe245052d265ca0eda7d01d35b2d8b9feb",
     "port": null,
     "family": "xmrig-stealth",
@@ -275,6 +4379,42 @@
     "times_seen": 84,
     "current": true,
     "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x4af8048edfe4523953e9907528bf5cef7fa8db09",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x4af8048edfe4523953e9907528bf5cef7fa8db09"
+    ],
+    "first_seen": "2026-10-14T09:13:08Z",
+    "last_seen": "2026-10-18T12:53:53Z",
+    "times_seen": 9,
+    "current": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x56384ef15734cce9026d9e75ac3be616513fe2ae",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x56384ef15734cce9026d9e75ac3be616513fe2ae"
+    ],
+    "first_seen": "2026-03-11T18:54:01Z",
+    "last_seen": "2026-03-11T18:54:01Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 55,
     "dual_use": false,
     "enrichment": {}
   },
@@ -484,6 +4624,27 @@
     "last_seen": "2026-09-14T00:11:39Z",
     "times_seen": 40,
     "current": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0x34c15320d6e8f59f1b66f6c191aaa7f87b894b66",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308",
+      "0x2b2e30da517b22a20eb367a36b9ca725cf93e9e5",
+      "0x4af8048edfe4523953e9907528bf5cef7fa8db09",
+      "0x56384ef15734cce9026d9e75ac3be616513fe2ae"
+    ],
+    "first_seen": "2026-03-11T18:54:01Z",
+    "last_seen": "2026-10-18T12:53:53Z",
+    "times_seen": 277,
+    "current": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -5138,6 +9299,258 @@
     "times_seen": 5,
     "current": true,
     "confidence": 75,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://cloudflare-check.cfd",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-11T19:49:17Z",
+    "last_seen": "2026-03-11T19:49:17Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://hail.cocova.co",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-10-15T09:42:37Z",
+    "last_seen": "2026-10-18T12:53:23Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://microblogver.bond",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-23T10:21:47Z",
+    "last_seen": "2026-03-23T10:21:47Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://microblogver.bond/land/",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-23T10:21:59Z",
+    "last_seen": "2026-03-23T10:21:59Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://microloh.bond",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-23T13:02:01Z",
+    "last_seen": "2026-03-23T13:02:01Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://mybiggestjoy.bond",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-30T00:24:02Z",
+    "last_seen": "2026-03-30T00:24:02Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://mygoodblog.bond",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-23T11:36:01Z",
+    "last_seen": "2026-03-23T11:36:01Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://mygoodblog.cfd",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-23T11:33:53Z",
+    "last_seen": "2026-03-23T11:33:53Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://myverifhouse.sbs",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-18T21:51:45Z",
+    "last_seen": "2026-03-18T21:51:45Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://myverifyblog.sbs/",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-13T17:27:15Z",
+    "last_seen": "2026-03-13T17:27:15Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://sitepromclop.click",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-20T23:26:19Z",
+    "last_seen": "2026-03-21T00:01:05Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://sitepromclop.click/land/",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-20T23:33:03Z",
+    "last_seen": "2026-03-21T00:02:31Z",
+    "times_seen": 2,
+    "current": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://sky.dolcefantasia.us",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-10-18T12:53:23Z",
+    "last_seen": "2026-10-18T12:53:47Z",
+    "times_seen": 2,
+    "current": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://webanalytics-cdn.cfd/",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-34c15320",
+    "chain": "polygon",
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308"
+    ],
+    "first_seen": "2026-03-16T08:39:03Z",
+    "last_seen": "2026-03-16T08:39:03Z",
+    "times_seen": 1,
+    "current": false,
+    "confidence": 85,
     "dual_use": false,
     "enrichment": {}
   },

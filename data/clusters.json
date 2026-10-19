@@ -71,6 +71,26 @@
     "last_seen": "2026-09-06T09:45:09Z"
   },
   {
+    "id": "c-34c15320",
+    "name": "C2 URL rotation cluster (c-34c15320)",
+    "family": "c2-url",
+    "chains": [
+      "polygon"
+    ],
+    "contracts": [
+      "0x08207b087f61d7e95e441e15fd6d40befd6ed308",
+      "0x2b2e30da517b22a20eb367a36b9ca725cf93e9e5",
+      "0x4af8048edfe4523953e9907528bf5cef7fa8db09",
+      "0x56384ef15734cce9026d9e75ac3be616513fe2ae"
+    ],
+    "wallets": [
+      "0x34c15320d6e8f59f1b66f6c191aaa7f87b894b66"
+    ],
+    "ioc_count": 245,
+    "first_seen": "2026-03-11T18:54:01Z",
+    "last_seen": "2026-10-18T12:53:53Z"
+  },
+  {
     "id": "c-3d2075f9",
     "name": "Unclassified dead-drop cluster (c-3d2075f9)",
     "family": "unknown",
@@ -140,7 +160,7 @@
   },
   {
     "id": "c-de275ad3",
-    "name": "C2 URL rotation cluster",
+    "name": "C2 URL rotation cluster (c-de275ad3)",
     "family": "c2-url",
     "chains": [
       "polygon"

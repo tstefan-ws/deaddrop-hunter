@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T19:24:09Z",
+  "generated_at": "2026-10-19T19:33:14Z",
   "tool_version": "0.1.0",
   "cursors": [
     {
@@ -68,23 +68,37 @@
     {
       "chain": "polygon",
       "hunt_id": "dataupdated-string-string",
-      "from_block": 92096196,
-      "to_block": 95821669,
-      "updated_at": "2026-10-19T19:24:09Z"
+      "from_block": 90884549,
+      "to_block": 95821691,
+      "updated_at": "2026-10-19T19:24:49Z"
     },
     {
       "chain": "polygon",
       "hunt_id": "selector-68446ead",
-      "from_block": 94569512,
-      "to_block": 95821669,
-      "updated_at": "2026-10-19T19:24:09Z"
+      "from_block": 90884549,
+      "to_block": 95821691,
+      "updated_at": "2026-10-19T19:24:49Z"
+    },
+    {
+      "chain": "polygon",
+      "hunt_id": "selector-77343408",
+      "from_block": 90884549,
+      "to_block": 95821691,
+      "updated_at": "2026-10-19T19:24:49Z"
+    },
+    {
+      "chain": "polygon",
+      "hunt_id": "urlupdated-string-string",
+      "from_block": 90884549,
+      "to_block": 95821691,
+      "updated_at": "2026-10-19T19:24:49Z"
     },
     {
       "chain": "polygon",
       "hunt_id": "watch-wallet",
-      "from_block": 75232416,
-      "to_block": 95821669,
-      "updated_at": "2026-10-19T19:24:09Z"
+      "from_block": 67021967,
+      "to_block": 95821967,
+      "updated_at": "2026-10-19T19:31:44Z"
     },
     {
       "chain": "solana",
@@ -148,10 +162,10 @@
     }
   ],
   "counts": {
-    "contracts": 29,
-    "wallets": 22,
-    "events": 651,
-    "iocs": 286,
-    "clusters": 13
+    "contracts": 33,
+    "wallets": 24,
+    "events": 928,
+    "iocs": 531,
+    "clusters": 14
   }
 }

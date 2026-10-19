@@ -127,6 +127,27 @@ chains = ["polygon", "ethereum", "arbitrum", "optimism", "base", "avalanche", "b
 reference = "https://www.linkedin.com/pulse/hunting-etherhiding-from-one-cluster-ecosystem-alex-necula-r7l8e/"
 
 [[hunts]]
+id = "urlupdated-string-string"
+kind = "event"
+signature = "URLUpdated(string,string)"
+topic0 = "0x495481753c5cd09cb26f48430bc18cdf5d000cd16c41757ea54cb49fe8d56a9a"
+abi = ["string", "string"]  # old URL, new URL
+chains = ["polygon", "ethereum", "arbitrum", "optimism", "base", "avalanche", "bsc", "bsc_testnet"]
+reference = "https://www.linkedin.com/pulse/etherhiding-watching-c2-server-hide-plain-sight-harshleen-chawla-cwvkc/"
+note = """Same shape as DataUpdated, different event name: a resolver contract exposing getURL()
+0x38bcdc1c / setURL(string) 0x77343408 / admin() 0xf851a440. Added 2026-10-19 after measuring
+that 0x08207b08... emitted 85 of these inside a Polygon range we had already swept - we scanned
+the blocks and missed it because we only matched one topic."""
+
+[[hunts]]
+id = "selector-77343408"
+kind = "selector"
+selector = "0x77343408"
+abi = ["string"]
+chains = ["polygon", "bsc", "bsc_testnet"]
+note = "setURL(string) of the URLUpdated resolver family."
+
+[[hunts]]
 id = "selector-68446ead"
 kind = "selector"
 selector = "0x68446ead"
@@ -149,6 +170,18 @@ reason = "MetaMask DelegationManager (verified, public; used by many unrelated w
 
 # Operator wallets to watch continuously. New contracts or updates from these
 # wallets are flagged in the dashboard.
+[[watch_wallets]]
+chain = "polygon"
+address = "0x34c15320d6e8f59f1b66f6c191aaa7f87b894b66"
+label = "Operator: URL resolver (ClearFake-style TDS rotation, 190+ domain updates)"
+source = "https://www.linkedin.com/pulse/etherhiding-watching-c2-server-hide-plain-sight-harshleen-chawla-cwvkc/"
+
+[[watch_wallets]]
+chain = "polygon"
+address = "0x6fcaca5958193e48da350f568c28f034a9632454"
+label = "Funder of the URL-resolver operator"
+source = "https://www.linkedin.com/pulse/etherhiding-watching-c2-server-hide-plain-sight-harshleen-chawla-cwvkc/"
+
 [[watch_wallets]]
 chain = "polygon"
 address = "0x19532c0fbaf0fb8c1d0f3fac0b704bf2f4645539"
