@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T20:43:17Z",
+  "generated_at": "2026-10-19T21:00:26Z",
   "new_window_hours": 24,
   "tool_version": "0.1.0",
   "cursors": [
@@ -51,6 +51,13 @@
       "from_block": 48921842,
       "to_block": 52824251,
       "updated_at": "2026-10-19T19:24:09Z"
+    },
+    {
+      "chain": "bsc",
+      "hunt_id": "block-watch",
+      "from_block": 128621885,
+      "to_block": 128622484,
+      "updated_at": "2026-10-19T21:00:26Z"
     },
     {
       "chain": "ethereum",
@@ -170,10 +177,10 @@
     }
   ],
   "counts": {
-    "contracts": 37,
-    "wallets": 28,
-    "events": 932,
-    "iocs": 543,
-    "clusters": 18
+    "contracts": 38,
+    "wallets": 29,
+    "events": 933,
+    "iocs": 545,
+    "clusters": 19
   }
 }

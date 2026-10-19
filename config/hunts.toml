@@ -73,13 +73,20 @@ rpcs = [
 chain_id = 56
 block_time_s = 0.75
 explorer = "https://bscscan.com"
-# Measured 2026-10-19: every free public BSC node refuses or rate-limits topic-only
-# sweeps, and the Etherscan V2 FREE plan does not cover BSC ("Free API access is not
-# supported for this chain"). Sweeps therefore go through Dune (env DUNE_API_KEY,
-# table bnb.logs) or a free-key RPC via DDH_RPC_BSC. RPCs below serve eth_call / tx lookups.
+# Re-measured 2026-10-19 (evening), 12 public endpoints tested:
+#   * Etherscan V2 free still refuses chainid 56 ("Free API access is not supported for
+#     this chain"), so no wallet watch and no selector hunts here without a paid plan.
+#   * Only 1rpc.io/bnb accepted a topic-only sweep, and only 50 blocks per query. BSC makes
+#     ~115,200 blocks a day, so that is ~2,300 queries just to keep up and ~207,000 to cover
+#     the default 90-day lookback: not usable, which is why it is not listed as a sweep RPC.
+#   * bsc-rpc.publicnode.com now answers 403; bsc-dataseed serves blocks (32 txs, 56 KB,
+#     0.30 s), eth_getCode and eth_call perfectly well.
+# So event sweeps here still need DUNE_API_KEY or a free-key RPC in DDH_RPC_BSC, but
+# block-watch needs none of that: it only reads blocks, code and calls.
 rpcs = [
-  { url = "https://bsc-rpc.publicnode.com", max_log_span = 0 },
   { url = "https://bsc-dataseed.binance.org", max_log_span = 0 },
+  { url = "https://bsc-dataseed1.defibit.io", max_log_span = 0 },
+  { url = "https://bsc.meowrpc.com", max_log_span = 0 },
 ]
 indexed_provider = "dune"
 dune_chain = "bnb"
@@ -139,7 +146,7 @@ reference = "https://www.linkedin.com/pulse/hunting-etherhiding-from-one-cluster
 [[hunts]]
 id = "block-watch"
 kind = "block"
-chains = ["polygon"]
+chains = ["polygon", "bsc"]
 max_blocks = 600
 note = """Polygon makes ~2,057 contracts a day and the shape filter discards nearly all of them
 before any call is made, so the cost is reading the blocks: ~216 KB each, ~0.22 s each at six
