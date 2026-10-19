@@ -3,10 +3,14 @@
 # eth_getTransactionByHash, eth_getBlockByNumber, eth_getCode and eth_call. It never signs or sends.
 
 [settings]
-default_lookback_days = 90
+# We hunt the present, not the archive. A hunt with no cursor starts three days back rather
+# than three months: live infrastructure is the point, and a C2 that rotated in July is
+# history someone else can write up. Pass --days for a one-off backfill when a new
+# fingerprint or a new watched wallet needs its past filled in.
+default_lookback_days = 3
 # Anything that entered our data inside this window is flagged "new" (contracts, indicators
-# and clusters), so a reader can see what arrived since yesterday.
-new_window_hours = 24
+# and clusters). Three days, to match the hunting window above.
+new_window_hours = 72
 # Data directory committed to git and read by the web UI.
 data_dir = "data"
 
@@ -78,7 +82,7 @@ explorer = "https://bscscan.com"
 #     this chain"), so no wallet watch and no selector hunts here without a paid plan.
 #   * Only 1rpc.io/bnb accepted a topic-only sweep, and only 50 blocks per query. BSC makes
 #     ~115,200 blocks a day, so that is ~2,300 queries just to keep up and ~207,000 to cover
-#     the default 90-day lookback: not usable, which is why it is not listed as a sweep RPC.
+#     a 3-day lookback: not usable, which is why it is not listed as a sweep RPC.
 #   * bsc-rpc.publicnode.com now answers 403; bsc-dataseed serves blocks (32 txs, 56 KB,
 #     0.30 s), eth_getCode and eth_call perfectly well.
 # So event sweeps here still need DUNE_API_KEY or a free-key RPC in DDH_RPC_BSC, but

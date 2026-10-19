@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T21:00:26Z",
-  "new_window_hours": 24,
+  "generated_at": "2026-10-19T21:02:28Z",
+  "new_window_hours": 72,
   "tool_version": "0.1.0",
   "cursors": [
     {
@@ -84,8 +84,8 @@
       "chain": "polygon",
       "hunt_id": "dataupdated-string-string",
       "from_block": 90884549,
-      "to_block": 95821691,
-      "updated_at": "2026-10-19T19:24:49Z"
+      "to_block": 95825595,
+      "updated_at": "2026-10-19T21:02:28Z"
     },
     {
       "chain": "polygon",
@@ -105,8 +105,8 @@
       "chain": "polygon",
       "hunt_id": "urlupdated-string-string",
       "from_block": 90884549,
-      "to_block": 95821691,
-      "updated_at": "2026-10-19T19:24:49Z"
+      "to_block": 95825595,
+      "updated_at": "2026-10-19T21:02:28Z"
     },
     {
       "chain": "polygon",

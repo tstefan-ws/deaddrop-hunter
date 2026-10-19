@@ -121,7 +121,8 @@ Non-EVM chain types (`type = "tron" | "solana" | "aptos"`) need a collector in
 **Pull request** (preferred): branch `hunt/<short-name>`, change `config/hunts.toml` (and code +
 tests if needed), run `ruff check src tests && pytest`, and fill the PR template: example
 contracts/transactions, measured noise, why it is malicious. Don't commit `data/` from your test
-run; CI's next scheduled hunt picks up the new hunt and backfills `default_lookback_days`.
+run; CI's next scheduled hunt picks up the new hunt and scans `default_lookback_days` (3 days).
+For a one-off backfill of a new fingerprint's past, run it once with `--days N`.
 
 **Issue**: no time for a PR? Use the
 [New hunt / fingerprint proposal](https://github.com/tstefan-ws/deaddrop-hunter/issues/new?template=hunt-proposal.yml)
