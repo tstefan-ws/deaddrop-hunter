@@ -10,7 +10,6 @@ import { renderIocs } from './pages/iocs.js';
 import { renderClusters, renderCluster } from './pages/clusters.js';
 import { renderWatchlist, newSince } from './pages/watchlist.js';
 import { renderFeeds } from './pages/feeds.js';
-import { renderAbout } from './pages/about.js';
 import { renderSearch } from './pages/search.js';
 import { notFound, scanHealth } from './ui.js';
 
@@ -66,7 +65,6 @@ function route(ctx) {
       return ['clusters', renderClusters(ctx)];
     case 'watchlist': return ['watchlist', renderWatchlist(ctx)];
     case 'feeds': return ['feeds', renderFeeds(ctx)];
-    case 'about': return ['about', renderAbout(ctx)];
     case 'search': return ['', renderSearch(ctx)];
     default: return ['', notFound('Page', ctx.parts.join('/'))];
   }
