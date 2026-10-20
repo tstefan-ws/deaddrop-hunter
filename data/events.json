@@ -1,6 +1,36 @@
 [
   {
     "chain": "polygon",
+    "block": 95880479,
+    "timestamp": "2026-10-20T19:54:47Z",
+    "tx_hash": "0x14e0220ca9b41dd808be550be4b37fe12d139e684b7850a6213c974bba6d1f44",
+    "contract": "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c",
+    "from": "0x74075c3201074e6c9e9ebfa5362dd41426322d8a",
+    "selector": "0x08dec0e9",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://binance-com-z8q.refers.workers.dev",
+    "old_decoded": null,
+    "new_decoded": "https://binance-com-z8q.refers.workers.dev",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
+    "block": 95880477,
+    "timestamp": "2026-10-20T19:54:44Z",
+    "tx_hash": "0xe756f2f8d8e93573347eef36d35334ff83f0b9dca164b0f2ce5f8a04cc5dd602",
+    "contract": "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c",
+    "from": "0x74075c3201074e6c9e9ebfa5362dd41426322d8a",
+    "selector": "0x08dec0e9",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://binance-com-z8q.refers.workers.dev",
+    "old_decoded": null,
+    "new_decoded": "https://binance-com-z8q.refers.workers.dev",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 95876779,
     "timestamp": "2026-10-20T18:22:17Z",
     "tx_hash": "0x1c5f55c0c1ca3da460fb8f9438e34be3004208769f9be7b5e30b86009c83118e",
