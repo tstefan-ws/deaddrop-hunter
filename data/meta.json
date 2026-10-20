@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T16:32:08Z",
+  "generated_at": "2026-10-20T17:30:05Z",
   "new_window_hours": 72,
   "scan_interval_minutes": 10,
   "tool_version": "0.1.0",
@@ -8,7 +8,7 @@
     {
       "chain": "aptos",
       "hunt_id": "nonevm",
-      "updated_at": "2026-10-20T16:32:10Z",
+      "updated_at": "2026-10-20T17:30:08Z",
       "accounts": {
         "0xbe037400670fbf1c32364f762975908dc43eeb38759263e7dfcdabc76380811e": {
           "next_seq": 22,
@@ -36,153 +36,153 @@
       "chain": "arbitrum",
       "hunt_id": "dataupdated-string-string",
       "from_block": 485166416,
-      "to_block": 516652933,
-      "updated_at": "2026-10-20T16:32:08Z",
-      "head_block": 516652933
+      "to_block": 516665846,
+      "updated_at": "2026-10-20T17:30:05Z",
+      "head_block": 516665846
     },
     {
       "chain": "arbitrum",
       "hunt_id": "urlupdated-string-string",
       "from_block": 515373027,
-      "to_block": 516652933,
-      "updated_at": "2026-10-20T16:32:08Z",
-      "head_block": 516652933
+      "to_block": 516665846,
+      "updated_at": "2026-10-20T17:30:05Z",
+      "head_block": 516665846
     },
     {
       "chain": "avalanche",
       "hunt_id": "dataupdated-string-string",
       "from_block": 94076725,
-      "to_block": 98074310,
-      "updated_at": "2026-10-20T16:32:08Z",
-      "head_block": 98074310
+      "to_block": 98077855,
+      "updated_at": "2026-10-20T17:30:05Z",
+      "head_block": 98077855
     },
     {
       "chain": "avalanche",
       "hunt_id": "urlupdated-string-string",
       "from_block": 97874719,
-      "to_block": 98074310,
-      "updated_at": "2026-10-20T16:32:08Z",
-      "head_block": 98074310
+      "to_block": 98077855,
+      "updated_at": "2026-10-20T17:30:05Z",
+      "head_block": 98077855
     },
     {
       "chain": "base",
       "hunt_id": "dataupdated-string-string",
       "from_block": 48921842,
-      "to_block": 52862293,
-      "updated_at": "2026-10-20T16:32:08Z",
-      "head_block": 52862293
+      "to_block": 52864029,
+      "updated_at": "2026-10-20T17:30:05Z",
+      "head_block": 52864029
     },
     {
       "chain": "base",
       "hunt_id": "urlupdated-string-string",
       "from_block": 52699273,
-      "to_block": 52862293,
-      "updated_at": "2026-10-20T16:32:08Z",
-      "head_block": 52862293
+      "to_block": 52864029,
+      "updated_at": "2026-10-20T17:30:05Z",
+      "head_block": 52864029
     },
     {
       "chain": "bsc",
       "hunt_id": "block-watch",
-      "from_block": 128777788,
-      "to_block": 128778679,
-      "updated_at": "2026-10-20T16:32:08Z",
-      "head_block": 128778679
+      "from_block": 128785510,
+      "to_block": 128786376,
+      "updated_at": "2026-10-20T17:30:05Z",
+      "head_block": 128786376
     },
     {
       "chain": "bsc",
       "hunt_id": "selector-77343408",
       "from_block": 128285009,
-      "to_block": 128778679,
-      "updated_at": "2026-10-20T16:32:08Z",
-      "head_block": 128778679
+      "to_block": 128786376,
+      "updated_at": "2026-10-20T17:30:05Z",
+      "head_block": 128786376
     },
     {
       "chain": "bsc_testnet",
       "hunt_id": "selector-77343408",
       "from_block": 137688454,
-      "to_block": 137918853,
-      "updated_at": "2026-10-20T16:32:08Z",
-      "head_block": 137918853
+      "to_block": 137926498,
+      "updated_at": "2026-10-20T17:30:05Z",
+      "head_block": 137926498
     },
     {
       "chain": "ethereum",
       "hunt_id": "dataupdated-string-string",
       "from_block": 25578292,
-      "to_block": 26235007,
-      "updated_at": "2026-10-20T16:32:08Z",
-      "head_block": 26235007
+      "to_block": 26235293,
+      "updated_at": "2026-10-20T17:30:05Z",
+      "head_block": 26235293
     },
     {
       "chain": "ethereum",
       "hunt_id": "urlupdated-string-string",
       "from_block": 26207853,
-      "to_block": 26235007,
-      "updated_at": "2026-10-20T16:32:08Z",
-      "head_block": 26235007
+      "to_block": 26235293,
+      "updated_at": "2026-10-20T17:30:05Z",
+      "head_block": 26235293
     },
     {
       "chain": "optimism",
       "hunt_id": "dataupdated-string-string",
       "from_block": 154517125,
-      "to_block": 158457578,
-      "updated_at": "2026-10-20T16:32:08Z",
-      "head_block": 158457578
+      "to_block": 158459313,
+      "updated_at": "2026-10-20T17:30:05Z",
+      "head_block": 158459313
     },
     {
       "chain": "optimism",
       "hunt_id": "urlupdated-string-string",
       "from_block": 158294557,
-      "to_block": 158457578,
-      "updated_at": "2026-10-20T16:32:08Z",
-      "head_block": 158457578
+      "to_block": 158459313,
+      "updated_at": "2026-10-20T17:30:05Z",
+      "head_block": 158459313
     },
     {
       "chain": "polygon",
       "hunt_id": "block-watch",
-      "from_block": 95872116,
-      "to_block": 95872379,
-      "updated_at": "2026-10-20T16:32:08Z",
-      "head_block": 95872379
+      "from_block": 95874434,
+      "to_block": 95874692,
+      "updated_at": "2026-10-20T17:30:05Z",
+      "head_block": 95874692
     },
     {
       "chain": "polygon",
       "hunt_id": "dataupdated-string-string",
       "from_block": 90884549,
-      "to_block": 95872379,
-      "updated_at": "2026-10-20T16:32:08Z",
-      "head_block": 95872379
+      "to_block": 95874692,
+      "updated_at": "2026-10-20T17:30:05Z",
+      "head_block": 95874692
     },
     {
       "chain": "polygon",
       "hunt_id": "selector-68446ead",
       "from_block": 90884549,
-      "to_block": 95872379,
-      "updated_at": "2026-10-20T16:32:08Z",
-      "head_block": 95872379
+      "to_block": 95874692,
+      "updated_at": "2026-10-20T17:30:05Z",
+      "head_block": 95874692
     },
     {
       "chain": "polygon",
       "hunt_id": "selector-77343408",
       "from_block": 90884549,
-      "to_block": 95872379,
-      "updated_at": "2026-10-20T16:32:08Z",
-      "head_block": 95872379
+      "to_block": 95874692,
+      "updated_at": "2026-10-20T17:30:05Z",
+      "head_block": 95874692
     },
     {
       "chain": "polygon",
       "hunt_id": "urlupdated-string-string",
       "from_block": 90884549,
-      "to_block": 95872379,
-      "updated_at": "2026-10-20T16:32:08Z",
-      "head_block": 95872379
+      "to_block": 95874692,
+      "updated_at": "2026-10-20T17:30:05Z",
+      "head_block": 95874692
     },
     {
       "chain": "polygon",
       "hunt_id": "watch-wallet",
       "from_block": 67021967,
-      "to_block": 95872379,
-      "updated_at": "2026-10-20T16:32:08Z",
-      "head_block": 95872379,
+      "to_block": 95874692,
+      "updated_at": "2026-10-20T17:30:05Z",
+      "head_block": 95874692,
       "wallets": {
         "0x34c15320d6e8f59f1b66f6c191aaa7f87b894b66": 0,
         "0x6fcaca5958193e48da350f568c28f034a9632454": 0,
@@ -194,7 +194,7 @@
     {
       "chain": "solana",
       "hunt_id": "nonevm",
-      "updated_at": "2026-10-20T16:32:12Z",
+      "updated_at": "2026-10-20T17:30:09Z",
       "accounts": {
         "28PKnu7RzizxBzFPoLp69HLXp9bJL3JFtT2s5QzHsEA2": {
           "last_signature": "3css4USgxvV2v1sHsSbkmUcaxHbva8hSsYXVvzaHRBVkYL9DsHYBB89Q8yVFgKWWeyXjuHoKSYHtjdAgmtmRgyiA",
@@ -217,7 +217,7 @@
     {
       "chain": "tron",
       "hunt_id": "nonevm",
-      "updated_at": "2026-10-20T16:32:23Z",
+      "updated_at": "2026-10-20T17:30:14Z",
       "accounts": {
         "TMfKQEd7TJJa5xNZJZ2Lep838vrzrs7mAP": {
           "last_timestamp": 1782182145000,
@@ -253,10 +253,10 @@
     }
   ],
   "counts": {
-    "contracts": 46,
-    "wallets": 33,
-    "events": 961,
-    "iocs": 563,
-    "clusters": 22
+    "contracts": 47,
+    "wallets": 34,
+    "events": 962,
+    "iocs": 565,
+    "clusters": 23
   }
 }
