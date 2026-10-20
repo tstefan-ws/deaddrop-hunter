@@ -181,16 +181,16 @@
       "0x48e257cb"
     ],
     "decoder": "plain",
-    "update_count": 2,
+    "update_count": 3,
     "first_seen": "2026-10-20T09:11:09Z",
-    "last_seen": "2026-10-20T09:11:38Z",
+    "last_seen": "2026-10-20T09:58:14Z",
     "status": "active",
     "code_hash": "12dac13a8dcfe97d",
     "discovered_at": "2026-10-20T09:17:49Z",
     "new": true,
     "evidence": "decoded",
-    "latest_value_raw": "testdomain.cc:1321",
-    "latest_value_decoded": "testdomain.cc:1321",
+    "latest_value_raw": "newdomainTEST.com:9999",
+    "latest_value_decoded": "newdomainTEST.com:9999",
     "tags": [
       "config-on-chain"
     ]

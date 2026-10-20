@@ -1,5 +1,20 @@
 [
   {
+    "chain": "bsc",
+    "block": 128726163,
+    "timestamp": "2026-10-20T09:58:14Z",
+    "tx_hash": "0x8f0dff85fd5d63a457fbfaafcd3f815ee13437cd0d29d3d7fdb3c7e0cc3d3b83",
+    "contract": "0x7e074db3c0830ba686d805fc7510b5500e006d6e",
+    "from": "0xdfc755ab5da879b609c5c0761701c4c9fbeb4a4c",
+    "selector": "0x09b5d97b",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "newdomainTEST.com:9999",
+    "old_decoded": null,
+    "new_decoded": "newdomainTEST.com:9999",
+    "decoder": "plain"
+  },
+  {
     "chain": "polygon",
     "block": 95855756,
     "timestamp": "2026-10-20T09:36:42Z",
