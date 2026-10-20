@@ -4344,6 +4344,26 @@
   },
   {
     "type": "domain",
+    "value": "test2doamin.com",
+    "port": 1286,
+    "family": "unknown",
+    "cluster_id": "c-dfc755ab",
+    "chain": "polygon",
+    "contracts": [
+      "0x7e074db3c0830ba686d805fc7510b5500e006d6e"
+    ],
+    "first_seen": "2026-10-20T09:36:15Z",
+    "last_seen": "2026-10-20T09:36:42Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-10-20T09:40:57Z",
+    "new": true,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "testdomain.cc",
     "port": 1321,
     "family": "unknown",
@@ -5079,8 +5099,8 @@
       "0x7e074db3c0830ba686d805fc7510b5500e006d6e"
     ],
     "first_seen": "2026-10-20T09:11:09Z",
-    "last_seen": "2026-10-20T09:11:38Z",
-    "times_seen": 2,
+    "last_seen": "2026-10-20T09:36:42Z",
+    "times_seen": 4,
     "current": true,
     "discovered_at": "2026-10-20T09:17:49Z",
     "new": true,
@@ -5558,8 +5578,8 @@
       "0x7e074db3c0830ba686d805fc7510b5500e006d6e"
     ],
     "first_seen": "2026-10-20T09:11:09Z",
-    "last_seen": "2026-10-20T09:11:38Z",
-    "times_seen": 2,
+    "last_seen": "2026-10-20T09:36:42Z",
+    "times_seen": 4,
     "current": true,
     "discovered_at": "2026-10-20T09:17:49Z",
     "new": true,
