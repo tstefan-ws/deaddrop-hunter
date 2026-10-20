@@ -563,6 +563,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0x2c26d304585b964bbe8cb3430f7aa6bfc1aa9bbd",
+    "cluster_id": "c-48792d87",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x48792d876ad1d4b3ccfc98e88498ee573d3af122"
+    ],
+    "selectors": [
+      "0x4bbc9072"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-20T20:51:24Z",
+    "last_seen": "2026-10-20T20:51:24Z",
+    "status": "active",
+    "code_hash": "7c7a4e724f8c822b",
+    "discovered_at": "2026-10-20T20:57:38Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://revision-xml-competing-utils.trycloudflare.com",
+    "latest_value_decoded": "https://revision-xml-competing-utils.trycloudflare.com",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x2fbd66fe245052d265ca0eda7d01d35b2d8b9feb",
     "cluster_id": "c-19532c0f",
     "family": "xmrig-stealth",
@@ -813,6 +844,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0x797cb0c83944fee5e2751369c4f9aab4a3338b11",
+    "cluster_id": "c-48792d87",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x48792d876ad1d4b3ccfc98e88498ee573d3af122"
+    ],
+    "selectors": [
+      "0x4bbc9072"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-20T20:51:32Z",
+    "last_seen": "2026-10-20T20:51:32Z",
+    "status": "active",
+    "code_hash": "7c7a4e724f8c822b",
+    "discovered_at": "2026-10-20T20:57:38Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://revision-xml-competing-utils.trycloudflare.com",
+    "latest_value_decoded": "https://revision-xml-competing-utils.trycloudflare.com",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x7e074db3c0830ba686d805fc7510b5500e006d6e",
     "cluster_id": "c-dfc755ab",
     "family": "unknown",
@@ -838,6 +900,37 @@
     "latest_value_raw": "test2doamin.com:1286",
     "latest_value_decoded": "test2doamin.com:1286",
     "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x7f59f2394db3eed6e199c88add2bcba537dcfb77",
+    "cluster_id": "c-48792d87",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x48792d876ad1d4b3ccfc98e88498ee573d3af122"
+    ],
+    "selectors": [
+      "0x4bbc9072"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-20T20:52:42Z",
+    "last_seen": "2026-10-20T20:52:42Z",
+    "status": "active",
+    "code_hash": "7c7a4e724f8c822b",
+    "discovered_at": "2026-10-20T20:57:38Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://revision-xml-competing-utils.trycloudflare.com",
+    "latest_value_decoded": "https://revision-xml-competing-utils.trycloudflare.com",
+    "tags": [
+      "c2",
+      "url-rotation",
       "config-on-chain"
     ]
   },
@@ -869,6 +962,37 @@
     "tags": [
       "xmrig",
       "cryptominer",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x8d57ac632225d97d0f3d1a8fcc948b52a10deb89",
+    "cluster_id": "c-48792d87",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x48792d876ad1d4b3ccfc98e88498ee573d3af122"
+    ],
+    "selectors": [
+      "0x4bbc9072"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-20T20:52:02Z",
+    "last_seen": "2026-10-20T20:52:02Z",
+    "status": "active",
+    "code_hash": "7c7a4e724f8c822b",
+    "discovered_at": "2026-10-20T20:57:38Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://revision-xml-competing-utils.trycloudflare.com",
+    "latest_value_decoded": "https://revision-xml-competing-utils.trycloudflare.com",
+    "tags": [
+      "c2",
+      "url-rotation",
       "config-on-chain"
     ]
   },
@@ -1090,6 +1214,37 @@
     "evidence": "decoded",
     "latest_value_raw": "https://zurggoyttjof21.cc",
     "latest_value_decoded": "https://zurggoyttjof21.cc",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0xbe16834ed1de56a62e1255e623bfcb21d35e76aa",
+    "cluster_id": "c-48792d87",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x48792d876ad1d4b3ccfc98e88498ee573d3af122"
+    ],
+    "selectors": [
+      "0x4bbc9072"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-20T20:51:32Z",
+    "last_seen": "2026-10-20T20:51:32Z",
+    "status": "active",
+    "code_hash": "7c7a4e724f8c822b",
+    "discovered_at": "2026-10-20T20:57:38Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://revision-xml-competing-utils.trycloudflare.com",
+    "latest_value_decoded": "https://revision-xml-competing-utils.trycloudflare.com",
     "tags": [
       "c2",
       "url-rotation",
