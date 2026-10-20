@@ -109,6 +109,93 @@
   },
   {
     "chain": "bsc",
+    "address": "0x63fda77a8531d13e4f4ce32457b4567d37f2db89",
+    "cluster_id": "c-28288933",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x28288933eca9855bb637e73142cb8bbf07c0cac7"
+    ],
+    "selectors": [
+      "0x39ff2da2"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-20T00:55:47Z",
+    "last_seen": "2026-10-20T00:55:47Z",
+    "status": "active",
+    "code_hash": "a34cdd3d11f00a13",
+    "discovered_at": "2026-10-20T01:02:24Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "Router 1",
+    "latest_value_decoded": "Router 1",
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
+    "address": "0x7547488b5e22231af01b74b570e3c6aa812b2bce",
+    "cluster_id": "c-28288933",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x28288933eca9855bb637e73142cb8bbf07c0cac7"
+    ],
+    "selectors": [
+      "0x39ff2da2"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-20T00:56:49Z",
+    "last_seen": "2026-10-20T00:56:49Z",
+    "status": "active",
+    "code_hash": "a34cdd3d11f00a13",
+    "discovered_at": "2026-10-20T01:02:24Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "Router 2",
+    "latest_value_decoded": "Router 2",
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
+    "address": "0xa066280d557d4928fcf96452b8d7442b20b21537",
+    "cluster_id": "c-28288933",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x28288933eca9855bb637e73142cb8bbf07c0cac7"
+    ],
+    "selectors": [
+      "0x39ff2da2"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-20T00:57:19Z",
+    "last_seen": "2026-10-20T00:57:19Z",
+    "status": "active",
+    "code_hash": "a34cdd3d11f00a13",
+    "discovered_at": "2026-10-20T01:02:24Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "Router 3",
+    "latest_value_decoded": "Router 3",
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
     "address": "0xe819ed76e0a2a5e2717ca2a5179b2f08898fec5f",
     "cluster_id": "c-a07f7cab",
     "family": "unknown",
