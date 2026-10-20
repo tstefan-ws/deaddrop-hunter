@@ -4729,6 +4729,26 @@
     "enrichment": {}
   },
   {
+    "type": "domain",
+    "value": "zurggoyttjof21.cc",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-d7d0b350",
+    "chain": "polygon",
+    "contracts": [
+      "0xb2a4ea7055b7e2a6b2d96502f0ff85024e72987b"
+    ],
+    "first_seen": "2026-10-20T05:17:59Z",
+    "last_seen": "2026-10-20T05:17:59Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-20T05:24:20Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
     "type": "evm-contract",
     "value": "0x08207b087f61d7e95e441e15fd6d40befd6ed308",
     "port": null,
@@ -5170,6 +5190,46 @@
   },
   {
     "type": "evm-contract",
+    "value": "0xb29927b7d854b232d5e58cfc201866376e68c676",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-d7d0b350",
+    "chain": "polygon",
+    "contracts": [
+      "0xb29927b7d854b232d5e58cfc201866376e68c676"
+    ],
+    "first_seen": "2026-10-20T05:17:32Z",
+    "last_seen": "2026-10-20T05:17:32Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-20T05:24:20Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0xb2a4ea7055b7e2a6b2d96502f0ff85024e72987b",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-d7d0b350",
+    "chain": "polygon",
+    "contracts": [
+      "0xb2a4ea7055b7e2a6b2d96502f0ff85024e72987b"
+    ],
+    "first_seen": "2026-10-20T05:17:59Z",
+    "last_seen": "2026-10-20T05:17:59Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-20T05:24:20Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0xc224c02cc0c5b5bf83538b3db0b6f5b10a2bf6d2",
     "port": null,
     "family": "unknown",
@@ -5402,6 +5462,27 @@
     "discovered_at": "2026-10-20T00:13:20Z",
     "new": true,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0xd7d0b350291ea7c16dc864563bc1bcaea0fb0949",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-d7d0b350",
+    "chain": "polygon",
+    "contracts": [
+      "0xb29927b7d854b232d5e58cfc201866376e68c676",
+      "0xb2a4ea7055b7e2a6b2d96502f0ff85024e72987b"
+    ],
+    "first_seen": "2026-10-20T05:17:32Z",
+    "last_seen": "2026-10-20T05:17:59Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-10-20T05:24:20Z",
+    "new": true,
+    "confidence": 85,
     "dual_use": false,
     "enrichment": {}
   },
@@ -10572,6 +10653,26 @@
   },
   {
     "type": "url",
+    "value": "https://btorsercoyt31.cc;https://zurggoyttjof21.cc",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-d7d0b350",
+    "chain": "polygon",
+    "contracts": [
+      "0xb29927b7d854b232d5e58cfc201866376e68c676"
+    ],
+    "first_seen": "2026-10-20T05:17:32Z",
+    "last_seen": "2026-10-20T05:17:32Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-20T05:24:20Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
     "value": "https://cdn-wpstatss.info",
     "port": null,
     "family": "c2-url",
@@ -10885,6 +10986,26 @@
     "times_seen": 1,
     "current": false,
     "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://zurggoyttjof21.cc",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-d7d0b350",
+    "chain": "polygon",
+    "contracts": [
+      "0xb2a4ea7055b7e2a6b2d96502f0ff85024e72987b"
+    ],
+    "first_seen": "2026-10-20T05:17:59Z",
+    "last_seen": "2026-10-20T05:17:59Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-20T05:24:20Z",
     "new": true,
     "confidence": 85,
     "dual_use": false,

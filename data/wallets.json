@@ -258,6 +258,22 @@
   },
   {
     "chain": "polygon",
+    "address": "0xd7d0b350291ea7c16dc864563bc1bcaea0fb0949",
+    "role": "operator",
+    "label": "Operator (auto-detected)",
+    "cluster_id": "c-d7d0b350",
+    "contracts": [
+      "0xb29927b7d854b232d5e58cfc201866376e68c676",
+      "0xb2a4ea7055b7e2a6b2d96502f0ff85024e72987b"
+    ],
+    "tx_count": 2,
+    "first_seen": "2026-10-20T05:17:32Z",
+    "last_seen": "2026-10-20T05:17:59Z",
+    "watched": false,
+    "funded_by": []
+  },
+  {
+    "chain": "polygon",
     "address": "0xde275ad38c3352a7cb6b0d3efcbf45900c9716f2",
     "role": "operator",
     "label": "Operator: C2 URL rotation",

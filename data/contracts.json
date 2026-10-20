@@ -835,6 +835,68 @@
   },
   {
     "chain": "polygon",
+    "address": "0xb29927b7d854b232d5e58cfc201866376e68c676",
+    "cluster_id": "c-d7d0b350",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xd7d0b350291ea7c16dc864563bc1bcaea0fb0949"
+    ],
+    "selectors": [
+      "0xe1ad7699"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-20T05:17:32Z",
+    "last_seen": "2026-10-20T05:17:32Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-20T05:24:20Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://btorsercoyt31.cc;https://zurggoyttjof21.cc",
+    "latest_value_decoded": "https://btorsercoyt31.cc;https://zurggoyttjof21.cc",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0xb2a4ea7055b7e2a6b2d96502f0ff85024e72987b",
+    "cluster_id": "c-d7d0b350",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xd7d0b350291ea7c16dc864563bc1bcaea0fb0949"
+    ],
+    "selectors": [
+      "0xe1ad7699"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-20T05:17:59Z",
+    "last_seen": "2026-10-20T05:17:59Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-20T05:24:20Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://zurggoyttjof21.cc",
+    "latest_value_decoded": "https://zurggoyttjof21.cc",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0xc224c02cc0c5b5bf83538b3db0b6f5b10a2bf6d2",
     "cluster_id": "c-de275ad3",
     "family": "unknown",
