@@ -92,6 +92,21 @@
     "funded_by": []
   },
   {
+    "chain": "bsc",
+    "address": "0xdfc755ab5da879b609c5c0761701c4c9fbeb4a4c",
+    "role": "operator",
+    "label": "Operator (auto-detected)",
+    "cluster_id": "c-dfc755ab",
+    "contracts": [
+      "0x7e074db3c0830ba686d805fc7510b5500e006d6e"
+    ],
+    "tx_count": 2,
+    "first_seen": "2026-10-20T09:11:09Z",
+    "last_seen": "2026-10-20T09:11:38Z",
+    "watched": false,
+    "funded_by": []
+  },
+  {
     "chain": "monero",
     "address": "41utukrFopWVqtr29E9koxcxPpWKRX1U3BzjT9AKsTvJL1GyYNeAfU19GHyzVVj33YeGNpKZs6dAzKtWUWXfN72h43Wg6Br",
     "role": "payout",

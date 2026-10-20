@@ -167,6 +167,36 @@
   },
   {
     "chain": "bsc",
+    "address": "0x7e074db3c0830ba686d805fc7510b5500e006d6e",
+    "cluster_id": "c-dfc755ab",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xdfc755ab5da879b609c5c0761701c4c9fbeb4a4c"
+    ],
+    "selectors": [
+      "0x09b5d97b",
+      "0x48e257cb"
+    ],
+    "decoder": "plain",
+    "update_count": 2,
+    "first_seen": "2026-10-20T09:11:09Z",
+    "last_seen": "2026-10-20T09:11:38Z",
+    "status": "active",
+    "code_hash": "12dac13a8dcfe97d",
+    "discovered_at": "2026-10-20T09:17:49Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "testdomain.cc:1321",
+    "latest_value_decoded": "testdomain.cc:1321",
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
     "address": "0xa066280d557d4928fcf96452b8d7442b20b21537",
     "cluster_id": "c-28288933",
     "family": "unknown",

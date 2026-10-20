@@ -4344,6 +4344,26 @@
   },
   {
     "type": "domain",
+    "value": "testdomain.cc",
+    "port": 1321,
+    "family": "unknown",
+    "cluster_id": "c-dfc755ab",
+    "chain": "bsc",
+    "contracts": [
+      "0x7e074db3c0830ba686d805fc7510b5500e006d6e"
+    ],
+    "first_seen": "2026-10-20T09:11:09Z",
+    "last_seen": "2026-10-20T09:11:38Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-10-20T09:17:49Z",
+    "new": true,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "thisismine.asia",
     "port": null,
     "family": "c2-url",
@@ -5050,6 +5070,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x7e074db3c0830ba686d805fc7510b5500e006d6e",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-dfc755ab",
+    "chain": "bsc",
+    "contracts": [
+      "0x7e074db3c0830ba686d805fc7510b5500e006d6e"
+    ],
+    "first_seen": "2026-10-20T09:11:09Z",
+    "last_seen": "2026-10-20T09:11:38Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-10-20T09:17:49Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x87db000f084f4a91f1aa6e00823f350e81316ef4",
     "port": null,
     "family": "xmrig-stealth",
@@ -5503,6 +5543,26 @@
     "current": true,
     "discovered_at": "2025-11-15T21:29:25Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0xdfc755ab5da879b609c5c0761701c4c9fbeb4a4c",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-dfc755ab",
+    "chain": "bsc",
+    "contracts": [
+      "0x7e074db3c0830ba686d805fc7510b5500e006d6e"
+    ],
+    "first_seen": "2026-10-20T09:11:09Z",
+    "last_seen": "2026-10-20T09:11:38Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-10-20T09:17:49Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
