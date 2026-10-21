@@ -5594,6 +5594,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0xb6bc9e1d0b2fb96ab7c47e04cb0be477410bc1f2",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-caf2c54e",
+    "chain": "polygon",
+    "contracts": [
+      "0xb6bc9e1d0b2fb96ab7c47e04cb0be477410bc1f2"
+    ],
+    "first_seen": "2026-10-21T00:31:06Z",
+    "last_seen": "2026-10-21T00:31:06Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-21T00:33:37Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0xbe16834ed1de56a62e1255e623bfcb21d35e76aa",
     "port": null,
     "family": "c2-url",
@@ -5951,6 +5971,26 @@
     "discovered_at": "2026-10-20T00:13:20Z",
     "new": true,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0xcaf2c54e400437da717cf215181b170f65187abf",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-caf2c54e",
+    "chain": "polygon",
+    "contracts": [
+      "0xb6bc9e1d0b2fb96ab7c47e04cb0be477410bc1f2"
+    ],
+    "first_seen": "2026-10-21T00:31:06Z",
+    "last_seen": "2026-10-21T00:31:06Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-21T00:33:37Z",
+    "new": true,
+    "confidence": 85,
     "dual_use": false,
     "enrichment": {}
   },
@@ -11336,6 +11376,26 @@
     "times_seen": 2,
     "current": false,
     "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://jscdncloude.beer",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-caf2c54e",
+    "chain": "polygon",
+    "contracts": [
+      "0xb6bc9e1d0b2fb96ab7c47e04cb0be477410bc1f2"
+    ],
+    "first_seen": "2026-10-21T00:31:06Z",
+    "last_seen": "2026-10-21T00:31:06Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-21T00:33:37Z",
     "new": true,
     "confidence": 85,
     "dual_use": false,
