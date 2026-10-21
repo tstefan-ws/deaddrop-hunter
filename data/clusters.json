@@ -136,6 +136,25 @@
     "new": false
   },
   {
+    "id": "c-3474908b",
+    "name": "Unclassified dead-drop cluster (c-3474908b)",
+    "family": "unknown",
+    "chains": [
+      "bsc"
+    ],
+    "contracts": [
+      "0x43eb03a223489109e8c0a66b6a378c8a3dd46ec7"
+    ],
+    "wallets": [
+      "0x3474908b0035d6eba2a009a4736582e843451ce4"
+    ],
+    "ioc_count": 2,
+    "first_seen": "2026-10-21T18:39:12Z",
+    "last_seen": "2026-10-21T18:39:12Z",
+    "discovered_at": "2026-10-21T18:39:57Z",
+    "new": true
+  },
+  {
     "id": "c-34c15320",
     "name": "C2 URL rotation cluster (c-34c15320)",
     "family": "c2-url",
