@@ -297,6 +297,25 @@
     "new": true
   },
   {
+    "id": "c-82811f80",
+    "name": "C2 URL rotation cluster (c-82811f80)",
+    "family": "c2-url",
+    "chains": [
+      "polygon"
+    ],
+    "contracts": [
+      "0x7943cda9820a8ec9239a7f46f69345fee9fdfcd2"
+    ],
+    "wallets": [
+      "0x82811f80f96c5c64c2616e3782950454c4931522"
+    ],
+    "ioc_count": 4,
+    "first_seen": "2026-10-21T22:27:48Z",
+    "last_seen": "2026-10-21T22:27:50Z",
+    "discovered_at": "2026-10-21T22:32:48Z",
+    "new": true
+  },
+  {
     "id": "c-9bae539a",
     "name": "C2 URL rotation cluster (c-9bae539a)",
     "family": "c2-url",
