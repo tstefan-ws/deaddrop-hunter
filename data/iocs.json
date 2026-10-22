@@ -5994,6 +5994,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0xc6a355ad348d3302eb458d033dd681d0aa7b985d",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-36955802",
+    "chain": "bsc",
+    "contracts": [
+      "0xc6a355ad348d3302eb458d033dd681d0aa7b985d"
+    ],
+    "first_seen": "2026-10-22T08:55:23Z",
+    "last_seen": "2026-10-22T08:55:23Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-22T08:57:44Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0xdf645ee032fed7aa85bf65fae17394acf74238a6",
     "port": null,
     "family": "unknown",
@@ -6224,6 +6244,26 @@
     "times_seen": 277,
     "current": true,
     "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0x36955802cb4a3ea02d96559125c699adc9c0c35e",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-36955802",
+    "chain": "bsc",
+    "contracts": [
+      "0xc6a355ad348d3302eb458d033dd681d0aa7b985d"
+    ],
+    "first_seen": "2026-10-22T08:55:23Z",
+    "last_seen": "2026-10-22T08:55:23Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-22T08:57:44Z",
     "new": true,
     "confidence": 85,
     "dual_use": false,
@@ -7875,6 +7915,26 @@
     "discovered_at": "2025-12-24T15:34:49Z",
     "new": false,
     "confidence": 70,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "72.60.20.149",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-36955802",
+    "chain": "bsc",
+    "contracts": [
+      "0xc6a355ad348d3302eb458d033dd681d0aa7b985d"
+    ],
+    "first_seen": "2026-10-22T08:55:23Z",
+    "last_seen": "2026-10-22T08:55:23Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-22T08:57:44Z",
+    "new": true,
+    "confidence": 85,
     "dual_use": false,
     "enrichment": {}
   },
@@ -11641,6 +11701,26 @@
     "discovered_at": "2026-04-14T13:29:43Z",
     "new": false,
     "confidence": 75,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://72.60.20.149",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-36955802",
+    "chain": "bsc",
+    "contracts": [
+      "0xc6a355ad348d3302eb458d033dd681d0aa7b985d"
+    ],
+    "first_seen": "2026-10-22T08:55:23Z",
+    "last_seen": "2026-10-22T08:55:23Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-22T08:57:44Z",
+    "new": true,
+    "confidence": 85,
     "dual_use": false,
     "enrichment": {}
   },
