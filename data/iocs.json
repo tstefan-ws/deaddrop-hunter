@@ -6023,8 +6023,8 @@
       "0xc6a355ad348d3302eb458d033dd681d0aa7b985d"
     ],
     "first_seen": "2026-10-22T08:55:23Z",
-    "last_seen": "2026-10-22T08:55:23Z",
-    "times_seen": 1,
+    "last_seen": "2026-10-22T14:21:31Z",
+    "times_seen": 2,
     "current": true,
     "discovered_at": "2026-10-22T08:57:44Z",
     "new": true,
@@ -6280,8 +6280,8 @@
       "0xc6a355ad348d3302eb458d033dd681d0aa7b985d"
     ],
     "first_seen": "2026-10-22T08:55:23Z",
-    "last_seen": "2026-10-22T08:55:23Z",
-    "times_seen": 1,
+    "last_seen": "2026-10-22T14:21:31Z",
+    "times_seen": 2,
     "current": true,
     "discovered_at": "2026-10-22T08:57:44Z",
     "new": true,
@@ -6864,6 +6864,26 @@
     "current": false,
     "discovered_at": "2026-06-21T07:01:41Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "191.96.1.36",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-36955802",
+    "chain": "bsc",
+    "contracts": [
+      "0xc6a355ad348d3302eb458d033dd681d0aa7b985d"
+    ],
+    "first_seen": "2026-10-22T14:21:31Z",
+    "last_seen": "2026-10-22T14:21:31Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-22T14:24:03Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -7971,7 +7991,7 @@
     "first_seen": "2026-10-22T08:55:23Z",
     "last_seen": "2026-10-22T08:55:23Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-10-22T08:57:44Z",
     "new": true,
     "confidence": 85,
@@ -11746,6 +11766,26 @@
   },
   {
     "type": "url",
+    "value": "https://191.96.1.36",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-36955802",
+    "chain": "bsc",
+    "contracts": [
+      "0xc6a355ad348d3302eb458d033dd681d0aa7b985d"
+    ],
+    "first_seen": "2026-10-22T14:21:31Z",
+    "last_seen": "2026-10-22T14:21:31Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-22T14:24:03Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
     "value": "https://72.60.20.149",
     "port": null,
     "family": "c2-url",
@@ -11757,7 +11797,7 @@
     "first_seen": "2026-10-22T08:55:23Z",
     "last_seen": "2026-10-22T08:55:23Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-10-22T08:57:44Z",
     "new": true,
     "confidence": 85,
