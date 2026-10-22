@@ -163,6 +163,33 @@
   },
   {
     "chain": "bsc",
+    "address": "0x12cfa9dec6d0de8774ef4713dbd3672b2ac16695",
+    "cluster_id": "c-7abf4fe1",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x7abf4fe17d82541914ad391dc8cfb28f4bb5f783"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-10-22T19:44:42Z",
+    "last_seen": "2026-10-22T19:44:42Z",
+    "status": "active",
+    "code_hash": "75994ca99b88d15c",
+    "discovered_at": "2026-10-22T19:46:47Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
     "address": "0x18389c0eb56d53cf6bb000a688d95f80094437bb",
     "cluster_id": "c-cd72c926",
     "family": "unknown",
@@ -207,6 +234,33 @@
     "status": "active",
     "code_hash": "230d422f6ba035c5",
     "discovered_at": "2026-10-21T20:22:17Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": null,
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
+    "address": "0x34d07452ddda928481200720d81106a008d38cec",
+    "cluster_id": "c-7abf4fe1",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x7abf4fe17d82541914ad391dc8cfb28f4bb5f783"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-10-22T19:45:42Z",
+    "last_seen": "2026-10-22T19:45:42Z",
+    "status": "active",
+    "code_hash": "ece0bcdd0b211f5a",
+    "discovered_at": "2026-10-22T19:46:47Z",
     "new": true,
     "evidence": "candidate",
     "latest_value_raw": null,
