@@ -1295,7 +1295,7 @@
     "status": "active",
     "code_hash": "b5ff55f9bb2bfc52",
     "discovered_at": "2026-10-19T20:38:48Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://staining-shush-concept.ngrok-free.dev/",
     "latest_value_decoded": "https://staining-shush-concept.ngrok-free.dev/",
