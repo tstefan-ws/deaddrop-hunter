@@ -5514,6 +5514,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x73b236560601bbd48a1d5aa251768edb0a6098cb",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-3bfc05a8",
+    "chain": "bsc",
+    "contracts": [
+      "0x73b236560601bbd48a1d5aa251768edb0a6098cb"
+    ],
+    "first_seen": "2026-10-22T13:41:44Z",
+    "last_seen": "2026-10-22T13:41:44Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-22T13:44:11Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x7547488b5e22231af01b74b570e3c6aa812b2bce",
     "port": null,
     "family": "unknown",
@@ -6266,6 +6286,26 @@
     "discovered_at": "2026-10-22T08:57:44Z",
     "new": true,
     "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0x3bfc05a8b9e48fdfd6a443657cac5d983b664a05",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-3bfc05a8",
+    "chain": "bsc",
+    "contracts": [
+      "0x73b236560601bbd48a1d5aa251768edb0a6098cb"
+    ],
+    "first_seen": "2026-10-22T13:41:44Z",
+    "last_seen": "2026-10-22T13:41:44Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-22T13:44:11Z",
+    "new": true,
+    "confidence": 55,
     "dual_use": false,
     "enrichment": {}
   },
