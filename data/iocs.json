@@ -3583,6 +3583,26 @@
   },
   {
     "type": "domain",
+    "value": "nikogdatakonebilo.cc",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-e3a29d16",
+    "chain": "polygon",
+    "contracts": [
+      "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
+    ],
+    "first_seen": "2026-10-22T08:41:39Z",
+    "last_seen": "2026-10-22T08:41:39Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-22T08:49:42Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "noon.cafemartinezsa.com",
     "port": null,
     "family": "c2-url",
@@ -5754,6 +5774,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-e3a29d16",
+    "chain": "polygon",
+    "contracts": [
+      "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
+    ],
+    "first_seen": "2026-10-22T08:41:39Z",
+    "last_seen": "2026-10-22T08:41:39Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-22T08:49:42Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0xa3141f8dcc429f8bd11c4677fdad02e3da9f84bf",
     "port": null,
     "family": "unknown",
@@ -6435,6 +6475,26 @@
     "times_seen": 5,
     "current": true,
     "discovered_at": "2026-10-20T09:17:49Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0xe3a29d16ca8722d2e91975589fa23659ee8e1719",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-e3a29d16",
+    "chain": "polygon",
+    "contracts": [
+      "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
+    ],
+    "first_seen": "2026-10-22T08:41:39Z",
+    "last_seen": "2026-10-22T08:41:39Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-22T08:49:42Z",
     "new": true,
     "confidence": 85,
     "dual_use": false,
@@ -12079,6 +12139,26 @@
     "times_seen": 1,
     "current": false,
     "discovered_at": "2026-10-19T20:00:00Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://nikogdatakonebilo.cc",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-e3a29d16",
+    "chain": "polygon",
+    "contracts": [
+      "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
+    ],
+    "first_seen": "2026-10-22T08:41:39Z",
+    "last_seen": "2026-10-22T08:41:39Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-22T08:49:42Z",
     "new": true,
     "confidence": 85,
     "dual_use": false,
