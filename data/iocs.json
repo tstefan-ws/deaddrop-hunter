@@ -5167,7 +5167,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-20T05:24:20Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -6127,7 +6127,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-20T05:24:20Z",
-    "new": true,
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -6147,7 +6147,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-20T05:24:20Z",
-    "new": true,
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -6885,7 +6885,7 @@
     "times_seen": 2,
     "current": true,
     "discovered_at": "2026-10-20T05:24:20Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -12490,7 +12490,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-20T05:24:20Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -12914,7 +12914,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-20T05:24:20Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
