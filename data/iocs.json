@@ -1242,6 +1242,26 @@
   },
   {
     "type": "domain",
+    "value": "charts-skip-vpn-letter.trycloudflare.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x3463851978afd2869c8d372d3dccd5b2f40c756e"
+    ],
+    "first_seen": "2026-10-23T12:00:39Z",
+    "last_seen": "2026-10-23T12:00:39Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-23T12:05:52Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "cheloks.pro",
     "port": null,
     "family": "c2-url",
@@ -5514,6 +5534,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x3463851978afd2869c8d372d3dccd5b2f40c756e",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x3463851978afd2869c8d372d3dccd5b2f40c756e"
+    ],
+    "first_seen": "2026-10-23T12:00:39Z",
+    "last_seen": "2026-10-23T12:00:39Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-23T12:05:52Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x34d07452ddda928481200720d81106a008d38cec",
     "port": null,
     "family": "unknown",
@@ -6789,11 +6829,12 @@
     "cluster_id": "c-504efa63",
     "chain": "polygon",
     "contracts": [
+      "0x3463851978afd2869c8d372d3dccd5b2f40c756e",
       "0x6f57fc0f9b24599894b046471e3291dd8c1a61c9"
     ],
     "first_seen": "2026-10-19T20:32:54Z",
-    "last_seen": "2026-10-19T20:32:54Z",
-    "times_seen": 1,
+    "last_seen": "2026-10-23T12:00:39Z",
+    "times_seen": 2,
     "current": true,
     "discovered_at": "2026-10-19T20:38:48Z",
     "new": false,
@@ -12713,6 +12754,26 @@
     "current": true,
     "discovered_at": "2026-10-19T20:00:00Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://charts-skip-vpn-letter.trycloudflare.com/",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x3463851978afd2869c8d372d3dccd5b2f40c756e"
+    ],
+    "first_seen": "2026-10-23T12:00:39Z",
+    "last_seen": "2026-10-23T12:00:39Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-23T12:05:52Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}

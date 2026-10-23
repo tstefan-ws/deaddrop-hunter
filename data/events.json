@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 96034312,
+    "timestamp": "2026-10-23T12:00:39Z",
+    "tx_hash": "0x7279dab9a9639143f8b92968f2dbfc9a560bc2845df7e5fe301fbed176cc9b2f",
+    "contract": "0x3463851978afd2869c8d372d3dccd5b2f40c756e",
+    "from": "0x504efa6320d3c8f66840b65fbf05a930e258292d",
+    "selector": "0x55f804b3",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://charts-skip-vpn-letter.trycloudflare.com/",
+    "old_decoded": null,
+    "new_decoded": "https://charts-skip-vpn-letter.trycloudflare.com/",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96025078,
     "timestamp": "2026-10-23T08:09:48Z",
     "tx_hash": "0x99c7a4abf3a86f5880cc01dd76ba113a62b0c0f54f8be95ffc722634361fd69e",

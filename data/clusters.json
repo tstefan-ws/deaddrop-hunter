@@ -310,14 +310,15 @@
       "polygon"
     ],
     "contracts": [
+      "0x3463851978afd2869c8d372d3dccd5b2f40c756e",
       "0x6f57fc0f9b24599894b046471e3291dd8c1a61c9"
     ],
     "wallets": [
       "0x504efa6320d3c8f66840b65fbf05a930e258292d"
     ],
-    "ioc_count": 4,
+    "ioc_count": 7,
     "first_seen": "2026-10-19T20:32:54Z",
-    "last_seen": "2026-10-19T20:32:54Z",
+    "last_seen": "2026-10-23T12:00:39Z",
     "discovered_at": "2026-10-19T20:38:48Z",
     "new": false
   },
