@@ -210,7 +210,7 @@
     ],
     "ioc_count": 6,
     "first_seen": "2026-10-22T08:55:23Z",
-    "last_seen": "2026-10-22T14:21:31Z",
+    "last_seen": "2026-10-23T15:45:23Z",
     "discovered_at": "2026-10-22T08:57:44Z",
     "new": true
   },
@@ -564,7 +564,7 @@
     "first_seen": "2026-10-20T15:37:31Z",
     "last_seen": "2026-10-20T16:29:41Z",
     "discovered_at": "2026-10-20T15:39:37Z",
-    "new": true
+    "new": false
   },
   {
     "id": "c-d7d0b350",
