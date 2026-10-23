@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 96036654,
+    "timestamp": "2026-10-23T12:59:12Z",
+    "tx_hash": "0x9b463a0adecf445cbf9806e534f118860d2f48d078cfecb33c4944defb035699",
+    "contract": "0x752c8445b58f3aac2fa434ae8e7b401e9665cffb",
+    "from": "0x504efa6320d3c8f66840b65fbf05a930e258292d",
+    "selector": "0x55f804b3",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://knock-saturn-advertiser-swing.trycloudflare.com/",
+    "old_decoded": null,
+    "new_decoded": "https://knock-saturn-advertiser-swing.trycloudflare.com/",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96036359,
     "timestamp": "2026-10-23T12:51:50Z",
     "tx_hash": "0x4e9a26e14d8b2868acdf04b5aab408f31d4933f3524732ed6f99a64483b849a8",
