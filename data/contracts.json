@@ -961,6 +961,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0x0172d51196f065d5b565be0130d654a8f8de8d86",
+    "cluster_id": "c-504efa63",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x504efa6320d3c8f66840b65fbf05a930e258292d"
+    ],
+    "selectors": [
+      "0x55f804b3"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-23T12:48:57Z",
+    "last_seen": "2026-10-23T12:48:57Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-23T12:49:14Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://ripe-qualification-yorkshire-meaning.trycloudflare.com/",
+    "latest_value_decoded": "https://ripe-qualification-yorkshire-meaning.trycloudflare.com/",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x08207b087f61d7e95e441e15fd6d40befd6ed308",
     "cluster_id": "c-34c15320",
     "family": "c2-url",
@@ -1465,6 +1496,37 @@
     "evidence": "decoded",
     "latest_value_raw": "https://staining-shush-concept.ngrok-free.dev/",
     "latest_value_decoded": "https://staining-shush-concept.ngrok-free.dev/",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x7539f2c22e3229945420bbf7d6342b84e173187d",
+    "cluster_id": "c-504efa63",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x504efa6320d3c8f66840b65fbf05a930e258292d"
+    ],
+    "selectors": [
+      "0x55f804b3"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-23T12:44:50Z",
+    "last_seen": "2026-10-23T12:44:50Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-23T12:49:14Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://peas-ver-skip-perform.trycloudflare.com/",
+    "latest_value_decoded": "https://peas-ver-skip-perform.trycloudflare.com/",
     "tags": [
       "c2",
       "url-rotation",

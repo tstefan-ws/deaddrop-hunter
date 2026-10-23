@@ -3803,6 +3803,26 @@
   },
   {
     "type": "domain",
+    "value": "peas-ver-skip-perform.trycloudflare.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x7539f2c22e3229945420bbf7d6342b84e173187d"
+    ],
+    "first_seen": "2026-10-23T12:44:50Z",
+    "last_seen": "2026-10-23T12:44:50Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-23T12:49:14Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "pidorsas.site",
     "port": null,
     "family": "c2-url",
@@ -4240,6 +4260,26 @@
     "times_seen": 5,
     "current": true,
     "discovered_at": "2026-10-20T20:57:38Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "ripe-qualification-yorkshire-meaning.trycloudflare.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x0172d51196f065d5b565be0130d654a8f8de8d86"
+    ],
+    "first_seen": "2026-10-23T12:48:57Z",
+    "last_seen": "2026-10-23T12:48:57Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-23T12:49:14Z",
     "new": true,
     "confidence": 85,
     "dual_use": false,
@@ -5234,6 +5274,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x0172d51196f065d5b565be0130d654a8f8de8d86",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x0172d51196f065d5b565be0130d654a8f8de8d86"
+    ],
+    "first_seen": "2026-10-23T12:48:57Z",
+    "last_seen": "2026-10-23T12:48:57Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-23T12:49:14Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x08207b087f61d7e95e441e15fd6d40befd6ed308",
     "port": null,
     "family": "c2-url",
@@ -5789,6 +5849,26 @@
     "discovered_at": "2026-10-22T13:44:11Z",
     "new": true,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x7539f2c22e3229945420bbf7d6342b84e173187d",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x7539f2c22e3229945420bbf7d6342b84e173187d"
+    ],
+    "first_seen": "2026-10-23T12:44:50Z",
+    "last_seen": "2026-10-23T12:44:50Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-23T12:49:14Z",
+    "new": true,
+    "confidence": 90,
     "dual_use": false,
     "enrichment": {}
   },
@@ -6829,12 +6909,14 @@
     "cluster_id": "c-504efa63",
     "chain": "polygon",
     "contracts": [
+      "0x0172d51196f065d5b565be0130d654a8f8de8d86",
       "0x3463851978afd2869c8d372d3dccd5b2f40c756e",
-      "0x6f57fc0f9b24599894b046471e3291dd8c1a61c9"
+      "0x6f57fc0f9b24599894b046471e3291dd8c1a61c9",
+      "0x7539f2c22e3229945420bbf7d6342b84e173187d"
     ],
     "first_seen": "2026-10-19T20:32:54Z",
-    "last_seen": "2026-10-23T12:00:39Z",
-    "times_seen": 2,
+    "last_seen": "2026-10-23T12:48:57Z",
+    "times_seen": 4,
     "current": true,
     "discovered_at": "2026-10-19T20:38:48Z",
     "new": false,
@@ -13020,6 +13102,26 @@
   },
   {
     "type": "url",
+    "value": "https://peas-ver-skip-perform.trycloudflare.com/",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x7539f2c22e3229945420bbf7d6342b84e173187d"
+    ],
+    "first_seen": "2026-10-23T12:44:50Z",
+    "last_seen": "2026-10-23T12:44:50Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-23T12:49:14Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
     "value": "https://revision-xml-competing-utils.trycloudflare.com",
     "port": null,
     "family": "c2-url",
@@ -13037,6 +13139,26 @@
     "times_seen": 5,
     "current": true,
     "discovered_at": "2026-10-20T20:57:38Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://ripe-qualification-yorkshire-meaning.trycloudflare.com/",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x0172d51196f065d5b565be0130d654a8f8de8d86"
+    ],
+    "first_seen": "2026-10-23T12:48:57Z",
+    "last_seen": "2026-10-23T12:48:57Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-23T12:49:14Z",
     "new": true,
     "confidence": 85,
     "dual_use": false,

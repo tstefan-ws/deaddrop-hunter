@@ -422,12 +422,14 @@
     "label": "Operator (auto-detected)",
     "cluster_id": "c-504efa63",
     "contracts": [
+      "0x0172d51196f065d5b565be0130d654a8f8de8d86",
       "0x3463851978afd2869c8d372d3dccd5b2f40c756e",
-      "0x6f57fc0f9b24599894b046471e3291dd8c1a61c9"
+      "0x6f57fc0f9b24599894b046471e3291dd8c1a61c9",
+      "0x7539f2c22e3229945420bbf7d6342b84e173187d"
     ],
-    "tx_count": 2,
+    "tx_count": 4,
     "first_seen": "2026-10-19T20:32:54Z",
-    "last_seen": "2026-10-23T12:00:39Z",
+    "last_seen": "2026-10-23T12:48:57Z",
     "watched": false,
     "funded_by": []
   },
