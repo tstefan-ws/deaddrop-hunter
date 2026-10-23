@@ -1026,6 +1026,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0x0d116251d827c9c3070ca144618f3928cca4cd61",
+    "cluster_id": "c-504efa63",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x504efa6320d3c8f66840b65fbf05a930e258292d"
+    ],
+    "selectors": [
+      "0x55f804b3"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-23T12:51:50Z",
+    "last_seen": "2026-10-23T12:51:50Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-23T12:58:09Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://connection-toronto-cow-payroll.trycloudflare.com/",
+    "latest_value_decoded": "https://connection-toronto-cow-payroll.trycloudflare.com/",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x141564eecbc8046f9c15d6ce903a660afff5d43d",
     "cluster_id": "c-19532c0f",
     "family": "unknown",

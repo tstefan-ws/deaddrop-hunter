@@ -1422,6 +1422,26 @@
   },
   {
     "type": "domain",
+    "value": "connection-toronto-cow-payroll.trycloudflare.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x0d116251d827c9c3070ca144618f3928cca4cd61"
+    ],
+    "first_seen": "2026-10-23T12:51:50Z",
+    "last_seen": "2026-10-23T12:51:50Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-23T12:58:09Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "corppop.shop",
     "port": null,
     "family": "c2-url",
@@ -5334,6 +5354,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x0d116251d827c9c3070ca144618f3928cca4cd61",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x0d116251d827c9c3070ca144618f3928cca4cd61"
+    ],
+    "first_seen": "2026-10-23T12:51:50Z",
+    "last_seen": "2026-10-23T12:51:50Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-23T12:58:09Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x11e8618fb57ae8bd5716bdeac197f8172983f5c4",
     "port": null,
     "family": "unknown",
@@ -6910,13 +6950,14 @@
     "chain": "polygon",
     "contracts": [
       "0x0172d51196f065d5b565be0130d654a8f8de8d86",
+      "0x0d116251d827c9c3070ca144618f3928cca4cd61",
       "0x3463851978afd2869c8d372d3dccd5b2f40c756e",
       "0x6f57fc0f9b24599894b046471e3291dd8c1a61c9",
       "0x7539f2c22e3229945420bbf7d6342b84e173187d"
     ],
     "first_seen": "2026-10-19T20:32:54Z",
-    "last_seen": "2026-10-23T12:48:57Z",
-    "times_seen": 4,
+    "last_seen": "2026-10-23T12:51:50Z",
+    "times_seen": 5,
     "current": true,
     "discovered_at": "2026-10-19T20:38:48Z",
     "new": false,
@@ -12876,6 +12917,26 @@
     "current": false,
     "discovered_at": "2026-10-19T20:00:00Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://connection-toronto-cow-payroll.trycloudflare.com/",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x0d116251d827c9c3070ca144618f3928cca4cd61"
+    ],
+    "first_seen": "2026-10-23T12:51:50Z",
+    "last_seen": "2026-10-23T12:51:50Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-23T12:58:09Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}

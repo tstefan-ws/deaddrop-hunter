@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 96036359,
+    "timestamp": "2026-10-23T12:51:50Z",
+    "tx_hash": "0x4e9a26e14d8b2868acdf04b5aab408f31d4933f3524732ed6f99a64483b849a8",
+    "contract": "0x0d116251d827c9c3070ca144618f3928cca4cd61",
+    "from": "0x504efa6320d3c8f66840b65fbf05a930e258292d",
+    "selector": "0x55f804b3",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://connection-toronto-cow-payroll.trycloudflare.com/",
+    "old_decoded": null,
+    "new_decoded": "https://connection-toronto-cow-payroll.trycloudflare.com/",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96036244,
     "timestamp": "2026-10-23T12:48:57Z",
     "tx_hash": "0x953404c5bb2382604a3b462de3535eb5e175b1c9b4d4465f71c30f9239644fa1",
