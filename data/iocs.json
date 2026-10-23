@@ -3163,6 +3163,26 @@
   },
   {
     "type": "domain",
+    "value": "meiroha.net",
+    "port": 4443,
+    "family": "c2-url",
+    "cluster_id": "c-008d2bb2",
+    "chain": "polygon",
+    "contracts": [
+      "0x4bbee48bb282b15ab72c80249a74ef039ba3fb6b"
+    ],
+    "first_seen": "2026-10-23T20:30:50Z",
+    "last_seen": "2026-10-23T20:30:50Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-23T20:32:33Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "mekasa.pro",
     "port": null,
     "family": "c2-url",
@@ -5814,6 +5834,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x4bbee48bb282b15ab72c80249a74ef039ba3fb6b",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-008d2bb2",
+    "chain": "polygon",
+    "contracts": [
+      "0x4bbee48bb282b15ab72c80249a74ef039ba3fb6b"
+    ],
+    "first_seen": "2026-10-23T20:30:50Z",
+    "last_seen": "2026-10-23T20:30:50Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-23T20:32:33Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x51d85b90e76c83cb2207e4ad2b8f69a02bd58309",
     "port": null,
     "family": "c2-url",
@@ -6809,6 +6849,26 @@
     "discovered_at": "2026-10-23T05:40:12Z",
     "new": true,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0x008d2bb2afffca3d94b1a6c5786fc70af54c847c",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-008d2bb2",
+    "chain": "polygon",
+    "contracts": [
+      "0x4bbee48bb282b15ab72c80249a74ef039ba3fb6b"
+    ],
+    "first_seen": "2026-10-23T20:30:50Z",
+    "last_seen": "2026-10-23T20:30:50Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-23T20:32:33Z",
+    "new": true,
+    "confidence": 85,
     "dual_use": false,
     "enrichment": {}
   },
@@ -13544,6 +13604,26 @@
     "current": true,
     "discovered_at": "2026-10-20T05:24:20Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "ws://meiroha.net:4443",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-008d2bb2",
+    "chain": "polygon",
+    "contracts": [
+      "0x4bbee48bb282b15ab72c80249a74ef039ba3fb6b"
+    ],
+    "first_seen": "2026-10-23T20:30:50Z",
+    "last_seen": "2026-10-23T20:30:50Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-23T20:32:33Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}

@@ -1496,6 +1496,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0x4bbee48bb282b15ab72c80249a74ef039ba3fb6b",
+    "cluster_id": "c-008d2bb2",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x008d2bb2afffca3d94b1a6c5786fc70af54c847c"
+    ],
+    "selectors": [
+      "0x4ab7874e"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-23T20:30:50Z",
+    "last_seen": "2026-10-23T20:30:50Z",
+    "status": "active",
+    "code_hash": "607bd9082eda8392",
+    "discovered_at": "2026-10-23T20:32:33Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "ws://meiroha.net:4443",
+    "latest_value_decoded": "ws://meiroha.net:4443",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x51d85b90e76c83cb2207e4ad2b8f69a02bd58309",
     "cluster_id": "c-9bae539a",
     "family": "c2-url",
