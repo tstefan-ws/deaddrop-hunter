@@ -1,6 +1,36 @@
 [
   {
     "chain": "polygon",
+    "block": 96025078,
+    "timestamp": "2026-10-23T08:09:48Z",
+    "tx_hash": "0x99c7a4abf3a86f5880cc01dd76ba113a62b0c0f54f8be95ffc722634361fd69e",
+    "contract": "0xb8aa8cabfba7ee3ccb218a9969aef86dff3b9d2d",
+    "from": "0x098c19b1011ffda0a5c612ee1e3ec0062235d328",
+    "selector": "0xed53ddb9",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "http://127.0.0.1:2019/config/",
+    "old_decoded": null,
+    "new_decoded": "http://127.0.0.1:2019/config/",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
+    "block": 96025077,
+    "timestamp": "2026-10-23T08:09:47Z",
+    "tx_hash": "0x80cbd7bdc96d2f2d4db8e1a283cec525fbb18cd0f9e7aea5e2c6813903c71771",
+    "contract": "0xb8aa8cabfba7ee3ccb218a9969aef86dff3b9d2d",
+    "from": "0x098c19b1011ffda0a5c612ee1e3ec0062235d328",
+    "selector": "0xed53ddb9",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "http://169.254.169.254/latest/meta-data/",
+    "old_decoded": null,
+    "new_decoded": "http://169.254.169.254/latest/meta-data/",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96023666,
     "timestamp": "2026-10-23T07:34:30Z",
     "tx_hash": "0x4b770a2c56c6a1defd69dc081c22cdb138c80fe34a56defe84f463339094d14d",

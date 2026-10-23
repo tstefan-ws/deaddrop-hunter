@@ -6254,6 +6254,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0xb8aa8cabfba7ee3ccb218a9969aef86dff3b9d2d",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-098c19b1",
+    "chain": "polygon",
+    "contracts": [
+      "0xb8aa8cabfba7ee3ccb218a9969aef86dff3b9d2d"
+    ],
+    "first_seen": "2026-10-23T08:09:47Z",
+    "last_seen": "2026-10-23T08:09:48Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-10-23T08:14:21Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0xbac7b7934f7a56512a2d879894337ecabc00e491",
     "port": null,
     "family": "unknown",
@@ -6529,6 +6549,26 @@
     "discovered_at": "2026-10-20T17:30:05Z",
     "new": true,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0x098c19b1011ffda0a5c612ee1e3ec0062235d328",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-098c19b1",
+    "chain": "polygon",
+    "contracts": [
+      "0xb8aa8cabfba7ee3ccb218a9969aef86dff3b9d2d"
+    ],
+    "first_seen": "2026-10-23T08:09:47Z",
+    "last_seen": "2026-10-23T08:09:48Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-10-23T08:14:21Z",
+    "new": true,
+    "confidence": 85,
     "dual_use": false,
     "enrichment": {}
   },
@@ -8989,6 +9029,26 @@
   },
   {
     "type": "url",
+    "value": "http://127.0.0.1:2019/config/",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-098c19b1",
+    "chain": "polygon",
+    "contracts": [
+      "0xb8aa8cabfba7ee3ccb218a9969aef86dff3b9d2d"
+    ],
+    "first_seen": "2026-10-23T08:09:48Z",
+    "last_seen": "2026-10-23T08:09:48Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-23T08:14:21Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
     "value": "http://136.244.114.52/GwzzjJZQ9u9sGxaqaxg73A%3D%3D",
     "port": null,
     "family": "unknown",
@@ -9285,6 +9345,26 @@
     "discovered_at": "2026-05-29T17:17:41Z",
     "new": false,
     "confidence": 75,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "http://169.254.169.254/latest/meta-data/",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-098c19b1",
+    "chain": "polygon",
+    "contracts": [
+      "0xb8aa8cabfba7ee3ccb218a9969aef86dff3b9d2d"
+    ],
+    "first_seen": "2026-10-23T08:09:47Z",
+    "last_seen": "2026-10-23T08:09:47Z",
+    "times_seen": 1,
+    "current": false,
+    "discovered_at": "2026-10-23T08:14:21Z",
+    "new": true,
+    "confidence": 85,
     "dual_use": false,
     "enrichment": {}
   },
