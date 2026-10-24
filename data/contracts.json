@@ -2522,7 +2522,7 @@
     "status": "active",
     "code_hash": "f3868bfb9664cea9",
     "discovered_at": "2026-10-21T22:32:48Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://romipijuonis.top",
     "latest_value_decoded": "https://romipijuonis.top",
