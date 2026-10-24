@@ -154,20 +154,24 @@
     "cluster_id": "c-7abf4fe1",
     "contracts": [
       "0x08b586ad30ad993319f999936097272292325d60",
+      "0x0a3ff7eabb2d57b9b9310b1c1e34041f2d5add96",
       "0x12cfa9dec6d0de8774ef4713dbd3672b2ac16695",
       "0x291a2a3dfa6781ed3d97fc4f31912a1ba7300bf3",
       "0x34d07452ddda928481200720d81106a008d38cec",
+      "0x4270485f158454497b75d1f4c48e3e2b7ce4b212",
       "0x476293f805511a0541859cd2152c1152653b1f71",
+      "0x708841423780ba186a44188b82ba6dd40f02c54b",
       "0xa3141f8dcc429f8bd11c4677fdad02e3da9f84bf",
+      "0xa85a68a0d5179427ea1ca52fb1d716f35e446f29",
       "0xad17e8d965a7de76d2b713ba7dcee27a949df6d2",
       "0xb180f885f88a9f722ec258e6d80e0a522aef3e67",
       "0xbf6fc1ee34344855b440a4b90f0a336ddc91937a",
       "0xd0390d1b8c36ac93143d613768194f8d7a701dbb",
       "0xd2324c8f80ce03ab867345cbcbdf914ac346681d"
     ],
-    "tx_count": 11,
+    "tx_count": 15,
     "first_seen": "2026-10-21T20:13:06Z",
-    "last_seen": "2026-10-24T01:51:40Z",
+    "last_seen": "2026-10-24T05:12:41Z",
     "watched": false,
     "funded_by": []
   },
@@ -229,9 +233,9 @@
     "contracts": [
       "0x1ac7d768e37b147c993de943d704c4e92d7861a1"
     ],
-    "tx_count": 1,
+    "tx_count": 2,
     "first_seen": "2026-10-24T01:02:01Z",
-    "last_seen": "2026-10-24T01:02:01Z",
+    "last_seen": "2026-10-24T05:11:19Z",
     "watched": false,
     "funded_by": []
   },
