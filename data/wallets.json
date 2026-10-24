@@ -175,6 +175,7 @@
       "0x08b586ad30ad993319f999936097272292325d60",
       "0x0a3ff7eabb2d57b9b9310b1c1e34041f2d5add96",
       "0x12cfa9dec6d0de8774ef4713dbd3672b2ac16695",
+      "0x137d6490c80c431591c2ab73bb1c2c8343952e5a",
       "0x291a2a3dfa6781ed3d97fc4f31912a1ba7300bf3",
       "0x34d07452ddda928481200720d81106a008d38cec",
       "0x418063c4d809459cc0b1d55266d2b4c416a984ae",
@@ -195,9 +196,9 @@
       "0xef2af0cfbb01f339bd0417684cea6d655a08090a",
       "0xfc8685d51c0d6d1c18f13e23cb1edb44a21f4b47"
     ],
-    "tx_count": 23,
+    "tx_count": 24,
     "first_seen": "2026-10-21T20:13:06Z",
-    "last_seen": "2026-10-24T12:06:04Z",
+    "last_seen": "2026-10-24T14:55:58Z",
     "watched": false,
     "funded_by": []
   },
