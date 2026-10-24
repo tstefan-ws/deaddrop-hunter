@@ -4828,6 +4828,26 @@
   },
   {
     "type": "domain",
+    "value": "started-pork-adds-specials.trycloudflare.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x00f96a0484a9a9a13c19cb0b6b6be1a2a883b1f6"
+    ],
+    "first_seen": "2026-10-24T10:13:36Z",
+    "last_seen": "2026-10-24T10:13:36Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-24T10:15:03Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "superboomer.world",
     "port": null,
     "family": "c2-url",
@@ -5389,6 +5409,26 @@
     "discovered_at": "2026-10-20T05:24:20Z",
     "new": false,
     "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x00f96a0484a9a9a13c19cb0b6b6be1a2a883b1f6",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x00f96a0484a9a9a13c19cb0b6b6be1a2a883b1f6"
+    ],
+    "first_seen": "2026-10-24T10:13:36Z",
+    "last_seen": "2026-10-24T10:13:36Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-24T10:15:03Z",
+    "new": true,
+    "confidence": 90,
     "dual_use": false,
     "enrichment": {}
   },
@@ -7451,6 +7491,7 @@
     "cluster_id": "c-504efa63",
     "chain": "polygon",
     "contracts": [
+      "0x00f96a0484a9a9a13c19cb0b6b6be1a2a883b1f6",
       "0x0172d51196f065d5b565be0130d654a8f8de8d86",
       "0x0d116251d827c9c3070ca144618f3928cca4cd61",
       "0x3463851978afd2869c8d372d3dccd5b2f40c756e",
@@ -7459,8 +7500,8 @@
       "0x7539f2c22e3229945420bbf7d6342b84e173187d"
     ],
     "first_seen": "2026-10-19T20:32:54Z",
-    "last_seen": "2026-10-23T12:59:12Z",
-    "times_seen": 6,
+    "last_seen": "2026-10-24T10:13:36Z",
+    "times_seen": 7,
     "current": true,
     "discovered_at": "2026-10-19T20:38:48Z",
     "new": false,
@@ -13917,6 +13958,26 @@
     "current": true,
     "discovered_at": "2026-10-19T20:38:48Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://started-pork-adds-specials.trycloudflare.com/",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x00f96a0484a9a9a13c19cb0b6b6be1a2a883b1f6"
+    ],
+    "first_seen": "2026-10-24T10:13:36Z",
+    "last_seen": "2026-10-24T10:13:36Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-24T10:15:03Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}

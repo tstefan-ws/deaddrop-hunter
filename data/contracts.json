@@ -1424,6 +1424,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0x00f96a0484a9a9a13c19cb0b6b6be1a2a883b1f6",
+    "cluster_id": "c-504efa63",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x504efa6320d3c8f66840b65fbf05a930e258292d"
+    ],
+    "selectors": [
+      "0x55f804b3"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-24T10:13:36Z",
+    "last_seen": "2026-10-24T10:13:36Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-24T10:15:03Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://started-pork-adds-specials.trycloudflare.com/",
+    "latest_value_decoded": "https://started-pork-adds-specials.trycloudflare.com/",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x0172d51196f065d5b565be0130d654a8f8de8d86",
     "cluster_id": "c-504efa63",
     "family": "c2-url",
