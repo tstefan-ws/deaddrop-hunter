@@ -244,6 +244,37 @@
   },
   {
     "chain": "bsc",
+    "address": "0x1ac7d768e37b147c993de943d704c4e92d7861a1",
+    "cluster_id": "c-b88eca78",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xb88eca7852a5e9b63feb85f229a3b4a1d5064a1a"
+    ],
+    "selectors": [
+      "0xe5eab096"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-24T01:02:01Z",
+    "last_seen": "2026-10-24T01:02:01Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-24T01:06:36Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://zen-name-tide-fee.xyz",
+    "latest_value_decoded": "https://zen-name-tide-fee.xyz",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
     "address": "0x238f3020fb7d397069c0fd1237f1a7b275cfeb20",
     "cluster_id": "c-3bfc05a8",
     "family": "unknown",

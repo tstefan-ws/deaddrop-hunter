@@ -218,6 +218,21 @@
   },
   {
     "chain": "bsc",
+    "address": "0xb88eca7852a5e9b63feb85f229a3b4a1d5064a1a",
+    "role": "operator",
+    "label": "Operator (auto-detected)",
+    "cluster_id": "c-b88eca78",
+    "contracts": [
+      "0x1ac7d768e37b147c993de943d704c4e92d7861a1"
+    ],
+    "tx_count": 1,
+    "first_seen": "2026-10-24T01:02:01Z",
+    "last_seen": "2026-10-24T01:02:01Z",
+    "watched": false,
+    "funded_by": []
+  },
+  {
+    "chain": "bsc",
     "address": "0xc59862a6b646c9a8a780ace66e1285ee7fbbc0a0",
     "role": "deployer",
     "label": "Deployer (auto-detected)",

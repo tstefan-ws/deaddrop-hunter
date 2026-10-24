@@ -1,6 +1,21 @@
 [
   {
     "chain": "bsc",
+    "block": 129422371,
+    "timestamp": "2026-10-24T01:02:01Z",
+    "tx_hash": "0xebe60ae9497c288eacbf25ed0dbfd6f644dccba39e0081f7297d884fd5991fd1",
+    "contract": "0x1ac7d768e37b147c993de943d704c4e92d7861a1",
+    "from": "0xb88eca7852a5e9b63feb85f229a3b4a1d5064a1a",
+    "selector": "0xe5eab096",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://zen-name-tide-fee.xyz",
+    "old_decoded": null,
+    "new_decoded": "https://zen-name-tide-fee.xyz",
+    "decoder": "plain"
+  },
+  {
+    "chain": "bsc",
     "block": 129414232,
     "timestamp": "2026-10-24T00:00:58Z",
     "tx_hash": "0x334ad03ad6bc8a6b512771566c04d3b74a3eee9d29e26dc9f9bf3fb50357b443",

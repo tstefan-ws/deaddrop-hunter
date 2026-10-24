@@ -5334,6 +5334,26 @@
   },
   {
     "type": "domain",
+    "value": "zen-name-tide-fee.xyz",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-b88eca78",
+    "chain": "bsc",
+    "contracts": [
+      "0x1ac7d768e37b147c993de943d704c4e92d7861a1"
+    ],
+    "first_seen": "2026-10-24T01:02:01Z",
+    "last_seen": "2026-10-24T01:02:01Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-24T01:06:36Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "zurggoyttjof21.cc",
     "port": null,
     "family": "c2-url",
@@ -5589,6 +5609,26 @@
     "discovered_at": "2026-10-20T16:32:08Z",
     "new": false,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x1ac7d768e37b147c993de943d704c4e92d7861a1",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-b88eca78",
+    "chain": "bsc",
+    "contracts": [
+      "0x1ac7d768e37b147c993de943d704c4e92d7861a1"
+    ],
+    "first_seen": "2026-10-24T01:02:01Z",
+    "last_seen": "2026-10-24T01:02:01Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-24T01:06:36Z",
+    "new": true,
+    "confidence": 90,
     "dual_use": false,
     "enrichment": {}
   },
@@ -7315,6 +7355,26 @@
     "discovered_at": "2026-10-20T00:13:20Z",
     "new": false,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0xb88eca7852a5e9b63feb85f229a3b4a1d5064a1a",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-b88eca78",
+    "chain": "bsc",
+    "contracts": [
+      "0x1ac7d768e37b147c993de943d704c4e92d7861a1"
+    ],
+    "first_seen": "2026-10-24T01:02:01Z",
+    "last_seen": "2026-10-24T01:02:01Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-24T01:06:36Z",
+    "new": true,
+    "confidence": 85,
     "dual_use": false,
     "enrichment": {}
   },
@@ -13605,6 +13665,26 @@
     "current": false,
     "discovered_at": "2026-10-19T20:00:00Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://zen-name-tide-fee.xyz",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-b88eca78",
+    "chain": "bsc",
+    "contracts": [
+      "0x1ac7d768e37b147c993de943d704c4e92d7861a1"
+    ],
+    "first_seen": "2026-10-24T01:02:01Z",
+    "last_seen": "2026-10-24T01:02:01Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-24T01:06:36Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
