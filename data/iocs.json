@@ -6354,6 +6354,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x62737b097d763d925bfef9e0f4e88ccce70ec171",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-2d923a1c",
+    "chain": "bsc",
+    "contracts": [
+      "0x62737b097d763d925bfef9e0f4e88ccce70ec171"
+    ],
+    "first_seen": "2026-10-25T09:42:50Z",
+    "last_seen": "2026-10-25T09:42:50Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-25T09:43:53Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x63fda77a8531d13e4f4ce32457b4567d37f2db89",
     "port": null,
     "family": "unknown",
@@ -6869,6 +6889,26 @@
     "discovered_at": "2026-10-22T08:49:42Z",
     "new": false,
     "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0xa2e727f1de47d3fbf1af0611aaf28f32a509d71c",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-2d923a1c",
+    "chain": "bsc",
+    "contracts": [
+      "0xa2e727f1de47d3fbf1af0611aaf28f32a509d71c"
+    ],
+    "first_seen": "2026-10-25T09:38:22Z",
+    "last_seen": "2026-10-25T09:38:22Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-25T09:43:53Z",
+    "new": true,
+    "confidence": 55,
     "dual_use": false,
     "enrichment": {}
   },
@@ -7394,6 +7434,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0xd8fa18798761188af723e0442b90c2b2f04b5cca",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-2d923a1c",
+    "chain": "bsc",
+    "contracts": [
+      "0xd8fa18798761188af723e0442b90c2b2f04b5cca"
+    ],
+    "first_seen": "2026-10-25T09:37:35Z",
+    "last_seen": "2026-10-25T09:37:35Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-25T09:43:53Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0xdf645ee032fed7aa85bf65fae17394acf74238a6",
     "port": null,
     "family": "unknown",
@@ -7738,13 +7798,16 @@
       "0x4d535fa46dfe93736d26e00e5108feed02a2e629",
       "0x4e96971ca7d59777039baa5e84b9d622520c5174",
       "0x5aa33225383f93015a7296279543c694377bf0a0",
+      "0x62737b097d763d925bfef9e0f4e88ccce70ec171",
+      "0xa2e727f1de47d3fbf1af0611aaf28f32a509d71c",
       "0xb47b366ed9b21593417583a8deda29464c512463",
       "0xc6a7d8d34d0672fc2ed68b130848eb1d043010db",
-      "0xcc6803868a425709b9aaf19245e34106beb65854"
+      "0xcc6803868a425709b9aaf19245e34106beb65854",
+      "0xd8fa18798761188af723e0442b90c2b2f04b5cca"
     ],
     "first_seen": "2026-10-24T13:59:08Z",
-    "last_seen": "2026-10-25T00:48:07Z",
-    "times_seen": 7,
+    "last_seen": "2026-10-25T09:42:50Z",
+    "times_seen": 10,
     "current": true,
     "discovered_at": "2026-10-24T13:59:12Z",
     "new": true,
