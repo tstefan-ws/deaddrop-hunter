@@ -1273,7 +1273,7 @@
     "status": "active",
     "code_hash": "71cc7fed8c14f780",
     "discovered_at": "2026-10-22T18:00:54Z",
-    "new": true,
+    "new": false,
     "evidence": "candidate",
     "latest_value_raw": null,
     "latest_value_decoded": null,
