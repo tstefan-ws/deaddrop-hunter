@@ -1547,7 +1547,7 @@
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-22T08:57:44Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://72.60.20.149",
     "latest_value_decoded": "https://72.60.20.149",
