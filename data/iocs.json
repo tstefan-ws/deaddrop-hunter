@@ -6534,6 +6534,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x7428945335ac4147369c48bb95d573ab5198e8af",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-3a5455ad",
+    "chain": "polygon",
+    "contracts": [
+      "0x7428945335ac4147369c48bb95d573ab5198e8af"
+    ],
+    "first_seen": "2026-10-25T11:07:17Z",
+    "last_seen": "2026-10-25T11:07:17Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-25T11:12:01Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x752c8445b58f3aac2fa434ae8e7b401e9665cffb",
     "port": null,
     "family": "c2-url",
@@ -7895,6 +7915,26 @@
     "current": true,
     "discovered_at": "2026-10-22T08:57:44Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0x3a5455adca01eb5dc62981e9e62c1e4e19a33bde",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-3a5455ad",
+    "chain": "polygon",
+    "contracts": [
+      "0x7428945335ac4147369c48bb95d573ab5198e8af"
+    ],
+    "first_seen": "2026-10-25T11:07:17Z",
+    "last_seen": "2026-10-25T11:07:17Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-25T11:12:01Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -9403,6 +9443,26 @@
     "discovered_at": "2026-04-24T16:11:04Z",
     "new": false,
     "confidence": 70,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "45.150.110.30",
+    "port": 8443,
+    "family": "unknown",
+    "cluster_id": "c-3a5455ad",
+    "chain": "polygon",
+    "contracts": [
+      "0x7428945335ac4147369c48bb95d573ab5198e8af"
+    ],
+    "first_seen": "2026-10-25T11:07:17Z",
+    "last_seen": "2026-10-25T11:07:17Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-25T11:12:01Z",
+    "new": true,
+    "confidence": 60,
     "dual_use": false,
     "enrichment": {}
   },
