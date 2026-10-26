@@ -459,9 +459,9 @@
     "wallets": [
       "0x74075c3201074e6c9e9ebfa5362dd41426322d8a"
     ],
-    "ioc_count": 38,
+    "ioc_count": 40,
     "first_seen": "2026-10-20T12:15:14Z",
-    "last_seen": "2026-10-23T15:05:44Z",
+    "last_seen": "2026-10-26T12:16:39Z",
     "discovered_at": "2026-10-20T12:16:33Z",
     "new": false
   },
@@ -774,14 +774,15 @@
       "bsc"
     ],
     "contracts": [
-      "0x4ed922f62ef4f00438e9cfe1d4a4508d53cbf8f2"
+      "0x4ed922f62ef4f00438e9cfe1d4a4508d53cbf8f2",
+      "0xcda25ccb5fcfef869625a04891247ad2e73ddc7f"
     ],
     "wallets": [
       "0xde2f7044c3998da85ea68c5a5d508047641189d5"
     ],
-    "ioc_count": 3,
+    "ioc_count": 5,
     "first_seen": "2026-10-26T08:17:44Z",
-    "last_seen": "2026-10-26T08:17:44Z",
+    "last_seen": "2026-10-26T12:18:24Z",
     "discovered_at": "2026-10-26T08:19:04Z",
     "new": true
   },

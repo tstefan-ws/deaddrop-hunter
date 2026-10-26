@@ -2126,6 +2126,33 @@
   },
   {
     "chain": "bsc",
+    "address": "0xcda25ccb5fcfef869625a04891247ad2e73ddc7f",
+    "cluster_id": "c-de2f7044",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xde2f7044c3998da85ea68c5a5d508047641189d5"
+    ],
+    "selectors": [],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-26T12:18:24Z",
+    "last_seen": "2026-10-26T12:18:24Z",
+    "status": "active",
+    "code_hash": "d0d72f7988d83182",
+    "discovered_at": "2026-10-26T12:21:39Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "berusdarkus.com/lgz/gdata",
+    "latest_value_decoded": "berusdarkus.com/lgz/gdata",
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
     "address": "0xd0390d1b8c36ac93143d613768194f8d7a701dbb",
     "cluster_id": "c-7abf4fe1",
     "family": "unknown",
@@ -3010,16 +3037,16 @@
       "0x08dec0e9"
     ],
     "decoder": "plain",
-    "update_count": 21,
+    "update_count": 23,
     "first_seen": "2026-10-20T12:15:14Z",
-    "last_seen": "2026-10-23T15:05:44Z",
+    "last_seen": "2026-10-26T12:16:39Z",
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-20T12:16:33Z",
     "new": false,
     "evidence": "decoded",
-    "latest_value_raw": "https://binance-com-nk.refers.workers.dev",
-    "latest_value_decoded": "https://binance-com-nk.refers.workers.dev",
+    "latest_value_raw": "https://binance-com-gz.refers.workers.dev",
+    "latest_value_decoded": "https://binance-com-gz.refers.workers.dev",
     "tags": [
       "c2",
       "url-rotation",

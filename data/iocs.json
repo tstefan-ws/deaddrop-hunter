@@ -422,6 +422,26 @@
   },
   {
     "type": "domain",
+    "value": "berusdarkus.com",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-de2f7044",
+    "chain": "bsc",
+    "contracts": [
+      "0xcda25ccb5fcfef869625a04891247ad2e73ddc7f"
+    ],
+    "first_seen": "2026-10-26T12:18:24Z",
+    "last_seen": "2026-10-26T12:18:24Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-26T12:21:39Z",
+    "new": true,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "bestwebchlen.cyou",
     "port": null,
     "family": "c2-url",
@@ -682,6 +702,26 @@
   },
   {
     "type": "domain",
+    "value": "binance-com-gz.refers.workers.dev",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-74075c32",
+    "chain": "polygon",
+    "contracts": [
+      "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c"
+    ],
+    "first_seen": "2026-10-26T12:16:36Z",
+    "last_seen": "2026-10-26T12:16:39Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-10-26T12:21:39Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "binance-com-ic.refers.workers.dev",
     "port": null,
     "family": "c2-url",
@@ -713,7 +753,7 @@
     "first_seen": "2026-10-23T15:05:44Z",
     "last_seen": "2026-10-23T15:05:44Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-10-23T15:09:37Z",
     "new": true,
     "confidence": 85,
@@ -6643,8 +6683,8 @@
       "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c"
     ],
     "first_seen": "2026-10-20T12:15:14Z",
-    "last_seen": "2026-10-23T15:05:44Z",
-    "times_seen": 21,
+    "last_seen": "2026-10-26T12:16:39Z",
+    "times_seen": 23,
     "current": true,
     "discovered_at": "2026-10-20T12:16:33Z",
     "new": false,
@@ -7754,6 +7794,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0xcda25ccb5fcfef869625a04891247ad2e73ddc7f",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-de2f7044",
+    "chain": "bsc",
+    "contracts": [
+      "0xcda25ccb5fcfef869625a04891247ad2e73ddc7f"
+    ],
+    "first_seen": "2026-10-26T12:18:24Z",
+    "last_seen": "2026-10-26T12:18:24Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-26T12:21:39Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0xd0390d1b8c36ac93143d613768194f8d7a701dbb",
     "port": null,
     "family": "unknown",
@@ -8422,8 +8482,8 @@
       "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c"
     ],
     "first_seen": "2026-10-20T12:15:14Z",
-    "last_seen": "2026-10-23T15:05:44Z",
-    "times_seen": 21,
+    "last_seen": "2026-10-26T12:16:39Z",
+    "times_seen": 23,
     "current": true,
     "discovered_at": "2026-10-20T12:16:33Z",
     "new": false,
@@ -8714,11 +8774,12 @@
     "cluster_id": "c-de2f7044",
     "chain": "bsc",
     "contracts": [
-      "0x4ed922f62ef4f00438e9cfe1d4a4508d53cbf8f2"
+      "0x4ed922f62ef4f00438e9cfe1d4a4508d53cbf8f2",
+      "0xcda25ccb5fcfef869625a04891247ad2e73ddc7f"
     ],
     "first_seen": "2026-10-26T08:17:44Z",
-    "last_seen": "2026-10-26T08:17:44Z",
-    "times_seen": 1,
+    "last_seen": "2026-10-26T12:18:24Z",
+    "times_seen": 2,
     "current": true,
     "discovered_at": "2026-10-26T08:19:04Z",
     "new": true,
@@ -14132,6 +14193,26 @@
   },
   {
     "type": "url",
+    "value": "https://binance-com-gz.refers.workers.dev",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-74075c32",
+    "chain": "polygon",
+    "contracts": [
+      "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c"
+    ],
+    "first_seen": "2026-10-26T12:16:36Z",
+    "last_seen": "2026-10-26T12:16:39Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-10-26T12:21:39Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
     "value": "https://binance-com-ic.refers.workers.dev",
     "port": null,
     "family": "c2-url",
@@ -14163,7 +14244,7 @@
     "first_seen": "2026-10-23T15:05:44Z",
     "last_seen": "2026-10-23T15:05:44Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-10-23T15:09:37Z",
     "new": true,
     "confidence": 85,
