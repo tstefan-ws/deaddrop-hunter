@@ -599,6 +599,33 @@
   },
   {
     "chain": "bsc",
+    "address": "0x2d98455fd8dc63b2b120739acb7e4e3e55d1f56f",
+    "cluster_id": "c-381a689b",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x381a689bd0fbc59a2b0e66136e4629cdadf2d2a8"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-10-26T12:58:06Z",
+    "last_seen": "2026-10-26T12:58:06Z",
+    "status": "active",
+    "code_hash": "c790743292896c0f",
+    "discovered_at": "2026-10-26T13:00:28Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
     "address": "0x2dab18075b748c547e8af1f854da93989485669b",
     "cluster_id": "c-7abf4fe1",
     "family": "unknown",
@@ -2565,7 +2592,7 @@
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-23T12:58:09Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://connection-toronto-cow-payroll.trycloudflare.com/",
     "latest_value_decoded": "https://connection-toronto-cow-payroll.trycloudflare.com/",
