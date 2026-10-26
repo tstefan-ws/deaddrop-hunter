@@ -2143,7 +2143,7 @@
     "status": "active",
     "code_hash": "f8aa9e41f637c4f0",
     "discovered_at": "2026-10-23T13:54:21Z",
-    "new": true,
+    "new": false,
     "evidence": "candidate",
     "latest_value_raw": null,
     "latest_value_decoded": null,
