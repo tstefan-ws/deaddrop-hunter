@@ -269,15 +269,16 @@
     "cluster_id": "c-a07f7cab",
     "contracts": [
       "0x030fb684ab6f8a3c2e4e4db6b390410919091ad2",
+      "0x3420ab775d928e9cef08be733ab5498c28484090",
       "0x5e57fe0a4f8b2f02147bc6faaa45bbf3b5575ad1",
       "0x915cc4248fff147c123f3a43ff778467f33a0db2",
       "0x9b68cec9e92cc9dfe35fa68b64b9a2fc446c91d1",
       "0xbac7b7934f7a56512a2d879894337ecabc00e491",
       "0xe819ed76e0a2a5e2717ca2a5179b2f08898fec5f"
     ],
-    "tx_count": 6,
+    "tx_count": 7,
     "first_seen": "2026-10-20T00:08:39Z",
-    "last_seen": "2026-10-25T00:00:59Z",
+    "last_seen": "2026-10-26T00:00:59Z",
     "watched": false,
     "funded_by": []
   },
