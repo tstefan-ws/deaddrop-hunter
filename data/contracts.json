@@ -2830,7 +2830,7 @@
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-23T12:05:52Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://charts-skip-vpn-letter.trycloudflare.com/",
     "latest_value_decoded": "https://charts-skip-vpn-letter.trycloudflare.com/",
