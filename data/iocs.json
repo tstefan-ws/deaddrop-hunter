@@ -6094,6 +6094,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x3ec86b86e4a86431e2753c2977665cb10876b362",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-2d923a1c",
+    "chain": "bsc",
+    "contracts": [
+      "0x3ec86b86e4a86431e2753c2977665cb10876b362"
+    ],
+    "first_seen": "2026-10-26T02:23:55Z",
+    "last_seen": "2026-10-26T02:23:55Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-26T02:24:04Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x418063c4d809459cc0b1d55266d2b4c416a984ae",
     "port": null,
     "family": "unknown",
@@ -6447,6 +6467,26 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-25T09:43:53Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x639476cfa4bcd0ca1124f5bb261a25683a27568e",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-2d923a1c",
+    "chain": "bsc",
+    "contracts": [
+      "0x639476cfa4bcd0ca1124f5bb261a25683a27568e"
+    ],
+    "first_seen": "2026-10-26T02:24:37Z",
+    "last_seen": "2026-10-26T02:24:37Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-26T02:24:04Z",
     "new": true,
     "confidence": 55,
     "dual_use": false,
@@ -7956,11 +7996,13 @@
     "contracts": [
       "0x1aaf392be29b46e60eed9e9f53fb976b8b3e4d92",
       "0x22c45b67f4b6fd87bb72f15146cee088226517bd",
+      "0x3ec86b86e4a86431e2753c2977665cb10876b362",
       "0x48c8c85ae6e82f91564c5b6a7746a87bf7c8a950",
       "0x4d535fa46dfe93736d26e00e5108feed02a2e629",
       "0x4e96971ca7d59777039baa5e84b9d622520c5174",
       "0x5aa33225383f93015a7296279543c694377bf0a0",
       "0x62737b097d763d925bfef9e0f4e88ccce70ec171",
+      "0x639476cfa4bcd0ca1124f5bb261a25683a27568e",
       "0x64ac02cb25bff3df1278cb776c5f623b3ee2d06d",
       "0x915f6a997f769bc48b1573c37355d0fdae38a305",
       "0xa2e727f1de47d3fbf1af0611aaf28f32a509d71c",
@@ -7971,8 +8013,8 @@
       "0xd8fa18798761188af723e0442b90c2b2f04b5cca"
     ],
     "first_seen": "2026-10-24T13:59:08Z",
-    "last_seen": "2026-10-25T17:23:27Z",
-    "times_seen": 15,
+    "last_seen": "2026-10-26T02:24:37Z",
+    "times_seen": 17,
     "current": true,
     "discovered_at": "2026-10-24T13:59:12Z",
     "new": true,
