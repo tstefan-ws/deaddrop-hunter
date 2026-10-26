@@ -3062,7 +3062,7 @@
     "status": "active",
     "code_hash": "607bd9082eda8392",
     "discovered_at": "2026-10-23T20:32:33Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "ws://meiroha.net:4443",
     "latest_value_decoded": "ws://meiroha.net:4443",
