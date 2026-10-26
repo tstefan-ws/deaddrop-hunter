@@ -771,18 +771,20 @@
     "name": "Unclassified dead-drop cluster (c-de2f7044)",
     "family": "unknown",
     "chains": [
-      "bsc"
+      "bsc",
+      "polygon"
     ],
     "contracts": [
       "0x4ed922f62ef4f00438e9cfe1d4a4508d53cbf8f2",
+      "0x84ef485c1d8f3ca1880d0a7ab045d924cf5ac88e",
       "0xcda25ccb5fcfef869625a04891247ad2e73ddc7f"
     ],
     "wallets": [
       "0xde2f7044c3998da85ea68c5a5d508047641189d5"
     ],
-    "ioc_count": 5,
+    "ioc_count": 6,
     "first_seen": "2026-10-26T08:17:44Z",
-    "last_seen": "2026-10-26T12:18:24Z",
+    "last_seen": "2026-10-26T12:24:47Z",
     "discovered_at": "2026-10-26T08:19:04Z",
     "new": true
   },

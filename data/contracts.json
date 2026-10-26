@@ -3330,6 +3330,33 @@
   },
   {
     "chain": "polygon",
+    "address": "0x84ef485c1d8f3ca1880d0a7ab045d924cf5ac88e",
+    "cluster_id": "c-de2f7044",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xde2f7044c3998da85ea68c5a5d508047641189d5"
+    ],
+    "selectors": [],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-26T12:24:47Z",
+    "last_seen": "2026-10-26T12:24:47Z",
+    "status": "active",
+    "code_hash": "d0d72f7988d83182",
+    "discovered_at": "2026-10-26T12:29:26Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "berusdarkus.com/lgz/gdata",
+    "latest_value_decoded": "berusdarkus.com/lgz/gdata",
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x87db000f084f4a91f1aa6e00823f350e81316ef4",
     "cluster_id": "c-19532c0f",
     "family": "xmrig-stealth",
