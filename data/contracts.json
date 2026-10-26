@@ -952,6 +952,33 @@
   },
   {
     "chain": "bsc",
+    "address": "0x4ed922f62ef4f00438e9cfe1d4a4508d53cbf8f2",
+    "cluster_id": "c-de2f7044",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xde2f7044c3998da85ea68c5a5d508047641189d5"
+    ],
+    "selectors": [],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-26T08:17:44Z",
+    "last_seen": "2026-10-26T08:17:44Z",
+    "status": "active",
+    "code_hash": "d0d72f7988d83182",
+    "discovered_at": "2026-10-26T08:19:04Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "hithitfish.com/lgz/gdata",
+    "latest_value_decoded": "hithitfish.com/lgz/gdata",
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
     "address": "0x5436d81c4a3ba5f4ca4282d2788ca7c8cb7c9593",
     "cluster_id": "c-9e09ef69",
     "family": "unknown",
@@ -3535,7 +3562,7 @@
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-23T08:14:21Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "http://127.0.0.1:2019/config/",
     "latest_value_decoded": "http://127.0.0.1:2019/config/",
