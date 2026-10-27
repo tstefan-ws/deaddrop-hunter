@@ -6315,6 +6315,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x2edd85f18862c25da9ad75a7762b4ba07f8e9a9f",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-381a689b",
+    "chain": "bsc",
+    "contracts": [
+      "0x2edd85f18862c25da9ad75a7762b4ba07f8e9a9f"
+    ],
+    "first_seen": "2026-10-27T22:26:19Z",
+    "last_seen": "2026-10-27T22:26:19Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-27T22:32:11Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x2fbd66fe245052d265ca0eda7d01d35b2d8b9feb",
     "port": null,
     "family": "xmrig-stealth",
@@ -9069,6 +9089,7 @@
     "chain": "bsc",
     "contracts": [
       "0x2d98455fd8dc63b2b120739acb7e4e3e55d1f56f",
+      "0x2edd85f18862c25da9ad75a7762b4ba07f8e9a9f",
       "0x38b8f49b3924c11972ed9a2f8712b13d68d34eb2",
       "0x6298ead7e22b1c0b9331bbf0a6a10bb2dfd25e65",
       "0x743016304959e0cc8cace93364229a9e96867402",
@@ -9082,8 +9103,8 @@
       "0xf54c1ec337c3c39454d11642c9f8ec19b369ed36"
     ],
     "first_seen": "2026-10-26T12:58:06Z",
-    "last_seen": "2026-10-27T22:25:37Z",
-    "times_seen": 12,
+    "last_seen": "2026-10-27T22:26:19Z",
+    "times_seen": 13,
     "current": true,
     "discovered_at": "2026-10-26T13:00:28Z",
     "new": true,
