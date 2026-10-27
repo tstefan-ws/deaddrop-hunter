@@ -6324,12 +6324,12 @@
       "0x310ba7d149f6ea1dbee50e6e1fca49174df6f789"
     ],
     "first_seen": "2026-10-27T16:46:17Z",
-    "last_seen": "2026-10-27T16:46:17Z",
-    "times_seen": 1,
+    "last_seen": "2026-10-27T18:02:13Z",
+    "times_seen": 2,
     "current": true,
     "discovered_at": "2026-10-27T16:46:30Z",
     "new": true,
-    "confidence": 55,
+    "confidence": 90,
     "dual_use": false,
     "enrichment": {}
   },
@@ -8724,12 +8724,12 @@
       "0x310ba7d149f6ea1dbee50e6e1fca49174df6f789"
     ],
     "first_seen": "2026-10-27T16:46:17Z",
-    "last_seen": "2026-10-27T16:46:17Z",
-    "times_seen": 1,
+    "last_seen": "2026-10-27T18:02:13Z",
+    "times_seen": 2,
     "current": true,
     "discovered_at": "2026-10-27T16:46:30Z",
     "new": true,
-    "confidence": 55,
+    "confidence": 85,
     "dual_use": false,
     "enrichment": {}
   },
@@ -9505,6 +9505,26 @@
     "discovered_at": "2026-10-22T08:49:42Z",
     "new": false,
     "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "1.1.1.1",
+    "port": 80,
+    "family": "unknown",
+    "cluster_id": "c-150a4c91",
+    "chain": "bsc",
+    "contracts": [
+      "0x310ba7d149f6ea1dbee50e6e1fca49174df6f789"
+    ],
+    "first_seen": "2026-10-27T18:02:13Z",
+    "last_seen": "2026-10-27T18:02:13Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-27T18:05:47Z",
+    "new": true,
+    "confidence": 60,
     "dual_use": false,
     "enrichment": {}
   },
