@@ -318,11 +318,12 @@
       "0x915cc4248fff147c123f3a43ff778467f33a0db2",
       "0x9b68cec9e92cc9dfe35fa68b64b9a2fc446c91d1",
       "0xbac7b7934f7a56512a2d879894337ecabc00e491",
+      "0xc6c62c0a7aaca3b25cab41027353eaac0c790fd4",
       "0xe819ed76e0a2a5e2717ca2a5179b2f08898fec5f"
     ],
-    "tx_count": 7,
+    "tx_count": 8,
     "first_seen": "2026-10-20T00:08:39Z",
-    "last_seen": "2026-10-26T00:00:59Z",
+    "last_seen": "2026-10-27T00:00:58Z",
     "watched": false,
     "funded_by": []
   },
@@ -565,6 +566,21 @@
     "first_seen": "2026-03-13T17:23:13Z",
     "last_seen": "2026-09-14T00:11:39Z",
     "watched": true,
+    "funded_by": []
+  },
+  {
+    "chain": "polygon",
+    "address": "0x298217d8b09a8d9c70ed38c43c4fc37bfd6db107",
+    "role": "operator",
+    "label": "Operator (auto-detected)",
+    "cluster_id": "c-298217d8",
+    "contracts": [
+      "0x167f6515456b0a964cd3810733a6ae758c2f85a4"
+    ],
+    "tx_count": 1,
+    "first_seen": "2026-10-27T00:04:50Z",
+    "last_seen": "2026-10-27T00:04:50Z",
+    "watched": false,
     "funded_by": []
   },
   {
