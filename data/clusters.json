@@ -76,6 +76,25 @@
     "new": false
   },
   {
+    "id": "c-150a4c91",
+    "name": "Unclassified dead-drop cluster (c-150a4c91)",
+    "family": "unknown",
+    "chains": [
+      "bsc"
+    ],
+    "contracts": [
+      "0x310ba7d149f6ea1dbee50e6e1fca49174df6f789"
+    ],
+    "wallets": [
+      "0x150a4c916f9a6c4a306b8c9a0ec04cb445ced613"
+    ],
+    "ioc_count": 2,
+    "first_seen": "2026-10-27T16:46:17Z",
+    "last_seen": "2026-10-27T16:46:17Z",
+    "discovered_at": "2026-10-27T16:46:30Z",
+    "new": true
+  },
+  {
     "id": "c-19532c0f",
     "name": "Stealth XMRig config cluster (c-19532c0f)",
     "family": "xmrig-stealth",
