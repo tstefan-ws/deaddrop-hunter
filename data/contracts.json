@@ -2903,7 +2903,7 @@
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-24T10:15:03Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://started-pork-adds-specials.trycloudflare.com/",
     "latest_value_decoded": "https://started-pork-adds-specials.trycloudflare.com/",
