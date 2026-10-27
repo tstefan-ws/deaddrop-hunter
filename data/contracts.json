@@ -2710,7 +2710,7 @@
     "status": "active",
     "code_hash": "230d422f6ba035c5",
     "discovered_at": "2026-10-24T08:39:39Z",
-    "new": true,
+    "new": false,
     "evidence": "candidate",
     "latest_value_raw": null,
     "latest_value_decoded": null,
