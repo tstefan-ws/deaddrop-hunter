@@ -696,7 +696,7 @@
     "first_seen": "2026-10-24T01:02:01Z",
     "last_seen": "2026-10-24T05:11:19Z",
     "discovered_at": "2026-10-24T01:06:36Z",
-    "new": true
+    "new": false
   },
   {
     "id": "c-be037400",

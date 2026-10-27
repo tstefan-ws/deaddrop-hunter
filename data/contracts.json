@@ -479,7 +479,7 @@
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-24T01:06:36Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://zen-video-arrest-monster.xyz",
     "latest_value_decoded": "https://zen-video-arrest-monster.xyz",
