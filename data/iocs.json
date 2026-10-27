@@ -643,6 +643,26 @@
   },
   {
     "type": "domain",
+    "value": "binance-com-10.refers.workers.dev",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-74075c32",
+    "chain": "polygon",
+    "contracts": [
+      "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c"
+    ],
+    "first_seen": "2026-10-27T08:28:54Z",
+    "last_seen": "2026-10-27T08:28:54Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-27T08:29:22Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "binance-com-2d.refers.workers.dev",
     "port": null,
     "family": "c2-url",
@@ -714,7 +734,7 @@
     "first_seen": "2026-10-26T12:16:36Z",
     "last_seen": "2026-10-26T12:16:39Z",
     "times_seen": 2,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-10-26T12:21:39Z",
     "new": true,
     "confidence": 85,
@@ -6824,8 +6844,8 @@
       "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c"
     ],
     "first_seen": "2026-10-20T12:15:14Z",
-    "last_seen": "2026-10-26T12:16:39Z",
-    "times_seen": 23,
+    "last_seen": "2026-10-27T08:28:54Z",
+    "times_seen": 24,
     "current": true,
     "discovered_at": "2026-10-20T12:16:33Z",
     "new": false,
@@ -8896,8 +8916,8 @@
       "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c"
     ],
     "first_seen": "2026-10-20T12:15:14Z",
-    "last_seen": "2026-10-26T12:16:39Z",
-    "times_seen": 23,
+    "last_seen": "2026-10-27T08:28:54Z",
+    "times_seen": 24,
     "current": true,
     "discovered_at": "2026-10-20T12:16:33Z",
     "new": false,
@@ -14549,6 +14569,26 @@
   },
   {
     "type": "url",
+    "value": "https://binance-com-10.refers.workers.dev",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-74075c32",
+    "chain": "polygon",
+    "contracts": [
+      "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c"
+    ],
+    "first_seen": "2026-10-27T08:28:54Z",
+    "last_seen": "2026-10-27T08:28:54Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-27T08:29:22Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
     "value": "https://binance-com-2d.refers.workers.dev",
     "port": null,
     "family": "c2-url",
@@ -14620,7 +14660,7 @@
     "first_seen": "2026-10-26T12:16:36Z",
     "last_seen": "2026-10-26T12:16:39Z",
     "times_seen": 2,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-10-26T12:21:39Z",
     "new": true,
     "confidence": 85,
