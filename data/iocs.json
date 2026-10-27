@@ -5495,6 +5495,26 @@
   },
   {
     "type": "domain",
+    "value": "zen-castle-depth-gas.xyz",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-b88eca78",
+    "chain": "bsc",
+    "contracts": [
+      "0x1ac7d768e37b147c993de943d704c4e92d7861a1"
+    ],
+    "first_seen": "2026-10-27T17:45:02Z",
+    "last_seen": "2026-10-27T17:45:02Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-27T17:47:51Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "zen-name-tide-fee.xyz",
     "port": null,
     "family": "c2-url",
@@ -5526,7 +5546,7 @@
     "first_seen": "2026-10-24T05:11:19Z",
     "last_seen": "2026-10-24T05:11:19Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-10-24T05:12:42Z",
     "new": false,
     "confidence": 85,
@@ -6004,8 +6024,8 @@
       "0x1ac7d768e37b147c993de943d704c4e92d7861a1"
     ],
     "first_seen": "2026-10-24T01:02:01Z",
-    "last_seen": "2026-10-24T05:11:19Z",
-    "times_seen": 2,
+    "last_seen": "2026-10-27T17:45:02Z",
+    "times_seen": 3,
     "current": true,
     "discovered_at": "2026-10-24T01:06:36Z",
     "new": false,
@@ -9274,8 +9294,8 @@
       "0x1ac7d768e37b147c993de943d704c4e92d7861a1"
     ],
     "first_seen": "2026-10-24T01:02:01Z",
-    "last_seen": "2026-10-24T05:11:19Z",
-    "times_seen": 2,
+    "last_seen": "2026-10-27T17:45:02Z",
+    "times_seen": 3,
     "current": true,
     "discovered_at": "2026-10-24T01:06:36Z",
     "new": false,
@@ -15778,6 +15798,26 @@
   },
   {
     "type": "url",
+    "value": "https://zen-castle-depth-gas.xyz",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-b88eca78",
+    "chain": "bsc",
+    "contracts": [
+      "0x1ac7d768e37b147c993de943d704c4e92d7861a1"
+    ],
+    "first_seen": "2026-10-27T17:45:02Z",
+    "last_seen": "2026-10-27T17:45:02Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-27T17:47:51Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
     "value": "https://zen-name-tide-fee.xyz",
     "port": null,
     "family": "c2-url",
@@ -15809,7 +15849,7 @@
     "first_seen": "2026-10-24T05:11:19Z",
     "last_seen": "2026-10-24T05:11:19Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-10-24T05:12:42Z",
     "new": false,
     "confidence": 85,

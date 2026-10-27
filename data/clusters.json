@@ -719,9 +719,9 @@
     "wallets": [
       "0xb88eca7852a5e9b63feb85f229a3b4a1d5064a1a"
     ],
-    "ioc_count": 6,
+    "ioc_count": 8,
     "first_seen": "2026-10-24T01:02:01Z",
-    "last_seen": "2026-10-24T05:11:19Z",
+    "last_seen": "2026-10-27T17:45:02Z",
     "discovered_at": "2026-10-24T01:06:36Z",
     "new": false
   },

@@ -1,6 +1,21 @@
 [
   {
     "chain": "bsc",
+    "block": 130131627,
+    "timestamp": "2026-10-27T17:45:02Z",
+    "tx_hash": "0xdc2ae5489a3816f63914af3ee66cad0f80b36273f9a72ac93604692ee7c5a2e1",
+    "contract": "0x1ac7d768e37b147c993de943d704c4e92d7861a1",
+    "from": "0xb88eca7852a5e9b63feb85f229a3b4a1d5064a1a",
+    "selector": "0xe5eab096",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://zen-castle-depth-gas.xyz",
+    "old_decoded": null,
+    "new_decoded": "https://zen-castle-depth-gas.xyz",
+    "decoder": "plain"
+  },
+  {
+    "chain": "bsc",
     "block": 130123793,
     "timestamp": "2026-10-27T16:46:17Z",
     "tx_hash": "0x70dbd81f5ea2570765363e419ca892a8465bea1e3da0cb6f2ab37e682acc3d7b",
