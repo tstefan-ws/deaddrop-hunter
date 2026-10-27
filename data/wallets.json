@@ -758,6 +758,21 @@
   },
   {
     "chain": "polygon",
+    "address": "0xbc26ba381f5e03577b5f78a350a5417fdc32d4af",
+    "role": "operator",
+    "label": "Operator (auto-detected)",
+    "cluster_id": "c-bc26ba38",
+    "contracts": [
+      "0xc0befe6b2e4bf56ee3f01ec9513f0863fb1aea7f"
+    ],
+    "tx_count": 1,
+    "first_seen": "2026-10-27T19:19:11Z",
+    "last_seen": "2026-10-27T19:19:11Z",
+    "watched": false,
+    "funded_by": []
+  },
+  {
+    "chain": "polygon",
     "address": "0xcaf2c54e400437da717cf215181b170f65187abf",
     "role": "operator",
     "label": "Operator (auto-detected)",

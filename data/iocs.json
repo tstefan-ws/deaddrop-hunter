@@ -282,6 +282,26 @@
   },
   {
     "type": "domain",
+    "value": "babukale.net",
+    "port": 4443,
+    "family": "c2-url",
+    "cluster_id": "c-bc26ba38",
+    "chain": "polygon",
+    "contracts": [
+      "0xc0befe6b2e4bf56ee3f01ec9513f0863fb1aea7f"
+    ],
+    "first_seen": "2026-10-27T19:19:11Z",
+    "last_seen": "2026-10-27T19:19:11Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-27T19:23:13Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "babybon.cfd",
     "port": null,
     "family": "c2-url",
@@ -8095,6 +8115,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0xc0befe6b2e4bf56ee3f01ec9513f0863fb1aea7f",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-bc26ba38",
+    "chain": "polygon",
+    "contracts": [
+      "0xc0befe6b2e4bf56ee3f01ec9513f0863fb1aea7f"
+    ],
+    "first_seen": "2026-10-27T19:19:11Z",
+    "last_seen": "2026-10-27T19:19:11Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-27T19:23:13Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0xc224c02cc0c5b5bf83538b3db0b6f5b10a2bf6d2",
     "port": null,
     "family": "unknown",
@@ -9299,6 +9339,26 @@
     "current": true,
     "discovered_at": "2026-10-24T01:06:36Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0xbc26ba381f5e03577b5f78a350a5417fdc32d4af",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-bc26ba38",
+    "chain": "polygon",
+    "contracts": [
+      "0xc0befe6b2e4bf56ee3f01ec9513f0863fb1aea7f"
+    ],
+    "first_seen": "2026-10-27T19:19:11Z",
+    "last_seen": "2026-10-27T19:19:11Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-27T19:23:13Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -15892,6 +15952,26 @@
     "current": true,
     "discovered_at": "2026-10-20T05:24:20Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "ws://babukale.net:4443",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-bc26ba38",
+    "chain": "polygon",
+    "contracts": [
+      "0xc0befe6b2e4bf56ee3f01ec9513f0863fb1aea7f"
+    ],
+    "first_seen": "2026-10-27T19:19:11Z",
+    "last_seen": "2026-10-27T19:19:11Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-27T19:23:13Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
