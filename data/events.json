@@ -1,5 +1,21 @@
 [
   {
+    "chain": "bsc",
+    "block": 130040362,
+    "timestamp": "2026-10-27T06:20:02Z",
+    "tx_hash": "0x4d732973e7f66dbdaa3160af280523f9bb1320bdb48665509860734d6c0f5835",
+    "contract": "0xf54c1ec337c3c39454d11642c9f8ec19b369ed36",
+    "from": "0x381a689bd0fbc59a2b0e66136e4629cdadf2d2a8",
+    "selector": null,
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "old_decoded": null,
+    "new_decoded": null,
+    "decoder": "undecoded",
+    "code_hash": "c790743292896c0f"
+  },
+  {
     "chain": "polygon",
     "block": 96240044,
     "timestamp": "2026-10-27T01:43:57Z",
