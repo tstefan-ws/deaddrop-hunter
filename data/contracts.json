@@ -3948,7 +3948,7 @@
     "status": "active",
     "code_hash": "21807d59d4264ca4",
     "discovered_at": "2026-10-25T11:12:01Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "45.150.110.30:8443",
     "latest_value_decoded": "45.150.110.30:8443",
