@@ -7435,6 +7435,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x7a6a4e824de5aeac20d3c0ae4fb070205bf3b65a",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-2d923a1c",
+    "chain": "bsc",
+    "contracts": [
+      "0x7a6a4e824de5aeac20d3c0ae4fb070205bf3b65a"
+    ],
+    "first_seen": "2026-10-28T20:01:48Z",
+    "last_seen": "2026-10-28T20:01:48Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-28T20:03:35Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x7bb1cb1afd545b902b7c394f690ee158fb215bd9",
     "port": null,
     "family": "unknown",
@@ -7729,6 +7749,26 @@
     "current": true,
     "discovered_at": "2026-10-25T17:19:07Z",
     "new": false,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x9a51737e605d2a4ccb0bc309bc9bde6886da6776",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-2d923a1c",
+    "chain": "bsc",
+    "contracts": [
+      "0x9a51737e605d2a4ccb0bc309bc9bde6886da6776"
+    ],
+    "first_seen": "2026-10-28T20:02:55Z",
+    "last_seen": "2026-10-28T20:02:55Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-28T20:03:35Z",
+    "new": true,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -9213,10 +9253,12 @@
       "0x639476cfa4bcd0ca1124f5bb261a25683a27568e",
       "0x64ac02cb25bff3df1278cb776c5f623b3ee2d06d",
       "0x66db14246a211a505acbdc66aeb9628e740f6634",
+      "0x7a6a4e824de5aeac20d3c0ae4fb070205bf3b65a",
       "0x81eae9cc5a06bb3041e662b76900f34b498f7f8b",
       "0x88f04b501d9c69f1359cd12756de4851b31a6fa5",
       "0x8c096591c0e0ea18815237c3c0db92354b0dc427",
       "0x915f6a997f769bc48b1573c37355d0fdae38a305",
+      "0x9a51737e605d2a4ccb0bc309bc9bde6886da6776",
       "0xa2e727f1de47d3fbf1af0611aaf28f32a509d71c",
       "0xb47b366ed9b21593417583a8deda29464c512463",
       "0xb652d9d131f3a53a6b37274bf30f83b4b3323aa2",
@@ -9228,8 +9270,8 @@
       "0xef89598499c2d1019ed7c7a85adf1d868abd91da"
     ],
     "first_seen": "2026-10-24T13:59:08Z",
-    "last_seen": "2026-10-27T00:58:33Z",
-    "times_seen": 30,
+    "last_seen": "2026-10-28T20:02:55Z",
+    "times_seen": 32,
     "current": true,
     "discovered_at": "2026-10-24T13:59:12Z",
     "new": false,

@@ -1,6 +1,38 @@
 [
   {
     "chain": "bsc",
+    "block": 130341865,
+    "timestamp": "2026-10-28T20:02:55Z",
+    "tx_hash": "0xaedd88054fb4908da70e47a32771cc54642e85f35a038c9e4b255b9043f1be16",
+    "contract": "0x9a51737e605d2a4ccb0bc309bc9bde6886da6776",
+    "from": "0x2d923a1c4379021fa160df0f04fbbe091f299975",
+    "selector": null,
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": null,
+    "old_decoded": null,
+    "new_decoded": null,
+    "decoder": "undecoded",
+    "code_hash": "32a8e3e9a0278787"
+  },
+  {
+    "chain": "bsc",
+    "block": 130341715,
+    "timestamp": "2026-10-28T20:01:48Z",
+    "tx_hash": "0xf70d5cdce641422b4c9c085b8e1756daab3d5dff4ca4794528737156dcf1a6e9",
+    "contract": "0x7a6a4e824de5aeac20d3c0ae4fb070205bf3b65a",
+    "from": "0x2d923a1c4379021fa160df0f04fbbe091f299975",
+    "selector": null,
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "old_decoded": null,
+    "new_decoded": null,
+    "decoder": "undecoded",
+    "code_hash": "81c8f96344fd09d7"
+  },
+  {
+    "chain": "bsc",
     "block": 130340658,
     "timestamp": "2026-10-28T19:53:52Z",
     "tx_hash": "0x31a129176af4fbf742935ac4387f1991697c0718a4e980374ab6409c16c65c67",
