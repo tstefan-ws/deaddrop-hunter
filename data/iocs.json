@@ -4035,7 +4035,7 @@
     "first_seen": "2026-10-22T08:41:39Z",
     "last_seen": "2026-10-22T08:41:39Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-10-22T08:49:42Z",
     "new": false,
     "confidence": 85,
@@ -5489,6 +5489,26 @@
     "current": true,
     "discovered_at": "2026-04-14T13:31:09Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "yaebaltakuyusety.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-e3a29d16",
+    "chain": "polygon",
+    "contracts": [
+      "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
+    ],
+    "first_seen": "2026-10-28T19:08:22Z",
+    "last_seen": "2026-10-28T19:08:22Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-28T19:13:50Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -7824,8 +7844,8 @@
       "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
     ],
     "first_seen": "2026-10-22T08:41:39Z",
-    "last_seen": "2026-10-22T08:41:39Z",
-    "times_seen": 1,
+    "last_seen": "2026-10-28T19:08:22Z",
+    "times_seen": 2,
     "current": true,
     "discovered_at": "2026-10-22T08:49:42Z",
     "new": false,
@@ -9847,8 +9867,8 @@
       "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
     ],
     "first_seen": "2026-10-22T08:41:39Z",
-    "last_seen": "2026-10-22T08:41:39Z",
-    "times_seen": 1,
+    "last_seen": "2026-10-28T19:08:22Z",
+    "times_seen": 2,
     "current": true,
     "discovered_at": "2026-10-22T08:49:42Z",
     "new": false,
@@ -16013,7 +16033,7 @@
     "first_seen": "2026-10-22T08:41:39Z",
     "last_seen": "2026-10-22T08:41:39Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-10-22T08:49:42Z",
     "new": false,
     "confidence": 85,
@@ -16240,6 +16260,26 @@
     "current": false,
     "discovered_at": "2026-10-19T20:00:00Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://yaebaltakuyusety.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-e3a29d16",
+    "chain": "polygon",
+    "contracts": [
+      "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
+    ],
+    "first_seen": "2026-10-28T19:08:22Z",
+    "last_seen": "2026-10-28T19:08:22Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-28T19:13:50Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
