@@ -1423,6 +1423,26 @@
   },
   {
     "type": "domain",
+    "value": "chaingreets.xyz",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-4e3a9949",
+    "chain": "polygon",
+    "contracts": [
+      "0xafeb1a604a081157d511f10be55b3fd5c3d54119"
+    ],
+    "first_seen": "2026-10-28T07:53:43Z",
+    "last_seen": "2026-10-28T07:53:43Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-28T07:55:44Z",
+    "new": true,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "charts-skip-vpn-letter.trycloudflare.com",
     "port": null,
     "family": "c2-url",
@@ -7975,6 +7995,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0xafeb1a604a081157d511f10be55b3fd5c3d54119",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-4e3a9949",
+    "chain": "polygon",
+    "contracts": [
+      "0xafeb1a604a081157d511f10be55b3fd5c3d54119"
+    ],
+    "first_seen": "2026-10-28T07:53:43Z",
+    "last_seen": "2026-10-28T07:53:43Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-28T07:55:44Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0xb180f885f88a9f722ec258e6d80e0a522aef3e67",
     "port": null,
     "family": "unknown",
@@ -9347,6 +9387,26 @@
     "current": true,
     "discovered_at": "2026-10-20T20:57:38Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0x4e3a9949461384bef2bc09ba4f2539c4c6e4eed4",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-4e3a9949",
+    "chain": "polygon",
+    "contracts": [
+      "0xafeb1a604a081157d511f10be55b3fd5c3d54119"
+    ],
+    "first_seen": "2026-10-28T07:53:43Z",
+    "last_seen": "2026-10-28T07:53:43Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-28T07:55:44Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
