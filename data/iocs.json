@@ -6784,8 +6784,8 @@
       "0x4af8048edfe4523953e9907528bf5cef7fa8db09"
     ],
     "first_seen": "2026-10-14T09:13:08Z",
-    "last_seen": "2026-10-19T21:12:56Z",
-    "times_seen": 10,
+    "last_seen": "2026-10-28T14:02:53Z",
+    "times_seen": 11,
     "current": true,
     "discovered_at": "2026-10-14T09:13:08Z",
     "new": false,
@@ -9231,8 +9231,8 @@
       "0x56384ef15734cce9026d9e75ac3be616513fe2ae"
     ],
     "first_seen": "2026-03-11T18:54:01Z",
-    "last_seen": "2026-10-18T12:53:53Z",
-    "times_seen": 277,
+    "last_seen": "2026-10-28T14:02:53Z",
+    "times_seen": 278,
     "current": true,
     "discovered_at": "2026-10-19T20:00:00Z",
     "new": false,
