@@ -8044,8 +8044,8 @@
       "0xb29927b7d854b232d5e58cfc201866376e68c676"
     ],
     "first_seen": "2026-10-20T05:17:32Z",
-    "last_seen": "2026-10-20T05:17:32Z",
-    "times_seen": 1,
+    "last_seen": "2026-10-28T13:01:05Z",
+    "times_seen": 2,
     "current": true,
     "discovered_at": "2026-10-20T05:24:20Z",
     "new": false,
@@ -9744,8 +9744,8 @@
       "0xb2a4ea7055b7e2a6b2d96502f0ff85024e72987b"
     ],
     "first_seen": "2026-10-20T05:17:32Z",
-    "last_seen": "2026-10-20T05:17:59Z",
-    "times_seen": 2,
+    "last_seen": "2026-10-28T13:01:05Z",
+    "times_seen": 3,
     "current": true,
     "discovered_at": "2026-10-20T05:24:20Z",
     "new": false,
@@ -15653,7 +15653,7 @@
     "first_seen": "2026-10-20T05:17:32Z",
     "last_seen": "2026-10-20T05:17:32Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-10-20T05:24:20Z",
     "new": false,
     "confidence": 85,
@@ -16200,6 +16200,26 @@
     "current": true,
     "discovered_at": "2026-10-24T10:15:03Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://verifyidentrob01.cc;https://zurggoyttjof21.cc",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-d7d0b350",
+    "chain": "polygon",
+    "contracts": [
+      "0xb29927b7d854b232d5e58cfc201866376e68c676"
+    ],
+    "first_seen": "2026-10-28T13:01:05Z",
+    "last_seen": "2026-10-28T13:01:05Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-28T13:06:24Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
