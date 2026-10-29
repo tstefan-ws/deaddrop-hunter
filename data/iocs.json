@@ -4285,6 +4285,26 @@
   },
   {
     "type": "domain",
+    "value": "pill-panel.sbs",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-720a9e69",
+    "chain": "polygon",
+    "contracts": [
+      "0xa4a981c20bd6312d0fad9cd563aa2cf6fa5a24ff"
+    ],
+    "first_seen": "2026-10-29T15:17:11Z",
+    "last_seen": "2026-10-29T15:17:11Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-29T15:17:09Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "pilotkadomen.club",
     "port": null,
     "family": "c2-url",
@@ -8256,6 +8276,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0xa4a981c20bd6312d0fad9cd563aa2cf6fa5a24ff",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-720a9e69",
+    "chain": "polygon",
+    "contracts": [
+      "0xa4a981c20bd6312d0fad9cd563aa2cf6fa5a24ff"
+    ],
+    "first_seen": "2026-10-29T15:17:11Z",
+    "last_seen": "2026-10-29T15:17:11Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-29T15:17:09Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0xa557a70b85f74920792173fdad8402c3bfbd4919",
     "port": null,
     "family": "xmrig-stealth",
@@ -9942,6 +9982,26 @@
     "discovered_at": "2026-10-28T19:56:18Z",
     "new": true,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0x720a9e69bce02d1da8ce55bb33aa6e5d65059d68",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-720a9e69",
+    "chain": "polygon",
+    "contracts": [
+      "0xa4a981c20bd6312d0fad9cd563aa2cf6fa5a24ff"
+    ],
+    "first_seen": "2026-10-29T15:17:11Z",
+    "last_seen": "2026-10-29T15:17:11Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-29T15:17:09Z",
+    "new": true,
+    "confidence": 85,
     "dual_use": false,
     "enrichment": {}
   },
@@ -16712,6 +16772,26 @@
     "current": true,
     "discovered_at": "2026-10-23T12:49:14Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://pill-panel.sbs",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-720a9e69",
+    "chain": "polygon",
+    "contracts": [
+      "0xa4a981c20bd6312d0fad9cd563aa2cf6fa5a24ff"
+    ],
+    "first_seen": "2026-10-29T15:17:11Z",
+    "last_seen": "2026-10-29T15:17:11Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-29T15:17:09Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
