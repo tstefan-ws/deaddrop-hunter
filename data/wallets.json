@@ -823,11 +823,13 @@
     "contracts": [
       "0x13574da2542f75980f2d3163851b2fcab5bb21cf",
       "0x1d7f164a74cec1042a9b3117794e6b93752adc1c",
+      "0x4166d8888380faea0932e0156c11e0e75856a161",
+      "0x8ff1ae790b65549ced90e0d7608fe2b68357901f",
       "0xb6bc9e1d0b2fb96ab7c47e04cb0be477410bc1f2"
     ],
-    "tx_count": 7,
+    "tx_count": 10,
     "first_seen": "2026-10-21T00:31:06Z",
-    "last_seen": "2026-10-29T05:30:02Z",
+    "last_seen": "2026-10-29T05:59:47Z",
     "watched": false,
     "funded_by": []
   },

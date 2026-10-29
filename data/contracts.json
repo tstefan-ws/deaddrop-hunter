@@ -3731,16 +3731,16 @@
       "0xb249cd2d"
     ],
     "decoder": "plain",
-    "update_count": 1,
+    "update_count": 2,
     "first_seen": "2026-10-29T05:29:37Z",
-    "last_seen": "2026-10-29T05:29:37Z",
+    "last_seen": "2026-10-29T05:57:41Z",
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-29T05:29:55Z",
     "new": true,
     "evidence": "decoded",
-    "latest_value_raw": "https://ncheck-brows.beer",
-    "latest_value_decoded": "https://ncheck-brows.beer",
+    "latest_value_raw": "https://coffiimg.beer",
+    "latest_value_decoded": "https://coffiimg.beer",
     "tags": [
       "c2",
       "url-rotation",
@@ -3899,6 +3899,37 @@
     "evidence": "decoded",
     "latest_value_raw": "https://charts-skip-vpn-letter.trycloudflare.com/",
     "latest_value_decoded": "https://charts-skip-vpn-letter.trycloudflare.com/",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x4166d8888380faea0932e0156c11e0e75856a161",
+    "cluster_id": "c-caf2c54e",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xcaf2c54e400437da717cf215181b170f65187abf"
+    ],
+    "selectors": [
+      "0xb249cd2d"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-29T05:58:34Z",
+    "last_seen": "2026-10-29T05:58:34Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-29T06:02:17Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://coffiimg.beer",
+    "latest_value_decoded": "https://coffiimg.beer",
     "tags": [
       "c2",
       "url-rotation",
@@ -4478,6 +4509,37 @@
     "evidence": "decoded",
     "latest_value_raw": "https://revision-xml-competing-utils.trycloudflare.com",
     "latest_value_decoded": "https://revision-xml-competing-utils.trycloudflare.com",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x8ff1ae790b65549ced90e0d7608fe2b68357901f",
+    "cluster_id": "c-caf2c54e",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xcaf2c54e400437da717cf215181b170f65187abf"
+    ],
+    "selectors": [
+      "0xb249cd2d"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-29T05:59:47Z",
+    "last_seen": "2026-10-29T05:59:47Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-29T06:02:17Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://coffiimg.beer",
+    "latest_value_decoded": "https://coffiimg.beer",
     "tags": [
       "c2",
       "url-rotation",
