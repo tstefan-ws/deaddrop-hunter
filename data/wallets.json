@@ -825,9 +825,9 @@
       "0x1d7f164a74cec1042a9b3117794e6b93752adc1c",
       "0xb6bc9e1d0b2fb96ab7c47e04cb0be477410bc1f2"
     ],
-    "tx_count": 6,
+    "tx_count": 7,
     "first_seen": "2026-10-21T00:31:06Z",
-    "last_seen": "2026-10-29T05:29:37Z",
+    "last_seen": "2026-10-29T05:30:02Z",
     "watched": false,
     "funded_by": []
   },
