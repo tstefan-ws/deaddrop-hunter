@@ -4122,6 +4122,35 @@
   },
   {
     "chain": "polygon",
+    "address": "0x585a35b8373d61fe2c395133cf344b79d9a865c7",
+    "cluster_id": "c-114ea31b",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x114ea31b544a3590b8ee70096dd6cb172ecbc668"
+    ],
+    "selectors": [
+      "0xb249cd2d"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-29T07:35:28Z",
+    "last_seen": "2026-10-29T07:35:28Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-29T07:42:16Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "dawn-brook-a112.areshttps.workers.dev",
+    "latest_value_decoded": "dawn-brook-a112.areshttps.workers.dev",
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c",
     "cluster_id": "c-74075c32",
     "family": "c2-url",
@@ -4573,6 +4602,35 @@
     "evidence": "decoded",
     "latest_value_raw": "0x67c2bbf44bc9e7247286f89b4a09b1e7cf40e88b6f72cb11b5f98a255fd0dfd9e67ec544f11b6ab8725d1fcc2f12d27cd1cdfe92fcbef3dda6a556a0a675cdef48f888da94f28e9166f98324e292c90fb3bc55dc50fd4328b8346da82b42f9ed630eb3963ab99ac76c25fc8c895e278adad23c1a85d82449e84f5def85af6f21b4a5a8ecc3f48e519061cd83a6e6aa3e40092d7acfac6d",
     "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x9fa10303a3cc14105f0d55870a8ab7cec6b3cbed",
+    "cluster_id": "c-114ea31b",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x114ea31b544a3590b8ee70096dd6cb172ecbc668"
+    ],
+    "selectors": [
+      "0xb249cd2d"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-29T07:35:47Z",
+    "last_seen": "2026-10-29T07:35:47Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-29T07:42:16Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "dawn-brook-a112.areshttps.workers.dev",
+    "latest_value_decoded": "dawn-brook-a112.areshttps.workers.dev",
     "tags": [
       "config-on-chain"
     ]

@@ -1843,6 +1843,27 @@
   },
   {
     "type": "domain",
+    "value": "dawn-brook-a112.areshttps.workers.dev",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-114ea31b",
+    "chain": "polygon",
+    "contracts": [
+      "0x585a35b8373d61fe2c395133cf344b79d9a865c7",
+      "0x9fa10303a3cc14105f0d55870a8ab7cec6b3cbed"
+    ],
+    "first_seen": "2026-10-29T07:35:28Z",
+    "last_seen": "2026-10-29T07:35:47Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-10-29T07:42:16Z",
+    "new": true,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "de.monero.herominers.com",
     "port": 1111,
     "family": "xmrig-stealth",
@@ -7155,6 +7176,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x585a35b8373d61fe2c395133cf344b79d9a865c7",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-114ea31b",
+    "chain": "polygon",
+    "contracts": [
+      "0x585a35b8373d61fe2c395133cf344b79d9a865c7"
+    ],
+    "first_seen": "2026-10-29T07:35:28Z",
+    "last_seen": "2026-10-29T07:35:28Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-29T07:42:16Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x5aa33225383f93015a7296279543c694377bf0a0",
     "port": null,
     "family": "unknown",
@@ -8009,6 +8050,26 @@
     "current": true,
     "discovered_at": "2026-06-28T08:43:22Z",
     "new": false,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x9fa10303a3cc14105f0d55870a8ab7cec6b3cbed",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-114ea31b",
+    "chain": "polygon",
+    "contracts": [
+      "0x9fa10303a3cc14105f0d55870a8ab7cec6b3cbed"
+    ],
+    "first_seen": "2026-10-29T07:35:47Z",
+    "last_seen": "2026-10-29T07:35:47Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-29T07:42:16Z",
+    "new": true,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -9289,6 +9350,27 @@
     "current": true,
     "discovered_at": "2026-10-23T08:14:21Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0x114ea31b544a3590b8ee70096dd6cb172ecbc668",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-114ea31b",
+    "chain": "polygon",
+    "contracts": [
+      "0x585a35b8373d61fe2c395133cf344b79d9a865c7",
+      "0x9fa10303a3cc14105f0d55870a8ab7cec6b3cbed"
+    ],
+    "first_seen": "2026-10-29T07:35:28Z",
+    "last_seen": "2026-10-29T07:35:47Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-10-29T07:42:16Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}

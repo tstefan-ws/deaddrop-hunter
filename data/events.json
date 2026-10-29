@@ -1,6 +1,36 @@
 [
   {
     "chain": "polygon",
+    "block": 96369312,
+    "timestamp": "2026-10-29T07:35:47Z",
+    "tx_hash": "0x621359b7c841769fe315181e3d6ba46b315582d765cd3cdd33a72181f29cdc62",
+    "contract": "0x9fa10303a3cc14105f0d55870a8ab7cec6b3cbed",
+    "from": "0x114ea31b544a3590b8ee70096dd6cb172ecbc668",
+    "selector": "0xb249cd2d",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "dawn-brook-a112.areshttps.workers.dev",
+    "old_decoded": null,
+    "new_decoded": "dawn-brook-a112.areshttps.workers.dev",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
+    "block": 96369299,
+    "timestamp": "2026-10-29T07:35:28Z",
+    "tx_hash": "0xcf8dccff4def9c7bd061b838b48ccc4c3ea381920511bc74cea2373303ddc332",
+    "contract": "0x585a35b8373d61fe2c395133cf344b79d9a865c7",
+    "from": "0x114ea31b544a3590b8ee70096dd6cb172ecbc668",
+    "selector": "0xb249cd2d",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "dawn-brook-a112.areshttps.workers.dev",
+    "old_decoded": null,
+    "new_decoded": "dawn-brook-a112.areshttps.workers.dev",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96366136,
     "timestamp": "2026-10-29T06:16:23Z",
     "tx_hash": "0xeac0969f527e440b46744ed393914592a58d23abdfa8371eadd1232251fc7f99",
