@@ -888,7 +888,7 @@
     "status": "active",
     "code_hash": "e8c0b064d7b328d3",
     "discovered_at": "2026-10-26T00:06:13Z",
-    "new": true,
+    "new": false,
     "evidence": "candidate",
     "latest_value_raw": null,
     "latest_value_decoded": null,
