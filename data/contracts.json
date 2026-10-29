@@ -1920,7 +1920,7 @@
     "status": "active",
     "code_hash": "c790743292896c0f",
     "discovered_at": "2026-10-26T22:43:37Z",
-    "new": true,
+    "new": false,
     "evidence": "candidate",
     "latest_value_raw": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
     "latest_value_decoded": null,
