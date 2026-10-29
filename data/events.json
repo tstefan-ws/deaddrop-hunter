@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 96366136,
+    "timestamp": "2026-10-29T06:16:23Z",
+    "tx_hash": "0xeac0969f527e440b46744ed393914592a58d23abdfa8371eadd1232251fc7f99",
+    "contract": "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac",
+    "from": "0xe3a29d16ca8722d2e91975589fa23659ee8e1719",
+    "selector": "0xe5eab096",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://ciganshina.org",
+    "old_decoded": null,
+    "new_decoded": "https://ciganshina.org",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96365472,
     "timestamp": "2026-10-29T05:59:47Z",
     "tx_hash": "0x93b28efe6021aa6f14faf7c5d04b17e26f55a4be446e9ff909ba5d29198bda8d",
