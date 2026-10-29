@@ -6035,6 +6035,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x13574da2542f75980f2d3163851b2fcab5bb21cf",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-caf2c54e",
+    "chain": "polygon",
+    "contracts": [
+      "0x13574da2542f75980f2d3163851b2fcab5bb21cf"
+    ],
+    "first_seen": "2026-10-29T04:44:14Z",
+    "last_seen": "2026-10-29T04:44:14Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-29T04:49:51Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x137d6490c80c431591c2ab73bb1c2c8343952e5a",
     "port": null,
     "family": "unknown",
@@ -9904,11 +9924,12 @@
     "cluster_id": "c-caf2c54e",
     "chain": "polygon",
     "contracts": [
+      "0x13574da2542f75980f2d3163851b2fcab5bb21cf",
       "0xb6bc9e1d0b2fb96ab7c47e04cb0be477410bc1f2"
     ],
     "first_seen": "2026-10-21T00:31:06Z",
-    "last_seen": "2026-10-27T21:38:33Z",
-    "times_seen": 4,
+    "last_seen": "2026-10-29T04:44:14Z",
+    "times_seen": 5,
     "current": true,
     "discovered_at": "2026-10-21T00:33:37Z",
     "new": false,
@@ -16301,6 +16322,26 @@
     "current": false,
     "discovered_at": "2026-10-22T08:49:42Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://panel.servererr.beer",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-caf2c54e",
+    "chain": "polygon",
+    "contracts": [
+      "0x13574da2542f75980f2d3163851b2fcab5bb21cf"
+    ],
+    "first_seen": "2026-10-29T04:44:14Z",
+    "last_seen": "2026-10-29T04:44:14Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-29T04:49:51Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
