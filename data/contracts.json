@@ -4582,7 +4582,7 @@
     "status": "active",
     "code_hash": "d0d72f7988d83182",
     "discovered_at": "2026-10-26T12:29:26Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "berusdarkus.com/lgz/gdata",
     "latest_value_decoded": "berusdarkus.com/lgz/gdata",
