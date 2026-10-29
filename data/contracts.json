@@ -2901,7 +2901,7 @@
     "status": "active",
     "code_hash": "d0d72f7988d83182",
     "discovered_at": "2026-10-26T12:21:39Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "berusdarkus.com/lgz/gdata",
     "latest_value_decoded": "berusdarkus.com/lgz/gdata",
@@ -4258,6 +4258,33 @@
     "tags": [
       "c2",
       "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x659f9703176e1f4000bb3860813a2c2bc1e16b5d",
+    "cluster_id": "c-d0b2c7c6",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xd0b2c7c687899367a1acc059fe2f208eaa3acb42"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-10-29T12:23:19Z",
+    "last_seen": "2026-10-29T12:23:19Z",
+    "status": "active",
+    "code_hash": "92b908583e17e688",
+    "discovered_at": "2026-10-29T12:28:08Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": null,
+    "latest_value_decoded": null,
+    "tags": [
       "config-on-chain"
     ]
   },

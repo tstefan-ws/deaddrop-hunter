@@ -456,7 +456,7 @@
     "times_seen": 2,
     "current": true,
     "discovered_at": "2026-10-26T12:21:39Z",
-    "new": true,
+    "new": false,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -816,7 +816,7 @@
     "times_seen": 2,
     "current": false,
     "discovered_at": "2026-10-26T12:21:39Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -7376,6 +7376,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x659f9703176e1f4000bb3860813a2c2bc1e16b5d",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-d0b2c7c6",
+    "chain": "polygon",
+    "contracts": [
+      "0x659f9703176e1f4000bb3860813a2c2bc1e16b5d"
+    ],
+    "first_seen": "2026-10-29T12:23:19Z",
+    "last_seen": "2026-10-29T12:23:19Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-29T12:28:08Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x66db14246a211a505acbdc66aeb9628e740f6634",
     "port": null,
     "family": "unknown",
@@ -8889,7 +8909,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-26T12:21:39Z",
-    "new": true,
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -10201,6 +10221,26 @@
     "current": true,
     "discovered_at": "2026-10-20T15:39:37Z",
     "new": false,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0xd0b2c7c687899367a1acc059fe2f208eaa3acb42",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-d0b2c7c6",
+    "chain": "polygon",
+    "contracts": [
+      "0x659f9703176e1f4000bb3860813a2c2bc1e16b5d"
+    ],
+    "first_seen": "2026-10-29T12:23:19Z",
+    "last_seen": "2026-10-29T12:23:19Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-29T12:28:08Z",
+    "new": true,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -15808,7 +15848,7 @@
     "times_seen": 2,
     "current": false,
     "discovered_at": "2026-10-26T12:21:39Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
