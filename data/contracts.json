@@ -4821,12 +4821,13 @@
       "0x720a9e69bce02d1da8ce55bb33aa6e5d65059d68"
     ],
     "selectors": [
+      "0xb249cd2d",
       "0xb68d1809"
     ],
     "decoder": "plain",
-    "update_count": 1,
+    "update_count": 3,
     "first_seen": "2026-10-29T15:17:11Z",
-    "last_seen": "2026-10-29T15:17:11Z",
+    "last_seen": "2026-10-29T15:19:01Z",
     "status": "active",
     "code_hash": "20a0696fa16cc1ba",
     "discovered_at": "2026-10-29T15:17:09Z",
