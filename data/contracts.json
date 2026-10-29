@@ -1268,7 +1268,7 @@
     "status": "active",
     "code_hash": "d0d72f7988d83182",
     "discovered_at": "2026-10-26T08:19:04Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "hithitfish.com/lgz/gdata",
     "latest_value_decoded": "hithitfish.com/lgz/gdata",
