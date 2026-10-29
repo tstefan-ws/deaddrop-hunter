@@ -331,14 +331,16 @@
       "bsc"
     ],
     "contracts": [
+      "0x58c221ab58b4978363ee16d968544f9ffac79d10",
+      "0x641090f0ffcb7e7a3ed0d1c76e14f50af7873032",
       "0xa5ea41e2e6f1d21aa50eba4bd17c1177b959efa6"
     ],
     "wallets": [
       "0x2ff0165effd3f6ecba52221b308d0c041119789e"
     ],
-    "ioc_count": 2,
+    "ioc_count": 4,
     "first_seen": "2026-10-29T18:57:23Z",
-    "last_seen": "2026-10-29T18:57:23Z",
+    "last_seen": "2026-10-29T19:08:12Z",
     "discovered_at": "2026-10-29T19:01:13Z",
     "new": true
   },
