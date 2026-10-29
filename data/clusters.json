@@ -842,14 +842,15 @@
     ],
     "contracts": [
       "0x13574da2542f75980f2d3163851b2fcab5bb21cf",
+      "0x1d7f164a74cec1042a9b3117794e6b93752adc1c",
       "0xb6bc9e1d0b2fb96ab7c47e04cb0be477410bc1f2"
     ],
     "wallets": [
       "0xcaf2c54e400437da717cf215181b170f65187abf"
     ],
-    "ioc_count": 9,
+    "ioc_count": 11,
     "first_seen": "2026-10-21T00:31:06Z",
-    "last_seen": "2026-10-29T04:44:14Z",
+    "last_seen": "2026-10-29T05:29:37Z",
     "discovered_at": "2026-10-21T00:33:37Z",
     "new": false
   },
