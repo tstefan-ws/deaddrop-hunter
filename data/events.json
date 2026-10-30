@@ -1,6 +1,36 @@
 [
   {
     "chain": "polygon",
+    "block": 96430257,
+    "timestamp": "2026-10-30T09:00:42Z",
+    "tx_hash": "0x2b547f6b7edb7a4b6e95cec95be024a23ed53da3bd4fb923e5874fffdc97fd55",
+    "contract": "0x0ec87a514e5ff0659d330674f35a35612ca2164a",
+    "from": "0x504efa6320d3c8f66840b65fbf05a930e258292d",
+    "selector": "0x55f804b3",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://problems-restrictions-magazine-agent.trycloudflare.com/",
+    "old_decoded": null,
+    "new_decoded": "https://problems-restrictions-magazine-agent.trycloudflare.com/",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
+    "block": 96429984,
+    "timestamp": "2026-10-30T08:53:52Z",
+    "tx_hash": "0x409d36bc2467d62a8158c48fac242676fad55f29744e9dca705a7b408bd51f03",
+    "contract": "0x62560fd9a1c91d594cfd6badb503144ddba0c06c",
+    "from": "0x504efa6320d3c8f66840b65fbf05a930e258292d",
+    "selector": "0x55f804b3",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://sorted-bios-abilities-jewish.trycloudflare.com/",
+    "old_decoded": null,
+    "new_decoded": "https://sorted-bios-abilities-jewish.trycloudflare.com/",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96429612,
     "timestamp": "2026-10-30T08:44:34Z",
     "tx_hash": "0x32ece5fb03f9472a3b70a1d012d4a2549ea5b530642a27954f0229d950e8ce6e",

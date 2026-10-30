@@ -4585,6 +4585,26 @@
   },
   {
     "type": "domain",
+    "value": "problems-restrictions-magazine-agent.trycloudflare.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x0ec87a514e5ff0659d330674f35a35612ca2164a"
+    ],
+    "first_seen": "2026-10-30T09:00:42Z",
+    "last_seen": "2026-10-30T09:00:42Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T09:02:48Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "productionmaza.bond",
     "port": null,
     "family": "c2-url",
@@ -5185,6 +5205,26 @@
     "discovered_at": "2026-10-19T20:00:00Z",
     "new": false,
     "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "sorted-bios-abilities-jewish.trycloudflare.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x62560fd9a1c91d594cfd6badb503144ddba0c06c"
+    ],
+    "first_seen": "2026-10-30T08:53:52Z",
+    "last_seen": "2026-10-30T08:53:52Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T09:02:48Z",
+    "new": true,
+    "confidence": 85,
     "dual_use": false,
     "enrichment": {}
   },
@@ -6090,6 +6130,26 @@
     "current": true,
     "discovered_at": "2026-10-23T12:58:09Z",
     "new": false,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x0ec87a514e5ff0659d330674f35a35612ca2164a",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x0ec87a514e5ff0659d330674f35a35612ca2164a"
+    ],
+    "first_seen": "2026-10-30T09:00:42Z",
+    "last_seen": "2026-10-30T09:00:42Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T09:02:48Z",
+    "new": true,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -7411,6 +7471,26 @@
     "discovered_at": "2026-10-24T00:06:44Z",
     "new": false,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x62560fd9a1c91d594cfd6badb503144ddba0c06c",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x62560fd9a1c91d594cfd6badb503144ddba0c06c"
+    ],
+    "first_seen": "2026-10-30T08:53:52Z",
+    "last_seen": "2026-10-30T08:53:52Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T09:02:48Z",
+    "new": true,
+    "confidence": 90,
     "dual_use": false,
     "enrichment": {}
   },
@@ -10421,7 +10501,9 @@
       "0x0172d51196f065d5b565be0130d654a8f8de8d86",
       "0x0a48fad557085a37af7dea70629ae9d36e182429",
       "0x0d116251d827c9c3070ca144618f3928cca4cd61",
+      "0x0ec87a514e5ff0659d330674f35a35612ca2164a",
       "0x3463851978afd2869c8d372d3dccd5b2f40c756e",
+      "0x62560fd9a1c91d594cfd6badb503144ddba0c06c",
       "0x6f57fc0f9b24599894b046471e3291dd8c1a61c9",
       "0x752c8445b58f3aac2fa434ae8e7b401e9665cffb",
       "0x7539f2c22e3229945420bbf7d6342b84e173187d",
@@ -10429,8 +10511,8 @@
       "0xd7b2318a249652ff6e115514d37d7479e0380fb3"
     ],
     "first_seen": "2026-10-19T20:32:54Z",
-    "last_seen": "2026-10-30T08:44:34Z",
-    "times_seen": 14,
+    "last_seen": "2026-10-30T09:00:42Z",
+    "times_seen": 16,
     "current": true,
     "discovered_at": "2026-10-19T20:38:48Z",
     "new": false,
@@ -17373,6 +17455,26 @@
   },
   {
     "type": "url",
+    "value": "https://problems-restrictions-magazine-agent.trycloudflare.com/",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x0ec87a514e5ff0659d330674f35a35612ca2164a"
+    ],
+    "first_seen": "2026-10-30T09:00:42Z",
+    "last_seen": "2026-10-30T09:00:42Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T09:02:48Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
     "value": "https://reunion-montana-apnic-prev.trycloudflare.com/",
     "port": null,
     "family": "c2-url",
@@ -17511,6 +17613,26 @@
     "current": true,
     "discovered_at": "2026-10-19T20:00:00Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://sorted-bios-abilities-jewish.trycloudflare.com/",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x62560fd9a1c91d594cfd6badb503144ddba0c06c"
+    ],
+    "first_seen": "2026-10-30T08:53:52Z",
+    "last_seen": "2026-10-30T08:53:52Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T09:02:48Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
