@@ -2068,6 +2068,33 @@
   },
   {
     "chain": "bsc",
+    "address": "0x87fea001307f2dcd1fde9328e5ad04b812d8a006",
+    "cluster_id": "c-a07f7cab",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xa07f7cab3d79c52fb317b3f1d4918e2e9720c053"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-10-30T00:00:59Z",
+    "last_seen": "2026-10-30T00:00:59Z",
+    "status": "active",
+    "code_hash": "e8c0b064d7b328d3",
+    "discovered_at": "2026-10-30T00:08:02Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": null,
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
     "address": "0x88f04b501d9c69f1359cd12756de4851b31a6fa5",
     "cluster_id": "c-2d923a1c",
     "family": "unknown",
@@ -2874,7 +2901,7 @@
     "status": "active",
     "code_hash": "e8c0b064d7b328d3",
     "discovered_at": "2026-10-27T00:07:02Z",
-    "new": true,
+    "new": false,
     "evidence": "candidate",
     "latest_value_raw": null,
     "latest_value_decoded": null,
@@ -2901,6 +2928,33 @@
     "status": "active",
     "code_hash": "c790743292896c0f",
     "discovered_at": "2026-10-27T22:24:30Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
+    "address": "0xc7b88be79e907f880dda8a713433dab64a9367cf",
+    "cluster_id": "c-381a689b",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x381a689bd0fbc59a2b0e66136e4629cdadf2d2a8"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-10-30T00:07:52Z",
+    "last_seen": "2026-10-30T00:07:52Z",
+    "status": "active",
+    "code_hash": "c790743292896c0f",
+    "discovered_at": "2026-10-30T00:08:02Z",
     "new": true,
     "evidence": "candidate",
     "latest_value_raw": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
@@ -3793,7 +3847,7 @@
     "status": "active",
     "code_hash": "b5404609dff5e6e0",
     "discovered_at": "2026-10-27T00:07:02Z",
-    "new": true,
+    "new": false,
     "evidence": "candidate",
     "latest_value_raw": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
     "latest_value_decoded": null,

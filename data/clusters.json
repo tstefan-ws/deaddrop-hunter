@@ -269,7 +269,7 @@
     "first_seen": "2026-10-27T00:04:50Z",
     "last_seen": "2026-10-27T00:04:50Z",
     "discovered_at": "2026-10-27T00:07:02Z",
-    "new": true
+    "new": false
   },
   {
     "id": "c-2d923a1c",
@@ -443,6 +443,7 @@
       "0xb41570ea6c7d5e7969425f06310e063b25f24b32",
       "0xba93dff6f2d5fd4d4a46e1bbd3605c693dfcb826",
       "0xc73c3dca13325376b3b8a247af0dc2ff32b3015e",
+      "0xc7b88be79e907f880dda8a713433dab64a9367cf",
       "0xd10f9a1a579eab152e66a4ac356e810fa46ff2db",
       "0xedd0747fc256e3593b33ec869fccf86f847b59d3",
       "0xf3bbd6f9cf1509b44f423e05d5ca8e3959856f59",
@@ -451,9 +452,9 @@
     "wallets": [
       "0x381a689bd0fbc59a2b0e66136e4629cdadf2d2a8"
     ],
-    "ioc_count": 17,
+    "ioc_count": 18,
     "first_seen": "2026-10-26T12:58:06Z",
-    "last_seen": "2026-10-28T06:10:20Z",
+    "last_seen": "2026-10-30T00:07:52Z",
     "discovered_at": "2026-10-26T13:00:28Z",
     "new": false
   },
@@ -843,6 +844,7 @@
       "0x3420ab775d928e9cef08be733ab5498c28484090",
       "0x3f31661ca97fa651eae2e656975b2db202de0fa1",
       "0x5e57fe0a4f8b2f02147bc6faaa45bbf3b5575ad1",
+      "0x87fea001307f2dcd1fde9328e5ad04b812d8a006",
       "0x915cc4248fff147c123f3a43ff778467f33a0db2",
       "0x9b68cec9e92cc9dfe35fa68b64b9a2fc446c91d1",
       "0xbac7b7934f7a56512a2d879894337ecabc00e491",
@@ -852,9 +854,9 @@
     "wallets": [
       "0xa07f7cab3d79c52fb317b3f1d4918e2e9720c053"
     ],
-    "ioc_count": 11,
+    "ioc_count": 12,
     "first_seen": "2026-10-20T00:08:39Z",
-    "last_seen": "2026-10-29T00:00:58Z",
+    "last_seen": "2026-10-30T00:00:59Z",
     "discovered_at": "2026-10-20T00:13:20Z",
     "new": false
   },
