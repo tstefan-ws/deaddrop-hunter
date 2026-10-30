@@ -1676,7 +1676,7 @@
     "times_seen": 2,
     "current": false,
     "discovered_at": "2026-10-27T01:46:41Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -16635,7 +16635,7 @@
     "times_seen": 2,
     "current": false,
     "discovered_at": "2026-10-27T01:46:41Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
