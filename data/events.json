@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 96429172,
+    "timestamp": "2026-10-30T08:33:34Z",
+    "tx_hash": "0x38450518a94a33b91f538c8fa8fb6a5acc0735bb6101d1016fc0038751494a33",
+    "contract": "0x0a48fad557085a37af7dea70629ae9d36e182429",
+    "from": "0x504efa6320d3c8f66840b65fbf05a930e258292d",
+    "selector": "0x55f804b3",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://founder-assured-amd-award.trycloudflare.com/",
+    "old_decoded": null,
+    "new_decoded": "https://founder-assured-amd-award.trycloudflare.com/",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96428819,
     "timestamp": "2026-10-30T08:24:45Z",
     "tx_hash": "0x13a4a0609b8269a65c76cac683c48e13b06f47a7f47f1bd60588c768ceb044fc",

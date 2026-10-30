@@ -696,7 +696,7 @@
     "times_seen": 1,
     "current": false,
     "discovered_at": "2026-10-27T08:29:22Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -2320,6 +2320,26 @@
     "discovered_at": "2026-10-19T20:00:00Z",
     "new": false,
     "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "founder-assured-amd-award.trycloudflare.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x0a48fad557085a37af7dea70629ae9d36e182429"
+    ],
+    "first_seen": "2026-10-30T08:33:34Z",
+    "last_seen": "2026-10-30T08:33:34Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T08:35:16Z",
+    "new": true,
+    "confidence": 85,
     "dual_use": false,
     "enrichment": {}
   },
@@ -6011,6 +6031,26 @@
     "discovered_at": "2026-10-24T05:12:42Z",
     "new": false,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x0a48fad557085a37af7dea70629ae9d36e182429",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x0a48fad557085a37af7dea70629ae9d36e182429"
+    ],
+    "first_seen": "2026-10-30T08:33:34Z",
+    "last_seen": "2026-10-30T08:33:34Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T08:35:16Z",
+    "new": true,
+    "confidence": 90,
     "dual_use": false,
     "enrichment": {}
   },
@@ -10339,6 +10379,7 @@
     "contracts": [
       "0x00f96a0484a9a9a13c19cb0b6b6be1a2a883b1f6",
       "0x0172d51196f065d5b565be0130d654a8f8de8d86",
+      "0x0a48fad557085a37af7dea70629ae9d36e182429",
       "0x0d116251d827c9c3070ca144618f3928cca4cd61",
       "0x3463851978afd2869c8d372d3dccd5b2f40c756e",
       "0x6f57fc0f9b24599894b046471e3291dd8c1a61c9",
@@ -10347,8 +10388,8 @@
       "0xd3f0daca66bd749fe493eb845c0392e8da06614f"
     ],
     "first_seen": "2026-10-19T20:32:54Z",
-    "last_seen": "2026-10-30T08:24:45Z",
-    "times_seen": 12,
+    "last_seen": "2026-10-30T08:33:34Z",
+    "times_seen": 13,
     "current": true,
     "discovered_at": "2026-10-19T20:38:48Z",
     "new": false,
@@ -16201,7 +16242,7 @@
     "times_seen": 1,
     "current": false,
     "discovered_at": "2026-10-27T08:29:22Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -16904,6 +16945,26 @@
     "current": true,
     "discovered_at": "2026-10-23T12:58:09Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://founder-assured-amd-award.trycloudflare.com/",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x0a48fad557085a37af7dea70629ae9d36e182429"
+    ],
+    "first_seen": "2026-10-30T08:33:34Z",
+    "last_seen": "2026-10-30T08:33:34Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T08:35:16Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}

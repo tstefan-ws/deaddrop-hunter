@@ -3954,6 +3954,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0x0a48fad557085a37af7dea70629ae9d36e182429",
+    "cluster_id": "c-504efa63",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x504efa6320d3c8f66840b65fbf05a930e258292d"
+    ],
+    "selectors": [
+      "0x55f804b3"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-30T08:33:34Z",
+    "last_seen": "2026-10-30T08:33:34Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-30T08:35:16Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://founder-assured-amd-award.trycloudflare.com/",
+    "latest_value_decoded": "https://founder-assured-amd-award.trycloudflare.com/",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x0d116251d827c9c3070ca144618f3928cca4cd61",
     "cluster_id": "c-504efa63",
     "family": "c2-url",
