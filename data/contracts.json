@@ -5608,9 +5608,9 @@
       "0x55f804b3"
     ],
     "decoder": "plain",
-    "update_count": 3,
+    "update_count": 5,
     "first_seen": "2026-10-30T07:38:51Z",
-    "last_seen": "2026-10-30T08:14:10Z",
+    "last_seen": "2026-10-30T08:24:45Z",
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-30T07:41:23Z",
