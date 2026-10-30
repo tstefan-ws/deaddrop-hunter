@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 96453621,
+    "timestamp": "2026-10-30T18:44:48Z",
+    "tx_hash": "0x59f350b6197e9c7421b0d7482de603ce143429214b91055f86233605716ba38b",
+    "contract": "0x97b7a5011f9487ab19c8b22e5204faec9040e40e",
+    "from": "0x504efa6320d3c8f66840b65fbf05a930e258292d",
+    "selector": "0x55f804b3",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://product-get-flour-glance.trycloudflare.com/",
+    "old_decoded": null,
+    "new_decoded": "https://product-get-flour-glance.trycloudflare.com/",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96452443,
     "timestamp": "2026-10-30T18:15:21Z",
     "tx_hash": "0xc00d8b6511ccbccaf0493886c471595805bb13252bd463a8b95eb16766cc37f5",
