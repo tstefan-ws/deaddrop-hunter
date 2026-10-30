@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 96465255,
+    "timestamp": "2026-10-30T23:35:39Z",
+    "tx_hash": "0xbb3d90f0b72212ee80307c1a7a1e084bbddbe1394267d7c9064731502f24a441",
+    "contract": "0x1098b16ee0a2f7ff8cdae67fbbf053b557fe96b7",
+    "from": "0x0000021b6da7e11a206e35ab47dfa89622f00000",
+    "selector": "0xe5eab096",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://cap.gramspin.win",
+    "old_decoded": null,
+    "new_decoded": "https://cap.gramspin.win",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96460276,
     "timestamp": "2026-10-30T21:31:10Z",
     "tx_hash": "0x7738dd4a6c79569d86e1e8c1de33b7a9a98dcfda49e65dfab5f37911a4e1d429",

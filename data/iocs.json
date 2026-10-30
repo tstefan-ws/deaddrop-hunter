@@ -1503,6 +1503,26 @@
   },
   {
     "type": "domain",
+    "value": "cap.gramspin.win",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-0000021b",
+    "chain": "polygon",
+    "contracts": [
+      "0x1098b16ee0a2f7ff8cdae67fbbf053b557fe96b7"
+    ],
+    "first_seen": "2026-10-30T23:35:39Z",
+    "last_seen": "2026-10-30T23:35:39Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T23:41:09Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "cat.jumpskyhigh.com",
     "port": null,
     "family": "c2-url",
@@ -6578,6 +6598,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x1098b16ee0a2f7ff8cdae67fbbf053b557fe96b7",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-0000021b",
+    "chain": "polygon",
+    "contracts": [
+      "0x1098b16ee0a2f7ff8cdae67fbbf053b557fe96b7"
+    ],
+    "first_seen": "2026-10-30T23:35:39Z",
+    "last_seen": "2026-10-30T23:35:39Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T23:41:09Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x10adc17bcd6e612b6419d1639a4da944f879fa2e",
     "port": null,
     "family": "unknown",
@@ -10713,6 +10753,26 @@
     "discovered_at": "2026-10-29T08:32:09Z",
     "new": true,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0x0000021b6da7e11a206e35ab47dfa89622f00000",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-0000021b",
+    "chain": "polygon",
+    "contracts": [
+      "0x1098b16ee0a2f7ff8cdae67fbbf053b557fe96b7"
+    ],
+    "first_seen": "2026-10-30T23:35:39Z",
+    "last_seen": "2026-10-30T23:35:39Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T23:41:09Z",
+    "new": true,
+    "confidence": 85,
     "dual_use": false,
     "enrichment": {}
   },
@@ -17806,6 +17866,26 @@
     "times_seen": 4,
     "current": true,
     "discovered_at": "2026-10-30T08:16:47Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://cap.gramspin.win",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-0000021b",
+    "chain": "polygon",
+    "contracts": [
+      "0x1098b16ee0a2f7ff8cdae67fbbf053b557fe96b7"
+    ],
+    "first_seen": "2026-10-30T23:35:39Z",
+    "last_seen": "2026-10-30T23:35:39Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T23:41:09Z",
     "new": true,
     "confidence": 85,
     "dual_use": false,

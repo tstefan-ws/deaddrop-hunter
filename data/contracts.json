@@ -4047,6 +4047,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0x1098b16ee0a2f7ff8cdae67fbbf053b557fe96b7",
+    "cluster_id": "c-0000021b",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x0000021b6da7e11a206e35ab47dfa89622f00000"
+    ],
+    "selectors": [
+      "0xe5eab096"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-30T23:35:39Z",
+    "last_seen": "2026-10-30T23:35:39Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-30T23:41:09Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://cap.gramspin.win",
+    "latest_value_decoded": "https://cap.gramspin.win",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x13574da2542f75980f2d3163851b2fcab5bb21cf",
     "cluster_id": "c-caf2c54e",
     "family": "c2-url",
