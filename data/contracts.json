@@ -4766,6 +4766,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0x5b146e91f528e6f6def5454c7e6b2803b5182bed",
+    "cluster_id": "c-504efa63",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x504efa6320d3c8f66840b65fbf05a930e258292d"
+    ],
+    "selectors": [
+      "0x55f804b3"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-30T19:31:45Z",
+    "last_seen": "2026-10-30T19:31:45Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-30T19:32:09Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://ste-responsibilities-sunset-resort.trycloudflare.com/",
+    "latest_value_decoded": "https://ste-responsibilities-sunset-resort.trycloudflare.com/",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x62560fd9a1c91d594cfd6badb503144ddba0c06c",
     "cluster_id": "c-504efa63",
     "family": "c2-url",
@@ -5863,7 +5894,7 @@
     "status": "active",
     "code_hash": "607bd9082eda8392",
     "discovered_at": "2026-10-27T19:23:13Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "ws://babukale.net:4443",
     "latest_value_decoded": "ws://babukale.net:4443",

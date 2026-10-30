@@ -315,7 +315,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-27T19:23:13Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -5571,6 +5571,26 @@
   },
   {
     "type": "domain",
+    "value": "ste-responsibilities-sunset-resort.trycloudflare.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x5b146e91f528e6f6def5454c7e6b2803b5182bed"
+    ],
+    "first_seen": "2026-10-30T19:31:45Z",
+    "last_seen": "2026-10-30T19:31:45Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T19:32:09Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "superboomer.world",
     "port": null,
     "family": "c2-url",
@@ -7797,6 +7817,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x5b146e91f528e6f6def5454c7e6b2803b5182bed",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x5b146e91f528e6f6def5454c7e6b2803b5182bed"
+    ],
+    "first_seen": "2026-10-30T19:31:45Z",
+    "last_seen": "2026-10-30T19:31:45Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T19:32:09Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x5e57fe0a4f8b2f02147bc6faaa45bbf3b5575ad1",
     "port": null,
     "family": "unknown",
@@ -9590,7 +9630,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-27T19:23:13Z",
-    "new": true,
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -11006,6 +11046,7 @@
       "0x22ddd2d02d45f12485d0e3d42987fe299f12658b",
       "0x3463851978afd2869c8d372d3dccd5b2f40c756e",
       "0x4013518c6240eda26c2ed6d00a069dcfde308811",
+      "0x5b146e91f528e6f6def5454c7e6b2803b5182bed",
       "0x62560fd9a1c91d594cfd6badb503144ddba0c06c",
       "0x6f57fc0f9b24599894b046471e3291dd8c1a61c9",
       "0x752c8445b58f3aac2fa434ae8e7b401e9665cffb",
@@ -11022,8 +11063,8 @@
       "0xfe1fef6f7c2a0f6139364a3c73a11ba02c20abc1"
     ],
     "first_seen": "2026-10-19T20:32:54Z",
-    "last_seen": "2026-10-30T19:16:55Z",
-    "times_seen": 26,
+    "last_seen": "2026-10-30T19:31:45Z",
+    "times_seen": 27,
     "current": true,
     "discovered_at": "2026-10-19T20:38:48Z",
     "new": false,
@@ -11283,7 +11324,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-27T19:23:13Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -18492,6 +18533,26 @@
   },
   {
     "type": "url",
+    "value": "https://ste-responsibilities-sunset-resort.trycloudflare.com/",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x5b146e91f528e6f6def5454c7e6b2803b5182bed"
+    ],
+    "first_seen": "2026-10-30T19:31:45Z",
+    "last_seen": "2026-10-30T19:31:45Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T19:32:09Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
     "value": "https://verifyidentrob01.cc;https://ubbrobccheck20.cc",
     "port": null,
     "family": "c2-url",
@@ -18685,7 +18746,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-27T19:23:13Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}

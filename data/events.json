@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 96455499,
+    "timestamp": "2026-10-30T19:31:45Z",
+    "tx_hash": "0x297c2096f17794b4402aa1a5f7992c56969dd476db92b4d67399643f676bfb7e",
+    "contract": "0x5b146e91f528e6f6def5454c7e6b2803b5182bed",
+    "from": "0x504efa6320d3c8f66840b65fbf05a930e258292d",
+    "selector": "0x55f804b3",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://ste-responsibilities-sunset-resort.trycloudflare.com/",
+    "old_decoded": null,
+    "new_decoded": "https://ste-responsibilities-sunset-resort.trycloudflare.com/",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96454906,
     "timestamp": "2026-10-30T19:16:55Z",
     "tx_hash": "0xdd5632cb052487aa4583937e01141b6757c4faaa11af3863ff6e7ad4e73aadb8",
