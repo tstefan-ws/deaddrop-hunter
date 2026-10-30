@@ -5597,6 +5597,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0xa9fccaf11d83fdbb7b3cb86ab9103728e5822bdf",
+    "cluster_id": "c-504efa63",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x504efa6320d3c8f66840b65fbf05a930e258292d"
+    ],
+    "selectors": [
+      "0x55f804b3"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-30T19:44:30Z",
+    "last_seen": "2026-10-30T19:44:30Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-30T19:44:43Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://down-plain-cowboy-frames.trycloudflare.com/",
+    "latest_value_decoded": "https://down-plain-cowboy-frames.trycloudflare.com/",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0xaa74f3f5f08c793a844e58dea1fa5ede97802004",
     "cluster_id": "c-19532c0f",
     "family": "xmrig-stealth",
