@@ -5657,6 +5657,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0xd7b2318a249652ff6e115514d37d7479e0380fb3",
+    "cluster_id": "c-504efa63",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x504efa6320d3c8f66840b65fbf05a930e258292d"
+    ],
+    "selectors": [
+      "0x55f804b3"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-30T08:44:34Z",
+    "last_seen": "2026-10-30T08:44:34Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-30T08:53:45Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://reunion-montana-apnic-prev.trycloudflare.com/",
+    "latest_value_decoded": "https://reunion-montana-apnic-prev.trycloudflare.com/",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0xe4aa6fc8f6d92f8c26158cfadeae55bae80c816f",
     "cluster_id": "c-19532c0f",
     "family": "xmrig-stealth",
