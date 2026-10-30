@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 96457103,
+    "timestamp": "2026-10-30T20:11:51Z",
+    "tx_hash": "0x89ac58939cffe99f82978467a5e7903f493be4aea1a5cb6864ba25185ebee79a",
+    "contract": "0xf58231e467484368fb72a624e4a374710121f43b",
+    "from": "0x504efa6320d3c8f66840b65fbf05a930e258292d",
+    "selector": "0x55f804b3",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://fathers-computers-later-centuries.trycloudflare.com/",
+    "old_decoded": null,
+    "new_decoded": "https://fathers-computers-later-centuries.trycloudflare.com/",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96456655,
     "timestamp": "2026-10-30T20:00:39Z",
     "tx_hash": "0x436496a3137348e717d808bcfaf9a4dd1077e438feee993361797f818e892271",

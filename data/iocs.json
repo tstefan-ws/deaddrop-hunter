@@ -2345,6 +2345,26 @@
   },
   {
     "type": "domain",
+    "value": "fathers-computers-later-centuries.trycloudflare.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0xf58231e467484368fb72a624e4a374710121f43b"
+    ],
+    "first_seen": "2026-10-30T20:11:51Z",
+    "last_seen": "2026-10-30T20:11:51Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T20:14:25Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "fesold.com",
     "port": null,
     "family": "c2-url",
@@ -10458,6 +10478,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0xf58231e467484368fb72a624e4a374710121f43b",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0xf58231e467484368fb72a624e4a374710121f43b"
+    ],
+    "first_seen": "2026-10-30T20:11:51Z",
+    "last_seen": "2026-10-30T20:11:51Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T20:14:25Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0xf891cbe0a473ba23f2aa8775465ab90a7351a23b",
     "port": null,
     "family": "unknown",
@@ -11163,11 +11203,12 @@
       "0xebb297d2e5907bf70c2b1bf6aaf1e0ed37503af9",
       "0xed8ed9208f1a6e5b540d0b3c62b8f0d9b4d6b16c",
       "0xeff07aea7c7f2604da565498ce46f76deae31161",
+      "0xf58231e467484368fb72a624e4a374710121f43b",
       "0xfe1fef6f7c2a0f6139364a3c73a11ba02c20abc1"
     ],
     "first_seen": "2026-10-19T20:32:54Z",
-    "last_seen": "2026-10-30T20:00:39Z",
-    "times_seen": 29,
+    "last_seen": "2026-10-30T20:11:51Z",
+    "times_seen": 30,
     "current": true,
     "discovered_at": "2026-10-19T20:38:48Z",
     "new": false,
@@ -17844,6 +17885,26 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-30T11:21:33Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://fathers-computers-later-centuries.trycloudflare.com/",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0xf58231e467484368fb72a624e4a374710121f43b"
+    ],
+    "first_seen": "2026-10-30T20:11:51Z",
+    "last_seen": "2026-10-30T20:11:51Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T20:14:25Z",
     "new": true,
     "confidence": 85,
     "dual_use": false,

@@ -6249,6 +6249,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0xf58231e467484368fb72a624e4a374710121f43b",
+    "cluster_id": "c-504efa63",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x504efa6320d3c8f66840b65fbf05a930e258292d"
+    ],
+    "selectors": [
+      "0x55f804b3"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-30T20:11:51Z",
+    "last_seen": "2026-10-30T20:11:51Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-30T20:14:25Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://fathers-computers-later-centuries.trycloudflare.com/",
+    "latest_value_decoded": "https://fathers-computers-later-centuries.trycloudflare.com/",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0xfe1fef6f7c2a0f6139364a3c73a11ba02c20abc1",
     "cluster_id": "c-504efa63",
     "family": "c2-url",
