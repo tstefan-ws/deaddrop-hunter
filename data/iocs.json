@@ -1743,6 +1743,26 @@
   },
   {
     "type": "domain",
+    "value": "collective-drilling-enjoy-rev.trycloudflare.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x5bf32e3838c39ad74b74f3fccf7bcd8afd7a9b0c"
+    ],
+    "first_seen": "2026-10-30T20:52:45Z",
+    "last_seen": "2026-10-30T20:52:45Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T20:52:55Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "comb.betyek.store",
     "port": null,
     "family": "c2-url",
@@ -7938,6 +7958,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x5bf32e3838c39ad74b74f3fccf7bcd8afd7a9b0c",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x5bf32e3838c39ad74b74f3fccf7bcd8afd7a9b0c"
+    ],
+    "first_seen": "2026-10-30T20:52:45Z",
+    "last_seen": "2026-10-30T20:52:45Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T20:52:55Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x5e57fe0a4f8b2f02147bc6faaa45bbf3b5575ad1",
     "port": null,
     "family": "unknown",
@@ -11229,6 +11269,7 @@
       "0x4013518c6240eda26c2ed6d00a069dcfde308811",
       "0x504867719d776f9b6123458d203612a1570340d8",
       "0x5b146e91f528e6f6def5454c7e6b2803b5182bed",
+      "0x5bf32e3838c39ad74b74f3fccf7bcd8afd7a9b0c",
       "0x62560fd9a1c91d594cfd6badb503144ddba0c06c",
       "0x6f57fc0f9b24599894b046471e3291dd8c1a61c9",
       "0x752c8445b58f3aac2fa434ae8e7b401e9665cffb",
@@ -11248,8 +11289,8 @@
       "0xfe1fef6f7c2a0f6139364a3c73a11ba02c20abc1"
     ],
     "first_seen": "2026-10-19T20:32:54Z",
-    "last_seen": "2026-10-30T20:20:58Z",
-    "times_seen": 31,
+    "last_seen": "2026-10-30T20:52:45Z",
+    "times_seen": 32,
     "current": true,
     "discovered_at": "2026-10-19T20:38:48Z",
     "new": false,
@@ -17846,6 +17887,26 @@
     "times_seen": 3,
     "current": true,
     "discovered_at": "2026-10-29T06:02:17Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://collective-drilling-enjoy-rev.trycloudflare.com/",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x5bf32e3838c39ad74b74f3fccf7bcd8afd7a9b0c"
+    ],
+    "first_seen": "2026-10-30T20:52:45Z",
+    "last_seen": "2026-10-30T20:52:45Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T20:52:55Z",
     "new": true,
     "confidence": 85,
     "dual_use": false,

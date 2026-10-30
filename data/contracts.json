@@ -4828,6 +4828,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0x5bf32e3838c39ad74b74f3fccf7bcd8afd7a9b0c",
+    "cluster_id": "c-504efa63",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x504efa6320d3c8f66840b65fbf05a930e258292d"
+    ],
+    "selectors": [
+      "0x55f804b3"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-30T20:52:45Z",
+    "last_seen": "2026-10-30T20:52:45Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-30T20:52:55Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://collective-drilling-enjoy-rev.trycloudflare.com/",
+    "latest_value_decoded": "https://collective-drilling-enjoy-rev.trycloudflare.com/",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x62560fd9a1c91d594cfd6badb503144ddba0c06c",
     "cluster_id": "c-504efa63",
     "family": "c2-url",
