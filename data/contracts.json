@@ -5161,6 +5161,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0x80a2aa2de59c08820136b3cda43088368d726f06",
+    "cluster_id": "c-720a9e69",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x720a9e69bce02d1da8ce55bb33aa6e5d65059d68"
+    ],
+    "selectors": [
+      "0xb68d1809"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-30T19:51:52Z",
+    "last_seen": "2026-10-30T19:51:52Z",
+    "status": "active",
+    "code_hash": "20a0696fa16cc1ba",
+    "discovered_at": "2026-10-30T19:51:59Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://lcej-jd.cfd",
+    "latest_value_decoded": "https://lcej-jd.cfd",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x84ef485c1d8f3ca1880d0a7ab045d924cf5ac88e",
     "cluster_id": "c-de2f7044",
     "family": "unknown",
