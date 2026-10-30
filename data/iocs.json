@@ -11451,7 +11451,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-27T18:05:47Z",
-    "new": true,
+    "new": false,
     "confidence": 60,
     "dual_use": false,
     "enrichment": {}
