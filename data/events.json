@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 96435829,
+    "timestamp": "2026-10-30T11:20:00Z",
+    "tx_hash": "0x6abcaff6124c5cce3f482c24efb81ce1cc3cac07df2320d5cce94e64e53ff942",
+    "contract": "0xeff07aea7c7f2604da565498ce46f76deae31161",
+    "from": "0x504efa6320d3c8f66840b65fbf05a930e258292d",
+    "selector": "0x55f804b3",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://expo-pending-him-classified.trycloudflare.com/",
+    "old_decoded": null,
+    "new_decoded": "https://expo-pending-him-classified.trycloudflare.com/",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96431017,
     "timestamp": "2026-10-30T09:19:42Z",
     "tx_hash": "0xb198000e818c6f1a4da8b68e2b343e39e54ed70cd1f1feaf5f97a998eb00617f",
