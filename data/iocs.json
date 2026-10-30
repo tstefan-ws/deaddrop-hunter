@@ -3045,6 +3045,26 @@
   },
   {
     "type": "domain",
+    "value": "lcej-jd.cfd",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-720a9e69",
+    "chain": "polygon",
+    "contracts": [
+      "0x241955be0d5235da1f6aea14ee949553e01c1afa"
+    ],
+    "first_seen": "2026-10-30T14:23:13Z",
+    "last_seen": "2026-10-30T14:23:13Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T14:32:37Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "leaf.cafemartinezsa.com",
     "port": null,
     "family": "c2-url",
@@ -3440,6 +3460,26 @@
     "discovered_at": "2026-10-19T20:00:00Z",
     "new": false,
     "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "marijuana-techrepublic-pennsylvania-internship.trycloudflare.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x925170440d4a37dce34e6e8a43ecd5b1259ecf14"
+    ],
+    "first_seen": "2026-10-30T14:26:01Z",
+    "last_seen": "2026-10-30T14:26:01Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T14:32:37Z",
+    "new": true,
+    "confidence": 85,
     "dual_use": false,
     "enrichment": {}
   },
@@ -6776,6 +6816,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x241955be0d5235da1f6aea14ee949553e01c1afa",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-720a9e69",
+    "chain": "polygon",
+    "contracts": [
+      "0x241955be0d5235da1f6aea14ee949553e01c1afa"
+    ],
+    "first_seen": "2026-10-30T14:23:13Z",
+    "last_seen": "2026-10-30T14:23:13Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T14:32:37Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x24d83e15fbc61085f422708cf42cbd9b323e5365",
     "port": null,
     "family": "unknown",
@@ -8551,6 +8611,26 @@
     "discovered_at": "2026-10-25T17:19:07Z",
     "new": false,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x925170440d4a37dce34e6e8a43ecd5b1259ecf14",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x925170440d4a37dce34e6e8a43ecd5b1259ecf14"
+    ],
+    "first_seen": "2026-10-30T14:26:01Z",
+    "last_seen": "2026-10-30T14:26:01Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T14:32:37Z",
+    "new": true,
+    "confidence": 90,
     "dual_use": false,
     "enrichment": {}
   },
@@ -10789,6 +10869,7 @@
       "0x752c8445b58f3aac2fa434ae8e7b401e9665cffb",
       "0x7539f2c22e3229945420bbf7d6342b84e173187d",
       "0x88e7b0fd6913fead2b1b2fecb3e598605ff80c6d",
+      "0x925170440d4a37dce34e6e8a43ecd5b1259ecf14",
       "0xd3f0daca66bd749fe493eb845c0392e8da06614f",
       "0xd7b2318a249652ff6e115514d37d7479e0380fb3",
       "0xebb297d2e5907bf70c2b1bf6aaf1e0ed37503af9",
@@ -10797,8 +10878,8 @@
       "0xfe1fef6f7c2a0f6139364a3c73a11ba02c20abc1"
     ],
     "first_seen": "2026-10-19T20:32:54Z",
-    "last_seen": "2026-10-30T13:40:15Z",
-    "times_seen": 22,
+    "last_seen": "2026-10-30T14:26:01Z",
+    "times_seen": 23,
     "current": true,
     "discovered_at": "2026-10-19T20:38:48Z",
     "new": false,
@@ -10834,11 +10915,12 @@
     "cluster_id": "c-720a9e69",
     "chain": "polygon",
     "contracts": [
+      "0x241955be0d5235da1f6aea14ee949553e01c1afa",
       "0xa4a981c20bd6312d0fad9cd563aa2cf6fa5a24ff"
     ],
     "first_seen": "2026-10-29T15:17:11Z",
-    "last_seen": "2026-10-30T14:16:36Z",
-    "times_seen": 7,
+    "last_seen": "2026-10-30T14:23:13Z",
+    "times_seen": 8,
     "current": true,
     "discovered_at": "2026-10-29T15:17:09Z",
     "new": true,
@@ -17520,6 +17602,26 @@
   },
   {
     "type": "url",
+    "value": "https://lcej-jd.cfd",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-720a9e69",
+    "chain": "polygon",
+    "contracts": [
+      "0x241955be0d5235da1f6aea14ee949553e01c1afa"
+    ],
+    "first_seen": "2026-10-30T14:23:13Z",
+    "last_seen": "2026-10-30T14:23:13Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T14:32:37Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
     "value": "https://led-involvement-utilization-walt.trycloudflare.com/",
     "port": null,
     "family": "c2-url",
@@ -17533,6 +17635,26 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-30T11:49:17Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://marijuana-techrepublic-pennsylvania-internship.trycloudflare.com/",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x925170440d4a37dce34e6e8a43ecd5b1259ecf14"
+    ],
+    "first_seen": "2026-10-30T14:26:01Z",
+    "last_seen": "2026-10-30T14:26:01Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T14:32:37Z",
     "new": true,
     "confidence": 85,
     "dual_use": false,

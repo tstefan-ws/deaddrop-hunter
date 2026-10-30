@@ -4271,6 +4271,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0x241955be0d5235da1f6aea14ee949553e01c1afa",
+    "cluster_id": "c-720a9e69",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x720a9e69bce02d1da8ce55bb33aa6e5d65059d68"
+    ],
+    "selectors": [
+      "0xb68d1809"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-30T14:23:13Z",
+    "last_seen": "2026-10-30T14:23:13Z",
+    "status": "active",
+    "code_hash": "20a0696fa16cc1ba",
+    "discovered_at": "2026-10-30T14:32:37Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://lcej-jd.cfd",
+    "latest_value_decoded": "https://lcej-jd.cfd",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x24d83e15fbc61085f422708cf42cbd9b323e5365",
     "cluster_id": "c-24d512cc",
     "family": "unknown",
@@ -5211,6 +5242,37 @@
     "evidence": "decoded",
     "latest_value_raw": "https://coffiimg.beer",
     "latest_value_decoded": "https://coffiimg.beer",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x925170440d4a37dce34e6e8a43ecd5b1259ecf14",
+    "cluster_id": "c-504efa63",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x504efa6320d3c8f66840b65fbf05a930e258292d"
+    ],
+    "selectors": [
+      "0x55f804b3"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-30T14:26:01Z",
+    "last_seen": "2026-10-30T14:26:01Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-30T14:32:37Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://marijuana-techrepublic-pennsylvania-internship.trycloudflare.com/",
+    "latest_value_decoded": "https://marijuana-techrepublic-pennsylvania-internship.trycloudflare.com/",
     "tags": [
       "c2",
       "url-rotation",

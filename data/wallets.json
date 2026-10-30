@@ -829,6 +829,7 @@
       "0x752c8445b58f3aac2fa434ae8e7b401e9665cffb",
       "0x7539f2c22e3229945420bbf7d6342b84e173187d",
       "0x88e7b0fd6913fead2b1b2fecb3e598605ff80c6d",
+      "0x925170440d4a37dce34e6e8a43ecd5b1259ecf14",
       "0xd3f0daca66bd749fe493eb845c0392e8da06614f",
       "0xd7b2318a249652ff6e115514d37d7479e0380fb3",
       "0xebb297d2e5907bf70c2b1bf6aaf1e0ed37503af9",
@@ -836,9 +837,9 @@
       "0xeff07aea7c7f2604da565498ce46f76deae31161",
       "0xfe1fef6f7c2a0f6139364a3c73a11ba02c20abc1"
     ],
-    "tx_count": 22,
+    "tx_count": 23,
     "first_seen": "2026-10-19T20:32:54Z",
-    "last_seen": "2026-10-30T13:40:15Z",
+    "last_seen": "2026-10-30T14:26:01Z",
     "watched": false,
     "funded_by": []
   },
@@ -862,11 +863,12 @@
     "label": "Operator (auto-detected)",
     "cluster_id": "c-720a9e69",
     "contracts": [
+      "0x241955be0d5235da1f6aea14ee949553e01c1afa",
       "0xa4a981c20bd6312d0fad9cd563aa2cf6fa5a24ff"
     ],
-    "tx_count": 7,
+    "tx_count": 8,
     "first_seen": "2026-10-29T15:17:11Z",
-    "last_seen": "2026-10-30T14:16:36Z",
+    "last_seen": "2026-10-30T14:23:13Z",
     "watched": false,
     "funded_by": []
   },

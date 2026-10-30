@@ -1,6 +1,37 @@
 [
   {
     "chain": "polygon",
+    "block": 96443270,
+    "timestamp": "2026-10-30T14:26:01Z",
+    "tx_hash": "0xbcf098d3a446f38feab89b608589ff69eb07cc95836e0f9406533f7042f65805",
+    "contract": "0x925170440d4a37dce34e6e8a43ecd5b1259ecf14",
+    "from": "0x504efa6320d3c8f66840b65fbf05a930e258292d",
+    "selector": "0x55f804b3",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://marijuana-techrepublic-pennsylvania-internship.trycloudflare.com/",
+    "old_decoded": null,
+    "new_decoded": "https://marijuana-techrepublic-pennsylvania-internship.trycloudflare.com/",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
+    "block": 96443158,
+    "timestamp": "2026-10-30T14:23:13Z",
+    "tx_hash": "0xd859bd3b4276d40c864e0fc27a5b9ea2a611ca76039067f0f4531ee3b8017742",
+    "contract": "0x241955be0d5235da1f6aea14ee949553e01c1afa",
+    "from": "0x720a9e69bce02d1da8ce55bb33aa6e5d65059d68",
+    "selector": "0xb68d1809",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://lcej-jd.cfd",
+    "old_decoded": null,
+    "new_decoded": "https://lcej-jd.cfd",
+    "decoder": "plain",
+    "code_hash": "20a0696fa16cc1ba"
+  },
+  {
+    "chain": "polygon",
     "block": 96442893,
     "timestamp": "2026-10-30T14:16:36Z",
     "tx_hash": "0xf437ffd8654ec3c97250db8ccedb6877125e68684572ebc0758b35f3bde9d9be",
