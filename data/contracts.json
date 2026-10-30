@@ -5845,6 +5845,37 @@
     ]
   },
   {
+    "chain": "polygon",
+    "address": "0xfe1fef6f7c2a0f6139364a3c73a11ba02c20abc1",
+    "cluster_id": "c-504efa63",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x504efa6320d3c8f66840b65fbf05a930e258292d"
+    ],
+    "selectors": [
+      "0x55f804b3"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-30T11:42:24Z",
+    "last_seen": "2026-10-30T11:42:24Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-30T11:49:17Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://led-involvement-utilization-walt.trycloudflare.com/",
+    "latest_value_decoded": "https://led-involvement-utilization-walt.trycloudflare.com/",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
     "chain": "solana",
     "address": "28PKnu7RzizxBzFPoLp69HLXp9bJL3JFtT2s5QzHsEA2",
     "cluster_id": "c-28pknu7r",

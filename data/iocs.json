@@ -3045,6 +3045,26 @@
   },
   {
     "type": "domain",
+    "value": "led-involvement-utilization-walt.trycloudflare.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0xfe1fef6f7c2a0f6139364a3c73a11ba02c20abc1"
+    ],
+    "first_seen": "2026-10-30T11:42:24Z",
+    "last_seen": "2026-10-30T11:42:24Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T11:49:17Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "lenders.digital",
     "port": null,
     "family": "c2-url",
@@ -9956,6 +9976,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0xfe1fef6f7c2a0f6139364a3c73a11ba02c20abc1",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0xfe1fef6f7c2a0f6139364a3c73a11ba02c20abc1"
+    ],
+    "first_seen": "2026-10-30T11:42:24Z",
+    "last_seen": "2026-10-30T11:42:24Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T11:49:17Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0xffcc9a3493c4f5a11446a6416f2d46244a115355",
     "port": null,
     "family": "unknown",
@@ -10569,11 +10609,12 @@
       "0x7539f2c22e3229945420bbf7d6342b84e173187d",
       "0xd3f0daca66bd749fe493eb845c0392e8da06614f",
       "0xd7b2318a249652ff6e115514d37d7479e0380fb3",
-      "0xeff07aea7c7f2604da565498ce46f76deae31161"
+      "0xeff07aea7c7f2604da565498ce46f76deae31161",
+      "0xfe1fef6f7c2a0f6139364a3c73a11ba02c20abc1"
     ],
     "first_seen": "2026-10-19T20:32:54Z",
-    "last_seen": "2026-10-30T11:20:00Z",
-    "times_seen": 17,
+    "last_seen": "2026-10-30T11:42:24Z",
+    "times_seen": 18,
     "current": true,
     "discovered_at": "2026-10-19T20:38:48Z",
     "new": false,
@@ -17269,6 +17310,26 @@
     "current": true,
     "discovered_at": "2026-10-23T13:07:21Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://led-involvement-utilization-walt.trycloudflare.com/",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0xfe1fef6f7c2a0f6139364a3c73a11ba02c20abc1"
+    ],
+    "first_seen": "2026-10-30T11:42:24Z",
+    "last_seen": "2026-10-30T11:42:24Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T11:49:17Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
