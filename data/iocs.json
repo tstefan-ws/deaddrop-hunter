@@ -9209,7 +9209,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-27T06:26:35Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -9429,7 +9429,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-27T06:26:35Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -9549,7 +9549,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-27T06:19:51Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
