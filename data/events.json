@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 96456655,
+    "timestamp": "2026-10-30T20:00:39Z",
+    "tx_hash": "0x436496a3137348e717d808bcfaf9a4dd1077e438feee993361797f818e892271",
+    "contract": "0x9bc5225806e2e7cfc9b0d25be97c7fe8ffc71cef",
+    "from": "0x504efa6320d3c8f66840b65fbf05a930e258292d",
+    "selector": "0x55f804b3",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://occasions-yield-overall-criticism.trycloudflare.com/",
+    "old_decoded": null,
+    "new_decoded": "https://occasions-yield-overall-criticism.trycloudflare.com/",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96456304,
     "timestamp": "2026-10-30T19:51:52Z",
     "tx_hash": "0x18ab1b796b795a33979acf1f92a5dd6d77348f934816008f71a35a612cda142b",

@@ -5405,6 +5405,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0x9bc5225806e2e7cfc9b0d25be97c7fe8ffc71cef",
+    "cluster_id": "c-504efa63",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x504efa6320d3c8f66840b65fbf05a930e258292d"
+    ],
+    "selectors": [
+      "0x55f804b3"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-30T20:00:39Z",
+    "last_seen": "2026-10-30T20:00:39Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-30T20:06:42Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://occasions-yield-overall-criticism.trycloudflare.com/",
+    "latest_value_decoded": "https://occasions-yield-overall-criticism.trycloudflare.com/",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x9ee7260312506462dde73379def547d55e7cee0f",
     "cluster_id": "c-24d512cc",
     "family": "unknown",
