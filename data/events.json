@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 96454906,
+    "timestamp": "2026-10-30T19:16:55Z",
+    "tx_hash": "0xdd5632cb052487aa4583937e01141b6757c4faaa11af3863ff6e7ad4e73aadb8",
+    "contract": "0x22ddd2d02d45f12485d0e3d42987fe299f12658b",
+    "from": "0x504efa6320d3c8f66840b65fbf05a930e258292d",
+    "selector": "0x55f804b3",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://examinations-dealtime-prostate-lottery.trycloudflare.com/",
+    "old_decoded": null,
+    "new_decoded": "https://examinations-dealtime-prostate-lottery.trycloudflare.com/",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96453621,
     "timestamp": "2026-10-30T18:44:48Z",
     "tx_hash": "0x59f350b6197e9c7421b0d7482de603ce143429214b91055f86233605716ba38b",

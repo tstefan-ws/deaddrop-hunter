@@ -2245,6 +2245,26 @@
   },
   {
     "type": "domain",
+    "value": "examinations-dealtime-prostate-lottery.trycloudflare.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x22ddd2d02d45f12485d0e3d42987fe299f12658b"
+    ],
+    "first_seen": "2026-10-30T19:16:55Z",
+    "last_seen": "2026-10-30T19:16:55Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T19:22:41Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "expo-pending-him-classified.trycloudflare.com",
     "port": null,
     "family": "c2-url",
@@ -6837,6 +6857,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x22ddd2d02d45f12485d0e3d42987fe299f12658b",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x22ddd2d02d45f12485d0e3d42987fe299f12658b"
+    ],
+    "first_seen": "2026-10-30T19:16:55Z",
+    "last_seen": "2026-10-30T19:16:55Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T19:22:41Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x238f3020fb7d397069c0fd1237f1a7b275cfeb20",
     "port": null,
     "family": "unknown",
@@ -10963,6 +11003,7 @@
       "0x0a48fad557085a37af7dea70629ae9d36e182429",
       "0x0d116251d827c9c3070ca144618f3928cca4cd61",
       "0x0ec87a514e5ff0659d330674f35a35612ca2164a",
+      "0x22ddd2d02d45f12485d0e3d42987fe299f12658b",
       "0x3463851978afd2869c8d372d3dccd5b2f40c756e",
       "0x4013518c6240eda26c2ed6d00a069dcfde308811",
       "0x62560fd9a1c91d594cfd6badb503144ddba0c06c",
@@ -10981,8 +11022,8 @@
       "0xfe1fef6f7c2a0f6139364a3c73a11ba02c20abc1"
     ],
     "first_seen": "2026-10-19T20:32:54Z",
-    "last_seen": "2026-10-30T18:44:48Z",
-    "times_seen": 25,
+    "last_seen": "2026-10-30T19:16:55Z",
+    "times_seen": 26,
     "current": true,
     "discovered_at": "2026-10-19T20:38:48Z",
     "new": false,
@@ -17599,6 +17640,26 @@
     "current": true,
     "discovered_at": "2026-10-23T12:58:09Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://examinations-dealtime-prostate-lottery.trycloudflare.com/",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x22ddd2d02d45f12485d0e3d42987fe299f12658b"
+    ],
+    "first_seen": "2026-10-30T19:16:55Z",
+    "last_seen": "2026-10-30T19:16:55Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T19:22:41Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
