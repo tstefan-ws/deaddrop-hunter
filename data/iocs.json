@@ -2045,6 +2045,26 @@
   },
   {
     "type": "domain",
+    "value": "diving-category-buildings-float.trycloudflare.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x9ddce5456cfc75ae532f7d962d1586685c9f38e5"
+    ],
+    "first_seen": "2026-10-30T21:31:10Z",
+    "last_seen": "2026-10-30T21:31:10Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T21:38:25Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "dock.yourbodybydesign.me",
     "port": null,
     "family": "c2-url",
@@ -9038,6 +9058,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x9ddce5456cfc75ae532f7d962d1586685c9f38e5",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x9ddce5456cfc75ae532f7d962d1586685c9f38e5"
+    ],
+    "first_seen": "2026-10-30T21:31:10Z",
+    "last_seen": "2026-10-30T21:31:10Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T21:38:25Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x9ee7260312506462dde73379def547d55e7cee0f",
     "port": null,
     "family": "unknown",
@@ -11278,6 +11318,7 @@
       "0x925170440d4a37dce34e6e8a43ecd5b1259ecf14",
       "0x97b7a5011f9487ab19c8b22e5204faec9040e40e",
       "0x9bc5225806e2e7cfc9b0d25be97c7fe8ffc71cef",
+      "0x9ddce5456cfc75ae532f7d962d1586685c9f38e5",
       "0xa9fccaf11d83fdbb7b3cb86ab9103728e5822bdf",
       "0xae76027e422ddee0156610c4a57ec916b420bb5b",
       "0xd3f0daca66bd749fe493eb845c0392e8da06614f",
@@ -11289,8 +11330,8 @@
       "0xfe1fef6f7c2a0f6139364a3c73a11ba02c20abc1"
     ],
     "first_seen": "2026-10-19T20:32:54Z",
-    "last_seen": "2026-10-30T20:52:45Z",
-    "times_seen": 32,
+    "last_seen": "2026-10-30T21:31:10Z",
+    "times_seen": 33,
     "current": true,
     "discovered_at": "2026-10-19T20:38:48Z",
     "new": false,
@@ -17947,6 +17988,26 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-30T20:22:06Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://diving-category-buildings-float.trycloudflare.com/",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x9ddce5456cfc75ae532f7d962d1586685c9f38e5"
+    ],
+    "first_seen": "2026-10-30T21:31:10Z",
+    "last_seen": "2026-10-30T21:31:10Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T21:38:25Z",
     "new": true,
     "confidence": 85,
     "dual_use": false,
