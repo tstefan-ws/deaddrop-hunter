@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 96457468,
+    "timestamp": "2026-10-30T20:20:58Z",
+    "tx_hash": "0xed5049f5d7a0a3400e0e710510bb720fec4960554765f7dc5c632a033cf39306",
+    "contract": "0x504867719d776f9b6123458d203612a1570340d8",
+    "from": "0x504efa6320d3c8f66840b65fbf05a930e258292d",
+    "selector": "0x55f804b3",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://devoted-physician-advertisers-epa.trycloudflare.com/",
+    "old_decoded": null,
+    "new_decoded": "https://devoted-physician-advertisers-epa.trycloudflare.com/",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96457103,
     "timestamp": "2026-10-30T20:11:51Z",
     "tx_hash": "0x89ac58939cffe99f82978467a5e7903f493be4aea1a5cb6864ba25185ebee79a",
