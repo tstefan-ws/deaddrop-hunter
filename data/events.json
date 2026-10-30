@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 96437132,
+    "timestamp": "2026-10-30T11:52:34Z",
+    "tx_hash": "0xb2a0f9ba53b12eac2b7d7737c0834163f30a4a9f794ccc607297da2c97df5f6f",
+    "contract": "0xed8ed9208f1a6e5b540d0b3c62b8f0d9b4d6b16c",
+    "from": "0x504efa6320d3c8f66840b65fbf05a930e258292d",
+    "selector": "0x55f804b3",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://oil-subscription-awards-asks.trycloudflare.com/",
+    "old_decoded": null,
+    "new_decoded": "https://oil-subscription-awards-asks.trycloudflare.com/",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96436725,
     "timestamp": "2026-10-30T11:42:24Z",
     "tx_hash": "0x9bfae4eb652df7902252888a6091cef60de7acc40ec7880e4da2b8d3037bf906",

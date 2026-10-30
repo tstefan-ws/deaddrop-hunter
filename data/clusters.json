@@ -635,15 +635,16 @@
       "0x7539f2c22e3229945420bbf7d6342b84e173187d",
       "0xd3f0daca66bd749fe493eb845c0392e8da06614f",
       "0xd7b2318a249652ff6e115514d37d7479e0380fb3",
+      "0xed8ed9208f1a6e5b540d0b3c62b8f0d9b4d6b16c",
       "0xeff07aea7c7f2604da565498ce46f76deae31161",
       "0xfe1fef6f7c2a0f6139364a3c73a11ba02c20abc1"
     ],
     "wallets": [
       "0x504efa6320d3c8f66840b65fbf05a930e258292d"
     ],
-    "ioc_count": 44,
+    "ioc_count": 47,
     "first_seen": "2026-10-19T20:32:54Z",
-    "last_seen": "2026-10-30T11:42:24Z",
+    "last_seen": "2026-10-30T11:52:34Z",
     "discovered_at": "2026-10-19T20:38:48Z",
     "new": false
   },
