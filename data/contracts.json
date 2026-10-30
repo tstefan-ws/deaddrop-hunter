@@ -5815,6 +5815,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0xebb297d2e5907bf70c2b1bf6aaf1e0ed37503af9",
+    "cluster_id": "c-504efa63",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x504efa6320d3c8f66840b65fbf05a930e258292d"
+    ],
+    "selectors": [
+      "0x55f804b3"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-30T12:19:12Z",
+    "last_seen": "2026-10-30T12:19:12Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-30T12:27:13Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://satisfy-calcium-montreal-glucose.trycloudflare.com/",
+    "latest_value_decoded": "https://satisfy-calcium-montreal-glucose.trycloudflare.com/",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0xed8ed9208f1a6e5b540d0b3c62b8f0d9b4d6b16c",
     "cluster_id": "c-504efa63",
     "family": "c2-url",

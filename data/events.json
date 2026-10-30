@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 96438197,
+    "timestamp": "2026-10-30T12:19:12Z",
+    "tx_hash": "0x8bbbc5df863a4c84df3801fcdf38994ec98d46a293229c629f130defed5fc622",
+    "contract": "0xebb297d2e5907bf70c2b1bf6aaf1e0ed37503af9",
+    "from": "0x504efa6320d3c8f66840b65fbf05a930e258292d",
+    "selector": "0x55f804b3",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://satisfy-calcium-montreal-glucose.trycloudflare.com/",
+    "old_decoded": null,
+    "new_decoded": "https://satisfy-calcium-montreal-glucose.trycloudflare.com/",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96437132,
     "timestamp": "2026-10-30T11:52:34Z",
     "tx_hash": "0xb2a0f9ba53b12eac2b7d7737c0834163f30a4a9f794ccc607297da2c97df5f6f",
