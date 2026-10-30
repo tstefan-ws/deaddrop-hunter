@@ -5126,6 +5126,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0x88e7b0fd6913fead2b1b2fecb3e598605ff80c6d",
+    "cluster_id": "c-504efa63",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x504efa6320d3c8f66840b65fbf05a930e258292d"
+    ],
+    "selectors": [
+      "0x55f804b3"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-30T13:40:15Z",
+    "last_seen": "2026-10-30T13:40:15Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-30T14:02:21Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://ruby-recorder-sisters-tire.trycloudflare.com/",
+    "latest_value_decoded": "https://ruby-recorder-sisters-tire.trycloudflare.com/",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x8d57ac632225d97d0f3d1a8fcc948b52a10deb89",
     "cluster_id": "c-48792d87",
     "family": "c2-url",

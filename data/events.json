@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 96441439,
+    "timestamp": "2026-10-30T13:40:15Z",
+    "tx_hash": "0x33f4ce961ea907261630f94e3a0d2bc02b9b3cf8f7c3cb2d31c0cc3e4e419d9f",
+    "contract": "0x88e7b0fd6913fead2b1b2fecb3e598605ff80c6d",
+    "from": "0x504efa6320d3c8f66840b65fbf05a930e258292d",
+    "selector": "0x55f804b3",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://ruby-recorder-sisters-tire.trycloudflare.com/",
+    "old_decoded": null,
+    "new_decoded": "https://ruby-recorder-sisters-tire.trycloudflare.com/",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96439589,
     "timestamp": "2026-10-30T12:54:00Z",
     "tx_hash": "0x81dd5eee99684d81f82dd0e85f5337129107aaf072d929a614b17623d595151e",
