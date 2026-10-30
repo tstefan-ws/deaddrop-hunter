@@ -1,6 +1,36 @@
 [
   {
     "chain": "polygon",
+    "block": 96442717,
+    "timestamp": "2026-10-30T14:12:12Z",
+    "tx_hash": "0x28a5af8e3be0383ce409d37791a0b1a5bbf7b1965c265c77cea72caf048cb404",
+    "contract": "0xa4a981c20bd6312d0fad9cd563aa2cf6fa5a24ff",
+    "from": "0x720a9e69bce02d1da8ce55bb33aa6e5d65059d68",
+    "selector": "0xb249cd2d",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://pill-panel.sbs",
+    "old_decoded": null,
+    "new_decoded": "https://pill-panel.sbs",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
+    "block": 96442656,
+    "timestamp": "2026-10-30T14:10:40Z",
+    "tx_hash": "0xef2a097a74bef18a231bb7dafb97a82807c45d1dae79fe1b3aea3cc28f229ebc",
+    "contract": "0xa4a981c20bd6312d0fad9cd563aa2cf6fa5a24ff",
+    "from": "0x720a9e69bce02d1da8ce55bb33aa6e5d65059d68",
+    "selector": "0xb249cd2d",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://pillfkw.com",
+    "old_decoded": null,
+    "new_decoded": "https://pillfkw.com",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96441439,
     "timestamp": "2026-10-30T13:40:15Z",
     "tx_hash": "0x33f4ce961ea907261630f94e3a0d2bc02b9b3cf8f7c3cb2d31c0cc3e4e419d9f",
