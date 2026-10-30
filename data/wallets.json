@@ -823,11 +823,12 @@
       "0x3463851978afd2869c8d372d3dccd5b2f40c756e",
       "0x6f57fc0f9b24599894b046471e3291dd8c1a61c9",
       "0x752c8445b58f3aac2fa434ae8e7b401e9665cffb",
-      "0x7539f2c22e3229945420bbf7d6342b84e173187d"
+      "0x7539f2c22e3229945420bbf7d6342b84e173187d",
+      "0xd3f0daca66bd749fe493eb845c0392e8da06614f"
     ],
-    "tx_count": 7,
+    "tx_count": 8,
     "first_seen": "2026-10-19T20:32:54Z",
-    "last_seen": "2026-10-24T10:13:36Z",
+    "last_seen": "2026-10-30T07:38:51Z",
     "watched": false,
     "funded_by": []
   },

@@ -5595,6 +5595,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0xd3f0daca66bd749fe493eb845c0392e8da06614f",
+    "cluster_id": "c-504efa63",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x504efa6320d3c8f66840b65fbf05a930e258292d"
+    ],
+    "selectors": [
+      "0x55f804b3"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-30T07:38:51Z",
+    "last_seen": "2026-10-30T07:38:51Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-30T07:41:23Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://bus-beach-vacations-goals.trycloudflare.com/",
+    "latest_value_decoded": "https://bus-beach-vacations-goals.trycloudflare.com/",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0xe4aa6fc8f6d92f8c26158cfadeae55bae80c816f",
     "cluster_id": "c-19532c0f",
     "family": "xmrig-stealth",
