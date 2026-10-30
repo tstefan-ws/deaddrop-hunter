@@ -5535,6 +5535,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0xae76027e422ddee0156610c4a57ec916b420bb5b",
+    "cluster_id": "c-504efa63",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x504efa6320d3c8f66840b65fbf05a930e258292d"
+    ],
+    "selectors": [
+      "0x55f804b3"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-30T14:54:27Z",
+    "last_seen": "2026-10-30T14:54:27Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-30T15:02:16Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://yours-driver-strings-peace.trycloudflare.com/",
+    "latest_value_decoded": "https://yours-driver-strings-peace.trycloudflare.com/",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0xafeb1a604a081157d511f10be55b3fd5c3d54119",
     "cluster_id": "c-4e3a9949",
     "family": "unknown",

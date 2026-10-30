@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 96444407,
+    "timestamp": "2026-10-30T14:54:27Z",
+    "tx_hash": "0x497295a4ef4263ba20ef29abbaf497824f611964cde159e2952b582ac189d8bb",
+    "contract": "0xae76027e422ddee0156610c4a57ec916b420bb5b",
+    "from": "0x504efa6320d3c8f66840b65fbf05a930e258292d",
+    "selector": "0x55f804b3",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://yours-driver-strings-peace.trycloudflare.com/",
+    "old_decoded": null,
+    "new_decoded": "https://yours-driver-strings-peace.trycloudflare.com/",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96443716,
     "timestamp": "2026-10-30T14:37:10Z",
     "tx_hash": "0x47ae0a8e54e89c0ffe9a6cf1555e90195b4bbd470d94bf09405e2bd2b5838e6c",
