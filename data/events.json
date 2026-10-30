@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 96439589,
+    "timestamp": "2026-10-30T12:54:00Z",
+    "tx_hash": "0x81dd5eee99684d81f82dd0e85f5337129107aaf072d929a614b17623d595151e",
+    "contract": "0x4013518c6240eda26c2ed6d00a069dcfde308811",
+    "from": "0x504efa6320d3c8f66840b65fbf05a930e258292d",
+    "selector": "0x55f804b3",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://arrival-friends-festival-queries.trycloudflare.com/",
+    "old_decoded": null,
+    "new_decoded": "https://arrival-friends-festival-queries.trycloudflare.com/",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96438197,
     "timestamp": "2026-10-30T12:19:12Z",
     "tx_hash": "0x8bbbc5df863a4c84df3801fcdf38994ec98d46a293229c629f130defed5fc622",

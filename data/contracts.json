@@ -4429,6 +4429,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0x4013518c6240eda26c2ed6d00a069dcfde308811",
+    "cluster_id": "c-504efa63",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x504efa6320d3c8f66840b65fbf05a930e258292d"
+    ],
+    "selectors": [
+      "0x55f804b3"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-30T12:54:00Z",
+    "last_seen": "2026-10-30T12:54:00Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-30T12:55:40Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://arrival-friends-festival-queries.trycloudflare.com/",
+    "latest_value_decoded": "https://arrival-friends-festival-queries.trycloudflare.com/",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x4166d8888380faea0932e0156c11e0e75856a161",
     "cluster_id": "c-caf2c54e",
     "family": "c2-url",

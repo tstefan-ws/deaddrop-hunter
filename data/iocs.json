@@ -222,6 +222,26 @@
   },
   {
     "type": "domain",
+    "value": "arrival-friends-festival-queries.trycloudflare.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x4013518c6240eda26c2ed6d00a069dcfde308811"
+    ],
+    "first_seen": "2026-10-30T12:54:00Z",
+    "last_seen": "2026-10-30T12:54:00Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T12:55:40Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "babelo.pro",
     "port": null,
     "family": "c2-url",
@@ -7096,6 +7116,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x4013518c6240eda26c2ed6d00a069dcfde308811",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x4013518c6240eda26c2ed6d00a069dcfde308811"
+    ],
+    "first_seen": "2026-10-30T12:54:00Z",
+    "last_seen": "2026-10-30T12:54:00Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T12:55:40Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x4166d8888380faea0932e0156c11e0e75856a161",
     "port": null,
     "family": "c2-url",
@@ -10683,6 +10723,7 @@
       "0x0d116251d827c9c3070ca144618f3928cca4cd61",
       "0x0ec87a514e5ff0659d330674f35a35612ca2164a",
       "0x3463851978afd2869c8d372d3dccd5b2f40c756e",
+      "0x4013518c6240eda26c2ed6d00a069dcfde308811",
       "0x62560fd9a1c91d594cfd6badb503144ddba0c06c",
       "0x6f57fc0f9b24599894b046471e3291dd8c1a61c9",
       "0x752c8445b58f3aac2fa434ae8e7b401e9665cffb",
@@ -10695,8 +10736,8 @@
       "0xfe1fef6f7c2a0f6139364a3c73a11ba02c20abc1"
     ],
     "first_seen": "2026-10-19T20:32:54Z",
-    "last_seen": "2026-10-30T12:19:12Z",
-    "times_seen": 20,
+    "last_seen": "2026-10-30T12:54:00Z",
+    "times_seen": 21,
     "current": true,
     "discovered_at": "2026-10-19T20:38:48Z",
     "new": false,
@@ -16530,6 +16571,26 @@
     "current": true,
     "discovered_at": "2026-10-22T08:57:44Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://arrival-friends-festival-queries.trycloudflare.com/",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x4013518c6240eda26c2ed6d00a069dcfde308811"
+    ],
+    "first_seen": "2026-10-30T12:54:00Z",
+    "last_seen": "2026-10-30T12:54:00Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-30T12:55:40Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
