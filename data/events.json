@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 96483367,
+    "timestamp": "2026-10-31T07:08:27Z",
+    "tx_hash": "0xcdbd9c71bcfec063fbfce358f37659af4f3521419bd883a24f0b6aa77da225a3",
+    "contract": "0x2b8374e973a89a56ff864365793a14160b676624",
+    "from": "0x504efa6320d3c8f66840b65fbf05a930e258292d",
+    "selector": "0x55f804b3",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://add-often-hence-copyrights.trycloudflare.com/",
+    "old_decoded": null,
+    "new_decoded": "https://add-often-hence-copyrights.trycloudflare.com/",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96482798,
     "timestamp": "2026-10-31T06:54:13Z",
     "tx_hash": "0x9b8d91a760a665be54d0e2db4908c9f356b2bf230e2e1cadecd738afcab03001",
