@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 96489588,
+    "timestamp": "2026-10-31T09:43:58Z",
+    "tx_hash": "0xa98f7f9f9f01dfed1ee3eb12404a6bf8f705cc01722cf5cc2b1af96d826cd4af",
+    "contract": "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac",
+    "from": "0xe3a29d16ca8722d2e91975589fa23659ee8e1719",
+    "selector": "0xe5eab096",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://efreitorher.org",
+    "old_decoded": null,
+    "new_decoded": "https://efreitorher.org",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96483367,
     "timestamp": "2026-10-31T07:08:27Z",
     "tx_hash": "0xcdbd9c71bcfec063fbfce358f37659af4f3521419bd883a24f0b6aa77da225a3",

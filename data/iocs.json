@@ -2325,6 +2325,26 @@
   },
   {
     "type": "domain",
+    "value": "efreitorher.org",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-e3a29d16",
+    "chain": "polygon",
+    "contracts": [
+      "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
+    ],
+    "first_seen": "2026-10-31T09:43:58Z",
+    "last_seen": "2026-10-31T09:43:58Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-31T09:47:18Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "etokrol.lol",
     "port": null,
     "family": "c2-url",
@@ -4558,7 +4578,7 @@
     "first_seen": "2026-10-30T09:19:42Z",
     "last_seen": "2026-10-30T09:19:42Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-10-30T09:21:01Z",
     "new": true,
     "confidence": 85,
@@ -9347,8 +9367,8 @@
       "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
     ],
     "first_seen": "2026-10-22T08:41:39Z",
-    "last_seen": "2026-10-30T09:19:42Z",
-    "times_seen": 4,
+    "last_seen": "2026-10-31T09:43:58Z",
+    "times_seen": 5,
     "current": true,
     "discovered_at": "2026-10-22T08:49:42Z",
     "new": false,
@@ -12020,8 +12040,8 @@
       "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
     ],
     "first_seen": "2026-10-22T08:41:39Z",
-    "last_seen": "2026-10-30T09:19:42Z",
-    "times_seen": 4,
+    "last_seen": "2026-10-31T09:43:58Z",
+    "times_seen": 5,
     "current": true,
     "discovered_at": "2026-10-22T08:49:42Z",
     "new": false,
@@ -18298,6 +18318,26 @@
   },
   {
     "type": "url",
+    "value": "https://efreitorher.org",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-e3a29d16",
+    "chain": "polygon",
+    "contracts": [
+      "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
+    ],
+    "first_seen": "2026-10-31T09:43:58Z",
+    "last_seen": "2026-10-31T09:43:58Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-31T09:47:18Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
     "value": "https://examinations-dealtime-prostate-lottery.trycloudflare.com/",
     "port": null,
     "family": "c2-url",
@@ -18772,7 +18812,7 @@
     "first_seen": "2026-10-30T09:19:42Z",
     "last_seen": "2026-10-30T09:19:42Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-10-30T09:21:01Z",
     "new": true,
     "confidence": 85,
