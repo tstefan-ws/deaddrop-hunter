@@ -4944,6 +4944,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0x61652b3221a36a3d8e959e4c5a74ebfa0f736237",
+    "cluster_id": "c-504efa63",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x504efa6320d3c8f66840b65fbf05a930e258292d"
+    ],
+    "selectors": [
+      "0x55f804b3"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-10-31T06:54:13Z",
+    "last_seen": "2026-10-31T06:54:13Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-10-31T07:01:45Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://brother-referral-involves-cuisine.trycloudflare.com/",
+    "latest_value_decoded": "https://brother-referral-involves-cuisine.trycloudflare.com/",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x62560fd9a1c91d594cfd6badb503144ddba0c06c",
     "cluster_id": "c-504efa63",
     "family": "c2-url",

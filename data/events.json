@@ -1,5 +1,20 @@
 [
   {
+    "chain": "polygon",
+    "block": 96482798,
+    "timestamp": "2026-10-31T06:54:13Z",
+    "tx_hash": "0x9b8d91a760a665be54d0e2db4908c9f356b2bf230e2e1cadecd738afcab03001",
+    "contract": "0x61652b3221a36a3d8e959e4c5a74ebfa0f736237",
+    "from": "0x504efa6320d3c8f66840b65fbf05a930e258292d",
+    "selector": "0x55f804b3",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://brother-referral-involves-cuisine.trycloudflare.com/",
+    "old_decoded": null,
+    "new_decoded": "https://brother-referral-involves-cuisine.trycloudflare.com/",
+    "decoder": "plain"
+  },
+  {
     "chain": "bsc",
     "block": 130770632,
     "timestamp": "2026-10-31T01:40:01Z",

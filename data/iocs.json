@@ -1403,6 +1403,26 @@
   },
   {
     "type": "domain",
+    "value": "brother-referral-involves-cuisine.trycloudflare.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x61652b3221a36a3d8e959e4c5a74ebfa0f736237"
+    ],
+    "first_seen": "2026-10-31T06:54:13Z",
+    "last_seen": "2026-10-31T06:54:13Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-31T07:01:45Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "brusketaa.lol",
     "port": null,
     "family": "c2-url",
@@ -8098,6 +8118,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x61652b3221a36a3d8e959e4c5a74ebfa0f736237",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x61652b3221a36a3d8e959e4c5a74ebfa0f736237"
+    ],
+    "first_seen": "2026-10-31T06:54:13Z",
+    "last_seen": "2026-10-31T06:54:13Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-31T07:01:45Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x62560fd9a1c91d594cfd6badb503144ddba0c06c",
     "port": null,
     "family": "c2-url",
@@ -11430,6 +11470,7 @@
       "0x504867719d776f9b6123458d203612a1570340d8",
       "0x5b146e91f528e6f6def5454c7e6b2803b5182bed",
       "0x5bf32e3838c39ad74b74f3fccf7bcd8afd7a9b0c",
+      "0x61652b3221a36a3d8e959e4c5a74ebfa0f736237",
       "0x62560fd9a1c91d594cfd6badb503144ddba0c06c",
       "0x6f57fc0f9b24599894b046471e3291dd8c1a61c9",
       "0x752c8445b58f3aac2fa434ae8e7b401e9665cffb",
@@ -11450,8 +11491,8 @@
       "0xfe1fef6f7c2a0f6139364a3c73a11ba02c20abc1"
     ],
     "first_seen": "2026-10-19T20:32:54Z",
-    "last_seen": "2026-10-30T21:31:10Z",
-    "times_seen": 33,
+    "last_seen": "2026-10-31T06:54:13Z",
+    "times_seen": 34,
     "current": true,
     "discovered_at": "2026-10-19T20:38:48Z",
     "new": false,
@@ -17868,6 +17909,26 @@
     "current": false,
     "discovered_at": "2026-10-20T20:00:32Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://brother-referral-involves-cuisine.trycloudflare.com/",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-504efa63",
+    "chain": "polygon",
+    "contracts": [
+      "0x61652b3221a36a3d8e959e4c5a74ebfa0f736237"
+    ],
+    "first_seen": "2026-10-31T06:54:13Z",
+    "last_seen": "2026-10-31T06:54:13Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-10-31T07:01:45Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
