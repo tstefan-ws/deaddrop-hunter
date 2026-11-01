@@ -2412,7 +2412,7 @@
     "status": "active",
     "code_hash": "8b3029ea65d4c23d",
     "discovered_at": "2026-10-29T10:56:55Z",
-    "new": true,
+    "new": false,
     "evidence": "candidate",
     "latest_value_raw": null,
     "latest_value_decoded": null,
