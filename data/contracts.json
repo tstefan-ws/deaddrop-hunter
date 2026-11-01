@@ -4236,7 +4236,7 @@
     "status": "active",
     "code_hash": "20a0696fa16cc1ba",
     "discovered_at": "2026-10-29T04:49:51Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://34234342342rerr.beer",
     "latest_value_decoded": "https://34234342342rerr.beer",
