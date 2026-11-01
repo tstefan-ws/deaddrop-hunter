@@ -1,5 +1,20 @@
 [
   {
+    "chain": "polygon",
+    "block": 96524412,
+    "timestamp": "2026-11-01T00:14:34Z",
+    "tx_hash": "0x498ace16e3b4651b64d8e308dc96c2d864193063238225cd49ca912749882737",
+    "contract": "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c",
+    "from": "0x74075c3201074e6c9e9ebfa5362dd41426322d8a",
+    "selector": "0x08dec0e9",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://binance-com-9x8.binca.workers.dev",
+    "old_decoded": null,
+    "new_decoded": "https://binance-com-9x8.binca.workers.dev",
+    "decoder": "plain"
+  },
+  {
     "chain": "bsc",
     "block": 130949377,
     "timestamp": "2026-11-01T00:00:59Z",
