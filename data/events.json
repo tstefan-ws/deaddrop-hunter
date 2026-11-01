@@ -1,6 +1,36 @@
 [
   {
     "chain": "polygon",
+    "block": 96553942,
+    "timestamp": "2026-11-01T12:32:49Z",
+    "tx_hash": "0x5b6b3ad3ec0dc1d6642efe90b95f3bb2e977163640743df8ca85b6ee740cb463",
+    "contract": "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c",
+    "from": "0x74075c3201074e6c9e9ebfa5362dd41426322d8a",
+    "selector": "0x08dec0e9",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://binance-com-8e.binca.workers.dev",
+    "old_decoded": null,
+    "new_decoded": "https://binance-com-8e.binca.workers.dev",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
+    "block": 96553941,
+    "timestamp": "2026-11-01T12:32:48Z",
+    "tx_hash": "0x31fc77dc3ec3cffff37bed2ce8d766534e1dee4f1d21a8685c39fee9ed707185",
+    "contract": "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c",
+    "from": "0x74075c3201074e6c9e9ebfa5362dd41426322d8a",
+    "selector": "0x08dec0e9",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://binance-com-8e.binca.workers.dev",
+    "old_decoded": null,
+    "new_decoded": "https://binance-com-8e.binca.workers.dev",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96550616,
     "timestamp": "2026-11-01T11:09:40Z",
     "tx_hash": "0xe5a140ba7cc0e4cb4b131774cd253354d9b9e535a8e8680384fbce52bb338910",

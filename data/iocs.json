@@ -903,6 +903,26 @@
   },
   {
     "type": "domain",
+    "value": "binance-com-8e.binca.workers.dev",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-74075c32",
+    "chain": "polygon",
+    "contracts": [
+      "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c"
+    ],
+    "first_seen": "2026-11-01T12:32:48Z",
+    "last_seen": "2026-11-01T12:32:49Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-11-01T12:34:05Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "binance-com-8x.binca.workers.dev",
     "port": null,
     "family": "c2-url",
@@ -1494,7 +1514,7 @@
     "first_seen": "2026-11-01T11:09:40Z",
     "last_seen": "2026-11-01T11:09:40Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-11-01T11:18:57Z",
     "new": true,
     "confidence": 85,
@@ -8687,8 +8707,8 @@
       "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c"
     ],
     "first_seen": "2026-10-20T12:15:14Z",
-    "last_seen": "2026-11-01T11:09:40Z",
-    "times_seen": 50,
+    "last_seen": "2026-11-01T12:32:49Z",
+    "times_seen": 52,
     "current": true,
     "discovered_at": "2026-10-20T12:16:33Z",
     "new": false,
@@ -8711,7 +8731,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-29T12:28:08Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -12014,8 +12034,8 @@
       "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c"
     ],
     "first_seen": "2026-10-20T12:15:14Z",
-    "last_seen": "2026-11-01T11:09:40Z",
-    "times_seen": 50,
+    "last_seen": "2026-11-01T12:32:49Z",
+    "times_seen": 52,
     "current": true,
     "discovered_at": "2026-10-20T12:16:33Z",
     "new": false,
@@ -12301,7 +12321,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-29T12:28:08Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -18017,6 +18037,26 @@
   },
   {
     "type": "url",
+    "value": "https://binance-com-8e.binca.workers.dev",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-74075c32",
+    "chain": "polygon",
+    "contracts": [
+      "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c"
+    ],
+    "first_seen": "2026-11-01T12:32:48Z",
+    "last_seen": "2026-11-01T12:32:49Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-11-01T12:34:05Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
     "value": "https://binance-com-8x.binca.workers.dev",
     "port": null,
     "family": "c2-url",
@@ -18608,7 +18648,7 @@
     "first_seen": "2026-11-01T11:09:40Z",
     "last_seen": "2026-11-01T11:09:40Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-11-01T11:18:57Z",
     "new": true,
     "confidence": 85,

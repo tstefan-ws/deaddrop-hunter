@@ -793,9 +793,9 @@
     "wallets": [
       "0x74075c3201074e6c9e9ebfa5362dd41426322d8a"
     ],
-    "ioc_count": 84,
+    "ioc_count": 86,
     "first_seen": "2026-10-20T12:15:14Z",
-    "last_seen": "2026-11-01T11:09:40Z",
+    "last_seen": "2026-11-01T12:32:49Z",
     "discovered_at": "2026-10-20T12:16:33Z",
     "new": false
   },
@@ -1106,7 +1106,7 @@
     "first_seen": "2026-10-29T12:23:19Z",
     "last_seen": "2026-10-29T12:23:19Z",
     "discovered_at": "2026-10-29T12:28:08Z",
-    "new": true
+    "new": false
   },
   {
     "id": "c-d7903011",
