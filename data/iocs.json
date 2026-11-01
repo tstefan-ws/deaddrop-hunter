@@ -512,8 +512,8 @@
       "0xcda25ccb5fcfef869625a04891247ad2e73ddc7f"
     ],
     "first_seen": "2026-10-26T12:18:24Z",
-    "last_seen": "2026-10-26T12:24:47Z",
-    "times_seen": 2,
+    "last_seen": "2026-11-01T06:21:57Z",
+    "times_seen": 3,
     "current": true,
     "discovered_at": "2026-10-26T12:21:39Z",
     "new": false,
@@ -1976,7 +1976,7 @@
     "times_seen": 1,
     "current": false,
     "discovered_at": "2026-10-29T06:19:19Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -10547,8 +10547,8 @@
       "0xcda25ccb5fcfef869625a04891247ad2e73ddc7f"
     ],
     "first_seen": "2026-10-26T12:18:24Z",
-    "last_seen": "2026-10-26T12:18:24Z",
-    "times_seen": 1,
+    "last_seen": "2026-11-01T06:21:57Z",
+    "times_seen": 2,
     "current": true,
     "discovered_at": "2026-10-26T12:21:39Z",
     "new": false,
@@ -12341,8 +12341,8 @@
       "0xcda25ccb5fcfef869625a04891247ad2e73ddc7f"
     ],
     "first_seen": "2026-10-26T08:17:44Z",
-    "last_seen": "2026-10-26T12:24:47Z",
-    "times_seen": 3,
+    "last_seen": "2026-11-01T06:21:57Z",
+    "times_seen": 4,
     "current": true,
     "discovered_at": "2026-10-26T08:19:04Z",
     "new": false,
@@ -18730,7 +18730,7 @@
     "times_seen": 1,
     "current": false,
     "discovered_at": "2026-10-29T06:19:19Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}

@@ -3328,11 +3328,13 @@
     "operator_wallets": [
       "0xde2f7044c3998da85ea68c5a5d508047641189d5"
     ],
-    "selectors": [],
+    "selectors": [
+      "0x17fae8f1"
+    ],
     "decoder": "plain",
-    "update_count": 1,
+    "update_count": 2,
     "first_seen": "2026-10-26T12:18:24Z",
-    "last_seen": "2026-10-26T12:18:24Z",
+    "last_seen": "2026-11-01T06:21:57Z",
     "status": "active",
     "code_hash": "d0d72f7988d83182",
     "discovered_at": "2026-10-26T12:21:39Z",

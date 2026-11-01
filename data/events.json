@@ -1,5 +1,20 @@
 [
   {
+    "chain": "bsc",
+    "block": 131000162,
+    "timestamp": "2026-11-01T06:21:57Z",
+    "tx_hash": "0x7637cad9aeef4f32d626212e14465d0e1fce605275f5689c024120cc5713d52d",
+    "contract": "0xcda25ccb5fcfef869625a04891247ad2e73ddc7f",
+    "from": "0xde2f7044c3998da85ea68c5a5d508047641189d5",
+    "selector": "0x17fae8f1",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "berusdarkus.com/lgz/gdata",
+    "old_decoded": null,
+    "new_decoded": "berusdarkus.com/lgz/gdata",
+    "decoder": "plain"
+  },
+  {
     "chain": "polygon",
     "block": 96538125,
     "timestamp": "2026-11-01T05:57:24Z",
