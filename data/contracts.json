@@ -477,7 +477,7 @@
     "status": "active",
     "code_hash": "9f6d96ab8e459c31",
     "discovered_at": "2026-10-29T16:18:42Z",
-    "new": true,
+    "new": false,
     "evidence": "candidate",
     "latest_value_raw": null,
     "latest_value_decoded": null,
