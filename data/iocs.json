@@ -1014,7 +1014,7 @@
     "first_seen": "2026-11-01T15:23:25Z",
     "last_seen": "2026-11-01T15:23:25Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-11-01T15:25:09Z",
     "new": true,
     "confidence": 85,
@@ -1177,6 +1177,26 @@
     "current": false,
     "discovered_at": "2026-10-27T15:26:22Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "binance-com-klc.binca.workers.dev",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-74075c32",
+    "chain": "polygon",
+    "contracts": [
+      "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c"
+    ],
+    "first_seen": "2026-11-01T18:55:33Z",
+    "last_seen": "2026-11-01T18:55:33Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-01T19:03:49Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -8727,8 +8747,8 @@
       "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c"
     ],
     "first_seen": "2026-10-20T12:15:14Z",
-    "last_seen": "2026-11-01T15:23:25Z",
-    "times_seen": 53,
+    "last_seen": "2026-11-01T18:55:33Z",
+    "times_seen": 54,
     "current": true,
     "discovered_at": "2026-10-20T12:16:33Z",
     "new": false,
@@ -9871,7 +9891,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-29T19:01:13Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -11708,7 +11728,7 @@
     "times_seen": 7,
     "current": true,
     "discovered_at": "2026-10-29T19:01:13Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -12075,8 +12095,8 @@
       "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c"
     ],
     "first_seen": "2026-10-20T12:15:14Z",
-    "last_seen": "2026-11-01T15:23:25Z",
-    "times_seen": 53,
+    "last_seen": "2026-11-01T18:55:33Z",
+    "times_seen": 54,
     "current": true,
     "discovered_at": "2026-10-20T12:16:33Z",
     "new": false,
@@ -18189,7 +18209,7 @@
     "first_seen": "2026-11-01T15:23:25Z",
     "last_seen": "2026-11-01T15:23:25Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-11-01T15:25:09Z",
     "new": true,
     "confidence": 85,
@@ -18352,6 +18372,26 @@
     "current": false,
     "discovered_at": "2026-10-27T15:26:22Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://binance-com-klc.binca.workers.dev",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-74075c32",
+    "chain": "polygon",
+    "contracts": [
+      "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c"
+    ],
+    "first_seen": "2026-11-01T18:55:33Z",
+    "last_seen": "2026-11-01T18:55:33Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-01T19:03:49Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
