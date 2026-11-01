@@ -863,6 +863,26 @@
   },
   {
     "type": "domain",
+    "value": "binance-com-8x.binca.workers.dev",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-74075c32",
+    "chain": "polygon",
+    "contracts": [
+      "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c"
+    ],
+    "first_seen": "2026-11-01T02:43:18Z",
+    "last_seen": "2026-11-01T02:43:18Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-01T02:50:49Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "binance-com-9gm.binca.workers.dev",
     "port": null,
     "family": "c2-url",
@@ -1076,7 +1096,7 @@
     "times_seen": 1,
     "current": false,
     "discovered_at": "2026-10-29T02:50:08Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -1214,7 +1234,7 @@
     "first_seen": "2026-11-01T01:40:22Z",
     "last_seen": "2026-11-01T01:40:22Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-11-01T01:43:36Z",
     "new": true,
     "confidence": 85,
@@ -8587,8 +8607,8 @@
       "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c"
     ],
     "first_seen": "2026-10-20T12:15:14Z",
-    "last_seen": "2026-11-01T01:40:22Z",
-    "times_seen": 44,
+    "last_seen": "2026-11-01T02:43:18Z",
+    "times_seen": 45,
     "current": true,
     "discovered_at": "2026-10-20T12:16:33Z",
     "new": false,
@@ -11914,8 +11934,8 @@
       "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c"
     ],
     "first_seen": "2026-10-20T12:15:14Z",
-    "last_seen": "2026-11-01T01:40:22Z",
-    "times_seen": 44,
+    "last_seen": "2026-11-01T02:43:18Z",
+    "times_seen": 45,
     "current": true,
     "discovered_at": "2026-10-20T12:16:33Z",
     "new": false,
@@ -17877,6 +17897,26 @@
   },
   {
     "type": "url",
+    "value": "https://binance-com-8x.binca.workers.dev",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-74075c32",
+    "chain": "polygon",
+    "contracts": [
+      "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c"
+    ],
+    "first_seen": "2026-11-01T02:43:18Z",
+    "last_seen": "2026-11-01T02:43:18Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-01T02:50:49Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
     "value": "https://binance-com-9gm.binca.workers.dev",
     "port": null,
     "family": "c2-url",
@@ -18090,7 +18130,7 @@
     "times_seen": 1,
     "current": false,
     "discovered_at": "2026-10-29T02:50:08Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -18228,7 +18268,7 @@
     "first_seen": "2026-11-01T01:40:22Z",
     "last_seen": "2026-11-01T01:40:22Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-11-01T01:43:36Z",
     "new": true,
     "confidence": 85,
