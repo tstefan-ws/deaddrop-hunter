@@ -4961,7 +4961,7 @@
     "times_seen": 1,
     "current": false,
     "discovered_at": "2026-10-30T09:21:01Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -18138,7 +18138,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-30T09:21:01Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -19943,7 +19943,7 @@
     "times_seen": 1,
     "current": false,
     "discovered_at": "2026-10-30T09:21:01Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
