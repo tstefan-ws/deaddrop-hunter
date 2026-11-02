@@ -4882,6 +4882,35 @@
   },
   {
     "chain": "polygon",
+    "address": "0x37033c98b792a2df24d25d42f4be19750d6f84aa",
+    "cluster_id": "c-4e3a9949",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x4e3a9949461384bef2bc09ba4f2539c4c6e4eed4"
+    ],
+    "selectors": [
+      "0x721672d8"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-02T06:09:03Z",
+    "last_seen": "2026-11-02T06:09:03Z",
+    "status": "active",
+    "code_hash": "5b7d5e70c0d8a6aa",
+    "discovered_at": "2026-11-02T06:09:39Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "gm onchain — ChainGreets.xyz",
+    "latest_value_decoded": "gm onchain — ChainGreets.xyz",
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x4013518c6240eda26c2ed6d00a069dcfde308811",
     "cluster_id": "c-504efa63",
     "family": "c2-url",
