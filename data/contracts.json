@@ -656,6 +656,33 @@
   },
   {
     "chain": "bsc",
+    "address": "0x1f26939187f39242c95a9a0b7b0e0cfa349144d3",
+    "cluster_id": "c-3bfc05a8",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x3bfc05a8b9e48fdfd6a443657cac5d983b664a05"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-11-02T18:28:03Z",
+    "last_seen": "2026-11-02T18:28:03Z",
+    "status": "active",
+    "code_hash": "718350f9197ad0e9",
+    "discovered_at": "2026-11-02T18:32:17Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": null,
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
     "address": "0x207f2067625b78d089389aba8846b244f70b97f8",
     "cluster_id": "c-2d923a1c",
     "family": "unknown",
@@ -3780,6 +3807,33 @@
   },
   {
     "chain": "bsc",
+    "address": "0xe8e135ad7facfdda7b9c75ec54db715c9fe23909",
+    "cluster_id": "c-3bfc05a8",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x3bfc05a8b9e48fdfd6a443657cac5d983b664a05"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-11-02T18:27:55Z",
+    "last_seen": "2026-11-02T18:27:55Z",
+    "status": "active",
+    "code_hash": "718350f9197ad0e9",
+    "discovered_at": "2026-11-02T18:32:17Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": null,
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
     "address": "0xea7ff391324e8f1aed065a2e0d804214f36c162d",
     "cluster_id": "c-2ff0165e",
     "family": "unknown",
@@ -6202,16 +6256,16 @@
       "0xe5eab096"
     ],
     "decoder": "plain",
-    "update_count": 5,
+    "update_count": 6,
     "first_seen": "2026-10-22T08:41:39Z",
-    "last_seen": "2026-10-31T09:43:58Z",
+    "last_seen": "2026-11-02T18:31:22Z",
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-22T08:49:42Z",
     "new": false,
     "evidence": "decoded",
-    "latest_value_raw": "https://efreitorher.org",
-    "latest_value_decoded": "https://efreitorher.org",
+    "latest_value_raw": "https://yaebalciganovvjopu.org",
+    "latest_value_decoded": "https://yaebalciganovvjopu.org",
     "tags": [
       "c2",
       "url-rotation",

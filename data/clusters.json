@@ -574,6 +574,7 @@
       "0x0a26810cfe1ff4e7c7423c6927d14be9b3a60247",
       "0x10adc17bcd6e612b6419d1639a4da944f879fa2e",
       "0x11e8618fb57ae8bd5716bdeac197f8172983f5c4",
+      "0x1f26939187f39242c95a9a0b7b0e0cfa349144d3",
       "0x238f3020fb7d397069c0fd1237f1a7b275cfeb20",
       "0x291aac1a20199794de4cc50813230350353e55fa",
       "0x2ee0679612a371c946e9310139f9ba5445fd5f29",
@@ -581,6 +582,7 @@
       "0x84fd5cb77970e7f6dad832513c6b717fcc9eccd5",
       "0xb7f22f81904e1633a01d6c2a35a71488788206e8",
       "0xd4255e207dd2ee1fc8a439d20d54dfedb970b48c",
+      "0xe8e135ad7facfdda7b9c75ec54db715c9fe23909",
       "0xeb17ab2e9224e377aafdfe0de061f9e299bb1d26",
       "0xf00596acef784338e0d5a20bbc19f51ad22d7880",
       "0xf0523a893114f462d7628199a75dabb709f45089",
@@ -590,9 +592,9 @@
     "wallets": [
       "0x3bfc05a8b9e48fdfd6a443657cac5d983b664a05"
     ],
-    "ioc_count": 16,
+    "ioc_count": 18,
     "first_seen": "2026-10-22T13:41:44Z",
-    "last_seen": "2026-10-29T08:26:30Z",
+    "last_seen": "2026-11-02T18:28:03Z",
     "discovered_at": "2026-10-22T13:44:11Z",
     "new": false
   },
@@ -1324,9 +1326,9 @@
     "wallets": [
       "0xe3a29d16ca8722d2e91975589fa23659ee8e1719"
     ],
-    "ioc_count": 12,
+    "ioc_count": 14,
     "first_seen": "2026-10-22T08:41:39Z",
-    "last_seen": "2026-10-31T09:43:58Z",
+    "last_seen": "2026-11-02T18:31:22Z",
     "discovered_at": "2026-10-22T08:49:42Z",
     "new": false
   },
