@@ -4503,7 +4503,7 @@
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-30T23:41:09Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://cap.gramspin.win",
     "latest_value_decoded": "https://cap.gramspin.win",
