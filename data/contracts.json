@@ -6105,7 +6105,7 @@
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-30T20:06:42Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://occasions-yield-overall-criticism.trycloudflare.com/",
     "latest_value_decoded": "https://occasions-yield-overall-criticism.trycloudflare.com/",
