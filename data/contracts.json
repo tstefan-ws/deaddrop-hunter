@@ -1107,7 +1107,7 @@
     "status": "active",
     "code_hash": "c2a10863c9fa6c25",
     "discovered_at": "2026-10-30T03:03:03Z",
-    "new": true,
+    "new": false,
     "evidence": "candidate",
     "latest_value_raw": null,
     "latest_value_decoded": null,
