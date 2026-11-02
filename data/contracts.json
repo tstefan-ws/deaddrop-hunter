@@ -5801,7 +5801,7 @@
     "status": "active",
     "code_hash": "20a0696fa16cc1ba",
     "discovered_at": "2026-10-30T19:51:59Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://lcej-jd.cfd",
     "latest_value_decoded": "https://lcej-jd.cfd",
