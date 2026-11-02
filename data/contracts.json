@@ -6136,7 +6136,7 @@
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-30T21:38:25Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://diving-category-buildings-float.trycloudflare.com/",
     "latest_value_decoded": "https://diving-category-buildings-float.trycloudflare.com/",
