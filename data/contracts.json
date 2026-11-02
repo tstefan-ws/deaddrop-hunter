@@ -3770,7 +3770,7 @@
     "status": "active",
     "code_hash": "c2a10863c9fa6c25",
     "discovered_at": "2026-10-30T02:39:14Z",
-    "new": true,
+    "new": false,
     "evidence": "candidate",
     "latest_value_raw": null,
     "latest_value_decoded": null,
