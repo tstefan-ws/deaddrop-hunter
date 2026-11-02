@@ -6047,7 +6047,7 @@
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-30T18:45:48Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://product-get-flour-glance.trycloudflare.com/",
     "latest_value_decoded": "https://product-get-flour-glance.trycloudflare.com/",
