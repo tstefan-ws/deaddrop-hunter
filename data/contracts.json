@@ -4758,7 +4758,7 @@
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-30T19:22:41Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://examinations-dealtime-prostate-lottery.trycloudflare.com/",
     "latest_value_decoded": "https://examinations-dealtime-prostate-lottery.trycloudflare.com/",
