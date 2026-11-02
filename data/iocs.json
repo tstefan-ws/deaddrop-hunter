@@ -20123,7 +20123,7 @@
     "times_seen": 1,
     "current": false,
     "discovered_at": "2026-10-30T14:22:40Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
