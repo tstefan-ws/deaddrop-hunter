@@ -5226,7 +5226,7 @@
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-30T20:22:06Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://devoted-physician-advertisers-epa.trycloudflare.com/",
     "latest_value_decoded": "https://devoted-physician-advertisers-epa.trycloudflare.com/",
