@@ -6775,7 +6775,7 @@
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-30T12:27:13Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://satisfy-calcium-montreal-glucose.trycloudflare.com/",
     "latest_value_decoded": "https://satisfy-calcium-montreal-glucose.trycloudflare.com/",
