@@ -1,5 +1,20 @@
 [
   {
+    "chain": "polygon",
+    "block": 96618274,
+    "timestamp": "2026-11-02T15:21:07Z",
+    "tx_hash": "0xb9043b829b342bb45e278801615865315107cccaed78f4502eb645dd6585aa98",
+    "contract": "0x84ef485c1d8f3ca1880d0a7ab045d924cf5ac88e",
+    "from": "0xde2f7044c3998da85ea68c5a5d508047641189d5",
+    "selector": "0x17fae8f1",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "ugumatzinago.com/lgz/gdata",
+    "old_decoded": null,
+    "new_decoded": "ugumatzinago.com/lgz/gdata",
+    "decoder": "plain"
+  },
+  {
     "chain": "bsc",
     "block": 131248245,
     "timestamp": "2026-11-02T13:23:06Z",

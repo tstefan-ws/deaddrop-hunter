@@ -5768,18 +5768,20 @@
     "operator_wallets": [
       "0xde2f7044c3998da85ea68c5a5d508047641189d5"
     ],
-    "selectors": [],
+    "selectors": [
+      "0x17fae8f1"
+    ],
     "decoder": "plain",
-    "update_count": 1,
+    "update_count": 2,
     "first_seen": "2026-10-26T12:24:47Z",
-    "last_seen": "2026-10-26T12:24:47Z",
+    "last_seen": "2026-11-02T15:21:07Z",
     "status": "active",
     "code_hash": "d0d72f7988d83182",
     "discovered_at": "2026-10-26T12:29:26Z",
     "new": false,
     "evidence": "decoded",
-    "latest_value_raw": "berusdarkus.com/lgz/gdata",
-    "latest_value_decoded": "berusdarkus.com/lgz/gdata",
+    "latest_value_raw": "ugumatzinago.com/lgz/gdata",
+    "latest_value_decoded": "ugumatzinago.com/lgz/gdata",
     "tags": [
       "config-on-chain"
     ]
@@ -6394,7 +6396,7 @@
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-30T15:02:16Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://yours-driver-strings-peace.trycloudflare.com/",
     "latest_value_decoded": "https://yours-driver-strings-peace.trycloudflare.com/",
