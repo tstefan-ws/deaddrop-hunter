@@ -5344,7 +5344,7 @@
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-30T19:32:09Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://ste-responsibilities-sunset-resort.trycloudflare.com/",
     "latest_value_decoded": "https://ste-responsibilities-sunset-resort.trycloudflare.com/",
