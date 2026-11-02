@@ -338,11 +338,12 @@
     "label": "Operator (auto-detected)",
     "cluster_id": "c-456d0cc3",
     "contracts": [
+      "0x1b4e0c2eadf89c6b42cf5dda1b7129f92bc582eb",
       "0x7cd657bef077487ba1d2e1e12ef18857ceaf8a37"
     ],
-    "tx_count": 1,
+    "tx_count": 2,
     "first_seen": "2026-11-02T03:18:41Z",
-    "last_seen": "2026-11-02T03:18:41Z",
+    "last_seen": "2026-11-02T04:57:59Z",
     "watched": false,
     "funded_by": []
   },
