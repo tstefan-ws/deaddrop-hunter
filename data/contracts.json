@@ -5836,7 +5836,7 @@
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-30T14:02:21Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://ruby-recorder-sisters-tire.trycloudflare.com/",
     "latest_value_decoded": "https://ruby-recorder-sisters-tire.trycloudflare.com/",
