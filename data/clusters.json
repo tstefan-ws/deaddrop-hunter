@@ -1252,8 +1252,8 @@
   },
   {
     "id": "c-de2f7044",
-    "name": "Unclassified dead-drop cluster (c-de2f7044)",
-    "family": "unknown",
+    "name": "C2 URL rotation cluster (c-de2f7044)",
+    "family": "c2-url",
     "chains": [
       "bsc",
       "polygon"
@@ -1266,9 +1266,9 @@
     "wallets": [
       "0xde2f7044c3998da85ea68c5a5d508047641189d5"
     ],
-    "ioc_count": 7,
+    "ioc_count": 9,
     "first_seen": "2026-10-26T08:17:44Z",
-    "last_seen": "2026-11-02T15:21:07Z",
+    "last_seen": "2026-11-02T15:52:40Z",
     "discovered_at": "2026-10-26T08:19:04Z",
     "new": false
   },

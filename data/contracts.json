@@ -5761,7 +5761,7 @@
     "chain": "polygon",
     "address": "0x84ef485c1d8f3ca1880d0a7ab045d924cf5ac88e",
     "cluster_id": "c-de2f7044",
-    "family": "unknown",
+    "family": "c2-url",
     "hunt_ids": [
       "block-watch"
     ],
@@ -5772,17 +5772,19 @@
       "0x17fae8f1"
     ],
     "decoder": "plain",
-    "update_count": 2,
+    "update_count": 3,
     "first_seen": "2026-10-26T12:24:47Z",
-    "last_seen": "2026-11-02T15:21:07Z",
+    "last_seen": "2026-11-02T15:52:40Z",
     "status": "active",
     "code_hash": "d0d72f7988d83182",
     "discovered_at": "2026-10-26T12:29:26Z",
     "new": false,
     "evidence": "decoded",
-    "latest_value_raw": "ugumatzinago.com/lgz/gdata",
-    "latest_value_decoded": "ugumatzinago.com/lgz/gdata",
+    "latest_value_raw": "http://yeezytiger.com:8443|10b78d0f210c6911",
+    "latest_value_decoded": "http://yeezytiger.com:8443|10b78d0f210c6911",
     "tags": [
+      "c2",
+      "url-rotation",
       "config-on-chain"
     ]
   },

@@ -6335,7 +6335,7 @@
     "type": "domain",
     "value": "ugumatzinago.com",
     "port": null,
-    "family": "unknown",
+    "family": "c2-url",
     "cluster_id": "c-de2f7044",
     "chain": "polygon",
     "contracts": [
@@ -6344,7 +6344,7 @@
     "first_seen": "2026-11-02T15:21:07Z",
     "last_seen": "2026-11-02T15:21:07Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-11-02T15:37:53Z",
     "new": true,
     "confidence": 50,
@@ -6654,6 +6654,26 @@
     "discovered_at": "2026-10-19T20:00:00Z",
     "new": false,
     "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "yeezytiger.com",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de2f7044",
+    "chain": "polygon",
+    "contracts": [
+      "0x84ef485c1d8f3ca1880d0a7ab045d924cf5ac88e"
+    ],
+    "first_seen": "2026-11-02T15:52:40Z",
+    "last_seen": "2026-11-02T15:52:40Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-02T15:59:00Z",
+    "new": true,
+    "confidence": 85,
     "dual_use": false,
     "enrichment": {}
   },
@@ -9401,15 +9421,15 @@
     "type": "evm-contract",
     "value": "0x84ef485c1d8f3ca1880d0a7ab045d924cf5ac88e",
     "port": null,
-    "family": "unknown",
+    "family": "c2-url",
     "cluster_id": "c-de2f7044",
     "chain": "polygon",
     "contracts": [
       "0x84ef485c1d8f3ca1880d0a7ab045d924cf5ac88e"
     ],
     "first_seen": "2026-10-26T12:24:47Z",
-    "last_seen": "2026-11-02T15:21:07Z",
-    "times_seen": 2,
+    "last_seen": "2026-11-02T15:52:40Z",
+    "times_seen": 3,
     "current": true,
     "discovered_at": "2026-10-26T12:29:26Z",
     "new": false,
@@ -12820,7 +12840,7 @@
     "type": "evm-wallet",
     "value": "0xde2f7044c3998da85ea68c5a5d508047641189d5",
     "port": null,
-    "family": "unknown",
+    "family": "c2-url",
     "cluster_id": "c-de2f7044",
     "chain": "bsc",
     "contracts": [
@@ -12829,8 +12849,8 @@
       "0xcda25ccb5fcfef869625a04891247ad2e73ddc7f"
     ],
     "first_seen": "2026-10-26T08:17:44Z",
-    "last_seen": "2026-11-02T15:21:07Z",
-    "times_seen": 5,
+    "last_seen": "2026-11-02T15:52:40Z",
+    "times_seen": 6,
     "current": true,
     "discovered_at": "2026-10-26T08:19:04Z",
     "new": false,
@@ -18200,6 +18220,26 @@
     "discovered_at": "2026-04-14T13:29:43Z",
     "new": false,
     "confidence": 75,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "http://yeezytiger.com:8443|10b78d0f210c6911",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de2f7044",
+    "chain": "polygon",
+    "contracts": [
+      "0x84ef485c1d8f3ca1880d0a7ab045d924cf5ac88e"
+    ],
+    "first_seen": "2026-11-02T15:52:40Z",
+    "last_seen": "2026-11-02T15:52:40Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-02T15:59:00Z",
+    "new": true,
+    "confidence": 85,
     "dual_use": false,
     "enrichment": {}
   },
