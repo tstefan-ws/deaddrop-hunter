@@ -275,7 +275,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-30T12:55:40Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -8092,7 +8092,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-30T12:55:40Z",
-    "new": true,
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -10499,6 +10499,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0xb8fe068c75007a0ae91a92a8b7248a285f97ee14",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-ea7de73e",
+    "chain": "bsc",
+    "contracts": [
+      "0xb8fe068c75007a0ae91a92a8b7248a285f97ee14"
+    ],
+    "first_seen": "2026-11-02T13:16:29Z",
+    "last_seen": "2026-11-02T13:16:29Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-02T13:17:03Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0xb909956b9d716ddfdf6935115a8d6f6cb2e655c6",
     "port": null,
     "family": "c2-url",
@@ -12815,6 +12835,26 @@
     "discovered_at": "2026-10-22T08:49:42Z",
     "new": false,
     "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0xea7de73ef512cfd4f4f195218f0d1372a58e0d84",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-ea7de73e",
+    "chain": "bsc",
+    "contracts": [
+      "0xb8fe068c75007a0ae91a92a8b7248a285f97ee14"
+    ],
+    "first_seen": "2026-11-02T13:16:29Z",
+    "last_seen": "2026-11-02T13:16:29Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-02T13:17:03Z",
+    "new": true,
+    "confidence": 55,
     "dual_use": false,
     "enrichment": {}
   },
@@ -18198,7 +18238,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-10-30T12:55:40Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}

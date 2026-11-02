@@ -3099,6 +3099,33 @@
   },
   {
     "chain": "bsc",
+    "address": "0xb8fe068c75007a0ae91a92a8b7248a285f97ee14",
+    "cluster_id": "c-ea7de73e",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xea7de73ef512cfd4f4f195218f0d1372a58e0d84"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-11-02T13:16:29Z",
+    "last_seen": "2026-11-02T13:16:29Z",
+    "status": "active",
+    "code_hash": "6bc39bc7af52b4e2",
+    "discovered_at": "2026-11-02T13:17:03Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": null,
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
     "address": "0xba93dff6f2d5fd4d4a46e1bbd3605c693dfcb826",
     "cluster_id": "c-381a689b",
     "family": "unknown",
@@ -4930,7 +4957,7 @@
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-30T12:55:40Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://arrival-friends-festival-queries.trycloudflare.com/",
     "latest_value_decoded": "https://arrival-friends-festival-queries.trycloudflare.com/",
