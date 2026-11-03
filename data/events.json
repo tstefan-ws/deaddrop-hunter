@@ -1,5 +1,20 @@
 [
   {
+    "chain": "polygon",
+    "block": 96659708,
+    "timestamp": "2026-11-03T08:36:58Z",
+    "tx_hash": "0x4df84def3c1d4947d03421e17d4242db762a2da1c786d0f1d00a598866b35ac3",
+    "contract": "0xb909956b9d716ddfdf6935115a8d6f6cb2e655c6",
+    "from": "0x36f570d15d4317df2aba6b563cbb55223fe07d53",
+    "selector": "0xe1ad7699",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://checkogosdfg33.cc;https://ubbrobccheck20.cc",
+    "old_decoded": null,
+    "new_decoded": "https://checkogosdfg33.cc;https://ubbrobccheck20.cc",
+    "decoder": "plain"
+  },
+  {
     "chain": "bsc",
     "block": 131352397,
     "timestamp": "2026-11-03T02:24:24Z",

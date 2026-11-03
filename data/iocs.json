@@ -10648,8 +10648,8 @@
       "0xb909956b9d716ddfdf6935115a8d6f6cb2e655c6"
     ],
     "first_seen": "2026-10-29T17:30:10Z",
-    "last_seen": "2026-10-29T17:30:13Z",
-    "times_seen": 2,
+    "last_seen": "2026-11-03T08:36:58Z",
+    "times_seen": 3,
     "current": true,
     "discovered_at": "2026-10-29T17:35:58Z",
     "new": false,
@@ -12273,8 +12273,8 @@
       "0xb909956b9d716ddfdf6935115a8d6f6cb2e655c6"
     ],
     "first_seen": "2026-10-29T17:30:10Z",
-    "last_seen": "2026-10-29T17:30:13Z",
-    "times_seen": 2,
+    "last_seen": "2026-11-03T08:36:58Z",
+    "times_seen": 3,
     "current": true,
     "discovered_at": "2026-10-29T17:35:58Z",
     "new": false,
@@ -19570,6 +19570,26 @@
   },
   {
     "type": "url",
+    "value": "https://checkogosdfg33.cc;https://ubbrobccheck20.cc",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-36f570d1",
+    "chain": "polygon",
+    "contracts": [
+      "0xb909956b9d716ddfdf6935115a8d6f6cb2e655c6"
+    ],
+    "first_seen": "2026-11-03T08:36:58Z",
+    "last_seen": "2026-11-03T08:36:58Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-03T08:41:47Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
     "value": "https://ciganshina.org",
     "port": null,
     "family": "c2-url",
@@ -20690,7 +20710,7 @@
     "first_seen": "2026-10-29T17:30:10Z",
     "last_seen": "2026-10-29T17:30:13Z",
     "times_seen": 2,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-10-29T17:35:58Z",
     "new": false,
     "confidence": 85,
