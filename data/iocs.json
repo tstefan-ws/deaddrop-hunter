@@ -9579,6 +9579,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x88247c04ba1d73b0712d5e87932bb777cb9f1d03",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-1d2d4cf5",
+    "chain": "bsc",
+    "contracts": [
+      "0x88247c04ba1d73b0712d5e87932bb777cb9f1d03"
+    ],
+    "first_seen": "2026-11-03T20:29:16Z",
+    "last_seen": "2026-11-03T20:29:16Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-03T20:31:03Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x882d249195eb207c5e9025e93f8e6e0cf6e8ccbb",
     "port": null,
     "family": "unknown",
@@ -10648,8 +10668,8 @@
       "0xb909956b9d716ddfdf6935115a8d6f6cb2e655c6"
     ],
     "first_seen": "2026-10-29T17:30:10Z",
-    "last_seen": "2026-11-03T08:36:58Z",
-    "times_seen": 3,
+    "last_seen": "2026-11-03T20:28:09Z",
+    "times_seen": 4,
     "current": true,
     "discovered_at": "2026-10-29T17:35:58Z",
     "new": false,
@@ -12013,6 +12033,26 @@
   },
   {
     "type": "evm-wallet",
+    "value": "0x1d2d4cf5633e0036e6106a55a05d9f41001aa7c6",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-1d2d4cf5",
+    "chain": "bsc",
+    "contracts": [
+      "0x88247c04ba1d73b0712d5e87932bb777cb9f1d03"
+    ],
+    "first_seen": "2026-11-03T20:29:16Z",
+    "last_seen": "2026-11-03T20:29:16Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-03T20:31:03Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
     "value": "0x1d6b27cb2272bd2f3a4e57784a3b42c54c2f1a54",
     "port": null,
     "family": "unknown",
@@ -12273,8 +12313,8 @@
       "0xb909956b9d716ddfdf6935115a8d6f6cb2e655c6"
     ],
     "first_seen": "2026-10-29T17:30:10Z",
-    "last_seen": "2026-11-03T08:36:58Z",
-    "times_seen": 3,
+    "last_seen": "2026-11-03T20:28:09Z",
+    "times_seen": 4,
     "current": true,
     "discovered_at": "2026-10-29T17:35:58Z",
     "new": false,
@@ -19867,6 +19907,26 @@
     "current": true,
     "discovered_at": "2026-10-30T08:35:16Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://govrobczxc.cc;https://ubbrobccheck20.cc",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-36f570d1",
+    "chain": "polygon",
+    "contracts": [
+      "0xb909956b9d716ddfdf6935115a8d6f6cb2e655c6"
+    ],
+    "first_seen": "2026-11-03T20:28:09Z",
+    "last_seen": "2026-11-03T20:28:09Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-03T20:31:03Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}

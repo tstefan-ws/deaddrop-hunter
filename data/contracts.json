@@ -2422,6 +2422,33 @@
   },
   {
     "chain": "bsc",
+    "address": "0x88247c04ba1d73b0712d5e87932bb777cb9f1d03",
+    "cluster_id": "c-1d2d4cf5",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x1d2d4cf5633e0036e6106a55a05d9f41001aa7c6"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-11-03T20:29:16Z",
+    "last_seen": "2026-11-03T20:29:16Z",
+    "status": "active",
+    "code_hash": "8f3b625c0b54cf59",
+    "discovered_at": "2026-11-03T20:31:03Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
     "address": "0x882d249195eb207c5e9025e93f8e6e0cf6e8ccbb",
     "cluster_id": "c-a07f7cab",
     "family": "unknown",
@@ -6739,16 +6766,16 @@
       "0xe1ad7699"
     ],
     "decoder": "plain",
-    "update_count": 3,
+    "update_count": 4,
     "first_seen": "2026-10-29T17:30:10Z",
-    "last_seen": "2026-11-03T08:36:58Z",
+    "last_seen": "2026-11-03T20:28:09Z",
     "status": "active",
     "code_hash": "0b5a11a496727aba",
     "discovered_at": "2026-10-29T17:35:58Z",
     "new": false,
     "evidence": "decoded",
-    "latest_value_raw": "https://checkogosdfg33.cc;https://ubbrobccheck20.cc",
-    "latest_value_decoded": "https://checkogosdfg33.cc;https://ubbrobccheck20.cc",
+    "latest_value_raw": "https://govrobczxc.cc;https://ubbrobccheck20.cc",
+    "latest_value_decoded": "https://govrobczxc.cc;https://ubbrobccheck20.cc",
     "tags": [
       "c2",
       "url-rotation",
