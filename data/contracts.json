@@ -4989,7 +4989,7 @@
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-31T07:11:17Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://add-often-hence-copyrights.trycloudflare.com/",
     "latest_value_decoded": "https://add-often-hence-copyrights.trycloudflare.com/",
