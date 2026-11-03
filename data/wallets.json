@@ -82,11 +82,13 @@
     "label": "Deployer (auto-detected)",
     "cluster_id": "c-06919142",
     "contracts": [
+      "0x772ccb85d419c6115ee252feff2ef6fab8a98344",
+      "0xd4df09856d71d9f7ac7dc7a658fd36d7288c531a",
       "0xe0afb68d022ef1d3bbd5fcd30ef0e54ffc694e6e"
     ],
-    "tx_count": 1,
+    "tx_count": 3,
     "first_seen": "2026-11-02T13:23:06Z",
-    "last_seen": "2026-11-02T13:23:06Z",
+    "last_seen": "2026-11-03T02:24:24Z",
     "watched": false,
     "funded_by": []
   },

@@ -9259,6 +9259,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x772ccb85d419c6115ee252feff2ef6fab8a98344",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-06919142",
+    "chain": "bsc",
+    "contracts": [
+      "0x772ccb85d419c6115ee252feff2ef6fab8a98344"
+    ],
+    "first_seen": "2026-11-03T02:24:24Z",
+    "last_seen": "2026-11-03T02:24:24Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-03T02:25:30Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x7943cda9820a8ec9239a7f46f69345fee9fdfcd2",
     "port": null,
     "family": "c2-url",
@@ -11099,6 +11119,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0xd4df09856d71d9f7ac7dc7a658fd36d7288c531a",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-06919142",
+    "chain": "bsc",
+    "contracts": [
+      "0xd4df09856d71d9f7ac7dc7a658fd36d7288c531a"
+    ],
+    "first_seen": "2026-11-03T02:24:22Z",
+    "last_seen": "2026-11-03T02:24:22Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-03T02:25:30Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0xd4e614427be3ae44653c1421de2b7696a997d0fa",
     "port": null,
     "family": "unknown",
@@ -11806,11 +11846,13 @@
     "cluster_id": "c-06919142",
     "chain": "bsc",
     "contracts": [
+      "0x772ccb85d419c6115ee252feff2ef6fab8a98344",
+      "0xd4df09856d71d9f7ac7dc7a658fd36d7288c531a",
       "0xe0afb68d022ef1d3bbd5fcd30ef0e54ffc694e6e"
     ],
     "first_seen": "2026-11-02T13:23:06Z",
-    "last_seen": "2026-11-02T13:23:06Z",
-    "times_seen": 1,
+    "last_seen": "2026-11-03T02:24:24Z",
+    "times_seen": 3,
     "current": true,
     "discovered_at": "2026-11-02T13:27:35Z",
     "new": true,
