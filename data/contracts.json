@@ -5514,7 +5514,7 @@
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-31T07:01:45Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://brother-referral-involves-cuisine.trycloudflare.com/",
     "latest_value_decoded": "https://brother-referral-involves-cuisine.trycloudflare.com/",
