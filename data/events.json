@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 96749649,
+    "timestamp": "2026-11-04T22:05:30Z",
+    "tx_hash": "0x19cf486999bcac1eef76aea99e3d247756d521ef3b9814512e16cc669eb78790",
+    "contract": "0xb29927b7d854b232d5e58cfc201866376e68c676",
+    "from": "0xd7d0b350291ea7c16dc864563bc1bcaea0fb0949",
+    "selector": "0xe1ad7699",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://govrobczxc.cc;https://fudcomcheck.art",
+    "old_decoded": null,
+    "new_decoded": "https://govrobczxc.cc;https://fudcomcheck.art",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96747507,
     "timestamp": "2026-11-04T21:11:57Z",
     "tx_hash": "0xa0e1fd80c09a2a6ee1b879e05558d44ff9a7f1d70fad5d7d54de68719886b70b",
