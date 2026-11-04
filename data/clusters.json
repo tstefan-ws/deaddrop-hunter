@@ -522,9 +522,9 @@
     "wallets": [
       "0x36f570d15d4317df2aba6b563cbb55223fe07d53"
     ],
-    "ioc_count": 5,
+    "ioc_count": 6,
     "first_seen": "2026-10-29T17:30:10Z",
-    "last_seen": "2026-11-03T20:28:09Z",
+    "last_seen": "2026-11-04T19:49:58Z",
     "discovered_at": "2026-10-29T17:35:58Z",
     "new": false
   },
@@ -1270,9 +1270,9 @@
     "wallets": [
       "0xd7d0b350291ea7c16dc864563bc1bcaea0fb0949"
     ],
-    "ioc_count": 7,
+    "ioc_count": 8,
     "first_seen": "2026-10-20T05:17:32Z",
-    "last_seen": "2026-11-03T08:42:09Z",
+    "last_seen": "2026-11-04T19:50:00Z",
     "discovered_at": "2026-10-20T05:24:20Z",
     "new": false
   },
