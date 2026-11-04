@@ -1024,6 +1024,21 @@
   },
   {
     "chain": "polygon",
+    "address": "0x6a6e177dcf992ac16f7367c14b26a3cf4775dfde",
+    "role": "operator",
+    "label": "Operator (auto-detected)",
+    "cluster_id": "c-6a6e177d",
+    "contracts": [
+      "0xe6fca57ea455d63cbda0ccc10f5fdfbb52579775"
+    ],
+    "tx_count": 1,
+    "first_seen": "2026-11-04T21:11:57Z",
+    "last_seen": "2026-11-04T21:11:57Z",
+    "watched": false,
+    "funded_by": []
+  },
+  {
+    "chain": "polygon",
     "address": "0x6fcaca5958193e48da350f568c28f034a9632454",
     "role": "operator",
     "label": "Funder of the URL-resolver operator",
