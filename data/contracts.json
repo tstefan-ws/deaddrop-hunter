@@ -5306,7 +5306,7 @@
     "status": "active",
     "code_hash": "5b7d5e70c0d8a6aa",
     "discovered_at": "2026-11-02T06:09:39Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "gm onchain — ChainGreets.xyz",
     "latest_value_decoded": "gm onchain — ChainGreets.xyz",
