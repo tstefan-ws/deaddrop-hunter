@@ -589,7 +589,7 @@
     "status": "active",
     "code_hash": "893997a6b58f550b",
     "discovered_at": "2026-11-02T04:57:38Z",
-    "new": true,
+    "new": false,
     "evidence": "candidate",
     "latest_value_raw": null,
     "latest_value_decoded": null,
@@ -1868,6 +1868,33 @@
     "code_hash": "1fd1c55b16afe3fe",
     "discovered_at": "2026-10-29T19:09:38Z",
     "new": false,
+    "evidence": "candidate",
+    "latest_value_raw": null,
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
+    "address": "0x64110b3bb01da85fbf547e2b7cb2e2c27a835726",
+    "cluster_id": "c-3bfc05a8",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x3bfc05a8b9e48fdfd6a443657cac5d983b664a05"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-11-05T05:05:22Z",
+    "last_seen": "2026-11-05T05:05:22Z",
+    "status": "active",
+    "code_hash": "718350f9197ad0e9",
+    "discovered_at": "2026-11-05T05:06:12Z",
+    "new": true,
     "evidence": "candidate",
     "latest_value_raw": null,
     "latest_value_decoded": null,
@@ -4013,6 +4040,33 @@
     "status": "active",
     "code_hash": "2ccadd548e632047",
     "discovered_at": "2026-11-02T13:27:35Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": null,
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
+    "address": "0xe21ed54fc673f402a53350753224ff6bc758f7a4",
+    "cluster_id": "c-3bfc05a8",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x3bfc05a8b9e48fdfd6a443657cac5d983b664a05"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-11-05T05:05:28Z",
+    "last_seen": "2026-11-05T05:05:28Z",
+    "status": "active",
+    "code_hash": "718350f9197ad0e9",
+    "discovered_at": "2026-11-05T05:06:12Z",
     "new": true,
     "evidence": "candidate",
     "latest_value_raw": null,
