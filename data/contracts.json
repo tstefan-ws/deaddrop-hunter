@@ -2466,7 +2466,7 @@
     "status": "active",
     "code_hash": "e8c0b064d7b328d3",
     "discovered_at": "2026-11-02T00:03:12Z",
-    "new": true,
+    "new": false,
     "evidence": "candidate",
     "latest_value_raw": null,
     "latest_value_decoded": null,
@@ -3528,6 +3528,33 @@
     "new": false,
     "evidence": "candidate",
     "latest_value_raw": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
+    "address": "0xc80217de2b14072b6b1746c04c6b79986a8154c1",
+    "cluster_id": "c-a07f7cab",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xa07f7cab3d79c52fb317b3f1d4918e2e9720c053"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-11-05T00:01:00Z",
+    "last_seen": "2026-11-05T00:01:00Z",
+    "status": "active",
+    "code_hash": "e8c0b064d7b328d3",
+    "discovered_at": "2026-11-05T00:06:47Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": null,
     "latest_value_decoded": null,
     "tags": [
       "config-on-chain"
