@@ -3305,7 +3305,7 @@
     "status": "active",
     "code_hash": "6bc39bc7af52b4e2",
     "discovered_at": "2026-11-02T13:17:03Z",
-    "new": true,
+    "new": false,
     "evidence": "candidate",
     "latest_value_raw": null,
     "latest_value_decoded": null,
@@ -4067,7 +4067,7 @@
     "status": "active",
     "code_hash": "2ccadd548e632047",
     "discovered_at": "2026-11-02T13:27:35Z",
-    "new": true,
+    "new": false,
     "evidence": "candidate",
     "latest_value_raw": null,
     "latest_value_decoded": null,
@@ -6410,6 +6410,33 @@
   },
   {
     "chain": "polygon",
+    "address": "0x9aa644da01e8b6cdfca5d73b9eb7ae0225ed5a02",
+    "cluster_id": "c-8f7c8e52",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x8f7c8e524eeac9e93d212f57778e0b8ee46cd836"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-11-05T15:02:03Z",
+    "last_seen": "2026-11-05T15:02:03Z",
+    "status": "active",
+    "code_hash": "8121bb52c9545d0a",
+    "discovered_at": "2026-11-05T15:23:50Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": null,
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x9bc5225806e2e7cfc9b0d25be97c7fe8ffc71cef",
     "cluster_id": "c-504efa63",
     "family": "c2-url",
@@ -7214,6 +7241,33 @@
     "new": true,
     "evidence": "candidate",
     "latest_value_raw": "0x6c91d99663632f8cc10a78044b7a3ae8e628292945a7456a2bd29b833b3f318dd2166103022167ebed2a6f235eb90b2b7a80cf822f2320df95522141",
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0xe7aca2d4eb1c1da5d31383a82d3aa94d539b4d5e",
+    "cluster_id": "c-8f7c8e52",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x8f7c8e524eeac9e93d212f57778e0b8ee46cd836"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-11-05T15:02:00Z",
+    "last_seen": "2026-11-05T15:02:00Z",
+    "status": "active",
+    "code_hash": "8121bb52c9545d0a",
+    "discovered_at": "2026-11-05T15:23:50Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": null,
     "latest_value_decoded": null,
     "tags": [
       "config-on-chain"
