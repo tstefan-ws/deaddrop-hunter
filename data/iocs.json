@@ -9059,6 +9059,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x67893d8b782cd742adf927ec906be04f1d3fa605",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-d9976a9b",
+    "chain": "bsc",
+    "contracts": [
+      "0x67893d8b782cd742adf927ec906be04f1d3fa605"
+    ],
+    "first_seen": "2026-11-05T19:35:18Z",
+    "last_seen": "2026-11-05T19:35:18Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-05T19:40:33Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x67eb75133fb7e91342426b26b300ef834553bdc0",
     "port": null,
     "family": "unknown",
@@ -9754,6 +9774,26 @@
     "discovered_at": "2026-10-20T20:57:38Z",
     "new": false,
     "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x8e073c06d856852434c5acd611cd1b25010d2dc2",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-d9976a9b",
+    "chain": "polygon",
+    "contracts": [
+      "0x8e073c06d856852434c5acd611cd1b25010d2dc2"
+    ],
+    "first_seen": "2026-11-05T19:39:09Z",
+    "last_seen": "2026-11-05T19:39:09Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-05T19:40:33Z",
+    "new": true,
+    "confidence": 55,
     "dual_use": false,
     "enrichment": {}
   },
@@ -13284,6 +13324,27 @@
     "discovered_at": "2026-10-20T05:24:20Z",
     "new": false,
     "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0xd9976a9b447334c2c63af1bf34db87dc9a2d5bc4",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-d9976a9b",
+    "chain": "bsc",
+    "contracts": [
+      "0x67893d8b782cd742adf927ec906be04f1d3fa605",
+      "0x8e073c06d856852434c5acd611cd1b25010d2dc2"
+    ],
+    "first_seen": "2026-11-05T19:35:18Z",
+    "last_seen": "2026-11-05T19:39:09Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-11-05T19:40:33Z",
+    "new": true,
+    "confidence": 55,
     "dual_use": false,
     "enrichment": {}
   },
