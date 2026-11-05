@@ -6712,7 +6712,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-02T15:59:00Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -18730,7 +18730,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-02T15:59:00Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
