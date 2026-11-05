@@ -6346,7 +6346,7 @@
     "times_seen": 1,
     "current": false,
     "discovered_at": "2026-11-02T15:37:53Z",
-    "new": true,
+    "new": false,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
