@@ -1248,12 +1248,14 @@
     "label": "Deployer (auto-detected)",
     "cluster_id": "c-d9976a9b",
     "contracts": [
+      "0x35d09738eff29d0b96d012aa4a4dc1e279421816",
       "0x67893d8b782cd742adf927ec906be04f1d3fa605",
+      "0x7ed043ed152a678580b035e376b6043da7267125",
       "0x8e073c06d856852434c5acd611cd1b25010d2dc2"
     ],
-    "tx_count": 2,
+    "tx_count": 4,
     "first_seen": "2026-11-05T19:39:09Z",
-    "last_seen": "2026-11-05T19:50:15Z",
+    "last_seen": "2026-11-05T19:57:06Z",
     "watched": false,
     "funded_by": []
   },
