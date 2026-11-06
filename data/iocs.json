@@ -20278,7 +20278,7 @@
     "times_seen": 2,
     "current": false,
     "discovered_at": "2026-11-03T08:41:47Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
