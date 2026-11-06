@@ -6182,6 +6182,38 @@
   },
   {
     "chain": "polygon",
+    "address": "0x7aa394053686e598271fc1987f837e52d43e1d02",
+    "cluster_id": "c-e284e47c",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xe284e47cae6a411742d4c02e857320e13cb80c0a"
+    ],
+    "selectors": [
+      "0x252498a2",
+      "0x5600f04f"
+    ],
+    "decoder": "plain",
+    "update_count": 2,
+    "first_seen": "2026-11-06T00:43:22Z",
+    "last_seen": "2026-11-06T00:44:31Z",
+    "status": "active",
+    "code_hash": "9c89119d2845cd26",
+    "discovered_at": "2026-11-06T00:52:23Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://downlua.top/32b20813940dcc6716951719442c92216a9e7e99",
+    "latest_value_decoded": "https://downlua.top/32b20813940dcc6716951719442c92216a9e7e99",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x7e074db3c0830ba686d805fc7510b5500e006d6e",
     "cluster_id": "c-dfc755ab",
     "family": "unknown",

@@ -2586,6 +2586,26 @@
   },
   {
     "type": "domain",
+    "value": "downlua.top",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-e284e47c",
+    "chain": "polygon",
+    "contracts": [
+      "0x7aa394053686e598271fc1987f837e52d43e1d02"
+    ],
+    "first_seen": "2026-11-06T00:43:22Z",
+    "last_seen": "2026-11-06T00:44:31Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-11-06T00:52:23Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "drum.jumpskyhigh.com",
     "port": null,
     "family": "c2-url",
@@ -9459,6 +9479,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x7aa394053686e598271fc1987f837e52d43e1d02",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-e284e47c",
+    "chain": "polygon",
+    "contracts": [
+      "0x7aa394053686e598271fc1987f837e52d43e1d02"
+    ],
+    "first_seen": "2026-11-06T00:43:22Z",
+    "last_seen": "2026-11-06T00:44:31Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-11-06T00:52:23Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x7bb1cb1afd545b902b7c394f690ee158fb215bd9",
     "port": null,
     "family": "unknown",
@@ -13530,6 +13570,26 @@
     "current": true,
     "discovered_at": "2026-10-20T09:17:49Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0xe284e47cae6a411742d4c02e857320e13cb80c0a",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-e284e47c",
+    "chain": "polygon",
+    "contracts": [
+      "0x7aa394053686e598271fc1987f837e52d43e1d02"
+    ],
+    "first_seen": "2026-11-06T00:43:22Z",
+    "last_seen": "2026-11-06T00:44:31Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-11-06T00:52:23Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -20278,6 +20338,26 @@
     "current": true,
     "discovered_at": "2026-10-30T19:44:43Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://downlua.top/32b20813940dcc6716951719442c92216a9e7e99",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-e284e47c",
+    "chain": "polygon",
+    "contracts": [
+      "0x7aa394053686e598271fc1987f837e52d43e1d02"
+    ],
+    "first_seen": "2026-11-06T00:43:22Z",
+    "last_seen": "2026-11-06T00:44:31Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-11-06T00:52:23Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
