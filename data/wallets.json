@@ -748,6 +748,21 @@
   },
   {
     "chain": "bsc",
+    "address": "0xee0417a9c93c94fa4b4774af8248bbe790789f1c",
+    "role": "deployer",
+    "label": "Deployer (auto-detected)",
+    "cluster_id": "c-ee0417a9",
+    "contracts": [
+      "0xaaf5d2e99354545e2d71ada0465ae8605756ca42"
+    ],
+    "tx_count": 1,
+    "first_seen": "2026-11-06T18:16:47Z",
+    "last_seen": "2026-11-06T18:16:47Z",
+    "watched": false,
+    "funded_by": []
+  },
+  {
+    "chain": "bsc",
     "address": "0xfabe19f740d24fe46d5bc8aeda135a7e6db302a5",
     "role": "operator",
     "label": "Operator (auto-detected)",
@@ -1396,6 +1411,22 @@
     "tx_count": 7,
     "first_seen": "2026-10-22T08:41:39Z",
     "last_seen": "2026-11-05T15:43:39Z",
+    "watched": false,
+    "funded_by": []
+  },
+  {
+    "chain": "polygon",
+    "address": "0xee0417a9c93c94fa4b4774af8248bbe790789f1c",
+    "role": "deployer",
+    "label": "Deployer (auto-detected)",
+    "cluster_id": "c-ee0417a9",
+    "contracts": [
+      "0x2704ee7585f17b2b7a573a322980c3fab551f598",
+      "0xaaf5d2e99354545e2d71ada0465ae8605756ca42"
+    ],
+    "tx_count": 2,
+    "first_seen": "2026-11-06T18:19:18Z",
+    "last_seen": "2026-11-06T18:20:31Z",
     "watched": false,
     "funded_by": []
   },

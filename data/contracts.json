@@ -3099,6 +3099,33 @@
   },
   {
     "chain": "bsc",
+    "address": "0xaaf5d2e99354545e2d71ada0465ae8605756ca42",
+    "cluster_id": "c-ee0417a9",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xee0417a9c93c94fa4b4774af8248bbe790789f1c"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-11-06T18:16:47Z",
+    "last_seen": "2026-11-06T18:16:47Z",
+    "status": "active",
+    "code_hash": "e516f86766856a98",
+    "discovered_at": "2026-11-06T18:23:13Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": null,
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
     "address": "0xad17e8d965a7de76d2b713ba7dcee27a949df6d2",
     "cluster_id": "c-7abf4fe1",
     "family": "unknown",
@@ -5290,6 +5317,33 @@
   },
   {
     "chain": "polygon",
+    "address": "0x2704ee7585f17b2b7a573a322980c3fab551f598",
+    "cluster_id": "c-ee0417a9",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xee0417a9c93c94fa4b4774af8248bbe790789f1c"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-11-06T18:20:31Z",
+    "last_seen": "2026-11-06T18:20:31Z",
+    "status": "active",
+    "code_hash": "e516f86766856a98",
+    "discovered_at": "2026-11-06T18:23:13Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": null,
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x2b2e30da517b22a20eb367a36b9ca725cf93e9e5",
     "cluster_id": "c-34c15320",
     "family": "unknown",
@@ -7110,6 +7164,33 @@
     "tags": [
       "xmrig",
       "cryptominer",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0xaaf5d2e99354545e2d71ada0465ae8605756ca42",
+    "cluster_id": "c-ee0417a9",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xee0417a9c93c94fa4b4774af8248bbe790789f1c"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-11-06T18:19:18Z",
+    "last_seen": "2026-11-06T18:19:18Z",
+    "status": "active",
+    "code_hash": "e516f86766856a98",
+    "discovered_at": "2026-11-06T18:23:13Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": null,
+    "latest_value_decoded": null,
+    "tags": [
       "config-on-chain"
     ]
   },
