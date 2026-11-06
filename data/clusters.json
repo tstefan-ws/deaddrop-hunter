@@ -1281,6 +1281,28 @@
     "new": false
   },
   {
+    "id": "c-d3efa576",
+    "name": "Unclassified dead-drop cluster (c-d3efa576)",
+    "family": "unknown",
+    "chains": [
+      "bsc",
+      "polygon"
+    ],
+    "contracts": [
+      "0x184f3dab19da774887fefa951385507eb2608779",
+      "0xbfe0dafe03043a8d88ced25d2c45ee904ba0d947",
+      "0xdef1274d45a5809bb84b1564d131ced4a2c2a371"
+    ],
+    "wallets": [
+      "0xd3efa5768c84abd8dc123cb6c94def9361650e8d"
+    ],
+    "ioc_count": 4,
+    "first_seen": "2026-11-06T01:05:15Z",
+    "last_seen": "2026-11-06T01:09:28Z",
+    "discovered_at": "2026-11-06T01:12:10Z",
+    "new": true
+  },
+  {
     "id": "c-d6b34935",
     "name": "Unclassified dead-drop cluster (c-d6b34935)",
     "family": "unknown",

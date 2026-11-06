@@ -596,6 +596,21 @@
   },
   {
     "chain": "bsc",
+    "address": "0xd3efa5768c84abd8dc123cb6c94def9361650e8d",
+    "role": "deployer",
+    "label": "Deployer (auto-detected)",
+    "cluster_id": "c-d3efa576",
+    "contracts": [
+      "0x184f3dab19da774887fefa951385507eb2608779"
+    ],
+    "tx_count": 1,
+    "first_seen": "2026-11-06T01:05:15Z",
+    "last_seen": "2026-11-06T01:05:15Z",
+    "watched": false,
+    "funded_by": []
+  },
+  {
+    "chain": "bsc",
     "address": "0xd6b34935e51db0eace82d62dab5637f561c5a2d3",
     "role": "deployer",
     "label": "Deployer (auto-detected)",
@@ -1238,6 +1253,23 @@
     "tx_count": 1,
     "first_seen": "2026-10-29T12:23:19Z",
     "last_seen": "2026-10-29T12:23:19Z",
+    "watched": false,
+    "funded_by": []
+  },
+  {
+    "chain": "polygon",
+    "address": "0xd3efa5768c84abd8dc123cb6c94def9361650e8d",
+    "role": "deployer",
+    "label": "Deployer (auto-detected)",
+    "cluster_id": "c-d3efa576",
+    "contracts": [
+      "0x184f3dab19da774887fefa951385507eb2608779",
+      "0xbfe0dafe03043a8d88ced25d2c45ee904ba0d947",
+      "0xdef1274d45a5809bb84b1564d131ced4a2c2a371"
+    ],
+    "tx_count": 3,
+    "first_seen": "2026-11-06T01:07:39Z",
+    "last_seen": "2026-11-06T01:09:28Z",
     "watched": false,
     "funded_by": []
   },
