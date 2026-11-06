@@ -5252,6 +5252,33 @@
   },
   {
     "chain": "polygon",
+    "address": "0x20b18e420d1c92372dc5fcdf885d8f7d5d54eea1",
+    "cluster_id": "c-66e678ee",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x66e678eee7e47e5ca17ebcea2c54215f5e9dbb96"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-11-06T18:47:04Z",
+    "last_seen": "2026-11-06T18:47:04Z",
+    "status": "active",
+    "code_hash": "e516f86766856a98",
+    "discovered_at": "2026-11-06T18:50:47Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": null,
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x22ddd2d02d45f12485d0e3d42987fe299f12658b",
     "cluster_id": "c-504efa63",
     "family": "c2-url",
@@ -5913,6 +5940,33 @@
     "evidence": "decoded",
     "latest_value_raw": "dawn-brook-a112.areshttps.workers.dev",
     "latest_value_decoded": "dawn-brook-a112.areshttps.workers.dev",
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x5b146337b0f98f253146f9de9c59544b7f641072",
+    "cluster_id": "c-66e678ee",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x66e678eee7e47e5ca17ebcea2c54215f5e9dbb96"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-11-06T18:48:52Z",
+    "last_seen": "2026-11-06T18:48:52Z",
+    "status": "active",
+    "code_hash": "e516f86766856a98",
+    "discovered_at": "2026-11-06T18:50:47Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": null,
+    "latest_value_decoded": null,
     "tags": [
       "config-on-chain"
     ]
@@ -7551,6 +7605,33 @@
     "discovered_at": "2025-11-15T21:29:25Z",
     "new": false,
     "evidence": "decoded",
+    "latest_value_raw": null,
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0xcb5f006e61770b07f810aa04f201aacb8e499a86",
+    "cluster_id": "c-66e678ee",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x66e678eee7e47e5ca17ebcea2c54215f5e9dbb96"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-11-06T18:45:33Z",
+    "last_seen": "2026-11-06T18:45:33Z",
+    "status": "active",
+    "code_hash": "e516f86766856a98",
+    "discovered_at": "2026-11-06T18:50:47Z",
+    "new": true,
+    "evidence": "candidate",
     "latest_value_raw": null,
     "latest_value_decoded": null,
     "tags": [
