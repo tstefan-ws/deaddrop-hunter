@@ -11532,7 +11532,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-03T00:05:53Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
