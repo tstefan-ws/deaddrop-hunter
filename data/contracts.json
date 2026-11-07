@@ -1198,6 +1198,37 @@
   },
   {
     "chain": "bsc",
+    "address": "0x3b348d1caf322953e21cb8d393aa179db88955c4",
+    "cluster_id": "c-9f717c18",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x9f717c18ac0a4c8f9aca5afcd3f90baae35a76b7"
+    ],
+    "selectors": [
+      "0x10eb4d00"
+    ],
+    "decoder": "plain",
+    "update_count": 2,
+    "first_seen": "2026-11-07T01:34:55Z",
+    "last_seen": "2026-11-07T01:40:39Z",
+    "status": "active",
+    "code_hash": "8e6f637cd5eec8c8",
+    "discovered_at": "2026-11-07T01:40:02Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://zen-exotic-risk-evolve.xyz",
+    "latest_value_decoded": "https://zen-exotic-risk-evolve.xyz",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
     "address": "0x3c96bddd52d6386bf0af640087d715d823232827",
     "cluster_id": "c-ec647bf9",
     "family": "unknown",

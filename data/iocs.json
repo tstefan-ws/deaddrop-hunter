@@ -6859,6 +6859,26 @@
   },
   {
     "type": "domain",
+    "value": "zen-exotic-risk-evolve.xyz",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-9f717c18",
+    "chain": "bsc",
+    "contracts": [
+      "0x3b348d1caf322953e21cb8d393aa179db88955c4"
+    ],
+    "first_seen": "2026-11-07T01:34:55Z",
+    "last_seen": "2026-11-07T01:40:39Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-11-07T01:40:02Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "zen-name-tide-fee.xyz",
     "port": null,
     "family": "c2-url",
@@ -8254,6 +8274,26 @@
     "discovered_at": "2026-10-27T22:24:30Z",
     "new": false,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x3b348d1caf322953e21cb8d393aa179db88955c4",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-9f717c18",
+    "chain": "bsc",
+    "contracts": [
+      "0x3b348d1caf322953e21cb8d393aa179db88955c4"
+    ],
+    "first_seen": "2026-11-07T01:34:55Z",
+    "last_seen": "2026-11-07T01:40:39Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-11-07T01:40:02Z",
+    "new": true,
+    "confidence": 90,
     "dual_use": false,
     "enrichment": {}
   },
@@ -13404,6 +13444,26 @@
     "discovered_at": "2026-10-22T19:31:46Z",
     "new": false,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0x9f717c18ac0a4c8f9aca5afcd3f90baae35a76b7",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-9f717c18",
+    "chain": "bsc",
+    "contracts": [
+      "0x3b348d1caf322953e21cb8d393aa179db88955c4"
+    ],
+    "first_seen": "2026-11-07T01:34:55Z",
+    "last_seen": "2026-11-07T01:40:39Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-11-07T01:40:02Z",
+    "new": true,
+    "confidence": 85,
     "dual_use": false,
     "enrichment": {}
   },
@@ -21834,6 +21894,26 @@
     "current": true,
     "discovered_at": "2026-10-27T17:47:51Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://zen-exotic-risk-evolve.xyz",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-9f717c18",
+    "chain": "bsc",
+    "contracts": [
+      "0x3b348d1caf322953e21cb8d393aa179db88955c4"
+    ],
+    "first_seen": "2026-11-07T01:34:55Z",
+    "last_seen": "2026-11-07T01:40:39Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-11-07T01:40:02Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
