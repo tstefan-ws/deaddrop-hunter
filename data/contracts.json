@@ -7527,6 +7527,35 @@
   },
   {
     "chain": "polygon",
+    "address": "0xab3c61802a3c78ed875f26d35ae96742f8231f79",
+    "cluster_id": "c-5af59fb2",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x5af59fb278db911c3862f02d283b30245e18b127"
+    ],
+    "selectors": [],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-07T15:19:46Z",
+    "last_seen": "2026-11-07T15:19:46Z",
+    "status": "active",
+    "code_hash": "a827148b3e0a0e2a",
+    "discovered_at": "2026-11-07T15:23:53Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://batlron.net/api/miners/submit",
+    "latest_value_decoded": "https://batlron.net/api/miners/submit",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0xae76027e422ddee0156610c4a57ec916b420bb5b",
     "cluster_id": "c-504efa63",
     "family": "c2-url",

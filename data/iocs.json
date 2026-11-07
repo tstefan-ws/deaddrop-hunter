@@ -422,6 +422,26 @@
   },
   {
     "type": "domain",
+    "value": "batlron.net",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-5af59fb2",
+    "chain": "polygon",
+    "contracts": [
+      "0xab3c61802a3c78ed875f26d35ae96742f8231f79"
+    ],
+    "first_seen": "2026-11-07T15:19:46Z",
+    "last_seen": "2026-11-07T15:19:46Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-07T15:23:53Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "bean.369bbqsifangonline.com",
     "port": null,
     "family": "c2-url",
@@ -10860,6 +10880,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0xab3c61802a3c78ed875f26d35ae96742f8231f79",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-5af59fb2",
+    "chain": "polygon",
+    "contracts": [
+      "0xab3c61802a3c78ed875f26d35ae96742f8231f79"
+    ],
+    "first_seen": "2026-11-07T15:19:46Z",
+    "last_seen": "2026-11-07T15:19:46Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-07T15:23:53Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0xad17e8d965a7de76d2b713ba7dcee27a949df6d2",
     "port": null,
     "family": "unknown",
@@ -13379,6 +13419,26 @@
     "current": true,
     "discovered_at": "2026-10-19T20:38:48Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0x5af59fb278db911c3862f02d283b30245e18b127",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-5af59fb2",
+    "chain": "polygon",
+    "contracts": [
+      "0xab3c61802a3c78ed875f26d35ae96742f8231f79"
+    ],
+    "first_seen": "2026-11-07T15:19:46Z",
+    "last_seen": "2026-11-07T15:19:46Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-07T15:23:53Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -19629,6 +19689,26 @@
     "current": true,
     "discovered_at": "2026-10-30T12:55:40Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://batlron.net/api/miners/submit",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-5af59fb2",
+    "chain": "polygon",
+    "contracts": [
+      "0xab3c61802a3c78ed875f26d35ae96742f8231f79"
+    ],
+    "first_seen": "2026-11-07T15:19:46Z",
+    "last_seen": "2026-11-07T15:19:46Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-07T15:23:53Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}

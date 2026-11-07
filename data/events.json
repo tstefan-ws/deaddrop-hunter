@@ -1,6 +1,22 @@
 [
   {
     "chain": "polygon",
+    "block": 96906220,
+    "timestamp": "2026-11-07T15:19:46Z",
+    "tx_hash": "0xd1a6ebe6fdb08e2ad20de08aacaf6793acbf6cba072871dff03ebff1747474a9",
+    "contract": "0xab3c61802a3c78ed875f26d35ae96742f8231f79",
+    "from": "0x5af59fb278db911c3862f02d283b30245e18b127",
+    "selector": null,
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://batlron.net/api/miners/submit",
+    "old_decoded": null,
+    "new_decoded": "https://batlron.net/api/miners/submit",
+    "decoder": "plain",
+    "code_hash": "a827148b3e0a0e2a"
+  },
+  {
+    "chain": "polygon",
     "block": 96905119,
     "timestamp": "2026-11-07T14:52:15Z",
     "tx_hash": "0x73c3ac6b6ee9378a70dc7483265fc946f32d4fcbe1058bbd85ca66eb1827fa2e",
