@@ -1,6 +1,36 @@
 [
   {
     "chain": "polygon",
+    "block": 96918219,
+    "timestamp": "2026-11-07T20:19:45Z",
+    "tx_hash": "0x720aea2e15a9bda7675fb164c487e7650d8e701e1cadd57aa17e6eed54167497",
+    "contract": "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c",
+    "from": "0x74075c3201074e6c9e9ebfa5362dd41426322d8a",
+    "selector": "0x08dec0e9",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://binance-com-4v.bonu.workers.dev",
+    "old_decoded": null,
+    "new_decoded": "https://binance-com-4v.bonu.workers.dev",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
+    "block": 96918218,
+    "timestamp": "2026-11-07T20:19:43Z",
+    "tx_hash": "0x7a5dd225fcb3a13a9ed2e70800f1ea86f7e956341ac5403fc655f92d2a6a8c56",
+    "contract": "0x65206843d4dbde8f0c10ba2d93a390adb8f7b72c",
+    "from": "0x74075c3201074e6c9e9ebfa5362dd41426322d8a",
+    "selector": "0x08dec0e9",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://binance-com-4v.bonu.workers.dev",
+    "old_decoded": null,
+    "new_decoded": "https://binance-com-4v.bonu.workers.dev",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96913859,
     "timestamp": "2026-11-07T18:30:45Z",
     "tx_hash": "0x4c585e3a6e6520911344f4cfd638246a14a500330875c0a8c0ba2e89a332ae92",
