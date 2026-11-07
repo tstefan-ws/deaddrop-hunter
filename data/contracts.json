@@ -1208,19 +1208,20 @@
       "0x9f717c18ac0a4c8f9aca5afcd3f90baae35a76b7"
     ],
     "selectors": [
-      "0x10eb4d00"
+      "0x10eb4d00",
+      "0x3b1261a2"
     ],
     "decoder": "plain",
-    "update_count": 2,
+    "update_count": 3,
     "first_seen": "2026-11-07T01:34:55Z",
-    "last_seen": "2026-11-07T01:40:39Z",
+    "last_seen": "2026-11-07T01:46:06Z",
     "status": "active",
     "code_hash": "8e6f637cd5eec8c8",
     "discovered_at": "2026-11-07T01:40:02Z",
     "new": true,
     "evidence": "decoded",
-    "latest_value_raw": "https://zen-exotic-risk-evolve.xyz",
-    "latest_value_decoded": "https://zen-exotic-risk-evolve.xyz",
+    "latest_value_raw": "https://zen-attest-95173522.dappconnect.workers.dev",
+    "latest_value_decoded": "https://zen-attest-95173522.dappconnect.workers.dev",
     "tags": [
       "c2",
       "url-rotation",

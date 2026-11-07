@@ -525,9 +525,9 @@
     "contracts": [
       "0x3b348d1caf322953e21cb8d393aa179db88955c4"
     ],
-    "tx_count": 2,
+    "tx_count": 3,
     "first_seen": "2026-11-07T01:34:55Z",
-    "last_seen": "2026-11-07T01:40:39Z",
+    "last_seen": "2026-11-07T01:46:06Z",
     "watched": false,
     "funded_by": []
   },
