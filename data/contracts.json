@@ -8120,7 +8120,7 @@
     "status": "active",
     "code_hash": "08988aa7b12a7620",
     "discovered_at": "2026-11-04T21:15:48Z",
-    "new": true,
+    "new": false,
     "evidence": "candidate",
     "latest_value_raw": "0x6c91d99663632f8cc10a78044b7a3ae8e628292945a7456a2bd29b833b3f318dd2166103022167ebed2a6f235eb90b2b7a80cf822f2320df95522141",
     "latest_value_decoded": null,
