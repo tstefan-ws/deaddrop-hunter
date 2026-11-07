@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 96904889,
+    "timestamp": "2026-11-07T14:46:30Z",
+    "tx_hash": "0xb2f15a44e857f7946c78903d2001b882b15f2d9023efad58e3422431a5b8640c",
+    "contract": "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac",
+    "from": "0xe3a29d16ca8722d2e91975589fa23659ee8e1719",
+    "selector": "0xe5eab096",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://yaponovosh.org",
+    "old_decoded": null,
+    "new_decoded": "https://yaponovosh.org",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96894190,
     "timestamp": "2026-11-07T10:19:01Z",
     "tx_hash": "0xac300030617ca1540390ad3ebf220039e86f29969b25292ea2fcf01ec852cf63",

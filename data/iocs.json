@@ -5219,7 +5219,7 @@
     "first_seen": "2026-11-05T15:43:39Z",
     "last_seen": "2026-11-05T15:43:39Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-11-05T15:52:26Z",
     "new": true,
     "confidence": 85,
@@ -6693,6 +6693,26 @@
     "current": false,
     "discovered_at": "2026-10-28T19:13:50Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "yaponovosh.org",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-e3a29d16",
+    "chain": "polygon",
+    "contracts": [
+      "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
+    ],
+    "first_seen": "2026-11-07T14:46:30Z",
+    "last_seen": "2026-11-07T14:46:30Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-07T14:50:20Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -10549,8 +10569,8 @@
       "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
     ],
     "first_seen": "2026-10-22T08:41:39Z",
-    "last_seen": "2026-11-05T15:43:39Z",
-    "times_seen": 7,
+    "last_seen": "2026-11-07T14:46:30Z",
+    "times_seen": 8,
     "current": true,
     "discovered_at": "2026-10-22T08:49:42Z",
     "new": false,
@@ -14118,8 +14138,8 @@
       "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
     ],
     "first_seen": "2026-10-22T08:41:39Z",
-    "last_seen": "2026-11-05T15:43:39Z",
-    "times_seen": 7,
+    "last_seen": "2026-11-07T14:46:30Z",
+    "times_seen": 8,
     "current": true,
     "discovered_at": "2026-10-22T08:49:42Z",
     "new": false,
@@ -21633,7 +21653,7 @@
     "first_seen": "2026-11-05T15:43:39Z",
     "last_seen": "2026-11-05T15:43:39Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-11-05T15:52:26Z",
     "new": true,
     "confidence": 85,
@@ -22062,6 +22082,26 @@
     "current": false,
     "discovered_at": "2026-10-28T19:13:50Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://yaponovosh.org",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-e3a29d16",
+    "chain": "polygon",
+    "contracts": [
+      "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
+    ],
+    "first_seen": "2026-11-07T14:46:30Z",
+    "last_seen": "2026-11-07T14:46:30Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-07T14:50:20Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
