@@ -1429,11 +1429,12 @@
     "label": "Operator (auto-detected)",
     "cluster_id": "c-de2f7044",
     "contracts": [
+      "0x38b086275026c89fdd0e258a9a191819270d9403",
       "0x84ef485c1d8f3ca1880d0a7ab045d924cf5ac88e"
     ],
-    "tx_count": 3,
+    "tx_count": 5,
     "first_seen": "2026-10-26T12:24:47Z",
-    "last_seen": "2026-11-02T15:52:40Z",
+    "last_seen": "2026-11-07T10:19:01Z",
     "watched": false,
     "funded_by": []
   },

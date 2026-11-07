@@ -5861,6 +5861,35 @@
   },
   {
     "chain": "polygon",
+    "address": "0x38b086275026c89fdd0e258a9a191819270d9403",
+    "cluster_id": "c-de2f7044",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xde2f7044c3998da85ea68c5a5d508047641189d5"
+    ],
+    "selectors": [],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-07T10:18:58Z",
+    "last_seen": "2026-11-07T10:18:58Z",
+    "status": "active",
+    "code_hash": "d0d72f7988d83182",
+    "discovered_at": "2026-11-07T10:19:44Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://yeezytiger.com/ps|2e37158448300f49",
+    "latest_value_decoded": "https://yeezytiger.com/ps|2e37158448300f49",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x4013518c6240eda26c2ed6d00a069dcfde308811",
     "cluster_id": "c-504efa63",
     "family": "c2-url",
@@ -6810,16 +6839,16 @@
       "0x17fae8f1"
     ],
     "decoder": "plain",
-    "update_count": 3,
+    "update_count": 4,
     "first_seen": "2026-10-26T12:24:47Z",
-    "last_seen": "2026-11-02T15:52:40Z",
+    "last_seen": "2026-11-07T10:19:01Z",
     "status": "active",
     "code_hash": "d0d72f7988d83182",
     "discovered_at": "2026-10-26T12:29:26Z",
     "new": false,
     "evidence": "decoded",
-    "latest_value_raw": "http://yeezytiger.com:8443|10b78d0f210c6911",
-    "latest_value_decoded": "http://yeezytiger.com:8443|10b78d0f210c6911",
+    "latest_value_raw": "https://yeezytiger.com|10b78d0f210c6911",
+    "latest_value_decoded": "https://yeezytiger.com|10b78d0f210c6911",
     "tags": [
       "c2",
       "url-rotation",
