@@ -774,11 +774,12 @@
     "label": "Deployer (auto-detected)",
     "cluster_id": "c-ea7de73e",
     "contracts": [
+      "0x668e9a69aa4a177eb96139bc397796414f11c8d1",
       "0xb8fe068c75007a0ae91a92a8b7248a285f97ee14"
     ],
-    "tx_count": 1,
+    "tx_count": 2,
     "first_seen": "2026-11-02T13:16:29Z",
-    "last_seen": "2026-11-02T13:16:29Z",
+    "last_seen": "2026-11-08T11:49:38Z",
     "watched": false,
     "funded_by": []
   },
