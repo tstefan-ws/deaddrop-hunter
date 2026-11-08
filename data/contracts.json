@@ -5243,6 +5243,35 @@
   },
   {
     "chain": "bsc",
+    "address": "0xf7a9f1931315661c638cf4d5eed690efb2a5b3ce",
+    "cluster_id": "c-fca8502e",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xfca8502e5bea9f74fc48dd41c3c68ce361154b66"
+    ],
+    "selectors": [
+      "0x39345b40"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-08T22:56:56Z",
+    "last_seen": "2026-11-08T22:56:56Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-11-08T22:55:30Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "\"origin\":\"https://seal.zeal.app\"",
+    "latest_value_decoded": "\"origin\":\"https://seal.zeal.app\"",
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
     "address": "0xf891cbe0a473ba23f2aa8775465ab90a7351a23b",
     "cluster_id": "c-3bfc05a8",
     "family": "unknown",

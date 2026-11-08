@@ -1,6 +1,21 @@
 [
   {
     "chain": "bsc",
+    "block": 132476393,
+    "timestamp": "2026-11-08T22:56:56Z",
+    "tx_hash": "0x39eb0193672629ccda26b46f6caab2b207801800d6a3168bf5aa5c77b1159de5",
+    "contract": "0xf7a9f1931315661c638cf4d5eed690efb2a5b3ce",
+    "from": "0xfca8502e5bea9f74fc48dd41c3c68ce361154b66",
+    "selector": "0x39345b40",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "\"origin\":\"https://seal.zeal.app\"",
+    "old_decoded": null,
+    "new_decoded": "\"origin\":\"https://seal.zeal.app\"",
+    "decoder": "plain"
+  },
+  {
+    "chain": "bsc",
     "block": 132460139,
     "timestamp": "2026-11-08T20:55:00Z",
     "tx_hash": "0xae29f88514d06a5003436d8c6aeec8dd514f811901dbe1082047f410f5a7184d",

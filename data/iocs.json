@@ -5932,6 +5932,26 @@
   },
   {
     "type": "domain",
+    "value": "seal.zeal.app",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-fca8502e",
+    "chain": "bsc",
+    "contracts": [
+      "0xf7a9f1931315661c638cf4d5eed690efb2a5b3ce"
+    ],
+    "first_seen": "2026-11-08T22:56:56Z",
+    "last_seen": "2026-11-08T22:56:56Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-08T22:55:30Z",
+    "new": true,
+    "confidence": 70,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "sirata.asia",
     "port": null,
     "family": "c2-url",
@@ -12920,6 +12940,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0xf7a9f1931315661c638cf4d5eed690efb2a5b3ce",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-fca8502e",
+    "chain": "bsc",
+    "contracts": [
+      "0xf7a9f1931315661c638cf4d5eed690efb2a5b3ce"
+    ],
+    "first_seen": "2026-11-08T22:56:56Z",
+    "last_seen": "2026-11-08T22:56:56Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-08T22:55:30Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0xf891cbe0a473ba23f2aa8775465ab90a7351a23b",
     "port": null,
     "family": "unknown",
@@ -14840,6 +14880,26 @@
     "discovered_at": "2026-11-05T12:02:47Z",
     "new": false,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0xfca8502e5bea9f74fc48dd41c3c68ce361154b66",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-fca8502e",
+    "chain": "bsc",
+    "contracts": [
+      "0xf7a9f1931315661c638cf4d5eed690efb2a5b3ce"
+    ],
+    "first_seen": "2026-11-08T22:56:56Z",
+    "last_seen": "2026-11-08T22:56:56Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-08T22:55:30Z",
+    "new": true,
+    "confidence": 85,
     "dual_use": false,
     "enrichment": {}
   },
@@ -22498,6 +22558,26 @@
     "discovered_at": "2026-10-30T12:27:13Z",
     "new": false,
     "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://seal.zeal.app",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-fca8502e",
+    "chain": "bsc",
+    "contracts": [
+      "0xf7a9f1931315661c638cf4d5eed690efb2a5b3ce"
+    ],
+    "first_seen": "2026-11-08T22:56:56Z",
+    "last_seen": "2026-11-08T22:56:56Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-08T22:55:30Z",
+    "new": true,
+    "confidence": 75,
     "dual_use": false,
     "enrichment": {}
   },
