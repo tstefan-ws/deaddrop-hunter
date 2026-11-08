@@ -10440,6 +10440,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x9854ebf069996ffc0996b5580cc1ccc6bfbb3a2a",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-c2215830",
+    "chain": "bsc",
+    "contracts": [
+      "0x9854ebf069996ffc0996b5580cc1ccc6bfbb3a2a"
+    ],
+    "first_seen": "2026-11-08T13:44:01Z",
+    "last_seen": "2026-11-08T13:44:01Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-08T13:46:12Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x999fa557647cc3a75d611735fab42a2badec04e5",
     "port": null,
     "family": "unknown",
@@ -11754,6 +11774,26 @@
     "current": true,
     "discovered_at": "2026-11-04T00:08:28Z",
     "new": false,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0xc8763fde9e6d6eb2ad83f953db2eac179f9b433a",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-c2215830",
+    "chain": "bsc",
+    "contracts": [
+      "0xc8763fde9e6d6eb2ad83f953db2eac179f9b433a"
+    ],
+    "first_seen": "2026-11-08T13:39:09Z",
+    "last_seen": "2026-11-08T13:39:09Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-08T13:46:12Z",
+    "new": true,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -14032,6 +14072,27 @@
     "discovered_at": "2026-10-27T19:23:13Z",
     "new": false,
     "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0xc221583014115b4a9ad61ee70eaff9c0b3f57aa7",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-c2215830",
+    "chain": "bsc",
+    "contracts": [
+      "0x9854ebf069996ffc0996b5580cc1ccc6bfbb3a2a",
+      "0xc8763fde9e6d6eb2ad83f953db2eac179f9b433a"
+    ],
+    "first_seen": "2026-11-08T13:39:09Z",
+    "last_seen": "2026-11-08T13:44:01Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-11-08T13:46:12Z",
+    "new": true,
+    "confidence": 55,
     "dual_use": false,
     "enrichment": {}
   },
