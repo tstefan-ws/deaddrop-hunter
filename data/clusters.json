@@ -1237,15 +1237,16 @@
     ],
     "contracts": [
       "0x2b5a26783b2c029d9d239cbcc2cef7cd4793168e",
+      "0x40b2d2a8e00413a206e738654e71e3e1cf1c2bae",
       "0x6c0e89ca3691faa774a10019516fb38d25e06714",
       "0x6df7f012fe659ac47a0c8094c094fee3fa2b16f1"
     ],
     "wallets": [
       "0xbc148d120a1061814d5496f153051a29654ec74f"
     ],
-    "ioc_count": 4,
+    "ioc_count": 5,
     "first_seen": "2026-11-05T23:46:55Z",
-    "last_seen": "2026-11-07T18:30:45Z",
+    "last_seen": "2026-11-08T01:40:30Z",
     "discovered_at": "2026-11-05T23:53:29Z",
     "new": true
   },
