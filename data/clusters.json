@@ -1021,6 +1021,25 @@
     "new": false
   },
   {
+    "id": "c-8200f4de",
+    "name": "C2 URL rotation cluster (c-8200f4de)",
+    "family": "c2-url",
+    "chains": [
+      "polygon"
+    ],
+    "contracts": [
+      "0x3394897fca360c3ad5478751c5d024d52cc8d5bb"
+    ],
+    "wallets": [
+      "0x8200f4de12867980950cff1bea973bd96be6b216"
+    ],
+    "ioc_count": 4,
+    "first_seen": "2026-11-08T19:18:43Z",
+    "last_seen": "2026-11-08T19:18:43Z",
+    "discovered_at": "2026-11-08T19:28:20Z",
+    "new": true
+  },
+  {
     "id": "c-82811f80",
     "name": "C2 URL rotation cluster (c-82811f80)",
     "family": "c2-url",

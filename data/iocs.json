@@ -6393,6 +6393,26 @@
   },
   {
     "type": "domain",
+    "value": "tralker.cv",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-8200f4de",
+    "chain": "polygon",
+    "contracts": [
+      "0x3394897fca360c3ad5478751c5d024d52cc8d5bb"
+    ],
+    "first_seen": "2026-11-08T19:18:43Z",
+    "last_seen": "2026-11-08T19:18:43Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-08T19:28:20Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "tronscanner-api.com",
     "port": null,
     "family": "unknown",
@@ -8275,6 +8295,26 @@
     "discovered_at": "2026-10-31T00:03:52Z",
     "new": false,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x3394897fca360c3ad5478751c5d024d52cc8d5bb",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-8200f4de",
+    "chain": "polygon",
+    "contracts": [
+      "0x3394897fca360c3ad5478751c5d024d52cc8d5bb"
+    ],
+    "first_seen": "2026-11-08T19:18:43Z",
+    "last_seen": "2026-11-08T19:18:43Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-08T19:28:20Z",
+    "new": true,
+    "confidence": 90,
     "dual_use": false,
     "enrichment": {}
   },
@@ -13851,6 +13891,26 @@
     "discovered_at": "2026-10-21T20:15:16Z",
     "new": false,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0x8200f4de12867980950cff1bea973bd96be6b216",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-8200f4de",
+    "chain": "polygon",
+    "contracts": [
+      "0x3394897fca360c3ad5478751c5d024d52cc8d5bb"
+    ],
+    "first_seen": "2026-11-08T19:18:43Z",
+    "last_seen": "2026-11-08T19:18:43Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-08T19:28:20Z",
+    "new": true,
+    "confidence": 85,
     "dual_use": false,
     "enrichment": {}
   },
@@ -22369,6 +22429,26 @@
     "current": true,
     "discovered_at": "2026-10-30T19:32:09Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://tralker.cv/api/miners/submit",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-8200f4de",
+    "chain": "polygon",
+    "contracts": [
+      "0x3394897fca360c3ad5478751c5d024d52cc8d5bb"
+    ],
+    "first_seen": "2026-11-08T19:18:43Z",
+    "last_seen": "2026-11-08T19:18:43Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-08T19:28:20Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
