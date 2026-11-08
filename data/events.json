@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 96945060,
+    "timestamp": "2026-11-08T07:30:46Z",
+    "tx_hash": "0xfd3cf33202ca8f00015e7c60cc6c91ec1a8e5f91a4da3f318193a47bdac9c9b7",
+    "contract": "0xb909956b9d716ddfdf6935115a8d6f6cb2e655c6",
+    "from": "0x36f570d15d4317df2aba6b563cbb55223fe07d53",
+    "selector": "0xe1ad7699",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://fcdnbovres.cc;https://fudcomcheck.art",
+    "old_decoded": null,
+    "new_decoded": "https://fcdnbovres.cc;https://fudcomcheck.art",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96931049,
     "timestamp": "2026-11-08T01:40:30Z",
     "tx_hash": "0x2ed706a3472c02221bbed1982386dfdc915b37a71e4684e0af1c21c00dddd41f",
