@@ -653,14 +653,16 @@
     "label": "Operator (auto-detected)",
     "cluster_id": "c-c2215830",
     "contracts": [
+      "0x10636eed19c921ee8ca008c43139f072ec6b8a6e",
+      "0x1bdad4369fa18f3efdb05c1b70036ad56f149acb",
       "0x649253015ac702aeca10629b56fc4e67c09ebc9f",
       "0x9854ebf069996ffc0996b5580cc1ccc6bfbb3a2a",
       "0xc8763fde9e6d6eb2ad83f953db2eac179f9b433a",
       "0xe0b68f7ea8ae68e28556ca24d42943a6bb1366b8"
     ],
-    "tx_count": 4,
+    "tx_count": 6,
     "first_seen": "2026-11-08T13:39:09Z",
-    "last_seen": "2026-11-08T19:57:29Z",
+    "last_seen": "2026-11-08T20:08:41Z",
     "watched": false,
     "funded_by": []
   },
