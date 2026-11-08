@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 96948425,
+    "timestamp": "2026-11-08T08:54:54Z",
+    "tx_hash": "0x2adcd392e5a4ecd69401f262a1f1c664f20df66ad71c0bde4e1c0f6364f7c35d",
+    "contract": "0xb8aa8cabfba7ee3ccb218a9969aef86dff3b9d2d",
+    "from": "0x098c19b1011ffda0a5c612ee1e3ec0062235d328",
+    "selector": "0xed53ddb9",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "http://169.254.169.254/latest/meta-data/",
+    "old_decoded": null,
+    "new_decoded": "http://169.254.169.254/latest/meta-data/",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 96945060,
     "timestamp": "2026-11-08T07:30:46Z",
     "tx_hash": "0xfd3cf33202ca8f00015e7c60cc6c91ec1a8e5f91a4da3f318193a47bdac9c9b7",
