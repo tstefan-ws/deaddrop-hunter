@@ -3941,6 +3941,33 @@
   },
   {
     "chain": "bsc",
+    "address": "0xc42d472a0bbd6489f265bcde32f02f8b861bc17c",
+    "cluster_id": "c-83a1991c",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x83a1991c7a95bcef8c4b21ce3401184e4f56aca8"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-11-08T20:46:14Z",
+    "last_seen": "2026-11-08T20:46:14Z",
+    "status": "active",
+    "code_hash": "fc0837831b86db7c",
+    "discovered_at": "2026-11-08T20:49:22Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
     "address": "0xc61057553ab6c893bee0328b179cbfda015a7af0",
     "cluster_id": "c-a07f7cab",
     "family": "unknown",
@@ -4289,6 +4316,33 @@
     "new": false,
     "evidence": "candidate",
     "latest_value_raw": null,
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
+    "address": "0xcc779c4c6d9eb0fef49e56d3583b291883c8d727",
+    "cluster_id": "c-83a1991c",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x83a1991c7a95bcef8c4b21ce3401184e4f56aca8"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-11-08T20:47:58Z",
+    "last_seen": "2026-11-08T20:47:58Z",
+    "status": "active",
+    "code_hash": "15489889fd084c09",
+    "discovered_at": "2026-11-08T20:49:22Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
     "latest_value_decoded": null,
     "tags": [
       "config-on-chain"
