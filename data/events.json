@@ -1,5 +1,20 @@
 [
   {
+    "chain": "polygon",
+    "block": 96982109,
+    "timestamp": "2026-11-08T22:57:00Z",
+    "tx_hash": "0x17ea29bd65c0b3cdff473baec35bb65c544116d4035f9d5bcb6a7f56f29bd34e",
+    "contract": "0xf7a9f1931315661c638cf4d5eed690efb2a5b3ce",
+    "from": "0xfca8502e5bea9f74fc48dd41c3c68ce361154b66",
+    "selector": "0x39345b40",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "\"origin\":\"https://seal.zeal.app\"",
+    "old_decoded": null,
+    "new_decoded": "\"origin\":\"https://seal.zeal.app\"",
+    "decoder": "plain"
+  },
+  {
     "chain": "bsc",
     "block": 132476393,
     "timestamp": "2026-11-08T22:56:56Z",

@@ -1619,6 +1619,21 @@
     "funded_by": []
   },
   {
+    "chain": "polygon",
+    "address": "0xfca8502e5bea9f74fc48dd41c3c68ce361154b66",
+    "role": "operator",
+    "label": "Operator (auto-detected)",
+    "cluster_id": "c-fca8502e",
+    "contracts": [
+      "0xf7a9f1931315661c638cf4d5eed690efb2a5b3ce"
+    ],
+    "tx_count": 1,
+    "first_seen": "2026-11-08T22:57:00Z",
+    "last_seen": "2026-11-08T22:57:00Z",
+    "watched": false,
+    "funded_by": []
+  },
+  {
     "chain": "solana",
     "address": "28PKnu7RzizxBzFPoLp69HLXp9bJL3JFtT2s5QzHsEA2",
     "role": "operator",

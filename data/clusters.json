@@ -1801,7 +1801,8 @@
     "name": "Unclassified dead-drop cluster (c-fca8502e)",
     "family": "unknown",
     "chains": [
-      "bsc"
+      "bsc",
+      "polygon"
     ],
     "contracts": [
       "0xf7a9f1931315661c638cf4d5eed690efb2a5b3ce"
@@ -1811,7 +1812,7 @@
     ],
     "ioc_count": 4,
     "first_seen": "2026-11-08T22:56:56Z",
-    "last_seen": "2026-11-08T22:56:56Z",
+    "last_seen": "2026-11-08T22:57:00Z",
     "discovered_at": "2026-11-08T22:55:30Z",
     "new": true
   },
