@@ -1389,15 +1389,16 @@
       "0x6ca1565b46e1f55e525cc335fdd6e6557339b414",
       "0x9854ebf069996ffc0996b5580cc1ccc6bfbb3a2a",
       "0xa2fce083e2320c5a8f9c62f94042622428ca4711",
+      "0xa6ed20246ee3612e7e9aaf4814982532bd766209",
       "0xc8763fde9e6d6eb2ad83f953db2eac179f9b433a",
       "0xe0b68f7ea8ae68e28556ca24d42943a6bb1366b8"
     ],
     "wallets": [
       "0xc221583014115b4a9ad61ee70eaff9c0b3f57aa7"
     ],
-    "ioc_count": 14,
+    "ioc_count": 15,
     "first_seen": "2026-11-08T13:39:09Z",
-    "last_seen": "2026-11-09T04:46:42Z",
+    "last_seen": "2026-11-09T04:52:07Z",
     "discovered_at": "2026-11-08T13:46:12Z",
     "new": true
   },
