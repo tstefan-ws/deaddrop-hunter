@@ -2639,7 +2639,7 @@
     "times_seen": 5,
     "current": true,
     "discovered_at": "2026-11-06T00:52:23Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -10073,7 +10073,7 @@
     "times_seen": 5,
     "current": true,
     "discovered_at": "2026-11-06T00:52:23Z",
-    "new": true,
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -14860,7 +14860,7 @@
     "times_seen": 5,
     "current": true,
     "discovered_at": "2026-11-06T00:52:23Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -21730,7 +21730,7 @@
     "times_seen": 2,
     "current": false,
     "discovered_at": "2026-11-06T00:52:23Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
