@@ -758,11 +758,13 @@
     "cluster_id": "c-cf01e6ef",
     "contracts": [
       "0x15ec988a4c2c0efcc42949ff6d55c72582e30c77",
+      "0x41c65159164812a6822bd5ebaf1b9ade8cc6b815",
+      "0x620e3f5fec59fe4892a1928e5e2d1ad6ea34dd56",
       "0xfd6f9cba0f6cc5302af7c616989e73ddd333adc1"
     ],
-    "tx_count": 2,
+    "tx_count": 4,
     "first_seen": "2026-11-09T18:26:53Z",
-    "last_seen": "2026-11-09T18:32:23Z",
+    "last_seen": "2026-11-09T18:35:26Z",
     "watched": false,
     "funded_by": []
   },

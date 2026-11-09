@@ -894,7 +894,7 @@
     "first_seen": "2026-11-06T18:42:32Z",
     "last_seen": "2026-11-06T18:48:52Z",
     "discovered_at": "2026-11-06T18:41:30Z",
-    "new": true
+    "new": false
   },
   {
     "id": "c-697805b5",
@@ -1502,14 +1502,16 @@
     ],
     "contracts": [
       "0x15ec988a4c2c0efcc42949ff6d55c72582e30c77",
+      "0x41c65159164812a6822bd5ebaf1b9ade8cc6b815",
+      "0x620e3f5fec59fe4892a1928e5e2d1ad6ea34dd56",
       "0xfd6f9cba0f6cc5302af7c616989e73ddd333adc1"
     ],
     "wallets": [
       "0xcf01e6ef48eb2c9cbbfb4cc5306225b74f7c5f64"
     ],
-    "ioc_count": 3,
+    "ioc_count": 5,
     "first_seen": "2026-11-09T18:26:53Z",
-    "last_seen": "2026-11-09T18:32:23Z",
+    "last_seen": "2026-11-09T18:35:26Z",
     "discovered_at": "2026-11-09T18:32:05Z",
     "new": true
   },
