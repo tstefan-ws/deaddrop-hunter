@@ -6263,7 +6263,7 @@
     "status": "active",
     "code_hash": "58fb6f01038d985b",
     "discovered_at": "2026-11-06T02:22:31Z",
-    "new": true,
+    "new": false,
     "evidence": "candidate",
     "latest_value_raw": null,
     "latest_value_decoded": null,
