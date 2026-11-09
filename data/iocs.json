@@ -11769,8 +11769,8 @@
       "0xb6bc9e1d0b2fb96ab7c47e04cb0be477410bc1f2"
     ],
     "first_seen": "2026-10-21T00:31:06Z",
-    "last_seen": "2026-11-05T00:26:46Z",
-    "times_seen": 6,
+    "last_seen": "2026-11-09T09:26:43Z",
+    "times_seen": 8,
     "current": true,
     "discovered_at": "2026-10-21T00:33:37Z",
     "new": false,
@@ -14794,8 +14794,8 @@
       "0xb6bc9e1d0b2fb96ab7c47e04cb0be477410bc1f2"
     ],
     "first_seen": "2026-10-21T00:31:06Z",
-    "last_seen": "2026-11-05T00:27:21Z",
-    "times_seen": 15,
+    "last_seen": "2026-11-09T09:26:43Z",
+    "times_seen": 17,
     "current": true,
     "discovered_at": "2026-10-21T00:33:37Z",
     "new": false,
@@ -21755,7 +21755,7 @@
     "first_seen": "2026-11-05T00:26:46Z",
     "last_seen": "2026-11-05T00:26:46Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-11-05T00:27:15Z",
     "new": false,
     "confidence": 85,
@@ -22163,6 +22163,26 @@
     "discovered_at": "2026-10-25T01:27:34Z",
     "new": false,
     "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://jjjducodes.beer",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-caf2c54e",
+    "chain": "polygon",
+    "contracts": [
+      "0xb6bc9e1d0b2fb96ab7c47e04cb0be477410bc1f2"
+    ],
+    "first_seen": "2026-11-09T09:26:00Z",
+    "last_seen": "2026-11-09T09:26:43Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-11-09T09:29:32Z",
+    "new": true,
+    "confidence": 75,
     "dual_use": false,
     "enrichment": {}
   },
