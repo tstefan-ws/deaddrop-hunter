@@ -7821,6 +7821,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x1dce95d461e57d2aa59c65e3fc7fc6f16ba19e42",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-c2215830",
+    "chain": "bsc",
+    "contracts": [
+      "0x1dce95d461e57d2aa59c65e3fc7fc6f16ba19e42"
+    ],
+    "first_seen": "2026-11-09T13:08:27Z",
+    "last_seen": "2026-11-09T13:08:27Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-09T13:12:44Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x1df2a0a9724d92c07eba98871006854b2b2ad55c",
     "port": null,
     "family": "unknown",
@@ -13021,6 +13041,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0xeade9249c06975d7809f37564961728d0b694c5a",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-c2215830",
+    "chain": "bsc",
+    "contracts": [
+      "0xeade9249c06975d7809f37564961728d0b694c5a"
+    ],
+    "first_seen": "2026-11-09T13:05:32Z",
+    "last_seen": "2026-11-09T13:05:32Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-09T13:12:44Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0xeb17ab2e9224e377aafdfe0de061f9e299bb1d26",
     "port": null,
     "family": "unknown",
@@ -14852,6 +14892,7 @@
     "contracts": [
       "0x10636eed19c921ee8ca008c43139f072ec6b8a6e",
       "0x1bdad4369fa18f3efdb05c1b70036ad56f149acb",
+      "0x1dce95d461e57d2aa59c65e3fc7fc6f16ba19e42",
       "0x27fd33334b07fb7862df032bf7414bf05d0d7303",
       "0x3ec52cf5e1b238fca19e9776cf8d6ca92b91c0bc",
       "0x41789984461f3982e07e114dfb81a2110d397135",
@@ -14871,11 +14912,12 @@
       "0xc8763fde9e6d6eb2ad83f953db2eac179f9b433a",
       "0xe0b68f7ea8ae68e28556ca24d42943a6bb1366b8",
       "0xe709dd4e2c777d2f3b990e8b14db8a9159136f6d",
-      "0xe75584286e9cc8b164d1cab8327c7110073f723a"
+      "0xe75584286e9cc8b164d1cab8327c7110073f723a",
+      "0xeade9249c06975d7809f37564961728d0b694c5a"
     ],
     "first_seen": "2026-11-08T13:39:09Z",
-    "last_seen": "2026-11-09T13:03:10Z",
-    "times_seen": 22,
+    "last_seen": "2026-11-09T13:08:27Z",
+    "times_seen": 24,
     "current": true,
     "discovered_at": "2026-11-08T13:46:12Z",
     "new": true,
