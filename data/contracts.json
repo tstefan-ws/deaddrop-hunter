@@ -7043,7 +7043,7 @@
     "status": "active",
     "code_hash": "d0d72f7988d83182",
     "discovered_at": "2026-11-07T10:19:44Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://yeezytiger.com/ps|2e37158448300f49",
     "latest_value_decoded": "https://yeezytiger.com/ps|2e37158448300f49",
