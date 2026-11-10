@@ -3466,6 +3466,26 @@
   },
   {
     "type": "domain",
+    "value": "japlukarmore.org",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-e3a29d16",
+    "chain": "polygon",
+    "contracts": [
+      "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
+    ],
+    "first_seen": "2026-11-10T09:44:42Z",
+    "last_seen": "2026-11-10T09:44:42Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-10T09:50:47Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "jet.bowlinggreenwinnelsonco.com",
     "port": null,
     "family": "c2-url",
@@ -6790,7 +6810,7 @@
     "first_seen": "2026-11-07T14:46:30Z",
     "last_seen": "2026-11-07T14:46:30Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-11-07T14:50:20Z",
     "new": true,
     "confidence": 85,
@@ -11270,8 +11290,8 @@
       "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
     ],
     "first_seen": "2026-10-22T08:41:39Z",
-    "last_seen": "2026-11-07T14:46:30Z",
-    "times_seen": 8,
+    "last_seen": "2026-11-10T09:44:42Z",
+    "times_seen": 9,
     "current": true,
     "discovered_at": "2026-10-22T08:49:42Z",
     "new": false,
@@ -15374,8 +15394,8 @@
       "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
     ],
     "first_seen": "2026-10-22T08:41:39Z",
-    "last_seen": "2026-11-07T14:46:30Z",
-    "times_seen": 8,
+    "last_seen": "2026-11-10T09:44:42Z",
+    "times_seen": 9,
     "current": true,
     "discovered_at": "2026-10-22T08:49:42Z",
     "new": false,
@@ -22497,6 +22517,26 @@
   },
   {
     "type": "url",
+    "value": "https://japlukarmore.org",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-e3a29d16",
+    "chain": "polygon",
+    "contracts": [
+      "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
+    ],
+    "first_seen": "2026-11-10T09:44:42Z",
+    "last_seen": "2026-11-10T09:44:42Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-10T09:50:47Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
     "value": "https://jjjducodes.beer",
     "port": null,
     "family": "c2-url",
@@ -23519,7 +23559,7 @@
     "first_seen": "2026-11-07T14:46:30Z",
     "last_seen": "2026-11-07T14:46:30Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-11-07T14:50:20Z",
     "new": true,
     "confidence": 85,
