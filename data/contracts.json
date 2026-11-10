@@ -1434,7 +1434,7 @@
     "status": "active",
     "code_hash": "8e6f637cd5eec8c8",
     "discovered_at": "2026-11-07T01:40:02Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://zen-attest-95173522.dappconnect.workers.dev",
     "latest_value_decoded": "https://zen-attest-95173522.dappconnect.workers.dev",
