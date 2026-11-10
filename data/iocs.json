@@ -6812,7 +6812,7 @@
     "times_seen": 1,
     "current": false,
     "discovered_at": "2026-11-07T14:50:20Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -23601,7 +23601,7 @@
     "times_seen": 1,
     "current": false,
     "discovered_at": "2026-11-07T14:50:20Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
