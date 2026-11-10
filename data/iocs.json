@@ -896,7 +896,7 @@
     "times_seen": 2,
     "current": true,
     "discovered_at": "2026-11-07T20:20:15Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -21146,7 +21146,7 @@
     "times_seen": 2,
     "current": true,
     "discovered_at": "2026-11-07T20:20:15Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
