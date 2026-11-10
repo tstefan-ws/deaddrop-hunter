@@ -8792,7 +8792,7 @@
     "status": "active",
     "code_hash": "a827148b3e0a0e2a",
     "discovered_at": "2026-11-07T15:23:53Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://batlron.net/api/miners/submit",
     "latest_value_decoded": "https://batlron.net/api/miners/submit",
