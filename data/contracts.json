@@ -7174,7 +7174,7 @@
     "status": "active",
     "code_hash": "a827148b3e0a0e2a",
     "discovered_at": "2026-11-08T19:28:20Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://tralker.cv/api/miners/submit",
     "latest_value_decoded": "https://tralker.cv/api/miners/submit",
