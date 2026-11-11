@@ -3035,7 +3035,7 @@
     "status": "active",
     "code_hash": "e0d696bb86326208",
     "discovered_at": "2026-11-08T10:27:15Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "NOVA:68747470733a2f2f6170692e6e6f766177616c6c6574696f2e636c7562",
     "latest_value_decoded": "NOVA:68747470733a2f2f6170692e6e6f766177616c6c6574696f2e636c7562",
