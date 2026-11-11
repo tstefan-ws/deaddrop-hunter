@@ -10001,6 +10001,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x6c48c896b1fc3af50b0a635a67eaf568ea66ce75",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-3bfc05a8",
+    "chain": "bsc",
+    "contracts": [
+      "0x6c48c896b1fc3af50b0a635a67eaf568ea66ce75"
+    ],
+    "first_seen": "2026-11-11T08:39:11Z",
+    "last_seen": "2026-11-11T08:39:11Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-11T08:45:16Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x6ca1565b46e1f55e525cc335fdd6e6557339b414",
     "port": null,
     "family": "unknown",
@@ -10715,6 +10735,26 @@
     "current": true,
     "discovered_at": "2026-10-23T05:40:12Z",
     "new": false,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x87071ffa15bc6a97ff9013cf7546818ac25ba2bc",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-3bfc05a8",
+    "chain": "bsc",
+    "contracts": [
+      "0x87071ffa15bc6a97ff9013cf7546818ac25ba2bc"
+    ],
+    "first_seen": "2026-11-11T08:39:03Z",
+    "last_seen": "2026-11-11T08:39:03Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-11T08:45:16Z",
+    "new": true,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -14483,9 +14523,11 @@
       "0x2ee0679612a371c946e9310139f9ba5445fd5f29",
       "0x2f4a7e1f2c1ca0fd80950375c637755279f5ebe9",
       "0x64110b3bb01da85fbf547e2b7cb2e2c27a835726",
+      "0x6c48c896b1fc3af50b0a635a67eaf568ea66ce75",
       "0x73b236560601bbd48a1d5aa251768edb0a6098cb",
       "0x7f1566e5dfb88537662cc1dc42fa3142281a8223",
       "0x84fd5cb77970e7f6dad832513c6b717fcc9eccd5",
+      "0x87071ffa15bc6a97ff9013cf7546818ac25ba2bc",
       "0x981128856989d9afc0fc4ea9132ab0be4972c530",
       "0xa96ad1cde76bb20b269aaeff92ad276186ab6b2e",
       "0xb7f22f81904e1633a01d6c2a35a71488788206e8",
@@ -14505,8 +14547,8 @@
       "0xffcc9a3493c4f5a11446a6416f2d46244a115355"
     ],
     "first_seen": "2026-10-22T13:41:44Z",
-    "last_seen": "2026-11-11T08:11:00Z",
-    "times_seen": 29,
+    "last_seen": "2026-11-11T08:39:11Z",
+    "times_seen": 31,
     "current": true,
     "discovered_at": "2026-10-22T13:44:11Z",
     "new": false,
