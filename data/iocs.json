@@ -7374,7 +7374,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-08T20:11:08Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -7834,7 +7834,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-08T20:11:08Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -8574,7 +8574,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-08T21:00:10Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -9814,7 +9814,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-08T19:59:58Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -10914,7 +10914,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-08T21:00:10Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -11154,7 +11154,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-08T21:00:10Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -12434,7 +12434,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-08T20:49:22Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -12754,7 +12754,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-08T20:49:22Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -13174,7 +13174,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-08T19:59:58Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -15063,7 +15063,7 @@
     "times_seen": 5,
     "current": true,
     "discovered_at": "2026-11-08T20:49:22Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
