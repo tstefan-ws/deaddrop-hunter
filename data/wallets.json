@@ -378,6 +378,7 @@
       "0x238f3020fb7d397069c0fd1237f1a7b275cfeb20",
       "0x291aac1a20199794de4cc50813230350353e55fa",
       "0x2ee0679612a371c946e9310139f9ba5445fd5f29",
+      "0x2f4a7e1f2c1ca0fd80950375c637755279f5ebe9",
       "0x64110b3bb01da85fbf547e2b7cb2e2c27a835726",
       "0x73b236560601bbd48a1d5aa251768edb0a6098cb",
       "0x7f1566e5dfb88537662cc1dc42fa3142281a8223",
@@ -386,6 +387,7 @@
       "0xa96ad1cde76bb20b269aaeff92ad276186ab6b2e",
       "0xb7f22f81904e1633a01d6c2a35a71488788206e8",
       "0xbabe53ecad169900696d742aa9762a85815459ac",
+      "0xbe7259bcc8276bc2d41a774de71c099b2f7261fd",
       "0xc39fc0b1921ea6a74373191c35c82d7ee6dd7051",
       "0xcd68cd33a39b7120169559ff8b0a1c0533ca3459",
       "0xd4255e207dd2ee1fc8a439d20d54dfedb970b48c",
@@ -399,9 +401,9 @@
       "0xf9e9c486de6874a36990fea3a47b70ab41aafff9",
       "0xffcc9a3493c4f5a11446a6416f2d46244a115355"
     ],
-    "tx_count": 27,
+    "tx_count": 29,
     "first_seen": "2026-10-22T13:41:44Z",
-    "last_seen": "2026-11-07T07:02:32Z",
+    "last_seen": "2026-11-11T08:11:00Z",
     "watched": false,
     "funded_by": []
   },
