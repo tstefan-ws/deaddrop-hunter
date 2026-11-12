@@ -2204,6 +2204,38 @@
   },
   {
     "chain": "bsc",
+    "address": "0x57d6361963200bd05397b74798a39ee33206bf7e",
+    "cluster_id": "c-30399e51",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x30399e5157037cae997ba64fc8c79dc99b277d88"
+    ],
+    "selectors": [
+      "0x20965255",
+      "0x93a09352"
+    ],
+    "decoder": "plain",
+    "update_count": 2,
+    "first_seen": "2026-11-12T20:47:25Z",
+    "last_seen": "2026-11-12T20:49:36Z",
+    "status": "active",
+    "code_hash": "280560db73f0aee4",
+    "discovered_at": "2026-11-12T20:50:40Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://file.garden/ahtW898JpgfEKPyB/welcomeback",
+    "latest_value_decoded": "https://file.garden/ahtW898JpgfEKPyB/welcomeback",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
     "address": "0x58c221ab58b4978363ee16d968544f9ffac79d10",
     "cluster_id": "c-2ff0165e",
     "family": "unknown",
@@ -5944,6 +5976,38 @@
     "latest_value_raw": null,
     "latest_value_decoded": null,
     "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
+    "address": "0xef0ce381400182e9755866da036624fb9edb224c",
+    "cluster_id": "c-30399e51",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x30399e5157037cae997ba64fc8c79dc99b277d88"
+    ],
+    "selectors": [
+      "0x20965255",
+      "0x93a09352"
+    ],
+    "decoder": "plain",
+    "update_count": 2,
+    "first_seen": "2026-11-12T20:47:18Z",
+    "last_seen": "2026-11-12T20:49:52Z",
+    "status": "active",
+    "code_hash": "280560db73f0aee4",
+    "discovered_at": "2026-11-12T20:50:40Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://file.garden/ahtW898JpgfEKPyB/thankgodforthis",
+    "latest_value_decoded": "https://file.garden/ahtW898JpgfEKPyB/thankgodforthis",
+    "tags": [
+      "c2",
+      "url-rotation",
       "config-on-chain"
     ]
   },

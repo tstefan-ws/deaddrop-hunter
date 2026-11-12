@@ -9561,6 +9561,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x57d6361963200bd05397b74798a39ee33206bf7e",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-30399e51",
+    "chain": "bsc",
+    "contracts": [
+      "0x57d6361963200bd05397b74798a39ee33206bf7e"
+    ],
+    "first_seen": "2026-11-12T20:47:25Z",
+    "last_seen": "2026-11-12T20:49:36Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-11-12T20:50:40Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x585a35b8373d61fe2c395133cf344b79d9a865c7",
     "port": null,
     "family": "unknown",
@@ -13721,6 +13741,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0xef0ce381400182e9755866da036624fb9edb224c",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-30399e51",
+    "chain": "bsc",
+    "contracts": [
+      "0xef0ce381400182e9755866da036624fb9edb224c"
+    ],
+    "first_seen": "2026-11-12T20:47:18Z",
+    "last_seen": "2026-11-12T20:49:52Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-11-12T20:50:40Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0xef2af0cfbb01f339bd0417684cea6d655a08090a",
     "port": null,
     "family": "unknown",
@@ -14623,6 +14663,27 @@
     "discovered_at": "2026-10-29T19:01:13Z",
     "new": false,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0x30399e5157037cae997ba64fc8c79dc99b277d88",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-30399e51",
+    "chain": "bsc",
+    "contracts": [
+      "0x57d6361963200bd05397b74798a39ee33206bf7e",
+      "0xef0ce381400182e9755866da036624fb9edb224c"
+    ],
+    "first_seen": "2026-11-12T20:47:18Z",
+    "last_seen": "2026-11-12T20:49:52Z",
+    "times_seen": 4,
+    "current": true,
+    "discovered_at": "2026-11-12T20:50:40Z",
+    "new": true,
+    "confidence": 85,
     "dual_use": false,
     "enrichment": {}
   },
@@ -23143,6 +23204,46 @@
     "current": true,
     "discovered_at": "2026-11-08T07:31:02Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://file.garden/ahtW898JpgfEKPyB/thankgodforthis",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-30399e51",
+    "chain": "bsc",
+    "contracts": [
+      "0xef0ce381400182e9755866da036624fb9edb224c"
+    ],
+    "first_seen": "2026-11-12T20:47:18Z",
+    "last_seen": "2026-11-12T20:49:52Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-11-12T20:50:40Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://file.garden/ahtW898JpgfEKPyB/welcomeback",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-30399e51",
+    "chain": "bsc",
+    "contracts": [
+      "0x57d6361963200bd05397b74798a39ee33206bf7e"
+    ],
+    "first_seen": "2026-11-12T20:47:25Z",
+    "last_seen": "2026-11-12T20:49:36Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-11-12T20:50:40Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
