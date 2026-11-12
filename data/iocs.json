@@ -4348,6 +4348,26 @@
   },
   {
     "type": "domain",
+    "value": "media.post.ch",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-97ebe3fe",
+    "chain": "polygon",
+    "contracts": [
+      "0x6ddcc90614d47acd7596447686c4fd6aee782742"
+    ],
+    "first_seen": "2026-11-12T15:46:52Z",
+    "last_seen": "2026-11-12T15:46:52Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-12T15:52:39Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "megamegalodon.click",
     "port": null,
     "family": "c2-url",
@@ -10121,6 +10141,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x6ddcc90614d47acd7596447686c4fd6aee782742",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-97ebe3fe",
+    "chain": "polygon",
+    "contracts": [
+      "0x6ddcc90614d47acd7596447686c4fd6aee782742"
+    ],
+    "first_seen": "2026-11-12T15:46:52Z",
+    "last_seen": "2026-11-12T15:46:52Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-12T15:52:39Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x6df543ccbefc067da4468b9c791e3fa139634f03",
     "port": null,
     "family": "unknown",
@@ -15286,6 +15326,26 @@
     "discovered_at": "2026-11-11T02:08:17Z",
     "new": true,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0x97ebe3fe2feb21ba8f99d99e8275a8c4d5066fc2",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-97ebe3fe",
+    "chain": "polygon",
+    "contracts": [
+      "0x6ddcc90614d47acd7596447686c4fd6aee782742"
+    ],
+    "first_seen": "2026-11-12T15:46:52Z",
+    "last_seen": "2026-11-12T15:46:52Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-12T15:52:39Z",
+    "new": true,
+    "confidence": 85,
     "dual_use": false,
     "enrichment": {}
   },
@@ -23266,6 +23326,26 @@
     "current": true,
     "discovered_at": "2026-10-30T14:32:37Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://media.post.ch/assets/crypto-stamp/nft/{id",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-97ebe3fe",
+    "chain": "polygon",
+    "contracts": [
+      "0x6ddcc90614d47acd7596447686c4fd6aee782742"
+    ],
+    "first_seen": "2026-11-12T15:46:52Z",
+    "last_seen": "2026-11-12T15:46:52Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-12T15:52:39Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
