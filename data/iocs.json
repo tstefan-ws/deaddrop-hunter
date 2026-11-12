@@ -603,6 +603,26 @@
   },
   {
     "type": "domain",
+    "value": "biboiboboorl.org",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-e3a29d16",
+    "chain": "polygon",
+    "contracts": [
+      "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
+    ],
+    "first_seen": "2026-11-12T07:01:25Z",
+    "last_seen": "2026-11-12T07:01:25Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-12T07:09:14Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "bigbadwolf.click",
     "port": null,
     "family": "c2-url",
@@ -3497,7 +3517,7 @@
     "first_seen": "2026-11-10T09:44:42Z",
     "last_seen": "2026-11-10T09:44:42Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-11-10T09:50:47Z",
     "new": true,
     "confidence": 85,
@@ -11510,8 +11530,8 @@
       "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
     ],
     "first_seen": "2026-10-22T08:41:39Z",
-    "last_seen": "2026-11-10T09:44:42Z",
-    "times_seen": 9,
+    "last_seen": "2026-11-12T07:01:25Z",
+    "times_seen": 10,
     "current": true,
     "discovered_at": "2026-10-22T08:49:42Z",
     "new": false,
@@ -15825,8 +15845,8 @@
       "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
     ],
     "first_seen": "2026-10-22T08:41:39Z",
-    "last_seen": "2026-11-10T09:44:42Z",
-    "times_seen": 9,
+    "last_seen": "2026-11-12T07:01:25Z",
+    "times_seen": 10,
     "current": true,
     "discovered_at": "2026-10-22T08:49:42Z",
     "new": false,
@@ -21383,6 +21403,26 @@
   },
   {
     "type": "url",
+    "value": "https://biboiboboorl.org",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-e3a29d16",
+    "chain": "polygon",
+    "contracts": [
+      "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
+    ],
+    "first_seen": "2026-11-12T07:01:25Z",
+    "last_seen": "2026-11-12T07:01:25Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-12T07:09:14Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
     "value": "https://binance-com-04j.binca.workers.dev",
     "port": null,
     "family": "c2-url",
@@ -23021,7 +23061,7 @@
     "first_seen": "2026-11-10T09:44:42Z",
     "last_seen": "2026-11-10T09:44:42Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-11-10T09:50:47Z",
     "new": true,
     "confidence": 85,
