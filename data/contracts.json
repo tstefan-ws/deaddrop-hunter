@@ -10004,6 +10004,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0xf70730a4e5b89b6c6e02edaed582badf6465e9d9",
+    "cluster_id": "c-4b3ebea0",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x4b3ebea0e6795915da2fdd7f4b144e106b4497d2"
+    ],
+    "selectors": [
+      "0x466a0082"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-12T18:54:10Z",
+    "last_seen": "2026-11-12T18:54:10Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-11-12T19:03:51Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://claude-flare-verification.vercel.app",
+    "latest_value_decoded": "https://claude-flare-verification.vercel.app",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0xf7a9f1931315661c638cf4d5eed690efb2a5b3ce",
     "cluster_id": "c-fca8502e",
     "family": "unknown",

@@ -2204,6 +2204,26 @@
   },
   {
     "type": "domain",
+    "value": "claude-flare-verification.vercel.app",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-4b3ebea0",
+    "chain": "polygon",
+    "contracts": [
+      "0xf70730a4e5b89b6c6e02edaed582badf6465e9d9"
+    ],
+    "first_seen": "2026-11-12T18:54:10Z",
+    "last_seen": "2026-11-12T18:54:10Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-12T19:03:51Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "cloudflare-check.cfd",
     "port": null,
     "family": "c2-url",
@@ -13901,6 +13921,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0xf70730a4e5b89b6c6e02edaed582badf6465e9d9",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-4b3ebea0",
+    "chain": "polygon",
+    "contracts": [
+      "0xf70730a4e5b89b6c6e02edaed582badf6465e9d9"
+    ],
+    "first_seen": "2026-11-12T18:54:10Z",
+    "last_seen": "2026-11-12T18:54:10Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-12T19:03:51Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0xf7a9f1931315661c638cf4d5eed690efb2a5b3ce",
     "port": null,
     "family": "unknown",
@@ -14838,6 +14878,26 @@
     "current": true,
     "discovered_at": "2026-10-20T20:57:38Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0x4b3ebea0e6795915da2fdd7f4b144e106b4497d2",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-4b3ebea0",
+    "chain": "polygon",
+    "contracts": [
+      "0xf70730a4e5b89b6c6e02edaed582badf6465e9d9"
+    ],
+    "first_seen": "2026-11-12T18:54:10Z",
+    "last_seen": "2026-11-12T18:54:10Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-12T19:03:51Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -22718,6 +22778,26 @@
     "current": false,
     "discovered_at": "2026-10-29T06:19:19Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://claude-flare-verification.vercel.app",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-4b3ebea0",
+    "chain": "polygon",
+    "contracts": [
+      "0xf70730a4e5b89b6c6e02edaed582badf6465e9d9"
+    ],
+    "first_seen": "2026-11-12T18:54:10Z",
+    "last_seen": "2026-11-12T18:54:10Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-12T19:03:51Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}

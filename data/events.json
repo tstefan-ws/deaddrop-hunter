@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 97202796,
+    "timestamp": "2026-11-12T18:54:10Z",
+    "tx_hash": "0x2af8a739ebad4bd8b5e3ef13a4a97e38fe24d308d8613f2bcf9246f634583bf7",
+    "contract": "0xf70730a4e5b89b6c6e02edaed582badf6465e9d9",
+    "from": "0x4b3ebea0e6795915da2fdd7f4b144e106b4497d2",
+    "selector": "0x466a0082",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://claude-flare-verification.vercel.app",
+    "old_decoded": null,
+    "new_decoded": "https://claude-flare-verification.vercel.app",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 97195304,
     "timestamp": "2026-11-12T15:46:52Z",
     "tx_hash": "0x8ac6b7a9af0de1a57563d67b4dffb34721b26d60d029da325bc589ebab25785d",
