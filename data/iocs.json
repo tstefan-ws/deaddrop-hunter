@@ -8194,7 +8194,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-09T00:11:09Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -9994,7 +9994,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-09T00:11:09Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -11534,7 +11534,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-09T00:11:09Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -12190,8 +12190,8 @@
       "0xb909956b9d716ddfdf6935115a8d6f6cb2e655c6"
     ],
     "first_seen": "2026-10-29T17:30:10Z",
-    "last_seen": "2026-11-08T07:30:46Z",
-    "times_seen": 6,
+    "last_seen": "2026-11-12T00:06:15Z",
+    "times_seen": 7,
     "current": true,
     "discovered_at": "2026-10-29T17:35:58Z",
     "new": false,
@@ -14520,8 +14520,8 @@
       "0xb909956b9d716ddfdf6935115a8d6f6cb2e655c6"
     ],
     "first_seen": "2026-10-29T17:30:10Z",
-    "last_seen": "2026-11-08T07:30:46Z",
-    "times_seen": 6,
+    "last_seen": "2026-11-12T00:06:15Z",
+    "times_seen": 7,
     "current": true,
     "discovered_at": "2026-10-29T17:35:58Z",
     "new": false,
@@ -23265,6 +23265,26 @@
     "current": true,
     "discovered_at": "2026-10-30T20:06:42Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://ocscdetec22.cc;https://fudcomcheck.art",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-36f570d1",
+    "chain": "polygon",
+    "contracts": [
+      "0xb909956b9d716ddfdf6935115a8d6f6cb2e655c6"
+    ],
+    "first_seen": "2026-11-12T00:06:15Z",
+    "last_seen": "2026-11-12T00:06:15Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-12T00:15:38Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
