@@ -1863,6 +1863,26 @@
   },
   {
     "type": "domain",
+    "value": "browse-cloud.codes",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-caf2c54e",
+    "chain": "polygon",
+    "contracts": [
+      "0xb6bc9e1d0b2fb96ab7c47e04cb0be477410bc1f2"
+    ],
+    "first_seen": "2026-11-12T04:45:57Z",
+    "last_seen": "2026-11-12T04:45:57Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-12T04:52:37Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "brusketaa.lol",
     "port": null,
     "family": "c2-url",
@@ -8774,7 +8794,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-09T04:46:53Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -9034,7 +9054,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-09T04:46:53Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -9354,7 +9374,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-09T04:46:53Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -12110,8 +12130,8 @@
       "0xb6bc9e1d0b2fb96ab7c47e04cb0be477410bc1f2"
     ],
     "first_seen": "2026-10-21T00:31:06Z",
-    "last_seen": "2026-11-10T06:51:00Z",
-    "times_seen": 9,
+    "last_seen": "2026-11-12T04:45:57Z",
+    "times_seen": 10,
     "current": true,
     "discovered_at": "2026-10-21T00:33:37Z",
     "new": false,
@@ -15471,8 +15491,8 @@
       "0xb6bc9e1d0b2fb96ab7c47e04cb0be477410bc1f2"
     ],
     "first_seen": "2026-10-21T00:31:06Z",
-    "last_seen": "2026-11-10T06:54:37Z",
-    "times_seen": 21,
+    "last_seen": "2026-11-12T04:45:57Z",
+    "times_seen": 22,
     "current": true,
     "discovered_at": "2026-10-21T00:33:37Z",
     "new": false,
@@ -22283,6 +22303,26 @@
   },
   {
     "type": "url",
+    "value": "https://browse-cloud.codes",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-caf2c54e",
+    "chain": "polygon",
+    "contracts": [
+      "0xb6bc9e1d0b2fb96ab7c47e04cb0be477410bc1f2"
+    ],
+    "first_seen": "2026-11-12T04:45:57Z",
+    "last_seen": "2026-11-12T04:45:57Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-12T04:52:37Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
     "value": "https://browse-nnccodes.beer",
     "port": null,
     "family": "c2-url",
@@ -22294,7 +22334,7 @@
     "first_seen": "2026-11-10T06:51:00Z",
     "last_seen": "2026-11-10T06:51:00Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-11-10T06:58:42Z",
     "new": true,
     "confidence": 85,
