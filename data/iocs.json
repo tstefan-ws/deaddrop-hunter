@@ -6713,6 +6713,26 @@
   },
   {
     "type": "domain",
+    "value": "webffoo001.cc",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-d7d0b350",
+    "chain": "polygon",
+    "contracts": [
+      "0xb2a4ea7055b7e2a6b2d96502f0ff85024e72987b"
+    ],
+    "first_seen": "2026-11-12T22:47:48Z",
+    "last_seen": "2026-11-12T22:47:48Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-12T22:57:35Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "whynotebanarot.xyz",
     "port": null,
     "family": "c2-url",
@@ -12130,8 +12150,8 @@
       "0xb2a4ea7055b7e2a6b2d96502f0ff85024e72987b"
     ],
     "first_seen": "2026-10-20T05:17:59Z",
-    "last_seen": "2026-11-04T19:50:00Z",
-    "times_seen": 3,
+    "last_seen": "2026-11-12T22:47:48Z",
+    "times_seen": 4,
     "current": true,
     "discovered_at": "2026-10-20T05:24:20Z",
     "new": false,
@@ -15959,8 +15979,8 @@
       "0xb2a4ea7055b7e2a6b2d96502f0ff85024e72987b"
     ],
     "first_seen": "2026-10-20T05:17:32Z",
-    "last_seen": "2026-11-08T12:15:00Z",
-    "times_seen": 8,
+    "last_seen": "2026-11-12T22:47:48Z",
+    "times_seen": 9,
     "current": true,
     "discovered_at": "2026-10-20T05:24:20Z",
     "new": false,
@@ -23281,7 +23301,7 @@
     "first_seen": "2026-11-04T19:49:52Z",
     "last_seen": "2026-11-04T19:50:00Z",
     "times_seen": 2,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-11-04T19:55:27Z",
     "new": false,
     "confidence": 85,
@@ -24396,6 +24416,26 @@
     "current": false,
     "discovered_at": "2026-10-19T20:00:00Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://webffoo001.cc",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-d7d0b350",
+    "chain": "polygon",
+    "contracts": [
+      "0xb2a4ea7055b7e2a6b2d96502f0ff85024e72987b"
+    ],
+    "first_seen": "2026-11-12T22:47:48Z",
+    "last_seen": "2026-11-12T22:47:48Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-12T22:57:35Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
