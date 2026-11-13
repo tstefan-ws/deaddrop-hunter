@@ -8381,6 +8381,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x2a8f205c8a6616a1d34c47f6172c16b20917253c",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-48198352",
+    "chain": "bsc",
+    "contracts": [
+      "0x2a8f205c8a6616a1d34c47f6172c16b20917253c"
+    ],
+    "first_seen": "2026-11-13T12:06:36Z",
+    "last_seen": "2026-11-13T12:06:36Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-13T12:13:02Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x2b2e30da517b22a20eb367a36b9ca725cf93e9e5",
     "port": null,
     "family": "unknown",
@@ -9274,7 +9294,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-10T12:08:47Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -14337,7 +14357,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-10T12:08:47Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -14956,6 +14976,26 @@
     "discovered_at": "2026-10-25T12:14:01Z",
     "new": false,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0x481983529a4f9dae46bf451cf6a2b23d7dac1fea",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-48198352",
+    "chain": "bsc",
+    "contracts": [
+      "0x2a8f205c8a6616a1d34c47f6172c16b20917253c"
+    ],
+    "first_seen": "2026-11-13T12:06:36Z",
+    "last_seen": "2026-11-13T12:06:36Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-13T12:13:02Z",
+    "new": true,
+    "confidence": 85,
     "dual_use": false,
     "enrichment": {}
   },
@@ -17774,6 +17814,26 @@
     "discovered_at": "2026-10-22T08:57:44Z",
     "new": false,
     "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "78.40.193.184",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-48198352",
+    "chain": "bsc",
+    "contracts": [
+      "0x2a8f205c8a6616a1d34c47f6172c16b20917253c"
+    ],
+    "first_seen": "2026-11-13T12:06:36Z",
+    "last_seen": "2026-11-13T12:06:36Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-13T12:13:02Z",
+    "new": true,
+    "confidence": 60,
     "dual_use": false,
     "enrichment": {}
   },
