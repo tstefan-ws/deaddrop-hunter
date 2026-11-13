@@ -1854,9 +1854,9 @@
     "wallets": [
       "0xde275ad38c3352a7cb6b0d3efcbf45900c9716f2"
     ],
-    "ioc_count": 46,
+    "ioc_count": 48,
     "first_seen": "2025-11-15T21:29:25Z",
-    "last_seen": "2026-10-19T21:12:56Z",
+    "last_seen": "2026-11-13T02:07:36Z",
     "discovered_at": "2025-11-15T21:29:25Z",
     "new": false
   },

@@ -7850,8 +7850,8 @@
       "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
     ],
     "first_seen": "2025-11-15T22:00:51Z",
-    "last_seen": "2026-10-19T21:12:56Z",
-    "times_seen": 25,
+    "last_seen": "2026-11-13T02:07:36Z",
+    "times_seen": 26,
     "current": true,
     "discovered_at": "2025-11-15T22:00:51Z",
     "new": false,
@@ -16044,8 +16044,8 @@
       "0xc224c02cc0c5b5bf83538b3db0b6f5b10a2bf6d2"
     ],
     "first_seen": "2025-11-15T21:29:25Z",
-    "last_seen": "2026-10-13T09:33:17Z",
-    "times_seen": 26,
+    "last_seen": "2026-11-13T02:07:36Z",
+    "times_seen": 27,
     "current": true,
     "discovered_at": "2025-11-15T21:29:25Z",
     "new": false,
@@ -16456,9 +16456,9 @@
       "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
     ],
     "first_seen": "2026-10-13T09:33:04Z",
-    "last_seen": "2026-10-19T21:12:56Z",
-    "times_seen": 3,
-    "current": true,
+    "last_seen": "2026-11-13T02:07:36Z",
+    "times_seen": 4,
+    "current": false,
     "discovered_at": "2026-10-13T09:33:04Z",
     "new": false,
     "confidence": 85,
@@ -16864,6 +16864,26 @@
     "current": false,
     "discovered_at": "2026-01-26T07:11:28Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "213.176.73.131",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-11-13T02:07:36Z",
+    "last_seen": "2026-11-13T02:07:36Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-13T02:18:07Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -18464,9 +18484,9 @@
       "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
     ],
     "first_seen": "2026-10-13T09:33:04Z",
-    "last_seen": "2026-10-19T21:12:56Z",
-    "times_seen": 3,
-    "current": true,
+    "last_seen": "2026-11-13T02:07:36Z",
+    "times_seen": 4,
+    "current": false,
     "discovered_at": "2026-10-13T09:33:04Z",
     "new": false,
     "confidence": 85,
@@ -18930,6 +18950,26 @@
     "current": false,
     "discovered_at": "2026-01-26T07:11:28Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "http://213.176.73.131",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de275ad3",
+    "chain": "polygon",
+    "contracts": [
+      "0x1823a9a0ec8e0c25dd957d0841e3d41a4474badc"
+    ],
+    "first_seen": "2026-11-13T02:07:36Z",
+    "last_seen": "2026-11-13T02:07:36Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-13T02:18:07Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
