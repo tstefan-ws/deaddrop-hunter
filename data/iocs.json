@@ -6012,6 +6012,26 @@
   },
   {
     "type": "domain",
+    "value": "schneemann.cfd",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-e10c929b",
+    "chain": "polygon",
+    "contracts": [
+      "0x5a8d4048d53388ece9e1039dcdf6de040745df0a"
+    ],
+    "first_seen": "2026-11-13T15:55:00Z",
+    "last_seen": "2026-11-13T15:55:00Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-13T16:11:25Z",
+    "new": true,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "seal.369bbqsifangonline.com",
     "port": null,
     "family": "c2-url",
@@ -9676,6 +9696,26 @@
     "discovered_at": "2026-10-29T19:09:38Z",
     "new": false,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x5a8d4048d53388ece9e1039dcdf6de040745df0a",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-e10c929b",
+    "chain": "polygon",
+    "contracts": [
+      "0x5a8d4048d53388ece9e1039dcdf6de040745df0a"
+    ],
+    "first_seen": "2026-11-13T15:55:00Z",
+    "last_seen": "2026-11-13T15:55:00Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-13T16:11:25Z",
+    "new": true,
+    "confidence": 90,
     "dual_use": false,
     "enrichment": {}
   },
@@ -16152,6 +16192,26 @@
     "current": true,
     "discovered_at": "2026-10-20T09:17:49Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0xe10c929bb5712412ef5feedf6dbf257db85be083",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-e10c929b",
+    "chain": "polygon",
+    "contracts": [
+      "0x5a8d4048d53388ece9e1039dcdf6de040745df0a"
+    ],
+    "first_seen": "2026-11-13T15:55:00Z",
+    "last_seen": "2026-11-13T15:55:00Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-13T16:11:25Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
