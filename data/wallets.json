@@ -1824,11 +1824,12 @@
     "label": "Operator (auto-detected)",
     "cluster_id": "c-e10c929b",
     "contracts": [
-      "0x5a8d4048d53388ece9e1039dcdf6de040745df0a"
+      "0x5a8d4048d53388ece9e1039dcdf6de040745df0a",
+      "0x6af606b63ef2dbf3bb5519d9c30245fd6beb1ad5"
     ],
-    "tx_count": 1,
+    "tx_count": 2,
     "first_seen": "2026-11-13T15:55:00Z",
-    "last_seen": "2026-11-13T15:55:00Z",
+    "last_seen": "2026-11-13T21:36:40Z",
     "watched": false,
     "funded_by": []
   },

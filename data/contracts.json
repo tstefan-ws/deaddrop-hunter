@@ -8132,6 +8132,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0x6af606b63ef2dbf3bb5519d9c30245fd6beb1ad5",
+    "cluster_id": "c-e10c929b",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xe10c929bb5712412ef5feedf6dbf257db85be083"
+    ],
+    "selectors": [
+      "0xb249cd2d"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-13T21:36:40Z",
+    "last_seen": "2026-11-13T21:36:40Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-11-13T21:41:24Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "http://schneemann.cfd",
+    "latest_value_decoded": "http://schneemann.cfd",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x6c0e89ca3691faa774a10019516fb38d25e06714",
     "cluster_id": "c-bc148d12",
     "family": "unknown",

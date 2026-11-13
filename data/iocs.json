@@ -6014,19 +6014,20 @@
     "type": "domain",
     "value": "schneemann.cfd",
     "port": null,
-    "family": "unknown",
+    "family": "c2-url",
     "cluster_id": "c-e10c929b",
     "chain": "polygon",
     "contracts": [
-      "0x5a8d4048d53388ece9e1039dcdf6de040745df0a"
+      "0x5a8d4048d53388ece9e1039dcdf6de040745df0a",
+      "0x6af606b63ef2dbf3bb5519d9c30245fd6beb1ad5"
     ],
     "first_seen": "2026-11-13T15:55:00Z",
-    "last_seen": "2026-11-13T15:55:00Z",
-    "times_seen": 1,
+    "last_seen": "2026-11-13T21:36:40Z",
+    "times_seen": 2,
     "current": true,
     "discovered_at": "2026-11-13T16:11:25Z",
     "new": true,
-    "confidence": 50,
+    "confidence": 85,
     "dual_use": false,
     "enrichment": {}
   },
@@ -10196,6 +10197,26 @@
     "discovered_at": "2026-10-20T15:39:37Z",
     "new": false,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x6af606b63ef2dbf3bb5519d9c30245fd6beb1ad5",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-e10c929b",
+    "chain": "polygon",
+    "contracts": [
+      "0x6af606b63ef2dbf3bb5519d9c30245fd6beb1ad5"
+    ],
+    "first_seen": "2026-11-13T21:36:40Z",
+    "last_seen": "2026-11-13T21:36:40Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-13T21:41:24Z",
+    "new": true,
+    "confidence": 90,
     "dual_use": false,
     "enrichment": {}
   },
@@ -16200,15 +16221,16 @@
     "type": "evm-wallet",
     "value": "0xe10c929bb5712412ef5feedf6dbf257db85be083",
     "port": null,
-    "family": "unknown",
+    "family": "c2-url",
     "cluster_id": "c-e10c929b",
     "chain": "polygon",
     "contracts": [
-      "0x5a8d4048d53388ece9e1039dcdf6de040745df0a"
+      "0x5a8d4048d53388ece9e1039dcdf6de040745df0a",
+      "0x6af606b63ef2dbf3bb5519d9c30245fd6beb1ad5"
     ],
     "first_seen": "2026-11-13T15:55:00Z",
-    "last_seen": "2026-11-13T15:55:00Z",
-    "times_seen": 1,
+    "last_seen": "2026-11-13T21:36:40Z",
+    "times_seen": 2,
     "current": true,
     "discovered_at": "2026-11-13T16:11:25Z",
     "new": true,
@@ -21696,6 +21718,26 @@
     "current": false,
     "discovered_at": "2025-11-16T11:37:19Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "http://schneemann.cfd",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-e10c929b",
+    "chain": "polygon",
+    "contracts": [
+      "0x6af606b63ef2dbf3bb5519d9c30245fd6beb1ad5"
+    ],
+    "first_seen": "2026-11-13T21:36:40Z",
+    "last_seen": "2026-11-13T21:36:40Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-13T21:41:24Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}

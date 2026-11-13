@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 97266887,
+    "timestamp": "2026-11-13T21:36:40Z",
+    "tx_hash": "0x23bae8cc46e6327d18257f16655dad7cf7444cd249fc16941c6aff7830ae2d85",
+    "contract": "0x6af606b63ef2dbf3bb5519d9c30245fd6beb1ad5",
+    "from": "0xe10c929bb5712412ef5feedf6dbf257db85be083",
+    "selector": "0xb249cd2d",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "http://schneemann.cfd",
+    "old_decoded": null,
+    "new_decoded": "http://schneemann.cfd",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 97253229,
     "timestamp": "2026-11-13T15:55:00Z",
     "tx_hash": "0x9da59b69efd28e74b6aea3a0dfa3bdcfd1d3a3eef8f2b38b303456eaac7de110",
