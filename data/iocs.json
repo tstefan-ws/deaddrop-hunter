@@ -13235,7 +13235,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-11T15:25:58Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
