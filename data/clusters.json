@@ -1951,15 +1951,16 @@
       "polygon"
     ],
     "contracts": [
+      "0x42f0d0c7223f6655e0eb92645696e42b0979e5d1",
       "0x5a8d4048d53388ece9e1039dcdf6de040745df0a",
       "0x6af606b63ef2dbf3bb5519d9c30245fd6beb1ad5"
     ],
     "wallets": [
       "0xe10c929bb5712412ef5feedf6dbf257db85be083"
     ],
-    "ioc_count": 5,
+    "ioc_count": 8,
     "first_seen": "2026-11-13T15:55:00Z",
-    "last_seen": "2026-11-13T21:36:40Z",
+    "last_seen": "2026-11-15T14:56:37Z",
     "discovered_at": "2026-11-13T16:11:25Z",
     "new": true
   },

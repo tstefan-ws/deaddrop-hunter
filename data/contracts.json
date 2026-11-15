@@ -7677,6 +7677,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0x42f0d0c7223f6655e0eb92645696e42b0979e5d1",
+    "cluster_id": "c-e10c929b",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xe10c929bb5712412ef5feedf6dbf257db85be083"
+    ],
+    "selectors": [
+      "0x3011d25c"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-15T14:56:37Z",
+    "last_seen": "2026-11-15T14:56:37Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-11-15T15:00:47Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "ws://87.58.199.102:3001",
+    "latest_value_decoded": "ws://87.58.199.102:3001",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x439fbf20c9ddd49ec7b2e8cb52804f48f6e913e4",
     "cluster_id": "c-19532c0f",
     "family": "xmrig-stealth",
