@@ -1497,6 +1497,33 @@
   },
   {
     "chain": "bsc",
+    "address": "0x3503d0c246c1988f3c690f4952fb7a1b7ddeeb3b",
+    "cluster_id": "c-eb5c43f7",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xeb5c43f789d1b29ad151655c0f2e78fc08694a11"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-11-15T19:36:07Z",
+    "last_seen": "2026-11-15T19:36:07Z",
+    "status": "active",
+    "code_hash": "9af260d308e9a876",
+    "discovered_at": "2026-11-15T19:09:02Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": null,
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
     "address": "0x354b703bc407ae41352fae3c9f5d48aee2fe1cc0",
     "cluster_id": "c-7aea4d60",
     "family": "unknown",
@@ -9246,6 +9273,33 @@
   },
   {
     "chain": "polygon",
+    "address": "0xa41129cfcb282db5f98a5b8a1a7ab8dd7a3e3a67",
+    "cluster_id": "c-2532250a",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x2532250a6fddc49fb96ba9e143186d8a33541c89"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-11-15T18:44:49Z",
+    "last_seen": "2026-11-15T18:44:49Z",
+    "status": "active",
+    "code_hash": "72e14e6290658091",
+    "discovered_at": "2026-11-15T19:09:02Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0xa4a981c20bd6312d0fad9cd563aa2cf6fa5a24ff",
     "cluster_id": "c-720a9e69",
     "family": "c2-url",
@@ -10288,7 +10342,7 @@
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-11-12T19:03:51Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://claude-flare-verification.vercel.app",
     "latest_value_decoded": "https://claude-flare-verification.vercel.app",
