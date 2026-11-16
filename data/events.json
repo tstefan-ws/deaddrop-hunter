@@ -1,6 +1,22 @@
 [
   {
     "chain": "polygon",
+    "block": 97444896,
+    "timestamp": "2026-11-16T23:46:53Z",
+    "tx_hash": "0xd0626119c0376ddf07ea4e4b7f895cbb9c3d5cdd233ba971554fd021332fe5ac",
+    "contract": "0xb756d2c96ddb9fb76978429e692a018c577d2861",
+    "from": "0xb9cbef341ac5088223473e03b4d668c6b4d1d6b8",
+    "selector": "0x721672d8",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "gm onchain — ChainGreets.xyz",
+    "old_decoded": null,
+    "new_decoded": "gm onchain — ChainGreets.xyz",
+    "decoder": "plain",
+    "code_hash": "d94c18cd4509f186"
+  },
+  {
+    "chain": "polygon",
     "block": 97414906,
     "timestamp": "2026-11-16T11:17:08Z",
     "tx_hash": "0xd69055ea1dab9afb15784843445e6ad99a819016bfae1169c29ce1d5d51b7a2d",
