@@ -7998,7 +7998,7 @@
     "status": "active",
     "code_hash": "20a0696fa16cc1ba",
     "discovered_at": "2026-11-13T16:11:25Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "schneemann.cfd",
     "latest_value_decoded": "schneemann.cfd",
