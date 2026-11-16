@@ -568,7 +568,7 @@
     ],
     "ioc_count": 245,
     "first_seen": "2026-03-11T18:54:01Z",
-    "last_seen": "2026-11-12T20:34:52Z",
+    "last_seen": "2026-11-15T17:48:46Z",
     "discovered_at": "2026-10-19T20:00:00Z",
     "new": false
   },
@@ -2015,9 +2015,9 @@
     "wallets": [
       "0xe3a29d16ca8722d2e91975589fa23659ee8e1719"
     ],
-    "ioc_count": 22,
+    "ioc_count": 24,
     "first_seen": "2026-10-22T08:41:39Z",
-    "last_seen": "2026-11-12T07:01:25Z",
+    "last_seen": "2026-11-16T11:17:08Z",
     "discovered_at": "2026-10-22T08:49:42Z",
     "new": false
   },
