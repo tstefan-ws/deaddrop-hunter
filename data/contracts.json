@@ -1161,7 +1161,7 @@
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-11-13T12:13:02Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "78.40.193.184",
     "latest_value_decoded": "78.40.193.184",
