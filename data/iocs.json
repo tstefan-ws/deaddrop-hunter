@@ -3456,9 +3456,9 @@
       "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
     ],
     "first_seen": "2026-11-16T11:17:08Z",
-    "last_seen": "2026-11-16T11:17:08Z",
-    "times_seen": 1,
-    "current": true,
+    "last_seen": "2026-11-17T18:24:47Z",
+    "times_seen": 2,
+    "current": false,
     "discovered_at": "2026-11-16T11:40:25Z",
     "new": true,
     "confidence": 85,
@@ -4224,6 +4224,26 @@
     "discovered_at": "2026-10-19T20:00:00Z",
     "new": false,
     "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "mango-oyster.cfd",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-e3a29d16",
+    "chain": "polygon",
+    "contracts": [
+      "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
+    ],
+    "first_seen": "2026-11-17T18:24:38Z",
+    "last_seen": "2026-11-17T18:29:34Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-11-17T18:31:02Z",
+    "new": true,
+    "confidence": 85,
     "dual_use": false,
     "enrichment": {}
   },
@@ -11892,8 +11912,8 @@
       "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
     ],
     "first_seen": "2026-10-22T08:41:39Z",
-    "last_seen": "2026-11-16T11:17:08Z",
-    "times_seen": 11,
+    "last_seen": "2026-11-17T18:29:34Z",
+    "times_seen": 14,
     "current": true,
     "discovered_at": "2026-10-22T08:49:42Z",
     "new": false,
@@ -16576,8 +16596,8 @@
       "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
     ],
     "first_seen": "2026-10-22T08:41:39Z",
-    "last_seen": "2026-11-16T11:17:08Z",
-    "times_seen": 11,
+    "last_seen": "2026-11-17T18:29:34Z",
+    "times_seen": 14,
     "current": true,
     "discovered_at": "2026-10-22T08:49:42Z",
     "new": false,
@@ -23950,9 +23970,9 @@
       "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
     ],
     "first_seen": "2026-11-16T11:17:08Z",
-    "last_seen": "2026-11-16T11:17:08Z",
-    "times_seen": 1,
-    "current": true,
+    "last_seen": "2026-11-17T18:24:47Z",
+    "times_seen": 2,
+    "current": false,
     "discovered_at": "2026-11-16T11:40:25Z",
     "new": true,
     "confidence": 85,
@@ -24097,6 +24117,26 @@
     "current": true,
     "discovered_at": "2026-10-30T11:49:17Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://mango-oyster.cfd",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-e3a29d16",
+    "chain": "polygon",
+    "contracts": [
+      "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
+    ],
+    "first_seen": "2026-11-17T18:24:38Z",
+    "last_seen": "2026-11-17T18:29:34Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-11-17T18:31:02Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
