@@ -1858,12 +1858,20 @@
     "label": "Operator (auto-detected)",
     "cluster_id": "c-de2f7044",
     "contracts": [
+      "0x1b7f01a971f54d26f133e3979a3e3c0f646ba861",
+      "0x35545f503ee71e39cc125972dae469db830ba8e4",
+      "0x372e7cee71e0bcab45e45dc946ecccbf64f1fc65",
       "0x38b086275026c89fdd0e258a9a191819270d9403",
-      "0x84ef485c1d8f3ca1880d0a7ab045d924cf5ac88e"
+      "0x68af81b38fbd71f100034d1e9ca480aff7c9c904",
+      "0x7afc6b13af0626ade813412db1f74e43d0515773",
+      "0x811275323ca7f17f51fa8c5bc2d50e2d338c39c6",
+      "0x84ef485c1d8f3ca1880d0a7ab045d924cf5ac88e",
+      "0xda1c5e3996b8d8ff090f627a6cbf4355bc65915b",
+      "0xf5440f3eb050b02091e7928d6062af267a009629"
     ],
-    "tx_count": 5,
+    "tx_count": 13,
     "first_seen": "2026-10-26T12:24:47Z",
-    "last_seen": "2026-11-07T10:19:01Z",
+    "last_seen": "2026-11-17T21:45:52Z",
     "watched": false,
     "funded_by": []
   },
