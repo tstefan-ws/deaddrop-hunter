@@ -1343,9 +1343,9 @@
     "contracts": [
       "0xb909956b9d716ddfdf6935115a8d6f6cb2e655c6"
     ],
-    "tx_count": 9,
+    "tx_count": 10,
     "first_seen": "2026-10-29T17:30:10Z",
-    "last_seen": "2026-11-12T22:44:43Z",
+    "last_seen": "2026-11-17T13:02:37Z",
     "watched": false,
     "funded_by": []
   },
@@ -1796,9 +1796,9 @@
       "0xb29927b7d854b232d5e58cfc201866376e68c676",
       "0xb2a4ea7055b7e2a6b2d96502f0ff85024e72987b"
     ],
-    "tx_count": 9,
+    "tx_count": 10,
     "first_seen": "2026-10-20T05:17:32Z",
-    "last_seen": "2026-11-12T22:47:48Z",
+    "last_seen": "2026-11-17T13:02:50Z",
     "watched": false,
     "funded_by": []
   },
