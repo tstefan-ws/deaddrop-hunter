@@ -6783,6 +6783,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0x05a754c6532ff4cb05585ef0f8e17ebbb9f0f429",
+    "cluster_id": "c-3ed163a0",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x3ed163a00bf1cb82c5bd2ff00ad7b1ac115bf11c"
+    ],
+    "selectors": [
+      "0xb249cd2d"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-18T13:54:25Z",
+    "last_seen": "2026-11-18T13:54:25Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-11-18T14:05:58Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://pastebin.com/raw/14WPnVLP",
+    "latest_value_decoded": "https://pastebin.com/raw/14WPnVLP",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x08207b087f61d7e95e441e15fd6d40befd6ed308",
     "cluster_id": "c-34c15320",
     "family": "c2-url",
