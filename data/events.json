@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 97511533,
+    "timestamp": "2026-11-18T03:32:49Z",
+    "tx_hash": "0xa15b3e38bbdf31914f15527cb69c15fb6d9d388aebaaeb946e00bde4665da7cf",
+    "contract": "0xac3004fcfbdaeb80be6c5b97ba2939f4016a7575",
+    "from": "0x945851fada06e61640501e45543a9a8db1201a7d",
+    "selector": "0x5d3a1f9d",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "http://minecraftserver.servegame.com:8080/api/miners/submit",
+    "old_decoded": null,
+    "new_decoded": "http://minecraftserver.servegame.com:8080/api/miners/submit",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 97508033,
     "timestamp": "2026-11-18T02:05:19Z",
     "tx_hash": "0x6457f913ba39ba61349322b5ad6a20ff51bb66ab4db5d1fb0711c753cabd337b",
