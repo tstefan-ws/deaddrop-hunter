@@ -7943,7 +7943,7 @@
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-11-15T15:00:47Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "ws://87.58.199.102:3001",
     "latest_value_decoded": "ws://87.58.199.102:3001",
