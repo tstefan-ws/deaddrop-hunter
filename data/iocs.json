@@ -4689,6 +4689,26 @@
   },
   {
     "type": "domain",
+    "value": "minecraftserver.servegame.com",
+    "port": 8080,
+    "family": "c2-url",
+    "cluster_id": "c-945851fa",
+    "chain": "polygon",
+    "contracts": [
+      "0xac3004fcfbdaeb80be6c5b97ba2939f4016a7575"
+    ],
+    "first_seen": "2026-11-18T02:05:19Z",
+    "last_seen": "2026-11-18T02:05:19Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-18T02:12:44Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "misterslivker.asia",
     "port": null,
     "family": "c2-url",
@@ -12403,6 +12423,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0xac3004fcfbdaeb80be6c5b97ba2939f4016a7575",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-945851fa",
+    "chain": "polygon",
+    "contracts": [
+      "0xac3004fcfbdaeb80be6c5b97ba2939f4016a7575"
+    ],
+    "first_seen": "2026-11-18T02:05:19Z",
+    "last_seen": "2026-11-18T02:05:19Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-18T02:12:44Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0xad17e8d965a7de76d2b713ba7dcee27a949df6d2",
     "port": null,
     "family": "unknown",
@@ -16051,6 +16091,26 @@
     "discovered_at": "2026-11-11T02:08:17Z",
     "new": false,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0x945851fada06e61640501e45543a9a8db1201a7d",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-945851fa",
+    "chain": "polygon",
+    "contracts": [
+      "0xac3004fcfbdaeb80be6c5b97ba2939f4016a7575"
+    ],
+    "first_seen": "2026-11-18T02:05:19Z",
+    "last_seen": "2026-11-18T02:05:19Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-18T02:12:44Z",
+    "new": true,
+    "confidence": 85,
     "dual_use": false,
     "enrichment": {}
   },
@@ -22274,6 +22334,26 @@
     "current": false,
     "discovered_at": "2025-11-16T11:37:19Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "http://minecraftserver.servegame.com:8080/api/miners/submit",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-945851fa",
+    "chain": "polygon",
+    "contracts": [
+      "0xac3004fcfbdaeb80be6c5b97ba2939f4016a7575"
+    ],
+    "first_seen": "2026-11-18T02:05:19Z",
+    "last_seen": "2026-11-18T02:05:19Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-18T02:12:44Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}

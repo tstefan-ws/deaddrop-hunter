@@ -9812,6 +9812,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0xac3004fcfbdaeb80be6c5b97ba2939f4016a7575",
+    "cluster_id": "c-945851fa",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x945851fada06e61640501e45543a9a8db1201a7d"
+    ],
+    "selectors": [
+      "0x5d3a1f9d"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-18T02:05:19Z",
+    "last_seen": "2026-11-18T02:05:19Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-11-18T02:12:44Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "http://minecraftserver.servegame.com:8080/api/miners/submit",
+    "latest_value_decoded": "http://minecraftserver.servegame.com:8080/api/miners/submit",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0xae76027e422ddee0156610c4a57ec916b420bb5b",
     "cluster_id": "c-504efa63",
     "family": "c2-url",
