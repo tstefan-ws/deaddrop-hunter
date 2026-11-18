@@ -362,7 +362,7 @@
     "first_seen": "2026-11-15T18:44:49Z",
     "last_seen": "2026-11-15T18:44:49Z",
     "discovered_at": "2026-11-15T19:09:02Z",
-    "new": true
+    "new": false
   },
   {
     "id": "c-28288933",
@@ -2146,7 +2146,7 @@
     "first_seen": "2026-11-15T19:36:07Z",
     "last_seen": "2026-11-15T19:36:07Z",
     "discovered_at": "2026-11-15T19:09:02Z",
-    "new": true
+    "new": false
   },
   {
     "id": "c-ec647bf9",
