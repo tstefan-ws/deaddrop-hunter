@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 97573697,
+    "timestamp": "2026-11-19T05:26:55Z",
+    "tx_hash": "0xe28b4ba4b942988c5a24c0cdc408734e38457a048691480d2da634c67186b4e3",
+    "contract": "0x5a2220d56f56db9c9f5b0cb83ff35b42746503a2",
+    "from": "0x36efec6c52efb2807b2ba6a10a2a03939cb29a4c",
+    "selector": "0x3740071f",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "This project is now part of Chisel-- FOSS cross-chain transaction signing and portal. https://johnrigler.github.io/chisel\n",
+    "old_decoded": null,
+    "new_decoded": "This project is now part of Chisel-- FOSS cross-chain transaction signing and portal. https://johnrigler.github.io/chisel\n",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 97569189,
     "timestamp": "2026-11-19T03:34:13Z",
     "tx_hash": "0x7acf01d6003d8d711320a578d48c3e3baf65b6c9508571c1b1cd7f0fd93058e6",

@@ -3588,6 +3588,26 @@
   },
   {
     "type": "domain",
+    "value": "johnrigler.github.io",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-36efec6c",
+    "chain": "polygon",
+    "contracts": [
+      "0x5a2220d56f56db9c9f5b0cb83ff35b42746503a2"
+    ],
+    "first_seen": "2026-11-19T05:26:55Z",
+    "last_seen": "2026-11-19T05:26:55Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-19T05:31:20Z",
+    "new": true,
+    "confidence": 70,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "kal.zeuss4d.com",
     "port": null,
     "family": "c2-url",
@@ -10004,6 +10024,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x5a2220d56f56db9c9f5b0cb83ff35b42746503a2",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-36efec6c",
+    "chain": "polygon",
+    "contracts": [
+      "0x5a2220d56f56db9c9f5b0cb83ff35b42746503a2"
+    ],
+    "first_seen": "2026-11-19T05:26:55Z",
+    "last_seen": "2026-11-19T05:26:55Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-19T05:31:20Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x5a8d4048d53388ece9e1039dcdf6de040745df0a",
     "port": null,
     "family": "unknown",
@@ -15469,6 +15509,26 @@
     "current": true,
     "discovered_at": "2026-10-22T08:57:44Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0x36efec6c52efb2807b2ba6a10a2a03939cb29a4c",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-36efec6c",
+    "chain": "polygon",
+    "contracts": [
+      "0x5a2220d56f56db9c9f5b0cb83ff35b42746503a2"
+    ],
+    "first_seen": "2026-11-19T05:26:55Z",
+    "last_seen": "2026-11-19T05:26:55Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-19T05:31:20Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -24727,6 +24787,26 @@
     "current": false,
     "discovered_at": "2026-11-09T09:29:32Z",
     "new": false,
+    "confidence": 75,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://johnrigler.github.io/chisel",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-36efec6c",
+    "chain": "polygon",
+    "contracts": [
+      "0x5a2220d56f56db9c9f5b0cb83ff35b42746503a2"
+    ],
+    "first_seen": "2026-11-19T05:26:55Z",
+    "last_seen": "2026-11-19T05:26:55Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-19T05:31:20Z",
+    "new": true,
     "confidence": 75,
     "dual_use": false,
     "enrichment": {}

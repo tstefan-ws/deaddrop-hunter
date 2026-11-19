@@ -8282,6 +8282,35 @@
   },
   {
     "chain": "polygon",
+    "address": "0x5a2220d56f56db9c9f5b0cb83ff35b42746503a2",
+    "cluster_id": "c-36efec6c",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x36efec6c52efb2807b2ba6a10a2a03939cb29a4c"
+    ],
+    "selectors": [
+      "0x3740071f"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-19T05:26:55Z",
+    "last_seen": "2026-11-19T05:26:55Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-11-19T05:31:20Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "This project is now part of Chisel-- FOSS cross-chain transaction signing and portal. https://johnrigler.github.io/chisel\n",
+    "latest_value_decoded": "This project is now part of Chisel-- FOSS cross-chain transaction signing and portal. https://johnrigler.github.io/chisel\n",
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x5a8d4048d53388ece9e1039dcdf6de040745df0a",
     "cluster_id": "c-e10c929b",
     "family": "unknown",
