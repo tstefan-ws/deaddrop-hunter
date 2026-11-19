@@ -2861,6 +2861,35 @@
   },
   {
     "chain": "bsc",
+    "address": "0x682bc6ac05a4894ea3b8783032c539bb2f7047e7",
+    "cluster_id": "c-6d6811ad",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x6d6811ad193be5536bf0ab4ad7c1a9069e9084f4"
+    ],
+    "selectors": [
+      "0xf21bb4c5"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-19T13:55:56Z",
+    "last_seen": "2026-11-19T13:55:56Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-11-19T13:58:33Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "daisha.ai — first on the wall. Agent Wall is live.",
+    "latest_value_decoded": "daisha.ai — first on the wall. Agent Wall is live.",
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
     "address": "0x6b4eede43b30b712fdd8b5be22ba8512645e10e1",
     "cluster_id": "c-c2215830",
     "family": "unknown",
