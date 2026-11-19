@@ -5997,7 +5997,7 @@
     "update_count": 1,
     "first_seen": "2026-10-20T00:08:39Z",
     "last_seen": "2026-10-20T00:08:39Z",
-    "status": "active",
+    "status": "dormant",
     "code_hash": "e8c0b064d7b328d3",
     "discovered_at": "2026-10-20T00:13:20Z",
     "new": false,
