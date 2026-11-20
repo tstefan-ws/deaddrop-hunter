@@ -1794,11 +1794,12 @@
     "cluster_id": "c-b9cbef34",
     "contracts": [
       "0x164152a21d49aa418984a1f85b07d88a2fea4e38",
+      "0x4e9a285e419e846fb05d784573642517f941a12d",
       "0xb756d2c96ddb9fb76978429e692a018c577d2861"
     ],
-    "tx_count": 2,
+    "tx_count": 3,
     "first_seen": "2026-11-16T23:46:53Z",
-    "last_seen": "2026-11-18T21:50:40Z",
+    "last_seen": "2026-11-20T19:35:44Z",
     "watched": false,
     "funded_by": []
   },

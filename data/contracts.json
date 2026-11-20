@@ -1950,7 +1950,7 @@
     "update_count": 1,
     "first_seen": "2026-10-21T18:39:12Z",
     "last_seen": "2026-10-21T18:39:12Z",
-    "status": "active",
+    "status": "dormant",
     "code_hash": "040da35b1380a7d5",
     "discovered_at": "2026-10-21T18:39:57Z",
     "new": false,
@@ -8377,6 +8377,35 @@
     "tags": [
       "c2",
       "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x4e9a285e419e846fb05d784573642517f941a12d",
+    "cluster_id": "c-b9cbef34",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xb9cbef341ac5088223473e03b4d668c6b4d1d6b8"
+    ],
+    "selectors": [
+      "0x721672d8"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-20T19:35:44Z",
+    "last_seen": "2026-11-20T19:35:44Z",
+    "status": "active",
+    "code_hash": "a851613bbba5cff8",
+    "discovered_at": "2026-11-20T20:01:15Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "gm onchain — ChainGreets.xyz",
+    "latest_value_decoded": "gm onchain — ChainGreets.xyz",
+    "tags": [
       "config-on-chain"
     ]
   },
