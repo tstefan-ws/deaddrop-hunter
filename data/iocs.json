@@ -7724,6 +7724,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x0e530cf387add00f2832a8b1ebdc245a4222a050",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-3bfc05a8",
+    "chain": "bsc",
+    "contracts": [
+      "0x0e530cf387add00f2832a8b1ebdc245a4222a050"
+    ],
+    "first_seen": "2026-11-20T14:31:02Z",
+    "last_seen": "2026-11-20T14:31:02Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-20T14:37:12Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x0ec87a514e5ff0659d330674f35a35612ca2164a",
     "port": null,
     "family": "c2-url",
@@ -7739,6 +7759,26 @@
     "discovered_at": "2026-10-30T09:02:48Z",
     "new": false,
     "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x0ecd7fb1a281eb0a17ec33bfc161f8db19967468",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-3bfc05a8",
+    "chain": "bsc",
+    "contracts": [
+      "0x0ecd7fb1a281eb0a17ec33bfc161f8db19967468"
+    ],
+    "first_seen": "2026-11-20T14:31:13Z",
+    "last_seen": "2026-11-20T14:31:13Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-20T14:37:12Z",
+    "new": true,
+    "confidence": 55,
     "dual_use": false,
     "enrichment": {}
   },
@@ -15721,6 +15761,8 @@
     "contracts": [
       "0x06cdf7331db4c778b6e0c0fb0ed7b227ae3938b6",
       "0x0a26810cfe1ff4e7c7423c6927d14be9b3a60247",
+      "0x0e530cf387add00f2832a8b1ebdc245a4222a050",
+      "0x0ecd7fb1a281eb0a17ec33bfc161f8db19967468",
       "0x10adc17bcd6e612b6419d1639a4da944f879fa2e",
       "0x11e8618fb57ae8bd5716bdeac197f8172983f5c4",
       "0x1f26939187f39242c95a9a0b7b0e0cfa349144d3",
@@ -15754,8 +15796,8 @@
       "0xffcc9a3493c4f5a11446a6416f2d46244a115355"
     ],
     "first_seen": "2026-10-22T13:41:44Z",
-    "last_seen": "2026-11-17T08:47:10Z",
-    "times_seen": 33,
+    "last_seen": "2026-11-20T14:31:13Z",
+    "times_seen": 35,
     "current": true,
     "discovered_at": "2026-10-22T13:44:11Z",
     "new": false,
