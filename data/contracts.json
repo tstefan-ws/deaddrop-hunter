@@ -9724,9 +9724,9 @@
       "0xe5eab096"
     ],
     "decoder": "plain",
-    "update_count": 14,
+    "update_count": 16,
     "first_seen": "2026-10-22T08:41:39Z",
-    "last_seen": "2026-11-17T18:29:34Z",
+    "last_seen": "2026-11-20T08:05:22Z",
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-22T08:49:42Z",

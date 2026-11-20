@@ -4279,8 +4279,8 @@
       "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
     ],
     "first_seen": "2026-11-17T18:24:38Z",
-    "last_seen": "2026-11-17T18:29:34Z",
-    "times_seen": 2,
+    "last_seen": "2026-11-20T08:05:22Z",
+    "times_seen": 3,
     "current": true,
     "discovered_at": "2026-11-17T18:31:02Z",
     "new": true,
@@ -7137,6 +7137,26 @@
     "current": true,
     "discovered_at": "2026-11-02T15:59:00Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "yellow-monkey.cfd",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-e3a29d16",
+    "chain": "polygon",
+    "contracts": [
+      "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
+    ],
+    "first_seen": "2026-11-20T08:05:17Z",
+    "last_seen": "2026-11-20T08:05:17Z",
+    "times_seen": 1,
+    "current": false,
+    "discovered_at": "2026-11-20T08:13:24Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -12233,8 +12253,8 @@
       "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
     ],
     "first_seen": "2026-10-22T08:41:39Z",
-    "last_seen": "2026-11-17T18:29:34Z",
-    "times_seen": 14,
+    "last_seen": "2026-11-20T08:05:22Z",
+    "times_seen": 16,
     "current": true,
     "discovered_at": "2026-10-22T08:49:42Z",
     "new": false,
@@ -17109,8 +17129,8 @@
       "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
     ],
     "first_seen": "2026-10-22T08:41:39Z",
-    "last_seen": "2026-11-17T18:29:34Z",
-    "times_seen": 14,
+    "last_seen": "2026-11-20T08:05:22Z",
+    "times_seen": 16,
     "current": true,
     "discovered_at": "2026-10-22T08:49:42Z",
     "new": false,
@@ -24985,8 +25005,8 @@
       "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
     ],
     "first_seen": "2026-11-17T18:24:38Z",
-    "last_seen": "2026-11-17T18:29:34Z",
-    "times_seen": 2,
+    "last_seen": "2026-11-20T08:05:22Z",
+    "times_seen": 3,
     "current": true,
     "discovered_at": "2026-11-17T18:31:02Z",
     "new": true,
@@ -26119,6 +26139,26 @@
     "current": true,
     "discovered_at": "2026-11-07T10:19:44Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://yellow-monkey.cfd",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-e3a29d16",
+    "chain": "polygon",
+    "contracts": [
+      "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
+    ],
+    "first_seen": "2026-11-20T08:05:17Z",
+    "last_seen": "2026-11-20T08:05:17Z",
+    "times_seen": 1,
+    "current": false,
+    "discovered_at": "2026-11-20T08:13:24Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
