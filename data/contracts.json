@@ -10779,11 +10779,13 @@
     "operator_wallets": [
       "0x7af0fb006bd18f0366fd0e5ad5d7abc50852e279"
     ],
-    "selectors": [],
+    "selectors": [
+      "0x5d3a1f9d"
+    ],
     "decoder": "plain",
-    "update_count": 1,
+    "update_count": 2,
     "first_seen": "2026-11-20T22:37:44Z",
-    "last_seen": "2026-11-20T22:37:44Z",
+    "last_seen": "2026-11-20T22:59:47Z",
     "status": "active",
     "code_hash": "ddb1d1418254bafb",
     "discovered_at": "2026-11-20T22:42:46Z",
