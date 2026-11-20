@@ -9310,7 +9310,7 @@
     "update_count": 2,
     "first_seen": "2026-10-21T22:27:48Z",
     "last_seen": "2026-10-21T22:27:50Z",
-    "status": "active",
+    "status": "dormant",
     "code_hash": "f3868bfb9664cea9",
     "discovered_at": "2026-10-21T22:32:48Z",
     "new": false,
