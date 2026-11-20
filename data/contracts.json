@@ -10160,7 +10160,7 @@
     "status": "active",
     "code_hash": "d94c18cd4509f186",
     "discovered_at": "2026-11-16T23:51:07Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "gm onchain — ChainGreets.xyz",
     "latest_value_decoded": "gm onchain — ChainGreets.xyz",
