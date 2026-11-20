@@ -1,5 +1,37 @@
 [
   {
+    "chain": "bsc",
+    "block": 134758164,
+    "timestamp": "2026-11-20T20:20:29Z",
+    "tx_hash": "0x8830cca0c288d5581090179b37a185fcc87b4cc5a659c918dd8b7dbad344b771",
+    "contract": "0x4d32b19a1f185c37e9c10071e8754a6ac710446a",
+    "from": "0xdecd47827fdb4cc69751fdf0be9690eb6abcb612",
+    "selector": "0x375a7cba",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "0x0000000000",
+    "old_decoded": null,
+    "new_decoded": null,
+    "decoder": "undecoded",
+    "code_hash": "005695465bf8ab47"
+  },
+  {
+    "chain": "bsc",
+    "block": 134757312,
+    "timestamp": "2026-11-20T20:14:06Z",
+    "tx_hash": "0x2b9f2ea2183b5eba422f63cde7fed81006f693975421c9bec96a4cffc2917af3",
+    "contract": "0xef77f5e26c888ea14d35e894308add273a66791c",
+    "from": "0xdecd47827fdb4cc69751fdf0be9690eb6abcb612",
+    "selector": "0x375a7cba",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "0x00000000000000",
+    "old_decoded": null,
+    "new_decoded": null,
+    "decoder": "undecoded",
+    "code_hash": "005695465bf8ab47"
+  },
+  {
     "chain": "polygon",
     "block": 97665250,
     "timestamp": "2026-11-20T19:35:44Z",
