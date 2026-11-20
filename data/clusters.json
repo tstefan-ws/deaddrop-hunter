@@ -1248,6 +1248,25 @@
     "new": false
   },
   {
+    "id": "c-7af0fb00",
+    "name": "C2 URL rotation cluster (c-7af0fb00)",
+    "family": "c2-url",
+    "chains": [
+      "polygon"
+    ],
+    "contracts": [
+      "0xc32343acf57acaddf86bfc288daadc3174ba0340"
+    ],
+    "wallets": [
+      "0x7af0fb006bd18f0366fd0e5ad5d7abc50852e279"
+    ],
+    "ioc_count": 4,
+    "first_seen": "2026-11-20T22:37:44Z",
+    "last_seen": "2026-11-20T22:37:44Z",
+    "discovered_at": "2026-11-20T22:42:46Z",
+    "new": true
+  },
+  {
     "id": "c-7f699875",
     "name": "Unclassified dead-drop cluster (c-7f699875)",
     "family": "unknown",
