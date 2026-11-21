@@ -9014,8 +9014,8 @@
       "0x310ba7d149f6ea1dbee50e6e1fca49174df6f789"
     ],
     "first_seen": "2026-10-27T16:46:17Z",
-    "last_seen": "2026-10-27T18:02:13Z",
-    "times_seen": 2,
+    "last_seen": "2026-11-21T12:02:19Z",
+    "times_seen": 3,
     "current": true,
     "discovered_at": "2026-10-27T16:46:30Z",
     "new": false,
@@ -15625,8 +15625,8 @@
       "0x310ba7d149f6ea1dbee50e6e1fca49174df6f789"
     ],
     "first_seen": "2026-10-27T16:46:17Z",
-    "last_seen": "2026-10-27T18:02:13Z",
-    "times_seen": 2,
+    "last_seen": "2026-11-21T12:02:19Z",
+    "times_seen": 3,
     "current": true,
     "discovered_at": "2026-10-27T16:46:30Z",
     "new": false,
@@ -17790,7 +17790,7 @@
     "first_seen": "2026-10-27T18:02:13Z",
     "last_seen": "2026-10-27T18:02:13Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-10-27T18:05:47Z",
     "new": false,
     "confidence": 60,
@@ -18082,6 +18082,26 @@
     "discovered_at": "2026-06-21T07:01:41Z",
     "new": false,
     "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "191.44.109.68",
+    "port": 1312,
+    "family": "unknown",
+    "cluster_id": "c-150a4c91",
+    "chain": "bsc",
+    "contracts": [
+      "0x310ba7d149f6ea1dbee50e6e1fca49174df6f789"
+    ],
+    "first_seen": "2026-11-21T12:02:19Z",
+    "last_seen": "2026-11-21T12:02:19Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-21T12:07:32Z",
+    "new": true,
+    "confidence": 60,
     "dual_use": false,
     "enrichment": {}
   },

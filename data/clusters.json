@@ -232,9 +232,9 @@
     "wallets": [
       "0x150a4c916f9a6c4a306b8c9a0ec04cb445ced613"
     ],
-    "ioc_count": 3,
+    "ioc_count": 4,
     "first_seen": "2026-10-27T16:46:17Z",
-    "last_seen": "2026-10-27T18:02:13Z",
+    "last_seen": "2026-11-21T12:02:19Z",
     "discovered_at": "2026-10-27T16:46:30Z",
     "new": false
   },

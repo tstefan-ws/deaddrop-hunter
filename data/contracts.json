@@ -1510,16 +1510,16 @@
       "0x93fbd690"
     ],
     "decoder": "plain",
-    "update_count": 2,
+    "update_count": 3,
     "first_seen": "2026-10-27T16:46:17Z",
-    "last_seen": "2026-10-27T18:02:13Z",
+    "last_seen": "2026-11-21T12:02:19Z",
     "status": "active",
     "code_hash": "a07a9ccca99d78c0",
     "discovered_at": "2026-10-27T16:46:30Z",
     "new": false,
     "evidence": "decoded",
-    "latest_value_raw": "1.1.1.1:80",
-    "latest_value_decoded": "1.1.1.1:80",
+    "latest_value_raw": "191.44.109.68:1312",
+    "latest_value_decoded": "191.44.109.68:1312",
     "tags": [
       "config-on-chain"
     ]
