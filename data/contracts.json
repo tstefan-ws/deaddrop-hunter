@@ -7356,7 +7356,7 @@
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-11-18T14:05:58Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://pastebin.com/raw/14WPnVLP",
     "latest_value_decoded": "https://pastebin.com/raw/14WPnVLP",
