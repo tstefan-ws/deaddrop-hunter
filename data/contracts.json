@@ -2523,7 +2523,7 @@
     "update_count": 1,
     "first_seen": "2026-10-22T19:26:15Z",
     "last_seen": "2026-10-22T19:26:15Z",
-    "status": "active",
+    "status": "dormant",
     "code_hash": "b0a002ca1d6bb0c8",
     "discovered_at": "2026-10-22T19:31:46Z",
     "new": false,
