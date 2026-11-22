@@ -6970,7 +6970,7 @@
     "times_seen": 1,
     "current": false,
     "discovered_at": "2026-11-19T03:22:14Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -19414,7 +19414,7 @@
     "times_seen": 6,
     "current": false,
     "discovered_at": "2026-11-19T03:22:14Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -19766,7 +19766,7 @@
     "times_seen": 1,
     "current": false,
     "discovered_at": "2026-11-19T03:22:14Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -19946,7 +19946,7 @@
     "times_seen": 1,
     "current": false,
     "discovered_at": "2026-11-19T03:22:14Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -19966,7 +19966,7 @@
     "times_seen": 3,
     "current": false,
     "discovered_at": "2026-11-19T03:22:14Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -20307,7 +20307,7 @@
     "times_seen": 1,
     "current": false,
     "discovered_at": "2026-11-19T03:31:20Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -23113,7 +23113,7 @@
     "times_seen": 1,
     "current": false,
     "discovered_at": "2026-11-19T03:22:14Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -23133,7 +23133,7 @@
     "times_seen": 1,
     "current": false,
     "discovered_at": "2026-11-19T03:22:14Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -23153,7 +23153,7 @@
     "times_seen": 1,
     "current": false,
     "discovered_at": "2026-11-19T03:31:20Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -23193,7 +23193,7 @@
     "times_seen": 1,
     "current": false,
     "discovered_at": "2026-11-19T03:31:20Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -23373,7 +23373,7 @@
     "times_seen": 1,
     "current": false,
     "discovered_at": "2026-11-19T03:22:14Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -23413,7 +23413,7 @@
     "times_seen": 2,
     "current": false,
     "discovered_at": "2026-11-19T03:22:14Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -23433,7 +23433,7 @@
     "times_seen": 1,
     "current": false,
     "discovered_at": "2026-11-19T03:31:20Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -23473,7 +23473,7 @@
     "times_seen": 1,
     "current": false,
     "discovered_at": "2026-11-19T03:22:14Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -23596,7 +23596,7 @@
     "times_seen": 1,
     "current": false,
     "discovered_at": "2026-11-19T03:31:20Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
