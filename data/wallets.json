@@ -1361,6 +1361,21 @@
   },
   {
     "chain": "polygon",
+    "address": "0x207ab572e6962060f42498822a66c72d9776ffef",
+    "role": "operator",
+    "label": "Operator (auto-detected)",
+    "cluster_id": "c-207ab572",
+    "contracts": [
+      "0x78eedaf3f0cecf1f7d86f5370e0c238454fec107"
+    ],
+    "tx_count": 1,
+    "first_seen": "2026-11-22T15:47:31Z",
+    "last_seen": "2026-11-22T15:47:31Z",
+    "watched": false,
+    "funded_by": []
+  },
+  {
+    "chain": "polygon",
     "address": "0x24d512cc549aaa8a0828f3336b88c55bad43c847",
     "role": "operator",
     "label": "Operator: XMRig config, hashvault pool",
