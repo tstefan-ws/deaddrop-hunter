@@ -8251,6 +8251,33 @@
   },
   {
     "chain": "polygon",
+    "address": "0x34386f81b502a5bf81b25fab0fef265dc0e098c9",
+    "cluster_id": "c-f373f10b",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xf373f10b26ac41240e4e85b3c56503b090c57aa3"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-11-22T16:00:17Z",
+    "last_seen": "2026-11-22T16:00:17Z",
+    "status": "active",
+    "code_hash": "23fc87d78f7c8f1f",
+    "discovered_at": "2026-11-22T16:03:13Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": "0x888888888888ec68a58ab8094cc1ad20ba3d24020000000000000000000000000000b578000000000000000000000000000000010000006b03140f00000000000055790add5ca30dc248f0c005c916e9f806afa13e458a6998ea82fce6151ca47d31da3065628677b1e77e8650f688e0b55884d710f0e755cc3dc20ec7a28d9b931c",
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x3463851978afd2869c8d372d3dccd5b2f40c756e",
     "cluster_id": "c-504efa63",
     "family": "c2-url",
@@ -9965,6 +9992,33 @@
     "tags": [
       "c2",
       "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x907c5549d29d2fe653c21de1eb16e8041c576219",
+    "cluster_id": "c-f373f10b",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xf373f10b26ac41240e4e85b3c56503b090c57aa3"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-11-22T16:00:16Z",
+    "last_seen": "2026-11-22T16:00:16Z",
+    "status": "active",
+    "code_hash": "ef5941a923e5465e",
+    "discovered_at": "2026-11-22T16:03:13Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": "0x777777777777aec03fd955926dbf81597e66834c0000000000000000000000000000b578000000000000000000000000000000010000006b031550000000000000bc92c187bf772f578c2391b2eb7e88e375cb9e2dbca1fe08eac72b72a4ca57f634dabe4ceea6bdfb6c268d14153511199209a3f4575b0668bf4c0bc2c5462e7e1b",
+    "latest_value_decoded": null,
+    "tags": [
       "config-on-chain"
     ]
   },
