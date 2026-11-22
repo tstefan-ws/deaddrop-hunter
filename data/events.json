@@ -1,6 +1,22 @@
 [
   {
     "chain": "polygon",
+    "block": 97787216,
+    "timestamp": "2026-11-22T22:24:53Z",
+    "tx_hash": "0x0f302a9eddd88ea9c3bbbfe7e498ca09030e9d26e59f6dc89201dd5099ff4dbc",
+    "contract": "0x2d41b928dbfec9d5f0302af2875dfc313f8b8d6d",
+    "from": "0x9ec41d6547173b007bf95b0d962409addba30599",
+    "selector": null,
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "gate11.online",
+    "old_decoded": null,
+    "new_decoded": "gate11.online",
+    "decoder": "plain",
+    "code_hash": "d48dfc22bf598284"
+  },
+  {
+    "chain": "polygon",
     "block": 97783920,
     "timestamp": "2026-11-22T21:02:29Z",
     "tx_hash": "0x0058c8cefe2343e753e03dc29907936f7ee86a17e306fbcc65c628d0143e74bf",

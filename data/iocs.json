@@ -3170,6 +3170,26 @@
   },
   {
     "type": "domain",
+    "value": "gate11.online",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-9ec41d65",
+    "chain": "polygon",
+    "contracts": [
+      "0x2d41b928dbfec9d5f0302af2875dfc313f8b8d6d"
+    ],
+    "first_seen": "2026-11-22T22:24:53Z",
+    "last_seen": "2026-11-22T22:24:53Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-22T22:27:41Z",
+    "new": true,
+    "confidence": 50,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "gdedengikarlos.cfd",
     "port": null,
     "family": "c2-url",
@@ -8981,6 +9001,26 @@
     "discovered_at": "2026-11-22T16:41:09Z",
     "new": true,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x2d41b928dbfec9d5f0302af2875dfc313f8b8d6d",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-9ec41d65",
+    "chain": "polygon",
+    "contracts": [
+      "0x2d41b928dbfec9d5f0302af2875dfc313f8b8d6d"
+    ],
+    "first_seen": "2026-11-22T22:24:53Z",
+    "last_seen": "2026-11-22T22:24:53Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-22T22:27:41Z",
+    "new": true,
+    "confidence": 90,
     "dual_use": false,
     "enrichment": {}
   },
@@ -17360,6 +17400,26 @@
     "discovered_at": "2026-10-22T19:31:46Z",
     "new": false,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0x9ec41d6547173b007bf95b0d962409addba30599",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-9ec41d65",
+    "chain": "polygon",
+    "contracts": [
+      "0x2d41b928dbfec9d5f0302af2875dfc313f8b8d6d"
+    ],
+    "first_seen": "2026-11-22T22:24:53Z",
+    "last_seen": "2026-11-22T22:24:53Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-22T22:27:41Z",
+    "new": true,
+    "confidence": 85,
     "dual_use": false,
     "enrichment": {}
   },
