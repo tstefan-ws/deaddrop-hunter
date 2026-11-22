@@ -2480,7 +2480,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-19T13:58:33Z",
-    "new": true,
+    "new": false,
     "confidence": 50,
     "dual_use": false,
     "enrichment": {}
@@ -3483,6 +3483,26 @@
     "current": false,
     "discovered_at": "2026-11-16T11:40:25Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "hyyuuuuikooonyaa.org",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-e3a29d16",
+    "chain": "polygon",
+    "contracts": [
+      "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
+    ],
+    "first_seen": "2026-11-22T14:03:32Z",
+    "last_seen": "2026-11-22T14:03:32Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-22T14:04:32Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -7155,7 +7175,7 @@
     "first_seen": "2026-11-20T08:05:17Z",
     "last_seen": "2026-11-20T08:20:07Z",
     "times_seen": 2,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-11-20T08:13:24Z",
     "new": true,
     "confidence": 85,
@@ -10838,7 +10858,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-19T13:58:33Z",
-    "new": true,
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -12534,8 +12554,8 @@
       "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
     ],
     "first_seen": "2026-10-22T08:41:39Z",
-    "last_seen": "2026-11-20T08:20:07Z",
-    "times_seen": 17,
+    "last_seen": "2026-11-22T14:03:32Z",
+    "times_seen": 18,
     "current": true,
     "discovered_at": "2026-10-22T08:49:42Z",
     "new": false,
@@ -16523,7 +16543,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-19T13:58:33Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -17625,8 +17645,8 @@
       "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
     ],
     "first_seen": "2026-10-22T08:41:39Z",
-    "last_seen": "2026-11-20T08:20:07Z",
-    "times_seen": 17,
+    "last_seen": "2026-11-22T14:03:32Z",
+    "times_seen": 18,
     "current": true,
     "discovered_at": "2026-10-22T08:49:42Z",
     "new": false,
@@ -25430,6 +25450,26 @@
   },
   {
     "type": "url",
+    "value": "https://hyyuuuuikooonyaa.org",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-e3a29d16",
+    "chain": "polygon",
+    "contracts": [
+      "0xa22ab39d7362dbb1aaacc4e597094704dabdbfac"
+    ],
+    "first_seen": "2026-11-22T14:03:32Z",
+    "last_seen": "2026-11-22T14:03:32Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-22T14:04:32Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
     "value": "https://id-verfied.boats",
     "port": null,
     "family": "c2-url",
@@ -26752,7 +26792,7 @@
     "first_seen": "2026-11-20T08:05:17Z",
     "last_seen": "2026-11-20T08:20:07Z",
     "times_seen": 2,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-11-20T08:13:24Z",
     "new": true,
     "confidence": 85,

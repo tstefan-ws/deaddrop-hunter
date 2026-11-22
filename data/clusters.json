@@ -1140,7 +1140,7 @@
     "first_seen": "2026-11-19T13:55:56Z",
     "last_seen": "2026-11-19T13:55:56Z",
     "discovered_at": "2026-11-19T13:58:33Z",
-    "new": true
+    "new": false
   },
   {
     "id": "c-6fd3a8ae",
@@ -2235,9 +2235,9 @@
     "wallets": [
       "0xe3a29d16ca8722d2e91975589fa23659ee8e1719"
     ],
-    "ioc_count": 28,
+    "ioc_count": 30,
     "first_seen": "2026-10-22T08:41:39Z",
-    "last_seen": "2026-11-20T08:20:07Z",
+    "last_seen": "2026-11-22T14:03:32Z",
     "discovered_at": "2026-10-22T08:49:42Z",
     "new": false
   },
