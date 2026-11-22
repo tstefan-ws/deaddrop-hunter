@@ -6643,6 +6643,38 @@
   },
   {
     "chain": "bsc",
+    "address": "0xed0220eba6657e8acfe7c34f9ee5803f503fdf72",
+    "cluster_id": "c-2891fe13",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x2891fe13a331121d89c569894d5b90e64c2b4dfd"
+    ],
+    "selectors": [
+      "0x63507956",
+      "0xf4c84d19"
+    ],
+    "decoder": "plain",
+    "update_count": 2,
+    "first_seen": "2026-11-22T03:59:32Z",
+    "last_seen": "2026-11-22T04:00:41Z",
+    "status": "active",
+    "code_hash": "ab686c16a26d3be0",
+    "discovered_at": "2026-11-22T04:03:23Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://bsc-rpc.publicnode.com;https://bsc-dataseed.bnbchain.org;https://bsc-dataseed1.defibit.io;https://bsc-dataseed1.ninicoin.io;https://bsc-dataseed2.bnbchain.org;https://bsc-dataseed2.defibit.io;https://bsc-dataseed2.ninicoin.io",
+    "latest_value_decoded": "https://bsc-rpc.publicnode.com;https://bsc-dataseed.bnbchain.org;https://bsc-dataseed1.defibit.io;https://bsc-dataseed1.ninicoin.io;https://bsc-dataseed2.bnbchain.org;https://bsc-dataseed2.defibit.io;https://bsc-dataseed2.ninicoin.io",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
     "address": "0xed720b10397e92f67e5eebdffcad0c4c225ad70c",
     "cluster_id": "c-2ff0165e",
     "family": "unknown",

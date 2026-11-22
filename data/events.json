@@ -1,6 +1,37 @@
 [
   {
     "chain": "bsc",
+    "block": 135011428,
+    "timestamp": "2026-11-22T04:00:41Z",
+    "tx_hash": "0xe5102c9ecd544e89da812d92780473a7c6a5535ee7a44fd42e9c59e776b0d6c7",
+    "contract": "0xed0220eba6657e8acfe7c34f9ee5803f503fdf72",
+    "from": "0x2891fe13a331121d89c569894d5b90e64c2b4dfd",
+    "selector": "0xf4c84d19",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://bsc-rpc.publicnode.com;https://bsc-dataseed.bnbchain.org;https://bsc-dataseed1.defibit.io;https://bsc-dataseed1.ninicoin.io;https://bsc-dataseed2.bnbchain.org;https://bsc-dataseed2.defibit.io;https://bsc-dataseed2.ninicoin.io",
+    "old_decoded": null,
+    "new_decoded": "https://bsc-rpc.publicnode.com;https://bsc-dataseed.bnbchain.org;https://bsc-dataseed1.defibit.io;https://bsc-dataseed1.ninicoin.io;https://bsc-dataseed2.bnbchain.org;https://bsc-dataseed2.defibit.io;https://bsc-dataseed2.ninicoin.io",
+    "decoder": "plain"
+  },
+  {
+    "chain": "bsc",
+    "block": 135011276,
+    "timestamp": "2026-11-22T03:59:32Z",
+    "tx_hash": "0x2ddb0dad94a21257cad8d1b3555a504133ea04b493c85a6c5533103bbc100514",
+    "contract": "0xed0220eba6657e8acfe7c34f9ee5803f503fdf72",
+    "from": "0x2891fe13a331121d89c569894d5b90e64c2b4dfd",
+    "selector": "0x63507956",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://bsc-rpc.publicnode.com;https://bsc-dataseed.bnbchain.org;https://bsc-dataseed1.defibit.io;https://bsc-dataseed1.ninicoin.io;https://bsc-dataseed2.bnbchain.org;https://bsc-dataseed2.defibit.io;https://bsc-dataseed2.ninicoin.io",
+    "old_decoded": null,
+    "new_decoded": "https://bsc-rpc.publicnode.com;https://bsc-dataseed.bnbchain.org;https://bsc-dataseed1.defibit.io;https://bsc-dataseed1.ninicoin.io;https://bsc-dataseed2.bnbchain.org;https://bsc-dataseed2.defibit.io;https://bsc-dataseed2.ninicoin.io",
+    "decoder": "plain",
+    "code_hash": "ab686c16a26d3be0"
+  },
+  {
+    "chain": "bsc",
     "block": 134883705,
     "timestamp": "2026-11-21T12:02:19Z",
     "tx_hash": "0x865db1eab3db00a0deff283fc28c6d1550df886c3a19612ca05ff5f34092b46e",
