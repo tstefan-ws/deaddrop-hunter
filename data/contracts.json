@@ -8870,7 +8870,7 @@
     "update_count": 1,
     "first_seen": "2026-10-23T20:30:50Z",
     "last_seen": "2026-10-23T20:30:50Z",
-    "status": "active",
+    "status": "dormant",
     "code_hash": "607bd9082eda8392",
     "discovered_at": "2026-10-23T20:32:33Z",
     "new": false,
