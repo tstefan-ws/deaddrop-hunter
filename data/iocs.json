@@ -10284,7 +10284,7 @@
     "first_seen": "2026-10-24T14:06:58Z",
     "last_seen": "2026-10-24T14:06:58Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-10-24T14:12:49Z",
     "new": false,
     "confidence": 55,

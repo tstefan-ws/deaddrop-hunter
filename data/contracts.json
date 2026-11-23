@@ -2446,7 +2446,7 @@
     "update_count": 1,
     "first_seen": "2026-10-24T14:06:58Z",
     "last_seen": "2026-10-24T14:06:58Z",
-    "status": "active",
+    "status": "dormant",
     "code_hash": "b32d69d648e7304f",
     "discovered_at": "2026-10-24T14:12:49Z",
     "new": false,
