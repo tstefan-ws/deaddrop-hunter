@@ -8073,6 +8073,33 @@
   },
   {
     "chain": "polygon",
+    "address": "0x177a22383924f402c734b46acda9e328e506dcbf",
+    "cluster_id": "c-de2f7044",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xde2f7044c3998da85ea68c5a5d508047641189d5"
+    ],
+    "selectors": [],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-23T10:17:25Z",
+    "last_seen": "2026-11-23T10:17:25Z",
+    "status": "active",
+    "code_hash": "d0d72f7988d83182",
+    "discovered_at": "2026-11-23T10:26:47Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "ugumatzinago.com/lgz/sharex/gdata",
+    "latest_value_decoded": "ugumatzinago.com/lgz/sharex/gdata",
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x17fff8d3f56574a85840d12af91b9d8f4178f85b",
     "cluster_id": "c-19532c0f",
     "family": "xmrig-stealth",
@@ -8917,6 +8944,33 @@
   },
   {
     "chain": "polygon",
+    "address": "0x391a8291b5a70a701f5fc0a471d8661fe275c15d",
+    "cluster_id": "c-de2f7044",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xde2f7044c3998da85ea68c5a5d508047641189d5"
+    ],
+    "selectors": [],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-23T10:16:10Z",
+    "last_seen": "2026-11-23T10:16:10Z",
+    "status": "active",
+    "code_hash": "d0d72f7988d83182",
+    "discovered_at": "2026-11-23T10:26:47Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "ugumatzinago.com/lgz/format/gdata",
+    "latest_value_decoded": "ugumatzinago.com/lgz/format/gdata",
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x3d1a30c28ca4522a1d075022d0748ebb6f467e9a",
     "cluster_id": "c-abbc4bcd",
     "family": "unknown",
@@ -9242,6 +9296,33 @@
     "evidence": "decoded",
     "latest_value_raw": "gm onchain — ChainGreets.xyz",
     "latest_value_decoded": "gm onchain — ChainGreets.xyz",
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x4ea350da8a9212302e7c665fc6e850099ce18834",
+    "cluster_id": "c-de2f7044",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xde2f7044c3998da85ea68c5a5d508047641189d5"
+    ],
+    "selectors": [],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-23T10:15:44Z",
+    "last_seen": "2026-11-23T10:15:44Z",
+    "status": "active",
+    "code_hash": "d0d72f7988d83182",
+    "discovered_at": "2026-11-23T10:26:47Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "ugumatzinago.com/lgz/clipgr/gdata",
+    "latest_value_decoded": "ugumatzinago.com/lgz/clipgr/gdata",
     "tags": [
       "config-on-chain"
     ]
@@ -9596,6 +9677,35 @@
   },
   {
     "chain": "polygon",
+    "address": "0x5e40a188afbf10ec61727b1b273d0847f7c0e4c2",
+    "cluster_id": "c-de2f7044",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xde2f7044c3998da85ea68c5a5d508047641189d5"
+    ],
+    "selectors": [],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-23T10:17:44Z",
+    "last_seen": "2026-11-23T10:17:44Z",
+    "status": "active",
+    "code_hash": "d0d72f7988d83182",
+    "discovered_at": "2026-11-23T10:26:47Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://yeezytiger.com/sx|fff6fac6c8b1c7f1",
+    "latest_value_decoded": "https://yeezytiger.com/sx|fff6fac6c8b1c7f1",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x61652b3221a36a3d8e959e4c5a74ebfa0f736237",
     "cluster_id": "c-504efa63",
     "family": "c2-url",
@@ -9650,6 +9760,62 @@
     "evidence": "decoded",
     "latest_value_raw": "https://sorted-bios-abilities-jewish.trycloudflare.com/",
     "latest_value_decoded": "https://sorted-bios-abilities-jewish.trycloudflare.com/",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x6405f41d02ec9b13bb63570fff11a906961e2bfc",
+    "cluster_id": "c-de2f7044",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xde2f7044c3998da85ea68c5a5d508047641189d5"
+    ],
+    "selectors": [],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-23T10:15:22Z",
+    "last_seen": "2026-11-23T10:15:22Z",
+    "status": "active",
+    "code_hash": "d0d72f7988d83182",
+    "discovered_at": "2026-11-23T10:26:47Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "ugumatzinago.com/lgz/photos/gdata",
+    "latest_value_decoded": "ugumatzinago.com/lgz/photos/gdata",
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x64f5e6724cde35b7514f81c3ac120588ecafd99c",
+    "cluster_id": "c-de2f7044",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xde2f7044c3998da85ea68c5a5d508047641189d5"
+    ],
+    "selectors": [],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-23T10:15:56Z",
+    "last_seen": "2026-11-23T10:15:56Z",
+    "status": "active",
+    "code_hash": "d0d72f7988d83182",
+    "discovered_at": "2026-11-23T10:26:47Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://yeezytiger.com/cg|309754d510c21170",
+    "latest_value_decoded": "https://yeezytiger.com/cg|309754d510c21170",
     "tags": [
       "c2",
       "url-rotation",
@@ -10124,6 +10290,35 @@
   },
   {
     "chain": "polygon",
+    "address": "0x78881871ed76b6ebd83c6372599818f82f472806",
+    "cluster_id": "c-de2f7044",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xde2f7044c3998da85ea68c5a5d508047641189d5"
+    ],
+    "selectors": [],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-23T10:16:46Z",
+    "last_seen": "2026-11-23T10:16:46Z",
+    "status": "active",
+    "code_hash": "d0d72f7988d83182",
+    "discovered_at": "2026-11-23T10:26:47Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://yeezytiger.com/ff|8c3b8afbb494cfe0",
+    "latest_value_decoded": "https://yeezytiger.com/ff|8c3b8afbb494cfe0",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x78eedaf3f0cecf1f7d86f5370e0c238454fec107",
     "cluster_id": "c-207ab572",
     "family": "unknown",
@@ -10297,6 +10492,35 @@
     "latest_value_raw": "0x777777777777aec03fd955926dbf81597e66834c0000000000000000000000000000b578000000000000000000000000000000010000006b031dd50000000000005ad8f9801dfa3e3f376ebb5f8bc159b6c41c9d95b0fd1b71724c8c761beac2cd60ade885c3e7a43f901708c09ec600ca545373f7ed7160960e4ad48897f880d21b",
     "latest_value_decoded": null,
     "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x7d3edc82093e32c8451b25c462659c471ae22f27",
+    "cluster_id": "c-de2f7044",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xde2f7044c3998da85ea68c5a5d508047641189d5"
+    ],
+    "selectors": [],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-23T10:18:16Z",
+    "last_seen": "2026-11-23T10:18:16Z",
+    "status": "active",
+    "code_hash": "d0d72f7988d83182",
+    "discovered_at": "2026-11-23T10:26:47Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://yeezytiger.com/uv|d3fefc73cc7b8ea5",
+    "latest_value_decoded": "https://yeezytiger.com/uv|d3fefc73cc7b8ea5",
+    "tags": [
+      "c2",
+      "url-rotation",
       "config-on-chain"
     ]
   },
@@ -10628,6 +10852,33 @@
   },
   {
     "chain": "polygon",
+    "address": "0x8e592869e58b5fe9d2435b5572cc2a56596c6f46",
+    "cluster_id": "c-de2f7044",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xde2f7044c3998da85ea68c5a5d508047641189d5"
+    ],
+    "selectors": [],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-23T10:16:26Z",
+    "last_seen": "2026-11-23T10:16:26Z",
+    "status": "active",
+    "code_hash": "d0d72f7988d83182",
+    "discovered_at": "2026-11-23T10:26:47Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "ugumatzinago.com/lgz/format/gdata",
+    "latest_value_decoded": "ugumatzinago.com/lgz/format/gdata",
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x8ff1ae790b65549ced90e0d7608fe2b68357901f",
     "cluster_id": "c-caf2c54e",
     "family": "c2-url",
@@ -10659,6 +10910,35 @@
   },
   {
     "chain": "polygon",
+    "address": "0x9049bd9609392e357f78e31a669b0995360b2e6d",
+    "cluster_id": "c-de2f7044",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xde2f7044c3998da85ea68c5a5d508047641189d5"
+    ],
+    "selectors": [],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-23T10:19:32Z",
+    "last_seen": "2026-11-23T10:19:32Z",
+    "status": "active",
+    "code_hash": "d0d72f7988d83182",
+    "discovered_at": "2026-11-23T10:26:47Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://yeezytiger.com/wc|fd4484a9b875927f",
+    "latest_value_decoded": "https://yeezytiger.com/wc|fd4484a9b875927f",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x907c5549d29d2fe653c21de1eb16e8041c576219",
     "cluster_id": "c-f373f10b",
     "family": "unknown",
@@ -10681,6 +10961,35 @@
     "latest_value_raw": "0x777777777777aec03fd955926dbf81597e66834c0000000000000000000000000000b578000000000000000000000000000000010000006b031550000000000000bc92c187bf772f578c2391b2eb7e88e375cb9e2dbca1fe08eac72b72a4ca57f634dabe4ceea6bdfb6c268d14153511199209a3f4575b0668bf4c0bc2c5462e7e1b",
     "latest_value_decoded": null,
     "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x913b11f73627ee9f2f594ab05eaafe2425dc9afc",
+    "cluster_id": "c-de2f7044",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xde2f7044c3998da85ea68c5a5d508047641189d5"
+    ],
+    "selectors": [],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-23T10:15:32Z",
+    "last_seen": "2026-11-23T10:15:32Z",
+    "status": "active",
+    "code_hash": "d0d72f7988d83182",
+    "discovered_at": "2026-11-23T10:26:47Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://yeezytiger.com/ps|2e37158448300f49",
+    "latest_value_decoded": "https://yeezytiger.com/ps|2e37158448300f49",
+    "tags": [
+      "c2",
+      "url-rotation",
       "config-on-chain"
     ]
   },
@@ -11495,6 +11804,35 @@
   },
   {
     "chain": "polygon",
+    "address": "0xb662db426e89fa55867a56d65f9fbf8c4cd47993",
+    "cluster_id": "c-de2f7044",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xde2f7044c3998da85ea68c5a5d508047641189d5"
+    ],
+    "selectors": [],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-23T10:18:46Z",
+    "last_seen": "2026-11-23T10:18:46Z",
+    "status": "active",
+    "code_hash": "d0d72f7988d83182",
+    "discovered_at": "2026-11-23T10:26:47Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://yeezytiger.com/ws|b9dd03ac84b48ea4",
+    "latest_value_decoded": "https://yeezytiger.com/ws|b9dd03ac84b48ea4",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0xb6bc9e1d0b2fb96ab7c47e04cb0be477410bc1f2",
     "cluster_id": "c-caf2c54e",
     "family": "c2-url",
@@ -11676,6 +12014,35 @@
   },
   {
     "chain": "polygon",
+    "address": "0xbf4bbfa067457622b537e954b2b334a1424ae765",
+    "cluster_id": "c-de2f7044",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xde2f7044c3998da85ea68c5a5d508047641189d5"
+    ],
+    "selectors": [],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-23T10:17:08Z",
+    "last_seen": "2026-11-23T10:17:08Z",
+    "status": "active",
+    "code_hash": "d0d72f7988d83182",
+    "discovered_at": "2026-11-23T10:26:47Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://yeezytiger.com/rp|16ced778a29dbf3b",
+    "latest_value_decoded": "https://yeezytiger.com/rp|16ced778a29dbf3b",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0xbfe0dafe03043a8d88ced25d2c45ee904ba0d947",
     "cluster_id": "c-d3efa576",
     "family": "unknown",
@@ -11758,6 +12125,33 @@
     "tags": [
       "c2",
       "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0xc1730bc7928471b31f21c10f796859aa8af9b80e",
+    "cluster_id": "c-de2f7044",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xde2f7044c3998da85ea68c5a5d508047641189d5"
+    ],
+    "selectors": [],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-23T10:16:58Z",
+    "last_seen": "2026-11-23T10:16:58Z",
+    "status": "active",
+    "code_hash": "d0d72f7988d83182",
+    "discovered_at": "2026-11-23T10:26:47Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "ugumatzinago.com/lgz/reaper/gdata",
+    "latest_value_decoded": "ugumatzinago.com/lgz/reaper/gdata",
+    "tags": [
       "config-on-chain"
     ]
   },
@@ -11906,6 +12300,33 @@
   },
   {
     "chain": "polygon",
+    "address": "0xd02ca0765f8d3db54b7ae076d789d5bf60bc0901",
+    "cluster_id": "c-de2f7044",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xde2f7044c3998da85ea68c5a5d508047641189d5"
+    ],
+    "selectors": [],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-23T10:18:34Z",
+    "last_seen": "2026-11-23T10:18:34Z",
+    "status": "active",
+    "code_hash": "d0d72f7988d83182",
+    "discovered_at": "2026-11-23T10:26:47Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "ugumatzinago.com/lgz/winscp/gdata",
+    "latest_value_decoded": "ugumatzinago.com/lgz/winscp/gdata",
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0xd096d44464b5996b6e056a63869dc23558a8b8b1",
     "cluster_id": "c-130b5d93",
     "family": "unknown",
@@ -12045,6 +12466,33 @@
     "evidence": "candidate",
     "latest_value_raw": null,
     "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0xe1118c32ba9214aad5411dce999f529957a7f280",
+    "cluster_id": "c-de2f7044",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xde2f7044c3998da85ea68c5a5d508047641189d5"
+    ],
+    "selectors": [],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-23T10:19:08Z",
+    "last_seen": "2026-11-23T10:19:08Z",
+    "status": "active",
+    "code_hash": "d0d72f7988d83182",
+    "discovered_at": "2026-11-23T10:26:47Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "ugumatzinago.com/lgz/wisecr/gdata",
+    "latest_value_decoded": "ugumatzinago.com/lgz/wisecr/gdata",
     "tags": [
       "config-on-chain"
     ]
@@ -12281,6 +12729,33 @@
     "evidence": "candidate",
     "latest_value_raw": "0x777777777777aec03fd955926dbf81597e66834c0000000000000000000000000000b578000000000000000000000000000000010000006b031dcd000000000000a453ddf5cb032e12bf58247930a0c7d7bd7b3f28b954de82eec36ddee3b55230544379fa5658acd841157574e7a8eb3a3c55322abacef3866725e90c2cb140f61c",
     "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0xef04a0bcb9c92887f92e26302c5dec2a67eec482",
+    "cluster_id": "c-de2f7044",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xde2f7044c3998da85ea68c5a5d508047641189d5"
+    ],
+    "selectors": [],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-23T10:17:58Z",
+    "last_seen": "2026-11-23T10:17:58Z",
+    "status": "active",
+    "code_hash": "d0d72f7988d83182",
+    "discovered_at": "2026-11-23T10:26:47Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "ugumatzinago.com/lgz/ultrav/gdata",
+    "latest_value_decoded": "ugumatzinago.com/lgz/ultrav/gdata",
     "tags": [
       "config-on-chain"
     ]
