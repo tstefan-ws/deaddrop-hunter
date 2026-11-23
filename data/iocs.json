@@ -10637,7 +10637,7 @@
     "first_seen": "2026-10-24T00:00:58Z",
     "last_seen": "2026-10-24T00:00:58Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-10-24T00:06:44Z",
     "new": false,
     "confidence": 55,
@@ -13099,7 +13099,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-20T00:05:06Z",
-    "new": true,
+    "new": false,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
