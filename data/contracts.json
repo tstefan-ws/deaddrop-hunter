@@ -126,7 +126,7 @@
     "status": "active",
     "code_hash": "dcc8284ed0a0fbcc",
     "discovered_at": "2026-11-20T22:52:22Z",
-    "new": true,
+    "new": false,
     "evidence": "candidate",
     "latest_value_raw": null,
     "latest_value_decoded": null,
