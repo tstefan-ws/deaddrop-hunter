@@ -12506,6 +12506,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x9384e90ad7e8e97caa112beded440d0cacfb9a23",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-a07f7cab",
+    "chain": "bsc",
+    "contracts": [
+      "0x9384e90ad7e8e97caa112beded440d0cacfb9a23"
+    ],
+    "first_seen": "2026-11-23T00:00:58Z",
+    "last_seen": "2026-11-23T00:00:58Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-23T00:00:34Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x97b7a5011f9487ab19c8b22e5204faec9040e40e",
     "port": null,
     "family": "c2-url",
@@ -17464,6 +17484,7 @@
       "0x87fea001307f2dcd1fde9328e5ad04b812d8a006",
       "0x882d249195eb207c5e9025e93f8e6e0cf6e8ccbb",
       "0x915cc4248fff147c123f3a43ff778467f33a0db2",
+      "0x9384e90ad7e8e97caa112beded440d0cacfb9a23",
       "0x9b68cec9e92cc9dfe35fa68b64b9a2fc446c91d1",
       "0xa6402bfa6ad42c20c1763b171937a40e129bfd6b",
       "0xad63e9bb98dbd7d872dc68654fb67e064a18de23",
@@ -17483,8 +17504,8 @@
       "0xfd95090c60abfae5f0d76f16e0ca284585c79dde"
     ],
     "first_seen": "2026-10-20T00:08:39Z",
-    "last_seen": "2026-11-21T00:00:59Z",
-    "times_seen": 30,
+    "last_seen": "2026-11-23T00:00:58Z",
+    "times_seen": 31,
     "current": true,
     "discovered_at": "2026-10-20T00:13:20Z",
     "new": false,
