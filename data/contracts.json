@@ -12207,7 +12207,7 @@
     "status": "active",
     "code_hash": "ddb1d1418254bafb",
     "discovered_at": "2026-11-20T22:42:46Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "http://217.60.21.43:8080/api/miners/submit",
     "latest_value_decoded": "http://217.60.21.43:8080/api/miners/submit",
