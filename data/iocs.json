@@ -2071,11 +2071,12 @@
     "contracts": [
       "0x3a05f3d048aaa6d177a540198a300ce425014764",
       "0xaed7a012076ac39d4635ea5f2b6ce041e24493b9",
-      "0xb8d4731defe3576f9361b6bf62a72410f4fc04cc"
+      "0xb8d4731defe3576f9361b6bf62a72410f4fc04cc",
+      "0xd902c8faee0de0aa4dc057dd5d3c0e1bcb69ab52"
     ],
     "first_seen": "2026-11-24T06:12:55Z",
-    "last_seen": "2026-11-24T06:35:42Z",
-    "times_seen": 3,
+    "last_seen": "2026-11-24T06:46:11Z",
+    "times_seen": 4,
     "current": true,
     "discovered_at": "2026-11-24T06:17:10Z",
     "new": true,
@@ -13235,6 +13236,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x9c08b82c7877932f7bc49a2bdc947b0dfbe45159",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-e740b21e",
+    "chain": "bsc",
+    "contracts": [
+      "0x9c08b82c7877932f7bc49a2bdc947b0dfbe45159"
+    ],
+    "first_seen": "2026-11-24T06:44:35Z",
+    "last_seen": "2026-11-24T06:44:35Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-24T06:47:25Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x9ddce5456cfc75ae532f7d962d1586685c9f38e5",
     "port": null,
     "family": "c2-url",
@@ -15510,6 +15531,26 @@
     "discovered_at": "2026-10-25T09:43:53Z",
     "new": false,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0xd902c8faee0de0aa4dc057dd5d3c0e1bcb69ab52",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-e740b21e",
+    "chain": "bsc",
+    "contracts": [
+      "0xd902c8faee0de0aa4dc057dd5d3c0e1bcb69ab52"
+    ],
+    "first_seen": "2026-11-24T06:46:11Z",
+    "last_seen": "2026-11-24T06:46:11Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-24T06:47:25Z",
+    "new": true,
+    "confidence": 90,
     "dual_use": false,
     "enrichment": {}
   },
@@ -18999,14 +19040,16 @@
     "chain": "bsc",
     "contracts": [
       "0x3a05f3d048aaa6d177a540198a300ce425014764",
+      "0x9c08b82c7877932f7bc49a2bdc947b0dfbe45159",
       "0xaed7a012076ac39d4635ea5f2b6ce041e24493b9",
       "0xb8d4731defe3576f9361b6bf62a72410f4fc04cc",
       "0xd6b0f3bc4685c5a6ae2f66691863c7f308b920d0",
+      "0xd902c8faee0de0aa4dc057dd5d3c0e1bcb69ab52",
       "0xe4eb6ee5e79459b22563107fcf4a8ae160fdc80e"
     ],
     "first_seen": "2026-11-24T06:12:55Z",
-    "last_seen": "2026-11-24T06:35:42Z",
-    "times_seen": 5,
+    "last_seen": "2026-11-24T06:46:11Z",
+    "times_seen": 7,
     "current": true,
     "discovered_at": "2026-11-24T06:17:10Z",
     "new": true,
@@ -26292,11 +26335,12 @@
     "contracts": [
       "0x3a05f3d048aaa6d177a540198a300ce425014764",
       "0xaed7a012076ac39d4635ea5f2b6ce041e24493b9",
-      "0xb8d4731defe3576f9361b6bf62a72410f4fc04cc"
+      "0xb8d4731defe3576f9361b6bf62a72410f4fc04cc",
+      "0xd902c8faee0de0aa4dc057dd5d3c0e1bcb69ab52"
     ],
     "first_seen": "2026-11-24T06:12:55Z",
-    "last_seen": "2026-11-24T06:35:42Z",
-    "times_seen": 3,
+    "last_seen": "2026-11-24T06:46:11Z",
+    "times_seen": 4,
     "current": true,
     "discovered_at": "2026-11-24T06:17:10Z",
     "new": true,
