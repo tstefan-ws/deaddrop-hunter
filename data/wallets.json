@@ -1072,11 +1072,13 @@
     "label": "Operator (auto-detected)",
     "cluster_id": "c-e740b21e",
     "contracts": [
-      "0xb8d4731defe3576f9361b6bf62a72410f4fc04cc"
+      "0x3a05f3d048aaa6d177a540198a300ce425014764",
+      "0xb8d4731defe3576f9361b6bf62a72410f4fc04cc",
+      "0xd6b0f3bc4685c5a6ae2f66691863c7f308b920d0"
     ],
-    "tx_count": 1,
+    "tx_count": 3,
     "first_seen": "2026-11-24T06:12:55Z",
-    "last_seen": "2026-11-24T06:12:55Z",
+    "last_seen": "2026-11-24T06:25:58Z",
     "watched": false,
     "funded_by": []
   },
