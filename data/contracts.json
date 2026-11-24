@@ -9613,6 +9613,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0x441e15d41001e4e528cce3a533e01dbf64547482",
+    "cluster_id": "c-16c3dc3e",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x16c3dc3e5285cf13aabcf42899272c7dea5234e1"
+    ],
+    "selectors": [
+      "0xb68d1809"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-24T08:53:26Z",
+    "last_seen": "2026-11-24T08:53:26Z",
+    "status": "active",
+    "code_hash": "20a0696fa16cc1ba",
+    "discovered_at": "2026-11-24T09:01:35Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://rawret.beer",
+    "latest_value_decoded": "https://rawret.beer",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0x487d0dee1ab88b289c5e56438775cfe2237b83c1",
     "cluster_id": "c-130b5d93",
     "family": "unknown",

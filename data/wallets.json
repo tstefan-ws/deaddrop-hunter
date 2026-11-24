@@ -1377,6 +1377,21 @@
   },
   {
     "chain": "polygon",
+    "address": "0x16c3dc3e5285cf13aabcf42899272c7dea5234e1",
+    "role": "operator",
+    "label": "Operator (auto-detected)",
+    "cluster_id": "c-16c3dc3e",
+    "contracts": [
+      "0x441e15d41001e4e528cce3a533e01dbf64547482"
+    ],
+    "tx_count": 1,
+    "first_seen": "2026-11-24T08:53:26Z",
+    "last_seen": "2026-11-24T08:53:26Z",
+    "watched": false,
+    "funded_by": []
+  },
+  {
+    "chain": "polygon",
     "address": "0x19532c0fbaf0fb8c1d0f3fac0b704bf2f4645539",
     "role": "operator",
     "label": "Operator: stealth-XMRig cluster (4 contracts)",

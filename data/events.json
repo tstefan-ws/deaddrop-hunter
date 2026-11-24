@@ -1,6 +1,22 @@
 [
   {
     "chain": "polygon",
+    "block": 97869958,
+    "timestamp": "2026-11-24T08:53:26Z",
+    "tx_hash": "0x9cb956f3b4d6db39625a2a2e87d3b4abefb8080190848f865d2c58236936ca2c",
+    "contract": "0x441e15d41001e4e528cce3a533e01dbf64547482",
+    "from": "0x16c3dc3e5285cf13aabcf42899272c7dea5234e1",
+    "selector": "0xb68d1809",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://rawret.beer",
+    "old_decoded": null,
+    "new_decoded": "https://rawret.beer",
+    "decoder": "plain",
+    "code_hash": "20a0696fa16cc1ba"
+  },
+  {
+    "chain": "polygon",
     "block": 97868684,
     "timestamp": "2026-11-24T08:21:35Z",
     "tx_hash": "0x1376f8d4bceaabed980825d135888c866484f74b8e9b883425049eda9c05864d",

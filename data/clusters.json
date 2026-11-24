@@ -239,6 +239,25 @@
     "new": false
   },
   {
+    "id": "c-16c3dc3e",
+    "name": "C2 URL rotation cluster (c-16c3dc3e)",
+    "family": "c2-url",
+    "chains": [
+      "polygon"
+    ],
+    "contracts": [
+      "0x441e15d41001e4e528cce3a533e01dbf64547482"
+    ],
+    "wallets": [
+      "0x16c3dc3e5285cf13aabcf42899272c7dea5234e1"
+    ],
+    "ioc_count": 3,
+    "first_seen": "2026-11-24T08:53:26Z",
+    "last_seen": "2026-11-24T08:53:26Z",
+    "discovered_at": "2026-11-24T09:01:35Z",
+    "new": true
+  },
+  {
     "id": "c-19532c0f",
     "name": "Stealth XMRig config cluster (c-19532c0f)",
     "family": "xmrig-stealth",
