@@ -840,6 +840,33 @@
   },
   {
     "chain": "bsc",
+    "address": "0x1a17b778f87600b3a963f95bd70509b804c24cef",
+    "cluster_id": "c-e740b21e",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xe740b21e27766380037a3135ec06539c4e5c0762"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-11-24T07:12:11Z",
+    "last_seen": "2026-11-24T07:12:11Z",
+    "status": "active",
+    "code_hash": "effa8cd86d671da4",
+    "discovered_at": "2026-11-24T07:17:23Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": null,
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
     "address": "0x1aaf392be29b46e60eed9e9f53fb976b8b3e4d92",
     "cluster_id": "c-2d923a1c",
     "family": "unknown",
@@ -4557,6 +4584,37 @@
     "latest_value_raw": null,
     "latest_value_decoded": null,
     "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
+    "address": "0x966e7f976c921a6ba266d77f8de2443afa23fd33",
+    "cluster_id": "c-e740b21e",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xe740b21e27766380037a3135ec06539c4e5c0762"
+    ],
+    "selectors": [
+      "0x2fe31962"
+    ],
+    "decoder": "plain",
+    "update_count": 2,
+    "first_seen": "2026-11-24T07:12:44Z",
+    "last_seen": "2026-11-24T07:13:53Z",
+    "status": "active",
+    "code_hash": "d60d19c650eadf15",
+    "discovered_at": "2026-11-24T07:17:23Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://cdn.dexscreener.com/cms/images/vF6J6aqagaYKKA1T?width=800&height=800&quality=95&format=auto",
+    "latest_value_decoded": "https://cdn.dexscreener.com/cms/images/vF6J6aqagaYKKA1T?width=800&height=800&quality=95&format=auto",
+    "tags": [
+      "c2",
+      "url-rotation",
       "config-on-chain"
     ]
   },

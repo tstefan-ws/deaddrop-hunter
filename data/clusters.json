@@ -2371,8 +2371,10 @@
       "bsc"
     ],
     "contracts": [
+      "0x1a17b778f87600b3a963f95bd70509b804c24cef",
       "0x3a05f3d048aaa6d177a540198a300ce425014764",
       "0x625322a5c3ba49d8ffdadb501ca4a86354fa2af0",
+      "0x966e7f976c921a6ba266d77f8de2443afa23fd33",
       "0x9c08b82c7877932f7bc49a2bdc947b0dfbe45159",
       "0xaed7a012076ac39d4635ea5f2b6ce041e24493b9",
       "0xb8d4731defe3576f9361b6bf62a72410f4fc04cc",
@@ -2384,9 +2386,9 @@
     "wallets": [
       "0xe740b21e27766380037a3135ec06539c4e5c0762"
     ],
-    "ioc_count": 12,
+    "ioc_count": 14,
     "first_seen": "2026-11-24T06:12:55Z",
-    "last_seen": "2026-11-24T06:56:13Z",
+    "last_seen": "2026-11-24T07:13:53Z",
     "discovered_at": "2026-11-24T06:17:10Z",
     "new": true
   },
