@@ -1699,7 +1699,7 @@
     "first_seen": "2026-11-21T06:11:45Z",
     "last_seen": "2026-11-21T11:29:03Z",
     "discovered_at": "2026-11-21T06:14:58Z",
-    "new": true
+    "new": false
   },
   {
     "id": "c-a740830c",
@@ -2362,6 +2362,25 @@
     "last_seen": "2026-11-22T14:03:32Z",
     "discovered_at": "2026-10-22T08:49:42Z",
     "new": false
+  },
+  {
+    "id": "c-e740b21e",
+    "name": "C2 URL rotation cluster (c-e740b21e)",
+    "family": "c2-url",
+    "chains": [
+      "bsc"
+    ],
+    "contracts": [
+      "0xb8d4731defe3576f9361b6bf62a72410f4fc04cc"
+    ],
+    "wallets": [
+      "0xe740b21e27766380037a3135ec06539c4e5c0762"
+    ],
+    "ioc_count": 4,
+    "first_seen": "2026-11-24T06:12:55Z",
+    "last_seen": "2026-11-24T06:12:55Z",
+    "discovered_at": "2026-11-24T06:17:10Z",
+    "new": true
   },
   {
     "id": "c-ea7de73e",

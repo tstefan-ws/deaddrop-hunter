@@ -4683,7 +4683,7 @@
     "status": "active",
     "code_hash": "b149de7bea648edd",
     "discovered_at": "2026-11-21T06:14:58Z",
-    "new": true,
+    "new": false,
     "evidence": "candidate",
     "latest_value_raw": null,
     "latest_value_decoded": null,
@@ -5421,6 +5421,35 @@
     "latest_value_raw": null,
     "latest_value_decoded": null,
     "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
+    "address": "0xb8d4731defe3576f9361b6bf62a72410f4fc04cc",
+    "cluster_id": "c-e740b21e",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xe740b21e27766380037a3135ec06539c4e5c0762"
+    ],
+    "selectors": [],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-24T06:12:55Z",
+    "last_seen": "2026-11-24T06:12:55Z",
+    "status": "active",
+    "code_hash": "852494705ccf873e",
+    "discovered_at": "2026-11-24T06:17:10Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://cdn.dexscreener.com/cms/images/vF6J6aqagaYKKA1T?width=800&height=800&quality=95&format=auto",
+    "latest_value_decoded": "https://cdn.dexscreener.com/cms/images/vF6J6aqagaYKKA1T?width=800&height=800&quality=95&format=auto",
+    "tags": [
+      "c2",
+      "url-rotation",
       "config-on-chain"
     ]
   },
