@@ -5187,6 +5187,37 @@
   },
   {
     "chain": "bsc",
+    "address": "0xaed7a012076ac39d4635ea5f2b6ce041e24493b9",
+    "cluster_id": "c-e740b21e",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xe740b21e27766380037a3135ec06539c4e5c0762"
+    ],
+    "selectors": [
+      "0x2fe31962"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-24T06:35:42Z",
+    "last_seen": "2026-11-24T06:35:42Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-11-24T06:37:33Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://cdn.dexscreener.com/cms/images/vF6J6aqagaYKKA1T?width=800&height=800&quality=95&format=auto",
+    "latest_value_decoded": "https://cdn.dexscreener.com/cms/images/vF6J6aqagaYKKA1T?width=800&height=800&quality=95&format=auto",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
     "address": "0xafee6d1f4783ac8452c4fe90d557e5fb64ce1fcc",
     "cluster_id": "c-2ff0165e",
     "family": "unknown",
@@ -6812,6 +6843,33 @@
     "code_hash": "718350f9197ad0e9",
     "discovered_at": "2026-11-05T05:06:12Z",
     "new": false,
+    "evidence": "candidate",
+    "latest_value_raw": null,
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
+    "address": "0xe4eb6ee5e79459b22563107fcf4a8ae160fdc80e",
+    "cluster_id": "c-e740b21e",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xe740b21e27766380037a3135ec06539c4e5c0762"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-11-24T06:34:37Z",
+    "last_seen": "2026-11-24T06:34:37Z",
+    "status": "active",
+    "code_hash": "76d8513fc76650ab",
+    "discovered_at": "2026-11-24T06:37:33Z",
+    "new": true,
     "evidence": "candidate",
     "latest_value_raw": null,
     "latest_value_decoded": null,

@@ -1073,12 +1073,14 @@
     "cluster_id": "c-e740b21e",
     "contracts": [
       "0x3a05f3d048aaa6d177a540198a300ce425014764",
+      "0xaed7a012076ac39d4635ea5f2b6ce041e24493b9",
       "0xb8d4731defe3576f9361b6bf62a72410f4fc04cc",
-      "0xd6b0f3bc4685c5a6ae2f66691863c7f308b920d0"
+      "0xd6b0f3bc4685c5a6ae2f66691863c7f308b920d0",
+      "0xe4eb6ee5e79459b22563107fcf4a8ae160fdc80e"
     ],
-    "tx_count": 3,
+    "tx_count": 5,
     "first_seen": "2026-11-24T06:12:55Z",
-    "last_seen": "2026-11-24T06:25:58Z",
+    "last_seen": "2026-11-24T06:35:42Z",
     "watched": false,
     "funded_by": []
   },
