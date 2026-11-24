@@ -8573,6 +8573,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x1e43afeba785a809268e56cd8d54badf7532edc0",
+    "port": null,
+    "family": "xmrig-stealth",
+    "cluster_id": "c-97b19fd8",
+    "chain": "polygon",
+    "contracts": [
+      "0x1e43afeba785a809268e56cd8d54badf7532edc0"
+    ],
+    "first_seen": "2026-11-24T06:02:59Z",
+    "last_seen": "2026-11-24T06:02:59Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-24T06:07:08Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x1f26939187f39242c95a9a0b7b0e0cfa349144d3",
     "port": null,
     "family": "unknown",
@@ -17952,6 +17972,26 @@
   },
   {
     "type": "evm-wallet",
+    "value": "0x97b19fd80f0e4aa5ccfe1dd572999b9f4bff8a40",
+    "port": null,
+    "family": "xmrig-stealth",
+    "cluster_id": "c-97b19fd8",
+    "chain": "polygon",
+    "contracts": [
+      "0x1e43afeba785a809268e56cd8d54badf7532edc0"
+    ],
+    "first_seen": "2026-11-24T06:02:59Z",
+    "last_seen": "2026-11-24T06:02:59Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-24T06:07:08Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
     "value": "0x97ebe3fe2feb21ba8f99d99e8275a8c4d5066fc2",
     "port": null,
     "family": "c2-url",
@@ -19054,6 +19094,26 @@
   },
   {
     "type": "ipv4",
+    "value": "104.245.245.126",
+    "port": 27040,
+    "family": "xmrig-stealth",
+    "cluster_id": "c-97b19fd8",
+    "chain": "polygon",
+    "contracts": [
+      "0x1e43afeba785a809268e56cd8d54badf7532edc0"
+    ],
+    "first_seen": "2026-11-24T06:02:59Z",
+    "last_seen": "2026-11-24T06:02:59Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-24T06:07:08Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
     "value": "107.191.62.170",
     "port": null,
     "family": "unknown",
@@ -19336,6 +19396,26 @@
     "current": false,
     "discovered_at": "2026-06-21T07:01:41Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "ipv4",
+    "value": "185.23.18.32",
+    "port": 27040,
+    "family": "xmrig-stealth",
+    "cluster_id": "c-97b19fd8",
+    "chain": "polygon",
+    "contracts": [
+      "0x1e43afeba785a809268e56cd8d54badf7532edc0"
+    ],
+    "first_seen": "2026-11-24T06:02:59Z",
+    "last_seen": "2026-11-24T06:02:59Z",
+    "times_seen": 1,
+    "current": false,
+    "discovered_at": "2026-11-24T06:07:08Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}

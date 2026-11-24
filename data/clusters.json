@@ -1462,6 +1462,25 @@
     "new": false
   },
   {
+    "id": "c-97b19fd8",
+    "name": "Stealth XMRig config cluster (c-97b19fd8)",
+    "family": "xmrig-stealth",
+    "chains": [
+      "polygon"
+    ],
+    "contracts": [
+      "0x1e43afeba785a809268e56cd8d54badf7532edc0"
+    ],
+    "wallets": [
+      "0x97b19fd80f0e4aa5ccfe1dd572999b9f4bff8a40"
+    ],
+    "ioc_count": 4,
+    "first_seen": "2026-11-24T06:02:59Z",
+    "last_seen": "2026-11-24T06:02:59Z",
+    "discovered_at": "2026-11-24T06:07:08Z",
+    "new": true
+  },
+  {
     "id": "c-97ebe3fe",
     "name": "C2 URL rotation cluster (c-97ebe3fe)",
     "family": "c2-url",
