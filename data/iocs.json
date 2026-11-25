@@ -14038,6 +14038,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0xaca207c278c219c7cbe3e8192f920ad6ee4ba3fa",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-d523497e",
+    "chain": "polygon",
+    "contracts": [
+      "0xaca207c278c219c7cbe3e8192f920ad6ee4ba3fa"
+    ],
+    "first_seen": "2026-11-25T03:00:32Z",
+    "last_seen": "2026-11-25T03:00:32Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-25T03:09:54Z",
+    "new": true,
+    "confidence": 90,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0xad17e8d965a7de76d2b713ba7dcee27a949df6d2",
     "port": null,
     "family": "unknown",
@@ -18942,6 +18962,26 @@
   },
   {
     "type": "evm-wallet",
+    "value": "0xd523497e7b5ab0b1f33b05638cf72b9ed54b2b6b",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-d523497e",
+    "chain": "polygon",
+    "contracts": [
+      "0xaca207c278c219c7cbe3e8192f920ad6ee4ba3fa"
+    ],
+    "first_seen": "2026-11-25T03:00:32Z",
+    "last_seen": "2026-11-25T03:00:32Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-25T03:09:54Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
     "value": "0xd6b34935e51db0eace82d62dab5637f561c5a2d3",
     "port": null,
     "family": "unknown",
@@ -21680,6 +21720,26 @@
     "current": false,
     "discovered_at": "2026-11-19T03:22:14Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "http://127.0.0.1:8080/archivo.py",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-d523497e",
+    "chain": "polygon",
+    "contracts": [
+      "0xaca207c278c219c7cbe3e8192f920ad6ee4ba3fa"
+    ],
+    "first_seen": "2026-11-25T03:00:32Z",
+    "last_seen": "2026-11-25T03:00:32Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-25T03:09:54Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}

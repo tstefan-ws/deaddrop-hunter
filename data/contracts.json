@@ -12144,6 +12144,37 @@
   },
   {
     "chain": "polygon",
+    "address": "0xaca207c278c219c7cbe3e8192f920ad6ee4ba3fa",
+    "cluster_id": "c-d523497e",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xd523497e7b5ab0b1f33b05638cf72b9ed54b2b6b"
+    ],
+    "selectors": [
+      "0xce6d41de"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-25T03:00:32Z",
+    "last_seen": "2026-11-25T03:00:32Z",
+    "status": "active",
+    "code_hash": "9e5ddb8f1f02bcc4",
+    "discovered_at": "2026-11-25T03:09:54Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "http://127.0.0.1:8080/archivo.py",
+    "latest_value_decoded": "http://127.0.0.1:8080/archivo.py",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
     "address": "0xae76027e422ddee0156610c4a57ec916b420bb5b",
     "cluster_id": "c-504efa63",
     "family": "c2-url",
