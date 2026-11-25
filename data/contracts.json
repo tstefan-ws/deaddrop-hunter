@@ -7339,7 +7339,7 @@
     "status": "active",
     "code_hash": "ab686c16a26d3be0",
     "discovered_at": "2026-11-22T04:03:23Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://bsc-rpc.publicnode.com;https://bsc-dataseed.bnbchain.org;https://bsc-dataseed1.defibit.io;https://bsc-dataseed1.ninicoin.io;https://bsc-dataseed2.bnbchain.org;https://bsc-dataseed2.defibit.io;https://bsc-dataseed2.ninicoin.io",
     "latest_value_decoded": "https://bsc-rpc.publicnode.com;https://bsc-dataseed.bnbchain.org;https://bsc-dataseed1.defibit.io;https://bsc-dataseed1.ninicoin.io;https://bsc-dataseed2.bnbchain.org;https://bsc-dataseed2.defibit.io;https://bsc-dataseed2.ninicoin.io",
