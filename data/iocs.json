@@ -1914,9 +1914,29 @@
     "first_seen": "2026-11-12T04:45:57Z",
     "last_seen": "2026-11-12T04:45:57Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-11-12T04:52:37Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
+    "value": "browse-login.info",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-caf2c54e",
+    "chain": "polygon",
+    "contracts": [
+      "0xb6bc9e1d0b2fb96ab7c47e04cb0be477410bc1f2"
+    ],
+    "first_seen": "2026-11-25T05:20:55Z",
+    "last_seen": "2026-11-25T05:20:55Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-25T05:28:37Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -5937,6 +5957,27 @@
   },
   {
     "type": "domain",
+    "value": "rcs.browse-login.info",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-caf2c54e",
+    "chain": "polygon",
+    "contracts": [
+      "0x1d7f164a74cec1042a9b3117794e6b93752adc1c",
+      "0x8ff1ae790b65549ced90e0d7608fe2b68357901f"
+    ],
+    "first_seen": "2026-11-25T05:21:17Z",
+    "last_seen": "2026-11-25T05:21:34Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-11-25T05:28:37Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "reunion-montana-apnic-prev.trycloudflare.com",
     "port": null,
     "family": "c2-url",
@@ -8587,8 +8628,8 @@
       "0x1d7f164a74cec1042a9b3117794e6b93752adc1c"
     ],
     "first_seen": "2026-10-29T05:29:37Z",
-    "last_seen": "2026-11-12T04:53:34Z",
-    "times_seen": 5,
+    "last_seen": "2026-11-25T05:21:17Z",
+    "times_seen": 6,
     "current": true,
     "discovered_at": "2026-10-29T05:29:55Z",
     "new": false,
@@ -12967,8 +13008,8 @@
       "0x8ff1ae790b65549ced90e0d7608fe2b68357901f"
     ],
     "first_seen": "2026-10-29T05:59:47Z",
-    "last_seen": "2026-11-12T04:53:48Z",
-    "times_seen": 4,
+    "last_seen": "2026-11-25T05:21:34Z",
+    "times_seen": 5,
     "current": true,
     "discovered_at": "2026-10-29T06:02:17Z",
     "new": false,
@@ -14407,8 +14448,8 @@
       "0xb6bc9e1d0b2fb96ab7c47e04cb0be477410bc1f2"
     ],
     "first_seen": "2026-10-21T00:31:06Z",
-    "last_seen": "2026-11-12T04:45:57Z",
-    "times_seen": 10,
+    "last_seen": "2026-11-25T05:20:55Z",
+    "times_seen": 11,
     "current": true,
     "discovered_at": "2026-10-21T00:33:37Z",
     "new": false,
@@ -18865,8 +18906,8 @@
       "0xb6bc9e1d0b2fb96ab7c47e04cb0be477410bc1f2"
     ],
     "first_seen": "2026-10-21T00:31:06Z",
-    "last_seen": "2026-11-12T04:53:55Z",
-    "times_seen": 25,
+    "last_seen": "2026-11-25T05:21:34Z",
+    "times_seen": 28,
     "current": true,
     "discovered_at": "2026-10-21T00:33:37Z",
     "new": false,
@@ -26467,9 +26508,29 @@
     "first_seen": "2026-11-12T04:45:57Z",
     "last_seen": "2026-11-12T04:45:57Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-11-12T04:52:37Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://browse-login.info",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-caf2c54e",
+    "chain": "polygon",
+    "contracts": [
+      "0xb6bc9e1d0b2fb96ab7c47e04cb0be477410bc1f2"
+    ],
+    "first_seen": "2026-11-25T05:20:55Z",
+    "last_seen": "2026-11-25T05:20:55Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-25T05:28:37Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -28009,6 +28070,27 @@
     "current": false,
     "discovered_at": "2026-11-05T00:27:15Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://rcs.browse-login.info",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-caf2c54e",
+    "chain": "polygon",
+    "contracts": [
+      "0x1d7f164a74cec1042a9b3117794e6b93752adc1c",
+      "0x8ff1ae790b65549ced90e0d7608fe2b68357901f"
+    ],
+    "first_seen": "2026-11-25T05:21:17Z",
+    "last_seen": "2026-11-25T05:21:34Z",
+    "times_seen": 2,
+    "current": true,
+    "discovered_at": "2026-11-25T05:28:37Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
