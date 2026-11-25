@@ -1488,7 +1488,7 @@
     "update_count": 1,
     "first_seen": "2026-10-26T12:58:06Z",
     "last_seen": "2026-10-26T12:58:06Z",
-    "status": "active",
+    "status": "dormant",
     "code_hash": "c790743292896c0f",
     "discovered_at": "2026-10-26T13:00:28Z",
     "new": false,
@@ -9814,6 +9814,37 @@
     "evidence": "decoded",
     "latest_value_raw": "https://devoted-physician-advertisers-epa.trycloudflare.com/",
     "latest_value_decoded": "https://devoted-physician-advertisers-epa.trycloudflare.com/",
+    "tags": [
+      "c2",
+      "url-rotation",
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0x516cba917a3375f5175e8dc661f38ab07b44c2e2",
+    "cluster_id": "c-374809e3",
+    "family": "c2-url",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x374809e3362f0c687c98844485441322aca6ed3e"
+    ],
+    "selectors": [
+      "0x02fe5305"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-25T13:01:19Z",
+    "last_seen": "2026-11-25T13:01:19Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-11-25T13:06:34Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "https://api.cryptokitties.co/kitties/1",
+    "latest_value_decoded": "https://api.cryptokitties.co/kitties/1",
     "tags": [
       "c2",
       "url-rotation",

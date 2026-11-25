@@ -242,6 +242,26 @@
   },
   {
     "type": "domain",
+    "value": "api.cryptokitties.co",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-374809e3",
+    "chain": "polygon",
+    "contracts": [
+      "0x516cba917a3375f5175e8dc661f38ab07b44c2e2"
+    ],
+    "first_seen": "2026-11-25T13:01:19Z",
+    "last_seen": "2026-11-25T13:01:19Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-25T13:06:34Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "domain",
     "value": "arigatodomen.sbs",
     "port": null,
     "family": "c2-url",
@@ -9290,7 +9310,7 @@
     "first_seen": "2026-10-26T12:58:06Z",
     "last_seen": "2026-10-26T12:58:06Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-10-26T13:00:28Z",
     "new": false,
     "confidence": 55,
@@ -10674,6 +10694,26 @@
     "discovered_at": "2026-11-09T04:46:53Z",
     "new": false,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x516cba917a3375f5175e8dc661f38ab07b44c2e2",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-374809e3",
+    "chain": "polygon",
+    "contracts": [
+      "0x516cba917a3375f5175e8dc661f38ab07b44c2e2"
+    ],
+    "first_seen": "2026-11-25T13:01:19Z",
+    "last_seen": "2026-11-25T13:01:19Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-25T13:06:34Z",
+    "new": true,
+    "confidence": 90,
     "dual_use": false,
     "enrichment": {}
   },
@@ -17604,6 +17644,26 @@
     "current": true,
     "discovered_at": "2026-10-29T17:35:58Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-wallet",
+    "value": "0x374809e3362f0c687c98844485441322aca6ed3e",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-374809e3",
+    "chain": "polygon",
+    "contracts": [
+      "0x516cba917a3375f5175e8dc661f38ab07b44c2e2"
+    ],
+    "first_seen": "2026-11-25T13:01:19Z",
+    "last_seen": "2026-11-25T13:01:19Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-25T13:06:34Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -25451,6 +25511,26 @@
     "current": true,
     "discovered_at": "2026-10-31T07:11:17Z",
     "new": false,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
+    "value": "https://api.cryptokitties.co/kitties/1",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-374809e3",
+    "chain": "polygon",
+    "contracts": [
+      "0x516cba917a3375f5175e8dc661f38ab07b44c2e2"
+    ],
+    "first_seen": "2026-11-25T13:01:19Z",
+    "last_seen": "2026-11-25T13:01:19Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-25T13:06:34Z",
+    "new": true,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}

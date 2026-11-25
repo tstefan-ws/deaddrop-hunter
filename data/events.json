@@ -1,6 +1,21 @@
 [
   {
     "chain": "polygon",
+    "block": 97937473,
+    "timestamp": "2026-11-25T13:01:19Z",
+    "tx_hash": "0x04e119eea6368a10a12b9a60c6b63ff081310c811c8d5cf21b66e026652dd32b",
+    "contract": "0x516cba917a3375f5175e8dc661f38ab07b44c2e2",
+    "from": "0x374809e3362f0c687c98844485441322aca6ed3e",
+    "selector": "0x02fe5305",
+    "hunt_id": "block-watch",
+    "old_raw": null,
+    "new_raw": "https://api.cryptokitties.co/kitties/1",
+    "old_decoded": null,
+    "new_decoded": "https://api.cryptokitties.co/kitties/1",
+    "decoder": "plain"
+  },
+  {
+    "chain": "polygon",
     "block": 97919083,
     "timestamp": "2026-11-25T05:21:34Z",
     "tx_hash": "0xb1d95ce307f9f78d1ea0a10a72295e17190d8813c08843fd989e4d999c302904",
