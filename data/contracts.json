@@ -9104,7 +9104,7 @@
     "status": "active",
     "code_hash": "d48dfc22bf598284",
     "discovered_at": "2026-11-22T22:27:41Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "gate11.online",
     "latest_value_decoded": "gate11.online",
