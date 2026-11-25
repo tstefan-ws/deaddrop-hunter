@@ -14850,7 +14850,7 @@
     "first_seen": "2026-10-26T17:22:09Z",
     "last_seen": "2026-10-26T17:22:09Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-10-26T17:28:35Z",
     "new": false,
     "confidence": 55,
