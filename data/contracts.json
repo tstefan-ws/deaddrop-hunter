@@ -964,7 +964,7 @@
     "update_count": 3,
     "first_seen": "2026-10-24T01:02:01Z",
     "last_seen": "2026-10-27T17:45:02Z",
-    "status": "active",
+    "status": "dormant",
     "code_hash": null,
     "discovered_at": "2026-10-24T01:06:36Z",
     "new": false,
