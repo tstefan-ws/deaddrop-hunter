@@ -8082,7 +8082,7 @@
     "update_count": 1,
     "first_seen": "2026-10-27T09:37:33Z",
     "last_seen": "2026-10-27T09:37:33Z",
-    "status": "active",
+    "status": "dormant",
     "code_hash": "0e23c4cdde298efc",
     "discovered_at": "2026-10-27T09:42:12Z",
     "new": false,
