@@ -16831,7 +16831,7 @@
     "first_seen": "2026-10-27T06:20:02Z",
     "last_seen": "2026-10-27T06:20:02Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-10-27T06:19:51Z",
     "new": false,
     "confidence": 55,
