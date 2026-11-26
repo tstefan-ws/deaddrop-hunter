@@ -6874,6 +6874,7 @@
       "0x04759b785196eb6df7a2713c52c8add019d7c8b7",
       "0x177a22383924f402c734b46acda9e328e506dcbf",
       "0x391a8291b5a70a701f5fc0a471d8661fe275c15d",
+      "0x3e2376ba17950edc85963e113fc369a10a1543da",
       "0x40fe77527001726ccced6844e17987e96f6769b2",
       "0x4413f193672885d33c4e158f07cdf9f65a05b80d",
       "0x4ea350da8a9212302e7c665fc6e850099ce18834",
@@ -6889,8 +6890,8 @@
       "0xef04a0bcb9c92887f92e26302c5dec2a67eec482"
     ],
     "first_seen": "2026-11-02T15:21:07Z",
-    "last_seen": "2026-11-23T10:19:08Z",
-    "times_seen": 16,
+    "last_seen": "2026-11-26T14:42:48Z",
+    "times_seen": 17,
     "current": true,
     "discovered_at": "2026-11-02T15:37:53Z",
     "new": false,
@@ -7299,6 +7300,7 @@
       "0x5b746ffdbc45757522e7d0a8ef07eb98f963ff9c",
       "0x5e40a188afbf10ec61727b1b273d0847f7c0e4c2",
       "0x64f5e6724cde35b7514f81c3ac120588ecafd99c",
+      "0x67c36023d7d10c3d97b22f9cc670d27195a855f6",
       "0x78881871ed76b6ebd83c6372599818f82f472806",
       "0x7d3edc82093e32c8451b25c462659c471ae22f27",
       "0x84ef485c1d8f3ca1880d0a7ab045d924cf5ac88e",
@@ -7308,8 +7310,8 @@
       "0xbf4bbfa067457622b537e954b2b334a1424ae765"
     ],
     "first_seen": "2026-11-02T15:52:40Z",
-    "last_seen": "2026-11-23T10:19:32Z",
-    "times_seen": 14,
+    "last_seen": "2026-11-26T14:43:09Z",
+    "times_seen": 15,
     "current": true,
     "discovered_at": "2026-11-02T15:59:00Z",
     "new": false,
@@ -8373,7 +8375,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-23T10:26:47Z",
-    "new": true,
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -9833,7 +9835,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-23T10:26:47Z",
-    "new": true,
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -9915,6 +9917,26 @@
     "discovered_at": "2026-11-22T16:41:09Z",
     "new": false,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x3e2376ba17950edc85963e113fc369a10a1543da",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-de2f7044",
+    "chain": "polygon",
+    "contracts": [
+      "0x3e2376ba17950edc85963e113fc369a10a1543da"
+    ],
+    "first_seen": "2026-11-26T14:42:48Z",
+    "last_seen": "2026-11-26T14:42:48Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-26T15:01:53Z",
+    "new": true,
+    "confidence": 90,
     "dual_use": false,
     "enrichment": {}
   },
@@ -10653,7 +10675,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-23T10:26:47Z",
-    "new": true,
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -11233,7 +11255,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-23T10:26:47Z",
-    "new": true,
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -11513,7 +11535,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-23T10:26:47Z",
-    "new": true,
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -11613,7 +11635,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-23T10:26:47Z",
-    "new": true,
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -11735,6 +11757,26 @@
     "discovered_at": "2026-11-05T19:40:33Z",
     "new": false,
     "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0x67c36023d7d10c3d97b22f9cc670d27195a855f6",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de2f7044",
+    "chain": "polygon",
+    "contracts": [
+      "0x67c36023d7d10c3d97b22f9cc670d27195a855f6"
+    ],
+    "first_seen": "2026-11-26T14:43:09Z",
+    "last_seen": "2026-11-26T14:43:09Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-26T15:01:53Z",
+    "new": true,
+    "confidence": 90,
     "dual_use": false,
     "enrichment": {}
   },
@@ -12191,7 +12233,7 @@
     "first_seen": "2026-10-27T14:08:23Z",
     "last_seen": "2026-10-27T14:08:23Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-10-27T14:09:43Z",
     "new": false,
     "confidence": 55,
@@ -12393,7 +12435,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-23T10:26:47Z",
-    "new": true,
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -12571,7 +12613,7 @@
     "first_seen": "2026-10-27T14:06:52Z",
     "last_seen": "2026-10-27T14:06:52Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-10-27T14:09:43Z",
     "new": false,
     "confidence": 55,
@@ -12613,7 +12655,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-23T10:26:47Z",
-    "new": true,
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -13153,7 +13195,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-23T10:26:47Z",
-    "new": true,
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -13213,7 +13255,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-23T10:26:47Z",
-    "new": true,
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -13273,7 +13315,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-23T10:26:47Z",
-    "new": true,
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -14531,7 +14573,7 @@
     "first_seen": "2026-10-27T14:08:36Z",
     "last_seen": "2026-10-27T14:08:36Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-10-27T14:09:43Z",
     "new": false,
     "confidence": 55,
@@ -14633,7 +14675,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-23T10:26:47Z",
-    "new": true,
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -14933,7 +14975,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-23T10:26:47Z",
-    "new": true,
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -15073,7 +15115,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-23T10:26:47Z",
-    "new": true,
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -15733,7 +15775,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-23T10:26:47Z",
-    "new": true,
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -16173,7 +16215,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-23T10:26:47Z",
-    "new": true,
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -16653,7 +16695,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-23T10:26:47Z",
-    "new": true,
+    "new": false,
     "confidence": 90,
     "dual_use": false,
     "enrichment": {}
@@ -19455,6 +19497,7 @@
       "0x3862c214e0ff469d85f8709a1e2f84a37b566929",
       "0x38b086275026c89fdd0e258a9a191819270d9403",
       "0x391a8291b5a70a701f5fc0a471d8661fe275c15d",
+      "0x3e2376ba17950edc85963e113fc369a10a1543da",
       "0x40fe77527001726ccced6844e17987e96f6769b2",
       "0x4413f193672885d33c4e158f07cdf9f65a05b80d",
       "0x4ea350da8a9212302e7c665fc6e850099ce18834",
@@ -19464,6 +19507,7 @@
       "0x5e40a188afbf10ec61727b1b273d0847f7c0e4c2",
       "0x6405f41d02ec9b13bb63570fff11a906961e2bfc",
       "0x64f5e6724cde35b7514f81c3ac120588ecafd99c",
+      "0x67c36023d7d10c3d97b22f9cc670d27195a855f6",
       "0x68af81b38fbd71f100034d1e9ca480aff7c9c904",
       "0x6e444ebf8077a3bbe9bbed1bfd626e599b5aae0b",
       "0x78881871ed76b6ebd83c6372599818f82f472806",
@@ -19488,8 +19532,8 @@
       "0xf5440f3eb050b02091e7928d6062af267a009629"
     ],
     "first_seen": "2026-10-26T08:17:44Z",
-    "last_seen": "2026-11-23T10:19:32Z",
-    "times_seen": 45,
+    "last_seen": "2026-11-26T14:43:09Z",
+    "times_seen": 47,
     "current": true,
     "discovered_at": "2026-10-26T08:19:04Z",
     "new": false,
@@ -29054,6 +29098,26 @@
   },
   {
     "type": "url",
+    "value": "https://yeezytiger.com/ds|4507ea00f7694f55",
+    "port": null,
+    "family": "c2-url",
+    "cluster_id": "c-de2f7044",
+    "chain": "polygon",
+    "contracts": [
+      "0x67c36023d7d10c3d97b22f9cc670d27195a855f6"
+    ],
+    "first_seen": "2026-11-26T14:43:09Z",
+    "last_seen": "2026-11-26T14:43:09Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-26T15:01:53Z",
+    "new": true,
+    "confidence": 85,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "url",
     "value": "https://yeezytiger.com/ff|8c3b8afbb494cfe0",
     "port": null,
     "family": "c2-url",
@@ -29131,7 +29195,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-23T10:26:47Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -29151,7 +29215,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-23T10:26:47Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -29171,7 +29235,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-23T10:26:47Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
@@ -29191,7 +29255,7 @@
     "times_seen": 1,
     "current": true,
     "discovered_at": "2026-11-23T10:26:47Z",
-    "new": true,
+    "new": false,
     "confidence": 85,
     "dual_use": false,
     "enrichment": {}
