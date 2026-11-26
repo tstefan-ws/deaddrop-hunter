@@ -8103,6 +8103,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0x10b1a6e8b67bb1709214804c89884c52e0660a21",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-28ecab20",
+    "chain": "bsc",
+    "contracts": [
+      "0x10b1a6e8b67bb1709214804c89884c52e0660a21"
+    ],
+    "first_seen": "2026-11-26T18:41:42Z",
+    "last_seen": "2026-11-26T18:41:42Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-26T18:40:49Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0x115216044ba7f9e2befb6b4e42ffe18232dc64d1",
     "port": null,
     "family": "unknown",
@@ -15243,6 +15263,26 @@
   },
   {
     "type": "evm-contract",
+    "value": "0xc51a86cd56af8a6a6430d00d7786504e5974eaa8",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-28ecab20",
+    "chain": "bsc",
+    "contracts": [
+      "0xc51a86cd56af8a6a6430d00d7786504e5974eaa8"
+    ],
+    "first_seen": "2026-11-26T18:39:55Z",
+    "last_seen": "2026-11-26T18:39:55Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-26T18:40:49Z",
+    "new": true,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
     "value": "0xc61057553ab6c893bee0328b179cbfda015a7af0",
     "port": null,
     "family": "unknown",
@@ -15477,6 +15517,26 @@
     "current": false,
     "discovered_at": "2026-10-27T00:55:46Z",
     "new": false,
+    "confidence": 55,
+    "dual_use": false,
+    "enrichment": {}
+  },
+  {
+    "type": "evm-contract",
+    "value": "0xca7d3b339daf23c56e7fc7698060dc93aedcd04b",
+    "port": null,
+    "family": "unknown",
+    "cluster_id": "c-28ecab20",
+    "chain": "bsc",
+    "contracts": [
+      "0xca7d3b339daf23c56e7fc7698060dc93aedcd04b"
+    ],
+    "first_seen": "2026-11-26T18:36:03Z",
+    "last_seen": "2026-11-26T18:36:03Z",
+    "times_seen": 1,
+    "current": true,
+    "discovered_at": "2026-11-26T18:40:49Z",
+    "new": true,
     "confidence": 55,
     "dual_use": false,
     "enrichment": {}
@@ -17715,15 +17775,18 @@
     "chain": "bsc",
     "contracts": [
       "0x00c17128537e43d9041aca933da546da75205259",
+      "0x10b1a6e8b67bb1709214804c89884c52e0660a21",
       "0x33ca9bae079fecf32a69b0c34ffadcfc3d2845f3",
       "0x44e95472b16bb6b77c99974b5baa1ce313fbbad0",
       "0x86616dcc885555bdbcb12fa6c70806df61ac3bcc",
       "0xab2b2eda2924eccacaac1b2be7dfc6df285e1d2f",
-      "0xc75214734d52043aa93cab54acd4d272c427d8d5"
+      "0xc51a86cd56af8a6a6430d00d7786504e5974eaa8",
+      "0xc75214734d52043aa93cab54acd4d272c427d8d5",
+      "0xca7d3b339daf23c56e7fc7698060dc93aedcd04b"
     ],
     "first_seen": "2026-11-25T22:46:53Z",
-    "last_seen": "2026-11-26T08:45:53Z",
-    "times_seen": 6,
+    "last_seen": "2026-11-26T18:41:42Z",
+    "times_seen": 9,
     "current": true,
     "discovered_at": "2026-11-25T22:51:51Z",
     "new": true,
