@@ -454,6 +454,7 @@
       "0x10b1a6e8b67bb1709214804c89884c52e0660a21",
       "0x30a1918a0dd035b7dd00755abd087191611591af",
       "0x33ca9bae079fecf32a69b0c34ffadcfc3d2845f3",
+      "0x395676904b10a5da6123420c15d02f57647f04e2",
       "0x44e95472b16bb6b77c99974b5baa1ce313fbbad0",
       "0x86616dcc885555bdbcb12fa6c70806df61ac3bcc",
       "0xab2b2eda2924eccacaac1b2be7dfc6df285e1d2f",
@@ -466,9 +467,9 @@
     "wallets": [
       "0x28ecab20e57ca2a73b378d81d7dd2401a828d49c"
     ],
-    "ioc_count": 13,
+    "ioc_count": 14,
     "first_seen": "2026-11-25T22:46:53Z",
-    "last_seen": "2026-11-27T03:58:25Z",
+    "last_seen": "2026-11-27T22:18:25Z",
     "discovered_at": "2026-11-25T22:51:51Z",
     "new": true
   },
