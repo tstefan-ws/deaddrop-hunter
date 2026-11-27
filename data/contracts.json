@@ -10445,16 +10445,16 @@
       "0xb249cd2d"
     ],
     "decoder": "plain",
-    "update_count": 3,
+    "update_count": 4,
     "first_seen": "2026-10-29T07:35:28Z",
-    "last_seen": "2026-11-09T13:04:06Z",
+    "last_seen": "2026-11-27T09:28:13Z",
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-29T07:42:16Z",
     "new": false,
     "evidence": "decoded",
-    "latest_value_raw": "young-glade-84b7.blowwwx.workers.dev",
-    "latest_value_decoded": "young-glade-84b7.blowwwx.workers.dev",
+    "latest_value_raw": "little-hill-b7c4.dudionerittot.workers.dev",
+    "latest_value_decoded": "little-hill-b7c4.dudionerittot.workers.dev",
     "tags": [
       "config-on-chain"
     ]
@@ -12262,16 +12262,16 @@
       "0xb249cd2d"
     ],
     "decoder": "plain",
-    "update_count": 2,
+    "update_count": 3,
     "first_seen": "2026-10-29T07:35:47Z",
-    "last_seen": "2026-11-09T13:02:15Z",
+    "last_seen": "2026-11-27T09:27:25Z",
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-29T07:42:16Z",
     "new": false,
     "evidence": "decoded",
-    "latest_value_raw": "young-glade-84b7.blowwwx.workers.dev",
-    "latest_value_decoded": "young-glade-84b7.blowwwx.workers.dev",
+    "latest_value_raw": "little-hill-b7c4.dudionerittot.workers.dev",
+    "latest_value_decoded": "little-hill-b7c4.dudionerittot.workers.dev",
     "tags": [
       "config-on-chain"
     ]
