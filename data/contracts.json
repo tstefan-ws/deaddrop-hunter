@@ -10066,7 +10066,7 @@
     "status": "active",
     "code_hash": "20a0696fa16cc1ba",
     "discovered_at": "2026-11-24T09:01:35Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "https://rawret.beer",
     "latest_value_decoded": "https://rawret.beer",
