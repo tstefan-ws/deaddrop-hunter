@@ -852,7 +852,7 @@
     "update_count": 1,
     "first_seen": "2026-10-29T16:18:06Z",
     "last_seen": "2026-10-29T16:18:06Z",
-    "status": "active",
+    "status": "dormant",
     "code_hash": "9f6d96ab8e459c31",
     "discovered_at": "2026-10-29T16:18:42Z",
     "new": false,
