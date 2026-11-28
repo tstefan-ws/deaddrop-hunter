@@ -10632,7 +10632,7 @@
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-11-25T13:06:34Z",
-    "new": true,
+    "new": false,
     "evidence": "decoded",
     "latest_value_raw": "http://5.230.67.218/rec14-cb-cfo0VCr_OBs8wLuU/trace-1795613698",
     "latest_value_decoded": "http://5.230.67.218/rec14-cb-cfo0VCr_OBs8wLuU/trace-1795613698",
