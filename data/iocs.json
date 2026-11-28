@@ -13755,7 +13755,7 @@
     "first_seen": "2026-10-29T10:55:10Z",
     "last_seen": "2026-10-29T10:55:10Z",
     "times_seen": 1,
-    "current": true,
+    "current": false,
     "discovered_at": "2026-10-29T10:56:55Z",
     "new": false,
     "confidence": 55,

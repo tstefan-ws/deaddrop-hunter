@@ -5093,7 +5093,7 @@
     "update_count": 1,
     "first_seen": "2026-10-29T10:55:10Z",
     "last_seen": "2026-10-29T10:55:10Z",
-    "status": "active",
+    "status": "dormant",
     "code_hash": "8b3029ea65d4c23d",
     "discovered_at": "2026-10-29T10:56:55Z",
     "new": false,
