@@ -2127,9 +2127,9 @@
     "wallets": [
       "0xcaf2c54e400437da717cf215181b170f65187abf"
     ],
-    "ioc_count": 27,
+    "ioc_count": 29,
     "first_seen": "2026-10-21T00:31:06Z",
-    "last_seen": "2026-11-25T05:21:34Z",
+    "last_seen": "2026-11-28T02:39:16Z",
     "discovered_at": "2026-10-21T00:33:37Z",
     "new": false
   },
@@ -2152,6 +2152,25 @@
     "last_seen": "2026-10-20T16:29:41Z",
     "discovered_at": "2026-10-20T15:39:37Z",
     "new": false
+  },
+  {
+    "id": "c-ce17b1ef",
+    "name": "Unclassified dead-drop cluster (c-ce17b1ef)",
+    "family": "unknown",
+    "chains": [
+      "polygon"
+    ],
+    "contracts": [
+      "0xc027490af56a9d7050fc259ecd03da1580b84aae"
+    ],
+    "wallets": [
+      "0xce17b1ef00d47105bc127bbe6fc45de47bc22fb8"
+    ],
+    "ioc_count": 2,
+    "first_seen": "2026-11-28T02:35:22Z",
+    "last_seen": "2026-11-28T02:35:22Z",
+    "discovered_at": "2026-11-28T02:42:39Z",
+    "new": true
   },
   {
     "id": "c-cf01e6ef",

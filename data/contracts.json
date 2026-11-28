@@ -8846,16 +8846,16 @@
       "0xb68d1809"
     ],
     "decoder": "plain",
-    "update_count": 2,
+    "update_count": 3,
     "first_seen": "2026-10-29T04:44:14Z",
-    "last_seen": "2026-10-30T09:14:36Z",
+    "last_seen": "2026-11-28T02:38:50Z",
     "status": "active",
     "code_hash": "20a0696fa16cc1ba",
     "discovered_at": "2026-10-29T04:49:51Z",
     "new": false,
     "evidence": "decoded",
-    "latest_value_raw": "https://34234342342rerr.beer",
-    "latest_value_decoded": "https://34234342342rerr.beer",
+    "latest_value_raw": "https://rtc.codes-veri.beer",
+    "latest_value_decoded": "https://rtc.codes-veri.beer",
     "tags": [
       "c2",
       "url-rotation",
@@ -9177,16 +9177,16 @@
       "0xb249cd2d"
     ],
     "decoder": "plain",
-    "update_count": 6,
+    "update_count": 7,
     "first_seen": "2026-10-29T05:29:37Z",
-    "last_seen": "2026-11-25T05:21:17Z",
+    "last_seen": "2026-11-28T02:38:23Z",
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-29T05:29:55Z",
     "new": false,
     "evidence": "decoded",
-    "latest_value_raw": "https://rcs.browse-login.info",
-    "latest_value_decoded": "https://rcs.browse-login.info",
+    "latest_value_raw": "https://rtc.codes-veri.beer",
+    "latest_value_decoded": "https://rtc.codes-veri.beer",
     "tags": [
       "c2",
       "url-rotation",
@@ -10125,16 +10125,16 @@
       "0xb249cd2d"
     ],
     "decoder": "plain",
-    "update_count": 4,
+    "update_count": 5,
     "first_seen": "2026-10-29T05:58:34Z",
-    "last_seen": "2026-11-12T04:53:55Z",
+    "last_seen": "2026-11-28T02:38:32Z",
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-29T06:02:17Z",
     "new": false,
     "evidence": "decoded",
-    "latest_value_raw": "https://coffe-time-img.beer",
-    "latest_value_decoded": "https://coffe-time-img.beer",
+    "latest_value_raw": "https://rtc.codes-veri.beer",
+    "latest_value_decoded": "https://rtc.codes-veri.beer",
     "tags": [
       "c2",
       "url-rotation",
@@ -13084,16 +13084,16 @@
       "0xb249cd2d"
     ],
     "decoder": "plain",
-    "update_count": 11,
+    "update_count": 12,
     "first_seen": "2026-10-21T00:31:06Z",
-    "last_seen": "2026-11-25T05:20:55Z",
+    "last_seen": "2026-11-28T02:39:16Z",
     "status": "active",
     "code_hash": null,
     "discovered_at": "2026-10-21T00:33:37Z",
     "new": false,
     "evidence": "decoded",
-    "latest_value_raw": "https://browse-login.info",
-    "latest_value_decoded": "https://browse-login.info",
+    "latest_value_raw": "https://codes-veri.beer",
+    "latest_value_decoded": "https://codes-veri.beer",
     "tags": [
       "c2",
       "url-rotation",
@@ -13330,6 +13330,35 @@
     "new": false,
     "evidence": "candidate",
     "latest_value_raw": "0x030302020301",
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0xc027490af56a9d7050fc259ecd03da1580b84aae",
+    "cluster_id": "c-ce17b1ef",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xce17b1ef00d47105bc127bbe6fc45de47bc22fb8"
+    ],
+    "selectors": [
+      "0x613ce410"
+    ],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-11-28T02:35:22Z",
+    "last_seen": "2026-11-28T02:35:22Z",
+    "status": "active",
+    "code_hash": "82983514d298af48",
+    "discovered_at": "2026-11-28T02:42:39Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": "0xe8a52e2c62c71667849575586a8e42867f",
     "latest_value_decoded": null,
     "tags": [
       "config-on-chain"
