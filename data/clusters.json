@@ -2162,6 +2162,7 @@
     "name": "Unclassified dead-drop cluster (c-ce17b1ef)",
     "family": "unknown",
     "chains": [
+      "bsc",
       "polygon"
     ],
     "contracts": [
@@ -2172,7 +2173,7 @@
     ],
     "ioc_count": 2,
     "first_seen": "2026-11-28T02:35:22Z",
-    "last_seen": "2026-11-28T02:35:22Z",
+    "last_seen": "2026-11-28T11:45:43Z",
     "discovered_at": "2026-11-28T02:42:39Z",
     "new": true
   },

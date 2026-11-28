@@ -15308,13 +15308,13 @@
     "port": null,
     "family": "unknown",
     "cluster_id": "c-ce17b1ef",
-    "chain": "polygon",
+    "chain": "bsc",
     "contracts": [
       "0xc027490af56a9d7050fc259ecd03da1580b84aae"
     ],
     "first_seen": "2026-11-28T02:35:22Z",
-    "last_seen": "2026-11-28T02:35:22Z",
-    "times_seen": 1,
+    "last_seen": "2026-11-28T11:45:43Z",
+    "times_seen": 2,
     "current": true,
     "discovered_at": "2026-11-28T02:42:39Z",
     "new": true,
@@ -19814,13 +19814,13 @@
     "port": null,
     "family": "unknown",
     "cluster_id": "c-ce17b1ef",
-    "chain": "polygon",
+    "chain": "bsc",
     "contracts": [
       "0xc027490af56a9d7050fc259ecd03da1580b84aae"
     ],
     "first_seen": "2026-11-28T02:35:22Z",
-    "last_seen": "2026-11-28T02:35:22Z",
-    "times_seen": 1,
+    "last_seen": "2026-11-28T11:45:43Z",
+    "times_seen": 2,
     "current": true,
     "discovered_at": "2026-11-28T02:42:39Z",
     "new": true,
