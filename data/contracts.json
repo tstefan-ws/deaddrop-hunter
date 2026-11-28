@@ -2203,7 +2203,7 @@
     "update_count": 1,
     "first_seen": "2026-10-29T00:00:58Z",
     "last_seen": "2026-10-29T00:00:58Z",
-    "status": "active",
+    "status": "dormant",
     "code_hash": "e8c0b064d7b328d3",
     "discovered_at": "2026-10-29T00:05:42Z",
     "new": false,
@@ -8199,6 +8199,33 @@
   },
   {
     "chain": "bsc",
+    "address": "0xf662664ca94e914b81c7abec8eec0ddae80f4941",
+    "cluster_id": "c-a07f7cab",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0xa07f7cab3d79c52fb317b3f1d4918e2e9720c053"
+    ],
+    "selectors": [],
+    "decoder": "undecoded",
+    "update_count": 1,
+    "first_seen": "2026-11-28T00:00:58Z",
+    "last_seen": "2026-11-28T00:00:58Z",
+    "status": "active",
+    "code_hash": "e8c0b064d7b328d3",
+    "discovered_at": "2026-11-28T00:04:54Z",
+    "new": true,
+    "evidence": "candidate",
+    "latest_value_raw": null,
+    "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "bsc",
     "address": "0xf7a9f1931315661c638cf4d5eed690efb2a5b3ce",
     "cluster_id": "c-fca8502e",
     "family": "unknown",
@@ -13712,6 +13739,35 @@
     "evidence": "candidate",
     "latest_value_raw": "0x1d412c15394c6d6a1d0816420f455c2c10477606251b6d26031140084f06007f1100695529447374535d",
     "latest_value_decoded": null,
+    "tags": [
+      "config-on-chain"
+    ]
+  },
+  {
+    "chain": "polygon",
+    "address": "0xdbcd5b31ab1fa4b0bacd8ccfb0f0fb1a0f23b251",
+    "cluster_id": "c-62b1b209",
+    "family": "unknown",
+    "hunt_ids": [
+      "block-watch"
+    ],
+    "operator_wallets": [
+      "0x62b1b209e9b0a08f00d29bfe4a9eec40fc674516"
+    ],
+    "selectors": [
+      "0x93a09352"
+    ],
+    "decoder": "plain",
+    "update_count": 1,
+    "first_seen": "2026-11-27T23:58:20Z",
+    "last_seen": "2026-11-27T23:58:20Z",
+    "status": "active",
+    "code_hash": null,
+    "discovered_at": "2026-11-28T00:04:54Z",
+    "new": true,
+    "evidence": "decoded",
+    "latest_value_raw": "45.15.184.110",
+    "latest_value_decoded": "45.15.184.110",
     "tags": [
       "config-on-chain"
     ]

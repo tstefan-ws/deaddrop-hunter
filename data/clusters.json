@@ -1140,6 +1140,25 @@
     "new": false
   },
   {
+    "id": "c-62b1b209",
+    "name": "Unclassified dead-drop cluster (c-62b1b209)",
+    "family": "unknown",
+    "chains": [
+      "polygon"
+    ],
+    "contracts": [
+      "0xdbcd5b31ab1fa4b0bacd8ccfb0f0fb1a0f23b251"
+    ],
+    "wallets": [
+      "0x62b1b209e9b0a08f00d29bfe4a9eec40fc674516"
+    ],
+    "ioc_count": 3,
+    "first_seen": "2026-11-27T23:58:20Z",
+    "last_seen": "2026-11-27T23:58:20Z",
+    "discovered_at": "2026-11-28T00:04:54Z",
+    "new": true
+  },
+  {
     "id": "c-65b990f9",
     "name": "Unclassified dead-drop cluster (c-65b990f9)",
     "family": "unknown",
@@ -1766,15 +1785,16 @@
       "0xdfc2754b45e07c43f187914c5b4cbb7fd07c4399",
       "0xe819ed76e0a2a5e2717ca2a5179b2f08898fec5f",
       "0xf133db76c55e927565cdc220f2598bf4dc788838",
+      "0xf662664ca94e914b81c7abec8eec0ddae80f4941",
       "0xfa008d29a11c24d6f1ac3d98442618df6310dc42",
       "0xfd95090c60abfae5f0d76f16e0ca284585c79dde"
     ],
     "wallets": [
       "0xa07f7cab3d79c52fb317b3f1d4918e2e9720c053"
     ],
-    "ioc_count": 34,
+    "ioc_count": 35,
     "first_seen": "2026-10-20T00:08:39Z",
-    "last_seen": "2026-11-27T00:00:58Z",
+    "last_seen": "2026-11-28T00:00:58Z",
     "discovered_at": "2026-10-20T00:13:20Z",
     "new": false
   },
