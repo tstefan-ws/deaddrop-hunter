@@ -3132,7 +3132,7 @@
     "update_count": 1,
     "first_seen": "2026-10-29T19:08:12Z",
     "last_seen": "2026-10-29T19:08:12Z",
-    "status": "active",
+    "status": "dormant",
     "code_hash": "444122cdc9adbd65",
     "discovered_at": "2026-10-29T19:09:38Z",
     "new": false,
